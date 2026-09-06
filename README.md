@@ -53,17 +53,21 @@ https://raw.githubusercontent.com/ireentv/IreenTv-Auto-Update-Playlist/refs/head
 
 graph LR
     A[Public GitHub Sources] -->|Monitor Every 2 Min| B(Watcher Python Engine)
+    
     B -->|MD5 Hash Check| C{Change Detected?}
+    
     C -->|Yes| D[Trigger GitHub Action]
+    
     C -->|No| E[Sleep & Loop]
+    
     D -->|Build & Update| F[Fresh Live Playlist]
 
 
 
-```
 
 
-```
+
+
 
 ⚖️ কপিরাইট ও আইনি অস্বীকৃতি (Disclaimer)
 
