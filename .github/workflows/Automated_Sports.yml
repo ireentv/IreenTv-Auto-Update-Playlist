@@ -410,15 +410,23 @@ jobs:
                   return slug.replace("_", " ").title(), slug.lower(), url
 
           # ================= M3U BUILDER =================
-          def generate_m3u(playlist_name, items):
+          def generate_m3u(playlist_name, items, total_count, live_count, current_time):
               lines = ["#EXTM3U\n"]
+              lines.append(f"# Playlist Name  : {playlist_name}\n")
+              lines.append("# Developer      : MD ANAMUL HOQUE\n")
+              lines.append("# Telegram       : https://t.me/ireentv\n")
+              lines.append("# Website        : https://anamul.pages.dev\n")
+              lines.append(f"# Channels Amount: {total_count}\n")
+              lines.append(f"# Live Count     : {live_count}\n")
+              lines.append(f"# Last Update    : {current_time}\n\n")
+
               for it in items:
                   title = it.get("title") or it.get("VideoName") or it.get("name") or "Live Event"
                   logo = it.get("cover_image") or it.get("ThumbnailTV") or it.get("ThumbnailStandard") or ""
                   streams = it.get("stream_url")
                   match_url = it.get("match_url", "")
 
-                  # যদি streams ডিকশনারি হয় (যেমন Bingstream, SonyLIV)
+                  # ডিকশনারি স্ট্রিম
                   if isinstance(streams, dict) and streams:
                       for s_name, s_url in streams.items():
                           if not s_url or not str(s_url).startswith("http"):
@@ -426,11 +434,11 @@ jobs:
                           stream_title = f"{title} ({s_name})" if len(streams) > 1 else title
                           lines.append(f'#EXTINF:-1 tvg-name="{stream_title}" tvg-logo="{logo}" group-title="{playlist_name}",{stream_title}\n{s_url}\n')
                   
-                  # যদি stream_url সরাসরি স্ট্রিং লিঙ্ক হয় (যেমন Tapmad)
+                  # সরাসরি স্ট্রিং লিঙ্ক স্ট্রিম
                   elif isinstance(streams, str) and streams.startswith("http"):
                       lines.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{playlist_name}",{title}\n{streams}\n')
                   
-                  # ব্যাকআপ হিসেবে match_url চেক করা
+                  # ব্যাকআপ লিঙ্ক
                   elif match_url and str(match_url).startswith("http"):
                       lines.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{playlist_name}",{title}\n{match_url}\n')
 
@@ -465,13 +473,12 @@ jobs:
                   src_total = len(current_source_items)
                   src_live = sum(1 for it in current_source_items if is_live_event(it))
 
-                  # ১. শুধুমাত্র এই সোর্সের জন্য আলাদা JSON ফাইল তৈরি
+                  # ১. আপনার দেওয়া নির্দিষ্ট ফরম্যাটে JSON ফাইল তৈরি
                   source_json = {
                       "playlist_name": name,
-                      "owner": "MD ANAMUL HOQUE",
+                      "developer": "MD ANAMUL HOQUE",
                       "telegram": "https://t.me/ireentv",
                       "website": "https://anamul.pages.dev",
-                      "developer": "IreenTechnology",
                       "channels_amount": src_total,
                       "live_count": src_live,
                       "last_update": current_time,
@@ -480,8 +487,8 @@ jobs:
                   with open(f"{slug}.json", "w", encoding="utf-8") as f:
                       json.dump(source_json, f, indent=2, ensure_ascii=False)
 
-                  # ২. শুধুমাত্র এই সোর্সের জন্য আলাদা M3U ফাইল তৈরি
-                  m3u_data = generate_m3u(name, current_source_items)
+                  # ২. শুধু শুরুতে ডিটেইলস সহ M3U ফাইল তৈরি (কোনো এক্সট্রা ফেক চ্যানেল ছাড়া)
+                  m3u_data = generate_m3u(name, current_source_items, src_total, src_live, current_time)
                   with open(f"{slug}.m3u", "w", encoding="utf-8") as f:
                       f.write(m3u_data)
 
@@ -506,7 +513,7 @@ jobs:
           export TZ="Asia/Kolkata"
           git add *.json *.m3u *.txt
           if ! git diff --cached --quiet; then
-            git commit -m "All Playlists Synced Separately ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "Playlists Synced with Clean Header ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
