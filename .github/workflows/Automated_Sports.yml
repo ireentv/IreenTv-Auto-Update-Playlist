@@ -1,0 +1,447 @@
+name: Automated Sports Data JSON & All TXT Updater
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # ব্যাকআপ হিসেবে প্রতি ১৫ মিনিট পর পর চলবে
+  workflow_dispatch:
+  repository_dispatch:
+    types: [update-playlist] # 👈 রেন্ডার ওয়াচার বটের সংকেত রিসিভ করবে
+
+jobs:
+  update-file:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git User
+        run: |
+          git config --global user.name "ireentv"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install requests pytz urllib3
+
+      - name: Fetch, Filter and Generate Separate JSON & M3U for Each Playlist
+        env:
+          JSON_PLAYLIST_URLS: ${{ secrets.JSON_PLAYLIST_URLS }}
+        run: |
+          git pull origin main --rebase
+
+          cat << 'EOF' > update_playlist.py
+          import os
+          import re
+          import json
+          import requests
+          import urllib3
+          from datetime import datetime
+          import pytz
+
+          urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+          tz = pytz.timezone("Asia/Kolkata")
+          current_time = datetime.now(tz).strftime("%I:%M %p %d-%m-%Y")
+
+          raw_urls = os.environ.get("JSON_PLAYLIST_URLS", "")
+          lines = [u.strip() for u in raw_urls.splitlines() if u.strip() and not u.strip().startswith("#")]
+
+          def fetch_data(url):
+              headers = {
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+                  "Accept": "application/json, text/plain, */*"
+              }
+              res = requests.get(url, headers=headers, timeout=30, verify=False)
+              res.raise_for_status()
+              clean_text = res.content.decode('utf-8-sig', errors='ignore').strip()
+              return json.loads(clean_text)
+
+          # ================= SONY LIV =================
+          def is_sonyliv_item(item):
+              if not isinstance(item, dict):
+                  return False
+              if "multiple_audio_links" in item:
+                  return True
+              if "video_info" in item and ("stream_info" in item or "image_cdn" in item or "air_dates" in item):
+                  return True
+              if "contentId" in item and ("video_info" in item or "air_dates" in item or "stream_info" in item):
+                  return True
+              return False
+
+          def extract_sonyliv_streams(item):
+              servers = {}
+              stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
+              
+              dai = (
+                  stream_info.get("dai_asset_key") or 
+                  stream_info.get("dai_url") or 
+                  item.get("dai_asset_key") or 
+                  item.get("dai_url")
+              )
+              
+              if dai and str(dai).startswith("http"):
+                  servers["Original Server"] = str(dai).strip()
+                  
+              return servers
+
+          def transform_sonyliv_item(item):
+              v_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
+              img_cdn = item.get("image_cdn", {}) if isinstance(item.get("image_cdn"), dict) else {}
+              air_dates = item.get("air_dates", {}) if isinstance(item.get("air_dates"), dict) else {}
+
+              title = v_info.get("episodeTitle") or v_info.get("title") or item.get("title") or "Sports Match"
+              synopsis = v_info.get("longDescription") or v_info.get("shortDescription") or item.get("synopsis") or title
+
+              cover_image = (
+                  img_cdn.get("landscape_thumb") or 
+                  img_cdn.get("thumbnail") or 
+                  img_cdn.get("portrait_thumb") or 
+                  item.get("cover_image") or ""
+              )
+
+              stream_urls = extract_sonyliv_streams(item)
+              dai_url = stream_urls.get("Original Server")
+              
+              if dai_url:
+                  match_url = dai_url
+                  status = "LIVE"
+              else:
+                  content_id = item.get('contentId') or item.get('match_id', '')
+                  match_url = f"https://www.sonyliv.com/custom-live/{content_id}" if content_id else ""
+                  status = "LIVE" if is_live_event(item) else "UPCOMING"
+
+              time_val = (
+                  air_dates.get("originalAirDate") or 
+                  air_dates.get("start_date") or 
+                  item.get("time") or 
+                  item.get("start_time") or ""
+              )
+
+              return {
+                  "match_id": str(item.get("contentId") or item.get("match_id", "")),
+                  "title": title,
+                  "synopsis": synopsis,
+                  "status": status,
+                  "time": time_val,
+                  "cover_image": cover_image,
+                  "match_url": match_url,
+                  "is_free": False,
+                  "stream_url": stream_urls
+              }
+
+          # ================= BINGSTREAM =================
+          def is_bingstream_item(item):
+              if not isinstance(item, dict):
+                  return False
+              if "link_live" in item:
+                  return True
+              if any(k in item for k in ["videoURL", "video_url", "video URL", "videoUrl", "cdn_domain", "localteam_name"]):
+                  return True
+              source_val = str(item.get("source", "") or item.get("provider", "") or item.get("type", "")).lower()
+              return "bing" in source_val
+
+          def extract_bingstream_streams(item):
+              servers = {}
+              found_urls = []
+
+              referer_val = (
+                  item.get("referer") or 
+                  item.get("referrer") or 
+                  item.get("referer_url") or 
+                  item.get("referrer_url") or 
+                  "https://iframe.rumsport8.live/"
+              )
+              if referer_val and not referer_val.endswith("/"):
+                  referer_val += "/"
+
+              user_agent_val = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              suffix = f"|http-user-agent={user_agent_val}&http-referrer={referer_val}"
+
+              if "link_live" in item and isinstance(item["link_live"], list):
+                  for obj in item["link_live"]:
+                      if isinstance(obj, dict):
+                          v_url = obj.get("videoURL") or obj.get("video_url") or obj.get("videoUrl") or obj.get("video URL")
+                          if v_url and str(v_url).startswith("http"):
+                              found_urls.append(str(v_url).strip())
+                      elif isinstance(obj, str) and obj.startswith("http"):
+                          found_urls.append(obj.strip())
+
+              if not found_urls:
+                  video_keys = ["videoURL", "video_url", "video URL", "videoUrl", "video_urls", "videoURLs"]
+                  for key in video_keys:
+                      if key in item and item[key]:
+                          val = item[key]
+                          if isinstance(val, str):
+                              for p in re.split(r'[\r\n,]+', val.strip()):
+                                  p_clean = p.strip()
+                                  if p_clean.startswith("http"):
+                                      found_urls.append(p_clean)
+                          elif isinstance(val, list):
+                              for elem in val:
+                                  if isinstance(elem, str) and elem.strip().startswith("http"):
+                                      found_urls.append(elem.strip())
+                                  elif isinstance(elem, dict):
+                                      u = elem.get("videoURL") or elem.get("video_url") or elem.get("videoUrl")
+                                      if u and str(u).startswith("http"):
+                                          found_urls.append(str(u).strip())
+
+              seen_urls = []
+              for u in found_urls:
+                  if u not in seen_urls:
+                      seen_urls.append(u)
+
+              for idx, u in enumerate(seen_urls, 1):
+                  clean_u = u.split("|http-")[0] if "|http-" in u else u
+                  servers[f"Server {idx}"] = f"{clean_u}{suffix}"
+
+              return servers
+
+          def transform_bingstream_item(item):
+              title = item.get("name") or item.get("title") or item.get("event_name") or item.get("match_name") or "Sports Match"
+              league = item.get("league_name", "")
+              synopsis = item.get("synopsis") or item.get("description") or (f"{league} - {title}" if league else title)
+              
+              cover_image = (
+                  item.get("cover_image") or 
+                  item.get("thumbnail") or 
+                  item.get("league_logo") or 
+                  item.get("localteam_logo") or 
+                  item.get("visitorteam_logo") or 
+                  item.get("image") or ""
+              )
+
+              stream_urls = extract_bingstream_streams(item)
+              first_url = next(iter(stream_urls.values())) if stream_urls else ""
+              match_url = item.get("match_url") or first_url or ""
+              
+              is_live = False
+              if item.get("is_playing") is True:
+                  is_live = True
+              elif stream_urls and not item.get("has_ended", False):
+                  is_live = True
+              elif is_live_event(item):
+                  is_live = True
+
+              status = "LIVE" if is_live else (item.get("status") or "UPCOMING")
+              match_id = str(item.get("id") or item.get("match_id") or item.get("contentId") or item.get("eventId") or "")
+              time_val = item.get("bd_time") or item.get("time") or item.get("start_time") or item.get("date") or ""
+
+              return {
+                  "match_id": match_id,
+                  "title": title,
+                  "synopsis": synopsis,
+                  "status": status,
+                  "time": time_val,
+                  "cover_image": cover_image,
+                  "match_url": match_url,
+                  "is_free": False,
+                  "stream_url": stream_urls
+              }
+
+          # ================= COMMON UTILS =================
+          def is_live_event(item):
+              if not isinstance(item, dict):
+                  return False
+              
+              if item.get("is_playing") is True:
+                  return True
+              if item.get("has_ended") is True:
+                  return False
+
+              stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
+              dai = stream_info.get("dai_asset_key") or stream_info.get("dai_url") or item.get("dai_asset_key") or item.get("dai_url")
+              if dai and str(dai).startswith("http"):
+                  return True
+              
+              stream_obj = item.get("stream_url", {})
+              if isinstance(stream_obj, dict):
+                  if any(str(v).startswith("http") for v in stream_obj.values() if v):
+                      return True
+
+              for k in ["is_live", "live", "isLive", "islive", "is_stream_live"]:
+                  if k in item:
+                      val = item[k]
+                      if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
+                          return True
+              
+              v_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
+              for k in ["is_live", "live", "isLive", "islive", "broadcast_state"]:
+                  if k in v_info:
+                      val = v_info[k]
+                      if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
+                          return True
+
+              for k in ["status", "event_status", "match_status", "badge", "state"]:
+                  if k in item and isinstance(item[k], str) and "live" in item[k].lower():
+                      return True
+                  if k in v_info and isinstance(v_info[k], str) and "live" in v_info[k].lower():
+                      return True
+              
+              return False
+
+          def extract_items_from_json(data):
+              items = []
+
+              def walk(obj):
+                  if isinstance(obj, list):
+                      for elem in obj:
+                          walk(elem)
+                  elif isinstance(obj, dict):
+                      is_match_item = False
+                      has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id", "fixture_id"])
+                      has_media = any(k in obj for k in ["link_live", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL"])
+                      has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "league_name", "timelive", "is_playing"])
+
+                      if (has_id and (has_media or has_sports)) or has_media:
+                          is_match_item = True
+                      elif any(k in obj for k in ["title", "name"]) and any(k in obj for k in ["match_url", "status", "stream_url", "cover_image", "time", "start_time", "bd_time", "link_live"]):
+                          is_match_item = True
+
+                      if is_match_item:
+                          items.append(obj)
+                      else:
+                          for k, v in obj.items():
+                              if k.lower() in ["owner", "telegram", "credit", "website", "admin", "notice"]:
+                                  continue
+                              walk(v)
+
+              walk(data)
+
+              seen = set()
+              unique_items = []
+              for it in items:
+                  uid = it.get("contentId") or it.get("match_id") or it.get("eventId") or it.get("id") or it.get("title") or it.get("name")
+                  if uid and uid not in seen:
+                      seen.add(uid)
+                      unique_items.append(it)
+                  elif not uid:
+                      unique_items.append(it)
+
+              return unique_items
+
+          def get_playlist_info(url_line):
+              if "|" in url_line:
+                  name, url = url_line.split("|", 1)
+                  name = name.strip()
+                  slug = re.sub(r'[^a-zA-Z0-9_-]', '_', name.lower()).strip('_')
+                  return name, slug, url.strip()
+              
+              url = url_line.strip()
+              url_lower = url.lower()
+              if "willow" in url_lower or "live_sports" in url_lower:
+                  return "Willow", "willow", url
+              elif "prime" in url_lower:
+                  return "PrimeVideo", "primevideo", url
+              elif "sony" in url_lower:
+                  return "Sony LIV", "sonyliv", url
+              elif "bing" in url_lower or "bingstream" in url_lower:
+                  return "Bingstream", "bingstream", url
+              elif "sports_data" in url_lower:
+                  return "Sports Data", "sports_data", url
+              else:
+                  base = os.path.splitext(os.path.basename(url.split("?")[0]))[0]
+                  slug = re.sub(r'[^a-zA-Z0-9_-]', '_', base).strip('_') if base else "playlist"
+                  return slug.replace("_", " ").title(), slug.lower(), url
+
+          # ================= M3U BUILDER =================
+          def generate_m3u(playlist_name, items):
+              lines = ["#EXTM3U\n"]
+              for it in items:
+                  title = it.get("title") or "Live Event"
+                  logo = it.get("cover_image") or ""
+                  streams = it.get("stream_url", {})
+                  match_url = it.get("match_url", "")
+
+                  if isinstance(streams, dict) and streams:
+                      for s_name, s_url in streams.items():
+                          if not s_url or not str(s_url).startswith("http"):
+                              continue
+                          stream_title = f"{title} ({s_name})" if len(streams) > 1 else title
+                          lines.append(f'#EXTINF:-1 tvg-name="{stream_title}" tvg-logo="{logo}" group-title="{playlist_name}",{stream_title}\n{s_url}\n')
+                  elif match_url and str(match_url).startswith("http"):
+                      lines.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{playlist_name}",{title}\n{match_url}\n')
+
+              return "".join(lines)
+
+          # ================= MAIN EXECUTION =================
+          print(f"Total Playlist URLs Found in Secrets: {len(lines)}")
+
+          for idx, line in enumerate(lines, 1):
+              name, slug, url = get_playlist_info(line)
+              current_source_items = []
+              is_bing_source = ("bing" in name.lower() or "bing" in url.lower() or "bingstream" in url.lower())
+              
+              try:
+                  print(f"[{idx}/{len(lines)}] Fetching: {name} from {url[:45]}...")
+                  raw_json = fetch_data(url)
+                  raw_items = extract_items_from_json(raw_json)
+
+                  for it in raw_items:
+                      if not isinstance(it, dict):
+                          continue
+                      if is_sonyliv_item(it):
+                          current_source_items.append(transform_sonyliv_item(it))
+                      elif is_bing_source or is_bingstream_item(it):
+                          current_source_items.append(transform_bingstream_item(it))
+                      else:
+                          current_source_items.append(it)
+
+                  src_total = len(current_source_items)
+                  src_live = sum(1 for it in current_source_items if is_live_event(it))
+
+                  # ১. শুধুমাত্র এই সোর্সের জন্য আলাদা JSON ফাইল তৈরি
+                  source_json = {
+                      "playlist_name": name,
+                      "owner": "MD ANAMUL HOQUE",
+                      "telegram": "https://t.me/ireentv",
+                      "website": "https://anamul.pages.dev",
+                      "developer": "IreenTechnology",
+                      "channels_amount": src_total,
+                      "live_count": src_live,
+                      "last_update": current_time,
+                      "events": current_source_items
+                  }
+                  with open(f"{slug}.json", "w", encoding="utf-8") as f:
+                      json.dump(source_json, f, indent=2, ensure_ascii=False)
+
+                  # ২. শুধুমাত্র এই সোর্সের জন্য আলাদা M3U ফাইল তৈরি
+                  m3u_data = generate_m3u(name, current_source_items)
+                  with open(f"{slug}.m3u", "w", encoding="utf-8") as f:
+                      f.write(m3u_data)
+
+                  # ৩. আলাদা TXT লগ ফাইল তৈরি
+                  log_line = f"🚀 {name} Synced | IST: {current_time} | Channels: {src_total} | Live: {src_live}\n"
+                  with open(f"{slug}.txt", "w", encoding="utf-8") as f:
+                      f.write(log_line)
+
+                  print(f"✅ Success: {name} -> Created: {slug}.json & {slug}.m3u (Total: {src_total}, Live: {src_live})")
+
+              except Exception as e:
+                  print(f"❌ Error fetching {name} ({url}): {e}")
+
+          print(f"🎯 All playlists processed individually!")
+          EOF
+
+          python3 update_playlist.py
+          rm -f update_playlist.py
+
+      - name: Commit and Push
+        run: |
+          export TZ="Asia/Kolkata"
+          git add *.json *.m3u *.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "All Playlists Synced Separately ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
