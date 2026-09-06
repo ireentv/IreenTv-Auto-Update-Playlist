@@ -4,69 +4,127 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "developer": "IreenTechnology",
-  "channels_amount": 4,
-  "live_count": 0,
-  "last_update": "12:06 AM 07-09-2026",
+  "channels_amount": 10,
+  "live_count": 4,
+  "last_update": "12:13 AM 07-09-2026",
   "events": [
     {
-      "EntityId": 16306,
-      "VideoName": "Men's & Women's Singles",
-      "CategoryName": "US Open 2026",
-      "StageName": "Round of 16",
-      "EventStartDate": "2026-09-06 21:00:00",
-      "Description": "The US Open 2026 brings together the world's top tennis players for one of the most prestigious Grand Slam tournaments. Featuring powerful serves, intense rallies, dramatic matches, and world-class performances, the tournament promises thrilling action as players compete for Grand Slam glory. Watch live in HD on tapmad with official match coverage and uninterrupted streaming. Catch every ace, rally, set, and match-winning moment live on tapmad via app, web, or smart TV.",
-      "ThumbnailStandard": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788572513540x302.jpg",
-      "ThumbnailTV": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788572513540x302.jpg",
-      "IsFreeToWatch": false,
-      "Status": "Live",
-      "CategoryId": 861,
-      "UrlSlug": "us-open-2026-live-streaming",
-      "stream_url": "https://multiregion-asia-cdn.tapmad.com/v1/019f067c253015e8f412028003fe/019f067d5e3615e8f060213b29a21b/main.m3u8"
+      "match_id": "16306",
+      "title": "US Open 2026 - Men's & Women's Singles (Round of 16)",
+      "synopsis": "The US Open 2026 brings together the world's top tennis players for one of the most prestigious Grand Slam tournaments. Featuring powerful serves, intense rallies, dramatic matches, and world-class performances, the tournament promises thrilling action as players compete for Grand Slam glory. Watch live in HD on tapmad with official match coverage and uninterrupted streaming. Catch every ace, rally, set, and match-winning moment live on tapmad via app, web, or smart TV.",
+      "status": "LIVE",
+      "time": "2026-09-06 21:00:00",
+      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788572513540x302.jpg",
+      "match_url": "https://multiregion-asia-cdn.tapmad.com/v1/019f067c253015e8f412028003fe/019f067d5e3615e8f060213b29a21b/main.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://multiregion-asia-cdn.tapmad.com/v1/019f067c253015e8f412028003fe/019f067d5e3615e8f060213b29a21b/main.m3u8"
+      }
     },
     {
-      "EntityId": 16943,
-      "VideoName": "Alaves vs Osasuna",
-      "CategoryName": "LaLiga 2026/27",
-      "StageName": "MATCHDAY 4",
-      "EventStartDate": "2026-09-06 22:30:00",
-      "Description": "The 33rd match of the LaLiga  brings together some of the biggest football clubs and stars for another exciting campaign of top-flight Spanish football. Featuring fast-paced attacks, skillful defending, world-class talent, and thrilling goals, every match promises intense competition throughout the season. Watch Alaves vs Osasuna live in HD on tapmad with official match coverage and uninterrupted streaming. Catch every goal, assist, save, and match-defining moment live on tapmad via app, web, or smart TV.",
-      "ThumbnailStandard": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788530587540x302.jpg",
-      "ThumbnailTV": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788530587540x302.jpg",
-      "IsFreeToWatch": false,
-      "Status": "Live",
-      "CategoryId": 827,
-      "UrlSlug": "laliga--alaves-vs-osasuna-live",
-      "stream_url": "https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-fifa326478feb/master.m3u8"
+      "match_id": "16943",
+      "title": "LaLiga 2026/27 - Alaves vs Osasuna (MATCHDAY 4)",
+      "synopsis": "The 33rd match of the LaLiga  brings together some of the biggest football clubs and stars for another exciting campaign of top-flight Spanish football. Featuring fast-paced attacks, skillful defending, world-class talent, and thrilling goals, every match promises intense competition throughout the season. Watch Alaves vs Osasuna live in HD on tapmad with official match coverage and uninterrupted streaming. Catch every goal, assist, save, and match-defining moment live on tapmad via app, web, or smart TV.",
+      "status": "LIVE",
+      "time": "2026-09-06 22:30:00",
+      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788530587540x302.jpg",
+      "match_url": "https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-fifa326478feb/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://premierleagpl23.akamaized.net/hls/live/2107108/Tapmad-fifa326478feb/master.m3u8"
+      }
     },
     {
-      "EntityId": 16944,
-      "VideoName": "Malaga vs Levante",
-      "CategoryName": "LaLiga 2026/27",
-      "StageName": "MATCHDAY 4",
-      "EventStartDate": "2026-09-06 22:30:00",
-      "Description": "The 34th match of the LaLiga  brings together some of the biggest football clubs and stars for another exciting campaign of top-flight Spanish football. Featuring fast-paced attacks, skillful defending, world-class talent, and thrilling goals, every match promises intense competition throughout the season. Watch Malaga vs Levante live in HD on tapmad with official match coverage and uninterrupted streaming. Catch every goal, assist, save, and match-defining moment live on tapmad via app, web, or smart TV.",
-      "ThumbnailStandard": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788530657540x302.jpg",
-      "ThumbnailTV": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788530657540x302.jpg",
-      "IsFreeToWatch": false,
-      "Status": "Live",
-      "CategoryId": 827,
-      "UrlSlug": "laliga--malaga-vs-levante-live",
-      "stream_url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8"
+      "match_id": "16944",
+      "title": "LaLiga 2026/27 - Malaga vs Levante (MATCHDAY 4)",
+      "synopsis": "The 34th match of the LaLiga  brings together some of the biggest football clubs and stars for another exciting campaign of top-flight Spanish football. Featuring fast-paced attacks, skillful defending, world-class talent, and thrilling goals, every match promises intense competition throughout the season. Watch Malaga vs Levante live in HD on tapmad with official match coverage and uninterrupted streaming. Catch every goal, assist, save, and match-defining moment live on tapmad via app, web, or smart TV.",
+      "status": "LIVE",
+      "time": "2026-09-06 22:30:00",
+      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788530657540x302.jpg",
+      "match_url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8"
+      }
     },
     {
-      "EntityId": 16654,
-      "VideoName": "Brazil vs Germany",
-      "CategoryName": "Socca World Cup 2026",
-      "StageName": "Final",
-      "EventStartDate": "2026-09-07 00:00:00",
-      "Description": "Watch Brazil vs Germany live match online on tapmad. The Socca World Cup 2026 brings together top national teams for one of the biggest small-sided football tournaments in the world. Featuring fast-paced attacks, skillful defending, spectacular goals, and intense competition, every match promises thrilling football as teams battle for the world title. Catch every goal, tackle, save, and match-winning moment live on tapmad via app, web, or smart TV.",
-      "ThumbnailStandard": null,
-      "ThumbnailTV": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788646486540x302.jpg",
-      "IsFreeToWatch": false,
-      "Status": "Live",
-      "CategoryId": 889,
-      "UrlSlug": "brazil-vs-germany",
-      "stream_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
+      "match_id": "16654",
+      "title": "Socca World Cup 2026 - Brazil vs Germany (Final)",
+      "synopsis": "Watch Brazil vs Germany live match online on tapmad. The Socca World Cup 2026 brings together top national teams for one of the biggest small-sided football tournaments in the world. Featuring fast-paced attacks, skillful defending, spectacular goals, and intense competition, every match promises thrilling football as teams battle for the world title. Catch every goal, tackle, save, and match-winning moment live on tapmad via app, web, or smart TV.",
+      "status": "LIVE",
+      "time": "2026-09-07 00:00:00",
+      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788646486540x302.jpg",
+      "match_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Server 1": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
+      }
+    },
+    {
+      "match_id": "15804",
+      "title": "Caribbean Premier League 2026 - Barbados Tridents vs St Lucia Kings (Group Stage)",
+      "synopsis": "The 29th T20 of the Caribbean Premier League 2026 brings together some of the world's finest T20 cricketers for one of the most exciting franchise tournaments in the game. Featuring explosive batting, skillful bowling, athletic fielding, and thrilling finishes, every match promises nonstop entertainment as teams compete for the championship title. Watch Barbados Tridents vs St Lucia Kings live in HD on tapmad with official match coverage and uninterrupted streaming. Catch every boundary, wicket, and match-winning moment live on tapmad via app, web, or smart TV.",
+      "status": "UPCOMING",
+      "time": "2026-09-07 05:00:00",
+      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788570281540x302.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "16307",
+      "title": "US Open 2026 - Men's & Women's Singles (Round of 16)",
+      "synopsis": "The US Open 2026 brings together the world's top tennis players for one of the most prestigious Grand Slam tournaments. Featuring powerful serves, intense rallies, dramatic matches, and world-class performances, the tournament promises thrilling action as players compete for Grand Slam glory. Watch live in HD on tapmad with official match coverage and uninterrupted streaming. Catch every ace, rally, set, and match-winning moment live on tapmad via app, web, or smart TV.",
+      "status": "UPCOMING",
+      "time": "2026-09-07 05:00:00",
+      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788572574540x302.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "16308",
+      "title": "US Open 2026 - Men's & Women's Singles (Round of 16)",
+      "synopsis": "The US Open 2026 brings together the world's top tennis players for one of the most prestigious Grand Slam tournaments. Featuring powerful serves, intense rallies, dramatic matches, and world-class performances, the tournament promises thrilling action as players compete for Grand Slam glory. Watch live in HD on tapmad with official match coverage and uninterrupted streaming. Catch every ace, rally, set, and match-winning moment live on tapmad via app, web, or smart TV.",
+      "status": "UPCOMING",
+      "time": "2026-09-07 21:00:00",
+      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788572632540x302.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "16946",
+      "title": "LaLiga 2026/27 - Getafe vs CELTA (MATCHDAY 4)",
+      "synopsis": "The 36th match of the LaLiga  brings together some of the biggest football clubs and stars for another exciting campaign of top-flight Spanish football. Featuring fast-paced attacks, skillful defending, world-class talent, and thrilling goals, every match promises intense competition throughout the season. Watch Getafe vs CELTA live in HD on tapmad with official match coverage and uninterrupted streaming. Catch every goal, assist, save, and match-defining moment live on tapmad via app, web, or smart TV.",
+      "status": "UPCOMING",
+      "time": "2026-09-07 23:00:00",
+      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788530860540x302.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "16309",
+      "title": "US Open 2026 - Men's & Women's Singles (Round of 16)",
+      "synopsis": "The US Open 2026 brings together the world's top tennis players for one of the most prestigious Grand Slam tournaments. Featuring powerful serves, intense rallies, dramatic matches, and world-class performances, the tournament promises thrilling action as players compete for Grand Slam glory. Watch live in HD on tapmad with official match coverage and uninterrupted streaming. Catch every ace, rally, set, and match-winning moment live on tapmad via app, web, or smart TV.",
+      "status": "UPCOMING",
+      "time": "2026-09-08 05:00:00",
+      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788572692540x302.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "15935",
+      "title": "Pakistan Tour of England 2026 - England vs Pakistan (3rd Test)",
+      "synopsis": "The 3rd Test of the Pakistan Tour of England 2026 marks the start of a two match test series. Watch England vs Pakistan live in HD on tapmad, with official match coverage and uninterrupted streaming. These top-ranked red-ball teams, to begin with a strong squad, England look to capitalize on home conditions with a balanced lineup, while Pakistan aim to deliver disciplined performances through a well-rounded unit capable of competing in all phases of the game.",
+      "status": "UPCOMING",
+      "time": "2026-09-09 16:00:00",
+      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1788178193540x302.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
     }
   ]
 }
