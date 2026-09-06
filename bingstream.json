@@ -3,10 +3,23 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 110,
-  "live_count": 48,
-  "last_update": "12:23 AM 07-09-2026",
+  "channels_amount": 111,
+  "live_count": 49,
+  "last_update": "12:28 AM 07-09-2026",
   "events": [
+    {
+      "match_id": "ireentv_promo",
+      "title": "IreenTV Promo",
+      "synopsis": "IreenTV Official 24/7 Promo",
+      "status": "LIVE",
+      "time": "24/7",
+      "cover_image": "https://i.ibb.co.com/XkDv6gpS/ireenTV.png",
+      "match_url": "https://ireentvlive.pages.dev/promo/master.m3u8",
+      "is_free": true,
+      "stream_url": {
+        "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
+      }
+    },
     {
       "match_id": "45250",
       "title": "Marseille vs Paris FC",
