@@ -33,7 +33,7 @@ jobs:
         run: |
           pip install requests pytz urllib3
 
-      - name: Fetch, Filter and Generate Separate JSON & M3U for Each Playlist
+      - name: Fetch, Filter and Generate Separate JSON & Advanced M3U for Each Playlist
         env:
           JSON_PLAYLIST_URLS: ${{ secrets.JSON_PLAYLIST_URLS }}
         run: |
@@ -221,6 +221,19 @@ jobs:
               servers = {}
               found_urls = []
 
+              referer_val = (
+                  item.get("referer") or 
+                  item.get("referrer") or 
+                  item.get("referer_url") or 
+                  item.get("referrer_url") or 
+                  "https://iframe.rumsport8.live/"
+              )
+              if referer_val and not referer_val.endswith("/"):
+                  referer_val += "/"
+
+              user_agent_val = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              suffix = f"|http-user-agent={user_agent_val}&http-referrer={referer_val}"
+
               if "link_live" in item and isinstance(item["link_live"], list):
                   for obj in item["link_live"]:
                       if isinstance(obj, dict):
@@ -251,12 +264,12 @@ jobs:
 
               seen_urls = []
               for u in found_urls:
-                  clean_u = u.split("|http-")[0] if "|http-" in u else u
-                  if clean_u not in seen_urls:
-                      seen_urls.append(clean_u)
+                  if u not in seen_urls:
+                      seen_urls.append(u)
 
               for idx, u in enumerate(seen_urls, 1):
-                  servers[f"Server {idx}"] = u
+                  clean_u = u.split("|http-")[0] if "|http-" in u else u
+                  servers[f"Server {idx}"] = f"{clean_u}{suffix}"
 
               return servers
 
@@ -367,7 +380,7 @@ jobs:
                           items.append(obj)
                       else:
                           for k, v in obj.items():
-                              if k.lower() in ["owner", "telegram", "credit", "website", "admin", "notice"]:
+                              if k.lower() in ["owner", "credit", "website", "admin", "notice"]:
                                   continue
                               walk(v)
 
@@ -411,8 +424,137 @@ jobs:
                   slug = re.sub(r'[^a-zA-Z0-9_-]', '_', base).strip('_') if base else "playlist"
                   return slug.replace("_", " ").title(), slug.lower(), url
 
+          # ================= ADVANCED M3U / DRM / HEADER PARSER =================
+          def parse_stream_details(stream_url_raw, item_meta):
+              """স্ট্রিম লিঙ্ক থেকে টোকেন, হেডার, কুকি এবং ClearKey DRM আলাদা করে সাজায়"""
+              stream_url = str(stream_url_raw).strip()
+              headers = {}
+
+              # ১. পাইপ (|) ফরম্যাটের হেডার আলাদা করা কিন্তু টোকেন নিরাপদ রাখা
+              if "|" in stream_url:
+                  base_url, pipe_part = stream_url.split("|", 1)
+                  base_url = base_url.strip()
+                  for pair in pipe_part.split("&"):
+                      if "=" in pair:
+                          k, v = pair.split("=", 1)
+                          k_lower = k.strip().lower()
+                          if "user-agent" in k_lower or "user_agent" in k_lower:
+                              headers["User-Agent"] = v.strip()
+                          elif "refer" in k_lower:
+                              headers["Referer"] = v.strip()
+                          elif "cookie" in k_lower:
+                              headers["Cookie"] = v.strip()
+                          elif "origin" in k_lower:
+                              headers["Origin"] = v.strip()
+                          else:
+                              headers[k.strip()] = v.strip()
+              else:
+                  base_url = stream_url
+
+              # ২. আইটেমের ভেতরে থাকা হেডার্স চেক করা
+              item_headers = item_meta.get("headers", {}) if isinstance(item_meta.get("headers"), dict) else {}
+              for hk, hv in item_headers.items():
+                  if hv and hk not in headers:
+                      headers[hk] = str(hv).strip()
+
+              # User-Agent চেক
+              for ua_k in ["user_agent", "User-Agent", "user-agent", "agent", "http-user-agent", "http_user_agent"]:
+                  if ua_k in item_meta and item_meta[ua_k] and "User-Agent" not in headers:
+                      headers["User-Agent"] = str(item_meta[ua_k]).strip()
+                      break
+
+              # Referer চেক
+              for ref_k in ["referer", "Referer", "referrer", "Referrer", "http-referrer", "http_referrer", "origin", "Origin"]:
+                  if ref_k in item_meta and item_meta[ref_k] and "Referer" not in headers:
+                      headers["Referer"] = str(item_meta[ref_k]).strip()
+                      break
+
+              # Cookie চেক
+              for ck_k in ["cookie", "Cookie", "cookies", "http-cookie", "http_cookie"]:
+                  if ck_k in item_meta and item_meta[ck_k] and "Cookie" not in headers:
+                      headers["Cookie"] = str(item_meta[ck_k]).strip()
+                      break
+
+              # ৩. ClearKey DRM বা Keys খোঁজা
+              clearkey_val = ""
+              for ck_name in ["clearkey", "clear_key", "drm_key", "key", "keys", "license_key", "drm"]:
+                  if ck_name in item_meta and item_meta[ck_name]:
+                      val = item_meta[ck_name]
+                      if isinstance(val, str) and (":" in val or len(val) >= 32):
+                          clearkey_val = val.strip()
+                          break
+                      elif isinstance(val, dict):
+                          kid = val.get("kid") or val.get("key_id") or val.get("k1") or ""
+                          k = val.get("key") or val.get("k") or val.get("k2") or ""
+                          if kid and k:
+                              clearkey_val = f"{kid}:{k}"
+                              break
+                      elif isinstance(val, list) and len(val) > 0:
+                          first = val[0]
+                          if isinstance(first, dict):
+                              kid = first.get("kid") or first.get("key_id") or ""
+                              k = first.get("k") or first.get("key") or ""
+                              if kid and k:
+                                  clearkey_val = f"{kid}:{k}"
+                                  break
+                          elif isinstance(first, str):
+                              clearkey_val = first.strip()
+                              break
+
+              is_mpd = ".mpd" in base_url.lower() or item_meta.get("manifest_type") == "mpd" or bool(clearkey_val)
+
+              return base_url, headers, clearkey_val, is_mpd
+
+          def build_m3u_channel_block(title, logo, group, stream_url_raw, item_meta):
+              """একটি চ্যানেলের সম্পূর্ণ M3U ব্লক তৈরি করে"""
+              base_url, headers, clearkey, is_mpd = parse_stream_details(stream_url_raw, item_meta)
+              if not base_url or not base_url.startswith("http"):
+                  return ""
+
+              block = []
+              block.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{group}",{title}\n')
+
+              # MPD ও ClearKey DRM ট্যাগ
+              if is_mpd:
+                  block.append("#KODIPROP:inputstream=inputstream.adaptive\n")
+                  block.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd\n")
+                  if clearkey:
+                      block.append("#KODIPROP:inputstream.adaptive.license_type=clearkey\n")
+                      block.append(f"#KODIPROP:inputstream.adaptive.license_key={clearkey}\n")
+
+              # VLC ও KODI হেডার প্রপার্টিজ
+              if headers:
+                  header_pairs = []
+                  for hk, hv in headers.items():
+                      if hk.lower() == "user-agent":
+                          block.append(f"#EXTVLCOPT:http-user-agent={hv}\n")
+                          header_pairs.append(f"User-Agent={hv}")
+                      elif hk.lower() in ["referer", "referrer"]:
+                          block.append(f"#EXTVLCOPT:http-referrer={hv}\n")
+                          header_pairs.append(f"Referer={hv}")
+                      elif hk.lower() == "cookie":
+                          block.append(f"#EXTVLCOPT:http-cookie={hv}\n")
+                          header_pairs.append(f"Cookie={hv}")
+                      else:
+                          header_pairs.append(f"{hk}={hv}")
+
+                  if header_pairs:
+                      manifest_headers = "&".join(header_pairs)
+                      block.append(f"#KODIPROP:inputstream.adaptive.manifest_headers={manifest_headers}\n")
+                      block.append(f"#KODIPROP:inputstream.adaptive.stream_headers={manifest_headers}\n")
+
+              # স্ট্যান্ডার্ড IPTV প্লেয়ারের জন্য Pipe ফরম্যাটসহ লিংক তৈরি
+              if headers:
+                  pipe_str = "&".join([f"{k}={v}" for k, v in headers.items()])
+                  final_url = f"{base_url}|{pipe_str}\n"
+              else:
+                  final_url = f"{base_url}\n"
+
+              block.append(final_url)
+              return "".join(block)
+
           # ================= M3U BUILDER =================
-          def generate_m3u(playlist_name, items, total_count, live_count, current_time, is_bing=False):
+          def generate_m3u(playlist_name, items, total_count, live_count, current_time):
               lines = ["#EXTM3U\n"]
               lines.append(f"# Playlist Name  : {playlist_name}\n")
               lines.append("# Developer      : MD ANAMUL HOQUE\n")
@@ -422,11 +564,8 @@ jobs:
               lines.append(f"# Live Count     : {live_count}\n")
               lines.append(f"# Last Update    : {current_time}\n\n")
 
-              # অটোমেটিকভাবে সবার প্রথমে Promo চ্যানেল যুক্ত করা
+              # Promo চ্যানেল সবার উপরে
               lines.append('#EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo\nhttps://ireentvlive.pages.dev/promo/master.m3u8\n\n')
-
-              bing_ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-              bing_ref = "https://iframe.rumsport8.live/"
 
               for it in items:
                   title = it.get("title") or it.get("VideoName") or it.get("name") or "Live Event"
@@ -434,42 +573,16 @@ jobs:
                   streams = it.get("stream_url")
                   match_url = it.get("match_url", "")
 
-                  # ডিকশনারি স্ট্রিম (যেমন Bingstream, SonyLIV)
                   if isinstance(streams, dict) and streams:
                       for s_name, s_url in streams.items():
                           if not s_url or not str(s_url).startswith("http"):
                               continue
-                          clean_url = s_url.split("|http-")[0]
                           stream_title = f"{title} ({s_name})" if len(streams) > 1 else title
-                          lines.append(f'#EXTINF:-1 tvg-name="{stream_title}" tvg-logo="{logo}" group-title="{playlist_name}",{stream_title}\n')
-                          
-                          if is_bing:
-                              lines.append(f'#EXTVLCOPT:http-user-agent={bing_ua}\n')
-                              lines.append(f'#EXTVLCOPT:http-referrer={bing_ref}\n')
-                          
-                          lines.append(f'{clean_url}\n')
-
-                  # সরাসরি স্ট্রিং লিঙ্ক স্ট্রিম (যেমন Tapmad)
+                          lines.append(build_m3u_channel_block(stream_title, logo, playlist_name, s_url, it))
                   elif isinstance(streams, str) and streams.startswith("http"):
-                      clean_url = streams.split("|http-")[0]
-                      lines.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{playlist_name}",{title}\n')
-                      
-                      if is_bing:
-                          lines.append(f'#EXTVLCOPT:http-user-agent={bing_ua}\n')
-                          lines.append(f'#EXTVLCOPT:http-referrer={bing_ref}\n')
-                          
-                      lines.append(f'{clean_url}\n')
-
-                  # ব্যাকআপ লিঙ্ক
+                      lines.append(build_m3u_channel_block(title, logo, playlist_name, streams, it))
                   elif match_url and str(match_url).startswith("http"):
-                      clean_url = match_url.split("|http-")[0]
-                      lines.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{playlist_name}",{title}\n')
-                      
-                      if is_bing:
-                          lines.append(f'#EXTVLCOPT:http-user-agent={bing_ua}\n')
-                          lines.append(f'#EXTVLCOPT:http-referrer={bing_ref}\n')
-                          
-                      lines.append(f'{clean_url}\n')
+                      lines.append(build_m3u_channel_block(title, logo, playlist_name, match_url, it))
 
               return "".join(lines)
 
@@ -518,12 +631,12 @@ jobs:
                   with open(f"{slug}.json", "w", encoding="utf-8") as f:
                       json.dump(source_json, f, indent=2, ensure_ascii=False)
 
-                  # ২. M3U ফাইল তৈরি (Bingstream এর জন্য EXTVLCOPT সহ)
-                  m3u_data = generate_m3u(name, current_source_items, src_total, src_live, current_time, is_bing=is_bing_source)
+                  # ২. উন্নত M3U ফাইল তৈরি (হেডার, টোকেন ও DRM সাপোর্টসহ)
+                  m3u_data = generate_m3u(name, current_source_items, src_total, src_live, current_time)
                   with open(f"{slug}.m3u", "w", encoding="utf-8") as f:
                       f.write(m3u_data)
 
-                  # ৩. আলাদা TXT লগ ফাইল তৈরি
+                  # ৩. TXT লগ ফাইল তৈরি
                   log_line = f"🚀 {name} Synced | IST: {current_time} | Channels: {src_total} | Live: {src_live}\n"
                   with open(f"{slug}.txt", "w", encoding="utf-8") as f:
                       f.write(log_line)
@@ -544,7 +657,7 @@ jobs:
           export TZ="Asia/Kolkata"
           git add *.json *.m3u *.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Bingstream M3U Updated with EXTVLCOPT Headers ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "Playlists Synced with MPD DRM & Header Tags ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
