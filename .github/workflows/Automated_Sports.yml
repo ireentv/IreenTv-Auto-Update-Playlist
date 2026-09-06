@@ -81,6 +81,42 @@ jobs:
               clean_text = res.content.decode('utf-8-sig', errors='ignore').strip()
               return json.loads(clean_text)
 
+          # ================= STREAM URL VALIDATOR =================
+          def is_streamable_url(url):
+              """চেক করে লিংকটি আসল ভিডিও স্ট্রিম নাকি কোনো ওয়েবসাইট লিংক"""
+              if not url or not isinstance(url, str) or not url.startswith("http"):
+                  return False
+              
+              url_clean = url.lower().split("?")[0].split("|")[0]
+              
+              # যেসব ওয়েবসাইট লিংক ভুলেও M3U তে যাবে না
+              blocked_domains = [
+                  "willow.tv/match", "willow.tv/live", "willow.tv/event", "willow.tv",
+                  "sonyliv.com/custom-live", "sonyliv.com/details", "sonyliv.com/watch", "sonyliv.com",
+                  "tapmad.com/watch", "tapmad.com", "jiocinema.com", "hotstar.com",
+                  "facebook.com", "twitter.com", "t.me", "telegram.me",
+                  "youtube.com/watch", "youtu.be"
+              ]
+              
+              if any(blocked in url.lower() for blocked in blocked_domains):
+                  # যদি ডোমেইন ব্লকলিস্টে থাকে কিন্তু লিংকটি ডাইরেক্ট .m3u8 / .mpd হয় তবেই বৈধ
+                  if not any(url_clean.endswith(ext) for ext in [".m3u8", ".mpd", ".ts"]):
+                      return False
+
+              # স্ট্রিম আইডেন্টিফায়ার
+              stream_indicators = [
+                  ".m3u8", ".mpd", ".ts", ".mp4", ".flv", "/manifest", "/playlist", 
+                  "/master", "/chunklist", "/hls", "/dash", "dai.google.com", "akamaized.net"
+              ]
+              if any(ind in url_clean for ind in stream_indicators) or "|" in url or "token=" in url.lower() or "hdnts=" in url.lower():
+                  return True
+
+              # সাধারণ ওয়েব পেজ হলে বাদ
+              if any(url_clean.endswith(ext) for ext in [".html", ".htm", ".php", "/"]):
+                  return False
+
+              return True
+
           # ================= SONY LIV =================
           def is_sonyliv_item(item):
               if not isinstance(item, dict):
@@ -104,7 +140,7 @@ jobs:
                   item.get("dai_url")
               )
               
-              if dai and str(dai).startswith("http"):
+              if dai and str(dai).startswith("http") and is_streamable_url(str(dai)):
                   servers["Original Server"] = str(dai).strip()
                   
               return servers
@@ -178,13 +214,13 @@ jobs:
 
               stream_urls = {}
               raw_stream = item.get("stream_url") or item.get("StreamUrl") or item.get("videoURL") or item.get("video_url") or ""
-              if isinstance(raw_stream, str) and raw_stream.startswith("http"):
+              if isinstance(raw_stream, str) and raw_stream.startswith("http") and is_streamable_url(raw_stream):
                   stream_urls["Server 1"] = raw_stream.strip()
               elif isinstance(raw_stream, dict):
-                  stream_urls = raw_stream
+                  stream_urls = {k: v for k, v in raw_stream.items() if is_streamable_url(v)}
               elif isinstance(raw_stream, list):
                   for idx, u in enumerate(raw_stream, 1):
-                      if isinstance(u, str) and u.startswith("http"):
+                      if isinstance(u, str) and u.startswith("http") and is_streamable_url(u):
                           stream_urls[f"Server {idx}"] = u.strip()
 
               first_url = next(iter(stream_urls.values())) if stream_urls else ""
@@ -238,9 +274,9 @@ jobs:
                   for obj in item["link_live"]:
                       if isinstance(obj, dict):
                           v_url = obj.get("videoURL") or obj.get("video_url") or obj.get("videoUrl") or obj.get("video URL")
-                          if v_url and str(v_url).startswith("http"):
+                          if v_url and str(v_url).startswith("http") and is_streamable_url(str(v_url)):
                               found_urls.append(str(v_url).strip())
-                      elif isinstance(obj, str) and obj.startswith("http"):
+                      elif isinstance(obj, str) and obj.startswith("http") and is_streamable_url(obj):
                           found_urls.append(obj.strip())
 
               if not found_urls:
@@ -251,15 +287,15 @@ jobs:
                           if isinstance(val, str):
                               for p in re.split(r'[\r\n,]+', val.strip()):
                                   p_clean = p.strip()
-                                  if p_clean.startswith("http"):
+                                  if p_clean.startswith("http") and is_streamable_url(p_clean):
                                       found_urls.append(p_clean)
                           elif isinstance(val, list):
                               for elem in val:
-                                  if isinstance(elem, str) and elem.strip().startswith("http"):
+                                  if isinstance(elem, str) and elem.strip().startswith("http") and is_streamable_url(elem.strip()):
                                       found_urls.append(elem.strip())
                                   elif isinstance(elem, dict):
                                       u = elem.get("videoURL") or elem.get("video_url") or elem.get("videoUrl")
-                                      if u and str(u).startswith("http"):
+                                      if u and str(u).startswith("http") and is_streamable_url(str(u)):
                                           found_urls.append(str(u).strip())
 
               seen_urls = []
@@ -314,6 +350,63 @@ jobs:
                   "is_free": False,
                   "stream_url": stream_urls
               }
+
+          # ================= UNIVERSAL STREAM EXTRACTOR (WILLOW & ALL) =================
+          def extract_all_playable_streams(item):
+              """যে কোনো আইটেম (বিশেষ করে Willow) থেকে সব আসল স্ট্রিম লিংক সংগ্রহ করে"""
+              servers = {}
+              found_urls = []
+
+              stream_obj = item.get("stream_url")
+              if isinstance(stream_obj, dict):
+                  for s_name, s_url in stream_obj.items():
+                      if is_streamable_url(str(s_url)):
+                          servers[s_name] = str(s_url).strip()
+              elif isinstance(stream_obj, str) and is_streamable_url(stream_obj):
+                  servers["Server 1"] = stream_obj.strip()
+              elif isinstance(stream_obj, list):
+                  for idx, s_url in enumerate(stream_obj, 1):
+                      if isinstance(s_url, str) and is_streamable_url(s_url):
+                          servers[f"Server {idx}"] = s_url.strip()
+
+              # Willow বা অন্যান্য সোর্সের অল্টারনেট ফিল্ড চেক করা
+              if not servers:
+                  alt_keys = [
+                      "stream_url_alpha", "stream_url_beta", "stream_urls", "video_url", "videoURL",
+                      "videoUrl", "video_urls", "hls_url", "hls", "dash_url", "mpd_url", "playback_url",
+                      "play_url", "live_url", "stream", "streams", "stream_link", "link", "links"
+                  ]
+                  for k in alt_keys:
+                      if k in item and item[k]:
+                          val = item[k]
+                          if isinstance(val, str):
+                              for part in re.split(r'[\r\n,]+', val.strip()):
+                                  clean_p = part.strip()
+                                  if is_streamable_url(clean_p) and clean_p not in found_urls:
+                                      found_urls.append(clean_p)
+                          elif isinstance(val, list):
+                              for el in val:
+                                  if isinstance(el, str) and is_streamable_url(el.strip()) and el.strip() not in found_urls:
+                                      found_urls.append(el.strip())
+                                  elif isinstance(el, dict):
+                                      for _, vu in el.items():
+                                          if isinstance(vu, str) and is_streamable_url(vu.strip()) and vu.strip() not in found_urls:
+                                              found_urls.append(vu.strip())
+                          elif isinstance(val, dict):
+                              for _, vu in val.items():
+                                  if isinstance(vu, str) and is_streamable_url(vu.strip()) and vu.strip() not in found_urls:
+                                      found_urls.append(vu.strip())
+
+                  for idx, u in enumerate(found_urls, 1):
+                      servers[f"Server {idx}"] = u
+
+              # যদি এখনও না পাওয়া যায় তবে match_url চেক করবে কিন্তু শুধুমাত্র যদি এটি আসল ভিডিও স্ট্রিম হয়
+              if not servers:
+                  m_url = item.get("match_url", "")
+                  if is_streamable_url(m_url):
+                      servers["Server 1"] = m_url.strip()
+
+              return servers
 
           # ================= COMMON UTILS =================
           def is_live_event(item):
@@ -426,11 +519,9 @@ jobs:
 
           # ================= ADVANCED M3U / DRM / HEADER PARSER =================
           def parse_stream_details(stream_url_raw, item_meta):
-              """স্ট্রিম লিঙ্ক থেকে টোকেন, হেডার, কুকি এবং ClearKey DRM আলাদা করে সাজায়"""
               stream_url = str(stream_url_raw).strip()
               headers = {}
 
-              # ১. পাইপ (|) ফরম্যাটের হেডার আলাদা করা কিন্তু টোকেন নিরাপদ রাখা
               if "|" in stream_url:
                   base_url, pipe_part = stream_url.split("|", 1)
                   base_url = base_url.strip()
@@ -451,31 +542,26 @@ jobs:
               else:
                   base_url = stream_url
 
-              # ২. আইটেমের ভেতরে থাকা হেডার্স চেক করা
               item_headers = item_meta.get("headers", {}) if isinstance(item_meta.get("headers"), dict) else {}
               for hk, hv in item_headers.items():
                   if hv and hk not in headers:
                       headers[hk] = str(hv).strip()
 
-              # User-Agent চেক
               for ua_k in ["user_agent", "User-Agent", "user-agent", "agent", "http-user-agent", "http_user_agent"]:
                   if ua_k in item_meta and item_meta[ua_k] and "User-Agent" not in headers:
                       headers["User-Agent"] = str(item_meta[ua_k]).strip()
                       break
 
-              # Referer চেক
               for ref_k in ["referer", "Referer", "referrer", "Referrer", "http-referrer", "http_referrer", "origin", "Origin"]:
                   if ref_k in item_meta and item_meta[ref_k] and "Referer" not in headers:
                       headers["Referer"] = str(item_meta[ref_k]).strip()
                       break
 
-              # Cookie চেক
               for ck_k in ["cookie", "Cookie", "cookies", "http-cookie", "http_cookie"]:
                   if ck_k in item_meta and item_meta[ck_k] and "Cookie" not in headers:
                       headers["Cookie"] = str(item_meta[ck_k]).strip()
                       break
 
-              # ৩. ClearKey DRM বা Keys খোঁজা
               clearkey_val = ""
               for ck_name in ["clearkey", "clear_key", "drm_key", "key", "keys", "license_key", "drm"]:
                   if ck_name in item_meta and item_meta[ck_name]:
@@ -506,7 +592,6 @@ jobs:
               return base_url, headers, clearkey_val, is_mpd
 
           def build_m3u_channel_block(title, logo, group, stream_url_raw, item_meta):
-              """একটি চ্যানেলের সম্পূর্ণ M3U ব্লক তৈরি করে"""
               base_url, headers, clearkey, is_mpd = parse_stream_details(stream_url_raw, item_meta)
               if not base_url or not base_url.startswith("http"):
                   return ""
@@ -514,7 +599,6 @@ jobs:
               block = []
               block.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{group}",{title}\n')
 
-              # MPD ও ClearKey DRM ট্যাগ
               if is_mpd:
                   block.append("#KODIPROP:inputstream=inputstream.adaptive\n")
                   block.append("#KODIPROP:inputstream.adaptive.manifest_type=mpd\n")
@@ -522,7 +606,6 @@ jobs:
                       block.append("#KODIPROP:inputstream.adaptive.license_type=clearkey\n")
                       block.append(f"#KODIPROP:inputstream.adaptive.license_key={clearkey}\n")
 
-              # VLC ও KODI হেডার প্রপার্টিজ
               if headers:
                   header_pairs = []
                   for hk, hv in headers.items():
@@ -543,7 +626,6 @@ jobs:
                       block.append(f"#KODIPROP:inputstream.adaptive.manifest_headers={manifest_headers}\n")
                       block.append(f"#KODIPROP:inputstream.adaptive.stream_headers={manifest_headers}\n")
 
-              # স্ট্যান্ডার্ড IPTV প্লেয়ারের জন্য Pipe ফরম্যাটসহ লিংক তৈরি
               if headers:
                   pipe_str = "&".join([f"{k}={v}" for k, v in headers.items()])
                   final_url = f"{base_url}|{pipe_str}\n"
@@ -570,19 +652,17 @@ jobs:
               for it in items:
                   title = it.get("title") or it.get("VideoName") or it.get("name") or "Live Event"
                   logo = it.get("cover_image") or it.get("ThumbnailTV") or it.get("ThumbnailStandard") or ""
-                  streams = it.get("stream_url")
-                  match_url = it.get("match_url", "")
+                  
+                  # আসল স্ট্রিম লিংক সংগ্রহ করা
+                  streams = extract_all_playable_streams(it)
 
-                  if isinstance(streams, dict) and streams:
-                      for s_name, s_url in streams.items():
-                          if not s_url or not str(s_url).startswith("http"):
-                              continue
-                          stream_title = f"{title} ({s_name})" if len(streams) > 1 else title
-                          lines.append(build_m3u_channel_block(stream_title, logo, playlist_name, s_url, it))
-                  elif isinstance(streams, str) and streams.startswith("http"):
-                      lines.append(build_m3u_channel_block(title, logo, playlist_name, streams, it))
-                  elif match_url and str(match_url).startswith("http"):
-                      lines.append(build_m3u_channel_block(title, logo, playlist_name, match_url, it))
+                  # যদি আসল স্ট্রিম লিংক না থাকে, তবে কোনো ওয়েব লিংক M3U-তে যাবে না
+                  if not streams:
+                      continue
+
+                  for s_name, s_url in streams.items():
+                      stream_title = f"{title} ({s_name})" if len(streams) > 1 else title
+                      lines.append(build_m3u_channel_block(stream_title, logo, playlist_name, s_url, it))
 
               return "".join(lines)
 
@@ -631,7 +711,7 @@ jobs:
                   with open(f"{slug}.json", "w", encoding="utf-8") as f:
                       json.dump(source_json, f, indent=2, ensure_ascii=False)
 
-                  # ২. উন্নত M3U ফাইল তৈরি (হেডার, টোকেন ও DRM সাপোর্টসহ)
+                  # ২. M3U ফাইল তৈরি (শুধুমাত্র আসল ভিডিও স্ট্রিম সহ)
                   m3u_data = generate_m3u(name, current_source_items, src_total, src_live, current_time)
                   with open(f"{slug}.m3u", "w", encoding="utf-8") as f:
                       f.write(m3u_data)
@@ -657,7 +737,7 @@ jobs:
           export TZ="Asia/Kolkata"
           git add *.json *.m3u *.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Playlists Synced with MPD DRM & Header Tags ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "Playlists Synced with Clean Video Streams Only ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
