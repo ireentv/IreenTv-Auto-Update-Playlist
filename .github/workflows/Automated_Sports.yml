@@ -33,7 +33,7 @@ jobs:
         run: |
           pip install requests pytz urllib3
 
-      - name: Fetch, Filter and Generate Separate JSON & Strict MPD/M3U8 M3U Playlists
+      - name: Fetch, Filter and Generate Separate JSON & All Multi-Server M3U Playlists
         env:
           JSON_PLAYLIST_URLS: ${{ secrets.JSON_PLAYLIST_URLS }}
         run: |
@@ -94,10 +94,7 @@ jobs:
               clean_path = u_str.split("|")[0].split("?")[0].lower()
               full_url = u_str.lower()
 
-              # পাথ বা সম্পূর্ণ লিংকের মধ্যে .m3u8 অথবা .mpd আছে কিনা চেক করা
               if ".m3u8" in clean_path or ".mpd" in clean_path or ".m3u8" in full_url or ".mpd" in full_url:
-                  # যদি এটি কোনো ব্রাউজার ওয়েব পেজ হয় তবে বাদ
-                  blocked_web_pages = [".html", ".htm", ".php", "/watch", "/live-match", "/event"]
                   if any(clean_path.endswith(ext) for ext in [".html", ".htm", ".php"]):
                       return False
                   return True
@@ -338,55 +335,71 @@ jobs:
                   "stream_url": stream_urls
               }
 
-          # ================= DEEP MULTI-SERVER STREAM EXTRACTOR (1 TO 10+ SERVERS) =================
+          # ================= ALL MULTI-SERVER STREAM EXTRACTOR (ALPHA, BRAVO & ALL 10+ SERVERS) =================
           def extract_all_mpd_m3u8_streams(item):
               """
-              আইটেমের যে কোনো ফিল্ড (stream_url, match_url, video_url, link_live, servers ইত্যাদি) 
-              গভীরে স্ক্যান করে শুধুমাত্র নিশ্চিত .m3u8 বা .mpd লিংকগুলো ১ থেকে ১০+ সার্ভার হিসেবে সাজাবে।
+              আইটেমের সমস্ত শাখা (stream_url_alpha, stream_url_bravo, stream_url, servers ইত্যাদি)
+              পুরোপুরি স্ক্যান করে সবগুলো ১ থেকে ১০+ সার্ভার উদ্ধার করে সুন্দর নাম সহ সাজাবে।
               """
               found_streams = []
-              seen_clean_urls = set()
+              seen_urls = set()
 
-              def collect(raw_url, label=""):
-                  if not raw_url or not isinstance(raw_url, str):
+              def add_url(u, label=""):
+                  if not u or not isinstance(u, str):
                       return
-                  # যদি কমা বা নতুন লাইনে একাধিক লিংক থাকে
-                  parts = re.split(r'[\r\n,]+', raw_url.strip())
-                  for p in parts:
-                      p_clean = p.strip()
-                      if is_mpd_or_m3u8(p_clean):
-                          base_compare = p_clean.split('|')[0].strip()
-                          if base_compare not in seen_clean_urls:
-                              seen_clean_urls.add(base_compare)
-                              found_streams.append((label, p_clean))
+                  for part in re.split(r'[\r\n,]+', u.strip()):
+                      clean_u = part.strip()
+                      if is_mpd_or_m3u8(clean_u):
+                          cmp_u = clean_u.split('|')[0].strip()
+                          if cmp_u not in seen_urls:
+                              seen_urls.add(cmp_u)
+                              found_streams.append((label.strip(), clean_u))
 
-              def scan_deep(obj, current_key=""):
-                  if isinstance(obj, dict):
-                      for k, v in obj.items():
-                          k_lower = k.lower()
-                          # ইমেজ বা অন্যান্য ফিল্ড স্কিপ করা
-                          if k_lower in ["cover_image", "thumbnail", "logo", "thumbnailstandard", "thumbnailtv", "image", "website", "telegram", "synopsis", "description"]:
+              def crawl_item(data, parent_key=""):
+                  if isinstance(data, dict):
+                      for k, v in data.items():
+                          k_str = str(k).strip()
+                          k_lower = k_str.lower()
+                          # নন-মিডিয়া ফিল্ড বাদ দেওয়া
+                          if k_lower in ["cover_image", "thumbnail", "thumbnailstandard", "thumbnailtv", "image", "logo", "synopsis", "description", "website", "telegram", "time", "date"]:
                               continue
+
+                          # ক্যাটাগরি প্রিপেন্ড করা (যেমন: Alpha, Bravo)
+                          current_prefix = ""
+                          if parent_key:
+                              current_prefix = f"{parent_key} - {k_str}"
+                          else:
+                              current_prefix = k_str
+
                           if isinstance(v, str):
-                              lbl = k if any(x in k_lower for x in ["server", "stream", "link", "video", "source"]) else ""
-                              collect(v, label=lbl)
-                          else:
-                              scan_deep(v, current_key=k)
-                  elif isinstance(obj, list):
-                      for idx, el in enumerate(obj, 1):
+                              add_url(v, label=current_prefix)
+                          elif isinstance(v, (dict, list)):
+                              crawl_item(v, parent_key=current_prefix if any(x in k_lower for x in ["alpha", "bravo", "charlie", "delta", "stream", "server", "feed", "link"]) else parent_key)
+                  elif isinstance(data, list):
+                      for idx, el in enumerate(data, 1):
+                          lbl = f"{parent_key} {idx}".strip() if parent_key else f"Server {idx}"
                           if isinstance(el, str):
-                              collect(el, label=f"Server {idx}")
-                          else:
-                              scan_deep(el, current_key=f"Server {idx}")
+                              add_url(el, label=lbl)
+                          elif isinstance(el, (dict, list)):
+                              crawl_item(el, parent_key=lbl)
 
-              # পুরো আইটেম ডিপ-স্ক্যান করা
-              scan_deep(item)
+              # সম্পূর্ণ আইটেম রিকার্সিভলি ক্রল করা
+              crawl_item(item)
 
-              # সার্ভার ১ থেকে ১০+ নাম্বারিং করা
+              # সবকটি সার্ভার সুন্দর টাইটেলে সাজানো (Alpha - Fastly Server, Bravo - Fastly Server...)
               servers = {}
-              for idx, (lbl, u) in enumerate(found_streams, 1):
-                  server_name = f"Server {idx}"
-                  servers[server_name] = u
+              for idx, (lbl, url) in enumerate(found_streams, 1):
+                  clean_lbl = lbl.replace("stream_url_", "").replace("stream_url", "").replace("_", " ").strip()
+                  if clean_lbl.startswith("- "):
+                      clean_lbl = clean_lbl[2:].strip()
+
+                  if clean_lbl and clean_lbl.lower() not in ["match url", "url", "stream", "video url", "link"]:
+                      final_label = clean_lbl.title()
+                      if final_label in servers:
+                          final_label = f"{final_label} ({idx})"
+                      servers[final_label] = url
+                  else:
+                      servers[f"Server {idx}"] = url
 
               return servers
 
@@ -443,12 +456,12 @@ jobs:
                   elif isinstance(obj, dict):
                       is_match_item = False
                       has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id", "fixture_id", "EntityId", "CategoryId"])
-                      has_media = any(k in obj for k in ["link_live", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL", "ThumbnailStandard", "ThumbnailTV"])
+                      has_media = any(k in obj for k in ["link_live", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "stream_url_bravo", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL", "ThumbnailStandard", "ThumbnailTV", "drm_key"])
                       has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "league_name", "timelive", "is_playing", "VideoName", "CategoryName", "StageName"])
 
                       if (has_id and (has_media or has_sports)) or has_media:
                           is_match_item = True
-                      elif any(k in obj for k in ["title", "name", "VideoName", "CategoryName"]) and any(k in obj for k in ["match_url", "status", "Status", "stream_url", "cover_image", "time", "start_time", "bd_time", "link_live"]):
+                      elif any(k in obj for k in ["title", "name", "VideoName", "CategoryName"]) and any(k in obj for k in ["match_url", "status", "Status", "stream_url", "stream_url_alpha", "cover_image", "time", "start_time", "bd_time", "link_live"]):
                           is_match_item = True
 
                       if is_match_item:
@@ -544,8 +557,9 @@ jobs:
                       headers["Cookie"] = str(item_meta[ck_k]).strip()
                       break
 
+              # DRM Key খোঁজা
               clearkey_val = ""
-              for ck_name in ["clearkey", "clear_key", "drm_key", "key", "keys", "license_key", "drm"]:
+              for ck_name in ["drm_key", "clearkey", "clear_key", "key", "keys", "license_key", "drm"]:
                   if ck_name in item_meta and item_meta[ck_name]:
                       val = item_meta[ck_name]
                       if isinstance(val, str) and (":" in val or len(val) >= 32):
@@ -635,15 +649,13 @@ jobs:
                   title = it.get("title") or it.get("VideoName") or it.get("name") or "Live Event"
                   logo = it.get("cover_image") or it.get("ThumbnailTV") or it.get("ThumbnailStandard") or ""
                   
-                  # নিশ্চিত .mpd ও .m3u8 মাল্টি-সার্ভার লিংক সংগ্রহ (১ থেকে ১০+ সার্ভার)
+                  # Alpha, Bravo সহ সমস্ত ১০+ সার্ভার উদ্ধার
                   streams = extract_all_mpd_m3u8_streams(it)
 
-                  # যদি কোনো বৈধ .mpd বা .m3u8 না পাওয়া যায়, তবে এটি বাদ যাবে
                   if not streams:
                       continue
 
                   for s_name, s_url in streams.items():
-                      # একাধিক সার্ভার থাকলে ব্র্যাকেটে (Server 1), (Server 2) দেখাবে, ১টি থাকলে মূল নাম থাকবে
                       stream_title = f"{title} ({s_name})" if len(streams) > 1 else title
                       lines.append(build_m3u_channel_block(stream_title, logo, playlist_name, s_url, it))
 
@@ -680,7 +692,7 @@ jobs:
                   src_total = len(final_json_events)
                   src_live = sum(1 for it in final_json_events if is_live_event(it))
 
-                  # ১. JSON ফাইল তৈরি (অপরিবর্তিত পারফেক্ট জেসন)
+                  # ১. JSON ফাইল তৈরি
                   source_json = {
                       "playlist_name": name,
                       "developer": "MD ANAMUL HOQUE",
@@ -694,7 +706,7 @@ jobs:
                   with open(f"{slug}.json", "w", encoding="utf-8") as f:
                       json.dump(source_json, f, indent=2, ensure_ascii=False)
 
-                  # ২. M3U ফাইল তৈরি (কড়া .m3u8 / .mpd এবং মাল্টি-সার্ভার চেকিং সহ)
+                  # ২. M3U ফাইল তৈরি (Alpha, Bravo সহ সমস্ত ১০টি সার্ভার ও DRM Key সহ)
                   m3u_data = generate_m3u(name, current_source_items, src_total, src_live, current_time)
                   with open(f"{slug}.m3u", "w", encoding="utf-8") as f:
                       f.write(m3u_data)
@@ -709,7 +721,7 @@ jobs:
               except Exception as e:
                   print(f"❌ Error fetching {name} ({url}): {e}")
 
-          print(f"🎯 All playlists processed individually with Strict MPD/M3U8 & Multi-Server parsing!")
+          print(f"🎯 All playlists processed with complete Alpha & Bravo (10 Servers) Multi-Streams!")
           EOF
 
           python3 update_playlist.py
@@ -720,7 +732,7 @@ jobs:
           export TZ="Asia/Kolkata"
           git add *.json *.m3u *.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Playlists Synced with Strict MPD/M3U8 & Multi-Servers ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "Playlists Synced with Complete Alpha & Bravo Multi-Servers ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
