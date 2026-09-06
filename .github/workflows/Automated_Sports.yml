@@ -221,19 +221,6 @@ jobs:
               servers = {}
               found_urls = []
 
-              referer_val = (
-                  item.get("referer") or 
-                  item.get("referrer") or 
-                  item.get("referer_url") or 
-                  item.get("referrer_url") or 
-                  "https://iframe.rumsport8.live/"
-              )
-              if referer_val and not referer_val.endswith("/"):
-                  referer_val += "/"
-
-              user_agent_val = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-              suffix = f"|http-user-agent={user_agent_val}&http-referrer={referer_val}"
-
               if "link_live" in item and isinstance(item["link_live"], list):
                   for obj in item["link_live"]:
                       if isinstance(obj, dict):
@@ -264,12 +251,12 @@ jobs:
 
               seen_urls = []
               for u in found_urls:
-                  if u not in seen_urls:
-                      seen_urls.append(u)
+                  clean_u = u.split("|http-")[0] if "|http-" in u else u
+                  if clean_u not in seen_urls:
+                      seen_urls.append(clean_u)
 
               for idx, u in enumerate(seen_urls, 1):
-                  clean_u = u.split("|http-")[0] if "|http-" in u else u
-                  servers[f"Server {idx}"] = f"{clean_u}{suffix}"
+                  servers[f"Server {idx}"] = u
 
               return servers
 
@@ -425,7 +412,7 @@ jobs:
                   return slug.replace("_", " ").title(), slug.lower(), url
 
           # ================= M3U BUILDER =================
-          def generate_m3u(playlist_name, items, total_count, live_count, current_time):
+          def generate_m3u(playlist_name, items, total_count, live_count, current_time, is_bing=False):
               lines = ["#EXTM3U\n"]
               lines.append(f"# Playlist Name  : {playlist_name}\n")
               lines.append("# Developer      : MD ANAMUL HOQUE\n")
@@ -438,22 +425,51 @@ jobs:
               # অটোমেটিকভাবে সবার প্রথমে Promo চ্যানেল যুক্ত করা
               lines.append('#EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo\nhttps://ireentvlive.pages.dev/promo/master.m3u8\n\n')
 
+              bing_ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              bing_ref = "https://iframe.rumsport8.live/"
+
               for it in items:
                   title = it.get("title") or it.get("VideoName") or it.get("name") or "Live Event"
                   logo = it.get("cover_image") or it.get("ThumbnailTV") or it.get("ThumbnailStandard") or ""
                   streams = it.get("stream_url")
                   match_url = it.get("match_url", "")
 
+                  # ডিকশনারি স্ট্রিম (যেমন Bingstream, SonyLIV)
                   if isinstance(streams, dict) and streams:
                       for s_name, s_url in streams.items():
                           if not s_url or not str(s_url).startswith("http"):
                               continue
+                          clean_url = s_url.split("|http-")[0]
                           stream_title = f"{title} ({s_name})" if len(streams) > 1 else title
-                          lines.append(f'#EXTINF:-1 tvg-name="{stream_title}" tvg-logo="{logo}" group-title="{playlist_name}",{stream_title}\n{s_url}\n')
+                          lines.append(f'#EXTINF:-1 tvg-name="{stream_title}" tvg-logo="{logo}" group-title="{playlist_name}",{stream_title}\n')
+                          
+                          if is_bing:
+                              lines.append(f'#EXTVLCOPT:http-user-agent={bing_ua}\n')
+                              lines.append(f'#EXTVLCOPT:http-referrer={bing_ref}\n')
+                          
+                          lines.append(f'{clean_url}\n')
+
+                  # সরাসরি স্ট্রিং লিঙ্ক স্ট্রিম (যেমন Tapmad)
                   elif isinstance(streams, str) and streams.startswith("http"):
-                      lines.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{playlist_name}",{title}\n{streams}\n')
+                      clean_url = streams.split("|http-")[0]
+                      lines.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{playlist_name}",{title}\n')
+                      
+                      if is_bing:
+                          lines.append(f'#EXTVLCOPT:http-user-agent={bing_ua}\n')
+                          lines.append(f'#EXTVLCOPT:http-referrer={bing_ref}\n')
+                          
+                      lines.append(f'{clean_url}\n')
+
+                  # ব্যাকআপ লিঙ্ক
                   elif match_url and str(match_url).startswith("http"):
-                      lines.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{playlist_name}",{title}\n{match_url}\n')
+                      clean_url = match_url.split("|http-")[0]
+                      lines.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{playlist_name}",{title}\n')
+                      
+                      if is_bing:
+                          lines.append(f'#EXTVLCOPT:http-user-agent={bing_ua}\n')
+                          lines.append(f'#EXTVLCOPT:http-referrer={bing_ref}\n')
+                          
+                      lines.append(f'{clean_url}\n')
 
               return "".join(lines)
 
@@ -483,13 +499,12 @@ jobs:
                       else:
                           current_source_items.append(it)
 
-                  # JSON events এর শুরুতে Promo আইটেম যুক্ত করা
                   final_json_events = [PROMO_ITEM] + current_source_items
 
                   src_total = len(final_json_events)
                   src_live = sum(1 for it in final_json_events if is_live_event(it))
 
-                  # ১. JSON ফাইল তৈরি (সবার শুরুতে Promo থাকবে)
+                  # ১. JSON ফাইল তৈরি
                   source_json = {
                       "playlist_name": name,
                       "developer": "MD ANAMUL HOQUE",
@@ -503,8 +518,8 @@ jobs:
                   with open(f"{slug}.json", "w", encoding="utf-8") as f:
                       json.dump(source_json, f, indent=2, ensure_ascii=False)
 
-                  # ২. M3U ফাইল তৈরি (শুরুতে ডিটেইলস এবং Promo সহ)
-                  m3u_data = generate_m3u(name, current_source_items, src_total, src_live, current_time)
+                  # ২. M3U ফাইল তৈরি (Bingstream এর জন্য EXTVLCOPT সহ)
+                  m3u_data = generate_m3u(name, current_source_items, src_total, src_live, current_time, is_bing=is_bing_source)
                   with open(f"{slug}.m3u", "w", encoding="utf-8") as f:
                       f.write(m3u_data)
 
@@ -518,7 +533,7 @@ jobs:
               except Exception as e:
                   print(f"❌ Error fetching {name} ({url}): {e}")
 
-          print(f"🎯 All playlists processed individually with Promo added at the top!")
+          print(f"🎯 All playlists processed individually!")
           EOF
 
           python3 update_playlist.py
@@ -529,7 +544,7 @@ jobs:
           export TZ="Asia/Kolkata"
           git add *.json *.m3u *.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Playlists Synced with Promo at Top ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "Bingstream M3U Updated with EXTVLCOPT Headers ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
