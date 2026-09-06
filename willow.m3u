@@ -5,12 +5,16 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 21
 # Live Count     : 2
-# Last Update    : 02:52 AM 07-09-2026
+# Last Update    : 03:01 AM 07-09-2026
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
 
 #EXTINF:-1 tvg-name="Caribbean Premier League 2026 - 28th Match - Guyana Amazon Warriors vs St Kitts And Nevis Patriots" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.12cc25f7-2cdc-4617-94b7-1042fc0b6d9a/3/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="willow",Caribbean Premier League 2026 - 28th Match - Guyana Amazon Warriors vs St Kitts And Nevis Patriots
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=496c0620ac8432f5bb4b5172e5a390ea:95cb4176cfc7f814f15c81f8fde53cb8
 https://www.amazon.com/gp/video/detail/B0HCXKWCQ3?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_1
 #EXTINF:-1 tvg-name="Caribbean Premier League 2026 - 29th Match - Barbados Tridents vs Saint Lucia Kings" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.9da8db61-ef50-46bb-8625-1f675f4f301a/6/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="willow",Caribbean Premier League 2026 - 29th Match - Barbados Tridents vs Saint Lucia Kings
 https://www.amazon.com/gp/video/detail/B0H99D4V72?jic=32%7CCgh3aWxsb3d0dhIMc3Vic2NyaXB0aW9u&ref_=atv_3p_amz_c_Gu0OSt_2_2
