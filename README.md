@@ -46,7 +46,7 @@
 https://raw.githubusercontent.com/ireentv/IreenTv-Auto-Update-Playlist/refs/heads/main/bingstream.m3u
 
 
-
+```
 
 
 ⚙️ সিস্টেম আর্কিটেকচার (How It Works)
