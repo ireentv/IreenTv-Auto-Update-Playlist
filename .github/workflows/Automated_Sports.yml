@@ -139,6 +139,58 @@ jobs:
                   "stream_url": stream_urls
               }
 
+          # ================= TAPMAD =================
+          def is_tapmad_item(item):
+              if not isinstance(item, dict):
+                  return False
+              return any(k in item for k in ["EntityId", "VideoName", "CategoryName", "ThumbnailStandard", "ThumbnailTV", "CategoryId", "UrlSlug"])
+
+          def transform_tapmad_item(item):
+              video_name = item.get("VideoName") or ""
+              category_name = item.get("CategoryName") or ""
+              stage = item.get("StageName") or ""
+
+              if category_name and video_name and category_name.lower() not in video_name.lower():
+                  title = f"{category_name} - {video_name}"
+              else:
+                  title = video_name or category_name or item.get("title") or "Sports Match"
+
+              if stage and stage not in title:
+                  title = f"{title} ({stage})"
+
+              synopsis = item.get("Description") or item.get("synopsis") or title
+              cover_image = item.get("ThumbnailTV") or item.get("ThumbnailStandard") or item.get("Thumbnail") or item.get("cover_image") or ""
+
+              stream_urls = {}
+              raw_stream = item.get("stream_url") or item.get("StreamUrl") or item.get("videoURL") or item.get("video_url") or ""
+              if isinstance(raw_stream, str) and raw_stream.startswith("http"):
+                  stream_urls["Server 1"] = raw_stream.strip()
+              elif isinstance(raw_stream, dict):
+                  stream_urls = raw_stream
+              elif isinstance(raw_stream, list):
+                  for idx, u in enumerate(raw_stream, 1):
+                      if isinstance(u, str) and u.startswith("http"):
+                          stream_urls[f"Server {idx}"] = u.strip()
+
+              first_url = next(iter(stream_urls.values())) if stream_urls else ""
+              match_url = item.get("match_url") or first_url or ""
+
+              status_val = str(item.get("Status") or item.get("status") or "")
+              is_live = True if "live" in status_val.lower() or is_live_event(item) else False
+              status = "LIVE" if is_live else (status_val.upper() if status_val else "UPCOMING")
+
+              return {
+                  "match_id": str(item.get("EntityId") or item.get("CategoryId") or item.get("id") or ""),
+                  "title": title,
+                  "synopsis": synopsis,
+                  "status": status,
+                  "time": item.get("EventStartDate") or item.get("time") or "",
+                  "cover_image": cover_image,
+                  "match_url": match_url,
+                  "is_free": item.get("IsFreeToWatch", False),
+                  "stream_url": stream_urls
+              }
+
           # ================= BINGSTREAM =================
           def is_bingstream_item(item):
               if not isinstance(item, dict):
@@ -267,6 +319,8 @@ jobs:
               if isinstance(stream_obj, dict):
                   if any(str(v).startswith("http") for v in stream_obj.values() if v):
                       return True
+              elif isinstance(stream_obj, str) and stream_obj.startswith("http"):
+                  return True
 
               for k in ["is_live", "live", "isLive", "islive", "is_stream_live"]:
                   if k in item:
@@ -281,7 +335,7 @@ jobs:
                       if val in [True, 1, "true", "1", "live", "yes", "True", "LIVE"]:
                           return True
 
-              for k in ["status", "event_status", "match_status", "badge", "state"]:
+              for k in ["status", "event_status", "match_status", "badge", "state", "Status"]:
                   if k in item and isinstance(item[k], str) and "live" in item[k].lower():
                       return True
                   if k in v_info and isinstance(v_info[k], str) and "live" in v_info[k].lower():
@@ -298,13 +352,13 @@ jobs:
                           walk(elem)
                   elif isinstance(obj, dict):
                       is_match_item = False
-                      has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id", "fixture_id"])
-                      has_media = any(k in obj for k in ["link_live", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL"])
-                      has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "league_name", "timelive", "is_playing"])
+                      has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id", "fixture_id", "EntityId", "CategoryId"])
+                      has_media = any(k in obj for k in ["link_live", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL", "ThumbnailStandard", "ThumbnailTV"])
+                      has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "league_name", "timelive", "is_playing", "VideoName", "CategoryName", "StageName"])
 
                       if (has_id and (has_media or has_sports)) or has_media:
                           is_match_item = True
-                      elif any(k in obj for k in ["title", "name"]) and any(k in obj for k in ["match_url", "status", "stream_url", "cover_image", "time", "start_time", "bd_time", "link_live"]):
+                      elif any(k in obj for k in ["title", "name", "VideoName", "CategoryName"]) and any(k in obj for k in ["match_url", "status", "Status", "stream_url", "cover_image", "time", "start_time", "bd_time", "link_live"]):
                           is_match_item = True
 
                       if is_match_item:
@@ -320,7 +374,7 @@ jobs:
               seen = set()
               unique_items = []
               for it in items:
-                  uid = it.get("contentId") or it.get("match_id") or it.get("eventId") or it.get("id") or it.get("title") or it.get("name")
+                  uid = it.get("contentId") or it.get("match_id") or it.get("eventId") or it.get("id") or it.get("EntityId") or it.get("title") or it.get("VideoName") or it.get("name")
                   if uid and uid not in seen:
                       seen.add(uid)
                       unique_items.append(it)
@@ -344,6 +398,8 @@ jobs:
                   return "PrimeVideo", "primevideo", url
               elif "sony" in url_lower:
                   return "Sony LIV", "sonyliv", url
+              elif "tapmad" in url_lower:
+                  return "Tapmad", "tapmad", url
               elif "bing" in url_lower or "bingstream" in url_lower:
                   return "Bingstream", "bingstream", url
               elif "sports_data" in url_lower:
@@ -357,17 +413,24 @@ jobs:
           def generate_m3u(playlist_name, items):
               lines = ["#EXTM3U\n"]
               for it in items:
-                  title = it.get("title") or "Live Event"
-                  logo = it.get("cover_image") or ""
-                  streams = it.get("stream_url", {})
+                  title = it.get("title") or it.get("VideoName") or it.get("name") or "Live Event"
+                  logo = it.get("cover_image") or it.get("ThumbnailTV") or it.get("ThumbnailStandard") or ""
+                  streams = it.get("stream_url")
                   match_url = it.get("match_url", "")
 
+                  # যদি streams ডিকশনারি হয় (যেমন Bingstream, SonyLIV)
                   if isinstance(streams, dict) and streams:
                       for s_name, s_url in streams.items():
                           if not s_url or not str(s_url).startswith("http"):
                               continue
                           stream_title = f"{title} ({s_name})" if len(streams) > 1 else title
                           lines.append(f'#EXTINF:-1 tvg-name="{stream_title}" tvg-logo="{logo}" group-title="{playlist_name}",{stream_title}\n{s_url}\n')
+                  
+                  # যদি stream_url সরাসরি স্ট্রিং লিঙ্ক হয় (যেমন Tapmad)
+                  elif isinstance(streams, str) and streams.startswith("http"):
+                      lines.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{playlist_name}",{title}\n{streams}\n')
+                  
+                  # ব্যাকআপ হিসেবে match_url চেক করা
                   elif match_url and str(match_url).startswith("http"):
                       lines.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{playlist_name}",{title}\n{match_url}\n')
 
@@ -380,7 +443,8 @@ jobs:
               name, slug, url = get_playlist_info(line)
               current_source_items = []
               is_bing_source = ("bing" in name.lower() or "bing" in url.lower() or "bingstream" in url.lower())
-              
+              is_tapmad_source = ("tapmad" in name.lower() or "tapmad" in url.lower())
+
               try:
                   print(f"[{idx}/{len(lines)}] Fetching: {name} from {url[:45]}...")
                   raw_json = fetch_data(url)
@@ -391,6 +455,8 @@ jobs:
                           continue
                       if is_sonyliv_item(it):
                           current_source_items.append(transform_sonyliv_item(it))
+                      elif is_tapmad_source or is_tapmad_item(it):
+                          current_source_items.append(transform_tapmad_item(it))
                       elif is_bing_source or is_bingstream_item(it):
                           current_source_items.append(transform_bingstream_item(it))
                       else:
