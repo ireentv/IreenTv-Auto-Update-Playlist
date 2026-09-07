@@ -732,7 +732,7 @@ jobs:
           export TZ="Asia/Kolkata"
           git add *.json *.m3u *.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Playlists Synced with Complete Alpha & Bravo Multi-Servers ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "🤖 Playlists Synced with Complete Alpha & Bravo Multi-Servers ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
