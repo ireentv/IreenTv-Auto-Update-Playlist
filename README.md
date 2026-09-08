@@ -43,6 +43,10 @@
 আপনার পছন্দের IPTV প্লেয়ারে নিচের ফরম্যাটে সরাসরি লিংক ব্যবহার করতে পারেন:
 
 ```text
+https://raw.githubusercontent.com/ireentv/IreenTv-Auto-Update-Playlist/refs/heads/main/willow.m3u
+https://raw.githubusercontent.com/ireentv/IreenTv-Auto-Update-Playlist/refs/heads/main/tapmad.m3u
+https://raw.githubusercontent.com/ireentv/IreenTv-Auto-Update-Playlist/refs/heads/main/sony_liv.m3u
+https://raw.githubusercontent.com/ireentv/IreenTv-Auto-Update-Playlist/refs/heads/main/primevideo.m3u
 https://raw.githubusercontent.com/ireentv/IreenTv-Auto-Update-Playlist/refs/heads/main/bingstream.m3u
 
 
