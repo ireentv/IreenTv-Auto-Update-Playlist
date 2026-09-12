@@ -194,7 +194,7 @@ jobs:
                   title = f"{title} ({stage})"
 
               synopsis = item.get("Description") or item.get("synopsis") or title
-              cover_image = item.get("ThumbnailTV") or item.get("ThumbnailStandard") or item.get("Thumbnail") or item.get("cover_image") or ""
+              cover_image = item.get("ThumbnailTV") or item.get("ThumbnailStandard") or item.get("Thumbnail") or item.get("cover_image") or item.get("logo") or ""
 
               stream_urls = {}
               raw_stream = item.get("stream_url") or item.get("StreamUrl") or item.get("videoURL") or item.get("video_url") or ""
@@ -304,6 +304,7 @@ jobs:
                   item.get("league_logo") or 
                   item.get("localteam_logo") or 
                   item.get("visitorteam_logo") or 
+                  item.get("logo") or
                   item.get("image") or ""
               )
 
@@ -335,14 +336,13 @@ jobs:
                   "stream_url": stream_urls
               }
 
-          # ================= ALL MULTI-SERVER STREAM EXTRACTOR (ALPHA, BRAVO & ALL 10+ SERVERS) =================
+          # ================= ALL MULTI-SERVER STREAM EXTRACTOR =================
           def extract_all_mpd_m3u8_streams(item):
               """
-              আইটেমের সমস্ত শাখা (stream_url_alpha, stream_url_bravo, stream_url, servers ইত্যাদি)
-              পুরোপুরি স্ক্যান করে সবগুলো ১ থেকে ১০+ সার্ভার উদ্ধার করে সুন্দর নাম সহ সাজাবে।
+              আইটেমের সমস্ত শাখা পুরোপুরি স্ক্যান করে সবগুলো সার্ভার উদ্ধার করে।
+              হেডারযুক্ত লিংক অগ্রাধিকার পাবে।
               """
-              found_streams = []
-              seen_urls = set()
+              found_streams = {}
 
               def add_url(u, label=""):
                   if not u or not isinstance(u, str):
@@ -351,25 +351,21 @@ jobs:
                       clean_u = part.strip()
                       if is_mpd_or_m3u8(clean_u):
                           cmp_u = clean_u.split('|')[0].strip()
-                          if cmp_u not in seen_urls:
-                              seen_urls.add(cmp_u)
-                              found_streams.append((label.strip(), clean_u))
+                          # যদি আগে না থাকে বা বর্তমান লিংকটিতে পাইপ (|) হেডার থাকে তবে আপডেট হবে
+                          if cmp_u not in found_streams:
+                              found_streams[cmp_u] = (label.strip(), clean_u)
+                          elif "|" in clean_u and "|" not in found_streams[cmp_u][1]:
+                              found_streams[cmp_u] = (label.strip() or found_streams[cmp_u][0], clean_u)
 
               def crawl_item(data, parent_key=""):
                   if isinstance(data, dict):
                       for k, v in data.items():
                           k_str = str(k).strip()
                           k_lower = k_str.lower()
-                          # নন-মিডিয়া ফিল্ড বাদ দেওয়া
-                          if k_lower in ["cover_image", "thumbnail", "thumbnailstandard", "thumbnailtv", "image", "logo", "synopsis", "description", "website", "telegram", "time", "date"]:
+                          if k_lower in ["cover_image", "thumbnail", "thumbnailstandard", "thumbnailtv", "image", "logo", "synopsis", "description", "website", "telegram", "time", "date", "event_page"]:
                               continue
 
-                          # ক্যাটাগরি প্রিপেন্ড করা (যেমন: Alpha, Bravo)
-                          current_prefix = ""
-                          if parent_key:
-                              current_prefix = f"{parent_key} - {k_str}"
-                          else:
-                              current_prefix = k_str
+                          current_prefix = f"{parent_key} - {k_str}" if parent_key else k_str
 
                           if isinstance(v, str):
                               add_url(v, label=current_prefix)
@@ -383,12 +379,10 @@ jobs:
                           elif isinstance(el, (dict, list)):
                               crawl_item(el, parent_key=lbl)
 
-              # সম্পূর্ণ আইটেম রিকার্সিভলি ক্রল করা
               crawl_item(item)
 
-              # সবকটি সার্ভার সুন্দর টাইটেলে সাজানো (Alpha - Fastly Server, Bravo - Fastly Server...)
               servers = {}
-              for idx, (lbl, url) in enumerate(found_streams, 1):
+              for idx, (lbl, url) in enumerate(found_streams.values(), 1):
                   clean_lbl = lbl.replace("stream_url_", "").replace("stream_url", "").replace("_", " ").strip()
                   if clean_lbl.startswith("- "):
                       clean_lbl = clean_lbl[2:].strip()
@@ -455,13 +449,13 @@ jobs:
                           walk(elem)
                   elif isinstance(obj, dict):
                       is_match_item = False
-                      has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id", "fixture_id", "EntityId", "CategoryId"])
-                      has_media = any(k in obj for k in ["link_live", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "stream_url_bravo", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL", "ThumbnailStandard", "ThumbnailTV", "drm_key"])
-                      has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "league_name", "timelive", "is_playing", "VideoName", "CategoryName", "StageName"])
+                      has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id", "fixture_id", "EntityId", "CategoryId", "chno"])
+                      has_media = any(k in obj for k in ["link_live", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "stream_url_bravo", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL", "ThumbnailStandard", "ThumbnailTV", "drm_key", "url"])
+                      has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "league_name", "timelive", "is_playing", "VideoName", "CategoryName", "StageName", "sport", "event"])
 
                       if (has_id and (has_media or has_sports)) or has_media:
                           is_match_item = True
-                      elif any(k in obj for k in ["title", "name", "VideoName", "CategoryName"]) and any(k in obj for k in ["match_url", "status", "Status", "stream_url", "stream_url_alpha", "cover_image", "time", "start_time", "bd_time", "link_live"]):
+                      elif any(k in obj for k in ["title", "name", "VideoName", "CategoryName", "event"]) and any(k in obj for k in ["match_url", "status", "Status", "stream_url", "stream_url_alpha", "cover_image", "time", "start_time", "bd_time", "link_live", "url"]):
                           is_match_item = True
 
                       if is_match_item:
@@ -477,7 +471,21 @@ jobs:
               seen = set()
               unique_items = []
               for it in items:
-                  uid = it.get("contentId") or it.get("match_id") or it.get("eventId") or it.get("id") or it.get("EntityId") or it.get("title") or it.get("VideoName") or it.get("name")
+                  # ফিক্সড: নাম, চ্যানেল নম্বর অথবা স্ট্রিম লিংক দিয়ে নিখুঁত ইউনিক আইডি তৈরি
+                  uid = (
+                      it.get("contentId") or 
+                      it.get("match_id") or 
+                      it.get("eventId") or 
+                      it.get("EntityId") or 
+                      (f"{it.get('name')}_{it.get('chno')}" if it.get('name') and it.get('chno') else None) or
+                      it.get("name") or 
+                      it.get("title") or 
+                      it.get("event") or
+                      it.get("VideoName") or 
+                      it.get("stream_url") or 
+                      it.get("url") or 
+                      it.get("id")
+                  )
                   if uid and uid not in seen:
                       seen.add(uid)
                       unique_items.append(it)
@@ -646,10 +654,10 @@ jobs:
               lines.append('#EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo\nhttps://ireentvlive.pages.dev/promo/master.m3u8\n\n')
 
               for it in items:
-                  title = it.get("title") or it.get("VideoName") or it.get("name") or "Live Event"
-                  logo = it.get("cover_image") or it.get("ThumbnailTV") or it.get("ThumbnailStandard") or ""
+                  title = it.get("title") or it.get("VideoName") or it.get("name") or it.get("event") or "Live Event"
+                  logo = it.get("cover_image") or it.get("ThumbnailTV") or it.get("ThumbnailStandard") or it.get("logo") or it.get("image") or ""
                   
-                  # Alpha, Bravo সহ সমস্ত ১০+ সার্ভার উদ্ধার
+                  # সমস্ত সার্ভার উদ্ধার
                   streams = extract_all_mpd_m3u8_streams(it)
 
                   if not streams:
@@ -706,7 +714,7 @@ jobs:
                   with open(f"{slug}.json", "w", encoding="utf-8") as f:
                       json.dump(source_json, f, indent=2, ensure_ascii=False)
 
-                  # ২. M3U ফাইল তৈরি (Alpha, Bravo সহ সমস্ত ১০টি সার্ভার ও DRM Key সহ)
+                  # ২. M3U ফাইল তৈরি
                   m3u_data = generate_m3u(name, current_source_items, src_total, src_live, current_time)
                   with open(f"{slug}.m3u", "w", encoding="utf-8") as f:
                       f.write(m3u_data)
@@ -721,7 +729,7 @@ jobs:
               except Exception as e:
                   print(f"❌ Error fetching {name} ({url}): {e}")
 
-          print(f"🎯 All playlists processed with complete Alpha & Bravo (10 Servers) Multi-Streams!")
+          print(f"🎯 All playlists processed successfully!")
           EOF
 
           python3 update_playlist.py
@@ -732,7 +740,7 @@ jobs:
           export TZ="Asia/Kolkata"
           git add *.json *.m3u *.txt
           if ! git diff --cached --quiet; then
-            git commit -m "🤖 Playlists Synced with Complete Alpha & Bravo Multi-Servers ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "🤖 Playlists Synced with Complete Multi-Servers ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
