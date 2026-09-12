@@ -1,0 +1,18 @@
+#EXTM3U
+# Playlist Name  : live_sports
+# Developer      : MD ANAMUL HOQUE
+# Telegram       : https://t.me/ireentv
+# Website        : https://anamul.pages.dev
+# Channels Amount: 2
+# Live Count     : 2
+# Last Update    : 01:20 AM 13-09-2026
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
+https://ireentvlive.pages.dev/promo/master.m3u8
+
+#EXTINF:-1 tvg-name="[Sunderland] Sunderland vs Arsenal --- CH 2 (FAWA)" tvg-logo="" group-title="live_sports",[Sunderland] Sunderland vs Arsenal --- CH 2 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+http://193.47.62.44/hls/JJJJX.m3u8|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
