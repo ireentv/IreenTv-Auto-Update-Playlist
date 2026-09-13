@@ -3,9 +3,9 @@
 # Developer      : MD ANAMUL HOQUE
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
-# Channels Amount: 37
-# Live Count     : 37
-# Last Update    : 01:13 AM 14-09-2026 BST
+# Channels Amount: 33
+# Live Count     : 33
+# Last Update    : 01:18 AM 14-09-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -345,6 +345,15 @@ http://193.47.62.41/hls/TAAADDDD.m3u8?|Referer=http://www.fawanews.sc/&Origin=ht
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Caribbean Premier League: BT vs GUY (TNT SPORTS - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11167/image/dark" group-title="live_events",Caribbean Premier League: BT vs GUY (TNT SPORTS - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Caribbean Premier League: BT vs GUY (TAPMAD FHD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11167/image/dark" group-title="live_events",Caribbean Premier League: BT vs GUY (TAPMAD FHD)
 #EXTVLCOPT:http-referrer=https://tapmad.com
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://tapmad.com
@@ -352,6 +361,8 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1
 https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8?|Referer=https://tapmad.com
 #EXTINF:-1 tvg-name="Caribbean Premier League: BT vs GUY (WILLOW HD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11167/image/dark" group-title="live_events",Caribbean Premier League: BT vs GUY (WILLOW HD)
 http://tvsen5.aynascope.net/willowhd/index.m3u8
+#EXTINF:-1 tvg-name="Caribbean Premier League: BT vs GUY (FOX CRICKET)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11167/image/dark" group-title="live_events",Caribbean Premier League: BT vs GUY (FOX CRICKET)
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8
 #EXTINF:-1 tvg-name="Womens Asia Cup: IND-W vs SL-W (WILLOW - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11220/image/dark" group-title="live_events",Womens Asia Cup: IND-W vs SL-W (WILLOW - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -394,23 +405,6 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2043696/cricodi1309/TEL/master.m
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6d89fadaa79a966b7e00f3c99f88e322-1789305000990
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6d89fadaa79a966b7e00f3c99f88e322-1789305000990
 https://sonymtmnew-akamaized.pages.dev/hls/live/2105080/cricodi1309/KAN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6d89fadaa79a966b7e00f3c99f88e322-1789305000990
-#EXTINF:-1 tvg-name="Trendyol Süper Lig: Amed vs Başakşehir (Cricfy Live)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/52/image/dark" group-title="live_events",Trendyol Süper Lig: Amed vs Başakşehir (Cricfy Live)
-#EXTVLCOPT:http-referrer=https://player.up909.com/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.up909.com/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.up909.com/
-https://live.uu6611.com/live/sd-1-4581306.m3u8?txSecret=d96f530cae976a35eaa9b92de826fdad&txTime=6AA71B32|Referer=https://player.up909.com/
-#EXTINF:-1 tvg-name="Trendyol Süper Lig: Amed vs Başakşehir (Low)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/52/image/dark" group-title="live_events",Trendyol Süper Lig: Amed vs Başakşehir (Low)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-http://193.47.62.44/hls/TOOOA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-#EXTINF:-1 tvg-name="Liga Portugal Betclic: Arouca vs Santa Clara (SPORT TV HD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/238/image/dark" group-title="live_events",Liga Portugal Betclic: Arouca vs Santa Clara (SPORT TV HD)
-https://tmaxapp.site/pt658svs/sporttv2.m3u8
-#EXTINF:-1 tvg-name="Liga Portugal Betclic: Arouca vs Santa Clara (Low)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/238/image/dark" group-title="live_events",Liga Portugal Betclic: Arouca vs Santa Clara (Low)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-http://193.47.62.44/hls/zhhhQQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 #EXTINF:-1 tvg-name="LaLiga: Real Sociedad vs Atl. Madrid (TSN SPORTS FHD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_events",LaLiga: Real Sociedad vs Atl. Madrid (TSN SPORTS FHD)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -472,10 +466,39 @@ https://tmaxapp.site/8wirwjs76erftg/bein3ar.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.up909.com/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.up909.com/
 https://live.uu6611.com/live/sd-1-4599600.m3u8?txSecret=27b7ce53d88731d2bb03d33098f3a918&txTime=6AA72B9A|Referer=https://player.up909.com/
+#EXTINF:-1 tvg-name="Ligue 1: Brest vs PSG (beIN Multi Commentary)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_events",Ligue 1: Brest vs PSG (beIN Multi Commentary)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/zjnol8ijrw/out/v1/27aac1f9df984d65a9d4b95d234f4468/6a39f782-9ceb-4c64-9094-fde10481983b-cenc.mpd?aws_sessionId=ae7cb031-c872-4975-b4bd-192427ac338c
+#EXTINF:-1 tvg-name="Ligue 1: Brest vs PSG (beIN USA HD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_events",Ligue 1: Brest vs PSG (beIN USA HD)
+#EXTVLCOPT:http-referrer=https://streamscenter.online/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
+https://edgestream4.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
+#EXTINF:-1 tvg-name="Ligue 1: Brest vs PSG (Cricfy Live)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_events",Ligue 1: Brest vs PSG (Cricfy Live)
+#EXTVLCOPT:http-referrer=https://player.up909.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.up909.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.up909.com/
+https://live.uu6611.com/live/hd-en-1-4550870.m3u8?txSecret=ad7b310f8c0ab11fd05e293ccbf5dcf4&txTime=6AA7351D|Referer=https://player.up909.com/
+#EXTINF:-1 tvg-name="Ligue 1: Brest vs PSG (HD QUALITY)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_events",Ligue 1: Brest vs PSG (HD QUALITY)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+https://www.rtmpcdn.com/live/c3958402-8787-4467-a05e-0c56ac37fe45.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+#EXTINF:-1 tvg-name="Ligue 1: Brest vs PSG (Low)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_events",Ligue 1: Brest vs PSG (Low)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+http://193.47.62.44/hls/FPPPAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 #EXTINF:-1 tvg-name="VriendenLoterij Eredivisie: PSV vs Sparta" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/37/image/dark" group-title="live_events",VriendenLoterij Eredivisie: PSV vs Sparta
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="LaLiga 2: Tenerife vs Leganés" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/54/image/dark" group-title="live_events",LaLiga 2: Tenerife vs Leganés
-http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+http://193.47.62.41/hls/zpppAAAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 #EXTINF:-1 tvg-name="Serie A: Sassuolo vs Juventus (TNT Sports - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_events",Serie A: Sassuolo vs Juventus (TNT Sports - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -528,39 +551,6 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Liga Portugal Betclic: Famalicão vs Sporting (SPORT TV)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/238/image/dark" group-title="live_events",Liga Portugal Betclic: Famalicão vs Sporting (SPORT TV)
 https://tmaxapp.site/pt658svs/sporttv1.m3u8
-#EXTINF:-1 tvg-name="Liga Portugal Betclic: Benfica vs Gil Vicente (D Sports - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/238/image/dark" group-title="live_events",Liga Portugal Betclic: Benfica vs Gil Vicente (D Sports - AQ)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Liga Portugal Betclic: Benfica vs Gil Vicente (SportDigital Fussball - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/238/image/dark" group-title="live_events",Liga Portugal Betclic: Benfica vs Gil Vicente (SportDigital Fussball - AQ)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Liga Portugal Betclic: Benfica vs Gil Vicente (CricfyTV.Net)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/238/image/dark" group-title="live_events",Liga Portugal Betclic: Benfica vs Gil Vicente (CricfyTV.Net)
-#EXTVLCOPT:http-referrer=https://player.up909.com/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.up909.com/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.up909.com/
-https://live.uu6611.com/live/sd-1-4578197.m3u8?txSecret=d719e47bfb9bffcb3df4b3cc1c7e9c71&txTime=6AA71B49|Referer=https://player.up909.com/
-#EXTINF:-1 tvg-name="Trendyol Süper Lig: Galatasaray vs Kocaelispor (Cricfy Live)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/52/image/dark" group-title="live_events",Trendyol Süper Lig: Galatasaray vs Kocaelispor (Cricfy Live)
-#EXTVLCOPT:http-referrer=https://player.up909.com/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.up909.com/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.up909.com/
-https://live.uu6611.com/live/sd-1-4581309.m3u8?txSecret=8fb45c2a003b3db89fbc4b82c2aa20ce&txTime=6AA71B1A|Referer=https://player.up909.com/
-#EXTINF:-1 tvg-name="Trendyol Süper Lig: Galatasaray vs Kocaelispor (Low)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/52/image/dark" group-title="live_events",Trendyol Süper Lig: Galatasaray vs Kocaelispor (Low)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-http://193.47.62.44/hls/TOOOAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 #EXTINF:-1 tvg-name="MLB: Yankees vs Mets" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark" group-title="live_events",MLB: Yankees vs Mets
 #EXTVLCOPT:http-referrer=https://streame.center/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
