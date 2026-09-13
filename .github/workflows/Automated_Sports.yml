@@ -1,4 +1,4 @@
-name: Automated Sports Data JSON & All TXT Updater
+name: Automated Sports Data JSON & M3U Updater
 
 on:
   schedule:
@@ -50,11 +50,83 @@ jobs:
 
           urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-          tz = pytz.timezone("Asia/Kolkata")
-          current_time = datetime.now(tz).strftime("%I:%M %p %d-%m-%Y")
+          tz_bd = pytz.timezone("Asia/Dhaka")
+          current_time = datetime.now(tz_bd).strftime("%I:%M %p %d-%m-%Y BST")
 
           raw_urls = os.environ.get("JSON_PLAYLIST_URLS", "")
           lines = [u.strip() for u in raw_urls.splitlines() if u.strip() and not u.strip().startswith("#")]
+
+          # ================= TIMEZONE CONVERTER TO BST =================
+          def convert_to_bangladesh_time(time_str):
+              """যেকোনো ফরম্যাটের IST, UTC বা সাধারণ সময়কে নিখুঁত বাংলাদেশ টাইমে (BST) রূপান্তর করে"""
+              if not time_str or not isinstance(time_str, (str, int, float)):
+                  return ""
+              
+              t_str = str(time_str).strip()
+              if not t_str or t_str.lower() in ["24/7", "live", "n/a", "none", "tbd"]:
+                  return t_str
+
+              bd_tz = pytz.timezone("Asia/Dhaka")
+              ist_tz = pytz.timezone("Asia/Kolkata")
+              utc_tz = pytz.timezone("UTC")
+
+              # যদি Epoch Timestamp হয়
+              if re.match(r'^\d{10,13}$', t_str):
+                  ts = int(t_str)
+                  if len(t_str) == 13:
+                      ts = ts / 1000.0
+                  dt = datetime.fromtimestamp(ts, tz=bd_tz)
+                  return dt.strftime("%d/%m/%Y %I:%M %p BST")
+
+              # টাইমজোন ট্যাগ শনাক্ত করা
+              is_ist = bool(re.search(r'\bIST\b', t_str, re.IGNORECASE))
+              is_utc = bool(re.search(r'\b(UTC|GMT|Z)\b', t_str, re.IGNORECASE))
+
+              # টাইমজোন টেক্সট পরিষ্কার করা
+              clean_t = re.sub(r'\s*(IST|UTC|GMT|BST|Z)\s*$', '', t_str, flags=re.IGNORECASE).strip()
+
+              formats = [
+                  "%d/%m/%Y %I:%M %p",
+                  "%d-%m-%Y %I:%M %p",
+                  "%Y-%m-%d %I:%M %p",
+                  "%d/%m/%Y %H:%M:%S",
+                  "%d/%m/%Y %H:%M",
+                  "%d-%m-%Y %H:%M:%S",
+                  "%d-%m-%Y %H:%M",
+                  "%Y-%m-%d %H:%M:%S",
+                  "%Y-%m-%d %H:%M",
+                  "%Y-%m-%dT%H:%M:%SZ",
+                  "%Y-%m-%dT%H:%M:%S%z",
+                  "%Y-%m-%dT%H:%M:%S.%fZ",
+                  "%Y-%m-%dT%H:%M:%S",
+                  "%I:%M %p %d-%m-%Y",
+                  "%I:%M %p %d/%m/%Y",
+                  "%b %d, %Y %I:%M %p",
+                  "%d %b %Y %I:%M %p",
+                  "%d %B %Y %I:%M %p"
+              ]
+
+              parsed_dt = None
+              for fmt in formats:
+                  try:
+                      parsed_dt = datetime.strptime(clean_t, fmt)
+                      break
+                  except ValueError:
+                      continue
+
+              if parsed_dt:
+                  if parsed_dt.tzinfo is not None:
+                      bd_dt = parsed_dt.astimezone(bd_tz)
+                  elif is_ist:
+                      bd_dt = ist_tz.localize(parsed_dt).astimezone(bd_tz)
+                  elif is_utc or "T" in clean_t:
+                      bd_dt = utc_tz.localize(parsed_dt).astimezone(bd_tz)
+                  else:
+                      bd_dt = ist_tz.localize(parsed_dt).astimezone(bd_tz)
+
+                  return bd_dt.strftime("%d/%m/%Y %I:%M %p BST")
+
+              return t_str
 
           # ================= PROMO ITEM CONFIG =================
           PROMO_ITEM = {
@@ -83,7 +155,6 @@ jobs:
 
           # ================= STRICT MPD & M3U8 CHECKER =================
           def is_mpd_or_m3u8(url):
-              """নিশ্চিত করে যে লিংকটিতে অবশ্যই .m3u8 অথবা .mpd ফরম্যাট আছে"""
               if not url or not isinstance(url, str):
                   return False
               
@@ -154,7 +225,9 @@ jobs:
 
               first_url = next(iter(stream_urls.values())) if stream_urls else ""
               match_url = item.get("match_url") or first_url or ""
-              time_val = item.get("schedule_time") or item.get("time") or item.get("start_time") or ""
+              
+              raw_time = item.get("schedule_time") or item.get("time") or item.get("start_time") or ""
+              time_val = convert_to_bangladesh_time(raw_time)
 
               status = "LIVE" if (is_live_event(item) or len(stream_urls) > 0) else (item.get("status") or "UPCOMING")
 
@@ -225,12 +298,13 @@ jobs:
                   match_url = f"https://www.sonyliv.com/custom-live/{content_id}" if content_id else ""
                   status = "LIVE" if is_live_event(item) else "UPCOMING"
 
-              time_val = (
+              raw_time = (
                   air_dates.get("originalAirDate") or 
                   air_dates.get("start_date") or 
                   item.get("time") or 
                   item.get("start_time") or ""
               )
+              time_val = convert_to_bangladesh_time(raw_time)
 
               return {
                   "match_id": str(item.get("contentId") or item.get("match_id", "")),
@@ -284,12 +358,15 @@ jobs:
               is_live = True if "live" in status_val.lower() or is_live_event(item) else False
               status = "LIVE" if is_live else (status_val.upper() if status_val else "UPCOMING")
 
+              raw_time = item.get("EventStartDate") or item.get("time") or ""
+              time_val = convert_to_bangladesh_time(raw_time)
+
               return {
                   "match_id": str(item.get("EntityId") or item.get("CategoryId") or item.get("id") or ""),
                   "title": title,
                   "synopsis": synopsis,
                   "status": status,
-                  "time": item.get("EventStartDate") or item.get("time") or "",
+                  "time": time_val,
                   "cover_image": cover_image,
                   "match_url": match_url,
                   "is_free": item.get("IsFreeToWatch", False),
@@ -392,7 +469,9 @@ jobs:
 
               status = "LIVE" if is_live else (item.get("status") or "UPCOMING")
               match_id = str(item.get("id") or item.get("match_id") or item.get("contentId") or item.get("eventId") or "")
-              time_val = item.get("bd_time") or item.get("time") or item.get("start_time") or item.get("date") or ""
+              
+              raw_time = item.get("bd_time") or item.get("time") or item.get("start_time") or item.get("date") or ""
+              time_val = convert_to_bangladesh_time(raw_time)
 
               return {
                   "match_id": match_id,
@@ -634,7 +713,7 @@ jobs:
                       headers["Cookie"] = str(item_meta[ck_k]).strip()
                       break
 
-              # DRM Key খোঁজা
+              # DRM Key
               clearkey_val = ""
               for ck_name in ["drm_key", "clearkey", "clear_key", "key", "keys", "license_key", "drm"]:
                   if ck_name in item_meta and item_meta[ck_name]:
@@ -726,7 +805,6 @@ jobs:
                   title = it.get("title") or it.get("VideoName") or it.get("name") or it.get("event") or "Live Event"
                   logo = it.get("cover_image") or it.get("ThumbnailTV") or it.get("ThumbnailStandard") or it.get("logo") or it.get("image") or ""
                   
-                  # যদি আইটেমে মেটাডাটা সহ streams অ্যারে থাকে
                   if "streams" in it and isinstance(it["streams"], list) and len(it["streams"]) > 0:
                       for s in it["streams"]:
                           if not isinstance(s, dict):
@@ -799,11 +877,6 @@ jobs:
                   with open(f"{slug}.m3u", "w", encoding="utf-8") as f:
                       f.write(m3u_data)
 
-                  # ৩. TXT লগ ফাইল তৈরি
-                  log_line = f"🚀 {name} Synced | IST: {current_time} | Channels: {src_total} | Live: {src_live}\n"
-                  with open(f"{slug}.txt", "w", encoding="utf-8") as f:
-                      f.write(log_line)
-
                   print(f"✅ Success: {name} -> Created: {slug}.json & {slug}.m3u (Total: {src_total}, Live: {src_live})")
 
               except Exception as e:
@@ -817,10 +890,10 @@ jobs:
 
       - name: Commit and Push
         run: |
-          export TZ="Asia/Kolkata"
-          git add *.json *.m3u *.txt
+          export TZ="Asia/Dhaka"
+          git add *.json *.m3u
           if ! git diff --cached --quiet; then
-            git commit -m "🤖 Playlists Synced with Complete Multi-Servers ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "🤖 Playlists Synced (JSON & M3U Only) ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
