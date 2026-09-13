@@ -3,9 +3,9 @@
 # Developer      : MD ANAMUL HOQUE
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
-# Channels Amount: 95
+# Channels Amount: 87
 # Live Count     : 1
-# Last Update    : 11:21 PM 13-09-2026
+# Last Update    : 11:33 PM 13-09-2026
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -400,40 +400,18 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1
 https://tmaxapp.site/8wirwjs76erftg/bein3ar.m3u8
 #EXTINF:-1 tvg-name="Link 1" tvg-logo="" group-title="live_events",Link 1
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
-#EXTINF:-1 tvg-name="FUBO SPORTS - AQ" tvg-logo="" group-title="live_events",FUBO SPORTS - AQ
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd
-#EXTINF:-1 tvg-name="ESPN SPORTS - AQ" tvg-logo="" group-title="live_events",ESPN SPORTS - AQ
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cb004fb100bd92f23793562891e3236b:b3e4e74ae2080b137e68bbd0ef8a7e05
-https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(8757cb0a-3584-40cd-901e-8937c7deba83)/master.mpd
-#EXTINF:-1 tvg-name="SKY EPL" tvg-logo="" group-title="live_events",SKY EPL
-#EXTVLCOPT:http-user-agent=Mozilla
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla
-https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=|User-Agent=Mozilla
 #EXTINF:-1 tvg-name="CBS NETWORK" tvg-logo="" group-title="live_events",CBS NETWORK
 https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
 #EXTINF:-1 tvg-name="SPORT TV" tvg-logo="" group-title="live_events",SPORT TV
 https://tmaxapp.site/pt658svs/sporttv4.m3u8
-#EXTINF:-1 tvg-name="USA NETWORK" tvg-logo="" group-title="live_events",USA NETWORK
-#EXTVLCOPT:http-referrer=https://streamscenter.online/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-https://edgestream6.pro/hls/ueyeztrazb4.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-#EXTINF:-1 tvg-name="DAZN SPORTS" tvg-logo="" group-title="live_events",DAZN SPORTS
-https://tmaxapp.site/8wirwjs76erftg/dazn2de.m3u8
 #EXTINF:-1 tvg-name="PARAMOUNT+ - AQ" tvg-logo="" group-title="live_events",PARAMOUNT+ - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4a617d26f14e103f0739ef95a6f265dc:5f13e1b9c1ce10d381818a64412ae85a
 https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/mzyp0dprj5/out/v1/6e7cf0e45e2c496f8a6cf2a4e489472e/8035998b-84b3-4410-8d4f-0a5004bcd5a8-cenc.mpd?aws_sessionId=21175279-b7b5-427c-98ef-b2c30151055c
+#EXTINF:-1 tvg-name="DAZN SPORTS" tvg-logo="" group-title="live_events",DAZN SPORTS
+https://tmaxapp.site/8wirwjs76erftg/dazn1it.m3u8
 #EXTINF:-1 tvg-name="SportDigital Fussball" tvg-logo="" group-title="live_events",SportDigital Fussball
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -452,25 +430,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="beIN Multi Commentary" tvg-logo="" group-title="live_events",beIN Multi Commentary
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/ffdrxzo6v0/out/v1/27aac1f9df984d65a9d4b95d234f4468/ef974ac8-858c-4f00-867e-c6c7d249365b-cenc.mpd?aws_sessionId=71d1ccc0-f193-4db2-877b-f3832aafc154
-#EXTINF:-1 tvg-name="NOVA SPORTS - AQ" tvg-logo="" group-title="live_events",NOVA SPORTS - AQ
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd
-#EXTINF:-1 tvg-name="beIN USA" tvg-logo="" group-title="live_events",beIN USA
-#EXTVLCOPT:http-referrer=https://streamscenter.online/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-https://edgestream6.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-#EXTINF:-1 tvg-name="Ligue1+ SD" tvg-logo="" group-title="live_events",Ligue1+ SD
-https://tmaxapp.site/ligue6sc6/ligue1.m3u8
 #EXTINF:-1 tvg-name="Cricfy MLB" tvg-logo="" group-title="live_events",Cricfy MLB
 #EXTVLCOPT:http-referrer=https://streame.center/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
