@@ -3,9 +3,9 @@
 # Developer      : MD ANAMUL HOQUE
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
-# Channels Amount: 42
-# Live Count     : 42
-# Last Update    : 11:45 PM 13-09-2026
+# Channels Amount: 40
+# Live Count     : 40
+# Last Update    : 11:46 PM 13-09-2026
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -513,29 +513,16 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1
 https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
 #EXTINF:-1 tvg-name="Serie A: Sassuolo vs Juventus (SPORT TV)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_events",Serie A: Sassuolo vs Juventus (SPORT TV)
 https://tmaxapp.site/pt658svs/sporttv4.m3u8
-#EXTINF:-1 tvg-name="Saudi Pro League: Al-Riyadh vs Al-Kholood" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="live_events",Saudi Pro League: Al-Riyadh vs Al-Kholood
-http://cricfy-tv.net/promo/cricfy-promo.m3u8
-#EXTINF:-1 tvg-name="Serie A: Napoli vs Bologna (PARAMOUNT+ - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_events",Serie A: Napoli vs Bologna (PARAMOUNT+ - AQ)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4a617d26f14e103f0739ef95a6f265dc:5f13e1b9c1ce10d381818a64412ae85a
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/mzyp0dprj5/out/v1/6e7cf0e45e2c496f8a6cf2a4e489472e/8035998b-84b3-4410-8d4f-0a5004bcd5a8-cenc.mpd?aws_sessionId=21175279-b7b5-427c-98ef-b2c30151055c
-#EXTINF:-1 tvg-name="Serie A: Napoli vs Bologna (beIN ENGLISH - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_events",Serie A: Napoli vs Bologna (beIN ENGLISH - AQ)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Serie A: Napoli vs Bologna (CBS NETWORK)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_events",Serie A: Napoli vs Bologna (CBS NETWORK)
-https://tmaxapp.site/8wirwjs76erftg/cbsnet.m3u8
-#EXTINF:-1 tvg-name="Serie A: Napoli vs Bologna (DAZN SPORTS)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_events",Serie A: Napoli vs Bologna (DAZN SPORTS)
-https://tmaxapp.site/8wirwjs76erftg/dazn1it.m3u8
-#EXTINF:-1 tvg-name="Serie A: Napoli vs Bologna (SPORT TV)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_events",Serie A: Napoli vs Bologna (SPORT TV)
-https://tmaxapp.site/pt658svs/sporttv5.m3u8
+#EXTINF:-1 tvg-name="Saudi Pro League: Al-Riyadh vs Al-Kholood (CricfyTV.Net)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="live_events",Saudi Pro League: Al-Riyadh vs Al-Kholood (CricfyTV.Net)
+#EXTVLCOPT:http-referrer=https://player.up909.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.up909.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.up909.com/
+https://live.uu6611.com/live/sd-1-4599597.m3u8?txSecret=c9ff5961dc49b1fde99455f412158be4&txTime=6AA72BAB|Referer=https://player.up909.com/
+#EXTINF:-1 tvg-name="Saudi Pro League: Al-Riyadh vs Al-Kholood (Low)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="live_events",Saudi Pro League: Al-Riyadh vs Al-Kholood (Low)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+http://193.47.62.41/hls/TATATAAAAAQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 #EXTINF:-1 tvg-name="Liga Portugal Betclic: Famalicão vs Sporting (D Sports FHD)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/238/image/dark" group-title="live_events",Liga Portugal Betclic: Famalicão vs Sporting (D Sports FHD)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -689,11 +676,6 @@ https://edgestream5.pro/hls/qsdnajbq32.m3u8|Referer=https://streame.center/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
 https://edgestream3.pro/hls/oipozuezeji33.m3u8|Referer=https://streame.center/
-#EXTINF:-1 tvg-name="MLB: Tigers vs Rockies" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark" group-title="live_events",MLB: Tigers vs Rockies
-#EXTVLCOPT:http-referrer=https://streame.center/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
-https://edgestream1.pro/hls/sqdahach1ax.m3u8|Referer=https://streame.center/
 #EXTINF:-1 tvg-name="MLB: Rays vs Astros" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark" group-title="live_events",MLB: Rays vs Astros
 #EXTVLCOPT:http-referrer=https://streame.center/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
