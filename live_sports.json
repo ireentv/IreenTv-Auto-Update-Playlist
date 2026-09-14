@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 89,
-  "live_count": 89,
-  "last_update": "12:07 AM 15-09-2026 BST",
+  "channels_amount": 91,
+  "live_count": 91,
+  "last_update": "12:17 AM 15-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -286,9 +286,9 @@
     },
     {
       "chno": 13,
-      "name": "[Spanish Segunda Liga] [12:30 AM BD] [UPCOMING] Celta Vigo B vs Eibar (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
+      "name": "[Spanish Segunda Liga] [12:30 AM BD] [LIVE] Celta Vigo B vs Eibar (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
       "sport": "Spanish Segunda Liga",
       "event": "Celta Vigo B vs Eibar",
       "match_time_bd": "12:30 AM BD",
@@ -296,9 +296,9 @@
       "league": "Spanish Segunda Liga",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/2043992816377049088/r9FnBdQu_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Celta%20Vigo%20B%20vs%20Eibar.html",
+      "group": "Live Events",
+      "url": "http://193.47.62.50/hls/ksssccc.m3u8",
+      "stream_url": "http://193.47.62.50/hls/ksssccc.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/Celta%20Vigo%20B%20vs%20Eibar.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -308,6 +308,28 @@
     },
     {
       "chno": 14,
+      "name": "[TV Show] [12:30 AM BD] [LIVE] Rondo TV Show (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "TV Show",
+      "event": "Rondo TV Show",
+      "match_time_bd": "12:30 AM BD",
+      "source_time_gmt1": "19:30",
+      "league": "TV Show",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/2011046746307104768/qtTZR6SJ_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/AAAAA.m3u8",
+      "stream_url": "http://193.47.62.44/hls/AAAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Rondo%20TV%20Show.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 15,
       "name": "[AFC Champions Leaye] [12:15 AM BD] [LIVE] Esteghlal FC vs Al-Sadd --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -329,7 +351,7 @@
       }
     },
     {
-      "chno": 15,
+      "chno": 16,
       "name": "[AFC Champions Leaye] [12:15 AM BD] [LIVE] Esteghlal FC vs Al-Sadd --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -351,7 +373,7 @@
       }
     },
     {
-      "chno": 16,
+      "chno": 17,
       "name": "[AFC Champions Leaye] [12:15 AM BD] [LIVE] Al Qadsiah vs Al Wasl --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -373,7 +395,7 @@
       }
     },
     {
-      "chno": 17,
+      "chno": 18,
       "name": "[AFC Champions Leaye] [12:15 AM BD] [LIVE] Al Qadsiah vs Al Wasl --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -395,7 +417,7 @@
       }
     },
     {
-      "chno": 18,
+      "chno": 19,
       "name": "[AFC Champions Leaye] [12:15 AM BD] [LIVE] Al Ahli SC vs Pakhtakor --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -417,7 +439,7 @@
       }
     },
     {
-      "chno": 19,
+      "chno": 20,
       "name": "[AFC Champions Leaye] [12:15 AM BD] [LIVE] Al Ahli SC vs Pakhtakor --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -439,12 +461,12 @@
       }
     },
     {
-      "chno": 20,
-      "name": "[Romania Superliga] [12:00 AM BD] [LIVE] FCSB vs Petrolul (FAWA)",
+      "chno": 21,
+      "name": "[Romania Superliga] [12:00 AM BD] [LIVE] FCSB vs Petrolul --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
       "sport": "Romania Superliga",
-      "event": "FCSB vs Petrolul",
+      "event": "FCSB vs Petrolul --- CH 1",
       "match_time_bd": "12:00 AM BD",
       "source_time_gmt1": "19:00",
       "league": "Romania Superliga",
@@ -461,7 +483,29 @@
       }
     },
     {
-      "chno": 21,
+      "chno": 22,
+      "name": "[Romania Superliga] [12:00 AM BD] [LIVE] FCSB vs Petrolul --- CH 2 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Romania Superliga",
+      "event": "FCSB vs Petrolul --- CH 2",
+      "match_time_bd": "12:00 AM BD",
+      "source_time_gmt1": "19:00",
+      "league": "Romania Superliga",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1445121142465998848/ghGZsBoQ_400x400.jpg",
+      "group": "Live Events",
+      "url": "https://live4.dyrur1.com/live/72387984_cd3cc23e49b758a9da06ed8723ef6b8d_540p.m3u8?auth_key=1789423916-0-0-f235a4292b47e1e9998770d2028b6b49",
+      "stream_url": "https://live4.dyrur1.com/live/72387984_cd3cc23e49b758a9da06ed8723ef6b8d_540p.m3u8?auth_key=1789423916-0-0-f235a4292b47e1e9998770d2028b6b49|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/FCSB%20vs%20Petrolul%20---%20CH%202.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 23,
       "name": "[Dutch Eerste Divisie] [12:00 AM BD] [LIVE] Jong Utrecht vs Jong Ajax (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -483,7 +527,7 @@
       }
     },
     {
-      "chno": 22,
+      "chno": 24,
       "name": "[Dutch Eerste Divisie] [12:00 AM BD] [LIVE] Jong PSV vs Jong AZ (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -505,7 +549,7 @@
       }
     },
     {
-      "chno": 23,
+      "chno": 25,
       "name": "[Portugal Primeira Liga] [11:45 PM BD] [LIVE] Rio Ave vs Estrela (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -527,7 +571,7 @@
       }
     },
     {
-      "chno": 24,
+      "chno": 26,
       "name": "[Bulgaria efbet League] [11:30 PM BD] [LIVE] Ludogorets vs Septemvri Sofia (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -549,7 +593,7 @@
       }
     },
     {
-      "chno": 25,
+      "chno": 27,
       "name": "[Israel Ligat ha'Al] [11:30 PM BD] [LIVE] Maccabi Tel Aviv vs Hapoel Tel Aviv (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -571,7 +615,7 @@
       }
     },
     {
-      "chno": 26,
+      "chno": 28,
       "name": "[Saudi Division 1] [11:20 PM BD] [LIVE] Al Najma vs Al Raed (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -593,7 +637,7 @@
       }
     },
     {
-      "chno": 27,
+      "chno": 29,
       "name": "[Sweden Allsvenskan] [11:00 PM BD] [LIVE] Djurgarden vs GAIS --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -615,7 +659,7 @@
       }
     },
     {
-      "chno": 28,
+      "chno": 30,
       "name": "[Sweden Allsvenskan] [11:00 PM BD] [LIVE] Djurgarden vs GAIS --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -637,7 +681,7 @@
       }
     },
     {
-      "chno": 29,
+      "chno": 31,
       "name": "[Sweden Allsvenskan] [11:00 PM BD] [LIVE] Sirius vs Degerfors --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -659,7 +703,7 @@
       }
     },
     {
-      "chno": 30,
+      "chno": 32,
       "name": "[Sweden Allsvenskan] [11:00 PM BD] [LIVE] Sirius vs Degerfors --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -681,7 +725,7 @@
       }
     },
     {
-      "chno": 31,
+      "chno": 33,
       "name": "[Sweden Superettan] [11:05 PM BD] [LIVE] Ostersund vs Helsingborg (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -703,7 +747,7 @@
       }
     },
     {
-      "chno": 32,
+      "chno": 34,
       "name": "[Sweden Superettan] [11:00 PM BD] [LIVE] Orebro vs Nordic United (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -725,7 +769,7 @@
       }
     },
     {
-      "chno": 33,
+      "chno": 35,
       "name": "[Sweden Superettan] [11:00 PM BD] [LIVE] Norrby vs Varberg (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -747,7 +791,7 @@
       }
     },
     {
-      "chno": 34,
+      "chno": 36,
       "name": "[Cyprus League] [11:00 PM BD] [LIVE] Krasava vs Aris (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -769,7 +813,7 @@
       }
     },
     {
-      "chno": 35,
+      "chno": 37,
       "name": "[Turkey Super Lig] [11:00 PM BD] [LIVE] Gaziantep vs Fenerbahce --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -791,7 +835,7 @@
       }
     },
     {
-      "chno": 36,
+      "chno": 38,
       "name": "[Turkey Super Lig] [11:00 PM BD] [LIVE] Gaziantep vs Fenerbahce --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -813,7 +857,7 @@
       }
     },
     {
-      "chno": 37,
+      "chno": 39,
       "name": "[Denmark SuperLiga] [11:00 PM BD] [LIVE] Midtjylland vs Brondby --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -835,7 +879,7 @@
       }
     },
     {
-      "chno": 38,
+      "chno": 40,
       "name": "[Denmark SuperLiga] [11:00 PM BD] [LIVE] Midtjylland vs Brondby --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -857,7 +901,7 @@
       }
     },
     {
-      "chno": 39,
+      "chno": 41,
       "name": "[Norway Eliteserien] [11:00 PM BD] [LIVE] Bodo Glimt vs Sandefjord --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -879,7 +923,7 @@
       }
     },
     {
-      "chno": 40,
+      "chno": 42,
       "name": "[Norway Eliteserien] [11:00 PM BD] [LIVE] Bodo Glimt vs Sandefjord --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -901,7 +945,7 @@
       }
     },
     {
-      "chno": 41,
+      "chno": 43,
       "name": "[Turkey Lig 1] [11:00 PM BD] [LIVE] Kayserispor vs Istanbulspor AS (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -923,7 +967,7 @@
       }
     },
     {
-      "chno": 42,
+      "chno": 44,
       "name": "[Serbia Super Liga] [11:00 PM BD] [LIVE] Zemun vs Radnik (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -945,7 +989,7 @@
       }
     },
     {
-      "chno": 43,
+      "chno": 45,
       "name": "[Poland Ekstraklasa] [11:00 PM BD] [LIVE] Radomiak Radom vs Piast Gliwice (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -967,7 +1011,7 @@
       }
     },
     {
-      "chno": 44,
+      "chno": 46,
       "name": "[Poland Premier League] [11:00 PM BD] [LIVE] Stal Mielec vs Termalica B-B (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -989,7 +1033,7 @@
       }
     },
     {
-      "chno": 45,
+      "chno": 47,
       "name": "[Egypt Premier League] [11:00 PM BD] [LIVE] Ceramica Cleopatra vs National Bank Egypt (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -1011,7 +1055,7 @@
       }
     },
     {
-      "chno": 46,
+      "chno": 48,
       "name": "[Volleyball European Championship] [11:00 PM BD] [LIVE] Romania vs Turkey (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -1033,7 +1077,7 @@
       }
     },
     {
-      "chno": 47,
+      "chno": 49,
       "name": "[Volleyball European Championship] [11:00 PM BD] [LIVE] Estonia vs Belgium (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -1055,7 +1099,7 @@
       }
     },
     {
-      "chno": 48,
+      "chno": 50,
       "name": "[Israel Ligat ha'Al] [11:00 PM BD] [LIVE] Kiryat Shmona vs Maccabi Haifa (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -1077,7 +1121,7 @@
       }
     },
     {
-      "chno": 49,
+      "chno": 51,
       "name": "[Portugal Liga 2] [11:00 PM BD] [LIVE] FC Porto B vs Vizela (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -1099,7 +1143,7 @@
       }
     },
     {
-      "chno": 50,
+      "chno": 52,
       "name": "[Portugal Liga 2] [11:00 PM BD] [LIVE] Sporting CP B vs Lusitania FC (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -1121,10 +1165,10 @@
       }
     },
     {
-      "chno": 51,
-      "name": "[Italy Serie A] [10:30 PM BD] [LIVE] Torino vs AS Roma --- CH 1 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "chno": 53,
+      "name": "[Italy Serie A] [10:30 PM BD] [UPCOMING] Torino vs AS Roma --- CH 1 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Italy Serie A",
       "event": "Torino vs AS Roma --- CH 1",
       "match_time_bd": "10:30 PM BD",
@@ -1132,9 +1176,9 @@
       "league": "Italy Serie A",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1861375185980379136/UPqGyGOt_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/KCCCQQQX.m3u8",
-      "stream_url": "http://193.47.62.44/hls/KCCCQQQX.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Torino%20vs%20AS%20Roma1.html",
       "event_page": "http://www.fawanews.sc/Torino%20vs%20AS%20Roma1.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -1143,10 +1187,10 @@
       }
     },
     {
-      "chno": 52,
-      "name": "[Italy Serie A] [10:30 PM BD] [LIVE] Torino vs AS Roma --- CH 2 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "chno": 54,
+      "name": "[Italy Serie A] [10:30 PM BD] [UPCOMING] Torino vs AS Roma --- CH 2 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Italy Serie A",
       "event": "Torino vs AS Roma --- CH 2",
       "match_time_bd": "10:30 PM BD",
@@ -1154,9 +1198,9 @@
       "league": "Italy Serie A",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1861375185980379136/UPqGyGOt_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/KCCCQQQ.m3u8",
-      "stream_url": "http://193.47.62.44/hls/KCCCQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Torino%20vs%20AS%20Roma%20---%20CH%202.html",
       "event_page": "http://www.fawanews.sc/Torino%20vs%20AS%20Roma%20---%20CH%202.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -1165,10 +1209,10 @@
       }
     },
     {
-      "chno": 53,
-      "name": "[Italy Serie A] [10:30 PM BD] [LIVE] Como vs Parma --- CH 1 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "chno": 55,
+      "name": "[Italy Serie A] [10:30 PM BD] [UPCOMING] Como vs Parma --- CH 1 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Italy Serie A",
       "event": "Como vs Parma --- CH 1",
       "match_time_bd": "10:30 PM BD",
@@ -1176,9 +1220,9 @@
       "league": "Italy Serie A",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1861375185980379136/UPqGyGOt_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/KCCCQQX.m3u8",
-      "stream_url": "http://193.47.62.44/hls/KCCCQQX.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Como%20vs%20Parma1.html",
       "event_page": "http://www.fawanews.sc/Como%20vs%20Parma1.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -1187,7 +1231,7 @@
       }
     },
     {
-      "chno": 54,
+      "chno": 56,
       "name": "[Italy Serie A] [10:30 PM BD] [UPCOMING] Como vs Parma --- CH 2 (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1209,7 +1253,7 @@
       }
     },
     {
-      "chno": 55,
+      "chno": 57,
       "name": "[Handbal Greece Super Cup] [10:30 PM BD] [UPCOMING] Olympiacos vs AEK Athens (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1231,7 +1275,7 @@
       }
     },
     {
-      "chno": 56,
+      "chno": 58,
       "name": "[Israel Ligat ha'Al] [10:30 PM BD] [UPCOMING] Hapoel Haifa vs Sakhnin (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1253,7 +1297,7 @@
       }
     },
     {
-      "chno": 57,
+      "chno": 59,
       "name": "[Israel Ligat ha'Al] [10:30 PM BD] [UPCOMING] Hap Ramat Gan vs Netanya (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1275,7 +1319,7 @@
       }
     },
     {
-      "chno": 58,
+      "chno": 60,
       "name": "[Saudi Premier League] [10:05 PM BD] [UPCOMING] Al-Ula vs Jeddah (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1297,7 +1341,7 @@
       }
     },
     {
-      "chno": 59,
+      "chno": 61,
       "name": "[Saudi Premier League] [10:05 PM BD] [UPCOMING] Al Wehda vs Al Okhdood (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1319,7 +1363,7 @@
       }
     },
     {
-      "chno": 60,
+      "chno": 62,
       "name": "[AFC Champions Leaye] [10:00 PM BD] [UPCOMING] Shamal vs Al Ittihad --- CH 1 (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1341,7 +1385,7 @@
       }
     },
     {
-      "chno": 61,
+      "chno": 63,
       "name": "[AFC Champions Leaye] [10:00 PM BD] [UPCOMING] Shamal vs Al Ittihad --- CH 2 (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1363,7 +1407,7 @@
       }
     },
     {
-      "chno": 62,
+      "chno": 64,
       "name": "[AFC Champions Leaye] [10:00 PM BD] [UPCOMING] Shabab Al-Ahli Dubai vs Tractor --- CH 1 (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1385,7 +1429,7 @@
       }
     },
     {
-      "chno": 63,
+      "chno": 65,
       "name": "[AFC Champions Leaye] [10:00 PM BD] [UPCOMING] Shabab Al-Ahli Dubai vs Tractor --- CH 2 (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1407,7 +1451,7 @@
       }
     },
     {
-      "chno": 64,
+      "chno": 66,
       "name": "[Croatia 1 HNL] [10:00 PM BD] [UPCOMING] Gorica vs Varazdin (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1429,7 +1473,7 @@
       }
     },
     {
-      "chno": 65,
+      "chno": 67,
       "name": "[Volleyball European Championship] [10:00 PM BD] [UPCOMING] Bulgaria vs Israel (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1451,7 +1495,7 @@
       }
     },
     {
-      "chno": 66,
+      "chno": 68,
       "name": "[German Women Bundesliga] [10:00 PM BD] [UPCOMING] Bayer Leverkusen W vs Bayern Munchen W (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1473,7 +1517,7 @@
       }
     },
     {
-      "chno": 67,
+      "chno": 69,
       "name": "[Saudi Division 1] [09:50 PM BD] [UPCOMING] Al Bukiryah vs Damac (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1495,7 +1539,7 @@
       }
     },
     {
-      "chno": 68,
+      "chno": 70,
       "name": "[Lithuania Toplyga] [09:45 PM BD] [UPCOMING] Banga vs Transinvest (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1517,7 +1561,7 @@
       }
     },
     {
-      "chno": 69,
+      "chno": 71,
       "name": "[Live] [UPCOMING] United Cup chief admits high-profile retirements make things a bit more difficult (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1539,7 +1583,7 @@
       }
     },
     {
-      "chno": 70,
+      "chno": 72,
       "name": "[Live] [UPCOMING] Mercedes announce Valtteri Bottas as reserve driver after Sauber exit (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1561,7 +1605,7 @@
       }
     },
     {
-      "chno": 71,
+      "chno": 73,
       "name": "[Live] [UPCOMING] Red Bull admit Tsunoda could leave after promoting Lawson instead (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1583,7 +1627,7 @@
       }
     },
     {
-      "chno": 72,
+      "chno": 74,
       "name": "[Live] [UPCOMING] Oklahoma City Thunder and Alex Caruso agree to $81 million contract extension (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1605,7 +1649,7 @@
       }
     },
     {
-      "chno": 73,
+      "chno": 75,
       "name": "[Live] [UPCOMING] Southampton announce the appointment of Croatian coach Ivan Juric (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1627,7 +1671,7 @@
       }
     },
     {
-      "chno": 74,
+      "chno": 76,
       "name": "[Live] [UPCOMING] Southampton battle to earn valuable point at high-flying Fulham (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1649,7 +1693,7 @@
       }
     },
     {
-      "chno": 75,
+      "chno": 77,
       "name": "[Live] [UPCOMING] Arsenal manager Mikel Arteta confirms Bukayo Saka set to be ruled out for many weeks (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1671,7 +1715,7 @@
       }
     },
     {
-      "chno": 76,
+      "chno": 78,
       "name": "[Live] [UPCOMING] Ruben Amorim questions decision-making of Marcus Rashford camp after recent comments (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1693,7 +1737,7 @@
       }
     },
     {
-      "chno": 77,
+      "chno": 79,
       "name": "[Live] [UPCOMING] Fernandez feeling very good at Chelsea after understanding what Maresca wants (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1715,7 +1759,7 @@
       }
     },
     {
-      "chno": 78,
+      "chno": 80,
       "name": "[Live] [UPCOMING] Ivan Juric promises to play death metal style of football with Southampton (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1737,7 +1781,7 @@
       }
     },
     {
-      "chno": 79,
+      "chno": 81,
       "name": "[Live] [UPCOMING] Eddie Howe: Newcastle defender Dan Burn&#1074;&#1026;&#1042;�s England desire is still alive (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1759,7 +1803,7 @@
       }
     },
     {
-      "chno": 80,
+      "chno": 82,
       "name": "[Live] [UPCOMING] Everton to review security after high-risk game (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1781,7 +1825,7 @@
       }
     },
     {
-      "chno": 81,
+      "chno": 83,
       "name": "[Live] [UPCOMING] Wolves agree fee for PSG & Spain Wingser Sarabia (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1803,7 +1847,7 @@
       }
     },
     {
-      "chno": 82,
+      "chno": 84,
       "name": "[Live] [UPCOMING] Gavi stars in Barcelona's Super Cup win over Real (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1825,7 +1869,7 @@
       }
     },
     {
-      "chno": 83,
+      "chno": 85,
       "name": "[Live] [UPCOMING] Bournemouth agree &#1042;&#1032;20m deal for Lorient's Ouattara (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1847,7 +1891,7 @@
       }
     },
     {
-      "chno": 84,
+      "chno": 86,
       "name": "[Live] [UPCOMING] Why Arsenal are in control of the title race (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1869,7 +1913,7 @@
       }
     },
     {
-      "chno": 85,
+      "chno": 87,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1891,7 +1935,7 @@
       }
     },
     {
-      "chno": 86,
+      "chno": 88,
       "name": "[Live] [UPCOMING] &#1042;&#1032;22m of Mudryk fee pledged to Ukraine war effort (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1913,7 +1957,7 @@
       }
     },
     {
-      "chno": 87,
+      "chno": 89,
       "name": "[Live] [UPCOMING] Klopp says he has no plans to leave Liverpool (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1935,7 +1979,7 @@
       }
     },
     {
-      "chno": 88,
+      "chno": 90,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
