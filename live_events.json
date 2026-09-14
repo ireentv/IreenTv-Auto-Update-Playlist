@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 23,
   "live_count": 23,
-  "last_update": "02:41 AM 15-09-2026 BST",
+  "last_update": "02:49 AM 15-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -540,10 +540,28 @@
       "status": "LIVE",
       "time": "15/09/2026 06:15 AM BST",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "match_url": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
       "is_free": false,
-      "stream_url": {},
+      "stream_url": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "TSN4 SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "CricfyTV.Net": "https://edgestream5.pro/hls/wnbcnxbcs42.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
+      },
       "streams": [
+        {
+          "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "name": "TSN SPORTS - AQ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "name": "TSN4 SPORTS - AQ",
+          "token_api": ""
+        },
         {
           "drm_key": "",
           "drm_scheme": "",
@@ -591,6 +609,13 @@
             "type": "embed",
             "url": ""
           }
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://edgestream5.pro/hls/wnbcnxbcs42.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "name": "CricfyTV.Net",
+          "token_api": ""
         }
       ]
     },
@@ -1065,17 +1090,17 @@
       "status": "LIVE",
       "time": "15/09/2026 07:38 AM BST",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://edgestream5.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "CricfyTV.Net": "https://edgestream5.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
       },
       "streams": [
         {
           "drm_key": "",
           "drm_scheme": "",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-          "name": "Link 1",
+          "link": "https://edgestream5.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "name": "CricfyTV.Net",
           "token_api": ""
         }
       ]
@@ -1087,9 +1112,11 @@
       "status": "LIVE",
       "time": "15/09/2026 05:45 AM BST",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "",
+      "match_url": "https://edgestream4.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
       "is_free": false,
-      "stream_url": {},
+      "stream_url": {
+        "CricfyTV.Net": "https://edgestream4.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
+      },
       "streams": [
         {
           "drm_key": "",
@@ -1122,6 +1149,13 @@
             "type": "embed",
             "url": ""
           }
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://edgestream4.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "name": "CricfyTV.Net",
+          "token_api": ""
         }
       ]
     },
@@ -1186,9 +1220,11 @@
       "status": "LIVE",
       "time": "15/09/2026 07:40 AM BST",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "",
+      "match_url": "https://edgestream5.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
       "is_free": false,
-      "stream_url": {},
+      "stream_url": {
+        "CricfyTV.Net": "https://edgestream5.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
+      },
       "streams": [
         {
           "drm_key": "",
@@ -1205,6 +1241,13 @@
             "type": "embed",
             "url": ""
           }
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://edgestream5.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "name": "CricfyTV.Net",
+          "token_api": ""
         }
       ]
     },
@@ -1215,9 +1258,11 @@
       "status": "LIVE",
       "time": "15/09/2026 06:40 AM BST",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "",
+      "match_url": "https://edgestream4.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
       "is_free": false,
-      "stream_url": {},
+      "stream_url": {
+        "CricfyTV.Net": "https://edgestream4.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
+      },
       "streams": [
         {
           "drm_key": "",
@@ -1234,6 +1279,13 @@
             "type": "embed",
             "url": ""
           }
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://edgestream4.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "name": "CricfyTV.Net",
+          "token_api": ""
         }
       ]
     },
