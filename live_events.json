@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 25,
   "live_count": 25,
-  "last_update": "12:52 AM 15-09-2026 BST",
+  "last_update": "01:04 AM 15-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -934,7 +934,10 @@
       "stream_url": {
         "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/5xkhl1bxni/out/v1/cecadcb0bd174c52bf319ee798647463/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
         "Cricfy Live - AQ": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=|User-Agent=Mozilla",
-        "Cricfy HD": "https://live.uu6611.com/live/hd-en-1-4558548.m3u8?txSecret=ab95430ab757a50a521c364bfc743413&txTime=6AA7010A|Referer=https://player.up909.com/"
+        "Cricfy HD": "https://live.uu6611.com/live/hd-en-1-4558548.m3u8?txSecret=ab95430ab757a50a521c364bfc743413&txTime=6AA7010A|Referer=https://player.up909.com/",
+        "SKY SPORTS EPL": "https://tmaxapp.site/8wirwjs76erftg/skysportspl004545vgb.m3u8",
+        "SKY MAIN EVENT": "https://tmaxapp.site/8wirwjs76erftg/skysportsmainevent005adsf.m3u8",
+        "USA NETWORK": "https://tmaxapp.site/8wirwjs76erftg/usanetwodfgsdfsark.m3u8"
       },
       "streams": [
         {
@@ -956,6 +959,27 @@
           "drm_scheme": "",
           "link": "https://live.uu6611.com/live/hd-en-1-4558548.m3u8?txSecret=ab95430ab757a50a521c364bfc743413&txTime=6AA7010A|Referer=https://player.up909.com/",
           "name": "Cricfy HD",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://tmaxapp.site/8wirwjs76erftg/skysportspl004545vgb.m3u8",
+          "name": "SKY SPORTS EPL",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://tmaxapp.site/8wirwjs76erftg/skysportsmainevent005adsf.m3u8",
+          "name": "SKY MAIN EVENT",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://tmaxapp.site/8wirwjs76erftg/usanetwodfgsdfsark.m3u8",
+          "name": "USA NETWORK",
           "token_api": ""
         },
         {
