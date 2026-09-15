@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 24,
-  "live_count": 24,
-  "last_update": "12:34 PM 15-09-2026 BST",
+  "channels_amount": 44,
+  "live_count": 44,
+  "last_update": "12:45 PM 15-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -444,7 +444,7 @@
       "title": "Tennis US Open: US OPEN vs US OPEN",
       "synopsis": "Tennis | Tennis US Open: US OPEN vs US OPEN",
       "status": "LIVE",
-      "time": "14/09/2026 09:00 PM BST",
+      "time": "15/09/2026 09:00 PM BST",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/2449/image/dark",
       "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
       "is_free": false,
@@ -534,835 +534,32 @@
       ]
     },
     {
-      "match_id": "605",
-      "title": "NFL: Chiefs vs Broncos",
-      "synopsis": "American football | NFL: Chiefs vs Broncos",
-      "status": "LIVE",
-      "time": "15/09/2026 06:15 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "is_free": false,
-      "stream_url": {
-        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "TSN4 SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CricfyTV.Net": "https://edgestream5.pro/hls/wnbcnxbcs42.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      },
-      "streams": [
-        {
-          "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d",
-          "drm_scheme": "clearkey",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "name": "TSN SPORTS - AQ",
-          "token_api": ""
-        },
-        {
-          "drm_key": "abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7",
-          "drm_scheme": "clearkey",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "name": "TSN4 SPORTS - AQ",
-          "token_api": ""
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "ESPN 1 NL",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-379.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "ESPN Deportes",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-375.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "ESPN USA",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-44.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://edgestream5.pro/hls/wnbcnxbcs42.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "name": "CricfyTV.Net",
-          "token_api": ""
-        }
-      ]
-    },
-    {
-      "match_id": "606",
-      "title": "Serie A: Inter vs Udinese",
-      "synopsis": "Football | Serie A: Inter vs Udinese",
-      "status": "LIVE",
-      "time": "15/09/2026 12:45 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "match_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "is_free": false,
-      "stream_url": {
-        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CBS NETWORK": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-      },
-      "streams": [
-        {
-          "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
-          "drm_scheme": "clearkey",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "name": "TNT SPORTS - AQ",
-          "token_api": ""
-        },
-        {
-          "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "drm_scheme": "clearkey",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "name": "beIN ENGLISH - AQ",
-          "token_api": ""
-        },
-        {
-          "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-          "drm_scheme": "clearkey",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "name": "CBS NETWORK",
-          "token_api": ""
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "Arena 2",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-135.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "Sport TV3",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-454.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        }
-      ]
-    },
-    {
-      "match_id": "608",
-      "title": "LaLiga: Villarreal vs Real Betis",
-      "synopsis": "Football | LaLiga: Villarreal vs Real Betis",
-      "status": "LIVE",
-      "time": "15/09/2026 01:00 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "is_free": false,
-      "stream_url": {
-        "PREMIER SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CAZE TV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-      },
-      "streams": [
-        {
-          "drm_key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f",
-          "drm_scheme": "clearkey",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "name": "PREMIER SPORTS - AQ",
-          "token_api": ""
-        },
-        {
-          "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "drm_scheme": "clearkey",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "name": "beIN ENGLISH - AQ",
-          "token_api": ""
-        },
-        {
-          "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-          "drm_scheme": "clearkey",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "name": "FANCODE - AQ",
-          "token_api": ""
-        },
-        {
-          "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4",
-          "drm_scheme": "clearkey",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "name": "CAZE TV - AQ",
-          "token_api": ""
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "beIN Sports AR",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-95.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "ESPN3 AR",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-798.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        }
-      ]
-    },
-    {
-      "match_id": "610",
-      "title": "Premier League: Leeds vs Newcastle",
-      "synopsis": "Football | Premier League: Leeds vs Newcastle",
-      "status": "LIVE",
-      "time": "15/09/2026 01:00 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "match_url": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/5xkhl1bxni/out/v1/cecadcb0bd174c52bf319ee798647463/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "is_free": false,
-      "stream_url": {
-        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/5xkhl1bxni/out/v1/cecadcb0bd174c52bf319ee798647463/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "Cricfy Live - AQ": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=|User-Agent=Mozilla",
-        "Cricfy HD": "https://live.uu6611.com/live/hd-en-1-4558548.m3u8?txSecret=ab95430ab757a50a521c364bfc743413&txTime=6AA7010A|Referer=https://player.up909.com/",
-        "SKY SPORTS EPL": "https://tmaxapp.site/8wirwjs76erftg/skysportspl004545vgb.m3u8",
-        "SKY MAIN EVENT": "https://tmaxapp.site/8wirwjs76erftg/skysportsmainevent005adsf.m3u8",
-        "USA NETWORK": "https://tmaxapp.site/8wirwjs76erftg/usanetwodfgsdfsark.m3u8"
-      },
-      "streams": [
-        {
-          "drm_key": "593b2ab845e64b692db88a6be66eed0a:71312fa72cb2f38120c1a8ba772394fd",
-          "drm_scheme": "clearkey",
-          "link": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/5xkhl1bxni/out/v1/cecadcb0bd174c52bf319ee798647463/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "name": "FUBO SPORTS - AQ",
-          "token_api": ""
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=|User-Agent=Mozilla",
-          "name": "Cricfy Live - AQ",
-          "token_api": ""
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://live.uu6611.com/live/hd-en-1-4558548.m3u8?txSecret=ab95430ab757a50a521c364bfc743413&txTime=6AA7010A|Referer=https://player.up909.com/",
-          "name": "Cricfy HD",
-          "token_api": ""
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://tmaxapp.site/8wirwjs76erftg/skysportspl004545vgb.m3u8",
-          "name": "SKY SPORTS EPL",
-          "token_api": ""
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://tmaxapp.site/8wirwjs76erftg/skysportsmainevent005adsf.m3u8",
-          "name": "SKY MAIN EVENT",
-          "token_api": ""
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://tmaxapp.site/8wirwjs76erftg/usanetwodfgsdfsark.m3u8",
-          "name": "USA NETWORK",
-          "token_api": ""
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "beIN Sports AR",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-92.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "beIN Sports 3 TR",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-64.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        }
-      ]
-    },
-    {
       "match_id": "611",
       "title": "One Day International: ZIM vs AUS",
       "synopsis": "Cricket | One Day International: ZIM vs AUS",
       "status": "LIVE",
       "time": "15/09/2026 01:30 PM BST",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "http://tvsen5.aynascope.net/willowhd/index.m3u8",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "WILLOW HD": "http://tvsen5.aynascope.net/willowhd/index.m3u8",
+        "FOX CRICKET HD": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8"
       },
       "streams": [
         {
           "drm_key": "",
           "drm_scheme": "",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-          "name": "Link 1",
-          "token_api": ""
-        }
-      ]
-    },
-    {
-      "match_id": "612",
-      "title": "MLB: Twins vs Yankees",
-      "synopsis": "Baseball | MLB: Twins vs Yankees",
-      "status": "LIVE",
-      "time": "15/09/2026 05:40 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "https://edgestream3.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-      "is_free": false,
-      "stream_url": {
-        "CricfyTV.Net": "https://edgestream3.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      },
-      "streams": [
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "MLB League",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-9.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "YES USA",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-763.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://edgestream3.pro/hls/jkzahzadach20.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "name": "CricfyTV.Net",
-          "token_api": ""
-        }
-      ]
-    },
-    {
-      "match_id": "613",
-      "title": "MLB: Reds vs Dodgers",
-      "synopsis": "Baseball | MLB: Reds vs Dodgers",
-      "status": "LIVE",
-      "time": "15/09/2026 04:40 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "https://edgestream4.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-      "is_free": false,
-      "stream_url": {
-        "CricfyTV.Net": "https://edgestream4.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      },
-      "streams": [
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "MLB League",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-3.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://edgestream4.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "name": "CricfyTV.Net",
+          "link": "http://tvsen5.aynascope.net/willowhd/index.m3u8",
+          "name": "WILLOW HD",
           "token_api": ""
         },
         {
           "drm_key": "",
           "drm_scheme": "",
-          "link": "",
-          "name": "Spectrum Sportsnet",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-764.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        }
-      ]
-    },
-    {
-      "match_id": "614",
-      "title": "MLB: Cubs vs Braves",
-      "synopsis": "Baseball | MLB: Cubs vs Braves",
-      "status": "LIVE",
-      "time": "15/09/2026 05:40 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "https://edgestream4.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-      "is_free": false,
-      "stream_url": {
-        "CricfyTV.Net": "https://edgestream4.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      },
-      "streams": [
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "ESPN3 AR",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-798.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "Marquee Sports",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-770.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "MLB League",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-8.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://edgestream4.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "name": "CricfyTV.Net",
+          "link": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8",
+          "name": "FOX CRICKET HD",
           "token_api": ""
-        }
-      ]
-    },
-    {
-      "match_id": "615",
-      "title": "MLB: Mets vs Orioles",
-      "synopsis": "Baseball | MLB: Mets vs Orioles",
-      "status": "LIVE",
-      "time": "15/09/2026 05:10 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "https://edgestream4.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-      "is_free": false,
-      "stream_url": {
-        "CricfyTV.Net": "https://edgestream4.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      },
-      "streams": [
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://edgestream4.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "name": "CricfyTV.Net",
-          "token_api": ""
-        }
-      ]
-    },
-    {
-      "match_id": "616",
-      "title": "MLB: Angels vs Mariners",
-      "synopsis": "Baseball | MLB: Angels vs Mariners",
-      "status": "LIVE",
-      "time": "15/09/2026 07:38 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "https://edgestream5.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-      "is_free": false,
-      "stream_url": {
-        "CricfyTV.Net": "https://edgestream5.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      },
-      "streams": [
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://edgestream5.pro/hls/jnzkdzjfanch23.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "name": "CricfyTV.Net",
-          "token_api": ""
-        }
-      ]
-    },
-    {
-      "match_id": "617",
-      "title": "MLB: Cardinals vs Giants",
-      "synopsis": "Baseball | MLB: Cardinals vs Giants",
-      "status": "LIVE",
-      "time": "15/09/2026 05:45 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "https://edgestream4.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-      "is_free": false,
-      "stream_url": {
-        "CricfyTV.Net": "https://edgestream4.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      },
-      "streams": [
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "MLB League",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-10.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "NBCS Bay Area",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-753.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://edgestream4.pro/hls/ojzkajnach21.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "name": "CricfyTV.Net",
-          "token_api": ""
-        }
-      ]
-    },
-    {
-      "match_id": "618",
-      "title": "MLB: Blue Jays vs Tigers",
-      "synopsis": "Baseball | MLB: Blue Jays vs Tigers",
-      "status": "LIVE",
-      "time": "15/09/2026 05:07 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "https://edgestream1.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-      "is_free": false,
-      "stream_url": {
-        "CricfyTV.Net": "https://edgestream1.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      },
-      "streams": [
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "MLB League",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-6.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "TVA Sports",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-833.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://edgestream1.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "name": "CricfyTV.Net",
-          "token_api": ""
-        }
-      ]
-    },
-    {
-      "match_id": "619",
-      "title": "MLB: Diamondbacks vs Marlins",
-      "synopsis": "Baseball | MLB: Diamondbacks vs Marlins",
-      "status": "LIVE",
-      "time": "15/09/2026 07:40 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "https://edgestream5.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-      "is_free": false,
-      "stream_url": {
-        "CricfyTV.Net": "https://edgestream5.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      },
-      "streams": [
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "MLB League",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-13.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://edgestream5.pro/hls/fskjanach24.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "name": "CricfyTV.Net",
-          "token_api": ""
-        }
-      ]
-    },
-    {
-      "match_id": "620",
-      "title": "MLB: Rockies vs Padres",
-      "synopsis": "Baseball | MLB: Rockies vs Padres",
-      "status": "LIVE",
-      "time": "15/09/2026 06:40 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "https://edgestream4.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-      "is_free": false,
-      "stream_url": {
-        "CricfyTV.Net": "https://edgestream4.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
-      },
-      "streams": [
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "MLB League",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-11.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "https://edgestream4.pro/hls/ijfnakfidch22.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "name": "CricfyTV.Net",
-          "token_api": ""
-        }
-      ]
-    },
-    {
-      "match_id": "621",
-      "title": "MLB: Guardians vs White Sox",
-      "synopsis": "Baseball | MLB: Guardians vs White Sox",
-      "status": "LIVE",
-      "time": "15/09/2026 04:40 AM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {},
-      "streams": [
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "beIN Sports 4",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-494.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "Chicago Sports",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-776.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "MLB League",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-2.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
-        },
-        {
-          "drm_key": "",
-          "drm_scheme": "",
-          "link": "",
-          "name": "TNT Sports 1",
-          "token_api": {
-            "api": "https://cricsfree.cfd/live/stream-31.php",
-            "default_string": "N8x7Y%m+6n",
-            "ip_api": "https://api.ipify.org/",
-            "link_key": "playback_url",
-            "request_body_type": "text",
-            "request_type": "get",
-            "type": "embed",
-            "url": ""
-          }
         }
       ]
     },
@@ -1371,7 +568,7 @@
       "title": "WWE Monday Night RAW: WWE vs WWE",
       "synopsis": "Boxing | WWE Monday Night RAW: WWE vs WWE",
       "status": "LIVE",
-      "time": "15/09/2026 06:00 AM BST",
+      "time": "22/09/2026 06:00 AM BST",
       "cover_image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1920,h_1080,x_0,y_0/c_fill,w_1080,ar_16:9,f_auto,q_auto,g_auto/images%2FvoltaxMediaLibrary%2Fmmsport%2Fwrestling_on_fannation%2F01j7cr769n5sz41833rh.jpg",
       "match_url": "https://chatgpt.hereisman.net/playlist/54800/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
       "is_free": false,
@@ -1424,6 +621,754 @@
           "drm_scheme": "",
           "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://27lftgqlgzmy.windows-devs.top/",
           "name": "Backup SD",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "623",
+      "title": "EFL Cup: Reading vs Brentford",
+      "synopsis": "Football | EFL Cup: Reading vs Brentford",
+      "status": "LIVE",
+      "time": "16/09/2026 01:00 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/21/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "624",
+      "title": "EFL Cup: West Ham vs Fulham",
+      "synopsis": "Football | EFL Cup: West Ham vs Fulham",
+      "status": "LIVE",
+      "time": "16/09/2026 12:45 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/21/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "625",
+      "title": "EFL Cup: Ipswich vs Arsenal",
+      "synopsis": "Football | EFL Cup: Ipswich vs Arsenal",
+      "status": "LIVE",
+      "time": "16/09/2026 01:00 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/21/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "626",
+      "title": "EFL Cup: Liverpool vs Tottenham",
+      "synopsis": "Football | EFL Cup: Liverpool vs Tottenham",
+      "status": "LIVE",
+      "time": "16/09/2026 01:00 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/21/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "627",
+      "title": "LaLiga: Alavés vs Valencia",
+      "synopsis": "Football | LaLiga: Alavés vs Valencia",
+      "status": "LIVE",
+      "time": "16/09/2026 12:00 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "628",
+      "title": "EFL Cup: Peterborough Utd vs Barnsley",
+      "synopsis": "Football | EFL Cup: Peterborough Utd vs Barnsley",
+      "status": "LIVE",
+      "time": "16/09/2026 12:30 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/21/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "629",
+      "title": "LaLiga: Elche vs Real Madrid",
+      "synopsis": "Football | LaLiga: Elche vs Real Madrid",
+      "status": "LIVE",
+      "time": "16/09/2026 01:30 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "630",
+      "title": "LaLiga: Rayo Vallecano vs Espanyol",
+      "synopsis": "Football | LaLiga: Rayo Vallecano vs Espanyol",
+      "status": "LIVE",
+      "time": "15/09/2026 11:00 PM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "631",
+      "title": "AFC Champions League Elite: Al-Ain vs Al-Nassr",
+      "synopsis": "Football | AFC Champions League Elite: Al-Ain vs Al-Nassr",
+      "status": "LIVE",
+      "time": "15/09/2026 10:00 PM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "632",
+      "title": "AFC Champions League Elite: Kashima vs Newcastle Jets",
+      "synopsis": "Football | AFC Champions League Elite: Kashima vs Newcastle Jets",
+      "status": "LIVE",
+      "time": "15/09/2026 04:00 PM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "633",
+      "title": "AFC Champions League Elite: Guoan vs Pohang Steelers",
+      "synopsis": "Football | AFC Champions League Elite: Guoan vs Pohang Steelers",
+      "status": "LIVE",
+      "time": "15/09/2026 06:15 PM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "634",
+      "title": "AFC Champions League Elite: Ratchaburi vs Port",
+      "synopsis": "Football | AFC Champions League Elite: Ratchaburi vs Port",
+      "status": "LIVE",
+      "time": "15/09/2026 04:00 PM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "635",
+      "title": "AFC Champions League Elite: JDT vs Buriram",
+      "synopsis": "Football | AFC Champions League Elite: JDT vs Buriram",
+      "status": "LIVE",
+      "time": "15/09/2026 06:15 PM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "636",
+      "title": "AFC Champions League Elite: Gamba Osaka vs Công An Hà Nội",
+      "synopsis": "Football | AFC Champions League Elite: Gamba Osaka vs Công An Hà Nội",
+      "status": "LIVE",
+      "time": "15/09/2026 04:00 PM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "637",
+      "title": "AFC Champions League Elite: Daejeon Hana vs Kyoto Sanga",
+      "synopsis": "Football | AFC Champions League Elite: Daejeon Hana vs Kyoto Sanga",
+      "status": "LIVE",
+      "time": "15/09/2026 04:00 PM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "638",
+      "title": "AFC Champions League Elite: Al-Hilal vs Al-Gharafa",
+      "synopsis": "Football | AFC Champions League Elite: Al-Hilal vs Al-Gharafa",
+      "status": "LIVE",
+      "time": "16/09/2026 12:15 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "639",
+      "title": "T20 International: AFG vs IND",
+      "synopsis": "Cricket | T20 International: AFG vs IND",
+      "status": "LIVE",
+      "time": "15/09/2026 08:00 PM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "640",
+      "title": "T20 International: ENG vs SL",
+      "synopsis": "Cricket | T20 International: ENG vs SL",
+      "status": "LIVE",
+      "time": "15/09/2026 11:30 PM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "641",
+      "title": "MLB: Angels vs Mariners",
+      "synopsis": "Baseball | MLB: Angels vs Mariners",
+      "status": "LIVE",
+      "time": "16/09/2026 07:38 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "642",
+      "title": "MLB: Pirates vs Brewers",
+      "synopsis": "Baseball | MLB: Pirates vs Brewers",
+      "status": "LIVE",
+      "time": "16/09/2026 04:40 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "643",
+      "title": "MLB: Astros vs Royals",
+      "synopsis": "Baseball | MLB: Astros vs Royals",
+      "status": "LIVE",
+      "time": "16/09/2026 06:10 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "644",
+      "title": "MLB: Rangers vs Red Sox",
+      "synopsis": "Baseball | MLB: Rangers vs Red Sox",
+      "status": "LIVE",
+      "time": "16/09/2026 06:05 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "645",
+      "title": "MLB: Rockies vs Padres",
+      "synopsis": "Baseball | MLB: Rockies vs Padres",
+      "status": "LIVE",
+      "time": "16/09/2026 06:40 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "646",
+      "title": "MLB: Twins vs Yankees",
+      "synopsis": "Baseball | MLB: Twins vs Yankees",
+      "status": "LIVE",
+      "time": "16/09/2026 05:40 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "647",
+      "title": "MLB: Reds vs Dodgers",
+      "synopsis": "Baseball | MLB: Reds vs Dodgers",
+      "status": "LIVE",
+      "time": "16/09/2026 04:40 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "648",
+      "title": "MLB: Mets vs Orioles",
+      "synopsis": "Baseball | MLB: Mets vs Orioles",
+      "status": "LIVE",
+      "time": "16/09/2026 05:10 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "649",
+      "title": "MLB: Rays vs Athletics",
+      "synopsis": "Baseball | MLB: Rays vs Athletics",
+      "status": "LIVE",
+      "time": "16/09/2026 04:40 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "650",
+      "title": "MLB: Nationals vs Phillies",
+      "synopsis": "Baseball | MLB: Nationals vs Phillies",
+      "status": "LIVE",
+      "time": "16/09/2026 04:45 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "651",
+      "title": "MLB: Guardians vs White Sox",
+      "synopsis": "Baseball | MLB: Guardians vs White Sox",
+      "status": "LIVE",
+      "time": "16/09/2026 04:40 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "652",
+      "title": "MLB: Cubs vs Braves",
+      "synopsis": "Baseball | MLB: Cubs vs Braves",
+      "status": "LIVE",
+      "time": "16/09/2026 05:40 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "653",
+      "title": "MLB: Diamondbacks vs Marlins",
+      "synopsis": "Baseball | MLB: Diamondbacks vs Marlins",
+      "status": "LIVE",
+      "time": "16/09/2026 07:40 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "654",
+      "title": "MLB: Blue Jays vs Tigers",
+      "synopsis": "Baseball | MLB: Blue Jays vs Tigers",
+      "status": "LIVE",
+      "time": "16/09/2026 05:07 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "655",
+      "title": "MLB: Cardinals vs Giants",
+      "synopsis": "Baseball | MLB: Cardinals vs Giants",
+      "status": "LIVE",
+      "time": "16/09/2026 05:45 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "656",
+      "title": "Caribbean Premier League: BT vs JK",
+      "synopsis": "Cricket | Caribbean Premier League: BT vs JK",
+      "status": "LIVE",
+      "time": "17/09/2026 05:00 AM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11167/image/dark",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+          "name": "Link 1",
           "token_api": ""
         }
       ]
