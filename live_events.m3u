@@ -3,9 +3,9 @@
 # Developer      : MD ANAMUL HOQUE
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
-# Channels Amount: 41
-# Live Count     : 41
-# Last Update    : 08:06 PM 15-09-2026 BST
+# Channels Amount: 39
+# Live Count     : 39
+# Last Update    : 08:16 PM 15-09-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -327,16 +327,6 @@ http://cricfy-tv.net/promo/cricfy-promo.m3u8
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="AFC Champions League Elite: Al-Ain vs Al-Nassr" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/463/image/dark" group-title="live_events",AFC Champions League Elite: Al-Ain vs Al-Nassr
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
-#EXTINF:-1 tvg-name="AFC Champions League Elite: Guoan vs Pohang Steelers" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/463/image/dark" group-title="live_events",AFC Champions League Elite: Guoan vs Pohang Steelers
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-http://193.47.62.44/hls/EGGGAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-#EXTINF:-1 tvg-name="AFC Champions League Elite: JDT vs Buriram" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/463/image/dark" group-title="live_events",AFC Champions League Elite: JDT vs Buriram
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-http://193.47.62.44/hls/EGGGAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 #EXTINF:-1 tvg-name="AFC Champions League Elite: Al-Hilal vs Al-Gharafa" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/463/image/dark" group-title="live_events",AFC Champions League Elite: Al-Hilal vs Al-Gharafa
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="T20 International: AFG vs IND (WILLOW - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="live_events",T20 International: AFG vs IND (WILLOW - AQ)
@@ -357,17 +347,25 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=881660f21b521a54803840a388caaffa:b152a33ccb29c23fc05f8e6379f69551
 https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/8t3oqznxym/out/v1/49c0d8b9b6c5406492957674e591586f/cenc.mpd
-#EXTINF:-1 tvg-name="T20 International: AFG vs IND (TAPMAD - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="live_events",T20 International: AFG vs IND (TAPMAD - AQ)
-#EXTVLCOPT:http-referrer=https://www.tapmad.com/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://www.tapmad.com/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.tapmad.com/
-https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8|Referer=https://www.tapmad.com/
 #EXTINF:-1 tvg-name="T20 International: AFG vs IND (TAMASHA - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="live_events",T20 International: AFG vs IND (TAMASHA - AQ)
 https://cdn09fsd-n.tamashaweb.com:8087/jazzauth/IndvAfg-svod-abr/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xMi8yMDI2IDY6MzM6NTcgUE0maGFzaF92YWx1ZT1xdjY1bDZYS2tsU1U1TG11ckdUQmlRPT0mdmFsaWRtaW51dGVzPTYw
 #EXTINF:-1 tvg-name="T20 International: AFG vs IND (SONY TEN 1 (IND))" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="live_events",T20 International: AFG vs IND (SONY TEN 1 (IND))
 https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1789347840~acl=/*~id=66646112155930483798580590417701~hmac=750e33dc527bef6868825687c609e9ab5672afb3503d60ade20ec9dbbe47d147
 #EXTINF:-1 tvg-name="T20 International: AFG vs IND (FANCODE HIN (IND))" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="live_events",T20 International: AFG vs IND (FANCODE HIN (IND))
 https://in-mc-flive.fancode.com/mumbai/4248491_hindi_hls_ed24a8186993836_1ta-di_h264/1080p.m3u8?hdntl=Expires=1789392659~_GO=Generated~acl=/mumbai/4248491_hindi_hls_ed24a8186993836_1ta-di_h264/*~Signature=AWDec-HByQhk68qSCnCZyABpf45aQQnnay5WKHnruoErrGrN-vafHAIvAttH8kmxylYL3z2vHk2KCGSXRBizd32DMxwF
+#EXTINF:-1 tvg-name="T20 International: AFG vs IND (SONY TEN 1 - IN)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="live_events",T20 International: AFG vs IND (SONY TEN 1 - IN)
+https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1789518142~acl=/*~id=54530039747299703482845608434887~hmac=ad935b4a2639a31294597a08daa42ffb40d2d8ce45a7b95e3e730ac40b6832f3
+#EXTINF:-1 tvg-name="T20 International: AFG vs IND (SONY TEN 3 - IN)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="live_events",T20 International: AFG vs IND (SONY TEN 3 - IN)
+https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1789518142~acl=/*~id=54530039747299703482845608434887~hmac=ad935b4a2639a31294597a08daa42ffb40d2d8ce45a7b95e3e730ac40b6832f3
+#EXTINF:-1 tvg-name="T20 International: AFG vs IND (FANCODE ENG - IN)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="live_events",T20 International: AFG vs IND (FANCODE ENG - IN)
+https://dai-fancode.pages.dev/out/v1/ap-south-1/4248493_english_466708/ad-h264/index.m3u8
+#EXTINF:-1 tvg-name="T20 International: AFG vs IND (FANCODE HIN - IN)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="live_events",T20 International: AFG vs IND (FANCODE HIN - IN)
+https://dai-fancode.pages.dev/out/v1/ap-south-1/4248493_hindi_150048/ad-h264/index.m3u8
+#EXTINF:-1 tvg-name="T20 International: AFG vs IND (LOW SERVER)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="live_events",T20 International: AFG vs IND (LOW SERVER)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+http://193.47.62.41/hls/TAAADDDD.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 #EXTINF:-1 tvg-name="T20 International: ENG vs SL" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="live_events",T20 International: ENG vs SL
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="MLB: Angels vs Mariners" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark" group-title="live_events",MLB: Angels vs Mariners
