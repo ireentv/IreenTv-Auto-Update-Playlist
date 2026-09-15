@@ -3,9 +3,9 @@
 # Developer      : MD ANAMUL HOQUE
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
-# Channels Amount: 39
-# Live Count     : 39
-# Last Update    : 12:50 AM 16-09-2026 BST
+# Channels Amount: 40
+# Live Count     : 40
+# Last Update    : 01:01 AM 16-09-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -312,7 +312,10 @@ https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=htt
 #EXTINF:-1 tvg-name="EFL Cup: Reading vs Brentford" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/21/image/dark" group-title="live_events",EFL Cup: Reading vs Brentford
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="EFL Cup: West Ham vs Fulham" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/21/image/dark" group-title="live_events",EFL Cup: West Ham vs Fulham
-http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/62d34eeed644df44aa5e224b21e5273f/index.m3u8|Referer=https://iplayer.is/
 #EXTINF:-1 tvg-name="EFL Cup: Ipswich vs Arsenal" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/21/image/dark" group-title="live_events",EFL Cup: Ipswich vs Arsenal
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="EFL Cup: Liverpool vs Tottenham" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/21/image/dark" group-title="live_events",EFL Cup: Liverpool vs Tottenham
@@ -381,18 +384,6 @@ https://www.rtmpcdn.com/live/10c93123-fb54-42d0-8250-c300ea02c77e.m3u8?|Referer=
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 http://193.47.62.59/hls/IVVVAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-#EXTINF:-1 tvg-name="AFC Champions League Elite: Al-Ain vs Al-Nassr (CricfyTV.Net)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/463/image/dark" group-title="live_events",AFC Champions League Elite: Al-Ain vs Al-Nassr (CricfyTV.Net)
-#EXTVLCOPT:http-referrer=https://player.up909.com/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.up909.com/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.up909.com/
-https://live.uu6611.com/live/hd-en-1-4621417.m3u8?txSecret=29b0cffb84c0e5118fcddab322261c01&txTime=6AA9AF85|Referer=https://player.up909.com/
-#EXTINF:-1 tvg-name="AFC Champions League Elite: Al-Ain vs Al-Nassr (HD SERVER)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/463/image/dark" group-title="live_events",AFC Champions League Elite: Al-Ain vs Al-Nassr (HD SERVER)
-https://www.rtmpcdn.com/live/ac85aee4-8d35-4c90-b28a-f73864c4c9c5.m3u8
-#EXTINF:-1 tvg-name="AFC Champions League Elite: Al-Ain vs Al-Nassr (SD SERVER)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/463/image/dark" group-title="live_events",AFC Champions League Elite: Al-Ain vs Al-Nassr (SD SERVER)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-http://193.47.62.44/hls/BEEEAQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 #EXTINF:-1 tvg-name="AFC Champions League Elite: Al-Hilal vs Al-Gharafa" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/463/image/dark" group-title="live_events",AFC Champions League Elite: Al-Hilal vs Al-Gharafa
 #EXTVLCOPT:http-referrer=https://player.up909.com/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.up909.com/
@@ -506,4 +497,11 @@ http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="Caribbean Premier League: BT vs JK" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11167/image/dark" group-title="live_events",Caribbean Premier League: BT vs JK
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="Caribbean Premier League: GUY vs ABF" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11167/image/dark" group-title="live_events",Caribbean Premier League: GUY vs ABF
+http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTINF:-1 tvg-name="Championship: Middlesbrough vs Millwall" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="live_events",Championship: Middlesbrough vs Millwall
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/62d34eeed644df44aa5e224b21e5273f/index.m3u8|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Coppa Italia: Fiorentina vs Pisa" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/328/image/dark" group-title="live_events",Coppa Italia: Fiorentina vs Pisa
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
