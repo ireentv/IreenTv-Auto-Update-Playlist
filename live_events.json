@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 39,
   "live_count": 39,
-  "last_update": "09:46 PM 15-09-2026 BST",
+  "last_update": "09:53 PM 15-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -832,17 +832,33 @@
       "status": "LIVE",
       "time": "15/09/2026 10:00 PM BST",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://live.uu6611.com/live/hd-en-1-4621417.m3u8?txSecret=29b0cffb84c0e5118fcddab322261c01&txTime=6AA9AF85|Referer=https://player.up909.com/",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "CricfyTV.Net": "https://live.uu6611.com/live/hd-en-1-4621417.m3u8?txSecret=29b0cffb84c0e5118fcddab322261c01&txTime=6AA9AF85|Referer=https://player.up909.com/",
+        "HD SERVER": "https://www.rtmpcdn.com/live/ac85aee4-8d35-4c90-b28a-f73864c4c9c5.m3u8",
+        "SD SERVER": "http://193.47.62.44/hls/BEEEAQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
       },
       "streams": [
         {
           "drm_key": "",
           "drm_scheme": "",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-          "name": "Link 1",
+          "link": "https://live.uu6611.com/live/hd-en-1-4621417.m3u8?txSecret=29b0cffb84c0e5118fcddab322261c01&txTime=6AA9AF85|Referer=https://player.up909.com/",
+          "name": "CricfyTV.Net",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://www.rtmpcdn.com/live/ac85aee4-8d35-4c90-b28a-f73864c4c9c5.m3u8",
+          "name": "HD SERVER",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://193.47.62.44/hls/BEEEAQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "name": "SD SERVER",
           "token_api": ""
         }
       ]

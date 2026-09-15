@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 39
 # Live Count     : 39
-# Last Update    : 09:46 PM 15-09-2026 BST
+# Last Update    : 09:53 PM 15-09-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -325,8 +325,18 @@ http://cricfy-tv.net/promo/cricfy-promo.m3u8
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="LaLiga: Rayo Vallecano vs Espanyol" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_events",LaLiga: Rayo Vallecano vs Espanyol
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
-#EXTINF:-1 tvg-name="AFC Champions League Elite: Al-Ain vs Al-Nassr" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/463/image/dark" group-title="live_events",AFC Champions League Elite: Al-Ain vs Al-Nassr
-http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTINF:-1 tvg-name="AFC Champions League Elite: Al-Ain vs Al-Nassr (CricfyTV.Net)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/463/image/dark" group-title="live_events",AFC Champions League Elite: Al-Ain vs Al-Nassr (CricfyTV.Net)
+#EXTVLCOPT:http-referrer=https://player.up909.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.up909.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.up909.com/
+https://live.uu6611.com/live/hd-en-1-4621417.m3u8?txSecret=29b0cffb84c0e5118fcddab322261c01&txTime=6AA9AF85|Referer=https://player.up909.com/
+#EXTINF:-1 tvg-name="AFC Champions League Elite: Al-Ain vs Al-Nassr (HD SERVER)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/463/image/dark" group-title="live_events",AFC Champions League Elite: Al-Ain vs Al-Nassr (HD SERVER)
+https://www.rtmpcdn.com/live/ac85aee4-8d35-4c90-b28a-f73864c4c9c5.m3u8
+#EXTINF:-1 tvg-name="AFC Champions League Elite: Al-Ain vs Al-Nassr (SD SERVER)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/463/image/dark" group-title="live_events",AFC Champions League Elite: Al-Ain vs Al-Nassr (SD SERVER)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+http://193.47.62.44/hls/BEEEAQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 #EXTINF:-1 tvg-name="AFC Champions League Elite: Al-Hilal vs Al-Gharafa" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/463/image/dark" group-title="live_events",AFC Champions League Elite: Al-Hilal vs Al-Gharafa
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="T20 International: AFG vs IND (WILLOW - AQ)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="live_events",T20 International: AFG vs IND (WILLOW - AQ)
