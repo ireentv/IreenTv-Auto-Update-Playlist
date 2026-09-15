@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 44,
   "live_count": 44,
-  "last_update": "01:35 PM 15-09-2026 BST",
+  "last_update": "01:37 PM 15-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -540,13 +540,30 @@
       "status": "LIVE",
       "time": "15/09/2026 01:30 PM BST",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "match_url": "http://tvsen5.aynascope.net/willowhd/index.m3u8",
+      "match_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
       "is_free": false,
       "stream_url": {
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "TAPMAD - AQ": "https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8|referer=https://tapmad.com/",
         "WILLOW HD": "http://tvsen5.aynascope.net/willowhd/index.m3u8",
-        "FOX CRICKET HD": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8"
+        "FOX CRICKET HD": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8",
+        "FANCODE (IND)": "https://dai-fancode.pages.dev/mumbai/4249098_english_hls_23b38859e816047_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       },
       "streams": [
+        {
+          "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "name": "FANCODE - AQ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8|referer=https://tapmad.com/",
+          "name": "TAPMAD - AQ",
+          "token_api": ""
+        },
         {
           "drm_key": "",
           "drm_scheme": "",
@@ -559,6 +576,13 @@
           "drm_scheme": "",
           "link": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8",
           "name": "FOX CRICKET HD",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://dai-fancode.pages.dev/mumbai/4249098_english_hls_23b38859e816047_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+          "name": "FANCODE (IND)",
           "token_api": ""
         }
       ]
