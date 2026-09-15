@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 39,
   "live_count": 39,
-  "last_update": "11:37 PM 15-09-2026 BST",
+  "last_update": "11:47 PM 15-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -994,17 +994,81 @@
       "status": "LIVE",
       "time": "15/09/2026 11:30 PM BST",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/knpjs2062k/out/v1/714e6be7d5d04a4f94852283a743f12a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "WILLOW - FHD": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/knpjs2062k/out/v1/714e6be7d5d04a4f94852283a743f12a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "SKY CRICKET - AQ": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+        "WILLOW - ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/knpjs2062k/out/v1/714e6be7d5d04a4f94852283a743f12a/cenc.mpd",
+        "TAPMAD - FHD": "https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8|referer=https://tapmad.com/",
+        "SKY SPORT NZ": "https://baila-lentoo.pages.dev/nwp/809392.m3u8",
+        "WILLOW HD": "http://tvsen5.aynascope.net/willowhd/index.m3u8",
+        "SonyLiv": "https://sonydaimenew.akamaized.net/hls/live/2005444/criclive1509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789535553~acl=/*~id=71965805240753138254699481776601~hmac=02c69c6aa5d94694b4406efa42cb5dba6ccb6590e4b072c637466a70215bbebf",
+        "SKY CRICKET HD": "https://tmaxapp.site/8wirwjs76erftg/skysportscricket.m3u8",
+        "LOW SERVER": "http://193.47.62.59/hls/IVVVAAAAA.m3u8|referer=http://www.fawanews.sc/"
       },
       "streams": [
         {
+          "drm_key": "c759dbe41658ffa70178916dac16af09:20d289ab10af288ff4219c9d0c7a9698",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/knpjs2062k/out/v1/714e6be7d5d04a4f94852283a743f12a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "name": "WILLOW - FHD",
+          "token_api": ""
+        },
+        {
           "drm_key": "",
           "drm_scheme": "",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-          "name": "Link 1",
+          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+          "name": "SKY CRICKET - AQ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "c759dbe41658ffa70178916dac16af09:20d289ab10af288ff4219c9d0c7a9698",
+          "drm_scheme": "clearkey",
+          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/knpjs2062k/out/v1/714e6be7d5d04a4f94852283a743f12a/cenc.mpd",
+          "name": "WILLOW - ALT",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://saseries.akamaized.net/hls/live/2110097/2353jkiL-tapmad/master.m3u8|referer=https://tapmad.com/",
+          "name": "TAPMAD - FHD",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://baila-lentoo.pages.dev/nwp/809392.m3u8",
+          "name": "SKY SPORT NZ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://tvsen5.aynascope.net/willowhd/index.m3u8",
+          "name": "WILLOW HD",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://sonydaimenew.akamaized.net/hls/live/2005444/criclive1509/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789535553~acl=/*~id=71965805240753138254699481776601~hmac=02c69c6aa5d94694b4406efa42cb5dba6ccb6590e4b072c637466a70215bbebf",
+          "name": "SonyLiv",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://tmaxapp.site/8wirwjs76erftg/skysportscricket.m3u8",
+          "name": "SKY CRICKET HD",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://193.47.62.59/hls/IVVVAAAAA.m3u8|referer=http://www.fawanews.sc/",
+          "name": "LOW SERVER",
           "token_api": ""
         }
       ]
