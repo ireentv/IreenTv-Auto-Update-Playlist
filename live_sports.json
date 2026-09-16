@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 108,
-  "live_count": 108,
-  "last_update": "01:08 AM 17-09-2026 BST",
+  "channels_amount": 83,
+  "live_count": 83,
+  "last_update": "01:16 AM 17-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -22,9 +22,9 @@
     },
     {
       "chno": 1,
-      "name": "[Spanish La Liga] [01:30 AM BD] [UPCOMING] FC Barcelona vs Racing Santander --- CH 1 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
+      "name": "[Spanish La Liga] [01:30 AM BD] [LIVE] FC Barcelona vs Racing Santander --- CH 1 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
       "sport": "Spanish La Liga",
       "event": "FC Barcelona vs Racing Santander --- CH 1",
       "match_time_bd": "01:30 AM BD",
@@ -32,9 +32,9 @@
       "league": "Spanish La Liga",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1865692791516352512/lccvCyOR_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/FC%20Barcelona%20vs%20Racing%20Santander.html",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/LCCCZ.m3u8",
+      "stream_url": "http://193.47.62.44/hls/LCCCZ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/FC%20Barcelona%20vs%20Racing%20Santander.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -44,9 +44,9 @@
     },
     {
       "chno": 2,
-      "name": "[Spanish La Liga] [01:30 AM BD] [UPCOMING] FC Barcelona vs Racing Santander --- CH 2 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
+      "name": "[Spanish La Liga] [01:30 AM BD] [LIVE] FC Barcelona vs Racing Santander --- CH 2 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
       "sport": "Spanish La Liga",
       "event": "FC Barcelona vs Racing Santander --- CH 2",
       "match_time_bd": "01:30 AM BD",
@@ -54,9 +54,9 @@
       "league": "Spanish La Liga",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1865692791516352512/lccvCyOR_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/FC%20Barcelona%20vs%20Racing%20Santander%20---%20CH%202.html",
+      "group": "Live Events",
+      "url": "https://www.rtmpcdn.com/live/6d0178bc-0064-4eee-92d9-0db6ac5e5a23.m3u8",
+      "stream_url": "https://www.rtmpcdn.com/live/6d0178bc-0064-4eee-92d9-0db6ac5e5a23.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/FC%20Barcelona%20vs%20Racing%20Santander%20---%20CH%202.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -66,6 +66,50 @@
     },
     {
       "chno": 3,
+      "name": "[Spanish La Liga] [01:30 AM BD] [LIVE] Levante vs Athletic Bilbao --- CH 1 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Spanish La Liga",
+      "event": "Levante vs Athletic Bilbao --- CH 1",
+      "match_time_bd": "01:30 AM BD",
+      "source_time_gmt1": "20:30",
+      "league": "Spanish La Liga",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1865692791516352512/lccvCyOR_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.41/hls/UGGGQQQQQ.m3u8",
+      "stream_url": "http://193.47.62.41/hls/UGGGQQQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Levante%20vs%20Athletic%20Bilbao.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 4,
+      "name": "[Spanish La Liga] [01:30 AM BD] [LIVE] Levante vs Athletic Bilbao --- CH 2 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Spanish La Liga",
+      "event": "Levante vs Athletic Bilbao --- CH 2",
+      "match_time_bd": "01:30 AM BD",
+      "source_time_gmt1": "20:30",
+      "league": "Spanish La Liga",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1865692791516352512/lccvCyOR_400x400.jpg",
+      "group": "Live Events",
+      "url": "https://www.rtmpcdn.com/live/ad7c9537-c34d-4699-aa14-52c32c34a401.m3u8",
+      "stream_url": "https://www.rtmpcdn.com/live/ad7c9537-c34d-4699-aa14-52c32c34a401.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Levante%20vs%20Athletic%20Bilbao%20---%20CH%202.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 5,
       "name": "[English EFL Cup] [01:00 AM BD] [LIVE] Manchester United vs Brighton --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -87,7 +131,7 @@
       }
     },
     {
-      "chno": 4,
+      "chno": 6,
       "name": "[English EFL Cup] [01:00 AM BD] [LIVE] Manchester United vs Brighton --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -109,7 +153,7 @@
       }
     },
     {
-      "chno": 5,
+      "chno": 7,
       "name": "[English EFL Cup] [01:00 AM BD] [LIVE] Manchester United vs Brighton --- CH 3 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -131,7 +175,7 @@
       }
     },
     {
-      "chno": 6,
+      "chno": 8,
       "name": "[English EFL Cup] [01:00 AM BD] [LIVE] Coventry vs Aston Villa --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -153,7 +197,7 @@
       }
     },
     {
-      "chno": 7,
+      "chno": 9,
       "name": "[English EFL Cup] [01:00 AM BD] [LIVE] Coventry vs Aston Villa --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -175,7 +219,7 @@
       }
     },
     {
-      "chno": 8,
+      "chno": 10,
       "name": "[English EFL Cup] [01:00 AM BD] [LIVE] Coventry vs Aston Villa --- CH 3 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -197,7 +241,7 @@
       }
     },
     {
-      "chno": 9,
+      "chno": 11,
       "name": "[English EFL Cup] [12:45 AM BD] [LIVE] Everton vs Wolves --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -219,7 +263,7 @@
       }
     },
     {
-      "chno": 10,
+      "chno": 12,
       "name": "[English EFL Cup] [12:45 AM BD] [LIVE] Everton vs Wolves --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -241,7 +285,7 @@
       }
     },
     {
-      "chno": 11,
+      "chno": 13,
       "name": "[English EFL Cup] [12:45 AM BD] [LIVE] Everton vs Wolves --- CH 3 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -263,7 +307,7 @@
       }
     },
     {
-      "chno": 12,
+      "chno": 14,
       "name": "[English EFL Cup] [12:45 AM BD] [LIVE] Fleetwood vs Sheffield United --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -285,7 +329,7 @@
       }
     },
     {
-      "chno": 13,
+      "chno": 15,
       "name": "[English EFL Cup] [12:45 AM BD] [LIVE] Fleetwood vs Sheffield United --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -307,7 +351,7 @@
       }
     },
     {
-      "chno": 14,
+      "chno": 16,
       "name": "[English EFL Cup] [12:45 AM BD] [LIVE] Fleetwood vs Sheffield United --- CH 3 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -329,7 +373,7 @@
       }
     },
     {
-      "chno": 15,
+      "chno": 17,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] UEFA Europa League Simulcast (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -351,7 +395,7 @@
       }
     },
     {
-      "chno": 16,
+      "chno": 18,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] Olympiacos vs Jagiellonia --- GRE (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -373,7 +417,7 @@
       }
     },
     {
-      "chno": 17,
+      "chno": 19,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] Olympiacos vs Jagiellonia --- ENG (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -395,7 +439,7 @@
       }
     },
     {
-      "chno": 18,
+      "chno": 20,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] Olympiacos vs Jagiellonia --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -417,7 +461,7 @@
       }
     },
     {
-      "chno": 19,
+      "chno": 21,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] Olympiacos vs Jagiellonia --- CH 3 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -439,7 +483,7 @@
       }
     },
     {
-      "chno": 20,
+      "chno": 22,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] Sunderland vs AZ Alkmaar --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -461,7 +505,7 @@
       }
     },
     {
-      "chno": 21,
+      "chno": 23,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] Sunderland vs AZ Alkmaar --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -475,7 +519,7 @@
       "group": "Live Events",
       "url": "https://www.rtmpcdn.com/live/e657f853-3ae3-4b23-8251-1c28bb315df8.m3u8",
       "stream_url": "https://www.rtmpcdn.com/live/e657f853-3ae3-4b23-8251-1c28bb315df8.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Sunderland%20vs%20AZ%20Alkmaar%20---%20CH%202.html",
+      "event_page": "http://www.fawanews.sc/Sunderland%20vs%20AZ%20Alkmaar%20---%20CH%2022.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
         "Origin": "http://www.fawanews.sc/",
@@ -483,7 +527,7 @@
       }
     },
     {
-      "chno": 22,
+      "chno": 24,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] Sunderland vs AZ Alkmaar --- CH 3 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -495,9 +539,9 @@
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1816476201336070144/sHyQom7T_400x400.jpg",
       "group": "Live Events",
-      "url": "https://live5.dyrur1.com/live/74172930_c742eed44d227a7bd2c6736c452f8e0c_720p.m3u8?auth_key=1789599379-0-0-539df330f5ebe1bb42b4d04df53a82ef",
-      "stream_url": "https://live5.dyrur1.com/live/74172930_c742eed44d227a7bd2c6736c452f8e0c_720p.m3u8?auth_key=1789599379-0-0-539df330f5ebe1bb42b4d04df53a82ef|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Sunderland%20vs%20AZ%20Alkmaar%20---%20CH%203.html",
+      "url": "https://live.dyrur1.com/live/vmqy9ivg2myhgk9_2a4b3c5854338fcb074e1a5e663884d7_720p.m3u8?auth_key=1789599763-0-0-ff57546ffe5315888504781972daa1c9",
+      "stream_url": "https://live.dyrur1.com/live/vmqy9ivg2myhgk9_2a4b3c5854338fcb074e1a5e663884d7_720p.m3u8?auth_key=1789599763-0-0-ff57546ffe5315888504781972daa1c9|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Sunderland%20vs%20AZ%20Alkmaar%20---%20CH%2033.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
         "Origin": "http://www.fawanews.sc/",
@@ -505,7 +549,7 @@
       }
     },
     {
-      "chno": 23,
+      "chno": 25,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] AC Milan vs Benfica --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -527,7 +571,7 @@
       }
     },
     {
-      "chno": 24,
+      "chno": 26,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] AC Milan vs Benfica --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -549,7 +593,7 @@
       }
     },
     {
-      "chno": 25,
+      "chno": 27,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] AC Milan vs Benfica --- CH 3 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -571,7 +615,7 @@
       }
     },
     {
-      "chno": 26,
+      "chno": 28,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] Bayer Leverkusen vs Celje --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -593,7 +637,7 @@
       }
     },
     {
-      "chno": 27,
+      "chno": 29,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] Bayer Leverkusen vs Celje --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -615,7 +659,7 @@
       }
     },
     {
-      "chno": 28,
+      "chno": 30,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] Bayer Leverkusen vs Celje --- CH 3 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -637,7 +681,7 @@
       }
     },
     {
-      "chno": 29,
+      "chno": 31,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] RSC Anderlecht vs Lyon --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -659,7 +703,7 @@
       }
     },
     {
-      "chno": 30,
+      "chno": 32,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] RSC Anderlecht vs Lyon --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -681,7 +725,7 @@
       }
     },
     {
-      "chno": 31,
+      "chno": 33,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] RSC Anderlecht vs Lyon --- CH 3 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -703,7 +747,7 @@
       }
     },
     {
-      "chno": 32,
+      "chno": 34,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] Sturm Graz vs Rennes --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -725,7 +769,7 @@
       }
     },
     {
-      "chno": 33,
+      "chno": 35,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] Sturm Graz vs Rennes --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -747,7 +791,7 @@
       }
     },
     {
-      "chno": 34,
+      "chno": 36,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] Sturm Graz vs Rennes --- CH 3 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -769,7 +813,7 @@
       }
     },
     {
-      "chno": 35,
+      "chno": 37,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] H Beer Sheva vs Dinamo Zagreb --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -791,7 +835,7 @@
       }
     },
     {
-      "chno": 36,
+      "chno": 38,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] H Beer Sheva vs Dinamo Zagreb --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -813,7 +857,7 @@
       }
     },
     {
-      "chno": 37,
+      "chno": 39,
       "name": "[UEFA Europa League] [01:00 AM BD] [LIVE] H Beer Sheva vs Dinamo Zagreb --- CH 3 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -828,50 +872,6 @@
       "url": "https://live2.dyrur1.com/live/74172922_23768257421d7a8476ea07315218f93d_720p.m3u8?auth_key=1789599379-0-0-7daef3321defe20e99f42e81f42342b6",
       "stream_url": "https://live2.dyrur1.com/live/74172922_23768257421d7a8476ea07315218f93d_720p.m3u8?auth_key=1789599379-0-0-7daef3321defe20e99f42e81f42342b6|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/H%20Beer%20Sheva%20vs%20Dinamo%20Zagreb%20---%20CH%203.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 38,
-      "name": "[Spanish La Liga] [01:30 AM BD] [UPCOMING] Levante vs Athletic Bilbao --- CH 1 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Spanish La Liga",
-      "event": "Levante vs Athletic Bilbao --- CH 1",
-      "match_time_bd": "01:30 AM BD",
-      "source_time_gmt1": "20:30",
-      "league": "Spanish La Liga",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1865692791516352512/lccvCyOR_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Levante%20vs%20Athletic%20Bilbao.html",
-      "event_page": "http://www.fawanews.sc/Levante%20vs%20Athletic%20Bilbao.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 39,
-      "name": "[Spanish La Liga] [01:30 AM BD] [UPCOMING] Levante vs Athletic Bilbao --- CH 2 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Spanish La Liga",
-      "event": "Levante vs Athletic Bilbao --- CH 2",
-      "match_time_bd": "01:30 AM BD",
-      "source_time_gmt1": "20:30",
-      "league": "Spanish La Liga",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1865692791516352512/lccvCyOR_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Levante%20vs%20Athletic%20Bilbao%20---%20CH%202.html",
-      "event_page": "http://www.fawanews.sc/Levante%20vs%20Athletic%20Bilbao%20---%20CH%202.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
         "Origin": "http://www.fawanews.sc/",
@@ -902,9 +902,9 @@
     },
     {
       "chno": 41,
-      "name": "[Tennis WTA] [01:00 AM BD] [LIVE] Tennis WTA Guadalajara (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "name": "[Tennis WTA] [01:00 AM BD] [UPCOMING] Tennis WTA Guadalajara (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Tennis WTA",
       "event": "Tennis WTA Guadalajara",
       "match_time_bd": "01:00 AM BD",
@@ -912,9 +912,9 @@
       "league": "Tennis WTA",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1988264011935137792/Y_AYbwxg_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/FOFOFO.m3u8",
-      "stream_url": "http://193.47.62.44/hls/FOFOFO.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Tennis%20WTA%20Guadalajara.html",
       "event_page": "http://www.fawanews.sc/Tennis%20WTA%20Guadalajara.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -924,9 +924,9 @@
     },
     {
       "chno": 42,
-      "name": "[Volleyball European Championship] [01:00 AM BD] [LIVE] Czech Republic vs Slovenia (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "name": "[Volleyball European Championship] [01:00 AM BD] [UPCOMING] Czech Republic vs Slovenia (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Volleyball European Championship",
       "event": "Czech Republic vs Slovenia",
       "match_time_bd": "01:00 AM BD",
@@ -934,9 +934,9 @@
       "league": "Volleyball European Championship",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1129730799639646209/UVAhxHiK_400x400.png",
-      "group": "Live Events",
-      "url": "http://193.47.62.41/hls/UGGGQQQ.m3u8",
-      "stream_url": "http://193.47.62.41/hls/UGGGQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Czech%20Republic%20vs%20Slovenia.html",
       "event_page": "http://www.fawanews.sc/Czech%20Republic%20vs%20Slovenia.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -946,9 +946,9 @@
     },
     {
       "chno": 43,
-      "name": "[Bolivia Division Profesional] [01:00 AM BD] [LIVE] Guabira vs Aurora (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "name": "[Bolivia Division Profesional] [01:00 AM BD] [UPCOMING] Guabira vs Aurora (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Bolivia Division Profesional",
       "event": "Guabira vs Aurora",
       "match_time_bd": "01:00 AM BD",
@@ -956,9 +956,9 @@
       "league": "Bolivia Division Profesional",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1966534251848855552/uhRVP3c4_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.41/hls/UGGG.m3u8",
-      "stream_url": "http://193.47.62.41/hls/UGGG.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Guabira%20vs%20Aurora.html",
       "event_page": "http://www.fawanews.sc/Guabira%20vs%20Aurora.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -968,9 +968,9 @@
     },
     {
       "chno": 44,
-      "name": "[English National League] [12:45 AM BD] [LIVE] Scunthorpe vs Boreham Wood (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "name": "[English National League] [12:45 AM BD] [UPCOMING] Scunthorpe vs Boreham Wood (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "English National League",
       "event": "Scunthorpe vs Boreham Wood",
       "match_time_bd": "12:45 AM BD",
@@ -978,9 +978,9 @@
       "league": "English National League",
       "id": "Live.Event.us",
       "logo": "https://upload.wikimedia.org/wikipedia/fr/e/e4/National_League_logo.png",
-      "group": "Live Events",
-      "url": "http://193.47.62.41/hls/fpppAAAAAQQQ.m3u8",
-      "stream_url": "http://193.47.62.41/hls/fpppAAAAAQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Scunthorpe%20vs%20Boreham%20Wood.html",
       "event_page": "http://www.fawanews.sc/Scunthorpe%20vs%20Boreham%20Wood.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -1298,336 +1298,6 @@
     },
     {
       "chno": 59,
-      "name": "[Spanish La Liga] [11:00 PM BD] [UPCOMING] Atletico Madrid vs Osasuna --- CH 1 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Spanish La Liga",
-      "event": "Atletico Madrid vs Osasuna --- CH 1",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Spanish La Liga",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1865692791516352512/lccvCyOR_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Atletico%20Madrid%20vs%20Osasuna.html",
-      "event_page": "http://www.fawanews.sc/Atletico%20Madrid%20vs%20Osasuna.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 60,
-      "name": "[Spanish La Liga] [11:00 PM BD] [UPCOMING] Atletico Madrid vs Osasuna --- CH 2 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Spanish La Liga",
-      "event": "Atletico Madrid vs Osasuna --- CH 2",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Spanish La Liga",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1865692791516352512/lccvCyOR_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Atletico%20Madrid%20vs%20Osasuna%20---%20CH%202.html",
-      "event_page": "http://www.fawanews.sc/Atletico%20Madrid%20vs%20Osasuna%20---%20CH%202.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 61,
-      "name": "[Spanish La Liga] [11:00 PM BD] [UPCOMING] Deportivo la Coruna vs Sevilla --- CH 1 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Spanish La Liga",
-      "event": "Deportivo la Coruna vs Sevilla --- CH 1",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Spanish La Liga",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1865692791516352512/lccvCyOR_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Deportivo%20la%20Coruna%20vs%20Sevilla.html",
-      "event_page": "http://www.fawanews.sc/Deportivo%20la%20Coruna%20vs%20Sevilla.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 62,
-      "name": "[Spanish La Liga] [11:00 PM BD] [UPCOMING] Deportivo la Coruna vs Sevilla --- CH 2 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Spanish La Liga",
-      "event": "Deportivo la Coruna vs Sevilla --- CH 2",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Spanish La Liga",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1865692791516352512/lccvCyOR_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Deportivo%20la%20Coruna%20vs%20Sevilla%20---%20CH%202.html",
-      "event_page": "http://www.fawanews.sc/Deportivo%20la%20Coruna%20vs%20Sevilla%20---%20CH%202.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 63,
-      "name": "[Sweden Allsvenskan] [11:00 PM BD] [UPCOMING] AIK vs Mjallby --- CH 1 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Sweden Allsvenskan",
-      "event": "AIK vs Mjallby --- CH 1",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Sweden Allsvenskan",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1742103773072199680/5WHuWW_h_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/AIK%20vs%20Mjallby.html",
-      "event_page": "http://www.fawanews.sc/AIK%20vs%20Mjallby.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 64,
-      "name": "[Sweden Allsvenskan] [11:00 PM BD] [UPCOMING] AIK vs Mjallby --- CH 2 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Sweden Allsvenskan",
-      "event": "AIK vs Mjallby --- CH 2",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Sweden Allsvenskan",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1742103773072199680/5WHuWW_h_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/AIK%20vs%20Mjallby%20---%20CH%202.html",
-      "event_page": "http://www.fawanews.sc/AIK%20vs%20Mjallby%20---%20CH%202.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 65,
-      "name": "[Egypt Premier League] [11:00 PM BD] [UPCOMING] Ghazl El Mahallah vs Zamalek (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Egypt Premier League",
-      "event": "Ghazl El Mahallah vs Zamalek",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Egypt Premier League",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1185152368108851201/3_mNlM6J_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Ghazl%20El%20Mahallah%20vs%20Zamalek.html",
-      "event_page": "http://www.fawanews.sc/Ghazl%20El%20Mahallah%20vs%20Zamalek.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 66,
-      "name": "[Denmark Cup] [11:00 PM BD] [UPCOMING] Vendsyssel vs Randers FC (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Denmark Cup",
-      "event": "Vendsyssel vs Randers FC",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Denmark Cup",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1808057601546244096/kHzIvk1f_200x200.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Vendsyssel%20vs%20Randers%20FC.html",
-      "event_page": "http://www.fawanews.sc/Vendsyssel%20vs%20Randers%20FC.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 67,
-      "name": "[Greece Cup] [11:00 PM BD] [UPCOMING] Atromitos vs PAOK (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Greece Cup",
-      "event": "Atromitos vs PAOK",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Greece Cup",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/507081100246519808/ZWpIsC8C_400x400.png",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Atromitos%20vs%20PAOK.html",
-      "event_page": "http://www.fawanews.sc/Atromitos%20vs%20PAOK.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 68,
-      "name": "[Switzerland Super League] [11:00 PM BD] [UPCOMING] Lugano vs St Gallen (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Switzerland Super League",
-      "event": "Lugano vs St Gallen",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Switzerland Super League",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1939931354528980992/MjIErFvg_400x400.png",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Lugano%20vs%20St%20Gallen.html",
-      "event_page": "http://www.fawanews.sc/Lugano%20vs%20St%20Gallen.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 69,
-      "name": "[Switzerland Super League] [11:00 PM BD] [UPCOMING] Thun vs Servette (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Switzerland Super League",
-      "event": "Thun vs Servette",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Switzerland Super League",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1939931354528980992/MjIErFvg_400x400.png",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Thun%20vs%20Servette.html",
-      "event_page": "http://www.fawanews.sc/Thun%20vs%20Servette.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 70,
-      "name": "[Sweden Division 1] [11:00 PM BD] [UPCOMING] Utsikten vs Laholms (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Sweden Division 1",
-      "event": "Utsikten vs Laholms",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Sweden Division 1",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1836659987176685568/yp9ldpSd_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Utsikten%20vs%20Laholms.html",
-      "event_page": "http://www.fawanews.sc/Utsikten%20vs%20Laholms.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 71,
-      "name": "[Sweden Division 1] [11:00 PM BD] [UPCOMING] Lunds vs Angelholm (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Sweden Division 1",
-      "event": "Lunds vs Angelholm",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Sweden Division 1",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1836659987176685568/yp9ldpSd_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Lunds%20vs%20Angelholm.html",
-      "event_page": "http://www.fawanews.sc/Lunds%20vs%20Angelholm.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 72,
-      "name": "[Sweden Division 1] [11:00 PM BD] [UPCOMING] Jonkoping vs Atvidaberg (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Sweden Division 1",
-      "event": "Jonkoping vs Atvidaberg",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Sweden Division 1",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1836659987176685568/yp9ldpSd_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Jonkoping%20vs%20Atvidaberg.html",
-      "event_page": "http://www.fawanews.sc/Jonkoping%20vs%20Atvidaberg.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 73,
-      "name": "[Sweden Division 1] [11:00 PM BD] [UPCOMING] Hassleholms IF vs AFC Malmo (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Sweden Division 1",
-      "event": "Hassleholms IF vs AFC Malmo",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Sweden Division 1",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1836659987176685568/yp9ldpSd_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Hassleholms%20IF%20vs%20AFC%20Malmo.html",
-      "event_page": "http://www.fawanews.sc/Hassleholms%20IF%20vs%20AFC%20Malmo.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 74,
       "name": "[Sweden Division 1] [11:00 PM BD] [UPCOMING] Sollentuna vs Enkoping SK (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1649,7 +1319,7 @@
       }
     },
     {
-      "chno": 75,
+      "chno": 60,
       "name": "[Sweden Division 1] [11:00 PM BD] [UPCOMING] Gefle vs Arlanda (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1671,51 +1341,7 @@
       }
     },
     {
-      "chno": 76,
-      "name": "[Sweden Division 1] [11:00 PM BD] [UPCOMING] Pitea vs Umea FC (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Sweden Division 1",
-      "event": "Pitea vs Umea FC",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Sweden Division 1",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1836659987176685568/yp9ldpSd_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Pitea%20vs%20Umea%20FC.html",
-      "event_page": "http://www.fawanews.sc/Pitea%20vs%20Umea%20FC.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 77,
-      "name": "[Sweden Division 1] [11:00 PM BD] [UPCOMING] Karlstad vs FBK Karlstad (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Sweden Division 1",
-      "event": "Karlstad vs FBK Karlstad",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Sweden Division 1",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1836659987176685568/yp9ldpSd_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Karlstad%20vs%20FBK%20Karlstad.html",
-      "event_page": "http://www.fawanews.sc/Karlstad%20vs%20FBK%20Karlstad.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 78,
+      "chno": 61,
       "name": "[Volleyball European Championship] [11:00 PM BD] [UPCOMING] Netherlands vs Estonia (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1737,7 +1363,7 @@
       }
     },
     {
-      "chno": 79,
+      "chno": 62,
       "name": "[Volleyball European Championship] [11:00 PM BD] [UPCOMING] France vs Romania (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1759,183 +1385,7 @@
       }
     },
     {
-      "chno": 80,
-      "name": "[German 3 liga] [11:00 PM BD] [UPCOMING] Preussen Munster vs Saarbrucken (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "German 3 liga",
-      "event": "Preussen Munster vs Saarbrucken",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "German 3 liga",
-      "id": "Live.Event.us",
-      "logo": "https://upload.wikimedia.org/wikipedia/fr/1/1b/Logo_3Liga.png",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Preussen%20Munster%20vs%20Saarbrucken.html",
-      "event_page": "http://www.fawanews.sc/Preussen%20Munster%20vs%20Saarbrucken.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 81,
-      "name": "[German 3 liga] [11:00 PM BD] [UPCOMING] Mannheim vs RW Essen (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "German 3 liga",
-      "event": "Mannheim vs RW Essen",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "German 3 liga",
-      "id": "Live.Event.us",
-      "logo": "https://upload.wikimedia.org/wikipedia/fr/1/1b/Logo_3Liga.png",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Mannheim%20vs%20RW%20Essen.html",
-      "event_page": "http://www.fawanews.sc/Mannheim%20vs%20RW%20Essen.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 82,
-      "name": "[German 3 liga] [11:00 PM BD] [UPCOMING] Ingolstadt vs Hoffenheim II (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "German 3 liga",
-      "event": "Ingolstadt vs Hoffenheim II",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "German 3 liga",
-      "id": "Live.Event.us",
-      "logo": "https://upload.wikimedia.org/wikipedia/fr/1/1b/Logo_3Liga.png",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Ingolstadt%20vs%20Hoffenheim%20II.html",
-      "event_page": "http://www.fawanews.sc/Ingolstadt%20vs%20Hoffenheim%20II.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 83,
-      "name": "[German 3 liga] [11:00 PM BD] [UPCOMING] Hansa Rostock vs Stuttgart II (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "German 3 liga",
-      "event": "Hansa Rostock vs Stuttgart II",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "German 3 liga",
-      "id": "Live.Event.us",
-      "logo": "https://upload.wikimedia.org/wikipedia/fr/1/1b/Logo_3Liga.png",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Hansa%20Rostock%20vs%20Stuttgart%20II.html",
-      "event_page": "http://www.fawanews.sc/Hansa%20Rostock%20vs%20Stuttgart%20II.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 84,
-      "name": "[German 3 liga] [11:00 PM BD] [UPCOMING] Fortuna Koln vs Wehen (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "German 3 liga",
-      "event": "Fortuna Koln vs Wehen",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "German 3 liga",
-      "id": "Live.Event.us",
-      "logo": "https://upload.wikimedia.org/wikipedia/fr/1/1b/Logo_3Liga.png",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Fortuna%20Koln%20vs%20Wehen.html",
-      "event_page": "http://www.fawanews.sc/Fortuna%20Koln%20vs%20Wehen.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 85,
-      "name": "[World Cup Women U20] [10:30 PM BD] [UPCOMING] Spain U20 W vs Portugal U20 W (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "World Cup Women U20",
-      "event": "Spain U20 W vs Portugal U20 W",
-      "match_time_bd": "10:30 PM BD",
-      "source_time_gmt1": "17:30",
-      "league": "World Cup Women U20",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1800424366703857665/cFuM2ynZ_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Spain%20U20%20W%20vs%20Portugal%20U20%20W.html",
-      "event_page": "http://www.fawanews.sc/Spain%20U20%20W%20vs%20Portugal%20U20%20W.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 86,
-      "name": "[World Cup Women U20] [10:30 PM BD] [UPCOMING] Italy U20 W vs China U20 W (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "World Cup Women U20",
-      "event": "Italy U20 W vs China U20 W",
-      "match_time_bd": "10:30 PM BD",
-      "source_time_gmt1": "17:30",
-      "league": "World Cup Women U20",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1800424366703857665/cFuM2ynZ_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Italy%20U20%20W%20vs%20China%20U20%20W.html",
-      "event_page": "http://www.fawanews.sc/Italy%20U20%20W%20vs%20China%20U20%20W.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 87,
-      "name": "[Volleyball European Championship] [10:00 PM BD] [UPCOMING] Poland vs Bulgaria (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Volleyball European Championship",
-      "event": "Poland vs Bulgaria",
-      "match_time_bd": "10:00 PM BD",
-      "source_time_gmt1": "17:00",
-      "league": "Volleyball European Championship",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1129730799639646209/UVAhxHiK_400x400.png",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Poland%20vs%20Bulgaria.html",
-      "event_page": "http://www.fawanews.sc/Poland%20vs%20Bulgaria.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 88,
+      "chno": 63,
       "name": "[Live] [UPCOMING] United Cup chief admits high-profile retirements make things a bit more difficult (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1957,7 +1407,7 @@
       }
     },
     {
-      "chno": 89,
+      "chno": 64,
       "name": "[Live] [UPCOMING] Mercedes announce Valtteri Bottas as reserve driver after Sauber exit (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1979,7 +1429,7 @@
       }
     },
     {
-      "chno": 90,
+      "chno": 65,
       "name": "[Live] [UPCOMING] Red Bull admit Tsunoda could leave after promoting Lawson instead (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2001,7 +1451,7 @@
       }
     },
     {
-      "chno": 91,
+      "chno": 66,
       "name": "[Live] [UPCOMING] Oklahoma City Thunder and Alex Caruso agree to $81 million contract extension (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2023,7 +1473,7 @@
       }
     },
     {
-      "chno": 92,
+      "chno": 67,
       "name": "[Live] [UPCOMING] Southampton announce the appointment of Croatian coach Ivan Juric (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2045,7 +1495,7 @@
       }
     },
     {
-      "chno": 93,
+      "chno": 68,
       "name": "[Live] [UPCOMING] Southampton battle to earn valuable point at high-flying Fulham (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2067,7 +1517,7 @@
       }
     },
     {
-      "chno": 94,
+      "chno": 69,
       "name": "[Live] [UPCOMING] Arsenal manager Mikel Arteta confirms Bukayo Saka set to be ruled out for many weeks (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2089,7 +1539,7 @@
       }
     },
     {
-      "chno": 95,
+      "chno": 70,
       "name": "[Live] [UPCOMING] Ruben Amorim questions decision-making of Marcus Rashford camp after recent comments (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2111,7 +1561,7 @@
       }
     },
     {
-      "chno": 96,
+      "chno": 71,
       "name": "[Live] [UPCOMING] Fernandez feeling very good at Chelsea after understanding what Maresca wants (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2133,7 +1583,7 @@
       }
     },
     {
-      "chno": 97,
+      "chno": 72,
       "name": "[Live] [UPCOMING] Ivan Juric promises to play death metal style of football with Southampton (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2155,7 +1605,7 @@
       }
     },
     {
-      "chno": 98,
+      "chno": 73,
       "name": "[Live] [UPCOMING] Eddie Howe: Newcastle defender Dan Burn&#1074;&#1026;&#1042;�s England desire is still alive (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2177,7 +1627,7 @@
       }
     },
     {
-      "chno": 99,
+      "chno": 74,
       "name": "[Live] [UPCOMING] Everton to review security after high-risk game (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2199,7 +1649,7 @@
       }
     },
     {
-      "chno": 100,
+      "chno": 75,
       "name": "[Live] [UPCOMING] Wolves agree fee for PSG & Spain Wingser Sarabia (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2221,7 +1671,7 @@
       }
     },
     {
-      "chno": 101,
+      "chno": 76,
       "name": "[Live] [UPCOMING] Gavi stars in Barcelona's Super Cup win over Real (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2243,7 +1693,7 @@
       }
     },
     {
-      "chno": 102,
+      "chno": 77,
       "name": "[Live] [UPCOMING] Bournemouth agree &#1042;&#1032;20m deal for Lorient's Ouattara (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2265,7 +1715,7 @@
       }
     },
     {
-      "chno": 103,
+      "chno": 78,
       "name": "[Live] [UPCOMING] Why Arsenal are in control of the title race (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2287,7 +1737,7 @@
       }
     },
     {
-      "chno": 104,
+      "chno": 79,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2309,7 +1759,7 @@
       }
     },
     {
-      "chno": 105,
+      "chno": 80,
       "name": "[Live] [UPCOMING] &#1042;&#1032;22m of Mudryk fee pledged to Ukraine war effort (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2331,7 +1781,7 @@
       }
     },
     {
-      "chno": 106,
+      "chno": 81,
       "name": "[Live] [UPCOMING] Klopp says he has no plans to leave Liverpool (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -2353,7 +1803,7 @@
       }
     },
     {
-      "chno": 107,
+      "chno": 82,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
