@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 41,
-  "live_count": 41,
-  "last_update": "03:37 PM 18-09-2026 BST",
+  "channels_amount": 45,
+  "live_count": 45,
+  "last_update": "03:47 PM 18-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -220,9 +220,9 @@
     },
     {
       "chno": 10,
-      "name": "[Asian Games] [04:00 PM BD] [UPCOMING] Kuwait U23 vs Uzbekistan U23 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
+      "name": "[Asian Games] [04:00 PM BD] [LIVE] Kuwait U23 vs Uzbekistan U23 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
       "sport": "Asian Games",
       "event": "Kuwait U23 vs Uzbekistan U23",
       "match_time_bd": "04:00 PM BD",
@@ -230,9 +230,9 @@
       "league": "Asian Games",
       "id": "Live.Event.us",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/1/19/Asian_Games_logo.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Kuwait%20U23%20vs%20Uzbekistan%20U23.html",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/NNNNA.m3u8",
+      "stream_url": "http://193.47.62.44/hls/NNNNA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/Kuwait%20U23%20vs%20Uzbekistan%20U23.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -242,9 +242,9 @@
     },
     {
       "chno": 11,
-      "name": "[Ukraine Premier League] [04:00 PM BD] [UPCOMING] Ch Odesa vs Obolon (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
+      "name": "[Ukraine Premier League] [04:00 PM BD] [LIVE] Ch Odesa vs Obolon (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
       "sport": "Ukraine Premier League",
       "event": "Ch Odesa vs Obolon",
       "match_time_bd": "04:00 PM BD",
@@ -252,9 +252,9 @@
       "league": "Ukraine Premier League",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/2510182485/zmi86gctecx242v92tii_400x400.jpeg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Ch%20Odesa%20vs%20Obolon.html",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/NNNN.m3u8",
+      "stream_url": "http://193.47.62.44/hls/NNNN.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/Ch%20Odesa%20vs%20Obolon.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -308,6 +308,94 @@
     },
     {
       "chno": 14,
+      "name": "[Snooker] [03:00 PM BD] [LIVE] Snooker Northern Ireland Open --- Table 1 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Snooker",
+      "event": "Snooker Northern Ireland Open --- Table 1",
+      "match_time_bd": "03:00 PM BD",
+      "source_time_gmt1": "10:00",
+      "league": "Snooker",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/grrrAAA.m3u8",
+      "stream_url": "http://193.47.62.44/hls/grrrAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Snooker%20Northern%20Ireland%20Open.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 15,
+      "name": "[Snooker] [03:00 PM BD] [LIVE] Snooker Northern Ireland Open --- Table 2 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Snooker",
+      "event": "Snooker Northern Ireland Open --- Table 2",
+      "match_time_bd": "03:00 PM BD",
+      "source_time_gmt1": "10:00",
+      "league": "Snooker",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/grrrAA.m3u8",
+      "stream_url": "http://193.47.62.44/hls/grrrAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Snooker%20Northern%20Ireland%20Open%20---%20Table%202.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 16,
+      "name": "[Snooker] [06:00 PM BD] [UPCOMING] Snooker Northern Ireland Open --- Table 3 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "Snooker",
+      "event": "Snooker Northern Ireland Open --- Table 3",
+      "match_time_bd": "06:00 PM BD",
+      "source_time_gmt1": "13:00",
+      "league": "Snooker",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Snooker%20Northern%20Ireland%20Open%20---%20Table%203.html",
+      "event_page": "http://www.fawanews.sc/Snooker%20Northern%20Ireland%20Open%20---%20Table%203.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 17,
+      "name": "[Snooker] [06:00 PM BD] [UPCOMING] Snooker Northern Ireland Open --- Table 4 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "Snooker",
+      "event": "Snooker Northern Ireland Open --- Table 4",
+      "match_time_bd": "06:00 PM BD",
+      "source_time_gmt1": "13:00",
+      "league": "Snooker",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Snooker%20Northern%20Ireland%20Open%20---%20Table%204.html",
+      "event_page": "http://www.fawanews.sc/Snooker%20Northern%20Ireland%20Open%20---%20Table%204.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 18,
       "name": "[MotoGP] [01:30 PM BD] [LIVE] MotoGP Grand Prix of Austria (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -329,7 +417,7 @@
       }
     },
     {
-      "chno": 15,
+      "chno": 19,
       "name": "[AFL Aussie Rules] [01:30 PM BD] [LIVE] Hawthorn Hawks W vs North Melbourne W (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -351,7 +439,7 @@
       }
     },
     {
-      "chno": 16,
+      "chno": 20,
       "name": "[Rugby NZ NPC] [01:10 PM BD] [LIVE] Tasman vs Auckland (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -373,7 +461,7 @@
       }
     },
     {
-      "chno": 17,
+      "chno": 21,
       "name": "[Cricket] [01:00 PM BD] [LIVE] Zimbabwe vs Australia (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -395,7 +483,7 @@
       }
     },
     {
-      "chno": 18,
+      "chno": 22,
       "name": "[Basketball Asian Games] [01:00 PM BD] [LIVE] South Korea vs Iran (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -417,7 +505,7 @@
       }
     },
     {
-      "chno": 19,
+      "chno": 23,
       "name": "[Golf --:--] [LIVE] Golf BMW PGA Championship (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -439,7 +527,7 @@
       }
     },
     {
-      "chno": 20,
+      "chno": 24,
       "name": "[Asian Games] [12:30 PM BD] [LIVE] Philippines U23 vs Vietnam U23 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -461,7 +549,7 @@
       }
     },
     {
-      "chno": 21,
+      "chno": 25,
       "name": "[Live] [UPCOMING] United Cup chief admits high-profile retirements make things a bit more difficult (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -483,7 +571,7 @@
       }
     },
     {
-      "chno": 22,
+      "chno": 26,
       "name": "[Live] [UPCOMING] Mercedes announce Valtteri Bottas as reserve driver after Sauber exit (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -505,7 +593,7 @@
       }
     },
     {
-      "chno": 23,
+      "chno": 27,
       "name": "[Live] [UPCOMING] Red Bull admit Tsunoda could leave after promoting Lawson instead (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -527,7 +615,7 @@
       }
     },
     {
-      "chno": 24,
+      "chno": 28,
       "name": "[Live] [UPCOMING] Oklahoma City Thunder and Alex Caruso agree to $81 million contract extension (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -549,7 +637,7 @@
       }
     },
     {
-      "chno": 25,
+      "chno": 29,
       "name": "[Live] [UPCOMING] Southampton announce the appointment of Croatian coach Ivan Juric (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -571,7 +659,7 @@
       }
     },
     {
-      "chno": 26,
+      "chno": 30,
       "name": "[Live] [UPCOMING] Southampton battle to earn valuable point at high-flying Fulham (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -593,7 +681,7 @@
       }
     },
     {
-      "chno": 27,
+      "chno": 31,
       "name": "[Live] [UPCOMING] Arsenal manager Mikel Arteta confirms Bukayo Saka set to be ruled out for many weeks (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -615,7 +703,7 @@
       }
     },
     {
-      "chno": 28,
+      "chno": 32,
       "name": "[Live] [UPCOMING] Ruben Amorim questions decision-making of Marcus Rashford camp after recent comments (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -637,7 +725,7 @@
       }
     },
     {
-      "chno": 29,
+      "chno": 33,
       "name": "[Live] [UPCOMING] Fernandez feeling very good at Chelsea after understanding what Maresca wants (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -659,7 +747,7 @@
       }
     },
     {
-      "chno": 30,
+      "chno": 34,
       "name": "[Live] [UPCOMING] Ivan Juric promises to play death metal style of football with Southampton (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -681,7 +769,7 @@
       }
     },
     {
-      "chno": 31,
+      "chno": 35,
       "name": "[Live] [UPCOMING] Eddie Howe: Newcastle defender Dan Burn&#1074;&#1026;&#1042;�s England desire is still alive (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -703,7 +791,7 @@
       }
     },
     {
-      "chno": 32,
+      "chno": 36,
       "name": "[Live] [UPCOMING] Everton to review security after high-risk game (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -725,7 +813,7 @@
       }
     },
     {
-      "chno": 33,
+      "chno": 37,
       "name": "[Live] [UPCOMING] Wolves agree fee for PSG & Spain Wingser Sarabia (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -747,7 +835,7 @@
       }
     },
     {
-      "chno": 34,
+      "chno": 38,
       "name": "[Live] [UPCOMING] Gavi stars in Barcelona's Super Cup win over Real (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -769,7 +857,7 @@
       }
     },
     {
-      "chno": 35,
+      "chno": 39,
       "name": "[Live] [UPCOMING] Bournemouth agree &#1042;&#1032;20m deal for Lorient's Ouattara (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -791,7 +879,7 @@
       }
     },
     {
-      "chno": 36,
+      "chno": 40,
       "name": "[Live] [UPCOMING] Why Arsenal are in control of the title race (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -813,7 +901,7 @@
       }
     },
     {
-      "chno": 37,
+      "chno": 41,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -835,7 +923,7 @@
       }
     },
     {
-      "chno": 38,
+      "chno": 42,
       "name": "[Live] [UPCOMING] &#1042;&#1032;22m of Mudryk fee pledged to Ukraine war effort (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -857,7 +945,7 @@
       }
     },
     {
-      "chno": 39,
+      "chno": 43,
       "name": "[Live] [UPCOMING] Klopp says he has no plans to leave Liverpool (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -879,7 +967,7 @@
       }
     },
     {
-      "chno": 40,
+      "chno": 44,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
