@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 121,
   "live_count": 121,
-  "last_update": "10:46 PM 19-09-2026 BST",
+  "last_update": "10:49 PM 19-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -110,6 +110,28 @@
     },
     {
       "chno": 5,
+      "name": "[Scottish Premiership] [10:45 PM BD] [LIVE] Kilmarnock vs Hearts (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Scottish Premiership",
+      "event": "Kilmarnock vs Hearts",
+      "match_time_bd": "10:45 PM BD",
+      "source_time_gmt1": "17:45",
+      "league": "Scottish Premiership",
+      "id": "Live.Event.us",
+      "logo": "https://upload.wikimedia.org/wikipedia/fr/c/cf/Scottish_Premiership.png",
+      "group": "Live Events",
+      "url": "http://193.47.62.41/hls/PPPPQQQ.m3u8",
+      "stream_url": "http://193.47.62.41/hls/PPPPQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Kilmarnock%20vs%20Hearts.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 6,
       "name": "[Cyprus League] [10:00 PM BD] [LIVE] Nea Salamis vs Anorthosis (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -131,7 +153,7 @@
       }
     },
     {
-      "chno": 6,
+      "chno": 7,
       "name": "[Cyprus League] [10:00 PM BD] [LIVE] Apollon vs APOEL (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -153,7 +175,7 @@
       }
     },
     {
-      "chno": 7,
+      "chno": 8,
       "name": "[Greece Super League] [10:00 PM BD] [LIVE] Atromitos vs Kifisia (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -168,28 +190,6 @@
       "url": "http://193.47.62.55/hls/SOOOOAAAA.m3u8",
       "stream_url": "http://193.47.62.55/hls/SOOOOAAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/Atromitos%20vs%20Kifisia.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 8,
-      "name": "[Scottish Premiership] [10:45 PM BD] [LIVE] Kilmarnock vs Hearts (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Scottish Premiership",
-      "event": "Kilmarnock vs Hearts",
-      "match_time_bd": "10:45 PM BD",
-      "source_time_gmt1": "17:45",
-      "league": "Scottish Premiership",
-      "id": "Live.Event.us",
-      "logo": "https://upload.wikimedia.org/wikipedia/fr/c/cf/Scottish_Premiership.png",
-      "group": "Live Events",
-      "url": "http://193.47.62.41/hls/PPPPQQQ.m3u8",
-      "stream_url": "http://193.47.62.41/hls/PPPPQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Kilmarnock%20vs%20Hearts.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
         "Origin": "http://www.fawanews.sc/",
