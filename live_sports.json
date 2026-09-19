@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 74,
-  "live_count": 74,
-  "last_update": "03:20 AM 20-09-2026 BST",
+  "channels_amount": 76,
+  "live_count": 76,
+  "last_update": "03:34 AM 20-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -22,11 +22,11 @@
     },
     {
       "chno": 1,
-      "name": "[UFC Fight Night] [01:00 AM BD] [LIVE] UFC 331 : Joshua Van vs Alexandre Pantoja (FAWA)",
+      "name": "[UFC Fight Night] [01:00 AM BD] [LIVE] UFC 331 : Joshua Van vs Alexandre Pantoja --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
       "sport": "UFC Fight Night",
-      "event": "UFC 331 : Joshua Van vs Alexandre Pantoja",
+      "event": "UFC 331 : Joshua Van vs Alexandre Pantoja --- CH 1",
       "match_time_bd": "01:00 AM BD",
       "source_time_gmt1": "20:00",
       "league": "UFC Fight Night",
@@ -44,6 +44,28 @@
     },
     {
       "chno": 2,
+      "name": "[UFC Fight Night] [01:00 AM BD] [LIVE] UFC 331 : Joshua Van vs Alexandre Pantoja --- CH 2 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "UFC Fight Night",
+      "event": "UFC 331 : Joshua Van vs Alexandre Pantoja --- CH 2",
+      "match_time_bd": "01:00 AM BD",
+      "source_time_gmt1": "20:00",
+      "league": "UFC Fight Night",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1835773190385328128/4fVrF1UI_400x400.jpg",
+      "group": "Live Events",
+      "url": "https://plex.fromthyheart.site/dailymotion/live/playlist/25.m3u8",
+      "stream_url": "https://plex.fromthyheart.site/dailymotion/live/playlist/25.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/UFC%20331_Joshua%20Van%20vs%20Alexandre%20Pantoja%20---%20CH%202.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 3,
       "name": "[Boxing] [01:00 AM BD] [LIVE] Boxing : Brown vs Hedges (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -65,10 +87,10 @@
       }
     },
     {
-      "chno": 3,
-      "name": "[MMA Fighting] [12:00 AM BD] [LIVE] MMA KSW 121 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "chno": 4,
+      "name": "[MMA Fighting] [12:00 AM BD] [UPCOMING] MMA KSW 121 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "MMA Fighting",
       "event": "MMA KSW 121",
       "match_time_bd": "12:00 AM BD",
@@ -76,9 +98,9 @@
       "league": "MMA Fighting",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1621506108769849344/TB84Rncd_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.55/hls/GG666AAAA.m3u8",
-      "stream_url": "http://193.47.62.55/hls/GG666AAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/MMA%20KSW%20121.html",
       "event_page": "http://www.fawanews.sc/MMA%20KSW%20121.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -87,7 +109,29 @@
       }
     },
     {
-      "chno": 4,
+      "chno": 5,
+      "name": "[NCAA American Football --:--] [LIVE] Clemson vs North Carolina (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "NCAA American Football --:--",
+      "event": "Clemson vs North Carolina",
+      "match_time_bd": "",
+      "source_time_gmt1": "NCAA American Football --:--",
+      "league": "NCAA American Football --:--",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.59/hls/HIIIA.m3u8",
+      "stream_url": "http://193.47.62.59/hls/HIIIA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Clemson%20vs%20North%20Carolina.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 6,
       "name": "[Brazil Serie A] [03:30 AM BD] [LIVE] Remo vs Santos (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -109,7 +153,7 @@
       }
     },
     {
-      "chno": 5,
+      "chno": 7,
       "name": "[Brazil Serie B] [03:30 AM BD] [LIVE] Athletic Club vs Botafogo SP (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -131,7 +175,7 @@
       }
     },
     {
-      "chno": 6,
+      "chno": 8,
       "name": "[Uruguay Liga AUF] [03:30 AM BD] [LIVE] Maldonado vs Cerro Largo (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -153,7 +197,7 @@
       }
     },
     {
-      "chno": 7,
+      "chno": 9,
       "name": "[Ecuador Liga Pro] [03:30 AM BD] [LIVE] Guayaquil City vs Leones del Norte (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -175,7 +219,7 @@
       }
     },
     {
-      "chno": 8,
+      "chno": 10,
       "name": "[Paraguay Primera Division] [03:30 AM BD] [LIVE] Cerro Porteno vs Rubio Nu (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -197,7 +241,7 @@
       }
     },
     {
-      "chno": 9,
+      "chno": 11,
       "name": "[Bolivia Copa] [03:30 AM BD] [LIVE] Aurora vs Universitario de Vinto (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -219,7 +263,7 @@
       }
     },
     {
-      "chno": 10,
+      "chno": 12,
       "name": "[Colombia Primera A] [03:05 AM BD] [LIVE] Alianza vs Santa Fe (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -241,7 +285,7 @@
       }
     },
     {
-      "chno": 11,
+      "chno": 13,
       "name": "[Canada Premier League] [03:00 AM BD] [LIVE] Cavalry vs Forge (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -263,7 +307,7 @@
       }
     },
     {
-      "chno": 12,
+      "chno": 14,
       "name": "[Peru Liga 1 Apertura] [02:30 AM BD] [LIVE] Sporting Cristal vs Grau (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -285,7 +329,7 @@
       }
     },
     {
-      "chno": 13,
+      "chno": 15,
       "name": "[Colombia Primera B] [02:30 AM BD] [LIVE] Leones vs Boca Juniors (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -307,7 +351,7 @@
       }
     },
     {
-      "chno": 14,
+      "chno": 16,
       "name": "[NCAA American Football] [02:30 AM BD] [LIVE] Louisiana-Monroe vs Southeastern Louisiana (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -329,7 +373,7 @@
       }
     },
     {
-      "chno": 15,
+      "chno": 17,
       "name": "[NCAA American Football] [02:15 AM BD] [LIVE] South Carolina vs Mississippi St (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -351,7 +395,7 @@
       }
     },
     {
-      "chno": 16,
+      "chno": 18,
       "name": "[MLB Baseball] [02:10 AM BD] [LIVE] Tampa Bay Rays vs Boston Red Sox (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -373,7 +417,7 @@
       }
     },
     {
-      "chno": 17,
+      "chno": 19,
       "name": "[MLB Baseball] [02:10 AM BD] [LIVE] New York Mets vs Philadelphia Phillies (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -395,7 +439,7 @@
       }
     },
     {
-      "chno": 18,
+      "chno": 20,
       "name": "[MLB Baseball] [02:05 AM BD] [LIVE] Baltimore Orioles vs Milwaukee Brewers (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -417,7 +461,7 @@
       }
     },
     {
-      "chno": 19,
+      "chno": 21,
       "name": "[NCAA American Football] [02:00 AM BD] [LIVE] Liberty Flames vs Ball State (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -439,7 +483,7 @@
       }
     },
     {
-      "chno": 20,
+      "chno": 22,
       "name": "[NCAA American Football] [02:00 AM BD] [LIVE] Iowa vs Northern Iowa (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -461,7 +505,7 @@
       }
     },
     {
-      "chno": 21,
+      "chno": 23,
       "name": "[NCAA American Football] [02:00 AM BD] [LIVE] Indiana vs Western Kentucky (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -483,7 +527,7 @@
       }
     },
     {
-      "chno": 22,
+      "chno": 24,
       "name": "[NCAA American Football] [02:00 AM BD] [LIVE] Duke vs Stanford (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -505,7 +549,7 @@
       }
     },
     {
-      "chno": 23,
+      "chno": 25,
       "name": "[NCAA American Football] [02:00 AM BD] [LIVE] Baylor vs Louisiana Tech (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -527,7 +571,7 @@
       }
     },
     {
-      "chno": 24,
+      "chno": 26,
       "name": "[Brazil Serie A] [02:00 AM BD] [LIVE] Mirassol vs Botafogo RJ (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -549,7 +593,7 @@
       }
     },
     {
-      "chno": 25,
+      "chno": 27,
       "name": "[USA NWSL Women] [02:00 AM BD] [LIVE] Orlando Pride W vs Portland Thorns W (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -571,7 +615,7 @@
       }
     },
     {
-      "chno": 26,
+      "chno": 28,
       "name": "[Argentina Liga Profesional] [01:45 AM BD] [LIVE] Union de Santa Fe vs Independiente (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -593,7 +637,7 @@
       }
     },
     {
-      "chno": 27,
+      "chno": 29,
       "name": "[Portugal Primeira Liga] [01:30 AM BD] [LIVE] Sporting Lisbon vs Arouca (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -615,7 +659,7 @@
       }
     },
     {
-      "chno": 28,
+      "chno": 30,
       "name": "[Iceland League] [01:30 AM BD] [LIVE] KA Akureyri vs Thor Akureyri (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -637,7 +681,7 @@
       }
     },
     {
-      "chno": 29,
+      "chno": 31,
       "name": "[Brazil Serie B] [01:30 AM BD] [LIVE] Sport Recife vs Juventude (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -659,7 +703,7 @@
       }
     },
     {
-      "chno": 30,
+      "chno": 32,
       "name": "[NCAA American Football] [01:30 AM BD] [LIVE] Alabama vs Florida State (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -681,7 +725,7 @@
       }
     },
     {
-      "chno": 31,
+      "chno": 33,
       "name": "[NCAA American Football] [01:30 AM BD] [LIVE] Washington State vs Duquesne D (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -703,7 +747,7 @@
       }
     },
     {
-      "chno": 32,
+      "chno": 34,
       "name": "[NCAA American Football] [01:30 AM BD] [LIVE] Utah vs Utah State (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -725,7 +769,7 @@
       }
     },
     {
-      "chno": 33,
+      "chno": 35,
       "name": "[NCAA American Football] [01:30 AM BD] [LIVE] Texas A-M vs Kentucky (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -747,7 +791,7 @@
       }
     },
     {
-      "chno": 34,
+      "chno": 36,
       "name": "[NCAA American Football] [01:30 AM BD] [LIVE] Rutgers vs USC (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -769,7 +813,7 @@
       }
     },
     {
-      "chno": 35,
+      "chno": 37,
       "name": "[NCAA American Football] [01:30 AM BD] [LIVE] Michigan vs UTEP (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -791,7 +835,7 @@
       }
     },
     {
-      "chno": 36,
+      "chno": 38,
       "name": "[NCAA American Football] [01:30 AM BD] [LIVE] Massachusetts vs Stonehill (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -813,7 +857,7 @@
       }
     },
     {
-      "chno": 37,
+      "chno": 39,
       "name": "[NCAA American Football] [01:30 AM BD] [LIVE] Louisville vs Southern Methodist (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -835,7 +879,7 @@
       }
     },
     {
-      "chno": 38,
+      "chno": 40,
       "name": "[NCAA American Football] [01:30 AM BD] [LIVE] Cincinnati Bearcats vs Miami OH (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -857,7 +901,7 @@
       }
     },
     {
-      "chno": 39,
+      "chno": 41,
       "name": "[NCAA American Football] [01:30 AM BD] [LIVE] California vs Wagner (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -879,10 +923,10 @@
       }
     },
     {
-      "chno": 40,
-      "name": "[Spanish Segunda Liga] [01:00 AM BD] [LIVE] Cadiz CF vs Girona (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "chno": 42,
+      "name": "[Spanish Segunda Liga] [01:00 AM BD] [UPCOMING] Cadiz CF vs Girona (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Spanish Segunda Liga",
       "event": "Cadiz CF vs Girona",
       "match_time_bd": "01:00 AM BD",
@@ -890,9 +934,9 @@
       "league": "Spanish Segunda Liga",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/2043992816377049088/r9FnBdQu_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.50/hls/YDDDAAAAQQAAA.m3u8",
-      "stream_url": "http://193.47.62.50/hls/YDDDAAAAQQAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Cadiz%20CF%20vs%20Girona.html",
       "event_page": "http://www.fawanews.sc/Cadiz%20CF%20vs%20Girona.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -901,7 +945,7 @@
       }
     },
     {
-      "chno": 41,
+      "chno": 43,
       "name": "[France Rugby Top14] [01:00 AM BD] [UPCOMING] Vannes vs Stade Toulousain (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -923,7 +967,7 @@
       }
     },
     {
-      "chno": 42,
+      "chno": 44,
       "name": "[NCAA American Football] [01:00 AM BD] [UPCOMING] Toledo vs Temple (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -945,7 +989,7 @@
       }
     },
     {
-      "chno": 43,
+      "chno": 45,
       "name": "[CFL Canadian Football] [01:00 AM BD] [UPCOMING] Toronto Argonauts vs Edmonton Elks (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -967,7 +1011,7 @@
       }
     },
     {
-      "chno": 44,
+      "chno": 46,
       "name": "[Paraguay Primera Division] [01:00 AM BD] [UPCOMING] Libertad Asuncion vs Ameliano (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -989,7 +1033,7 @@
       }
     },
     {
-      "chno": 45,
+      "chno": 47,
       "name": "[Brazil Serie A] [01:00 AM BD] [UPCOMING] Atletico-MG vs Chapecoense-SC (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1011,7 +1055,7 @@
       }
     },
     {
-      "chno": 46,
+      "chno": 48,
       "name": "[Dutch Eredivisie] [01:00 AM BD] [UPCOMING] Willem II vs Fortuna Sittard (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1033,7 +1077,7 @@
       }
     },
     {
-      "chno": 47,
+      "chno": 49,
       "name": "[Colombia Primera A] [01:00 AM BD] [UPCOMING] Millonarios vs Chico (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1055,7 +1099,7 @@
       }
     },
     {
-      "chno": 48,
+      "chno": 50,
       "name": "[Bolivia Copa] [01:00 AM BD] [UPCOMING] Always Ready vs Academia del Balompie (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1077,7 +1121,7 @@
       }
     },
     {
-      "chno": 49,
+      "chno": 51,
       "name": "[Sweden HockeyAllsvenskan] [12:30 AM BD] [UPCOMING] Mora vs Leksand (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1099,7 +1143,7 @@
       }
     },
     {
-      "chno": 50,
+      "chno": 52,
       "name": "[MLB Baseball] [12:10 AM BD] [UPCOMING] Chicago White Sox vs Detroit Tigers (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1121,7 +1165,7 @@
       }
     },
     {
-      "chno": 51,
+      "chno": 53,
       "name": "[NCAA American Football] [12:00 AM BD] [UPCOMING] Illinois vs Southern Illinois (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1143,7 +1187,7 @@
       }
     },
     {
-      "chno": 52,
+      "chno": 54,
       "name": "[NCAA American Football] [12:00 AM BD] [UPCOMING] Boston College vs Maine (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1165,7 +1209,7 @@
       }
     },
     {
-      "chno": 53,
+      "chno": 55,
       "name": "[Darts] [11:00 PM BD] [UPCOMING] Darts World Series Finals (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1187,7 +1231,7 @@
       }
     },
     {
-      "chno": 54,
+      "chno": 56,
       "name": "[Live] [UPCOMING] United Cup chief admits high-profile retirements make things a bit more difficult (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1209,7 +1253,7 @@
       }
     },
     {
-      "chno": 55,
+      "chno": 57,
       "name": "[Live] [UPCOMING] Mercedes announce Valtteri Bottas as reserve driver after Sauber exit (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1231,7 +1275,7 @@
       }
     },
     {
-      "chno": 56,
+      "chno": 58,
       "name": "[Live] [UPCOMING] Red Bull admit Tsunoda could leave after promoting Lawson instead (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1253,7 +1297,7 @@
       }
     },
     {
-      "chno": 57,
+      "chno": 59,
       "name": "[Live] [UPCOMING] Oklahoma City Thunder and Alex Caruso agree to $81 million contract extension (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1275,7 +1319,7 @@
       }
     },
     {
-      "chno": 58,
+      "chno": 60,
       "name": "[Live] [UPCOMING] Southampton announce the appointment of Croatian coach Ivan Juric (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1297,7 +1341,7 @@
       }
     },
     {
-      "chno": 59,
+      "chno": 61,
       "name": "[Live] [UPCOMING] Southampton battle to earn valuable point at high-flying Fulham (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1319,7 +1363,7 @@
       }
     },
     {
-      "chno": 60,
+      "chno": 62,
       "name": "[Live] [UPCOMING] Arsenal manager Mikel Arteta confirms Bukayo Saka set to be ruled out for many weeks (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1341,7 +1385,7 @@
       }
     },
     {
-      "chno": 61,
+      "chno": 63,
       "name": "[Live] [UPCOMING] Ruben Amorim questions decision-making of Marcus Rashford camp after recent comments (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1363,7 +1407,7 @@
       }
     },
     {
-      "chno": 62,
+      "chno": 64,
       "name": "[Live] [UPCOMING] Fernandez feeling very good at Chelsea after understanding what Maresca wants (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1385,7 +1429,7 @@
       }
     },
     {
-      "chno": 63,
+      "chno": 65,
       "name": "[Live] [UPCOMING] Ivan Juric promises to play death metal style of football with Southampton (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1407,7 +1451,7 @@
       }
     },
     {
-      "chno": 64,
+      "chno": 66,
       "name": "[Live] [UPCOMING] Eddie Howe: Newcastle defender Dan Burn&#1074;&#1026;&#1042;�s England desire is still alive (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1429,7 +1473,7 @@
       }
     },
     {
-      "chno": 65,
+      "chno": 67,
       "name": "[Live] [UPCOMING] Everton to review security after high-risk game (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1451,7 +1495,7 @@
       }
     },
     {
-      "chno": 66,
+      "chno": 68,
       "name": "[Live] [UPCOMING] Wolves agree fee for PSG & Spain Wingser Sarabia (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1473,7 +1517,7 @@
       }
     },
     {
-      "chno": 67,
+      "chno": 69,
       "name": "[Live] [UPCOMING] Gavi stars in Barcelona's Super Cup win over Real (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1495,7 +1539,7 @@
       }
     },
     {
-      "chno": 68,
+      "chno": 70,
       "name": "[Live] [UPCOMING] Bournemouth agree &#1042;&#1032;20m deal for Lorient's Ouattara (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1517,7 +1561,7 @@
       }
     },
     {
-      "chno": 69,
+      "chno": 71,
       "name": "[Live] [UPCOMING] Why Arsenal are in control of the title race (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1539,7 +1583,7 @@
       }
     },
     {
-      "chno": 70,
+      "chno": 72,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1561,7 +1605,7 @@
       }
     },
     {
-      "chno": 71,
+      "chno": 73,
       "name": "[Live] [UPCOMING] &#1042;&#1032;22m of Mudryk fee pledged to Ukraine war effort (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1583,7 +1627,7 @@
       }
     },
     {
-      "chno": 72,
+      "chno": 74,
       "name": "[Live] [UPCOMING] Klopp says he has no plans to leave Liverpool (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1605,7 +1649,7 @@
       }
     },
     {
-      "chno": 73,
+      "chno": 75,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
