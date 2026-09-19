@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 27,
-  "live_count": 27,
-  "last_update": "01:36 PM 19-09-2026 BST",
+  "channels_amount": 29,
+  "live_count": 29,
+  "last_update": "01:49 PM 19-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -22,6 +22,50 @@
     },
     {
       "chno": 1,
+      "name": "[Golf] [02:00 PM BD] [LIVE] Golf BMW PGA Championship (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Golf",
+      "event": "Golf BMW PGA Championship",
+      "match_time_bd": "02:00 PM BD",
+      "source_time_gmt1": "09:00",
+      "league": "Golf",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1567930467717898246/7C0EMSyM_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.52/hls/iiiia.m3u8",
+      "stream_url": "http://193.47.62.52/hls/iiiia.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Golf%20BMW%20PGA%20Championship.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 2,
+      "name": "[South Korea K League] [01:30 PM BD] [LIVE] Bucheon FC 1995 vs Gimcheon Sangmu (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "South Korea K League",
+      "event": "Bucheon FC 1995 vs Gimcheon Sangmu",
+      "match_time_bd": "01:30 PM BD",
+      "source_time_gmt1": "08:30",
+      "league": "South Korea K League",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1763114038995849216/nqmsZCnm_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/HJJJ.m3u8",
+      "stream_url": "http://193.47.62.44/hls/HJJJ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Bucheon%20FC%201995%20vs%20Gimcheon%20Sangmu.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 3,
       "name": "[AFL Aussie Rules] [01:15 PM BD] [LIVE] Hawthorn Hawks vs Brisbane Lions (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -43,7 +87,7 @@
       }
     },
     {
-      "chno": 2,
+      "chno": 4,
       "name": "[Rugby NZ NPC] [01:05 PM BD] [LIVE] Wellington vs Northland (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -65,7 +109,7 @@
       }
     },
     {
-      "chno": 3,
+      "chno": 5,
       "name": "[Rugby Pacific Cup] [01:00 PM BD] [LIVE] Canada vs USA (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -87,7 +131,7 @@
       }
     },
     {
-      "chno": 4,
+      "chno": 6,
       "name": "[MotoGP] [12:30 PM BD] [LIVE] MotoGP Grand Prix of Austria (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -109,7 +153,7 @@
       }
     },
     {
-      "chno": 5,
+      "chno": 7,
       "name": "[NRL] [12:05 PM BD] [LIVE] Brisbane Broncos W vs Newcastle Knights W (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -131,7 +175,7 @@
       }
     },
     {
-      "chno": 6,
+      "chno": 8,
       "name": "[Rugby NZ NPC] [11:05 AM BD] [LIVE] Waikato vs Manawatu (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -153,7 +197,7 @@
       }
     },
     {
-      "chno": 7,
+      "chno": 9,
       "name": "[Live] [UPCOMING] United Cup chief admits high-profile retirements make things a bit more difficult (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -175,7 +219,7 @@
       }
     },
     {
-      "chno": 8,
+      "chno": 10,
       "name": "[Live] [UPCOMING] Mercedes announce Valtteri Bottas as reserve driver after Sauber exit (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -197,7 +241,7 @@
       }
     },
     {
-      "chno": 9,
+      "chno": 11,
       "name": "[Live] [UPCOMING] Red Bull admit Tsunoda could leave after promoting Lawson instead (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -219,7 +263,7 @@
       }
     },
     {
-      "chno": 10,
+      "chno": 12,
       "name": "[Live] [UPCOMING] Oklahoma City Thunder and Alex Caruso agree to $81 million contract extension (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -241,7 +285,7 @@
       }
     },
     {
-      "chno": 11,
+      "chno": 13,
       "name": "[Live] [UPCOMING] Southampton announce the appointment of Croatian coach Ivan Juric (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -263,7 +307,7 @@
       }
     },
     {
-      "chno": 12,
+      "chno": 14,
       "name": "[Live] [UPCOMING] Southampton battle to earn valuable point at high-flying Fulham (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -285,7 +329,7 @@
       }
     },
     {
-      "chno": 13,
+      "chno": 15,
       "name": "[Live] [UPCOMING] Arsenal manager Mikel Arteta confirms Bukayo Saka set to be ruled out for many weeks (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -307,7 +351,7 @@
       }
     },
     {
-      "chno": 14,
+      "chno": 16,
       "name": "[Live] [UPCOMING] Ruben Amorim questions decision-making of Marcus Rashford camp after recent comments (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -329,7 +373,7 @@
       }
     },
     {
-      "chno": 15,
+      "chno": 17,
       "name": "[Live] [UPCOMING] Fernandez feeling very good at Chelsea after understanding what Maresca wants (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -351,7 +395,7 @@
       }
     },
     {
-      "chno": 16,
+      "chno": 18,
       "name": "[Live] [UPCOMING] Ivan Juric promises to play death metal style of football with Southampton (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -373,7 +417,7 @@
       }
     },
     {
-      "chno": 17,
+      "chno": 19,
       "name": "[Live] [UPCOMING] Eddie Howe: Newcastle defender Dan Burn&#1074;&#1026;&#1042;�s England desire is still alive (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -395,7 +439,7 @@
       }
     },
     {
-      "chno": 18,
+      "chno": 20,
       "name": "[Live] [UPCOMING] Everton to review security after high-risk game (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -417,7 +461,7 @@
       }
     },
     {
-      "chno": 19,
+      "chno": 21,
       "name": "[Live] [UPCOMING] Wolves agree fee for PSG & Spain Wingser Sarabia (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -439,7 +483,7 @@
       }
     },
     {
-      "chno": 20,
+      "chno": 22,
       "name": "[Live] [UPCOMING] Gavi stars in Barcelona's Super Cup win over Real (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -461,7 +505,7 @@
       }
     },
     {
-      "chno": 21,
+      "chno": 23,
       "name": "[Live] [UPCOMING] Bournemouth agree &#1042;&#1032;20m deal for Lorient's Ouattara (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -483,7 +527,7 @@
       }
     },
     {
-      "chno": 22,
+      "chno": 24,
       "name": "[Live] [UPCOMING] Why Arsenal are in control of the title race (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -505,7 +549,7 @@
       }
     },
     {
-      "chno": 23,
+      "chno": 25,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -527,7 +571,7 @@
       }
     },
     {
-      "chno": 24,
+      "chno": 26,
       "name": "[Live] [UPCOMING] &#1042;&#1032;22m of Mudryk fee pledged to Ukraine war effort (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -549,7 +593,7 @@
       }
     },
     {
-      "chno": 25,
+      "chno": 27,
       "name": "[Live] [UPCOMING] Klopp says he has no plans to leave Liverpool (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -571,7 +615,7 @@
       }
     },
     {
-      "chno": 26,
+      "chno": 28,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
