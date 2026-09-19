@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 42,
-  "live_count": 42,
-  "last_update": "03:08 PM 19-09-2026 BST",
+  "channels_amount": 40,
+  "live_count": 40,
+  "last_update": "03:19 PM 19-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -44,6 +44,28 @@
     },
     {
       "chno": 2,
+      "name": "[Poland Division 1] [04:30 PM BD] [UPCOMING] Lechia Gdansk vs Stal Mielec (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "Poland Division 1",
+      "event": "Lechia Gdansk vs Stal Mielec",
+      "match_time_bd": "04:30 PM BD",
+      "source_time_gmt1": "11:30",
+      "league": "Poland Division 1",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1852296144723869696/2Ad94oXN_400x400.jpg",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Lechia%20Gdansk%20vs%20Stal%20Mielec.html",
+      "event_page": "http://www.fawanews.sc/Lechia%20Gdansk%20vs%20Stal%20Mielec.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 3,
       "name": "[Rugby Friendly] [04:05 PM BD] [UPCOMING] Fiji vs Japan (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -65,7 +87,7 @@
       }
     },
     {
-      "chno": 3,
+      "chno": 4,
       "name": "[Ukraine Premier League] [04:00 PM BD] [UPCOMING] FC Kharkiv vs Bukovyna (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -80,28 +102,6 @@
       "url": null,
       "stream_url": "http://www.fawanews.sc/FC%20Kharkiv%20vs%20Bukovyna.html",
       "event_page": "http://www.fawanews.sc/FC%20Kharkiv%20vs%20Bukovyna.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 4,
-      "name": "[Poland Division 1] [04:00 PM BD] [UPCOMING] Lechia Gdansk vs Stal Mielec (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Poland Division 1",
-      "event": "Lechia Gdansk vs Stal Mielec",
-      "match_time_bd": "04:00 PM BD",
-      "source_time_gmt1": "11:00",
-      "league": "Poland Division 1",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1852296144723869696/2Ad94oXN_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Lechia%20Gdansk%20vs%20Stal%20Mielec.html",
-      "event_page": "http://www.fawanews.sc/Lechia%20Gdansk%20vs%20Stal%20Mielec.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
         "Origin": "http://www.fawanews.sc/",
@@ -220,9 +220,9 @@
     },
     {
       "chno": 10,
-      "name": "[Japan J League] [03:30 PM BD] [UPCOMING] V-Varen Nagasaki vs Cerezo Osaka (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
+      "name": "[Japan J League] [03:30 PM BD] [LIVE] V-Varen Nagasaki vs Cerezo Osaka (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
       "sport": "Japan J League",
       "event": "V-Varen Nagasaki vs Cerezo Osaka",
       "match_time_bd": "03:30 PM BD",
@@ -230,9 +230,9 @@
       "league": "Japan J League",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/2086668400492007424/smxbgWFb_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/V-Varen%20Nagasaki%20vs%20Cerezo%20Osaka.html",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/NNNNAA.m3u8",
+      "stream_url": "http://193.47.62.44/hls/NNNNAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/V-Varen%20Nagasaki%20vs%20Cerezo%20Osaka.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -242,9 +242,9 @@
     },
     {
       "chno": 11,
-      "name": "[Japan J League] [03:30 PM BD] [UPCOMING] Urawa Reds vs Tokyo Verdy (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
+      "name": "[Japan J League] [03:30 PM BD] [LIVE] Urawa Reds vs Tokyo Verdy (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
       "sport": "Japan J League",
       "event": "Urawa Reds vs Tokyo Verdy",
       "match_time_bd": "03:30 PM BD",
@@ -252,9 +252,9 @@
       "league": "Japan J League",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/2086668400492007424/smxbgWFb_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Urawa%20Reds%20vs%20Tokyo%20Verdy.html",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/NNNNA.m3u8",
+      "stream_url": "http://193.47.62.44/hls/NNNNA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/Urawa%20Reds%20vs%20Tokyo%20Verdy.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -264,9 +264,9 @@
     },
     {
       "chno": 12,
-      "name": "[Japan J League] [03:30 PM BD] [UPCOMING] Shimizu S-Pulse vs Chiba (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
+      "name": "[Japan J League] [03:30 PM BD] [LIVE] Shimizu S-Pulse vs Chiba (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
       "sport": "Japan J League",
       "event": "Shimizu S-Pulse vs Chiba",
       "match_time_bd": "03:30 PM BD",
@@ -274,9 +274,9 @@
       "league": "Japan J League",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/2086668400492007424/smxbgWFb_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Shimizu%20S-Pulse%20vs%20Chiba.html",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/NNNN.m3u8",
+      "stream_url": "http://193.47.62.44/hls/NNNN.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/Shimizu%20S-Pulse%20vs%20Chiba.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -352,9 +352,9 @@
     },
     {
       "chno": 16,
-      "name": "[Golf] [02:00 PM BD] [LIVE] Golf BMW PGA Championship (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "name": "[Golf] [02:00 PM BD] [UPCOMING] Golf BMW PGA Championship (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Golf",
       "event": "Golf BMW PGA Championship",
       "match_time_bd": "02:00 PM BD",
@@ -362,9 +362,9 @@
       "league": "Golf",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1567930467717898246/7C0EMSyM_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.52/hls/iiiia.m3u8",
-      "stream_url": "http://193.47.62.52/hls/iiiia.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Golf%20BMW%20PGA%20Championship.html",
       "event_page": "http://www.fawanews.sc/Golf%20BMW%20PGA%20Championship.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -418,53 +418,9 @@
     },
     {
       "chno": 19,
-      "name": "[Rugby NZ NPC] [01:05 PM BD] [LIVE] Wellington vs Northland (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Rugby NZ NPC",
-      "event": "Wellington vs Northland",
-      "match_time_bd": "01:05 PM BD",
-      "source_time_gmt1": "08:05",
-      "league": "Rugby NZ NPC",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1605720616560009218/P4LuoDhq_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/frfrfrAa.m3u8",
-      "stream_url": "http://193.47.62.44/hls/frfrfrAa.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Wellington%20vs%20Northland.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 20,
-      "name": "[Rugby Pacific Cup] [01:00 PM BD] [LIVE] Canada vs USA (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Rugby Pacific Cup",
-      "event": "Canada vs USA",
-      "match_time_bd": "01:00 PM BD",
-      "source_time_gmt1": "08:00",
-      "league": "Rugby Pacific Cup",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1597190896885309440/ZVwKqVO3.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/fsssg.m3u8",
-      "stream_url": "http://193.47.62.44/hls/fsssg.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Canada%20vs%20USA.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 21,
-      "name": "[MotoGP] [12:30 PM BD] [LIVE] MotoGP Grand Prix of Austria (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "name": "[MotoGP] [12:30 PM BD] [UPCOMING] MotoGP Grand Prix of Austria (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "MotoGP",
       "event": "MotoGP Grand Prix of Austria",
       "match_time_bd": "12:30 PM BD",
@@ -472,9 +428,9 @@
       "league": "MotoGP",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1858245091661324288/g97T9wjl_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/ssssAA.m3u8",
-      "stream_url": "http://193.47.62.44/hls/ssssAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/MotoGP%20Grand%20Prix%20of%20Austria.html",
       "event_page": "http://www.fawanews.sc/MotoGP%20Grand%20Prix%20of%20Austria.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -483,7 +439,7 @@
       }
     },
     {
-      "chno": 22,
+      "chno": 20,
       "name": "[Live] [UPCOMING] United Cup chief admits high-profile retirements make things a bit more difficult (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -505,7 +461,7 @@
       }
     },
     {
-      "chno": 23,
+      "chno": 21,
       "name": "[Live] [UPCOMING] Mercedes announce Valtteri Bottas as reserve driver after Sauber exit (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -527,7 +483,7 @@
       }
     },
     {
-      "chno": 24,
+      "chno": 22,
       "name": "[Live] [UPCOMING] Red Bull admit Tsunoda could leave after promoting Lawson instead (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -549,7 +505,7 @@
       }
     },
     {
-      "chno": 25,
+      "chno": 23,
       "name": "[Live] [UPCOMING] Oklahoma City Thunder and Alex Caruso agree to $81 million contract extension (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -571,7 +527,7 @@
       }
     },
     {
-      "chno": 26,
+      "chno": 24,
       "name": "[Live] [UPCOMING] Southampton announce the appointment of Croatian coach Ivan Juric (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -593,7 +549,7 @@
       }
     },
     {
-      "chno": 27,
+      "chno": 25,
       "name": "[Live] [UPCOMING] Southampton battle to earn valuable point at high-flying Fulham (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -615,7 +571,7 @@
       }
     },
     {
-      "chno": 28,
+      "chno": 26,
       "name": "[Live] [UPCOMING] Arsenal manager Mikel Arteta confirms Bukayo Saka set to be ruled out for many weeks (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -637,7 +593,7 @@
       }
     },
     {
-      "chno": 29,
+      "chno": 27,
       "name": "[Live] [UPCOMING] Ruben Amorim questions decision-making of Marcus Rashford camp after recent comments (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -659,7 +615,7 @@
       }
     },
     {
-      "chno": 30,
+      "chno": 28,
       "name": "[Live] [UPCOMING] Fernandez feeling very good at Chelsea after understanding what Maresca wants (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -681,7 +637,7 @@
       }
     },
     {
-      "chno": 31,
+      "chno": 29,
       "name": "[Live] [UPCOMING] Ivan Juric promises to play death metal style of football with Southampton (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -703,7 +659,7 @@
       }
     },
     {
-      "chno": 32,
+      "chno": 30,
       "name": "[Live] [UPCOMING] Eddie Howe: Newcastle defender Dan Burn&#1074;&#1026;&#1042;�s England desire is still alive (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -725,7 +681,7 @@
       }
     },
     {
-      "chno": 33,
+      "chno": 31,
       "name": "[Live] [UPCOMING] Everton to review security after high-risk game (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -747,7 +703,7 @@
       }
     },
     {
-      "chno": 34,
+      "chno": 32,
       "name": "[Live] [UPCOMING] Wolves agree fee for PSG & Spain Wingser Sarabia (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -769,7 +725,7 @@
       }
     },
     {
-      "chno": 35,
+      "chno": 33,
       "name": "[Live] [UPCOMING] Gavi stars in Barcelona's Super Cup win over Real (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -791,7 +747,7 @@
       }
     },
     {
-      "chno": 36,
+      "chno": 34,
       "name": "[Live] [UPCOMING] Bournemouth agree &#1042;&#1032;20m deal for Lorient's Ouattara (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -813,7 +769,7 @@
       }
     },
     {
-      "chno": 37,
+      "chno": 35,
       "name": "[Live] [UPCOMING] Why Arsenal are in control of the title race (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -835,7 +791,7 @@
       }
     },
     {
-      "chno": 38,
+      "chno": 36,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -857,7 +813,7 @@
       }
     },
     {
-      "chno": 39,
+      "chno": 37,
       "name": "[Live] [UPCOMING] &#1042;&#1032;22m of Mudryk fee pledged to Ukraine war effort (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -879,7 +835,7 @@
       }
     },
     {
-      "chno": 40,
+      "chno": 38,
       "name": "[Live] [UPCOMING] Klopp says he has no plans to leave Liverpool (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -901,7 +857,7 @@
       }
     },
     {
-      "chno": 41,
+      "chno": 39,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
