@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 91,
-  "live_count": 91,
-  "last_update": "09:19 AM 20-09-2026 BST",
+  "channels_amount": 58,
+  "live_count": 58,
+  "last_update": "09:34 AM 20-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -66,9 +66,9 @@
     },
     {
       "chno": 3,
-      "name": "[Boxing] [06:00 AM BD] [LIVE] Boxing : Cruz vs Bravo (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "name": "[Boxing] [06:00 AM BD] [UPCOMING] Boxing : Cruz vs Bravo (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Boxing",
       "event": "Boxing : Cruz vs Bravo",
       "match_time_bd": "06:00 AM BD",
@@ -76,9 +76,9 @@
       "league": "Boxing",
       "id": "Live.Event.us",
       "logo": "https://upload.wikimedia.org/wikipedia/en/0/0b/WBO_logo.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.41/hls/viiir.m3u8",
-      "stream_url": "http://193.47.62.41/hls/viiir.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Boxing_Cruz%20vs%20Bravo.html",
       "event_page": "http://www.fawanews.sc/Boxing_Cruz%20vs%20Bravo.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -374,28 +374,6 @@
     },
     {
       "chno": 17,
-      "name": "[Basketball Asian Games] [07:30 AM BD] [LIVE] Hong Kong W vs Philippines W (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Basketball Asian Games",
-      "event": "Hong Kong W vs Philippines W",
-      "match_time_bd": "07:30 AM BD",
-      "source_time_gmt1": "02:30",
-      "league": "Basketball Asian Games",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1858812711376699392/LcQ55MY1_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.50/hls/ZGGG.m3u8",
-      "stream_url": "http://193.47.62.50/hls/ZGGG.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Hong%20Kong%20W%20vs%20Philippines%20W.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 18,
       "name": "[MLB Baseball] [07:38 AM BD] [LIVE] Los Angeles Angels vs Minnesota Twins (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -417,7 +395,7 @@
       }
     },
     {
-      "chno": 19,
+      "chno": 18,
       "name": "[MLS League] [07:30 AM BD] [LIVE] Real Salt Lake vs Vancouver Whitecaps (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -439,7 +417,7 @@
       }
     },
     {
-      "chno": 20,
+      "chno": 19,
       "name": "[MLS League] [07:30 AM BD] [LIVE] Nashville SC vs Chicago Fire (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -461,7 +439,7 @@
       }
     },
     {
-      "chno": 21,
+      "chno": 20,
       "name": "[MLS League] [07:30 AM BD] [LIVE] Colorado Rapids vs Seattle Sounders (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -483,7 +461,7 @@
       }
     },
     {
-      "chno": 22,
+      "chno": 21,
       "name": "[Peru Liga 1 Apertura] [07:15 AM BD] [LIVE] FBC Melgar vs Sport Boys (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -505,7 +483,7 @@
       }
     },
     {
-      "chno": 23,
+      "chno": 22,
       "name": "[Colombia Primera A] [07:15 AM BD] [LIVE] Dep Pasto vs Once Caldas (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -527,7 +505,7 @@
       }
     },
     {
-      "chno": 24,
+      "chno": 23,
       "name": "[MLB Baseball] [07:10 AM BD] [LIVE] Los Angeles Dodgers vs San Francisco Giants (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -549,7 +527,7 @@
       }
     },
     {
-      "chno": 25,
+      "chno": 24,
       "name": "[Mexico Liga MX] [07:10 AM BD] [LIVE] Monterrey vs Cruz Azul (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -571,7 +549,7 @@
       }
     },
     {
-      "chno": 26,
+      "chno": 25,
       "name": "[WNBA Basketball] [07:00 AM BD] [LIVE] Golden State Valkyries W vs Seattle Storm W (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -593,7 +571,7 @@
       }
     },
     {
-      "chno": 27,
+      "chno": 26,
       "name": "[USA NWSL Women] [06:45 AM BD] [LIVE] Denver Summit W vs Seattle Reign W (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -615,7 +593,7 @@
       }
     },
     {
-      "chno": 28,
+      "chno": 27,
       "name": "[MLB Baseball] [06:40 AM BD] [LIVE] San Diego Padres vs Miami Marlins (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -637,7 +615,7 @@
       }
     },
     {
-      "chno": 29,
+      "chno": 28,
       "name": "[MLS League] [06:30 AM BD] [LIVE] St Louis City vs Toronto FC (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -659,7 +637,7 @@
       }
     },
     {
-      "chno": 30,
+      "chno": 29,
       "name": "[MLS League] [06:30 AM BD] [LIVE] Sporting Kansas City vs Philadelphia Union (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -681,7 +659,7 @@
       }
     },
     {
-      "chno": 31,
+      "chno": 30,
       "name": "[MLS League] [06:30 AM BD] [LIVE] Minnesota United vs Los Angeles Galaxy (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -703,7 +681,7 @@
       }
     },
     {
-      "chno": 32,
+      "chno": 31,
       "name": "[MLS League] [06:30 AM BD] [LIVE] Houston Dynamo vs FC Cincinnati (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -725,7 +703,7 @@
       }
     },
     {
-      "chno": 33,
+      "chno": 32,
       "name": "[MLS League] [06:30 AM BD] [LIVE] FC Dallas vs Austin FC (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -747,54 +725,10 @@
       }
     },
     {
-      "chno": 34,
-      "name": "[Argentina Liga Profesional] [06:15 AM BD] [LIVE] Instituto vs Talleres Cordoba (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Argentina Liga Profesional",
-      "event": "Instituto vs Talleres Cordoba",
-      "match_time_bd": "06:15 AM BD",
-      "source_time_gmt1": "01:15",
-      "league": "Argentina Liga Profesional",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1788917844987596800/smSNUUNt_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/FPPPQQ.m3u8",
-      "stream_url": "http://193.47.62.44/hls/FPPPQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Instituto%20vs%20Talleres%20Cordoba.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 35,
-      "name": "[MLB Baseball] [06:10 AM BD] [LIVE] Colorado Rockies vs Seattle Mariners (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "MLB Baseball",
-      "event": "Colorado Rockies vs Seattle Mariners",
-      "match_time_bd": "06:10 AM BD",
-      "source_time_gmt1": "01:10",
-      "league": "MLB Baseball",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1979034974964559874/E0AdeiBy_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/FPPPQ.m3u8",
-      "stream_url": "http://193.47.62.44/hls/FPPPQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Colorado%20Rockies%20vs%20Seattle%20Mariners.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 36,
-      "name": "[MLB Baseball] [06:10 AM BD] [LIVE] Arizona Diamondbacks vs New York Yankees (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "chno": 33,
+      "name": "[MLB Baseball] [06:10 AM BD] [UPCOMING] Arizona Diamondbacks vs New York Yankees (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "MLB Baseball",
       "event": "Arizona Diamondbacks vs New York Yankees",
       "match_time_bd": "06:10 AM BD",
@@ -802,9 +736,9 @@
       "league": "MLB Baseball",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1979034974964559874/E0AdeiBy_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/FPPP.m3u8",
-      "stream_url": "http://193.47.62.44/hls/FPPP.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Arizona%20Diamondbacks%20vs%20New%20York%20Yankees.html",
       "event_page": "http://www.fawanews.sc/Arizona%20Diamondbacks%20vs%20New%20York%20Yankees.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -813,359 +747,7 @@
       }
     },
     {
-      "chno": 37,
-      "name": "[AEW Wrestling] [06:00 AM BD] [LIVE] AEW Collision (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "AEW Wrestling",
-      "event": "AEW Collision",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "AEW Wrestling",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2033318081175621633/JctrbH2d_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.59/hls/D888.m3u8",
-      "stream_url": "http://193.47.62.59/hls/D888.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/AEW%20Collision.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 38,
-      "name": "[Brazil Serie A] [06:00 AM BD] [LIVE] Sao Paulo vs Internacional (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Brazil Serie A",
-      "event": "Sao Paulo vs Internacional",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "Brazil Serie A",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1394013208701243395/3ocIDVAb_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/OYYYYQQQQ.m3u8",
-      "stream_url": "http://193.47.62.44/hls/OYYYYQQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Sao%20Paulo%20vs%20Internacional.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 39,
-      "name": "[Canada Premier League] [06:00 AM BD] [LIVE] Pacific FC vs Vancouver FC (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Canada Premier League",
-      "event": "Pacific FC vs Vancouver FC",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "Canada Premier League",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2016143587927326720/Fzdrfm_R_400x400.png",
-      "group": "Live Events",
-      "url": "http://193.47.62.50/hls/K888AAA.m3u8",
-      "stream_url": "http://193.47.62.50/hls/K888AAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Pacific%20FC%20vs%20Vancouver%20FC.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 40,
-      "name": "[Ecuador Liga Pro] [06:00 AM BD] [LIVE] Emelec vs Libertad (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Ecuador Liga Pro",
-      "event": "Emelec vs Libertad",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "Ecuador Liga Pro",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2018798676844453888/qC9fH20A_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/OYYYYQQQQQA.m3u8",
-      "stream_url": "http://193.47.62.44/hls/OYYYYQQQQQA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Emelec%20vs%20Libertad.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 41,
-      "name": "[Bolivia Copa] [06:00 AM BD] [LIVE] Real Potosi vs Nacional Potosi (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Bolivia Copa",
-      "event": "Real Potosi vs Nacional Potosi",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "Bolivia Copa",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1966534251848855552/uhRVP3c4_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/OYYYYQQQQQ.m3u8",
-      "stream_url": "http://193.47.62.44/hls/OYYYYQQQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Real%20Potosi%20vs%20Nacional%20Potosi.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 42,
-      "name": "[NCAA American Football] [06:00 AM BD] [LIVE] Texas vs UTSA (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "NCAA American Football",
-      "event": "Texas vs UTSA",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/OYYYYQQ.m3u8",
-      "stream_url": "http://193.47.62.44/hls/OYYYYQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Texas%20vs%20UTSA.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 43,
-      "name": "[NCAA American Football] [06:00 AM BD] [LIVE] TCU vs Arkansas State (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "NCAA American Football",
-      "event": "TCU vs Arkansas State",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/OYYYYQ.m3u8",
-      "stream_url": "http://193.47.62.44/hls/OYYYYQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/TCU%20vs%20Arkansas%20State.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 44,
-      "name": "[NCAA American Football] [06:00 AM BD] [UPCOMING] Louisiana-Lafayette vs UAB (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NCAA American Football",
-      "event": "Louisiana-Lafayette vs UAB",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Louisiana-Lafayette%20vs%20UAB.html",
-      "event_page": "http://www.fawanews.sc/Louisiana-Lafayette%20vs%20UAB.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 45,
-      "name": "[NCAA American Football] [05:45 AM BD] [UPCOMING] Tennessee vs Kennesaw State (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NCAA American Football",
-      "event": "Tennessee vs Kennesaw State",
-      "match_time_bd": "05:45 AM BD",
-      "source_time_gmt1": "00:45",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Tennessee%20vs%20Kennesaw%20State.html",
-      "event_page": "http://www.fawanews.sc/Tennessee%20vs%20Kennesaw%20State.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 46,
-      "name": "[Nascar] [05:30 AM BD] [UPCOMING] Nascar Cup Series Bass Pro Night Race (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Nascar",
-      "event": "Nascar Cup Series Bass Pro Night Race",
-      "match_time_bd": "05:30 AM BD",
-      "source_time_gmt1": "00:30",
-      "league": "Nascar",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2099281394211913736/S3LWbGRX_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Nascar%20Cup%20Series%20Bass%20Pro%20Night%20Race.html",
-      "event_page": "http://www.fawanews.sc/Nascar%20Cup%20Series%20Bass%20Pro%20Night%20Race.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 47,
-      "name": "[Brazil Serie A] [05:30 AM BD] [UPCOMING] Vasco vs Coritiba (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Brazil Serie A",
-      "event": "Vasco vs Coritiba",
-      "match_time_bd": "05:30 AM BD",
-      "source_time_gmt1": "00:30",
-      "league": "Brazil Serie A",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1394013208701243395/3ocIDVAb_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Vasco%20vs%20Coritiba.html",
-      "event_page": "http://www.fawanews.sc/Vasco%20vs%20Coritiba.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 48,
-      "name": "[MLS League] [05:30 AM BD] [UPCOMING] San Jose Earthquakes vs Los Angeles FC (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "MLS League",
-      "event": "San Jose Earthquakes vs Los Angeles FC",
-      "match_time_bd": "05:30 AM BD",
-      "source_time_gmt1": "00:30",
-      "league": "MLS League",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1905305167571906561/uf8ZOlCD_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/San%20Jose%20Earthquakes%20vs%20Los%20Angeles%20FC.html",
-      "event_page": "http://www.fawanews.sc/San%20Jose%20Earthquakes%20vs%20Los%20Angeles%20FC.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 49,
-      "name": "[MLS League] [05:30 AM BD] [UPCOMING] New England Revolution vs Orlando City (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "MLS League",
-      "event": "New England Revolution vs Orlando City",
-      "match_time_bd": "05:30 AM BD",
-      "source_time_gmt1": "00:30",
-      "league": "MLS League",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1905305167571906561/uf8ZOlCD_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/New%20England%20Revolution%20vs%20Orlando%20City.html",
-      "event_page": "http://www.fawanews.sc/New%20England%20Revolution%20vs%20Orlando%20City.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 50,
-      "name": "[MLS League] [05:30 AM BD] [UPCOMING] DC United vs Charlotte (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "MLS League",
-      "event": "DC United vs Charlotte",
-      "match_time_bd": "05:30 AM BD",
-      "source_time_gmt1": "00:30",
-      "league": "MLS League",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1905305167571906561/uf8ZOlCD_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/DC%20United%20vs%20Charlotte.html",
-      "event_page": "http://www.fawanews.sc/DC%20United%20vs%20Charlotte.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 51,
-      "name": "[MLS League] [05:30 AM BD] [UPCOMING] CF Montreal vs Columbus Crew (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "MLS League",
-      "event": "CF Montreal vs Columbus Crew",
-      "match_time_bd": "05:30 AM BD",
-      "source_time_gmt1": "00:30",
-      "league": "MLS League",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1905305167571906561/uf8ZOlCD_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/CF%20Montreal%20vs%20Columbus%20Crew.html",
-      "event_page": "http://www.fawanews.sc/CF%20Montreal%20vs%20Columbus%20Crew.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 52,
-      "name": "[NCAA American Football] [05:30 AM BD] [UPCOMING] Virginia vs West Virginia (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NCAA American Football",
-      "event": "Virginia vs West Virginia",
-      "match_time_bd": "05:30 AM BD",
-      "source_time_gmt1": "00:30",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Virginia%20vs%20West%20Virginia.html",
-      "event_page": "http://www.fawanews.sc/Virginia%20vs%20West%20Virginia.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 53,
+      "chno": 34,
       "name": "[NCAA American Football] [05:30 AM BD] [UPCOMING] Ole Miss vs LSU (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1187,95 +769,7 @@
       }
     },
     {
-      "chno": 54,
-      "name": "[NCAA American Football] [05:30 AM BD] [UPCOMING] Oklahoma vs New Mexico (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NCAA American Football",
-      "event": "Oklahoma vs New Mexico",
-      "match_time_bd": "05:30 AM BD",
-      "source_time_gmt1": "00:30",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Oklahoma%20vs%20New%20Mexico.html",
-      "event_page": "http://www.fawanews.sc/Oklahoma%20vs%20New%20Mexico.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 55,
-      "name": "[NCAA American Football] [05:30 AM BD] [UPCOMING] Notre Dame vs Michigan State (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NCAA American Football",
-      "event": "Notre Dame vs Michigan State",
-      "match_time_bd": "05:30 AM BD",
-      "source_time_gmt1": "00:30",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Notre%20Dame%20vs%20Michigan%20State.html",
-      "event_page": "http://www.fawanews.sc/Notre%20Dame%20vs%20Michigan%20State.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 56,
-      "name": "[NCAA American Football] [05:30 AM BD] [UPCOMING] Northwestern vs Colorado Buffaloes (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NCAA American Football",
-      "event": "Northwestern vs Colorado Buffaloes",
-      "match_time_bd": "05:30 AM BD",
-      "source_time_gmt1": "00:30",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Northwestern%20vs%20Colorado%20Buffaloes.html",
-      "event_page": "http://www.fawanews.sc/Northwestern%20vs%20Colorado%20Buffaloes.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 57,
-      "name": "[NCAA American Football] [05:30 AM BD] [UPCOMING] Maryland vs Virginia Tech (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NCAA American Football",
-      "event": "Maryland vs Virginia Tech",
-      "match_time_bd": "05:30 AM BD",
-      "source_time_gmt1": "00:30",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Maryland%20vs%20Virginia%20Tech.html",
-      "event_page": "http://www.fawanews.sc/Maryland%20vs%20Virginia%20Tech.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 58,
+      "chno": 35,
       "name": "[NCAA American Football] [05:30 AM BD] [UPCOMING] Colorado State Rams vs Brigham Young (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1297,227 +791,7 @@
       }
     },
     {
-      "chno": 59,
-      "name": "[NCAA American Football] [05:15 AM BD] [UPCOMING] Washington Huskies vs Washington Eagles (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NCAA American Football",
-      "event": "Washington Huskies vs Washington Eagles",
-      "match_time_bd": "05:15 AM BD",
-      "source_time_gmt1": "00:15",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Washington%20Huskies%20vs%20Washington%20Eagles.html",
-      "event_page": "http://www.fawanews.sc/Washington%20Huskies%20vs%20Washington%20Eagles.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 60,
-      "name": "[NCAA American Football] [05:15 AM BD] [UPCOMING] Nebraska vs North Dakota (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NCAA American Football",
-      "event": "Nebraska vs North Dakota",
-      "match_time_bd": "05:15 AM BD",
-      "source_time_gmt1": "00:15",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Nebraska%20vs%20North%20Dakota.html",
-      "event_page": "http://www.fawanews.sc/Nebraska%20vs%20North%20Dakota.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 61,
-      "name": "[MLB Baseball] [05:15 AM BD] [UPCOMING] St Louis Cardinals vs Washington Nationals (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "MLB Baseball",
-      "event": "St Louis Cardinals vs Washington Nationals",
-      "match_time_bd": "05:15 AM BD",
-      "source_time_gmt1": "00:15",
-      "league": "MLB Baseball",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1979034974964559874/E0AdeiBy_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/St%20Louis%20Cardinals%20vs%20Washington%20Nationals.html",
-      "event_page": "http://www.fawanews.sc/St%20Louis%20Cardinals%20vs%20Washington%20Nationals.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 62,
-      "name": "[MLB Baseball] [05:10 AM BD] [UPCOMING] Houston Astros vs Atlanta Braves (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "MLB Baseball",
-      "event": "Houston Astros vs Atlanta Braves",
-      "match_time_bd": "05:10 AM BD",
-      "source_time_gmt1": "00:10",
-      "league": "MLB Baseball",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1979034974964559874/E0AdeiBy_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Houston%20Astros%20vs%20Atlanta%20Braves.html",
-      "event_page": "http://www.fawanews.sc/Houston%20Astros%20vs%20Atlanta%20Braves.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 63,
-      "name": "[MLB Baseball] [05:05 AM BD] [UPCOMING] Texas Rangers vs Toronto Blue Jays (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "MLB Baseball",
-      "event": "Texas Rangers vs Toronto Blue Jays",
-      "match_time_bd": "05:05 AM BD",
-      "source_time_gmt1": "00:05",
-      "league": "MLB Baseball",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1979034974964559874/E0AdeiBy_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Texas%20Rangers%20vs%20Toronto%20Blue%20Jays.html",
-      "event_page": "http://www.fawanews.sc/Texas%20Rangers%20vs%20Toronto%20Blue%20Jays.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 64,
-      "name": "[CFL Canadian Football] [05:00 AM BD] [UPCOMING] Calgary Stampeders vs Ottawa Redblacks (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "CFL Canadian Football",
-      "event": "Calgary Stampeders vs Ottawa Redblacks",
-      "match_time_bd": "05:00 AM BD",
-      "source_time_gmt1": "00:00",
-      "league": "CFL Canadian Football",
-      "id": "Live.Event.us",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/1/1e/CFL_2016_logo.svg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Calgary%20Stampeders%20vs%20Ottawa%20Redblacks.html",
-      "event_page": "http://www.fawanews.sc/Calgary%20Stampeders%20vs%20Ottawa%20Redblacks.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 65,
-      "name": "[NCAA American Football] [05:00 AM BD] [UPCOMING] UCF vs Georgia State Panthers (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NCAA American Football",
-      "event": "UCF vs Georgia State Panthers",
-      "match_time_bd": "05:00 AM BD",
-      "source_time_gmt1": "00:00",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/UCF%20vs%20Georgia%20State%20Panthers.html",
-      "event_page": "http://www.fawanews.sc/UCF%20vs%20Georgia%20State%20Panthers.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 66,
-      "name": "[NCAA American Football] [05:00 AM BD] [UPCOMING] Southern Miss vs Connecticut (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NCAA American Football",
-      "event": "Southern Miss vs Connecticut",
-      "match_time_bd": "05:00 AM BD",
-      "source_time_gmt1": "00:00",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Southern%20Miss%20vs%20Connecticut.html",
-      "event_page": "http://www.fawanews.sc/Southern%20Miss%20vs%20Connecticut.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 67,
-      "name": "[NCAA American Football] [05:00 AM BD] [UPCOMING] South Florida vs Delaware State (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NCAA American Football",
-      "event": "South Florida vs Delaware State",
-      "match_time_bd": "05:00 AM BD",
-      "source_time_gmt1": "00:00",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/South%20Florida%20vs%20Delaware%20State.html",
-      "event_page": "http://www.fawanews.sc/South%20Florida%20vs%20Delaware%20State.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 68,
-      "name": "[NCAA American Football] [05:00 AM BD] [UPCOMING] Auburn vs Florida Gators (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NCAA American Football",
-      "event": "Auburn vs Florida Gators",
-      "match_time_bd": "05:00 AM BD",
-      "source_time_gmt1": "00:00",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Auburn%20vs%20Florida%20Gators.html",
-      "event_page": "http://www.fawanews.sc/Auburn%20vs%20Florida%20Gators.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 69,
+      "chno": 36,
       "name": "[Tennis] [04:30 AM BD] [UPCOMING] Tennis Davis Cup (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1539,7 +813,7 @@
       }
     },
     {
-      "chno": 70,
+      "chno": 37,
       "name": "[NCAA American Football] [04:00 AM BD] [UPCOMING] Appalachian State vs Charlotte (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1561,7 +835,7 @@
       }
     },
     {
-      "chno": 71,
+      "chno": 38,
       "name": "[Live] [UPCOMING] United Cup chief admits high-profile retirements make things a bit more difficult (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1583,7 +857,7 @@
       }
     },
     {
-      "chno": 72,
+      "chno": 39,
       "name": "[Live] [UPCOMING] Mercedes announce Valtteri Bottas as reserve driver after Sauber exit (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1605,7 +879,7 @@
       }
     },
     {
-      "chno": 73,
+      "chno": 40,
       "name": "[Live] [UPCOMING] Red Bull admit Tsunoda could leave after promoting Lawson instead (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1627,7 +901,7 @@
       }
     },
     {
-      "chno": 74,
+      "chno": 41,
       "name": "[Live] [UPCOMING] Oklahoma City Thunder and Alex Caruso agree to $81 million contract extension (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1649,7 +923,7 @@
       }
     },
     {
-      "chno": 75,
+      "chno": 42,
       "name": "[Live] [UPCOMING] Southampton announce the appointment of Croatian coach Ivan Juric (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1671,7 +945,7 @@
       }
     },
     {
-      "chno": 76,
+      "chno": 43,
       "name": "[Live] [UPCOMING] Southampton battle to earn valuable point at high-flying Fulham (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1693,7 +967,7 @@
       }
     },
     {
-      "chno": 77,
+      "chno": 44,
       "name": "[Live] [UPCOMING] Arsenal manager Mikel Arteta confirms Bukayo Saka set to be ruled out for many weeks (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1715,7 +989,7 @@
       }
     },
     {
-      "chno": 78,
+      "chno": 45,
       "name": "[Live] [UPCOMING] Ruben Amorim questions decision-making of Marcus Rashford camp after recent comments (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1737,7 +1011,7 @@
       }
     },
     {
-      "chno": 79,
+      "chno": 46,
       "name": "[Live] [UPCOMING] Fernandez feeling very good at Chelsea after understanding what Maresca wants (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1759,7 +1033,7 @@
       }
     },
     {
-      "chno": 80,
+      "chno": 47,
       "name": "[Live] [UPCOMING] Ivan Juric promises to play death metal style of football with Southampton (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1781,7 +1055,7 @@
       }
     },
     {
-      "chno": 81,
+      "chno": 48,
       "name": "[Live] [UPCOMING] Eddie Howe: Newcastle defender Dan Burn&#1074;&#1026;&#1042;�s England desire is still alive (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1803,7 +1077,7 @@
       }
     },
     {
-      "chno": 82,
+      "chno": 49,
       "name": "[Live] [UPCOMING] Everton to review security after high-risk game (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1825,7 +1099,7 @@
       }
     },
     {
-      "chno": 83,
+      "chno": 50,
       "name": "[Live] [UPCOMING] Wolves agree fee for PSG & Spain Wingser Sarabia (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1847,7 +1121,7 @@
       }
     },
     {
-      "chno": 84,
+      "chno": 51,
       "name": "[Live] [UPCOMING] Gavi stars in Barcelona's Super Cup win over Real (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1869,7 +1143,7 @@
       }
     },
     {
-      "chno": 85,
+      "chno": 52,
       "name": "[Live] [UPCOMING] Bournemouth agree &#1042;&#1032;20m deal for Lorient's Ouattara (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1891,7 +1165,7 @@
       }
     },
     {
-      "chno": 86,
+      "chno": 53,
       "name": "[Live] [UPCOMING] Why Arsenal are in control of the title race (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1913,7 +1187,7 @@
       }
     },
     {
-      "chno": 87,
+      "chno": 54,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1935,7 +1209,7 @@
       }
     },
     {
-      "chno": 88,
+      "chno": 55,
       "name": "[Live] [UPCOMING] &#1042;&#1032;22m of Mudryk fee pledged to Ukraine war effort (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1957,7 +1231,7 @@
       }
     },
     {
-      "chno": 89,
+      "chno": 56,
       "name": "[Live] [UPCOMING] Klopp says he has no plans to leave Liverpool (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1979,7 +1253,7 @@
       }
     },
     {
-      "chno": 90,
+      "chno": 57,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
