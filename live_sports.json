@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 48,
-  "live_count": 48,
-  "last_update": "07:20 PM 25-09-2026 BST",
+  "channels_amount": 50,
+  "live_count": 50,
+  "last_update": "07:36 PM 25-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -154,6 +154,50 @@
     },
     {
       "chno": 7,
+      "name": "[Friendly Match] [08:00 PM BD] [UPCOMING] India vs Panama (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "Friendly Match",
+      "event": "India vs Panama",
+      "match_time_bd": "08:00 PM BD",
+      "source_time_gmt1": "15:00",
+      "league": "Friendly Match",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/India%20vs%20Panama.html",
+      "event_page": "http://www.fawanews.sc/India%20vs%20Panama.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 8,
+      "name": "[Euro U21 Qualification] [07:45 PM BD] [LIVE] Azerbaijan U21 vs Czech Republic U21 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Euro U21 Qualification",
+      "event": "Azerbaijan U21 vs Czech Republic U21",
+      "match_time_bd": "07:45 PM BD",
+      "source_time_gmt1": "14:45",
+      "league": "Euro U21 Qualification",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1605140132847403008/29zfnVM0_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.41/hls/GIII.m3u8",
+      "stream_url": "http://193.47.62.41/hls/GIII.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Azerbaijan%20U21%20vs%20Czech%20Republic%20U21.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 9,
       "name": "[ASEAN Championship] [07:00 PM BD] [LIVE] Indonesia vs Singapore (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -175,7 +219,7 @@
       }
     },
     {
-      "chno": 8,
+      "chno": 10,
       "name": "[Formula 1 GP] [06:00 PM BD] [LIVE] Formula 1 GP Azerbaijan --- SD (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -197,7 +241,7 @@
       }
     },
     {
-      "chno": 9,
+      "chno": 11,
       "name": "[Formula 1 GP] [06:00 PM BD] [LIVE] Formula 1 GP Azerbaijan --- HD (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -219,7 +263,7 @@
       }
     },
     {
-      "chno": 10,
+      "chno": 12,
       "name": "[Golf] [07:00 PM BD] [LIVE] Golf Laver Cup (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -241,7 +285,7 @@
       }
     },
     {
-      "chno": 11,
+      "chno": 13,
       "name": "[Horse Racing] [06:00 PM BD] [LIVE] Horse Racing --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -263,7 +307,7 @@
       }
     },
     {
-      "chno": 12,
+      "chno": 14,
       "name": "[Horse Racing] [06:00 PM BD] [LIVE] Horse Racing --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -285,7 +329,7 @@
       }
     },
     {
-      "chno": 13,
+      "chno": 15,
       "name": "[Golf] [05:30 PM BD] [LIVE] Golf FedEx Open de France (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -307,10 +351,10 @@
       }
     },
     {
-      "chno": 14,
-      "name": "[Friendly Match] [04:00 PM BD] [LIVE] Australia vs Brazil --- CH 1 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "chno": 16,
+      "name": "[Friendly Match] [04:00 PM BD] [UPCOMING] Australia vs Brazil --- CH 1 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Friendly Match",
       "event": "Australia vs Brazil --- CH 1",
       "match_time_bd": "04:00 PM BD",
@@ -318,9 +362,9 @@
       "league": "Friendly Match",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.55/hls/JBBBAXA.m3u8",
-      "stream_url": "http://193.47.62.55/hls/JBBBAXA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Australia%20vs%20Brazil1.html",
       "event_page": "http://www.fawanews.sc/Australia%20vs%20Brazil1.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -329,10 +373,10 @@
       }
     },
     {
-      "chno": 15,
-      "name": "[Friendly Match] [04:00 PM BD] [LIVE] Australia vs Brazil --- CH 2 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "chno": 17,
+      "name": "[Friendly Match] [04:00 PM BD] [UPCOMING] Australia vs Brazil --- CH 2 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Friendly Match",
       "event": "Australia vs Brazil --- CH 2",
       "match_time_bd": "04:00 PM BD",
@@ -340,9 +384,9 @@
       "league": "Friendly Match",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
-      "group": "Live Events",
-      "url": "https://live.dyrur1.com/live/73685470_623ef0b2493572bc19507e1119f992c4_540p.m3u8?auth_key=1790345945-0-0-cec9c2e999bc869075ae92927e05af6d",
-      "stream_url": "https://live.dyrur1.com/live/73685470_623ef0b2493572bc19507e1119f992c4_540p.m3u8?auth_key=1790345945-0-0-cec9c2e999bc869075ae92927e05af6d|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Australia%20vs%20Brazil%20---%20CH%202.html",
       "event_page": "http://www.fawanews.sc/Australia%20vs%20Brazil%20---%20CH%202.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -351,7 +395,7 @@
       }
     },
     {
-      "chno": 16,
+      "chno": 18,
       "name": "[Asian Games] [04:30 PM BD] [LIVE] South Korea U23 vs Vietnam U23 --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -373,7 +417,7 @@
       }
     },
     {
-      "chno": 17,
+      "chno": 19,
       "name": "[Asian Games] [04:30 PM BD] [LIVE] South Korea U23 vs Vietnam U23 --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -395,7 +439,7 @@
       }
     },
     {
-      "chno": 18,
+      "chno": 20,
       "name": "[Asian Games] [04:30 PM BD] [LIVE] South Korea W vs Uzbekistan W --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -417,7 +461,7 @@
       }
     },
     {
-      "chno": 19,
+      "chno": 21,
       "name": "[Asian Games] [04:30 PM BD] [LIVE] South Korea W vs Uzbekistan W --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -439,7 +483,7 @@
       }
     },
     {
-      "chno": 20,
+      "chno": 22,
       "name": "[Asian Games] [04:30 PM BD] [LIVE] Japan W vs Philippines W --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -461,7 +505,7 @@
       }
     },
     {
-      "chno": 21,
+      "chno": 23,
       "name": "[Asian Games] [04:30 PM BD] [LIVE] Japan W vs Philippines W --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -483,7 +527,7 @@
       }
     },
     {
-      "chno": 22,
+      "chno": 24,
       "name": "[Basketball Asian Games] [04:20 PM BD] [LIVE] Japan W vs Chinese Taipei W (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -505,10 +549,10 @@
       }
     },
     {
-      "chno": 23,
-      "name": "[COSAFA Champions League] [04:00 PM BD] [LIVE] South Africa U20 vs Zambia U20 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "chno": 25,
+      "name": "[COSAFA Champions League] [04:00 PM BD] [UPCOMING] South Africa U20 vs Zambia U20 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "COSAFA Champions League",
       "event": "South Africa U20 vs Zambia U20",
       "match_time_bd": "04:00 PM BD",
@@ -516,9 +560,9 @@
       "league": "COSAFA Champions League",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1585877185382043649/dT99TLst_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.50/hls/doooAA.m3u8",
-      "stream_url": "http://193.47.62.50/hls/doooAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/South%20Africa%20U20%20vs%20Zambia%20U20.html",
       "event_page": "http://www.fawanews.sc/South%20Africa%20U20%20vs%20Zambia%20U20.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -527,10 +571,10 @@
       }
     },
     {
-      "chno": 24,
-      "name": "[FIA Formula 2] [04:00 PM BD] [LIVE] FIA Formula 2 Azerbaijan (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "chno": 26,
+      "name": "[FIA Formula 2] [04:00 PM BD] [UPCOMING] FIA Formula 2 Azerbaijan (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "FIA Formula 2",
       "event": "FIA Formula 2 Azerbaijan",
       "match_time_bd": "04:00 PM BD",
@@ -538,9 +582,9 @@
       "league": "FIA Formula 2",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/2061372235508494338/LKV69QHd_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/RRRR.m3u8",
-      "stream_url": "http://193.47.62.44/hls/RRRR.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/FIA%20Formula%202%20Azerbaijan.html",
       "event_page": "http://www.fawanews.sc/FIA%20Formula%202%20Azerbaijan.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -549,7 +593,7 @@
       }
     },
     {
-      "chno": 25,
+      "chno": 27,
       "name": "[NRL] [03:50 PM BD] [UPCOMING] Dolphins vs Sydney Roosters (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -571,7 +615,7 @@
       }
     },
     {
-      "chno": 26,
+      "chno": 28,
       "name": "[Basketball NBL] [03:30 PM BD] [UPCOMING] Brisbane Bullets vs Illawarra Hawks (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -593,7 +637,7 @@
       }
     },
     {
-      "chno": 27,
+      "chno": 29,
       "name": "[Tennis WTA] [03:30 PM BD] [UPCOMING] Tennis WTA Billie Jean King Cup (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -615,7 +659,7 @@
       }
     },
     {
-      "chno": 28,
+      "chno": 30,
       "name": "[Live] [UPCOMING] United Cup chief admits high-profile retirements make things a bit more difficult (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -637,7 +681,7 @@
       }
     },
     {
-      "chno": 29,
+      "chno": 31,
       "name": "[Live] [UPCOMING] Mercedes announce Valtteri Bottas as reserve driver after Sauber exit (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -659,7 +703,7 @@
       }
     },
     {
-      "chno": 30,
+      "chno": 32,
       "name": "[Live] [UPCOMING] Red Bull admit Tsunoda could leave after promoting Lawson instead (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -681,7 +725,7 @@
       }
     },
     {
-      "chno": 31,
+      "chno": 33,
       "name": "[Live] [UPCOMING] Oklahoma City Thunder and Alex Caruso agree to $81 million contract extension (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -703,7 +747,7 @@
       }
     },
     {
-      "chno": 32,
+      "chno": 34,
       "name": "[Live] [UPCOMING] Southampton announce the appointment of Croatian coach Ivan Juric (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -725,7 +769,7 @@
       }
     },
     {
-      "chno": 33,
+      "chno": 35,
       "name": "[Live] [UPCOMING] Southampton battle to earn valuable point at high-flying Fulham (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -747,7 +791,7 @@
       }
     },
     {
-      "chno": 34,
+      "chno": 36,
       "name": "[Live] [UPCOMING] Arsenal manager Mikel Arteta confirms Bukayo Saka set to be ruled out for many weeks (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -769,7 +813,7 @@
       }
     },
     {
-      "chno": 35,
+      "chno": 37,
       "name": "[Live] [UPCOMING] Ruben Amorim questions decision-making of Marcus Rashford camp after recent comments (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -791,7 +835,7 @@
       }
     },
     {
-      "chno": 36,
+      "chno": 38,
       "name": "[Live] [UPCOMING] Fernandez feeling very good at Chelsea after understanding what Maresca wants (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -813,7 +857,7 @@
       }
     },
     {
-      "chno": 37,
+      "chno": 39,
       "name": "[Live] [UPCOMING] Ivan Juric promises to play death metal style of football with Southampton (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -835,7 +879,7 @@
       }
     },
     {
-      "chno": 38,
+      "chno": 40,
       "name": "[Live] [UPCOMING] Eddie Howe: Newcastle defender Dan Burn&#1074;&#1026;&#1042;�s England desire is still alive (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -857,7 +901,7 @@
       }
     },
     {
-      "chno": 39,
+      "chno": 41,
       "name": "[Live] [UPCOMING] Everton to review security after high-risk game (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -879,7 +923,7 @@
       }
     },
     {
-      "chno": 40,
+      "chno": 42,
       "name": "[Live] [UPCOMING] Wolves agree fee for PSG & Spain Wingser Sarabia (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -901,7 +945,7 @@
       }
     },
     {
-      "chno": 41,
+      "chno": 43,
       "name": "[Live] [UPCOMING] Gavi stars in Barcelona's Super Cup win over Real (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -923,7 +967,7 @@
       }
     },
     {
-      "chno": 42,
+      "chno": 44,
       "name": "[Live] [UPCOMING] Bournemouth agree &#1042;&#1032;20m deal for Lorient's Ouattara (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -945,7 +989,7 @@
       }
     },
     {
-      "chno": 43,
+      "chno": 45,
       "name": "[Live] [UPCOMING] Why Arsenal are in control of the title race (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -967,7 +1011,7 @@
       }
     },
     {
-      "chno": 44,
+      "chno": 46,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -989,7 +1033,7 @@
       }
     },
     {
-      "chno": 45,
+      "chno": 47,
       "name": "[Live] [UPCOMING] &#1042;&#1032;22m of Mudryk fee pledged to Ukraine war effort (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1011,7 +1055,7 @@
       }
     },
     {
-      "chno": 46,
+      "chno": 48,
       "name": "[Live] [UPCOMING] Klopp says he has no plans to leave Liverpool (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1033,7 +1077,7 @@
       }
     },
     {
-      "chno": 47,
+      "chno": 49,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
