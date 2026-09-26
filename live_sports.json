@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 57,
   "live_count": 57,
-  "last_update": "05:58 PM 26-09-2026 BST",
+  "last_update": "06:03 PM 26-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -330,6 +330,28 @@
     },
     {
       "chno": 15,
+      "name": "[ASEAN Championship] [06:30 PM BD] [UPCOMING] Vietnam vs Philippines (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "ASEAN Championship",
+      "event": "Vietnam vs Philippines",
+      "match_time_bd": "06:30 PM BD",
+      "source_time_gmt1": "13:30",
+      "league": "ASEAN Championship",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1944943931969372160/fiLGcaCR_400x400.jpg",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Vietnam%20vs%20Philippines.html",
+      "event_page": "http://www.fawanews.sc/Vietnam%20vs%20Philippines.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 16,
       "name": "[Rugby Women] [06:30 PM BD] [UPCOMING] Italy W vs South Africa W (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -351,7 +373,7 @@
       }
     },
     {
-      "chno": 16,
+      "chno": 17,
       "name": "[English Women Super League] [06:30 PM BD] [UPCOMING] Charlton W vs Manchester City W (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -373,7 +395,7 @@
       }
     },
     {
-      "chno": 17,
+      "chno": 18,
       "name": "[Tennis] [06:00 PM BD] [LIVE] Tennis Laver Cup (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -395,7 +417,7 @@
       }
     },
     {
-      "chno": 18,
+      "chno": 19,
       "name": "[Spanish Segunda Liga] [06:00 PM BD] [LIVE] Ceuta vs Real Sociedad B (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -417,7 +439,7 @@
       }
     },
     {
-      "chno": 19,
+      "chno": 20,
       "name": "[Finland Ykkosliiga] [06:00 PM BD] [LIVE] Ekenas vs SJK Akatemia (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -439,7 +461,7 @@
       }
     },
     {
-      "chno": 20,
+      "chno": 21,
       "name": "[Golf PGA] [06:00 PM BD] [LIVE] Golf PGA Presidents Cup (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -461,7 +483,7 @@
       }
     },
     {
-      "chno": 21,
+      "chno": 22,
       "name": "[United Rugby Championship] [05:30 PM BD] [LIVE] Lions vs Leinster (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -476,28 +498,6 @@
       "url": "http://193.47.62.50/hls/FPPPVVAAAA.m3u8",
       "stream_url": "http://193.47.62.50/hls/FPPPVVAAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/Lions%20vs%20Leinster.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 22,
-      "name": "[ASEAN Championship] [05:30 PM BD] [LIVE] Vietnam vs Philippines (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "ASEAN Championship",
-      "event": "Vietnam vs Philippines",
-      "match_time_bd": "05:30 PM BD",
-      "source_time_gmt1": "12:30",
-      "league": "ASEAN Championship",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1944943931969372160/fiLGcaCR_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.50/hls/FPPPVVAAA.m3u8",
-      "stream_url": "http://193.47.62.50/hls/FPPPVVAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Vietnam%20vs%20Philippines.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
         "Origin": "http://www.fawanews.sc/",
