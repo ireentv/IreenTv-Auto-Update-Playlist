@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 88,
   "live_count": 88,
-  "last_update": "11:05 PM 26-09-2026 BST",
+  "last_update": "11:07 PM 26-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -330,6 +330,28 @@
     },
     {
       "chno": 15,
+      "name": "[Speedway] [11:00 PM BD] [UPCOMING] FIM Speedway Grand Prix (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "Speedway",
+      "event": "FIM Speedway Grand Prix",
+      "match_time_bd": "11:00 PM BD",
+      "source_time_gmt1": "18:00",
+      "league": "Speedway",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1975122084096290816/YNK7l0uP_400x400.jpg",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/FIM%20Speedway%20Grand%20Prix.html",
+      "event_page": "http://www.fawanews.sc/FIM%20Speedway%20Grand%20Prix.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 16,
       "name": "[NCAA American Football] [11:00 PM BD] [LIVE] Eastern Michigan vs Lindenwood Lions (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -351,7 +373,7 @@
       }
     },
     {
-      "chno": 16,
+      "chno": 17,
       "name": "[Euro U21 Qualification] [11:00 PM BD] [LIVE] Malta U21 vs Northern Ireland U21 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -366,28 +388,6 @@
       "url": "http://193.47.62.50/hls/DSSS1.m3u8",
       "stream_url": "http://193.47.62.50/hls/DSSS1.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/Malta%20U21%20vs%20Northern%20Ireland%20U21.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 17,
-      "name": "[NCAA American Football] [10:45 PM BD] [LIVE] Kentucky vs South Alabama (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "NCAA American Football",
-      "event": "Kentucky vs South Alabama",
-      "match_time_bd": "10:45 PM BD",
-      "source_time_gmt1": "17:45",
-      "league": "NCAA American Football",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/DADADAQQQQQ.m3u8",
-      "stream_url": "http://193.47.62.44/hls/DADADAQQQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Kentucky%20vs%20South%20Alabama.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
         "Origin": "http://www.fawanews.sc/",
