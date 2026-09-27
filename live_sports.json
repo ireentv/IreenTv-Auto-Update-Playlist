@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 59,
   "live_count": 59,
-  "last_update": "06:11 PM 27-09-2026 BST",
+  "last_update": "06:22 PM 27-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -66,6 +66,28 @@
     },
     {
       "chno": 3,
+      "name": "[South Africa Diski Challenge] [07:00 PM BD] [UPCOMING] Olando Pirates U23 vs Kaizer Chiefs U23 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "South Africa Diski Challenge",
+      "event": "Olando Pirates U23 vs Kaizer Chiefs U23",
+      "match_time_bd": "07:00 PM BD",
+      "source_time_gmt1": "14:00",
+      "league": "South Africa Diski Challenge",
+      "id": "Live.Event.us",
+      "logo": "https://upload.wikimedia.org/wikipedia/fr/b/b7/Psl-logo.png",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Olando%20Pirates%20U23%20vs%20Kaizer%20Chiefs%20U23.html",
+      "event_page": "http://www.fawanews.sc/Olando%20Pirates%20U23%20vs%20Kaizer%20Chiefs%20U23.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 4,
       "name": "[English Women Super League] [07:00 PM BD] [UPCOMING] Tottenham W vs Aston Villa W (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -87,7 +109,7 @@
       }
     },
     {
-      "chno": 4,
+      "chno": 5,
       "name": "[English Women Super League] [07:00 PM BD] [UPCOMING] Liverpool W vs Everton W (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -109,7 +131,7 @@
       }
     },
     {
-      "chno": 5,
+      "chno": 6,
       "name": "[English Women Super League] [07:00 PM BD] [UPCOMING] Birmingham W vs Crystal Palace W (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -131,7 +153,7 @@
       }
     },
     {
-      "chno": 6,
+      "chno": 7,
       "name": "[Italy Women Serie A] [07:00 PM BD] [UPCOMING] Sassuolo W vs AS Roma W (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -153,7 +175,7 @@
       }
     },
     {
-      "chno": 7,
+      "chno": 8,
       "name": "[Cycling] [06:50 PM BD] [UPCOMING] Cycling UCI Road World Championships (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -175,10 +197,10 @@
       }
     },
     {
-      "chno": 8,
-      "name": "[Dutch Eerste Divisie] [06:30 PM BD] [UPCOMING] De Graafschap vs FC Den Bosch (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
+      "chno": 9,
+      "name": "[Dutch Eerste Divisie] [06:30 PM BD] [LIVE] De Graafschap vs FC Den Bosch (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
       "sport": "Dutch Eerste Divisie",
       "event": "De Graafschap vs FC Den Bosch",
       "match_time_bd": "06:30 PM BD",
@@ -186,9 +208,9 @@
       "league": "Dutch Eerste Divisie",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1818212439587954688/cfENWUEg_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/De%20Graafschap%20vs%20FC%20Den%20Bosch.html",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/ZFFFAAAQQ.m3u8",
+      "stream_url": "http://193.47.62.44/hls/ZFFFAAAQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/De%20Graafschap%20vs%20FC%20Den%20Bosch.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -197,117 +219,7 @@
       }
     },
     {
-      "chno": 9,
-      "name": "[Superbikes] [06:00 PM BD] [LIVE] World Superbikes Italy (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Superbikes",
-      "event": "World Superbikes Italy",
-      "match_time_bd": "06:00 PM BD",
-      "source_time_gmt1": "13:00",
-      "league": "Superbikes",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1486618439510806530/0sditKjT_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/EZEZEZEZA.m3u8",
-      "stream_url": "http://193.47.62.44/hls/EZEZEZEZA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/World%20Superbikes%20Italy.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
       "chno": 10,
-      "name": "[Spanish Segunda Liga] [06:00 PM BD] [LIVE] Valladolid vs Cordoba --- CH 1 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Spanish Segunda Liga",
-      "event": "Valladolid vs Cordoba --- CH 1",
-      "match_time_bd": "06:00 PM BD",
-      "source_time_gmt1": "13:00",
-      "league": "Spanish Segunda Liga",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2043992816377049088/r9FnBdQu_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/ZFFFAAAQ.m3u8",
-      "stream_url": "http://193.47.62.44/hls/ZFFFAAAQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Valladolid%20vs%20Cordoba.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 11,
-      "name": "[Spanish Segunda Liga] [06:00 PM BD] [LIVE] Valladolid vs Cordoba --- CH 2 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Spanish Segunda Liga",
-      "event": "Valladolid vs Cordoba --- CH 2",
-      "match_time_bd": "06:00 PM BD",
-      "source_time_gmt1": "13:00",
-      "league": "Spanish Segunda Liga",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2043992816377049088/r9FnBdQu_400x400.jpg",
-      "group": "Live Events",
-      "url": "https://live1.dyrur1.com/live/72477448_713a73ee10ae73fbdac26f60e8801b0d_540p.m3u8?auth_key=1790524468-0-0-7e03008a327bf0b8e0d2235cbe27ee03",
-      "stream_url": "https://live1.dyrur1.com/live/72477448_713a73ee10ae73fbdac26f60e8801b0d_540p.m3u8?auth_key=1790524468-0-0-7e03008a327bf0b8e0d2235cbe27ee03|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Valladolid%20vs%20Cordoba%20---%20CH%202.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 12,
-      "name": "[English Women Super League] [06:00 PM BD] [LIVE] Manchester Utd W vs West Ham W --- CH 1 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "English Women Super League",
-      "event": "Manchester Utd W vs West Ham W --- CH 1",
-      "match_time_bd": "06:00 PM BD",
-      "source_time_gmt1": "13:00",
-      "league": "English Women Super League",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2095475297214758912/FzYuFMEr_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/ZFFF.m3u8",
-      "stream_url": "http://193.47.62.44/hls/ZFFF.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Manchester%20Utd%20W%20vs%20West%20Ham%20W.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 13,
-      "name": "[English Women Super League] [06:00 PM BD] [LIVE] Manchester Utd W vs West Ham W --- CH 2 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "English Women Super League",
-      "event": "Manchester Utd W vs West Ham W --- CH 2",
-      "match_time_bd": "06:00 PM BD",
-      "source_time_gmt1": "13:00",
-      "league": "English Women Super League",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2095475297214758912/FzYuFMEr_400x400.jpg",
-      "group": "Live Events",
-      "url": "https://live2.dyrur1.com/live/73346030_a94c561da384157391168f59a135a187_540p.m3u8?auth_key=1790524551-0-0-08f9849e2a8af5f773ead3c1b5340b08",
-      "stream_url": "https://live2.dyrur1.com/live/73346030_a94c561da384157391168f59a135a187_540p.m3u8?auth_key=1790524551-0-0-08f9849e2a8af5f773ead3c1b5340b08|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Manchester%20Utd%20W%20vs%20West%20Ham%20W%20---%20CH%202.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 14,
       "name": "[COSAFA Champions League] [06:00 PM BD] [LIVE] South Africa U20 vs Mozambique U20 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -329,7 +241,117 @@
       }
     },
     {
+      "chno": 11,
+      "name": "[Superbikes] [06:00 PM BD] [LIVE] World Superbikes Italy (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Superbikes",
+      "event": "World Superbikes Italy",
+      "match_time_bd": "06:00 PM BD",
+      "source_time_gmt1": "13:00",
+      "league": "Superbikes",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1486618439510806530/0sditKjT_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/EZEZEZEZA.m3u8",
+      "stream_url": "http://193.47.62.44/hls/EZEZEZEZA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/World%20Superbikes%20Italy.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 12,
+      "name": "[Spanish Segunda Liga] [06:00 PM BD] [LIVE] Valladolid vs Cordoba --- CH 1 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Spanish Segunda Liga",
+      "event": "Valladolid vs Cordoba --- CH 1",
+      "match_time_bd": "06:00 PM BD",
+      "source_time_gmt1": "13:00",
+      "league": "Spanish Segunda Liga",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/2043992816377049088/r9FnBdQu_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/ZFFFAAAQ.m3u8",
+      "stream_url": "http://193.47.62.44/hls/ZFFFAAAQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Valladolid%20vs%20Cordoba.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 13,
+      "name": "[Spanish Segunda Liga] [06:00 PM BD] [LIVE] Valladolid vs Cordoba --- CH 2 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Spanish Segunda Liga",
+      "event": "Valladolid vs Cordoba --- CH 2",
+      "match_time_bd": "06:00 PM BD",
+      "source_time_gmt1": "13:00",
+      "league": "Spanish Segunda Liga",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/2043992816377049088/r9FnBdQu_400x400.jpg",
+      "group": "Live Events",
+      "url": "https://live1.dyrur1.com/live/72477448_713a73ee10ae73fbdac26f60e8801b0d_540p.m3u8?auth_key=1790524468-0-0-7e03008a327bf0b8e0d2235cbe27ee03",
+      "stream_url": "https://live1.dyrur1.com/live/72477448_713a73ee10ae73fbdac26f60e8801b0d_540p.m3u8?auth_key=1790524468-0-0-7e03008a327bf0b8e0d2235cbe27ee03|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Valladolid%20vs%20Cordoba%20---%20CH%202.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 14,
+      "name": "[English Women Super League] [06:00 PM BD] [LIVE] Manchester Utd W vs West Ham W --- CH 1 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "English Women Super League",
+      "event": "Manchester Utd W vs West Ham W --- CH 1",
+      "match_time_bd": "06:00 PM BD",
+      "source_time_gmt1": "13:00",
+      "league": "English Women Super League",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/2095475297214758912/FzYuFMEr_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/ZFFF.m3u8",
+      "stream_url": "http://193.47.62.44/hls/ZFFF.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Manchester%20Utd%20W%20vs%20West%20Ham%20W.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
       "chno": 15,
+      "name": "[English Women Super League] [06:00 PM BD] [LIVE] Manchester Utd W vs West Ham W --- CH 2 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "English Women Super League",
+      "event": "Manchester Utd W vs West Ham W --- CH 2",
+      "match_time_bd": "06:00 PM BD",
+      "source_time_gmt1": "13:00",
+      "league": "English Women Super League",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/2095475297214758912/FzYuFMEr_400x400.jpg",
+      "group": "Live Events",
+      "url": "https://live2.dyrur1.com/live/73346030_a94c561da384157391168f59a135a187_540p.m3u8?auth_key=1790524551-0-0-08f9849e2a8af5f773ead3c1b5340b08",
+      "stream_url": "https://live2.dyrur1.com/live/73346030_a94c561da384157391168f59a135a187_540p.m3u8?auth_key=1790524551-0-0-08f9849e2a8af5f773ead3c1b5340b08|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Manchester%20Utd%20W%20vs%20West%20Ham%20W%20---%20CH%202.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 16,
       "name": "[Friendly Match] [06:00 PM BD] [LIVE] Shanghai Shenhua vs Zenit --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -351,7 +373,7 @@
       }
     },
     {
-      "chno": 16,
+      "chno": 17,
       "name": "[Friendly Match] [06:00 PM BD] [LIVE] Shanghai Shenhua vs Zenit --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -373,7 +395,7 @@
       }
     },
     {
-      "chno": 17,
+      "chno": 18,
       "name": "[Sweden HockeyAllsvenskan] [06:00 PM BD] [LIVE] Visby Roma vs Ostersund (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -395,7 +417,7 @@
       }
     },
     {
-      "chno": 18,
+      "chno": 19,
       "name": "[Sweden HockeyAllsvenskan] [06:00 PM BD] [LIVE] BIK Karlskoga vs Vimmerby (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -417,7 +439,7 @@
       }
     },
     {
-      "chno": 19,
+      "chno": 20,
       "name": "[Rugby Friendly] [05:45 PM BD] [LIVE] Ireland W vs Japan W (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -439,7 +461,7 @@
       }
     },
     {
-      "chno": 20,
+      "chno": 21,
       "name": "[Friendly Match] [05:35 PM BD] [LIVE] China vs New Zealand --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -461,7 +483,7 @@
       }
     },
     {
-      "chno": 21,
+      "chno": 22,
       "name": "[Friendly Match] [05:35 PM BD] [LIVE] China vs New Zealand --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -476,28 +498,6 @@
       "url": "https://live.dyrur1.com/live/74297864_3349a5995ff06f5abca3c251053a9af7_540p.m3u8?auth_key=1790523255-0-0-84c9a12a57971e20c4e36fb39b7abfe1",
       "stream_url": "https://live.dyrur1.com/live/74297864_3349a5995ff06f5abca3c251053a9af7_540p.m3u8?auth_key=1790523255-0-0-84c9a12a57971e20c4e36fb39b7abfe1|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/China%20vs%20New%20Zealand%20---%20CH%202.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 22,
-      "name": "[South Africa Diski Challenge] [05:00 PM BD] [LIVE] Richards Bay U23 vs Milford FC U23 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "South Africa Diski Challenge",
-      "event": "Richards Bay U23 vs Milford FC U23",
-      "match_time_bd": "05:00 PM BD",
-      "source_time_gmt1": "12:00",
-      "league": "South Africa Diski Challenge",
-      "id": "Live.Event.us",
-      "logo": "https://upload.wikimedia.org/wikipedia/fr/b/b7/Psl-logo.png",
-      "group": "Live Events",
-      "url": "http://193.47.62.41/hls/ZAZAZA.m3u8",
-      "stream_url": "http://193.47.62.41/hls/ZAZAZA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Richards%20Bay%20U23%20vs%20Milford%20FC%20U23.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
         "Origin": "http://www.fawanews.sc/",
@@ -770,9 +770,9 @@
     },
     {
       "chno": 35,
-      "name": "[Tennis WTA] [03:00 PM BD] [LIVE] Tennis WTA Billie Jean King Cup (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "name": "[Tennis WTA] [03:00 PM BD] [UPCOMING] Tennis WTA Billie Jean King Cup (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Tennis WTA",
       "event": "Tennis WTA Billie Jean King Cup",
       "match_time_bd": "03:00 PM BD",
@@ -780,9 +780,9 @@
       "league": "Tennis WTA",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1988264011935137792/Y_AYbwxg_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.50/hls/abbbQQ.m3u8",
-      "stream_url": "http://193.47.62.50/hls/abbbQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Tennis%20WTA%20Billie%20Jean%20King%20Cup1.html",
       "event_page": "http://www.fawanews.sc/Tennis%20WTA%20Billie%20Jean%20King%20Cup1.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
