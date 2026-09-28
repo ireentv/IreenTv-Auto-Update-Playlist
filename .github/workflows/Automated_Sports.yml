@@ -78,11 +78,9 @@ jobs:
                   dt = datetime.fromtimestamp(ts, tz=bd_tz)
                   return dt.strftime("%d/%m/%Y %I:%M %p BST")
 
-              # টাইমজোন ট্যাগ শনাক্ত করা
               is_ist = bool(re.search(r'\bIST\b', t_str, re.IGNORECASE))
               is_utc = bool(re.search(r'\b(UTC|GMT|Z)\b', t_str, re.IGNORECASE))
 
-              # টাইমজোন টেক্সট পরিষ্কার করা
               clean_t = re.sub(r'\s*(IST|UTC|GMT|BST|Z)\s*$', '', t_str, flags=re.IGNORECASE).strip()
 
               formats = [
@@ -373,75 +371,105 @@ jobs:
                   "stream_url": stream_urls
               }
 
-          # ================= BINGSTREAM =================
+          # ================= BINGSTREAM (ADVANCED MULTI-STREAM SUPPORT) =================
           def is_bingstream_item(item):
               if not isinstance(item, dict):
                   return False
-              if "link_live" in item:
+              if any(k in item for k in ["link_live", "extracted_links", "cdn_domain", "stream_link", "chanel_id", "localteam_name"]):
                   return True
-              if any(k in item for k in ["videoURL", "video_url", "video URL", "videoUrl", "cdn_domain", "localteam_name"]):
+              if any(k in item for k in ["videoURL", "video_url", "video URL", "videoUrl"]):
                   return True
               source_val = str(item.get("source", "") or item.get("provider", "") or item.get("type", "")).lower()
               return "bing" in source_val
 
           def extract_bingstream_streams(item):
               servers = {}
-              found_urls = []
+              found_labeled_urls = []
 
               referer_val = (
                   item.get("referer") or 
                   item.get("referrer") or 
                   item.get("referer_url") or 
                   item.get("referrer_url") or 
-                  "https://iframe.rumsport8.live/"
+                  "https://iframe.rumsport11.site"
               )
               if referer_val and not referer_val.endswith("/"):
                   referer_val += "/"
 
-              user_agent_val = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+              user_agent_val = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
               suffix = f"|http-user-agent={user_agent_val}&http-referrer={referer_val}"
 
-              if "link_live" in item and isinstance(item["link_live"], list):
-                  for obj in item["link_live"]:
-                      if isinstance(obj, dict):
-                          v_url = obj.get("videoURL") or obj.get("video_url") or obj.get("videoUrl") or obj.get("video URL")
-                          if v_url and str(v_url).startswith("http") and is_mpd_or_m3u8(str(v_url)):
-                              found_urls.append(str(v_url).strip())
-                      elif isinstance(obj, str) and obj.startswith("http") and is_mpd_or_m3u8(obj):
-                          found_urls.append(obj.strip())
+              # ১. লিংক অবজেক্ট লিস্ট ও চ্যানেল অবজেক্ট চেকার (display_name / stream_name সহ)
+              def parse_stream_object_list(obj_list):
+                  if isinstance(obj_list, list):
+                      for s_obj in obj_list:
+                          if isinstance(s_obj, dict):
+                              v_url = (
+                                  s_obj.get("stream_link") or 
+                                  s_obj.get("videoURL") or 
+                                  s_obj.get("video_url") or 
+                                  s_obj.get("videoUrl") or 
+                                  s_obj.get("url") or 
+                                  s_obj.get("link")
+                              )
+                              label = s_obj.get("display_name") or s_obj.get("stream_name") or s_obj.get("name") or s_obj.get("extra_title") or "Server"
+                              if v_url and str(v_url).startswith("http") and is_mpd_or_m3u8(str(v_url)):
+                                  found_labeled_urls.append((str(label).strip(), str(v_url).strip()))
+                          elif isinstance(s_obj, str) and s_obj.startswith("http") and is_mpd_or_m3u8(s_obj):
+                              found_labeled_urls.append(("Server", s_obj.strip()))
 
-              if not found_urls:
-                  video_keys = ["videoURL", "video_url", "video URL", "videoUrl", "video_urls", "videoURLs"]
-                  for key in video_keys:
-                      if key in item and item[key]:
-                          val = item[key]
-                          if isinstance(val, str):
-                              for p in re.split(r'[\r\n,]+', val.strip()):
-                                  p_clean = p.strip()
-                                  if p_clean.startswith("http") and is_mpd_or_m3u8(p_clean):
-                                      found_urls.append(p_clean)
-                          elif isinstance(val, list):
-                              for elem in val:
-                                  if isinstance(elem, str) and elem.strip().startswith("http") and is_mpd_or_m3u8(elem.strip()):
-                                      found_urls.append(elem.strip())
-                                  elif isinstance(elem, dict):
-                                      u = elem.get("videoURL") or elem.get("video_url") or elem.get("videoUrl")
-                                      if u and str(u).startswith("http") and is_mpd_or_m3u8(str(u)):
-                                          found_urls.append(str(u).strip())
+              # চেকিং বিভিন্ন লিস্ট ফিল্ড
+              for list_key in ["link_live", "channels", "streams", "channel_list", "stream_list"]:
+                  if list_key in item and isinstance(item[list_key], list):
+                      parse_stream_object_list(item[list_key])
 
-              seen_urls = []
-              for u in found_urls:
-                  if u not in seen_urls:
-                      seen_urls.append(u)
+              # আইটেমের ভেতরে সরাসরি কোনো লিস্ট থাকলে
+              for k, v in item.items():
+                  if isinstance(v, list) and k not in ["extracted_links", "link_live"]:
+                      parse_stream_object_list(v)
 
-              for idx, u in enumerate(seen_urls, 1):
+              # ২. extracted_links চেকার
+              if "extracted_links" in item and isinstance(item["extracted_links"], list):
+                  for idx, ext_url in enumerate(item["extracted_links"], 1):
+                      if isinstance(ext_url, str) and ext_url.startswith("http") and is_mpd_or_m3u8(ext_url):
+                          found_labeled_urls.append((f"Server {idx}", ext_url.strip()))
+
+              # ৩. cdn_domain ও অন্যান্য ডিরেক্ট URL চেকার
+              cdn = item.get("cdn_domain")
+              if cdn and isinstance(cdn, str) and cdn.startswith("http") and is_mpd_or_m3u8(cdn):
+                  found_labeled_urls.append(("CDN Direct", cdn.strip()))
+
+              video_keys = ["videoURL", "video_url", "video URL", "videoUrl", "stream_url", "stream_link"]
+              for key in video_keys:
+                  if key in item and item[key]:
+                      val = item[key]
+                      if isinstance(val, str):
+                          for p in re.split(r'[\r\n,]+', val.strip()):
+                              p_clean = p.strip()
+                              if p_clean.startswith("http") and is_mpd_or_m3u8(p_clean):
+                                  found_labeled_urls.append(("Server", p_clean))
+
+              # ডুপ্লিকেট রিমুভ ও সঠিক লেবেল তৈরি
+              seen_urls = set()
+              counter = 1
+              for label, u in found_labeled_urls:
                   clean_u = u.split("|http-")[0] if "|http-" in u else u
-                  servers[f"Server {idx}"] = f"{clean_u}{suffix}"
+                  if clean_u in seen_urls:
+                      continue
+                  seen_urls.add(clean_u)
+
+                  final_label = f"Server {counter} ({label})" if label and label != "Server" else f"Server {counter}"
+                  servers[final_label] = f"{clean_u}{suffix}"
+                  counter += 1
 
               return servers
 
           def transform_bingstream_item(item):
-              title = item.get("name") or item.get("title") or item.get("event_name") or item.get("match_name") or "Sports Match"
+              team_a = item.get("localteam_name") or item.get("team_a") or ""
+              team_b = item.get("visitorteam_name") or item.get("team_b") or ""
+              match_title = f"{team_a} vs {team_b}" if team_a and team_b else ""
+
+              title = item.get("name") or item.get("title") or match_title or item.get("event_name") or item.get("match_name") or "Sports Match"
               league = item.get("league_name", "")
               synopsis = item.get("synopsis") or item.get("description") or (f"{league} - {title}" if league else title)
               
@@ -482,7 +510,9 @@ jobs:
                   "cover_image": cover_image,
                   "match_url": match_url,
                   "is_free": False,
-                  "stream_url": stream_urls
+                  "stream_url": stream_urls,
+                  "referer": item.get("referer", "https://iframe.rumsport11.site"),
+                  "extracted_links": item.get("extracted_links", [])
               }
 
           # ================= ALL MULTI-SERVER STREAM EXTRACTOR =================
@@ -596,8 +626,8 @@ jobs:
                           walk(elem)
                   elif isinstance(obj, dict):
                       is_match_item = False
-                      has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id", "fixture_id", "EntityId", "CategoryId", "chno"])
-                      has_media = any(k in obj for k in ["link_live", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "stream_url_bravo", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL", "ThumbnailStandard", "ThumbnailTV", "drm_key", "url", "streams"])
+                      has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id", "fixture_id", "EntityId", "CategoryId", "chno", "chanel_id"])
+                      has_media = any(k in obj for k in ["link_live", "extracted_links", "cdn_domain", "stream_link", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "stream_url_bravo", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL", "ThumbnailStandard", "ThumbnailTV", "drm_key", "url", "streams"])
                       has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "league_name", "timelive", "is_playing", "VideoName", "CategoryName", "StageName", "sport", "event", "event_name", "team_a", "team_b", "schedule_time", "event_logo"])
 
                       if (has_id and (has_media or has_sports)) or has_media:
@@ -787,7 +817,7 @@ jobs:
               block.append(final_url)
               return "".join(block)
 
-          # ================= M3U BUILDER =================
+          # ================= M3U BUILDER (HANDLES ALL MATCH SERVERS) =================
           def generate_m3u(playlist_name, items, total_count, live_count, current_time):
               lines = ["#EXTM3U\n"]
               lines.append(f"# Playlist Name  : {playlist_name}\n")
@@ -805,7 +835,13 @@ jobs:
                   title = it.get("title") or it.get("VideoName") or it.get("name") or it.get("event") or "Live Event"
                   logo = it.get("cover_image") or it.get("ThumbnailTV") or it.get("ThumbnailStandard") or it.get("logo") or it.get("image") or ""
                   
-                  if "streams" in it and isinstance(it["streams"], list) and len(it["streams"]) > 0:
+                  stream_urls = it.get("stream_url")
+                  if isinstance(stream_urls, dict) and stream_urls:
+                      for s_name, s_url in stream_urls.items():
+                          if s_url and is_mpd_or_m3u8(str(s_url)):
+                              stream_title = f"{title} ({s_name})" if len(stream_urls) > 1 else title
+                              lines.append(build_m3u_channel_block(stream_title, logo, playlist_name, str(s_url).strip(), it))
+                  elif "streams" in it and isinstance(it["streams"], list) and len(it["streams"]) > 0:
                       for s in it["streams"]:
                           if not isinstance(s, dict):
                               continue
