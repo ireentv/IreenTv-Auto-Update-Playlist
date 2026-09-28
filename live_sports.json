@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 34,
   "live_count": 34,
-  "last_update": "08:37 PM 28-09-2026 BST",
+  "last_update": "09:04 PM 28-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -22,20 +22,20 @@
     },
     {
       "chno": 1,
-      "name": "[ASEAN Championship] [06:30 PM BD] [LIVE] Malaysia vs Indonesia (FAWA)",
+      "name": "[UAE Presidents Cup] [08:45 PM BD] [LIVE] Al-Ittifaq vs Al Urooba (FAWA)",
       "status": "LIVE",
       "is_live": true,
-      "sport": "ASEAN Championship",
-      "event": "Malaysia vs Indonesia",
-      "match_time_bd": "06:30 PM BD",
-      "source_time_gmt1": "13:30",
-      "league": "ASEAN Championship",
+      "sport": "UAE Presidents Cup",
+      "event": "Al-Ittifaq vs Al Urooba",
+      "match_time_bd": "08:45 PM BD",
+      "source_time_gmt1": "15:45",
+      "league": "UAE Presidents Cup",
       "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1358022137794109442/nzPaWm-j_400x400.jpg",
+      "logo": "https://pbs.twimg.com/profile_images/1954213261898895361/3rhnnXke_400x400.jpg",
       "group": "Live Events",
-      "url": "http://193.47.62.55/hls/NUUUQQQQQ.m3u8",
-      "stream_url": "http://193.47.62.55/hls/NUUUQQQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Malaysia%20vs%20Indonesia.html",
+      "url": "http://193.47.62.55/hls/V111A.m3u8",
+      "stream_url": "http://193.47.62.55/hls/V111A.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Al-Ittifaq%20vs%20Al%20Urooba.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
         "Origin": "http://www.fawanews.sc/",
@@ -44,6 +44,50 @@
     },
     {
       "chno": 2,
+      "name": "[UAE Presidents Cup] [08:45 PM BD] [LIVE] Al Arabi vs Al Thaid (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "UAE Presidents Cup",
+      "event": "Al Arabi vs Al Thaid",
+      "match_time_bd": "08:45 PM BD",
+      "source_time_gmt1": "15:45",
+      "league": "UAE Presidents Cup",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1954213261898895361/3rhnnXke_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.55/hls/V111.m3u8",
+      "stream_url": "http://193.47.62.55/hls/V111.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Al%20Arabi%20vs%20Al%20Thaid.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 3,
+      "name": "[Friendly Match] [08:00 PM BD] [LIVE] Kyrgyzstan vs Maldives (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Friendly Match",
+      "event": "Kyrgyzstan vs Maldives",
+      "match_time_bd": "08:00 PM BD",
+      "source_time_gmt1": "15:00",
+      "league": "Friendly Match",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.55/hls/NUUUQQQ.m3u8",
+      "stream_url": "http://193.47.62.55/hls/NUUUQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Kyrgyzstan%20vs%20Maldives.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 4,
       "name": "[Horse Racing] [06:00 PM BD] [LIVE] Horse Racing --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -65,7 +109,7 @@
       }
     },
     {
-      "chno": 3,
+      "chno": 5,
       "name": "[Horse Racing] [06:00 PM BD] [LIVE] Horse Racing --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -87,7 +131,7 @@
       }
     },
     {
-      "chno": 4,
+      "chno": 6,
       "name": "[Snooker --:--] [LIVE] Snooker Shenzhen Open --- Table 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -109,7 +153,7 @@
       }
     },
     {
-      "chno": 5,
+      "chno": 7,
       "name": "[Snooker] [03:00 PM BD] [UPCOMING] Snooker Shenzhen Open --- Table 2 (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -131,7 +175,7 @@
       }
     },
     {
-      "chno": 6,
+      "chno": 8,
       "name": "[Snooker --:--] [LIVE] Snooker Shenzhen Open --- Table 3 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -153,7 +197,7 @@
       }
     },
     {
-      "chno": 7,
+      "chno": 9,
       "name": "[Snooker --:--] [LIVE] Snooker Shenzhen Open --- Table 4 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -175,7 +219,7 @@
       }
     },
     {
-      "chno": 8,
+      "chno": 10,
       "name": "[Friendly Match] [05:00 PM BD] [UPCOMING] South Korea vs Uruguay --- CH 1 (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -197,7 +241,7 @@
       }
     },
     {
-      "chno": 9,
+      "chno": 11,
       "name": "[Friendly Match] [05:00 PM BD] [UPCOMING] South Korea vs Uruguay --- CH 2 (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -212,50 +256,6 @@
       "url": null,
       "stream_url": "http://www.fawanews.sc/South%20Korea%20vs%20Uruguay%20---%20CH%202.html",
       "event_page": "http://www.fawanews.sc/South%20Korea%20vs%20Uruguay%20---%20CH%202.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 10,
-      "name": "[Friendly Match] [04:25 PM BD] [UPCOMING] Japan vs Venezuela --- CH 1 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Friendly Match",
-      "event": "Japan vs Venezuela --- CH 1",
-      "match_time_bd": "04:25 PM BD",
-      "source_time_gmt1": "11:25",
-      "league": "Friendly Match",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Japan%20vs%20Venezuela.html",
-      "event_page": "http://www.fawanews.sc/Japan%20vs%20Venezuela.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 11,
-      "name": "[Friendly Match] [04:25 PM BD] [UPCOMING] Japan vs Venezuela --- CH 2 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Friendly Match",
-      "event": "Japan vs Venezuela --- CH 2",
-      "match_time_bd": "04:25 PM BD",
-      "source_time_gmt1": "11:25",
-      "league": "Friendly Match",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Japan%20vs%20Venezuela%20---%20CH%202.html",
-      "event_page": "http://www.fawanews.sc/Japan%20vs%20Venezuela%20---%20CH%202.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
         "Origin": "http://www.fawanews.sc/",
