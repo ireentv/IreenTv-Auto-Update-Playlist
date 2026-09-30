@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 53,
-  "live_count": 53,
-  "last_update": "01:36 PM 30-09-2026 BST",
+  "channels_amount": 30,
+  "live_count": 30,
+  "last_update": "02:03 PM 30-09-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -22,20 +22,20 @@
     },
     {
       "chno": 1,
-      "name": "[MLB Baseball] [08:00 AM BD] [UPCOMING] San Diego Padres vs Chicago Cubs (FAWA)",
+      "name": "[Cricket] [02:30 PM BD] [UPCOMING] India vs West Indies (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
-      "sport": "MLB Baseball",
-      "event": "San Diego Padres vs Chicago Cubs",
-      "match_time_bd": "08:00 AM BD",
-      "source_time_gmt1": "03:00",
-      "league": "MLB Baseball",
+      "sport": "Cricket",
+      "event": "India vs West Indies",
+      "match_time_bd": "02:30 PM BD",
+      "source_time_gmt1": "09:30",
+      "league": "Cricket",
       "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1979034974964559874/E0AdeiBy_400x400.jpg",
+      "logo": "https://pbs.twimg.com/profile_images/1404378291599937536/b-r3SWlW_400x400.jpg",
       "group": "Upcoming Events",
       "url": null,
-      "stream_url": "http://www.fawanews.sc/San%20Diego%20Padres%20vs%20Chicago%20Cubs.html",
-      "event_page": "http://www.fawanews.sc/San%20Diego%20Padres%20vs%20Chicago%20Cubs.html",
+      "stream_url": "http://www.fawanews.sc/India%20vs%20West%20Indies.html",
+      "event_page": "http://www.fawanews.sc/India%20vs%20West%20Indies.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
         "Origin": "http://www.fawanews.sc/",
@@ -44,6 +44,160 @@
     },
     {
       "chno": 2,
+      "name": "[Basketball NBL] [01:40 PM BD] [LIVE] New Zealand Breakers vs Cairns Taipans (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Basketball NBL",
+      "event": "New Zealand Breakers vs Cairns Taipans",
+      "match_time_bd": "01:40 PM BD",
+      "source_time_gmt1": "08:40",
+      "league": "Basketball NBL",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1818146563342139392/HfVvVvXW_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.55/hls/ARRR.m3u8",
+      "stream_url": "http://193.47.62.55/hls/ARRR.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/New%20Zealand%20Breakers%20vs%20Cairns%20Taipans.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 3,
+      "name": "[Snooker --:--] [LIVE] Snooker Shenzhen Open --- Table 1 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Snooker --:--",
+      "event": "Snooker Shenzhen Open --- Table 1",
+      "match_time_bd": "",
+      "source_time_gmt1": "Snooker --:--",
+      "league": "Snooker --:--",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/grrrAAA.m3u8",
+      "stream_url": "http://193.47.62.44/hls/grrrAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Snooker%20Shenzhen%20Open%20---%20Table%201.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 4,
+      "name": "[Snooker] [03:00 PM BD] [UPCOMING] Snooker Shenzhen Open --- Table 2 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "Snooker",
+      "event": "Snooker Shenzhen Open --- Table 2",
+      "match_time_bd": "03:00 PM BD",
+      "source_time_gmt1": "10:00",
+      "league": "Snooker",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Snooker%20Shenzhen%20Open%20---%20Table%202.html",
+      "event_page": "http://www.fawanews.sc/Snooker%20Shenzhen%20Open%20---%20Table%202.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 5,
+      "name": "[Snooker --:--] [LIVE] Snooker Shenzhen Open --- Table 3 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Snooker --:--",
+      "event": "Snooker Shenzhen Open --- Table 3",
+      "match_time_bd": "",
+      "source_time_gmt1": "Snooker --:--",
+      "league": "Snooker --:--",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/grrrA.m3u8",
+      "stream_url": "http://193.47.62.44/hls/grrrA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Snooker%20Shenzhen%20Open%20---%20Table%203.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 6,
+      "name": "[Snooker --:--] [LIVE] Snooker Shenzhen Open --- Table 4 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "Snooker --:--",
+      "event": "Snooker Shenzhen Open --- Table 4",
+      "match_time_bd": "",
+      "source_time_gmt1": "Snooker --:--",
+      "league": "Snooker --:--",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/grrr.m3u8",
+      "stream_url": "http://193.47.62.44/hls/grrr.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Snooker%20Shenzhen%20Open%20---%20Table%204.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 7,
+      "name": "[Tennis ATP] [03:30 PM BD] [UPCOMING] Tennis ATP Tokyo (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "Tennis ATP",
+      "event": "Tennis ATP Tokyo",
+      "match_time_bd": "03:30 PM BD",
+      "source_time_gmt1": "10:30",
+      "league": "Tennis ATP",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1995612160613920768/jdwbOzZi_400x400.jpg",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Tennis%20ATP%20Tokyo.html",
+      "event_page": "http://www.fawanews.sc/Tennis%20ATP%20Tokyo.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 8,
+      "name": "[Tennis ATP] [03:00 PM BD] [UPCOMING] Tennis ATP Beijing (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "Tennis ATP",
+      "event": "Tennis ATP Beijing",
+      "match_time_bd": "03:00 PM BD",
+      "source_time_gmt1": "10:00",
+      "league": "Tennis ATP",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1995612160613920768/jdwbOzZi_400x400.jpg",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Tennis%20ATP%20Beijing.html",
+      "event_page": "http://www.fawanews.sc/Tennis%20ATP%20Beijing.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 9,
       "name": "[Asian Games] [12:00 PM BD] [LIVE] South Korea U23 vs China U23 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -65,667 +219,7 @@
       }
     },
     {
-      "chno": 3,
-      "name": "[NHL Hockey] [08:30 AM BD] [UPCOMING] Vegas Golden Knights vs Chicago Blackhawks (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NHL Hockey",
-      "event": "Vegas Golden Knights vs Chicago Blackhawks",
-      "match_time_bd": "08:30 AM BD",
-      "source_time_gmt1": "03:30",
-      "league": "NHL Hockey",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2071354600800587776/Ebbqt2Ki_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Vegas%20Golden%20Knights%20vs%20Chicago%20Blackhawks1.html",
-      "event_page": "http://www.fawanews.sc/Vegas%20Golden%20Knights%20vs%20Chicago%20Blackhawks1.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 4,
-      "name": "[NHL Hockey] [08:30 AM BD] [UPCOMING] Vegas Golden Knights vs Chicago Blackhawks --- HD (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NHL Hockey",
-      "event": "Vegas Golden Knights vs Chicago Blackhawks --- HD",
-      "match_time_bd": "08:30 AM BD",
-      "source_time_gmt1": "03:30",
-      "league": "NHL Hockey",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2071354600800587776/Ebbqt2Ki_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Vegas%20Golden%20Knights%20vs%20Chicago%20Blackhawks.html",
-      "event_page": "http://www.fawanews.sc/Vegas%20Golden%20Knights%20vs%20Chicago%20Blackhawks.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 5,
-      "name": "[NHL Hockey] [08:00 AM BD] [UPCOMING] Edmonton Oilers vs Vancouver Canucks (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NHL Hockey",
-      "event": "Edmonton Oilers vs Vancouver Canucks",
-      "match_time_bd": "08:00 AM BD",
-      "source_time_gmt1": "03:00",
-      "league": "NHL Hockey",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2071354600800587776/Ebbqt2Ki_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Edmonton%20Oilers%20vs%20Vancouver%20Canucks.html",
-      "event_page": "http://www.fawanews.sc/Edmonton%20Oilers%20vs%20Vancouver%20Canucks.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 6,
-      "name": "[CONCACAF Nations League] [08:00 AM BD] [UPCOMING] Belize vs Saint Vincent and the Grenadines (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "CONCACAF Nations League",
-      "event": "Belize vs Saint Vincent and the Grenadines",
-      "match_time_bd": "08:00 AM BD",
-      "source_time_gmt1": "03:00",
-      "league": "CONCACAF Nations League",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1477333156609073154/9DO9jLf7_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Belize%20vs%20Saint%20Vincent%20and%20the%20Grenadines.html",
-      "event_page": "http://www.fawanews.sc/Belize%20vs%20Saint%20Vincent%20and%20the%20Grenadines.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 7,
-      "name": "[Colombia Primera A] [07:05 AM BD] [UPCOMING] Ind Medellin vs Millonarios (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Colombia Primera A",
-      "event": "Ind Medellin vs Millonarios",
-      "match_time_bd": "07:05 AM BD",
-      "source_time_gmt1": "02:05",
-      "league": "Colombia Primera A",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1853835653886197760/gHhspsLK_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Ind%20Medellin%20vs%20Millonarios.html",
-      "event_page": "http://www.fawanews.sc/Ind%20Medellin%20vs%20Millonarios.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 8,
-      "name": "[Friendly Match] [07:00 AM BD] [UPCOMING] Mexico vs Peru --- CH 1 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Friendly Match",
-      "event": "Mexico vs Peru --- CH 1",
-      "match_time_bd": "07:00 AM BD",
-      "source_time_gmt1": "02:00",
-      "league": "Friendly Match",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Mexico%20vs%20Peru.html",
-      "event_page": "http://www.fawanews.sc/Mexico%20vs%20Peru.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 9,
-      "name": "[Friendly Match] [07:00 AM BD] [UPCOMING] Mexico vs Peru --- CH 2 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Friendly Match",
-      "event": "Mexico vs Peru --- CH 2",
-      "match_time_bd": "07:00 AM BD",
-      "source_time_gmt1": "02:00",
-      "league": "Friendly Match",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Mexico%20vs%20Peru%20---%20CH%202.html",
-      "event_page": "http://www.fawanews.sc/Mexico%20vs%20Peru%20---%20CH%202.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
       "chno": 10,
-      "name": "[WNBA Basketball] [06:30 AM BD] [UPCOMING] New York Liberty W vs Minnesota Lynx W --- CH 1 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "WNBA Basketball",
-      "event": "New York Liberty W vs Minnesota Lynx W --- CH 1",
-      "match_time_bd": "06:30 AM BD",
-      "source_time_gmt1": "01:30",
-      "league": "WNBA Basketball",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2043888491394641921/ServdT8c_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/New%20York%20Liberty%20W%20vs%20Minnesota%20Lynx%20W.html",
-      "event_page": "http://www.fawanews.sc/New%20York%20Liberty%20W%20vs%20Minnesota%20Lynx%20W.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 11,
-      "name": "[WNBA Basketball] [06:30 AM BD] [UPCOMING] New York Liberty W vs Minnesota Lynx W --- CH 2 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "WNBA Basketball",
-      "event": "New York Liberty W vs Minnesota Lynx W --- CH 2",
-      "match_time_bd": "06:30 AM BD",
-      "source_time_gmt1": "01:30",
-      "league": "WNBA Basketball",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2043888491394641921/ServdT8c_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/New%20York%20Liberty%20W%20vs%20Minnesota%20Lynx%20W%20---%20CH%202.html",
-      "event_page": "http://www.fawanews.sc/New%20York%20Liberty%20W%20vs%20Minnesota%20Lynx%20W%20---%20CH%202.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 12,
-      "name": "[Friendly Match] [06:00 AM BD] [UPCOMING] USA vs Chile --- CH 1 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Friendly Match",
-      "event": "USA vs Chile --- CH 1",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "Friendly Match",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/USA%20vs%20Chile.html",
-      "event_page": "http://www.fawanews.sc/USA%20vs%20Chile.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 13,
-      "name": "[Friendly Match] [06:00 AM BD] [UPCOMING] USA vs Chile --- CH 2 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Friendly Match",
-      "event": "USA vs Chile --- CH 2",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "Friendly Match",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/USA%20vs%20Chile%20---%20CH%202.html",
-      "event_page": "http://www.fawanews.sc/USA%20vs%20Chile%20---%20CH%202.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 14,
-      "name": "[MLB Baseball] [06:00 AM BD] [UPCOMING] New York Yankees vs Boston Red Sox (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "MLB Baseball",
-      "event": "New York Yankees vs Boston Red Sox",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "MLB Baseball",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1979034974964559874/E0AdeiBy_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/New%20York%20Yankees%20vs%20Boston%20Red%20Sox1.html",
-      "event_page": "http://www.fawanews.sc/New%20York%20Yankees%20vs%20Boston%20Red%20Sox1.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 15,
-      "name": "[NHL Hockey] [06:00 AM BD] [UPCOMING] Boston Bruins vs New York Rangers (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NHL Hockey",
-      "event": "Boston Bruins vs New York Rangers",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "NHL Hockey",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2071354600800587776/Ebbqt2Ki_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Boston%20Bruins%20vs%20New%20York%20Rangers1.html",
-      "event_page": "http://www.fawanews.sc/Boston%20Bruins%20vs%20New%20York%20Rangers1.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 16,
-      "name": "[NHL Hockey] [06:00 AM BD] [UPCOMING] Boston Bruins vs New York Rangers --- HD (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NHL Hockey",
-      "event": "Boston Bruins vs New York Rangers --- HD",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "NHL Hockey",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2071354600800587776/Ebbqt2Ki_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Boston%20Bruins%20vs%20New%20York%20Rangers.html",
-      "event_page": "http://www.fawanews.sc/Boston%20Bruins%20vs%20New%20York%20Rangers.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 17,
-      "name": "[WWE Wrestling] [06:00 AM BD] [UPCOMING] WWE NXT (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "WWE Wrestling",
-      "event": "WWE NXT",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "WWE Wrestling",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1383079031805972485/3sWoMX-R_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/WWE%20NXT.html",
-      "event_page": "http://www.fawanews.sc/WWE%20NXT.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 18,
-      "name": "[Bolivia Copa] [06:00 AM BD] [UPCOMING] Aurora vs SA Bulo Bulo (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Bolivia Copa",
-      "event": "Aurora vs SA Bulo Bulo",
-      "match_time_bd": "06:00 AM BD",
-      "source_time_gmt1": "01:00",
-      "league": "Bolivia Copa",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2098622913641414665/OqB33HYM_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Aurora%20vs%20SA%20Bulo%20Bulo.html",
-      "event_page": "http://www.fawanews.sc/Aurora%20vs%20SA%20Bulo%20Bulo.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 19,
-      "name": "[UFC Fight Night] [05:00 AM BD] [UPCOMING] Dana White Contender Series Week 8 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "UFC Fight Night",
-      "event": "Dana White Contender Series Week 8",
-      "match_time_bd": "05:00 AM BD",
-      "source_time_gmt1": "00:00",
-      "league": "UFC Fight Night",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1835773190385328128/4fVrF1UI_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Dana%20White%20Contender%20Series_Week%208.html",
-      "event_page": "http://www.fawanews.sc/Dana%20White%20Contender%20Series_Week%208.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 20,
-      "name": "[NHL Hockey] [05:00 AM BD] [UPCOMING] Toronto Maple Leafs vs Montreal Canadiens (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NHL Hockey",
-      "event": "Toronto Maple Leafs vs Montreal Canadiens",
-      "match_time_bd": "05:00 AM BD",
-      "source_time_gmt1": "00:00",
-      "league": "NHL Hockey",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2071354600800587776/Ebbqt2Ki_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Toronto%20Maple%20Leafs%20vs%20Montreal%20Canadiens.html",
-      "event_page": "http://www.fawanews.sc/Toronto%20Maple%20Leafs%20vs%20Montreal%20Canadiens.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 21,
-      "name": "[CONCACAF Nations League] [05:00 AM BD] [UPCOMING] Anguilla vs Aruba (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "CONCACAF Nations League",
-      "event": "Anguilla vs Aruba",
-      "match_time_bd": "05:00 AM BD",
-      "source_time_gmt1": "00:00",
-      "league": "CONCACAF Nations League",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1477333156609073154/9DO9jLf7_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Anguilla%20vs%20Aruba.html",
-      "event_page": "http://www.fawanews.sc/Anguilla%20vs%20Aruba.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 22,
-      "name": "[Colombia Primera B] [05:00 AM BD] [UPCOMING] U Magdalena vs Cartagena (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Colombia Primera B",
-      "event": "U Magdalena vs Cartagena",
-      "match_time_bd": "05:00 AM BD",
-      "source_time_gmt1": "00:00",
-      "league": "Colombia Primera B",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1853835653886197760/gHhspsLK_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/U%20Magdalena%20vs%20Cartagena.html",
-      "event_page": "http://www.fawanews.sc/U%20Magdalena%20vs%20Cartagena.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 23,
-      "name": "[WNBA Basketball] [04:30 AM BD] [UPCOMING] Indiana Fever W vs Las Vegas Aces W --- CH 1 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "WNBA Basketball",
-      "event": "Indiana Fever W vs Las Vegas Aces W --- CH 1",
-      "match_time_bd": "04:30 AM BD",
-      "source_time_gmt1": "23:30",
-      "league": "WNBA Basketball",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2043888491394641921/ServdT8c_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Indiana%20Fever%20W%20vs%20Las%20Vegas%20Aces%20W.html",
-      "event_page": "http://www.fawanews.sc/Indiana%20Fever%20W%20vs%20Las%20Vegas%20Aces%20W.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 24,
-      "name": "[WNBA Basketball] [04:30 AM BD] [UPCOMING] Indiana Fever W vs Las Vegas Aces W --- CH 2 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "WNBA Basketball",
-      "event": "Indiana Fever W vs Las Vegas Aces W --- CH 2",
-      "match_time_bd": "04:30 AM BD",
-      "source_time_gmt1": "23:30",
-      "league": "WNBA Basketball",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2043888491394641921/ServdT8c_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Indiana%20Fever%20W%20vs%20Las%20Vegas%20Aces%20W%20---%20CH%202.html",
-      "event_page": "http://www.fawanews.sc/Indiana%20Fever%20W%20vs%20Las%20Vegas%20Aces%20W%20---%20CH%202.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 25,
-      "name": "[Brazil Serie B] [04:30 AM BD] [UPCOMING] Botafogo SP vs Ponte Preta (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Brazil Serie B",
-      "event": "Botafogo SP vs Ponte Preta",
-      "match_time_bd": "04:30 AM BD",
-      "source_time_gmt1": "23:30",
-      "league": "Brazil Serie B",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1394013208701243395/3ocIDVAb_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Botafogo%20SP%20vs%20Ponte%20Preta.html",
-      "event_page": "http://www.fawanews.sc/Botafogo%20SP%20vs%20Ponte%20Preta.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 26,
-      "name": "[Bolivia Copa] [04:00 AM BD] [UPCOMING] Real Potosi vs Academia del Balompie (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Bolivia Copa",
-      "event": "Real Potosi vs Academia del Balompie",
-      "match_time_bd": "04:00 AM BD",
-      "source_time_gmt1": "23:00",
-      "league": "Bolivia Copa",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2098622913641414665/OqB33HYM_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Real%20Potosi%20vs%20Academia%20del%20Balompie.html",
-      "event_page": "http://www.fawanews.sc/Real%20Potosi%20vs%20Academia%20del%20Balompie.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 27,
-      "name": "[MLB Baseball] [03:00 AM BD] [UPCOMING] Houston Astros vs Chicago White Sox (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "MLB Baseball",
-      "event": "Houston Astros vs Chicago White Sox",
-      "match_time_bd": "03:00 AM BD",
-      "source_time_gmt1": "22:00",
-      "league": "MLB Baseball",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1979034974964559874/E0AdeiBy_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Houston%20Astros%20vs%20Chicago%20White%20Sox.html",
-      "event_page": "http://www.fawanews.sc/Houston%20Astros%20vs%20Chicago%20White%20Sox.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 28,
-      "name": "[NHL Hockey] [03:00 AM BD] [UPCOMING] Carolina Hurricanes vs Florida Panthers (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NHL Hockey",
-      "event": "Carolina Hurricanes vs Florida Panthers",
-      "match_time_bd": "03:00 AM BD",
-      "source_time_gmt1": "22:00",
-      "league": "NHL Hockey",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2071354600800587776/Ebbqt2Ki_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Carolina%20Hurricanes%20vs%20Florida%20Panthers.html",
-      "event_page": "http://www.fawanews.sc/Carolina%20Hurricanes%20vs%20Florida%20Panthers.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 29,
-      "name": "[NHL Hockey] [03:00 AM BD] [UPCOMING] Carolina Hurricanes vs Florida Panthers --- RU HD (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "NHL Hockey",
-      "event": "Carolina Hurricanes vs Florida Panthers --- RU HD",
-      "match_time_bd": "03:00 AM BD",
-      "source_time_gmt1": "22:00",
-      "league": "NHL Hockey",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2071354600800587776/Ebbqt2Ki_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Carolina%20Hurricanes%20vs%20Florida%20Panthers%20---%20RU%20HD.html",
-      "event_page": "http://www.fawanews.sc/Carolina%20Hurricanes%20vs%20Florida%20Panthers%20---%20RU%20HD.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 30,
-      "name": "[Chile Copa] [03:00 AM BD] [UPCOMING] D Puerto Montt vs Colo Colo (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Chile Copa",
-      "event": "D Puerto Montt vs Colo Colo",
-      "match_time_bd": "03:00 AM BD",
-      "source_time_gmt1": "22:00",
-      "league": "Chile Copa",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1897743697929740288/9-yBKTUL_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/D%20Puerto%20Montt%20vs%20Colo%20Colo.html",
-      "event_page": "http://www.fawanews.sc/D%20Puerto%20Montt%20vs%20Colo%20Colo.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 31,
-      "name": "[CONCACAF Nations League] [03:00 AM BD] [UPCOMING] French Guiana vs Sint Maarten (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "CONCACAF Nations League",
-      "event": "French Guiana vs Sint Maarten",
-      "match_time_bd": "03:00 AM BD",
-      "source_time_gmt1": "22:00",
-      "league": "CONCACAF Nations League",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1477333156609073154/9DO9jLf7_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/French%20Guiana%20vs%20Sint%20Maarten.html",
-      "event_page": "http://www.fawanews.sc/French%20Guiana%20vs%20Sint%20Maarten.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 32,
-      "name": "[Darts] [11:00 PM BD] [UPCOMING] Darts World Grand Prix (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Darts",
-      "event": "Darts World Grand Prix",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "Darts",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1945520203653165057/BRp76d7W_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Darts%20World%20Grand%20Prix_21.html",
-      "event_page": "http://www.fawanews.sc/Darts%20World%20Grand%20Prix_21.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 33,
       "name": "[Live] [UPCOMING] United Cup chief admits high-profile retirements make things a bit more difficult (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -747,7 +241,7 @@
       }
     },
     {
-      "chno": 34,
+      "chno": 11,
       "name": "[Live] [UPCOMING] Mercedes announce Valtteri Bottas as reserve driver after Sauber exit (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -769,7 +263,7 @@
       }
     },
     {
-      "chno": 35,
+      "chno": 12,
       "name": "[Live] [UPCOMING] Red Bull admit Tsunoda could leave after promoting Lawson instead (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -791,7 +285,7 @@
       }
     },
     {
-      "chno": 36,
+      "chno": 13,
       "name": "[Live] [UPCOMING] Oklahoma City Thunder and Alex Caruso agree to $81 million contract extension (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -813,7 +307,7 @@
       }
     },
     {
-      "chno": 37,
+      "chno": 14,
       "name": "[Live] [UPCOMING] Southampton announce the appointment of Croatian coach Ivan Juric (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -835,7 +329,7 @@
       }
     },
     {
-      "chno": 38,
+      "chno": 15,
       "name": "[Live] [UPCOMING] Southampton battle to earn valuable point at high-flying Fulham (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -857,7 +351,7 @@
       }
     },
     {
-      "chno": 39,
+      "chno": 16,
       "name": "[Live] [UPCOMING] Arsenal manager Mikel Arteta confirms Bukayo Saka set to be ruled out for many weeks (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -879,7 +373,7 @@
       }
     },
     {
-      "chno": 40,
+      "chno": 17,
       "name": "[Live] [UPCOMING] Ruben Amorim questions decision-making of Marcus Rashford camp after recent comments (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -901,7 +395,7 @@
       }
     },
     {
-      "chno": 41,
+      "chno": 18,
       "name": "[Live] [UPCOMING] Fernandez feeling very good at Chelsea after understanding what Maresca wants (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -923,7 +417,7 @@
       }
     },
     {
-      "chno": 42,
+      "chno": 19,
       "name": "[Live] [UPCOMING] Ivan Juric promises to play death metal style of football with Southampton (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -945,7 +439,7 @@
       }
     },
     {
-      "chno": 43,
+      "chno": 20,
       "name": "[Live] [UPCOMING] Eddie Howe: Newcastle defender Dan Burn&#1074;&#1026;&#1042;�s England desire is still alive (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -967,7 +461,7 @@
       }
     },
     {
-      "chno": 44,
+      "chno": 21,
       "name": "[Live] [UPCOMING] Everton to review security after high-risk game (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -989,7 +483,7 @@
       }
     },
     {
-      "chno": 45,
+      "chno": 22,
       "name": "[Live] [UPCOMING] Wolves agree fee for PSG & Spain Wingser Sarabia (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1011,7 +505,7 @@
       }
     },
     {
-      "chno": 46,
+      "chno": 23,
       "name": "[Live] [UPCOMING] Gavi stars in Barcelona's Super Cup win over Real (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1033,7 +527,7 @@
       }
     },
     {
-      "chno": 47,
+      "chno": 24,
       "name": "[Live] [UPCOMING] Bournemouth agree &#1042;&#1032;20m deal for Lorient's Ouattara (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1055,7 +549,7 @@
       }
     },
     {
-      "chno": 48,
+      "chno": 25,
       "name": "[Live] [UPCOMING] Why Arsenal are in control of the title race (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1077,7 +571,7 @@
       }
     },
     {
-      "chno": 49,
+      "chno": 26,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1099,7 +593,7 @@
       }
     },
     {
-      "chno": 50,
+      "chno": 27,
       "name": "[Live] [UPCOMING] &#1042;&#1032;22m of Mudryk fee pledged to Ukraine war effort (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1121,7 +615,7 @@
       }
     },
     {
-      "chno": 51,
+      "chno": 28,
       "name": "[Live] [UPCOMING] Klopp says he has no plans to leave Liverpool (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -1143,7 +637,7 @@
       }
     },
     {
-      "chno": 52,
+      "chno": 29,
       "name": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
