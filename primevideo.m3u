@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 6
 # Live Count     : 6
-# Last Update    : 01:10 AM 02-10-2026 BST
+# Last Update    : 01:34 AM 02-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -58,6 +58,12 @@ https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdo
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
 https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+#EXTINF:-1 tvg-name="Oct 1 - PTT Lincoln" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.5f84a04c-6916-451d-8f65-f68eb09f9666/7/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Oct 1 - PTT Lincoln
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=32592ba123e31414b7e54507682b11f7:95aec3846cc6d9df525807e27cffcfe7
+https://live-pv-ta.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWJCnAWpwcmltZXZpZGVvBBpq0jWJBhpqvm8JA2ZmYXN0bHkCeClzc2lkOmRmNzg2NTZjLWZhYTktNDBiZC1hOTBiLTExNTBmZGIyNDdmNhkBOKEFoQJ4My9iYnF3em9waGJhL291dC92MS82ZTQ5MDcwYWQxNDc0N2Q3YjQ4YzA1MTJhYTFmYTJhMBkBPIFiVVNYIJqrEB_YhMsQvf8U3MhZM1UKm4OmImg70EbKPnCFNJYI/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/bbqwzophba/out/v1/6e49070ad14747d7b48c0512aa1fa2a0/440444c5-6537-4c72-867f-d16db3ad9716-cenc.mpd
 #EXTINF:-1 tvg-name="Oct 1 - PTT Newport Beach" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.0eead24b-7412-4005-b3fe-9bb741621dcc/4/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Oct 1 - PTT Newport Beach
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -70,9 +76,3 @@ https://ABA2V7HAAAAAAAAML2N6VPLNURZU3.ta.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhB
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=68faede63d1fb96576ab3f841d98cd89:785db00c7a92f7e6e7495e5f46a5bd50
 https://live-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWImmAWpwcmltZXZpZGVvBBpq0nTJBhpqvq5JA2ZmYXN0bHkCeClzc2lkOmRjNTI2ZTJhLTAwOTAtNDQyMy04MjZiLTRlODMwYjFlZDUxOBkBOKEFoQJ4My96YXdzeW42aGVuL291dC92MS81NDE5NmQ4MTNmZjM0ODAyOWRiNjU5OWIzMTUxMDliNFggBkd3aoK4JHppO1dCDOsnjVMKlKvqS6jIRkkCjO40ph0/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/zawsyn6hen/out/v1/54196d813ff348029db6599b315109b4/b340daf0-1ea7-4bbc-b1cd-f43b8535949d-cenc.mpd
-#EXTINF:-1 tvg-name="Oct 1 - PTT Lincoln" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.5f84a04c-6916-451d-8f65-f68eb09f9666/7/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Oct 1 - PTT Lincoln
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=32592ba123e31414b7e54507682b11f7:95aec3846cc6d9df525807e27cffcfe7
-https://live-pv-ta.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWJCnAWpwcmltZXZpZGVvBBpq0jWJBhpqvm8JA2ZmYXN0bHkCeClzc2lkOmRmNzg2NTZjLWZhYTktNDBiZC1hOTBiLTExNTBmZGIyNDdmNhkBOKEFoQJ4My9iYnF3em9waGJhL291dC92MS82ZTQ5MDcwYWQxNDc0N2Q3YjQ4YzA1MTJhYTFmYTJhMBkBPIFiVVNYIJqrEB_YhMsQvf8U3MhZM1UKm4OmImg70EbKPnCFNJYI/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/bbqwzophba/out/v1/6e49070ad14747d7b48c0512aa1fa2a0/440444c5-6537-4c72-867f-d16db3ad9716-cenc.mpd
