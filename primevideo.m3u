@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 7
 # Live Count     : 7
-# Last Update    : 02:31 PM 02-10-2026 BST
+# Last Update    : 02:33 PM 02-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -40,6 +40,12 @@ https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/2idyuu2e
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
 https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/2idyuu2ecl/out/v1/8b521304de804ce5a5ac4ff27eb85eb3/cenc.mpd
+#EXTINF:-1 tvg-name="Bahrain: Practice 2 (Sky Sports)" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.34ce4174-edbe-4462-a484-5a605be376f3/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/appletvus/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1607,885,234,117_kv6e4ed7a60d36179896a92487d4bec652_SX624_FMjpg_.jpeg" group-title="primevideo",Bahrain: Practice 2 (Sky Sports)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c1b52cdc17733740330679d0c3f8d630:4e6789be6be6997c7a3f736f69d31ba7
+https://a154live-pv-ta-enf-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WImmAWpwcmltZXZpZGVvBBpq0yuVBhpqv2UVA2Zha2FtYWkCeClzc2lkOjJjZDViMjExLTIxNzUtNDQzMC1hM2YxLThkNGEwMGY1YTJlNxkBOKEFoQJ4My9tZmh6dndmcHBqL291dC92MS9jNmM3YWRjYTAyYTU0OTE0OTE0NmY5MjU5Y2RlMWNjMFggsMKMyTl2z1bbREAiGjeTHjTihSeCaMR6P_eWXL3iisQ/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/mfhzvwfppj/out/v1/c6c7adca02a549149146f9259cde1cc0/3939bfe8-0caa-4ec2-b295-9fd54fa2e89a-cenc.mpd
 #EXTINF:-1 tvg-name="Southland v North Island (Fastly Server)" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.15312135-0f33-4d74-9988-818d4083a25d/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="primevideo",Southland v North Island (Fastly Server)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -64,12 +70,6 @@ https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/emn1qibf
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=63a084a354d126bcd099c9eabf0cbb93:bd2b00bce574c33af46d0538937b3ac3
 https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/emn1qibfun/out/v1/0e442a73dc9841158975a938f8b31087/cenc.mpd
-#EXTINF:-1 tvg-name="Bahrain: Practice 2 (Sky Sports)" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.34ce4174-edbe-4462-a484-5a605be376f3/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/appletvus/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1607,885,234,117_kv6e4ed7a60d36179896a92487d4bec652_SX624_FMjpg_.jpeg" group-title="primevideo",Bahrain: Practice 2 (Sky Sports)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c1b52cdc17733740330679d0c3f8d630:4e6789be6be6997c7a3f736f69d31ba7
-https://a154live-pv-ta-enf-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WImmAWpwcmltZXZpZGVvBBpq0yuVBhpqv2UVA2Zha2FtYWkCeClzc2lkOjJjZDViMjExLTIxNzUtNDQzMC1hM2YxLThkNGEwMGY1YTJlNxkBOKEFoQJ4My9tZmh6dndmcHBqL291dC92MS9jNmM3YWRjYTAyYTU0OTE0OTE0NmY5MjU5Y2RlMWNjMFggsMKMyTl2z1bbREAiGjeTHjTihSeCaMR6P_eWXL3iisQ/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/mfhzvwfppj/out/v1/c6c7adca02a549149146f9259cde1cc0/3939bfe8-0caa-4ec2-b295-9fd54fa2e89a-cenc.mpd
 #EXTINF:-1 tvg-name="Archery Men - Recurve Team - Final (Fastly Server)" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.d4f84802-b0b2-4bc1-a51e-bf64c5c092e7/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="primevideo",Archery Men - Recurve Team - Final (Fastly Server)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
