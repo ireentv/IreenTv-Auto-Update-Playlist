@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 52,
-  "live_count": 52,
-  "last_update": "11:38 PM 04-10-2026 BST",
+  "channels_amount": 34,
+  "live_count": 34,
+  "last_update": "11:46 PM 04-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -21,1739 +21,1417 @@
       }
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Motorsport | Sports Match",
+      "match_id": "4",
+      "title": "SHENZHEN OPEN",
+      "synopsis": "Snooker | SHENZHEN OPEN",
       "status": "LIVE",
-      "time": "01:00:00",
+      "time": "",
       "cover_image": "",
-      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
       "is_free": false,
       "stream_url": {
-        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "TNT SPORTS S2": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd"
+      },
+      "streams": [
+        {
+          "drm_key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
+          "name": "TNT SPORTS S2 ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+          "name": "TNT SPORTS - AQ ",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "10",
+      "title": "Formula 1",
+      "synopsis": "Motorsport | Formula 1",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+      "is_free": false,
+      "stream_url": {
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+        "APPLE TV - AQ": "https://a96aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/qg95ap2ngd/out/v1/351af353038c4a05af277388f24c4f8c/cenc.mpd",
+        "SKY VIA APPLE TV - AQ": "https://a96aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/iryr4nfnvz/out/v1/56a65d76a55e49ffa4ac4669a8f9cf26/cenc.mpd",
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "AUVIO SPORTS FR - AQ": "https://C9851Ec-rbm-hilv-fsly.cdn.redbee.live/L5/cd1fd9ab/931c5c40.isml/.mpd?t=2026-10-04T06:48:00.000",
+        "Sportv 3 BR - AQ": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
+        "SKY SPORTS F1 - AQ": "https://mylinks.playzabid.workers.dev/sky-f1.mpd",
+        "RUSSIAN FEED": "https://bl.rutube.ru/livestream/a1fd78e2a2feb33f0fef612d1e89d2fb/index.m3u8?s=dZh7JGBoPLF3dWOFCuCQ7Q&e=1785073158&scheme=https|user-agent=Mozilla",
+        "SKY SPORT HD": "https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+        "ELEVEN SPORTS": "https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sport_1/DHD/Manifest.mpd"
+      },
+      "streams": [
+        {
+          "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "name": "FANCODE - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "ad6abbc0c6e35344580087ef6a3fbf3b:cfff2c2e7ea9def66448406eef1911e9",
+          "drm_scheme": "clearkey",
+          "link": "https://a96aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/qg95ap2ngd/out/v1/351af353038c4a05af277388f24c4f8c/cenc.mpd",
+          "name": "APPLE TV - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "5734bfc9aca5e8e478c98f0617ae56f7:b24ed75de070e35c154feeb68fc21e57",
+          "drm_scheme": "clearkey",
+          "link": "https://a96aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/iryr4nfnvz/out/v1/56a65d76a55e49ffa4ac4669a8f9cf26/cenc.mpd",
+          "name": "SKY VIA APPLE TV - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "name": "TSN SPORTS - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "1a12683df1cd44ea890cf1bfefa77b89:44f4578b0e069b67a7a88ee406886d2e",
+          "drm_scheme": "clearkey",
+          "link": "https://C9851Ec-rbm-hilv-fsly.cdn.redbee.live/L5/cd1fd9ab/931c5c40.isml/.mpd?t=2026-10-04T06:48:00.000",
+          "name": "AUVIO SPORTS FR - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
+          "name": "Sportv 3 BR - AQ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "8aa58ee631635ae0a524ec754417e40b:c802e3077a3ee0c44b86eade5541a468",
+          "drm_scheme": "clearkey",
+          "link": "https://mylinks.playzabid.workers.dev/sky-f1.mpd",
+          "name": "SKY SPORTS F1 - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "4c4b013320654277a19df8f14b80b6c5:4751e8a9d798c2a1e1c581f179771f48",
+          "drm_scheme": "clearkey",
+          "link": "http://hoast-plm.shop/starhub/hub.php?id=BeINSportsHD.mpd",
+          "name": "BEIN SPORTS - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://bl.rutube.ru/livestream/a1fd78e2a2feb33f0fef612d1e89d2fb/index.m3u8?s=dZh7JGBoPLF3dWOFCuCQ7Q&e=1785073158&scheme=https|user-agent=Mozilla",
+          "name": "RUSSIAN FEED",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "name": "SKY SPORT HD",
+          "token_api": ""
+        },
+        {
+          "drm_key": "69021095220f3c0eae9bc24215fd692b:eb58cfe0458ed0b48f7351fa3393ad59",
+          "drm_scheme": "clearkey",
+          "link": "https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sport_1/DHD/Manifest.mpd",
+          "name": "ELEVEN SPORTS",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "11",
+      "title": "AEW Dynamite",
+      "synopsis": "WWE | AEW Dynamite",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd",
+      "is_free": false,
+      "stream_url": {
+        "FOX SPORTS": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd",
+        "EUROSPORT - AQ": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd"
+      },
+      "streams": [
+        {
+          "drm_key": "9f327d24c66fbd84e15ab5c9ead7c7a4:83837185529c0c4048f81386c2d36426",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd",
+          "name": "FOX SPORTS",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "ok",
+          "name": "PLAYZ TV",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=wwe vs wwe",
+            "default_string": "N8x7Y%m+6n",
+            "ip_api": "https://api.ipify.org/",
+            "link_key": "playback_url",
+            "request_body_type": "text",
+            "request_type": "get",
+            "type": "sp",
+            "url": "ok"
+          }
+        },
+        {
+          "drm_key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814",
+          "drm_scheme": "clearkey",
+          "link": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
+          "name": "EUROSPORT - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://chatgpt.hereisman.net/playlist/54227/load-playlist?|Referer=https://gooz.aapmains.net",
+          "name": "PLAYZTV LIVE ",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "12",
+      "title": "MotoGP ",
+      "synopsis": "Motorsport | MotoGP ",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+      "is_free": false,
+      "stream_url": {
         "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "SPOTV - AQ": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
-        "MotoGP - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "MOTO Cricfy": "https://chatgpt.hereisman.net/playlist/57392/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-        "Cricfy HD": "https://edgestream1.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-        "Low": "http://193.47.62.44/hls/ssssAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "MOTOGP - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd",
+        "SPO TV - AQ": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd"
       },
       "streams": [
         {
-          "name": "TNT SPORTS - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
-          "tokenApi": null
-        },
-        {
-          "name": "FANCODE - AQ",
+          "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
+          "drm_scheme": "clearkey",
           "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "scheme": 0,
-          "api": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-          "tokenApi": null
+          "name": "FANCODE - AQ ",
+          "token_api": ""
         },
         {
-          "name": "SPOTV - AQ",
+          "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "name": "TNT SPORTS - AQ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd",
+          "name": "MOTOGP - AQ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed",
+          "drm_scheme": "clearkey",
           "link": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
-          "scheme": 0,
-          "api": "7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed",
-          "tokenApi": null
-        },
-        {
-          "name": "MotoGP - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de",
-          "tokenApi": null
-        },
-        {
-          "name": "MOTO Cricfy",
-          "link": "https://chatgpt.hereisman.net/playlist/57392/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream1.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.44/hls/ssssAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "name": "SPO TV - AQ",
+          "token_api": ""
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Boxing | Sports Match",
+      "match_id": "14",
+      "title": "WWE Monday Night RAW",
+      "synopsis": "WWE | WWE Monday Night RAW",
       "status": "LIVE",
-      "time": "00:00:00",
+      "time": "",
       "cover_image": "",
-      "match_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
+      "match_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
       "is_free": false,
       "stream_url": {
-        "Cricfy NXT Live": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-        "WWE": "https://admin2.passionepizza.com.br/wwe.m3u8",
-        "NXT WWE": "https://edgestream4.pro/hls/zeuryuegn48.m3u8|referer=https://streame.center/",
-        "Low": "http://193.47.62.50/hls/YYYYZ.m3u8?|referer=http://www.fawanews.sc/"
+        "PLAYZ TV": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8"
       },
       "streams": [
         {
-          "name": "Cricfy NXT Live",
-          "link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://chatgpt.hereisman.net/playlist/54800/load-playlist?|Referer=https://gooz.aapmains.net",
+          "name": "PlayZ TV Live ",
+          "token_api": ""
         },
         {
-          "name": "Server 2",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/wwe/2026-09-29",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "WWE",
-          "link": "https://admin2.passionepizza.com.br/wwe.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "NXT WWE",
-          "link": "https://edgestream4.pro/hls/zeuryuegn48.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.50/hls/YYYYZ.m3u8?|referer=http://www.fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Boxing | Sports Match",
-      "status": "LIVE",
-      "time": "12:30:00",
-      "cover_image": "",
-      "match_url": "https://live-pv-ta.amazon.fastly-edge.com/syd-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-      "is_free": false,
-      "stream_url": {
-        "One Fight - AQ": "https://live-pv-ta.amazon.fastly-edge.com/syd-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-        "WWE - AQ": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561402/index.mpd",
-        "Server 1": "https://fastly.live.brightcove.com/1850722103624061910/ap-southeast-1/6195549636001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaTE3dzIxLmVncmVzcy5zYjBmOGsiLCJhY2NvdW50X2lkIjoiNjE5NTU0OTYzNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MTk1NTQ5NjM2MDAxIl0sImp0aSI6IjE4NTA3MjIxMDM2MjQwNjE5MTAifQ.MQrZwY5puqZGRgWL843gOZ-Y7i2jUGB5McfZKwoOB1I/playlist-hls.m3u8"
-      },
-      "streams": [
-        {
-          "name": "One Fight - AQ",
-          "link": "https://live-pv-ta.amazon.fastly-edge.com/syd-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "308006101c8fd0262c0f529319b9c127:37683aadc75b1450efa82d62c647984d",
-          "tokenApi": null
-        },
-        {
-          "name": "WWE - AQ",
-          "link": "https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd",
-          "scheme": 0,
-          "api": "60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271",
-          "tokenApi": null
-        },
-        {
-          "name": "WWE - AQ",
-          "link": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561402/index.mpd",
-          "scheme": 0,
-          "api": "a6b967afcb974bb5a549377b4f09befd:87d993257a099324ccd0215475fc61a0",
-          "tokenApi": null
-        },
-        {
-          "name": "Server 1",
-          "link": "https://fastly.live.brightcove.com/1850722103624061910/ap-southeast-1/6195549636001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaTE3dzIxLmVncmVzcy5zYjBmOGsiLCJhY2NvdW50X2lkIjoiNjE5NTU0OTYzNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MTk1NTQ5NjM2MDAxIl0sImp0aSI6IjE4NTA3MjIxMDM2MjQwNjE5MTAifQ.MQrZwY5puqZGRgWL843gOZ-Y7i2jUGB5McfZKwoOB1I/playlist-hls.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Server 5",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/wwe/2026-10-02",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Motorsport | Sports Match",
-      "status": "LIVE",
-      "time": "07:00:00",
-      "cover_image": "",
-      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/iryr4nfnvz/out/v1/56a65d76a55e49ffa4ac4669a8f9cf26/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "is_free": false,
-      "stream_url": {
-        "SKY SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/iryr4nfnvz/out/v1/56a65d76a55e49ffa4ac4669a8f9cf26/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "APPLE TV - AQ": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/qg95ap2ngd/out/v1/351af353038c4a05af277388f24c4f8c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "SporTV BR - AQ": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CGPT LIVE": "https://chatgpt.hereisman.net/playlist/57392/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-        "Cricfy SPORTS DE": "https://netanjahu.hls.st/t/a304b0a7b4765ba0312de32326c4a99c/index.m3u8?|Referer=https://iplayer.is/",
-        "ELEVEN SPORTS PL": "https://netanjahu.hls.st/t/adb57217346ee4d7cbc072c94d0de6e5/index.m3u8?|Referer=https://iplayer.is/",
-        "Low": "http://193.47.62.50/hls/fvvvv.m3u8?|referer=http://www.fawanews.sc/"
-      },
-      "streams": [
-        {
-          "name": "SKY SPORTS - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/iryr4nfnvz/out/v1/56a65d76a55e49ffa4ac4669a8f9cf26/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "5734bfc9aca5e8e478c98f0617ae56f7:b24ed75de070e35c154feeb68fc21e57",
-          "tokenApi": null
-        },
-        {
-          "name": "APPLE TV - AQ",
-          "link": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/qg95ap2ngd/out/v1/351af353038c4a05af277388f24c4f8c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "ad6abbc0c6e35344580087ef6a3fbf3b:cfff2c2e7ea9def66448406eef1911e9",
-          "tokenApi": null
-        },
-        {
-          "name": "FANCODE - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-          "tokenApi": null
-        },
-        {
-          "name": "SporTV BR - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
-          "tokenApi": null
-        },
-        {
-          "name": "DAZN ESPANOL",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/azerbaijan-grand-prix---race-28838",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "APPLE TV",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/f1/2026/bahrain/qualifying",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "CGPT LIVE",
-          "link": "https://chatgpt.hereisman.net/playlist/57392/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy SPORTS DE",
-          "link": "https://netanjahu.hls.st/t/a304b0a7b4765ba0312de32326c4a99c/index.m3u8?|Referer=https://iplayer.is/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "CRFY HD",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://sportoskos.space/streame.html?key=273-1",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "ELEVEN SPORTS PL",
-          "link": "https://netanjahu.hls.st/t/adb57217346ee4d7cbc072c94d0de6e5/index.m3u8?|Referer=https://iplayer.is/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "SK sports F1",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://flyembed.click/embed/41.php",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "FS2",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://a13.kora-plus.li/framecenter.php?ch=363-1|referer=https://sportiskes.space/&origin=https://sportiskes.space&sec-fetch-dest=iframe",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.50/hls/fvvvv.m3u8?|referer=http://www.fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Boxing | Sports Match",
-      "status": "LIVE",
-      "time": "00:00:00",
-      "cover_image": "",
-      "match_url": "https://chatgpt.hereisman.net/playlist/54800/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy WWE": "https://chatgpt.hereisman.net/playlist/54800/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-        "Cricfy RAW": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
-        "CricfyTV.Net": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-        "HD SERVER": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://26hrwgorfcmh.windows-devs.top/",
-        "Cricfy HD": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_LQ/apache.m3u8|Referer=https://26hrwgorfcmh.windows-devs.top/",
-        "Backup SD": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://27lftgqlgzmy.windows-devs.top/",
-        "Low": "http://193.47.62.41/hls/YBBBAaaaqqq.m3u8?|referer=http://www.fawanews.sc/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy WWE",
-          "link": "https://chatgpt.hereisman.net/playlist/54800/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy RAW",
+          "drm_key": "",
+          "drm_scheme": "",
           "link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "name": "PLAYZ TV",
+          "token_api": ""
         },
         {
-          "name": "CricfyTV.Net",
-          "link": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "okOkja",
+          "name": "SD STREAM ",
+          "token_api": {
+            "api": "https://pz.ekkktb.workers.dev/?q=WWE Monday Night RAW",
+            "default_string": "N8x7Y%m+6n",
+            "ip_api": "https://api.ipify.org/",
+            "link_key": "playback_url",
+            "request_body_type": "text",
+            "request_type": "get",
+            "type": "sp",
+            "url": "okOkja "
+          }
         },
         {
-          "name": "HD SERVER",
-          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://26hrwgorfcmh.windows-devs.top/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "ok",
+          "name": "PLAYZ TV HD",
+          "token_api": {
+            "api": "https://pz.ekkktb.workers.dev/?q=WWE-Monday-Night-RAW-HD",
+            "default_string": "N8x7Y%m+6n",
+            "ip_api": "https://api.ipify.org/",
+            "link_key": "playback_url",
+            "request_body_type": "text",
+            "request_type": "get",
+            "type": "sp",
+            "url": "ok"
+          }
         },
         {
-          "name": "Cricfy HD",
-          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_LQ/apache.m3u8|Referer=https://26hrwgorfcmh.windows-devs.top/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Backup SD",
-          "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://27lftgqlgzmy.windows-devs.top/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.41/hls/YBBBAaaaqqq.m3u8?|referer=http://www.fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "okOkja",
+          "name": "SD STREAM BK",
+          "token_api": {
+            "api": "https://pz.ekkktb.workers.dev/?q=wwe%20vs%20wwe",
+            "default_string": "N8x7Y%m+6n",
+            "ip_api": "https://api.ipify.org/",
+            "link_key": "playback_url",
+            "request_body_type": "text",
+            "request_type": "get",
+            "type": "sp",
+            "url": "okOkja "
+          }
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Boxing | Sports Match",
+      "match_id": "15",
+      "title": "ONE Fighting Championship",
+      "synopsis": "Mixed Martial Arts | ONE Fighting Championship",
       "status": "LIVE",
-      "time": "00:00:00",
+      "time": "",
+      "cover_image": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "is_free": false,
+      "stream_url": {
+        "ONE PPV - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+        "ONE FIGHT - AQ": "https://fastly.live.brightcove.com/1870589077269940904/ap-northeast-1/6195549636001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoidTBzYTJxLmVncmVzcy5pdjNqZDgiLCJhY2NvdW50X2lkIjoiNjE5NTU0OTYzNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MTk1NTQ5NjM2MDAxIl0sImp0aSI6IjE4NzA1ODkwNzcyNjk5NDA5MDQifQ.lXj1GmSg6qP5Vr089nM3lEvwAspkJUicfhIX0htOsRk/playlist-hls.m3u8",
+        "BEIN SPORTS - HD": "https://edgestream3.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
+      },
+      "streams": [
+        {
+          "drm_key": "308006101c8fd0262c0f529319b9c127:37683aadc75b1450efa82d62c647984d",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+          "name": "ONE PPV - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://fastly.live.brightcove.com/1870589077269940904/ap-northeast-1/6195549636001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoidTBzYTJxLmVncmVzcy5pdjNqZDgiLCJhY2NvdW50X2lkIjoiNjE5NTU0OTYzNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MTk1NTQ5NjM2MDAxIl0sImp0aSI6IjE4NzA1ODkwNzcyNjk5NDA5MDQifQ.lXj1GmSg6qP5Vr089nM3lEvwAspkJUicfhIX0htOsRk/playlist-hls.m3u8",
+          "name": "ONE FIGHT - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://edgestream3.pro/hls/dza5z8f69.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "name": "BEIN SPORTS - HD",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "18",
+      "title": "World Grand Prix 2026",
+      "synopsis": "Darts | World Grand Prix 2026",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/ssbu8l52ah/out/v1/c3efafe86b574ac989b8efda68654a0f/cenc.mpd",
+      "is_free": false,
+      "stream_url": {
+        "DAZN - AQ": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/ssbu8l52ah/out/v1/c3efafe86b574ac989b8efda68654a0f/cenc.mpd",
+        "SPORT 1 - AQ": "https://ac-009.live.p7s1video.net/181aa0bf/t_009/sport1-de/cenc-default.mpd"
+      },
+      "streams": [
+        {
+          "drm_key": "680708cf7b4065f0552055e0fc5e1c31:c8fa22f6984a3e1174bd49567a6a19bb",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/ssbu8l52ah/out/v1/c3efafe86b574ac989b8efda68654a0f/cenc.mpd",
+          "name": "DAZN - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "98f2ab49605f0469a4b97de40277fca0:7ed06b6908edc372f2cb8ef2df2615d0",
+          "drm_scheme": "clearkey",
+          "link": "https://ac-009.live.p7s1video.net/181aa0bf/t_009/sport1-de/cenc-default.mpd",
+          "name": "SPORT 1 - AQ ",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "19",
+      "title": "NXT",
+      "synopsis": "WWE | NXT",
+      "status": "LIVE",
+      "time": "",
       "cover_image": "",
       "match_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
       "is_free": false,
       "stream_url": {
-        "WWE LIVE FHD": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-        "HD SERVER": "https://edgestream6.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-        "Cricfy TV+ HD": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://26hrwgorfcmh.windows-devs.top/",
-        "HD QUALITY": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_HD/apache.m3u8?|referer=https://26hrwgorfcmh.windows-devs.top/",
-        "USA TV": "https://g001-sle-us-cmaf-prd-ak.pcdn03.cssott.com/Content/CMAF_OS1-CTR-4s-v2/Live/channel(12010340-12010340-4445585a62764)/master_2hr.mpd",
-        "LOW QUALITY": "https://android-database1.firebase-api.com/AccessLog2/108085_HD/apache.m3u8|Referer=https://android-database1.firebase-api.com"
+        "HD STREAM": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8"
       },
       "streams": [
         {
-          "name": "Cricfy WWE",
-          "link": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?|Referer=https://gooz.aapmains.net",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "WWE LIVE FHD",
+          "drm_key": "",
+          "drm_scheme": "",
           "link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "name": "HD STREAM ",
+          "token_api": ""
         },
         {
-          "name": "HD SERVER",
-          "link": "https://edgestream6.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy TV+ HD",
-          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://26hrwgorfcmh.windows-devs.top/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "HD QUALITY",
-          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_HD/apache.m3u8?|referer=https://26hrwgorfcmh.windows-devs.top/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "USA TV",
-          "link": "https://g001-sle-us-cmaf-prd-ak.pcdn03.cssott.com/Content/CMAF_OS1-CTR-4s-v2/Live/channel(12010340-12010340-4445585a62764)/master_2hr.mpd",
-          "scheme": 0,
-          "api": "58551b13211b37d5b325d67e5c6cabef:3b4c3f8b4236fc57d66cdb54a606fe41",
-          "tokenApi": null
-        },
-        {
-          "name": "LOW QUALITY",
-          "link": "https://android-database1.firebase-api.com/AccessLog2/108085_HD/apache.m3u8|Referer=https://android-database1.firebase-api.com",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy WWE",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/wwe/2026-10-02",
-            "type": "embed",
-            "link_key": "playback_url",
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "ok",
+          "name": "HD STREAM ",
+          "token_api": {
+            "api": "https://pz.ekkktb.workers.dev/?q=WWE NXT",
             "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
+            "ip_api": "https://api.ipify.org/",
+            "link_key": "playback_url",
             "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
+            "request_type": "get",
+            "type": "sp",
+            "url": "ok"
           }
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "DARTS | Sports Match",
+      "match_id": "20",
+      "title": "Friday Night SmackDown",
+      "synopsis": "WWE | Friday Night SmackDown",
       "status": "LIVE",
-      "time": "18:00:00",
+      "time": "",
       "cover_image": "",
-      "match_url": "http://193.47.62.55/hls/ZRRRAAAAAx.m3u8?|referer=http://www.fawanews.sc/",
+      "match_url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
       "is_free": false,
       "stream_url": {
-        "Low": "http://193.47.62.55/hls/ZRRRAAAAAx.m3u8?|referer=http://www.fawanews.sc/"
+        "WWE LIVE FHD": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8"
       },
       "streams": [
         {
-          "name": "Cricfy HD",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/2026-world-grand-prix--day-3-29598",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
+          "name": "WWE LIVE FHD",
+          "token_api": ""
         },
         {
-          "name": "Low",
-          "link": "http://193.47.62.55/hls/ZRRRAAAAAx.m3u8?|referer=http://www.fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Cricket | Sports Match",
-      "status": "LIVE",
-      "time": "07:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
-      "status": "LIVE",
-      "time": "18:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream6.pro/hls/dzaugyvdgazc90.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD +": "https://edgestream6.pro/hls/dzaugyvdgazc90.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD +",
-          "link": "https://edgestream6.pro/hls/dzaugyvdgazc90.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy HD",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://flyembed.click/embed/24.php",
-            "type": "embed",
-            "link_key": "playback_url",
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://pz.ekkktb.workers.dev/?q=WWE vs wwe",
+          "name": "PLAYZ TV HD",
+          "token_api": {
+            "api": "https://pz.ekkktb.workers.dev/?q=WWE vs wwe",
             "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
+            "ip_api": "https://api.ipify.org/",
+            "link_key": "playback_url",
             "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
+            "request_type": "get",
+            "type": "sp",
+            "url": "https://pz.ekkktb.workers.dev/?q=WWE vs wwe"
           }
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
+      "match_id": "31",
+      "title": "ASIAN GAMES 20 - 2026",
+      "synopsis": "ASIAN GAMES | ASIAN GAMES 20 - 2026",
       "status": "LIVE",
-      "time": "20:00:00",
+      "time": "",
       "cover_image": "",
-      "match_url": "https://edgestream4.pro/hls/fbnjzebjhcazhjg91.m3u8|referer=https://streame.center/",
+      "match_url": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
       "is_free": false,
       "stream_url": {
-        "Cricfy HD": "https://edgestream4.pro/hls/fbnjzebjhcazhjg91.m3u8|referer=https://streame.center/"
+        "WILLOW SPORTS - AQ": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "ASIAN GAMES - AQ": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch01.mpd",
+        "ASIAN GAMES 2 - AQ": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch02.mpd",
+        "ASIAN GAMES 3 - AQ": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch03.mpd",
+        "ASIAN GAMES 4 - AQ": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch04.mpd",
+        "ASIAN GAMES 5 - AQ": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch05.mpd",
+        "ASIAN GAMES 6 - AQ": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch06.mpd",
+        "ASIAN GAMES 7 - AQ": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch07.mpd",
+        "Closing Ceremony": "https://cdn-vl-gcp-bornan-e-01.vos360.video/Content/LiveEvent/6445eadd-14c0-4fb1-b5d3-f0d26a8ea8ae/HLS_ENC/index.m3u8"
       },
       "streams": [
         {
-          "name": "Cricfy HD",
-          "link": "https://edgestream4.pro/hls/fbnjzebjhcazhjg91.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "name": "WILLOW SPORTS - AQ ",
+          "token_api": ""
         },
         {
-          "name": "Cricfy HD +",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://flyembed.click/embed/25.php",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
+          "drm_key": "c7f2a5c5e56147f7b4e5676ca69e22d9:d587532343ef47e4824950c7a9c9ec9f",
+          "drm_scheme": "clearkey",
+          "link": "https://hoast-plm.shop/playztv/links.php?id=sukan.mpd",
+          "name": "SUKAN - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "5320002ff03f4ea6ae65d34c73dadffc:ceded974d6e129a623b25fe296e80f03",
+          "drm_scheme": "clearkey",
+          "link": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch01.mpd",
+          "name": "ASIAN GAMES - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523",
+          "drm_scheme": "clearkey",
+          "link": "https://hoast-plm.shop/playztv/links.php?id=rtm-event1.mpd",
+          "name": "RTM 1 - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "287bc9045e7f4e42aeaa2177a29a58c3:972981b7e4526846dcaf77e9a90675b5",
+          "drm_scheme": "clearkey",
+          "link": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch02.mpd",
+          "name": "ASIAN GAMES 2 - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523",
+          "drm_scheme": "clearkey",
+          "link": "https://hoast-plm.shop/playztv/links.php?id=rtm-event2.mpd",
+          "name": "RTM 2 - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "3c5c5b09258444808d7e17f66677ed4a:95f2bca693bca97c2b18bd726bb7b427",
+          "drm_scheme": "clearkey",
+          "link": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch03.mpd",
+          "name": "ASIAN GAMES 3 - AQ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523",
+          "drm_scheme": "clearkey",
+          "link": "https://hoast-plm.shop/playztv/links.php?id=rtm-event3.mpd",
+          "name": "RTM 3 - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "3158bf2812ef4b34beee4c2e13219191:1b0263ae474cf8250b0d9f0bfaa31670",
+          "drm_scheme": "clearkey",
+          "link": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch04.mpd",
+          "name": "ASIAN GAMES 4 - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523",
+          "drm_scheme": "clearkey",
+          "link": "https://hoast-plm.shop/playztv/links.php?id=rtm-event4.mpd",
+          "name": "RTM 4 - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "c2dc792d1b97441a92a4be4e9a655e18:2ba047bfd23d36bb823990fb69a98cca",
+          "drm_scheme": "clearkey",
+          "link": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch05.mpd",
+          "name": "ASIAN GAMES 5 - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523",
+          "drm_scheme": "clearkey",
+          "link": "https://hoast-plm.shop/playztv/links.php?id=rtm-event5.mpd",
+          "name": "RTM 5 - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "4ba597f828db477e9f18d9ab7a4d6ca8:26eb8934f968f5dfc15b91797344411a",
+          "drm_scheme": "clearkey",
+          "link": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch06.mpd",
+          "name": "ASIAN GAMES 6 - AQ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523",
+          "drm_scheme": "clearkey",
+          "link": "https://hoast-plm.shop/playztv/links.php?id=rtm-event6.mpd",
+          "name": "RTM 6 - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "fd5881a779d148e18fb48d120bfb0056:5f7e80016181020e087586c4f7942929",
+          "drm_scheme": "clearkey",
+          "link": "https://asian-games-4512.playzabid.workers.dev/asian-games-ch07.mpd",
+          "name": "ASIAN GAMES 7 - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://cdn-vl-gcp-bornan-e-01.vos360.video/Content/LiveEvent/6445eadd-14c0-4fb1-b5d3-f0d26a8ea8ae/HLS_ENC/index.m3u8",
+          "name": "Closing Ceremony",
+          "token_api": ""
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
+      "match_id": "36",
+      "title": "One Day International",
+      "synopsis": "Cricket | One Day International",
       "status": "LIVE",
-      "time": "13:30:00",
+      "time": "",
       "cover_image": "",
-      "match_url": "https://edgestream3.pro/hls/JHDAJBDnjdna30.m3u8|referer=https://streame.center/",
+      "match_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
       "is_free": false,
       "stream_url": {
-        "NFL": "https://edgestream3.pro/hls/JHDAJBDnjdna30.m3u8|referer=https://streame.center/"
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "WILLOW - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/fypvfpflqm/out/v1/b6cb13281be94421ab1afbc159361745/cenc.mpd",
+        "SKY CRICKET - AQ": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=7bnkGmSODWhSvD7xUkjZYw&e=2075749396&scheme=https",
+        "TAMASHA - AQ": "https://cdn06fsd-n.tamashaweb.com:8087/jazzauth/SAvAUS-avod-abr/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8zMC8yMDI2IDEwOjQwOjIwIEFNJmhhc2hfdmFsdWU9Nkd6M2cxWUtuakFCcjlFTGlyVVBSUT09JnZhbGlkbWludXRlcz02MA==",
+        "TAPMAD - AQ": "https://saseries.akamaized.net/hls/live/2110097/tapmad258645/master.m3u8|referer=https://tapmad.com/",
+        "EURO SPORTS - AQ": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
+        "SKY CRICKET HD": "http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9258/index.m3u8",
+        "LOW QUALITY": "http://193.47.62.41/hls/fafafaAA.m3u8|referer=http://www.fawanews.sc/"
       },
       "streams": [
         {
-          "name": "CRICFY NFL",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/nfl-network",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
+          "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "name": "FANCODE - AQ",
+          "token_api": ""
         },
         {
-          "name": "NFL",
-          "link": "https://edgestream3.pro/hls/JHDAJBDnjdna30.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "drm_key": "a863373d1894da249fd9b4333b7e3815:34ea0cb8018cc4f6a014eb0c171ee486",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/fypvfpflqm/out/v1/b6cb13281be94421ab1afbc159361745/cenc.mpd",
+          "name": "WILLOW - AQ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=7bnkGmSODWhSvD7xUkjZYw&e=2075749396&scheme=https",
+          "name": "SKY CRICKET - AQ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://cdn06fsd-n.tamashaweb.com:8087/jazzauth/SAvAUS-avod-abr/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8zMC8yMDI2IDEwOjQwOjIwIEFNJmhhc2hfdmFsdWU9Nkd6M2cxWUtuakFCcjlFTGlyVVBSUT09JnZhbGlkbWludXRlcz02MA==",
+          "name": "TAMASHA - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://saseries.akamaized.net/hls/live/2110097/tapmad258645/master.m3u8|referer=https://tapmad.com/",
+          "name": "TAPMAD - AQ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814",
+          "drm_scheme": "clearkey",
+          "link": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
+          "name": "EURO SPORTS - AQ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9258/index.m3u8",
+          "name": "SKY CRICKET HD",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://193.47.62.41/hls/fafafaAA.m3u8|referer=http://www.fawanews.sc/",
+          "name": "LOW QUALITY ",
+          "token_api": ""
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
+      "match_id": "38",
+      "title": "Bundesliga",
+      "synopsis": "Football | Bundesliga",
       "status": "LIVE",
-      "time": "18:45:00",
+      "time": "",
       "cover_image": "",
       "match_url": "",
       "is_free": false,
       "stream_url": {},
       "streams": [
         {
-          "name": "Cricfy HD",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/uefa-nations-league/2026-10-04/irl-isr",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=UkIlMjBMZWlwemlnLXZzLUVpbnRyYWNodCUyMEZyYW5rZnVydA==",
+            "type": "sp",
+            "url": "Ok"
           }
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
+      "match_id": "39",
+      "title": "LaLiga 2",
+      "synopsis": "Football | LaLiga 2",
       "status": "LIVE",
-      "time": "18:45:00",
+      "time": "",
       "cover_image": "",
-      "match_url": "https://edgestream6.pro/hls/24SDAZFcsqnj24.m3u8|referer=https://streame.center/",
+      "match_url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
       "is_free": false,
       "stream_url": {
-        "Cricfy HD": "https://edgestream6.pro/hls/24SDAZFcsqnj24.m3u8|referer=https://streame.center/"
+        "LALIGA HYPEMOTION ES - AQ": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd"
       },
       "streams": [
         {
-          "name": "Cricfy HD",
-          "link": "https://edgestream6.pro/hls/24SDAZFcsqnj24.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "drm_key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a",
+          "drm_scheme": "clearkey",
+          "link": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+          "name": "LALIGA HYPEMOTION ES - AQ ",
+          "token_api": ""
         },
         {
-          "name": "Cricfy HD+",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/uefa-nations-league/2026-10-04/por-nor",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=Q0QlMjBFbGRlbnNlLXZzLUMlQzMlQjNyZG9iYQ==",
+            "type": "sp",
+            "url": "Ok"
           }
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
+      "match_id": "40",
+      "title": "Indian Super League",
+      "synopsis": "Football | Indian Super League",
       "status": "LIVE",
-      "time": "18:45:00",
+      "time": "",
       "cover_image": "",
-      "match_url": "https://edgestream4.pro/hls/eJmauBDCIf.m3u8|referer=https://streame.center/",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=RkMlMjBHb2EtdnMtQ2hlbm5haXlpbiUyMEZD",
+            "type": "sp",
+            "url": "Ok"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "43",
+      "title": "Premier League",
+      "synopsis": "Football | Premier League",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=U3VuZGVybGFuZC12cy1CcmlnaHRvbiUyMCUyNiUyMEhvdmUlMjBBbGJpb24=",
+            "type": "sp",
+            "url": "Ok"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "51",
+      "title": "LaLiga",
+      "synopsis": "Football | LaLiga",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=RGVwb3J0aXZvJTIwQWxhdiVDMyVBOXMtdnMtQXRsJUMzJUE5dGljbyUyME1hZHJpZA==",
+            "type": "sp",
+            "url": "Ok"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "56",
+      "title": "Serie A",
+      "synopsis": "Football | Serie A",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=U1NDJTIwTmFwb2xpLXZzLUZyb3Npbm9uZQ==",
+            "type": "sp",
+            "url": "Ok"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "69",
+      "title": "Saudi Pro League",
+      "synopsis": "Football | Saudi Pro League",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=QWwtTmFzc3ItdnMtRGlyaXlhaA==",
+            "type": "sp",
+            "url": "Ok"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "70",
+      "title": "Ligue 1",
+      "synopsis": "Football | Ligue 1",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=UkMlMjBMZW5zLXZzLU9seW1waXF1ZSUyMEx5b25uYWlz",
+            "type": "sp",
+            "url": "Ok"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "71",
+      "title": "International Friendly Games",
+      "synopsis": "Football | International Friendly Games",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=QXJnZW50aW5hLXZzLUJlbmlu",
+            "type": "sp",
+            "url": "Ok"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "73",
+      "title": "ICC CWC League 2",
+      "synopsis": "Cricket | ICC CWC League 2",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=VVNBJTIwdnMlMjBVbml0ZWQlMjBBcmFiJTIwRW1pcmF0ZXM=",
+            "type": "sp",
+            "url": "Ok"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "74",
+      "title": "T20 International",
+      "synopsis": "Cricket | T20 International",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=SW5kaWElMjB2cyUyMFdlc3QlMjBJbmRpZXM=",
+            "type": "sp",
+            "url": "Ok"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "76",
+      "title": "ICC Women's Championship",
+      "synopsis": "Cricket | ICC Women's Championship",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=QXVzdHJhbGlhJTIwV29tZW4lMjB2cyUyMEJhbmdsYWRlc2glMjBXb21lbg==",
+            "type": "sp",
+            "url": "Ok"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "77",
+      "title": "Test Series",
+      "synopsis": "Cricket | Test Series",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=QWZnaGFuaXN0YW4lMjB2cyUyMEJhbmdsYWRlc2g=",
+            "type": "sp",
+            "url": "Ok"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "82",
+      "title": "ATP China OPEN ",
+      "synopsis": "Tennis | ATP China OPEN ",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8",
       "is_free": false,
       "stream_url": {
-        "Cricfy HD": "https://edgestream4.pro/hls/eJmauBDCIf.m3u8|referer=https://streame.center/"
+        "TENNIS CHANNEL - AQ": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8",
+        "TENNIS CHANNEL 2 - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd",
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5xrogwf1bx/out/v1/d67356c474724ecc9ced667c7630dcab/cenc.mpd"
       },
       "streams": [
         {
-          "name": "Cricfy HD",
-          "link": "https://edgestream4.pro/hls/eJmauBDCIf.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8",
+          "name": "TENNIS CHANNEL - AQ ",
+          "token_api": ""
         },
         {
-          "name": "Cricfy HD +",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/uefa-nations-league/2026-10-04/ned-srb",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
+          "drm_key": "59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd",
+          "name": "TENNIS CHANNEL 2 - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "66e14add60c30be992503fa9a0ae5e20:8c736ae52ce3cab1e918d5f9e8ed6c62",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5xrogwf1bx/out/v1/d67356c474724ecc9ced667c7630dcab/cenc.mpd",
+          "name": "TSN SPORTS - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=RWxpYXMlMjBZbWVyJTIwdnMlMjBGZWRlcmljbyUyMENpbiVDMyVBMA==",
+            "type": "sp",
+            "url": "Ok"
           }
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
+      "match_id": "83",
+      "title": "SAFF Championship",
+      "synopsis": "Football | SAFF Championship",
       "status": "LIVE",
-      "time": "18:45:00",
+      "time": "",
       "cover_image": "",
-      "match_url": "https://edgestream6.pro/hls/griogoehvn2.m3u8|referer=https://streame.center/",
+      "match_url": "https://playztv.pages.dev/sss/index.m3u8",
       "is_free": false,
       "stream_url": {
-        "Cricfy HD": "https://edgestream6.pro/hls/griogoehvn2.m3u8|referer=https://streame.center/"
+        "PlayZ TV": "https://playztv.pages.dev/sss/index.m3u8"
       },
       "streams": [
         {
-          "name": "Cricfy HD",
-          "link": "https://edgestream6.pro/hls/griogoehvn2.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy HD+",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/uefa-nations-league/2026-10-04/wal-den",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://playztv.pages.dev/sss/index.m3u8",
+          "name": "PlayZ TV",
+          "token_api": ""
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
+      "match_id": "87",
+      "title": "WORLD CHAMPIONSHIP OF LEGENDS",
+      "synopsis": "Cricket | WORLD CHAMPIONSHIP OF LEGENDS",
       "status": "LIVE",
-      "time": "18:45:00",
+      "time": "",
       "cover_image": "",
-      "match_url": "https://edgestream7.pro/hls/b0h5fNwDKH.m3u8|referer=https://streame.center/",
+      "match_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdqnlnqefq/out/v1/49ddd42b1eda4ef2a9a14f5a84732743/cenc.mpd",
       "is_free": false,
       "stream_url": {
-        "Cricfy HD": "https://edgestream7.pro/hls/b0h5fNwDKH.m3u8|referer=https://streame.center/"
+        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdqnlnqefq/out/v1/49ddd42b1eda4ef2a9a14f5a84732743/cenc.mpd",
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "WILLOW SPORTS - AQ": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "WILLOW S2 - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdqnlnqefq/out/v1/49ddd42b1eda4ef2a9a14f5a84732743/cenc.mpd",
+        "FANCODE IN - AQ": "https://dai-fancode.pages.dev/mumbai/4249223_english_hls_bba5119a4250600_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+        "FANCODE HINDI - IN": "https://dai-fancode.pages.dev/mumbai/4249223_hindi_hls_39d47cc1be90742_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       },
       "streams": [
         {
-          "name": "Cricfy HD",
-          "link": "https://edgestream7.pro/hls/b0h5fNwDKH.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "drm_key": "fd73ed2416f865f64c3531cdb2ee4f82:82bc46b3cd438e34923d12c5591654ed",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdqnlnqefq/out/v1/49ddd42b1eda4ef2a9a14f5a84732743/cenc.mpd",
+          "name": "WILLOW - AQ ",
+          "token_api": ""
         },
         {
-          "name": "Cricfy HD +",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/uefa-nations-league/2026-10-04/gre-ger",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
+          "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "name": "FANCODE - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
+          "drm_scheme": "clearkey",
+          "link": "https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+          "name": "WILLOW SPORTS - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "fd73ed2416f865f64c3531cdb2ee4f82:82bc46b3cd438e34923d12c5591654ed",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdqnlnqefq/out/v1/49ddd42b1eda4ef2a9a14f5a84732743/cenc.mpd",
+          "name": "WILLOW S2 - AQ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://dai-fancode.pages.dev/mumbai/4249223_english_hls_bba5119a4250600_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+          "name": "FANCODE IN - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://dai-fancode.pages.dev/mumbai/4249223_hindi_hls_39d47cc1be90742_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+          "name": "FANCODE HINDI - IN",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "88",
+      "title": "CONCACAF Nations League",
+      "synopsis": "Football | CONCACAF Nations League",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=Q29zdGElMjBSaWNhJTIwdnMlMjBIYWl0aQ==",
+            "type": "sp",
+            "url": "Ok"
           }
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
+      "match_id": "89",
+      "title": "UEFA Nations League",
+      "synopsis": "Football | UEFA Nations League",
       "status": "LIVE",
-      "time": "16:00:00",
+      "time": "",
       "cover_image": "",
       "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
       "is_free": false,
       "stream_url": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "FOX SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "Cricfy HD": "https://edgestream2.pro/hls/24SDAZFcsqnj24.m3u8|referer=https://streame.center/",
-        "Cricfy Live": "https://live.vivo155.com/live/sd-1-4603705.m3u8?txSecret=82bcec1d74bdc6a051522937c7888892&txTime=6AC2597C|Referer=https://player.online909.com/",
-        "Low": "http://193.47.62.44/hls/LTTTQQQAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
+        "BeIN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "FOX SPORTS FHD": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "VIX SPANISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7ya5gvqr59/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd",
+        "SONYLIV - AQ": "https://sonydaimenew.akamaized.net/hls/live/2120304/Footlive0410/ENG/std_lrh-800300010.m3u8?hdnea=exp=1791171262~acl=/*~id=40334105052988561391264085126978~hmac=d6cedafbac1553fcf4b9f9b51ba244c0100d95dd002459fd734fe40cea1a87dd",
+        "TAPMAD - AQ": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8|referer=https://tapmad.com/",
+        "beIN ARABIC HD": "https://tmaxapp.site/8wirwjs76erftg/bein2ar.m3u8",
+        "HD STREAM": "https://edgestream4.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+        "LOW SERVER": "http://193.47.62.41/hls/BFFFAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+        "HD SERVER": "https://edgestream7.pro/hls/eJmauBDCIf.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
       },
       "streams": [
         {
-          "name": "beIN ENGLISH - AQ",
+          "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "drm_scheme": "clearkey",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "tokenApi": null
+          "name": "BeIN SPORTS - AQ",
+          "token_api": ""
         },
         {
-          "name": "FOX SPORTS - AQ",
+          "drm_key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
+          "drm_scheme": "clearkey",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae",
-          "tokenApi": null
+          "name": "FOX SPORTS FHD",
+          "token_api": ""
         },
         {
-          "name": "Cricfy HD",
-          "link": "https://edgestream2.pro/hls/24SDAZFcsqnj24.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "drm_key": "980265ea05071fd4efa39273e71e4f71:f34e0d5e26bef2be069361a95b070709",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7ya5gvqr59/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd",
+          "name": "VIX SPANISH - AQ",
+          "token_api": ""
         },
         {
-          "name": "Cricfy HD +",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/uefa-nations-league/2026-10-04/kos-aut",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://sonydaimenew.akamaized.net/hls/live/2120304/Footlive0410/ENG/std_lrh-800300010.m3u8?hdnea=exp=1791171262~acl=/*~id=40334105052988561391264085126978~hmac=d6cedafbac1553fcf4b9f9b51ba244c0100d95dd002459fd734fe40cea1a87dd",
+          "name": "SONYLIV - AQ",
+          "token_api": ""
         },
         {
-          "name": "Cricfy Live",
-          "link": "https://live.vivo155.com/live/sd-1-4603705.m3u8?txSecret=82bcec1d74bdc6a051522937c7888892&txTime=6AC2597C|Referer=https://player.online909.com/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8|referer=https://tapmad.com/",
+          "name": "TAPMAD - AQ ",
+          "token_api": ""
         },
         {
-          "name": "Low",
-          "link": "http://193.47.62.44/hls/LTTTQQQAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "18:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://tmaxapp.site/8wirwjs76erftg/bein1ar.m3u8",
+          "name": "beIN ARABIC HD",
+          "token_api": ""
+        },
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "18:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://chatgpt.hereisman.net/playlist/57571/load-playlist?|Referer=https://gooz.aapmains.net",
+          "name": "FOX SPORTS HD",
+          "token_api": ""
+        },
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "06:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://edgestream4.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "name": "HD STREAM ",
+          "token_api": ""
+        },
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "14:15:00",
-      "cover_image": "",
-      "match_url": "http://193.47.62.41/hls/rlllQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
-      "is_free": false,
-      "stream_url": {
-        "Low": "http://193.47.62.41/hls/rlllQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/"
-      },
-      "streams": [
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://193.47.62.41/hls/BFFFAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "name": "LOW SERVER",
+          "token_api": ""
+        },
         {
-          "name": "Low",
-          "link": "http://193.47.62.41/hls/rlllQQQQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "16:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://tmaxapp.site/8wirwjs76erftg/bein2ar.m3u8",
+          "name": "beIN ARABIC HD",
+          "token_api": ""
+        },
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://edgestream7.pro/hls/eJmauBDCIf.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "name": "HD SERVER",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "http://193.47.62.41/hls/BFFFAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "name": "LOW SERVER",
+          "token_api": ""
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
+      "match_id": "97",
+      "title": "Women's Super League",
+      "synopsis": "Football | Women's Super League",
       "status": "LIVE",
-      "time": "15:30:00",
+      "time": "",
       "cover_image": "",
       "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
       "is_free": false,
       "stream_url": {
-        "CBS NETWORK - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "Low": "http://193.47.62.41/hls/ZEEEAAAQQQAA.m3u8?|referer=http://www.fawanews.sc/"
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd"
       },
       "streams": [
         {
-          "name": "CBS NETWORK - AQ",
+          "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+          "drm_scheme": "clearkey",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-          "tokenApi": null
+          "name": "CBS SPORTS - AQ",
+          "token_api": ""
         },
         {
-          "name": "Cricfy HD",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/womens-super-league/2026-10-04/mci-ars",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.41/hls/ZEEEAAAQQQAA.m3u8?|referer=http://www.fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "16:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "10:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "14:00:00",
-      "cover_image": "",
-      "match_url": "http://193.47.62.41/hls/ZEEE.m3u8?|referer=http://www.fawanews.sc/",
-      "is_free": false,
-      "stream_url": {
-        "Low": "http://193.47.62.41/hls/ZEEE.m3u8?|referer=http://www.fawanews.sc/"
-      },
-      "streams": [
-        {
-          "name": "Low",
-          "link": "http://193.47.62.41/hls/ZEEE.m3u8?|referer=http://www.fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Cricket | Sports Match",
-      "status": "LIVE",
-      "time": "13:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Baseball | Sports Match",
-      "status": "LIVE",
-      "time": "20:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream7.pro/hls/dazhfiach15.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "CRICFY MLB": "https://edgestream7.pro/hls/dazhfiach15.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "CRICFY MLB",
-          "link": "https://edgestream7.pro/hls/dazhfiach15.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Baseball | Sports Match",
-      "status": "LIVE",
-      "time": "00:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream3.pro/hls/16yuitzaerghbhc16.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "CRICFY MLB": "https://edgestream3.pro/hls/16yuitzaerghbhc16.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "CRICFY MLB",
-          "link": "https://edgestream3.pro/hls/16yuitzaerghbhc16.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "20:25:00",
-      "cover_image": "",
-      "match_url": "https://edgestream3.pro/hls/ijzriafaq41.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream3.pro/hls/ijzriafaq41.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream3.pro/hls/ijzriafaq41.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "20:25:00",
-      "cover_image": "",
-      "match_url": "https://edgestream7.pro/hls/wnbcnxbcs42.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream7.pro/hls/wnbcnxbcs42.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream7.pro/hls/wnbcnxbcs42.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "20:05:00",
-      "cover_image": "",
-      "match_url": "https://edgestream2.pro/hls/cwxcnbscbsq39.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream2.pro/hls/cwxcnbscbsq39.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream2.pro/hls/cwxcnbscbsq39.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "17:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream5.pro/hls/uheyztezgj34.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream5.pro/hls/uheyztezgj34.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream5.pro/hls/uheyztezgj34.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "17:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream5.pro/hls/jkhazabcka36.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream5.pro/hls/jkhazabcka36.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream5.pro/hls/jkhazabcka36.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "17:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream7.pro/hls/ysvbxwnbc38.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream7.pro/hls/ysvbxwnbc38.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream7.pro/hls/ysvbxwnbc38.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "20:25:00",
-      "cover_image": "",
-      "match_url": "https://edgestream6.pro/hls/poertjnvnev40.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream6.pro/hls/poertjnvnev40.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream6.pro/hls/poertjnvnev40.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "17:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream2.pro/hls/oipozuezeji33.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream2.pro/hls/oipozuezeji33.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream2.pro/hls/oipozuezeji33.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "17:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream4.pro/hls/qsdnajbq32.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream4.pro/hls/qsdnajbq32.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream4.pro/hls/qsdnajbq32.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "17:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream3.pro/hls/jnknjfzbk35.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream3.pro/hls/jnknjfzbk35.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream3.pro/hls/jnknjfzbk35.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "17:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream1.pro/hls/sfjnzabacah31.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream1.pro/hls/sfjnzabacah31.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream1.pro/hls/sfjnzabacah31.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "00:20:00",
-      "cover_image": "",
-      "match_url": "https://edgestream4.pro/hls/jnfezkbfz43.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy Live": "https://edgestream4.pro/hls/jnfezkbfz43.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy Live",
-          "link": "https://edgestream4.pro/hls/jnfezkbfz43.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "17:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream7.pro/hls/yetehznecs37.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream7.pro/hls/yetehznecs37.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream7.pro/hls/yetehznecs37.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Hockey | Sports Match",
-      "status": "LIVE",
-      "time": "00:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Hockey | Sports Match",
-      "status": "LIVE",
-      "time": "17:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream2.pro/hls/uyopzarf50.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "CRICFY": "https://edgestream2.pro/hls/uyopzarf50.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "CRICFY",
-          "link": "https://edgestream2.pro/hls/uyopzarf50.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Hockey | Sports Match",
-      "status": "LIVE",
-      "time": "00:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream3.pro/hlCricfy HD s/rtzaeyvhb53.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream3.pro/hlCricfy HD s/rtzaeyvhb53.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream3.pro/hlCricfy HD s/rtzaeyvhb53.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Hockey | Sports Match",
-      "status": "LIVE",
-      "time": "22:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream6.pro/hls/hjksgdfauzy51.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream6.pro/hls/hjksgdfauzy51.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream6.pro/hls/hjksgdfauzy51.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Hockey | Sports Match",
-      "status": "LIVE",
-      "time": "01:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream3.pro/hls/bnvcxwhfg54.m3u8|referer=https://streame.center/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream3.pro/hls/bnvcxwhfg54.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream3.pro/hls/bnvcxwhfg54.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "16:00:00",
-      "cover_image": "",
-      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "is_free": false,
-      "stream_url": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "FUBO NETWORK USA - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "Cricfy HD": "https://edgestream5.pro/hls/eJmauBDCIf.m3u8|referer=https://streame.center/"
-      },
-      "streams": [
-        {
-          "name": "beIN ENGLISH - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "tokenApi": null
-        },
-        {
-          "name": "FUBO NETWORK USA - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "fa5e8db5359fc7d1f15207d5de2a3ac4:78a6c0a41972dfdba2145ae0ad4bd681",
-          "tokenApi": null
-        },
-        {
-          "name": "SporTV BR - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b",
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream5.pro/hls/eJmauBDCIf.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy HD +",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://embedindia.st/embed/uefa-nations-league/2026-10-04/mlt-and",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Cricket | Sports Match",
-      "status": "LIVE",
-      "time": "11:30:00",
-      "cover_image": "",
-      "match_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vgvtvcvqun/out/v1/f0b20eb59a9047a58a2c7234ca84ae70/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "is_free": false,
-      "stream_url": {
-        "WILLOW - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vgvtvcvqun/out/v1/f0b20eb59a9047a58a2c7234ca84ae70/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "WILLOW ALT - AQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vgvtvcvqun/out/v1/f0b20eb59a9047a58a2c7234ca84ae70/cenc.mpd",
-        "FANCODE - IN": "https://dai-fancode.pages.dev/mumbai/4249221_english_hls_f7489000ae32024_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
-      },
-      "streams": [
-        {
-          "name": "WILLOW - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vgvtvcvqun/out/v1/f0b20eb59a9047a58a2c7234ca84ae70/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "4191cd14283b963a1bdafcc9cada82f4:4087250da5d99f2ecd69546c34972ee1",
-          "tokenApi": null
-        },
-        {
+          "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
           "name": "FANCODE - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-          "tokenApi": null
-        },
-        {
-          "name": "WILLOW ALT - AQ",
-          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vgvtvcvqun/out/v1/f0b20eb59a9047a58a2c7234ca84ae70/cenc.mpd",
-          "scheme": 0,
-          "api": "4191cd14283b963a1bdafcc9cada82f4:4087250da5d99f2ecd69546c34972ee1",
-          "tokenApi": null
-        },
-        {
-          "name": "FANCODE - IN",
-          "link": "https://dai-fancode.pages.dev/mumbai/4249221_english_hls_f7489000ae32024_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "token_api": ""
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
+      "match_id": "101",
+      "title": "NFL",
+      "synopsis": "American football | NFL",
       "status": "LIVE",
-      "time": "14:00:00",
+      "time": "",
       "cover_image": "",
-      "match_url": "http://193.47.62.41/hls/ZEEEA.m3u8?|referer=http://www.fawanews.sc/",
+      "match_url": "https://storage.googleapis.com/buoyantsong/phi-stee/manifest.m3u8",
       "is_free": false,
       "stream_url": {
-        "Low": "http://193.47.62.41/hls/ZEEEA.m3u8?|referer=http://www.fawanews.sc/"
+        "PlayZ FHD": "https://storage.googleapis.com/buoyantsong/phi-stee/manifest.m3u8",
+        "HD STREAM": "https://edgestream6.pro/hls/JHDAJBDnjdna30.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+        "NFL NETWORK HD": "https://edgestream1.pro/hls/hezfnezkfzk45.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
       },
       "streams": [
         {
-          "name": "Low",
-          "link": "http://193.47.62.41/hls/ZEEEA.m3u8?|referer=http://www.fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://chatgpt.hereisman.net/playlist/57564/load-playlist?|Referer=https://gooz.aapmains.net",
+          "name": "PLAYZ TV HD",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://storage.googleapis.com/buoyantsong/phi-stee/manifest.m3u8",
+          "name": "PlayZ FHD",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=V2FzaGluZ3RvbiUyMENvbW1hbmRlcnMlMjB2cyUyMEluZGlhbmFwb2xpcyUyMENvbHRz",
+            "type": "sp",
+            "url": "Ok"
+          }
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://chatgpt.hereisman.net/playlist/57561/load-playlist?|Referer=https://gooz.aapmains.net",
+          "name": "NFL LIVE USA",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://edgestream6.pro/hls/JHDAJBDnjdna30.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "name": "HD STREAM ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://edgestream1.pro/hls/hezfnezkfzk45.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "name": "NFL NETWORK HD",
+          "token_api": ""
         }
       ]
     },
     {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
+      "match_id": "102",
+      "title": "MLB",
+      "synopsis": "Baseball | MLB",
       "status": "LIVE",
-      "time": "17:00:00",
+      "time": "",
       "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "FOX SPORTS FHD": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "HD STREAM": "https://edgestream1.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online"
       },
       "streams": [
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+          "drm_key": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "name": "FOX SPORTS FHD",
+          "token_api": ""
+        },
+        {
+          "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
+          "drm_scheme": "clearkey",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+          "name": "TNT SPORTS - AQ ",
+          "token_api": ""
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=TWlsd2F1a2VlJTIwQnJld2VycyUyMHZzJTIwU2FuJTIwRGllZ28lMjBQYWRyZXM=",
+            "type": "sp",
+            "url": "Ok"
+          }
+        },
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "https://edgestream1.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "name": "HD STREAM ",
+          "token_api": ""
+        }
+      ]
+    },
+    {
+      "match_id": "117",
+      "title": "Liga F Moeve",
+      "synopsis": "Football | Liga F Moeve",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "drm_key": "",
+          "drm_scheme": "",
+          "link": "Ok",
+          "name": "PlayZ TV Live",
+          "token_api": {
+            "api": "https://pspb.prbw.workers.dev/?q=RiVDMyVCQXRib2wlMjBDbHViJTIwQmFyY2Vsb25hJTIwdnMlMjBSZWFsJTIwTWFkcmlk",
+            "type": "sp",
+            "url": "Ok"
+          }
         }
       ]
     }
