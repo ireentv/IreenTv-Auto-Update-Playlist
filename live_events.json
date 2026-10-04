@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 44,
   "live_count": 44,
-  "last_update": "03:35 AM 05-10-2026 BST",
+  "last_update": "04:05 AM 05-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -865,11 +865,12 @@
       "status": "LIVE",
       "time": "18:45:00",
       "cover_image": "",
-      "match_url": "https://edgestream7.pro/hls/b0h5fNwDKH.m3u8|referer=https://streame.center/",
+      "match_url": "https://www.rtmpcdn.com/live/122be195-67b3-4ee4-a9ee-4f697f6ffef2.m3u8?|referer=http://www.fawanews.sc/",
       "is_free": false,
       "stream_url": {
-        "Cricfy HD": "https://edgestream7.pro/hls/b0h5fNwDKH.m3u8|referer=https://streame.center/",
-        "Cricfy HD Plus": "https://admin2.formaturamaxi.com.br/fs2.m3u8"
+        "Cricfy HD": "https://www.rtmpcdn.com/live/122be195-67b3-4ee4-a9ee-4f697f6ffef2.m3u8?|referer=http://www.fawanews.sc/",
+        "Cricfy HD Plus": "https://admin2.formaturamaxi.com.br/fs2.m3u8",
+        "Low": "http://193.47.62.44/hls/JKKKQQQQQQ.m3u8?|referer=http://www.fawanews.sc/"
       },
       "streams": [
         {
@@ -901,6 +902,20 @@
             "request_body_type": "text",
             "ip_api": "https://api.ipify.org/"
           }
+        },
+        {
+          "name": "Cricfy HD",
+          "link": "https://www.rtmpcdn.com/live/122be195-67b3-4ee4-a9ee-4f697f6ffef2.m3u8?|referer=http://www.fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.44/hls/JKKKQQQQQQ.m3u8?|referer=http://www.fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
         }
       ]
     },
@@ -930,15 +945,34 @@
       "status": "LIVE",
       "time": "18:00:00",
       "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://www.rtmpcdn.com/live/cae677b9-3c86-4d1f-8a4a-55627008c54b.m3u8?|referer=http://www.fawanews.sc/",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "Cricfy HD": "https://www.rtmpcdn.com/live/cae677b9-3c86-4d1f-8a4a-55627008c54b.m3u8?|referer=http://www.fawanews.sc/",
+        "Cricfy Live": "https://live1.dyrur1.com/live/74931226_52f97f4445d9ee604b78d92ffa5daf81_540p.m3u8?auth_key=1791150820-0-0-d141572898cf91cf1d9a8f2a561336c7?|referer=http://www.fawanews.sc/",
+        "Low": "http://193.47.62.44/hls/JKKK.m3u8?|referer=http://www.fawanews.sc/"
       },
       "streams": [
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+          "name": "Cricfy HD",
+          "link": "https://www.rtmpcdn.com/live/cae677b9-3c86-4d1f-8a4a-55627008c54b.m3u8?|referer=http://www.fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Cricfy Live",
+          "link": "https://live1.dyrur1.com/live/74931226_52f97f4445d9ee604b78d92ffa5daf81_540p.m3u8?auth_key=1791150820-0-0-d141572898cf91cf1d9a8f2a561336c7?|referer=http://www.fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.44/hls/JKKK.m3u8?|referer=http://www.fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
         }
       ]
     },
