@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 36,
   "live_count": 36,
-  "last_update": "07:13 PM 06-10-2026 BST",
+  "last_update": "07:34 PM 06-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -22,11 +22,11 @@
     },
     {
       "chno": 1,
-      "name": "[UEFA Nations League] [08:00 PM BD] [UPCOMING] Kazakhstan vs Faroe Islands (FAWA)",
+      "name": "[UEFA Nations League] [08:00 PM BD] [UPCOMING] Kazakhstan vs Faroe Islands --- CH 1 (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
       "sport": "UEFA Nations League",
-      "event": "Kazakhstan vs Faroe Islands",
+      "event": "Kazakhstan vs Faroe Islands --- CH 1",
       "match_time_bd": "08:00 PM BD",
       "source_time_gmt1": "15:00",
       "league": "UEFA Nations League",
@@ -44,11 +44,33 @@
     },
     {
       "chno": 2,
-      "name": "[Friendly Match] [08:00 PM BD] [UPCOMING] India vs Uruguay (FAWA)",
+      "name": "[UEFA Nations League] [08:00 PM BD] [UPCOMING] Kazakhstan vs Faroe Islands --- CH 2 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "UEFA Nations League",
+      "event": "Kazakhstan vs Faroe Islands --- CH 2",
+      "match_time_bd": "08:00 PM BD",
+      "source_time_gmt1": "15:00",
+      "league": "UEFA Nations League",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/2090021852122951681/BVRTRk0B_400x400.jpg",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Kazakhstan%20vs%20Faroe%20Islands%20---%20CH%202.html",
+      "event_page": "http://www.fawanews.sc/Kazakhstan%20vs%20Faroe%20Islands%20---%20CH%202.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 3,
+      "name": "[Friendly Match] [08:00 PM BD] [UPCOMING] India vs Uruguay --- CH 1 (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
       "sport": "Friendly Match",
-      "event": "India vs Uruguay",
+      "event": "India vs Uruguay --- CH 1",
       "match_time_bd": "08:00 PM BD",
       "source_time_gmt1": "15:00",
       "league": "Friendly Match",
@@ -65,7 +87,29 @@
       }
     },
     {
-      "chno": 3,
+      "chno": 4,
+      "name": "[Friendly Match] [08:00 PM BD] [UPCOMING] India vs Uruguay --- CH 2 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "Friendly Match",
+      "event": "India vs Uruguay --- CH 2",
+      "match_time_bd": "08:00 PM BD",
+      "source_time_gmt1": "15:00",
+      "league": "Friendly Match",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/India%20vs%20Uruguay%20---%20CH%202.html",
+      "event_page": "http://www.fawanews.sc/India%20vs%20Uruguay%20---%20CH%202.html",
+      "headers": {
+        "Referer": "http://www.fawanews.sc/",
+        "Origin": "http://www.fawanews.sc/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
+      }
+    },
+    {
+      "chno": 5,
       "name": "[Euro U21 Qualification] [08:00 PM BD] [UPCOMING] Moldova U21 vs Kazakhstan U21 (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -87,10 +131,10 @@
       }
     },
     {
-      "chno": 4,
-      "name": "[Euro U21 Qualification] [07:45 PM BD] [UPCOMING] Azerbaijan U21 vs Gibraltar U21 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
+      "chno": 6,
+      "name": "[Euro U21 Qualification] [07:45 PM BD] [LIVE] Azerbaijan U21 vs Gibraltar U21 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
       "sport": "Euro U21 Qualification",
       "event": "Azerbaijan U21 vs Gibraltar U21",
       "match_time_bd": "07:45 PM BD",
@@ -98,9 +142,9 @@
       "league": "Euro U21 Qualification",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1830558187436625920/Rjp4pvzP_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Azerbaijan%20U21%20vs%20Gibraltar%20U21.html",
+      "group": "Live Events",
+      "url": "http://193.47.62.41/hls/VUUUAAAA.m3u8",
+      "stream_url": "http://193.47.62.41/hls/VUUUAAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/Azerbaijan%20U21%20vs%20Gibraltar%20U21.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -109,10 +153,10 @@
       }
     },
     {
-      "chno": 5,
-      "name": "[Cricket] [07:30 PM BD] [UPCOMING] India vs West Indies (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
+      "chno": 7,
+      "name": "[Cricket] [07:30 PM BD] [LIVE] India vs West Indies (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
       "sport": "Cricket",
       "event": "India vs West Indies",
       "match_time_bd": "07:30 PM BD",
@@ -120,9 +164,9 @@
       "league": "Cricket",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1404378291599937536/b-r3SWlW_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/India%20vs%20West%20Indies.html",
+      "group": "Live Events",
+      "url": "http://193.47.62.41/hls/VUUUAAAX.m3u8",
+      "stream_url": "http://193.47.62.41/hls/VUUUAAAX.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/India%20vs%20West%20Indies.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -131,10 +175,10 @@
       }
     },
     {
-      "chno": 6,
-      "name": "[Africa Cup of Nations U20] [07:30 PM BD] [UPCOMING] Algeria U20 vs Egypt U20 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
+      "chno": 8,
+      "name": "[Africa Cup of Nations U20] [07:30 PM BD] [LIVE] Algeria U20 vs Egypt U20 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
       "sport": "Africa Cup of Nations U20",
       "event": "Algeria U20 vs Egypt U20",
       "match_time_bd": "07:30 PM BD",
@@ -142,9 +186,9 @@
       "league": "Africa Cup of Nations U20",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/2063908461281189888/_KMpScrr_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Algeria%20U20%20vs%20Egypt%20U20.html",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/VUUUAA.m3u8",
+      "stream_url": "http://193.47.62.44/hls/VUUUAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/Algeria%20U20%20vs%20Egypt%20U20.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
@@ -153,7 +197,7 @@
       }
     },
     {
-      "chno": 7,
+      "chno": 9,
       "name": "[Africa Cup of Nations U20] [07:00 PM BD] [LIVE] Libya U20 vs Morocco U20 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -175,7 +219,7 @@
       }
     },
     {
-      "chno": 8,
+      "chno": 10,
       "name": "[Africa Cup of Nations U23] [07:00 PM BD] [LIVE] Tanzania U23 vs Kenya U23 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -197,7 +241,7 @@
       }
     },
     {
-      "chno": 9,
+      "chno": 11,
       "name": "[Horse Racing] [06:00 PM BD] [LIVE] Horse Racing --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -219,7 +263,7 @@
       }
     },
     {
-      "chno": 10,
+      "chno": 12,
       "name": "[Horse Racing] [06:00 PM BD] [LIVE] Horse Racing --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -241,7 +285,7 @@
       }
     },
     {
-      "chno": 11,
+      "chno": 13,
       "name": "[Friendly Match] [05:35 PM BD] [LIVE] China vs Tajikistan (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -256,50 +300,6 @@
       "url": "http://193.47.62.41/hls/GYGYGYAA.m3u8",
       "stream_url": "http://193.47.62.41/hls/GYGYGYAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/China%20vs%20Tajikistan.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 12,
-      "name": "[Friendly Match] [05:00 PM BD] [LIVE] South Korea vs Uzbekistan --- CH 1 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Friendly Match",
-      "event": "South Korea vs Uzbekistan --- CH 1",
-      "match_time_bd": "05:00 PM BD",
-      "source_time_gmt1": "12:00",
-      "league": "Friendly Match",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.41/hls/GYGYGYA.m3u8",
-      "stream_url": "http://193.47.62.41/hls/GYGYGYA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/South%20Korea%20vs%20Uzbekistan.html",
-      "headers": {
-        "Referer": "http://www.fawanews.sc/",
-        "Origin": "http://www.fawanews.sc/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"
-      }
-    },
-    {
-      "chno": 13,
-      "name": "[Friendly Match] [05:00 PM BD] [LIVE] South Korea vs Uzbekistan --- CH 2 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Friendly Match",
-      "event": "South Korea vs Uzbekistan --- CH 2",
-      "match_time_bd": "05:00 PM BD",
-      "source_time_gmt1": "12:00",
-      "league": "Friendly Match",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
-      "group": "Live Events",
-      "url": "https://www.rtmpcdn.com/live/d03547f4-acdf-4005-b099-b05a2eb7054c.m3u8",
-      "stream_url": "https://www.rtmpcdn.com/live/d03547f4-acdf-4005-b099-b05a2eb7054c.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/South%20Korea%20vs%20Uzbekistan%20---%20CH%202.html",
       "headers": {
         "Referer": "http://www.fawanews.sc/",
         "Origin": "http://www.fawanews.sc/",
