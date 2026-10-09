@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 40
 # Live Count     : 40
-# Last Update    : 05:08 AM 10-10-2026 BST
+# Last Update    : 05:28 AM 10-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -344,8 +344,40 @@ https://netanjahu.hls.st/t/696d33a0652258ab5d7d1baf1e598817/index.m3u8?|Referer=
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
 http://193.47.62.44/hls/JEEEAAA.m3u8|Referer=http://fawanews.sc/
-#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
-http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTINF:-1 tvg-name="Sports Match (D Sports - AQ)" tvg-logo="" group-title="live_events",Sports Match (D Sports - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Sports Match (SportDigital Fussball - AQ)" tvg-logo="" group-title="live_events",Sports Match (SportDigital Fussball - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Sports Match (Cricfy HD)" tvg-logo="" group-title="live_events",Sports Match (Cricfy HD)
+#EXTVLCOPT:http-referrer=https://player.online909.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online909.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online909.com/
+https://live.vivo155.com/live/sd-1-4578216.m3u8?txSecret=d17010b034509ae97e465b818c1dbc61&txTime=6AC94CF8|Referer=https://player.online909.com/
+#EXTINF:-1 tvg-name="Sports Match (Sport TV HD)" tvg-logo="" group-title="live_events",Sports Match (Sport TV HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/7ea2782b12ac75e8cabf272cec0d2f3f/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (ELEVEN SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (ELEVEN SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/970053a950a9d07d6c68bea3c6d3c747/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (ZIGGO SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (ZIGGO SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/9f63821aa090e2482aa4b19fdda19872/index.m3u8?|Referer=https://iplayer.is/
 #EXTINF:-1 tvg-name="Sports Match (beIN ENGLISH - AQ)" tvg-logo="" group-title="live_events",Sports Match (beIN ENGLISH - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
