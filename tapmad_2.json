@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 18,
-  "live_count": 3,
-  "last_update": "05:34 PM 10-10-2026 BST",
+  "channels_amount": 19,
+  "live_count": 4,
+  "last_update": "06:04 PM 10-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -40,22 +40,24 @@
       "status": "LIVE",
       "time": "",
       "cover_image": "",
-      "match_url": "https://saseries.akamaized.net/hls/live/2110097/FiFa-3827e1/master.m3u8",
+      "match_url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://saseries.akamaized.net/hls/live/2110097/FiFa-3827e1/master.m3u8"
+        "Server 1": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8"
       }
     },
     {
       "match_id": "",
       "title": "Rayo Vallecano vs Athletic",
       "synopsis": "Rayo Vallecano vs Athletic",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "time": "",
       "cover_image": "",
-      "match_url": "",
+      "match_url": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": {
+        "Server 1": "https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
+      }
     },
     {
       "match_id": "",
@@ -204,6 +206,17 @@
       "match_id": "",
       "title": "Pakistan vs Sri Lanka",
       "synopsis": "Pakistan vs Sri Lanka",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "",
+      "title": "Nice vs Strasbourg",
+      "synopsis": "Nice vs Strasbourg",
       "status": "UPCOMING",
       "time": "",
       "cover_image": "",
