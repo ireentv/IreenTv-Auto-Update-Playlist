@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 22,
   "live_count": 7,
-  "last_update": "08:37 PM 11-10-2026 BST",
+  "last_update": "09:03 PM 11-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -22,28 +22,15 @@
     },
     {
       "match_id": "",
-      "title": "South Africa vs Australia - 1st Test",
-      "synopsis": "South Africa vs Australia - 1st Test",
-      "status": "LIVE",
-      "time": "",
-      "cover_image": "",
-      "match_url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8"
-      }
-    },
-    {
-      "match_id": "",
       "title": "Pakistan vs Sri Lanka",
       "synopsis": "Pakistan vs Sri Lanka",
       "status": "LIVE",
       "time": "",
       "cover_image": "",
-      "match_url": "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8",
+      "match_url": "https://t-prod-pk.tapmad.com/v1/019eff56c91d15e8f412028003f9/019eff5a7a6f15e8f060057b6796/main.m3u8",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8"
+        "Server 1": "https://t-prod-pk.tapmad.com/v1/019eff56c91d15e8f412028003f9/019eff5a7a6f15e8f060057b6796/main.m3u8"
       }
     },
     {
@@ -92,22 +79,24 @@
       "status": "LIVE",
       "time": "",
       "cover_image": "",
-      "match_url": "https://vodnewv2.in-maa-1.linodeobjects.com/promos/Tapmadpromo/master.m3u8",
+      "match_url": "https://saseries.akamaized.net/hls/live/2110097/tapmad258645/master.m3u8",
       "is_free": false,
       "stream_url": {
-        "Server 1": "https://vodnewv2.in-maa-1.linodeobjects.com/promos/Tapmadpromo/master.m3u8"
+        "Server 1": "https://saseries.akamaized.net/hls/live/2110097/tapmad258645/master.m3u8"
       }
     },
     {
       "match_id": "",
       "title": "Rennes vs Auxerre",
       "synopsis": "Rennes vs Auxerre",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "time": "",
       "cover_image": "",
-      "match_url": "",
+      "match_url": "https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": {
+        "Server 1": "https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8"
+      }
     },
     {
       "match_id": "",
@@ -157,6 +146,17 @@
       "match_id": "",
       "title": "Afghanistan vs Bangladesh",
       "synopsis": "Afghanistan vs Bangladesh",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "",
+      "title": "South Africa vs Australia - 1st Test",
+      "synopsis": "South Africa vs Australia - 1st Test",
       "status": "UPCOMING",
       "time": "",
       "cover_image": "",
