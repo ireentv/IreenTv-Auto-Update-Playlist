@@ -3,9 +3,9 @@
 # Developer      : MD ANAMUL HOQUE
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
-# Channels Amount: 59
-# Live Count     : 59
-# Last Update    : 04:36 AM 14-10-2026 BST
+# Channels Amount: 61
+# Live Count     : 61
+# Last Update    : 05:05 AM 14-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -221,171 +221,278 @@ https://dai-fancode.pages.dev/mumbai/4249220_english_hls_678474ccb382104_1ta-di_
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 http://193.47.62.44/hls/TGGGAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
+#EXTINF:-1 tvg-name="Sports Match (FUBO SPORTS - AQ)" tvg-logo="" group-title="live_events",Sports Match (FUBO SPORTS - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Sports Match (VIX Español - AQ)" tvg-logo="" group-title="live_events",Sports Match (VIX Español - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/8akj9pufyn/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd
+#EXTINF:-1 tvg-name="Sports Match (STAN SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (STAN SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/da3a3dc8b3f1fb435bb537b907cbe7d2/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (PARAMOUNT+ HD)" tvg-logo="" group-title="live_events",Sports Match (PARAMOUNT+ HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/bb4207168d5d0f97b8d00d027134a683/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (DAZN SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (DAZN SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/f3a0732a8e6fbaca0b9322c10495a997/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (ARENA SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (ARENA SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/3186d30c6e6bc31f495097476d968ba0/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (CRFY Stream)" tvg-logo="" group-title="live_events",Sports Match (CRFY Stream)
+https://www.rtmpcdn.com/live/af9d1bd7-9bab-480b-ac37-d01c4caf935b.m3u8
+#EXTINF:-1 tvg-name="Sports Match (SonyLiv (ENG))" tvg-logo="" group-title="live_events",Sports Match (SonyLiv (ENG))
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+https://sonydaimenew.akamaized.net/hls/live/2094588/Footlive1310/ENG/std_lrh-800300010.m3u8?hdnea=exp=1791960676~acl=/*~id=53827237911526434611752595132678~hmac=4b7eb750a158276151c120b63ca1381c3b0369166baf1c01b2e6c3dbb2736572|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#EXTINF:-1 tvg-name="Sports Match (SonyLiv (HIN))" tvg-logo="" group-title="live_events",Sports Match (SonyLiv (HIN))
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+https://sonydaimenew.akamaized.net/hls/live/2120306/Footlive1310/HIN/std_lrh-800300010.m3u8?hdnea=exp=1791960676~acl=/*~id=53827237911526434611752595132678~hmac=4b7eb750a158276151c120b63ca1381c3b0369166baf1c01b2e6c3dbb2736572|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
+#EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+http://193.47.62.44/hls/H999AAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
-#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
+#EXTINF:-1 tvg-name="Sports Match (TNT SPORTS  - AQ)" tvg-logo="" group-title="live_events",Sports Match (TNT SPORTS  - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Sports Match (PARAMOUNT+ - AQ)" tvg-logo="" group-title="live_events",Sports Match (PARAMOUNT+ - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.cache.aiv-cdn.net/bom-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/cxgoxoqcds/out/v1/3f2cebe66dad4a36af9ceb36216f133c/f92789f6-51ae-4c26-b6fa-91c90e6d787e-cenc.mpd?aws_sessionId=8333b77a-374a-4dea-84d3-5ec0da7210a5
+#EXTINF:-1 tvg-name="Sports Match (VIX Español - AQ)" tvg-logo="" group-title="live_events",Sports Match (VIX Español - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/6egioqgr7u/out/v1/0243b44c809941c7a5e0132e783bab69/cenc.mpd?aws_sessionId=e3223029-2214-4080-afca-a73a7301202e
+#EXTINF:-1 tvg-name="Sports Match (Cricfy HD)" tvg-logo="" group-title="live_events",Sports Match (Cricfy HD)
 #EXTVLCOPT:http-referrer=https://streame.center/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
 https://edgestream4.pro/hls/sqdahach1ax.m3u8|Referer=https://streame.center/
-#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
+#EXTINF:-1 tvg-name="Sports Match (TNT SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (TNT SPORTS HD)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://gooz.aapmains.net
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/57995/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net
+#EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+http://193.47.62.44/hls/FF666A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+#EXTINF:-1 tvg-name="Sports Match (TNT SPORTS - AQ)" tvg-logo="" group-title="live_events",Sports Match (TNT SPORTS - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Sports Match (Cricfy HD)" tvg-logo="" group-title="live_events",Sports Match (Cricfy HD)
 #EXTVLCOPT:http-referrer=https://streame.center/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
 https://edgestream3.pro/hls/eJmauBDCIf.m3u8|Referer=https://streame.center/
-#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
-#EXTVLCOPT:http-referrer=https://streame.center/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
-https://edgestream5.pro/hls/ueyeztrazb4.m3u8|Referer=https://streame.center/
+#EXTINF:-1 tvg-name="Sports Match (STAN SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (STAN SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/c305516b3961ed738b7e00e186c7910f/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (PARAMOUNT+ HD)" tvg-logo="" group-title="live_events",Sports Match (PARAMOUNT+ HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/b837f14599cc2a316efe245280c25994/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (DAZN SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (DAZN SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/1e107e7bfc5209e60c74c0456b6dff39/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (ARENA SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (ARENA SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/4b74b5b4ef90f28d23339a1171af3407/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (TAPMAD FHD)" tvg-logo="" group-title="live_events",Sports Match (TAPMAD FHD)
+https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8
+#EXTINF:-1 tvg-name="Sports Match (beIN SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (beIN SPORTS HD)
+https://live1.dyrur1.com/live/14387788_89854c7489d2f5fbf72167c7fd94fe1b_1080p.m3u8?auth_key=1791932249-0-0-23bc3313e311e7d2ea47fd06a08e1919
+#EXTINF:-1 tvg-name="Sports Match (CANAL+ SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (CANAL+ SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/487c46af672ea99d877297b29d6bf761/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+http://193.47.62.59/hls/H999AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+#EXTINF:-1 tvg-name="Sports Match (PARAMOUNT+ FHD)" tvg-logo="" group-title="live_events",Sports Match (PARAMOUNT+ FHD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/0b12sk2l8s/out/v1/4388ca79f3a14e3aa0897e2ca64ff741/71830a54-4a7a-4bc9-b2f9-960fa6dac18e-cenc.mpd?aws_sessionId=c90c4ae7-3894-452a-9de5-18b42d2afa3e
+#EXTINF:-1 tvg-name="Sports Match (VIX Español - AQ)" tvg-logo="" group-title="live_events",Sports Match (VIX Español - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/lvt2e0ylbr/out/v1/8ccf7b91d6c3409b991d48150e65c0e4/cenc.mpd?aws_sessionId=757c5158-2687-40f5-a930-0df200dea44d
+#EXTINF:-1 tvg-name="Sports Match (TNT SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (TNT SPORTS HD)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://gooz.aapmains.net
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/57990/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net
+#EXTINF:-1 tvg-name="Sports Match (STAN SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (STAN SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/b022059d2d1d832c4ecd90ebfb25143f/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (DAZN SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (DAZN SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/e12e8215edf430272b2e8e69d0e5ade4/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (PARAMOUNT+ HD)" tvg-logo="" group-title="live_events",Sports Match (PARAMOUNT+ HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/3687b104d1b572475f6e378ad8232950/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (Cricfy HD)" tvg-logo="" group-title="live_events",Sports Match (Cricfy HD)
+https://www.rtmpcdn.com/live/04b55d6a-98c1-4aa1-b8c6-941e3efcb91d.m3u8
+#EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+http://193.47.62.59/hls/H999AAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTINF:-1 tvg-name="Sports Match (PARAMOUNT+ HD)" tvg-logo="" group-title="live_events",Sports Match (PARAMOUNT+ HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/c2489efcb91d91106590eb7a6d087f9e/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (CRFY Stream)" tvg-logo="" group-title="live_events",Sports Match (CRFY Stream)
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
+https://live.vivo155.com/live/sd-1-4563619.m3u8?txSecret=bfb85228094e4a79ba6b0f6f6db9076d&txTime=6ACE8EFF|Referer=https://player.online878.com/
+#EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+http://193.47.62.50/hls/H333AAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+#EXTINF:-1 tvg-name="Sports Match (PARAMOUNT+ - AQ)" tvg-logo="" group-title="live_events",Sports Match (PARAMOUNT+ - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/oghrc20eee/out/v1/975a705fc9ee405d9fb6b10637a5dff3/b52529e6-edc9-4e58-9a12-ebadd90a3612-cenc.mpd?aws_sessionId=9ac9d495-a4ee-47fa-a274-6c511d1d24b0
+#EXTINF:-1 tvg-name="Sports Match (STAN SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (STAN SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/a6dea5bb606e1b714d771bf2c99d65be/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (PARAMOUNT+ HD)" tvg-logo="" group-title="live_events",Sports Match (PARAMOUNT+ HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/4751c0268db43ae6905044596b4a5f7b/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (CRFY Stream)" tvg-logo="" group-title="live_events",Sports Match (CRFY Stream)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://gooz.aapmains.net
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/57991/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net
+#EXTINF:-1 tvg-name="Sports Match (DAZN SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (DAZN SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/202328b0698cd8145979c1bd082d5000/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (Cricfy HD)" tvg-logo="" group-title="live_events",Sports Match (Cricfy HD)
+https://www.rtmpcdn.com/live/ad7d7476-4a42-41db-99ea-1e5e1909f611.m3u8
+#EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+http://193.47.62.55/hls/FF666AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
-#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
-#EXTVLCOPT:http-referrer=https://streame.center/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
-https://edgestream4.pro/hls/griogoehvn2.m3u8|Referer=https://streame.center/
-#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
-http://cricfy-tv.net/promo/cricfy-promo.m3u8
-#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
+#EXTINF:-1 tvg-name="Sports Match (PARAMOUNT+ FHD)" tvg-logo="" group-title="live_events",Sports Match (PARAMOUNT+ FHD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/0km4my4ul3/out/v1/090a47061cea4baa8d261f3d80d9e2a0/65f1aacf-ee87-4c4f-a2a6-2c2ee569a364-cenc.mpd?aws_sessionId=628f8f08-f3f9-4b26-a6a2-501877ae9b74
+#EXTINF:-1 tvg-name="Sports Match (VIX Español - AQ)" tvg-logo="" group-title="live_events",Sports Match (VIX Español - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ndlblrubcs/out/v1/7257a9e3af1e4c9e8867c97998030233/cenc.mpd?aws_sessionId=7095f096-57ef-47a9-ae32-015aec695466
+#EXTINF:-1 tvg-name="Sports Match (STAN SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (STAN SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/34c44eb4f629991388dc51c12ba1f526/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (PARAMOUNT+ HD)" tvg-logo="" group-title="live_events",Sports Match (PARAMOUNT+ HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/afc0ddad7610bb93aafe3565badf7d11/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (DAZN SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (DAZN SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/f68c47c642bcbe7037a4fe454c789867/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (Cricfy HD)" tvg-logo="" group-title="live_events",Sports Match (Cricfy HD)
 #EXTVLCOPT:http-referrer=https://streame.center/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
 https://edgestream2.pro/hls/b0h5fNwDKH.m3u8|Referer=https://streame.center/
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
-#EXTINF:-1 tvg-name="Sports Match (Cricfy HD)" tvg-logo="" group-title="live_events",Sports Match (Cricfy HD)
-#EXTVLCOPT:http-referrer=https://streame.center/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
-https://edgestream6.pro/hls/sqdahach1ax.m3u8|Referer=https://streame.center/
-#EXTINF:-1 tvg-name="Sports Match (CRFY Stream)" tvg-logo="" group-title="live_events",Sports Match (CRFY Stream)
-#EXTVLCOPT:http-referrer=https://player.online878.com/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
-https://live.vivo155.com/live/hd-en-1-4628494.m3u8?txSecret=e8f2370dfc82be127e3afdfb6c6d0f7e&txTime=6ACE6E8C|Referer=https://player.online878.com/
-#EXTINF:-1 tvg-name="Sports Match (Ziggo Sport 3 NL)" tvg-logo="" group-title="live_events",Sports Match (Ziggo Sport 3 NL)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/70f56dc6f848eb8a2d1989690d9603c4/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (Arena Sport Premium 4 RS)" tvg-logo="" group-title="live_events",Sports Match (Arena Sport Premium 4 RS)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/d3509e68fddfbb64da3d78fa73f1cb6e/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (DAZN 1 PT Q)" tvg-logo="" group-title="live_events",Sports Match (DAZN 1 PT Q)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/5f8da93a964dc6ba352900c64454199e/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (DAZN 1 PT HQ)" tvg-logo="" group-title="live_events",Sports Match (DAZN 1 PT HQ)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/23ba79e3280212ba7e0bbf2c231fce68/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (Paramount)" tvg-logo="" group-title="live_events",Sports Match (Paramount)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/e2a225fb776182522f012d64978e7761/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (DAZN)" tvg-logo="" group-title="live_events",Sports Match (DAZN)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/2a7c1758eac7765117c59ed96a89ada3/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (CANAL+ Extra 2 PL)" tvg-logo="" group-title="live_events",Sports Match (CANAL+ Extra 2 PL)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/9c58af7186d9e0b834b6bf71f3fddf46/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (Stan Sport)" tvg-logo="" group-title="live_events",Sports Match (Stan Sport)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/4057f8a17a2ed443be386f9313363890/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
-http://193.47.62.55/hls/H999A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
-#EXTINF:-1 tvg-name="Sports Match (Cricfy HD)" tvg-logo="" group-title="live_events",Sports Match (Cricfy HD)
-#EXTVLCOPT:http-referrer=https://streame.center/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
-https://edgestream7.pro/hls/eJmauBDCIf.m3u8|Referer=https://streame.center/
-#EXTINF:-1 tvg-name="Sports Match (Ziggo Sport NL)" tvg-logo="" group-title="live_events",Sports Match (Ziggo Sport NL)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/72daf7bd23d3c31e963702f8ed09e135/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (Ziggo Sport 2 NL)" tvg-logo="" group-title="live_events",Sports Match (Ziggo Sport 2 NL)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/4dc1201b2261604c20b49f9c190d0576/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (Arena Sport Premium 3 RS)" tvg-logo="" group-title="live_events",Sports Match (Arena Sport Premium 3 RS)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/8e9ebd44fd87cb737846bbceddbbbe0c/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (Sport TV5 PT Q)" tvg-logo="" group-title="live_events",Sports Match (Sport TV5 PT Q)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/e8b5c706608a51567eaf66aeef25ef17/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (Sport TV5 PT HQ)" tvg-logo="" group-title="live_events",Sports Match (Sport TV5 PT HQ)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/718c1a7ad80689be28e87b3c10ee5954/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (Paramount)" tvg-logo="" group-title="live_events",Sports Match (Paramount)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/aede269f3d3925aaec921b45714b9bf8/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (DAZN)" tvg-logo="" group-title="live_events",Sports Match (DAZN)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/90c51b2fa29b392ba99fdc8a04e02301/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (Stan Sport)" tvg-logo="" group-title="live_events",Sports Match (Stan Sport)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/863a4f6350b6058ec7191aef2b169519/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (CANAL+ Extra 3 PL)" tvg-logo="" group-title="live_events",Sports Match (CANAL+ Extra 3 PL)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/aa94c2688d5e9d80b7e820dc5fc4f0ac/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (CRFY Stream)" tvg-logo="" group-title="live_events",Sports Match (CRFY Stream)
-#EXTVLCOPT:http-referrer=http://fawanews.sc/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
-https://www.rtmpcdn.com/live/6683df5e-b1a0-4833-970d-756f530bea18.m3u8|Referer=http://fawanews.sc/
-#EXTINF:-1 tvg-name="Sports Match (CRFY Stream+)" tvg-logo="" group-title="live_events",Sports Match (CRFY Stream+)
-#EXTVLCOPT:http-referrer=http://fawanews.sc/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
-https://www.rtmpcdn.com/live/6683df5e-b1a0-4833-970d-756f530bea18.m3u8|Referer=http://fawanews.sc/
-#EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
-#EXTVLCOPT:http-referrer=http://fawanews.sc/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
-http://193.47.62.41/hls/H999.m3u8|Referer=http://fawanews.sc/
+#EXTINF:-1 tvg-name="Sports Match (PARAMOUNT+ FHD)" tvg-logo="" group-title="live_events",Sports Match (PARAMOUNT+ FHD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/holebwhdgv/out/v1/50eec0b9cc844cc38cdb9fefb117f621/b6a15ff2-a69f-48ed-8e87-dba29d505314-cenc.mpd?aws_sessionId=e7927e82-4a89-4e2c-b21e-5abaf0eed9d4|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Sports Match (TNT SPORTS FHD)" tvg-logo="" group-title="live_events",Sports Match (TNT SPORTS FHD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Sports Match (VIX SPANISH FHD)" tvg-logo="" group-title="live_events",Sports Match (VIX SPANISH FHD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/a6lfspkmlh/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Sports Match (Cricfy HD)" tvg-logo="" group-title="live_events",Sports Match (Cricfy HD)
 #EXTVLCOPT:http-referrer=https://streame.center/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
@@ -396,45 +503,90 @@ https://edgestream2.pro/hls/24SDAZFcsqnj24.m3u8|Referer=https://streame.center/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
 https://netanjahu.hls.st/t/aede269f3d3925aaec921b45714b9bf8/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
-http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTINF:-1 tvg-name="Sports Match (STAN SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (STAN SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/e9768d7a911413e34940748cbdbbb501/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (TNT SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (TNT SPORTS HD)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://gooz.aapmains.net
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/57994/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net
+#EXTINF:-1 tvg-name="Sports Match (ARENA SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (ARENA SPORTS HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/34af5885af03931c9eee90910da107d4/index.m3u8?|Referer=https://iplayer.is/
 #EXTINF:-1 tvg-name="Sports Match (CRFY Stream)" tvg-logo="" group-title="live_events",Sports Match (CRFY Stream)
-https://live2.jorvakstreamcache.com/live/channel6.m3u8
-#EXTINF:-1 tvg-name="Sports Match (Cricfy Live+)" tvg-logo="" group-title="live_events",Sports Match (Cricfy Live+)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/d5fc2b16ddc298c8207a2b59fe454e7c/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (ESPN)" tvg-logo="" group-title="live_events",Sports Match (ESPN)
-#EXTVLCOPT:http-referrer=https://player.online878.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 16; DNY-NX9 Build/HONORDNY-N39; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.106 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/&Origin=https://player.online878.com&User-Agent=Mozilla/5.0 (Linux; Android 16; DNY-NX9 Build/HONORDNY-N39; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.106 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/&Origin=https://player.online878.com&User-Agent=Mozilla/5.0 (Linux; Android 16; DNY-NX9 Build/HONORDNY-N39; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.106 Mobile Safari/537.36
-https://live.vivo155.com/live/sd-1-4621426.m3u8?txSecret=46aea58b97bbd17f3c29d524f84898d6&txTime=6ACE678C|Referer=https://player.online878.com/&Origin=https://player.online878.com&User-Agent=Mozilla/5.0 (Linux; Android 16; DNY-NX9 Build/HONORDNY-N39; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/154.0.8037.106 Mobile Safari/537.36
-#EXTINF:-1 tvg-name="Sports Match (Cricfy HD +)" tvg-logo="" group-title="live_events",Sports Match (Cricfy HD +)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/09d505ee61f384ab29594fa8ab9dcc56/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (CRFY Stream+)" tvg-logo="" group-title="live_events",Sports Match (CRFY Stream+)
-#EXTVLCOPT:http-referrer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
-https://netanjahu.hls.st/t/60841e075a6a2fedf031dd4abe14b6b2/index.m3u8|Referer=https://iplayer.is/
-#EXTINF:-1 tvg-name="Sports Match (Cricfy SD)" tvg-logo="" group-title="live_events",Sports Match (Cricfy SD)
-https://pull.streamviewk7x.click/livesp/sd-6Mxj4TCUxYcWhb11iS_autosp.m3u8?txSecret=fb6f6875308d4961ce1cc2ad141e96db&txTime=6ACFA700
+https://www.rtmpcdn.com/live/46a1ec93-a37e-4a2c-83e5-19855ca7ff5d.m3u8
 #EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
-http://193.47.62.50/hls/I888AAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+http://193.47.62.59/hls/H999AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTINF:-1 tvg-name="Sports Match (Cricfy HD)" tvg-logo="" group-title="live_events",Sports Match (Cricfy HD)
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
+https://live.vivo155.com/live/hd-en-1-4621484.m3u8?txSecret=87cd279d8842aac5bd3a75a1ec80e98a&txTime=6ACE8553|Referer=https://player.online878.com/
+#EXTINF:-1 tvg-name="Sports Match (ESPN 1 NL)" tvg-logo="" group-title="live_events",Sports Match (ESPN 1 NL)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/31408cac8ebebb782ef9da60962043dd/index.m3u8|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (ESPN NL UHD)" tvg-logo="" group-title="live_events",Sports Match (ESPN NL UHD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/e6c99de39ba29483d34d39bef4e1517c/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (CRFY Stream)" tvg-logo="" group-title="live_events",Sports Match (CRFY Stream)
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
+https://live.vivo155.com/live/sd-1-4621484.m3u8?txSecret=db5028f2c33a5fd6dc1af22a38626d5e&txTime=6ACE8553|Referer=https://player.online878.com/
+#EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
+#EXTVLCOPT:http-referrer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
+http://193.47.62.50/hls/YY666AAQQQQQQQ.m3u8|Referer=http://fawanews.sc/
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTINF:-1 tvg-name="Sports Match (PARAMOUNT+ HD)" tvg-logo="" group-title="live_events",Sports Match (PARAMOUNT+ HD)
+#EXTVLCOPT:http-referrer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://iplayer.is/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://iplayer.is/
+https://netanjahu.hls.st/t/94e5dc0ffa65c9c43e5c25c0f6749344/index.m3u8?|Referer=https://iplayer.is/
+#EXTINF:-1 tvg-name="Sports Match (CRFY Stream)" tvg-logo="" group-title="live_events",Sports Match (CRFY Stream)
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
+https://live.vivo155.com/live/sd-1-4563616.m3u8?txSecret=48be21fd2909157bba0714fcd6f6a10d&txTime=6ACE8EE4|Referer=https://player.online878.com/
+#EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
+#EXTVLCOPT:http-referrer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
+http://193.47.62.50/hls/H333AAAAAQ.m3u8|Referer=http://fawanews.sc/
+#EXTINF:-1 tvg-name="Sports Match (beIN ENGLISH - AQ)" tvg-logo="" group-title="live_events",Sports Match (beIN ENGLISH - AQ)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
+#EXTVLCOPT:http-referrer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
+http://193.47.62.50/hls/H333AAAAAQQQQ.m3u8|Referer=http://fawanews.sc/
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
-http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTVLCOPT:http-referrer=https://streame.center/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
+https://edgestream5.pro/hls/lmdsjkfgv52.m3u8|Referer=https://streame.center/
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 #EXTVLCOPT:http-referrer=https://streame.center/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
@@ -451,7 +603,10 @@ https://edgestream5.pro/hls/cwxvbnfghq60.m3u8|Referer=https://streame.center/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
 https://edgestream3.pro/hls/sdezqfza55.m3u8|Referer=https://streame.center/
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
-http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTVLCOPT:http-referrer=https://streame.center/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
+https://edgestream5.pro/hls/uyopzarf50.m3u8|Referer=https://streame.center/
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 #EXTVLCOPT:http-referrer=https://streame.center/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
@@ -498,7 +653,10 @@ https://edgestream1.pro/hls/gfhfgsqda61.m3u8|Referer=https://streame.center/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
 https://edgestream5.pro/hls/wxcgfaiiog63.m3u8|Referer=https://streame.center/
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
-http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTVLCOPT:http-referrer=https://streame.center/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
+https://edgestream3.pro/hls/hjksgdfauzy51.m3u8|Referer=https://streame.center/
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 #EXTVLCOPT:http-referrer=https://streame.center/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
@@ -549,3 +707,29 @@ http://cricfy-tv.net/promo/cricfy-promo.m3u8
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
+#EXTVLCOPT:http-referrer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
+http://193.47.62.50/hls/H333AAA.m3u8|Referer=http://fawanews.sc/
+#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+http://193.47.62.50/hls/H333AAAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc
+#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
+#EXTVLCOPT:http-referrer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
+http://193.47.62.50/hls/H333AAAA.m3u8|Referer=http://fawanews.sc/
+#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
+#EXTVLCOPT:http-referrer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
+http://193.47.62.50/hls/H333AAAAA.m3u8|Referer=http://fawanews.sc/
+#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
+#EXTVLCOPT:http-referrer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
+http://193.47.62.50/hls/H333AA.m3u8|Referer=http://fawanews.sc/
