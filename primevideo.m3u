@@ -3,10 +3,16 @@
 # Developer      : MD ANAMUL HOQUE
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
-# Channels Amount: 1
-# Live Count     : 1
-# Last Update    : 05:37 AM 13-10-2026 BST
+# Channels Amount: 2
+# Live Count     : 2
+# Last Update    : 06:03 AM 13-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
 
+#EXTINF:-1 tvg-name="Oct 12 - UTR PTT Newport Beach" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.cb024dea-e7ea-4739-95a1-b8e0cc6cf6f8/6/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Oct 12 - UTR PTT Newport Beach
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=244729f0e1d438e92cd70f01f517eaf7:44afd01aa6552d06322a2e8a3edfb901
+https://live-pv-ta.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWI-nAWpwcmltZXZpZGVvBBpq4TuOBhpqzXUOA2ZmYXN0bHkCeChmaWQ6MDFhMTMyOTEtNDIzYy03M2M0LTgwMDItNWQ0YTExZTFmMzUxGQE4oQWhAngzL3JteGwwNXV2aW8vb3V0L3YxLzE1NmY0NjZmYTkyMDQxMGI4ODQ0ODU2ZDcxYjA3MmVkGQE8gWJVU1ggbo2HAVRDtptUwYx-P0RrhrCJx3J0pAYX9efcongple0/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/rmxl05uvio/out/v1/156f466fa920410b8844856d71b072ed/66f0201d-f4f4-47df-a8d2-184939c8792c-cenc.mpd
