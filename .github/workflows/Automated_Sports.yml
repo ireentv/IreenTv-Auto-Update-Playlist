@@ -59,7 +59,6 @@ jobs:
 
           # ================= PARSE & CONVERT TIME =================
           def parse_raw_datetime(time_str):
-              """টাইম স্ট্রিং থেকে datetime অবজেক্ট (BST টাইমজোনে) রিটার্ন করবে"""
               if not time_str or not isinstance(time_str, (str, int, float)):
                   return None
               
@@ -133,39 +132,27 @@ jobs:
 
           # ================= INTELLIGENT DYNAMIC STATUS EVALUATOR =================
           def evaluate_status(raw_status, time_val_or_str, default_if_unknown="UPCOMING"):
-              """
-              সোর্স স্ট্যাটাস এবং বর্তমান সময়ের সাথে তুলনা করে সঠিক স্ট্যাটাস নির্ধারণ করে।
-              """
               status_str = str(raw_status or "").strip().lower()
 
-              # সোর্সে স্পষ্ট করে দেওয়া থাকলে
               if status_str in ["ended", "finished", "completed", "closed"]:
                   return "ENDED"
-              if status_str in ["upcoming", "scheduled", "not started", "fixture"]:
-                  source_indicates_upcoming = True
-              else:
-                  source_indicates_upcoming = False
-
+              
+              source_indicates_upcoming = status_str in ["upcoming", "scheduled", "not started", "fixture"]
               source_indicates_live = status_str in ["live", "playing", "in_progress", "started", "active"]
 
-              # টাইম অ্যানালাইসিস
               dt = parse_raw_datetime(time_val_or_str)
               if dt:
-                  # ম্যাচ শুরু হতে যদি এখনো বাকি থাকে
                   if dt > now_bd:
                       return "UPCOMING"
-                  # ম্যাচ শুরু হয়েছে কিন্তু ৪ ঘণ্টার মধ্যে আছে
                   elif dt <= now_bd and (now_bd - dt) <= timedelta(hours=4):
                       if not source_indicates_upcoming:
                           return "LIVE"
                       return "UPCOMING"
-                  # ৪ ঘণ্টার বেশি সময় পেরিয়ে গেলে
                   elif (now_bd - dt) > timedelta(hours=4):
                       if source_indicates_live:
                           return "LIVE"
                       return "ENDED"
 
-              # সময় পাওয়া না গেলে বা স্পেসিফিক না হলে সোর্স স্ট্যাটাসকে প্রধান্য দেওয়া হবে
               if source_indicates_live:
                   return "LIVE"
               if source_indicates_upcoming:
@@ -520,60 +507,66 @@ jobs:
                   servers[f"Server {idx}"] = url
               return servers
 
-          # 🎯 SMART EXTRACTOR
+          # 🎯 নিখুঁত অল-আইটেম এক্সট্রাক্টর (যাতে একটি ইভেন্টও মিস বা রিমুভ না হয়)
           def extract_items_from_json(data):
-              items = []
               if isinstance(data, list):
                   return data
 
-              for root_key in ["events", "matches", "data", "items", "channels", "list"]:
-                  if root_key in data and isinstance(data[root_key], list):
-                      return data[root_key]
+              # যদি সোজাসুজি কোনো প্রধান কি-তে ফুল লিস্ট থাকে
+              for key in ["events", "matches", "data", "items", "channels", "list"]:
+                  if key in data and isinstance(data[key], list) and len(data[key]) > 0:
+                      if isinstance(data[key][0], dict):
+                          return data[key]
 
-              def walk(obj):
-                  if isinstance(obj, list):
-                      for elem in obj:
-                          walk(elem)
-                  elif isinstance(obj, dict):
-                      is_match_item = False
-                      has_media = any(k in obj for k in ["channels", "link_live", "extracted_links", "cdn_domain", "stream_link", "video_info", "stream_info", "stream_url", "multiple_audio_links", "video_url", "videoURL", "url", "streams"])
-                      has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "teams", "VideoName", "CategoryName", "sport", "event_name", "team_a", "team_b", "schedule", "slug", "sub_category"])
+              collected_items = []
 
-                      if has_media or has_sports:
-                          is_match_item = True
-                      elif any(k in obj for k in ["title", "name", "VideoName"]) and any(k in obj for k in ["match_url", "status", "stream_url", "cover_image", "url", "channels"]):
-                          is_match_item = True
+              def walk(node):
+                  if isinstance(node, list):
+                      for el in node:
+                          if isinstance(el, dict):
+                              # চেক করুন এটি কোনো ইভেন্ট কি না
+                              has_media = any(k in el for k in ["channels", "link_live", "extracted_links", "cdn_domain", "stream_link", "video_info", "stream_info", "stream_url", "video_url", "videoURL", "url", "streams", "StreamUrl", "match_url"])
+                              has_sports = any(k in el for k in ["localteam_name", "visitorteam_name", "teams", "VideoName", "CategoryName", "sport", "event_name", "team_a", "team_b", "schedule", "slug", "title", "name"])
+                              if has_media or has_sports:
+                                  collected_items.append(el)
+                              else:
+                                  walk(el)
+                          elif isinstance(el, list):
+                              walk(el)
+                  elif isinstance(node, dict):
+                      # ডিকশনারির ভেতরে live/upcoming ইত্যাদি আলাদা লিস্ট থাকতে পারে
+                      for k, v in node.items():
+                          if str(k).lower() in ["owner", "credit", "website", "admin", "notice"]:
+                              continue
+                          walk(v)
 
-                      if is_match_item:
-                          items.append(obj)
-                      else:
-                          for k, v in obj.items():
-                              if str(k).lower() in ["owner", "credit", "website", "admin", "notice"]:
-                                  continue
-                              walk(v)
               walk(data)
 
-              seen = set()
-              unique_items = []
-              for it in items:
-                  if not isinstance(it, dict):
-                      continue
-                  uid = (
-                      it.get("slug") or 
-                      it.get("id") or 
-                      it.get("contentId") or 
-                      it.get("match_id") or 
-                      it.get("EntityId") or 
-                      (f"{it.get('title')}_{it.get('schedule', {}).get('start_time_bst')}" if isinstance(it.get('schedule'), dict) else None) or
-                      it.get("title") or 
-                      it.get("name")
-                  )
-                  if uid and uid not in seen:
-                      seen.add(uid)
-                      unique_items.append(it)
-                  elif not uid:
-                      unique_items.append(it)
-              return unique_items
+              # যদি walk করার পর ইভেন্ট পাওয়া যায়
+              if collected_items:
+                  # সেফ ডি-ডুপ্লিকেশন: id না থাকলে বা খালি থাকলে ফেলে দেওয়া যাবে না
+                  unique_list = []
+                  seen_signatures = set()
+
+                  for item in collected_items:
+                      if not isinstance(item, dict):
+                          continue
+                      
+                      title = item.get("title") or item.get("name") or item.get("VideoName") or ""
+                      event_id = item.get("id") or item.get("slug") or item.get("match_id") or item.get("EntityId") or item.get("contentId") or ""
+                      
+                      # যদি কোনো আইডি বা টাইটেল থাকে, তবে সেটির কম্বিনেশন তৈরি
+                      if event_id or title:
+                          sig = f"{str(event_id).strip()}::{str(title).strip()}"
+                          if sig not in seen_signatures:
+                              seen_signatures.add(sig)
+                              unique_list.append(item)
+                      else:
+                          unique_list.append(item)
+
+                  return unique_list
+
+              return []
 
           def get_playlist_info(url_line):
               if "|" in url_line:
@@ -751,7 +744,6 @@ jobs:
                       elif is_custom_streams_item(it):
                           item_transformed = transform_custom_streams_item(it)
                       else:
-                          # জেনেরিক আইটেমের ক্ষেত্রেও টাইম ও স্ট্যাটাস যাচাই
                           time_val = convert_to_bangladesh_time(it.get("time") or it.get("start_time") or "")
                           it["time"] = time_val
                           it["status"] = evaluate_status(it.get("status"), it.get("time"), default_if_unknown="UPCOMING")
@@ -794,7 +786,7 @@ jobs:
           export TZ="Asia/Dhaka"
           git add *.json *.m3u
           if ! git diff --cached --quiet; then
-            git commit -m "🤖 Playlists Synced (Dynamic BST Time & Status Updated) ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "🤖 Fixed Multi-Event Extraction & Status Sync ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
