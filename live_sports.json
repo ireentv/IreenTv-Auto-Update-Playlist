@@ -1,9 +1,9 @@
 {
   "playlist_name": "live_sports",
   "developer": "MD ANAMUL HOQUE",
-  "channels_amount": 1,
-  "live_count": 1,
-  "last_update": "10:24 PM 16-10-2026 BST",
+  "channels_amount": 2,
+  "live_count": 2,
+  "last_update": "10:25 PM 16-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -17,6 +17,23 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
+    },
+    {
+      "chno": 1,
+      "name": "[CAF Champions League] [10:00 PM BD] [LIVE] APR vs Zamalek (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "CAF Champions League",
+      "event": "APR vs Zamalek",
+      "match_time_bd": "10:00 PM BD",
+      "source_time_gmt1": "17:00",
+      "league": "CAF Champions League",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1986380387874926592/BupvxFYG_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.59/hls/HHHHWQAAQQQ.m3u8",
+      "stream_url": "http://193.47.62.59/hls/HHHHWQAAQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/APR%20vs%20Zamalek.html"
     }
   ]
 }
