@@ -2,10 +2,10 @@ name: Automated Sports Data JSON & M3U Updater
 
 on:
   schedule:
-    - cron: '*/15 * * * *'   # প্রতি ১৫ মিনিট পর পর স্বয়ংক্রিয়ভাবে চলবে
+    - cron: '*/15 * * * *'   # ব্যাকআপ হিসেবে প্রতি ১৫ মিনিট পর পর চলবে
   workflow_dispatch:
   repository_dispatch:
-    types: [update-playlist] # রেন্ডার ওয়াচার বটের সংকেত
+    types: [update-playlist] # 👈 রেন্ডার ওয়াচার বটের সংকেত রিসিভ করবে
 
 jobs:
   update-file:
@@ -45,45 +45,41 @@ jobs:
           import json
           import requests
           import urllib3
-          from datetime import datetime, timedelta
+          from datetime import datetime
           import pytz
 
           urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
           tz_bd = pytz.timezone("Asia/Dhaka")
-          now_bd = datetime.now(tz_bd)
-          current_time = now_bd.strftime("%I:%M %p %d-%m-%Y BST")
+          current_time = datetime.now(tz_bd).strftime("%I:%M %p %d-%m-%Y BST")
 
           raw_urls = os.environ.get("JSON_PLAYLIST_URLS", "")
           lines = [u.strip() for u in raw_urls.splitlines() if u.strip() and not u.strip().startswith("#")]
 
-          # ================= PARSE & CONVERT TIME =================
-          def parse_raw_datetime(time_str):
+          # ================= TIMEZONE CONVERTER TO BST =================
+          def convert_to_bangladesh_time(time_str):
               if not time_str or not isinstance(time_str, (str, int, float)):
-                  return None
+                  return ""
               
               t_str = str(time_str).strip()
               if not t_str or t_str.lower() in ["24/7", "live", "n/a", "none", "tbd"]:
-                  return None
+                  return t_str
 
               bd_tz = pytz.timezone("Asia/Dhaka")
               ist_tz = pytz.timezone("Asia/Kolkata")
               utc_tz = pytz.timezone("UTC")
 
-              # Timestamp (Unix ms or sec)
               if re.match(r'^\d{10,13}$', t_str):
                   ts = int(t_str)
                   if len(t_str) == 13:
                       ts = ts / 1000.0
-                  return datetime.fromtimestamp(ts, tz=bd_tz)
+                  dt = datetime.fromtimestamp(ts, tz=bd_tz)
+                  return dt.strftime("%d/%m/%Y %I:%M %p BST")
 
               is_ist = bool(re.search(r'\bIST\b', t_str, re.IGNORECASE))
               is_utc = bool(re.search(r'\b(UTC|GMT|Z)\b', t_str, re.IGNORECASE))
 
               clean_t = re.sub(r'\s*(IST|UTC|GMT|BST|Z)\s*$', '', t_str, flags=re.IGNORECASE).strip()
-              # কমা এবং অতিরিক্ত স্পেস রিমুভ করে স্ট্যান্ডার্ডাইজেশন
-              clean_t = clean_t.replace(",", " ")
-              clean_t = re.sub(r'\s+', ' ', clean_t).strip()
 
               formats = [
                   "%d/%m/%Y %I:%M %p",
@@ -101,8 +97,8 @@ jobs:
                   "%Y-%m-%dT%H:%M:%S",
                   "%I:%M %p %d-%m-%Y",
                   "%I:%M %p %d/%m/%Y",
-                  "%b %d %Y %I:%M %p",
-                  "%b %d %Y %I:%M:%S %p",
+                  "%b %d, %Y %I:%M %p",
+                  "%b %d, %Y, %I:%M:%S %p",
                   "%d %b %Y %I:%M %p",
                   "%d %B %Y %I:%M %p"
               ]
@@ -117,61 +113,17 @@ jobs:
 
               if parsed_dt:
                   if parsed_dt.tzinfo is not None:
-                      return parsed_dt.astimezone(bd_tz)
+                      bd_dt = parsed_dt.astimezone(bd_tz)
                   elif is_ist:
-                      return ist_tz.localize(parsed_dt).astimezone(bd_tz)
+                      bd_dt = ist_tz.localize(parsed_dt).astimezone(bd_tz)
                   elif is_utc or "T" in clean_t:
-                      return utc_tz.localize(parsed_dt).astimezone(bd_tz)
+                      bd_dt = utc_tz.localize(parsed_dt).astimezone(bd_tz)
                   else:
-                      return ist_tz.localize(parsed_dt).astimezone(bd_tz)
+                      bd_dt = ist_tz.localize(parsed_dt).astimezone(bd_tz)
 
-              return None
+                  return bd_dt.strftime("%d/%m/%Y %I:%M %p BST")
 
-          def convert_to_bangladesh_time(time_str):
-              dt = parse_raw_datetime(time_str)
-              if dt:
-                  return dt.strftime("%d/%m/%Y %I:%M %p BST")
-              return str(time_str).strip() if time_str else ""
-
-          # ================= INTELLIGENT DYNAMIC STATUS =================
-          def evaluate_status(raw_status, time_val_or_str, default_if_unknown="UPCOMING"):
-              status_str = str(raw_status or "").strip().lower()
-
-              if status_str in ["ended", "finished", "completed", "closed"]:
-                  return "ENDED"
-              
-              source_indicates_upcoming = status_str in ["upcoming", "scheduled", "not started", "fixture"]
-              source_indicates_live = status_str in ["live", "playing", "in_progress", "started", "active"]
-
-              dt = parse_raw_datetime(time_val_or_str)
-              if dt:
-                  if dt > now_bd:
-                      return "UPCOMING"
-                  elif dt <= now_bd and (now_bd - dt) <= timedelta(hours=4):
-                      if not source_indicates_upcoming:
-                          return "LIVE"
-                      return "UPCOMING"
-                  elif (now_bd - dt) > timedelta(hours=4):
-                      if source_indicates_live:
-                          return "LIVE"
-                      return "ENDED"
-
-              if source_indicates_live:
-                  return "LIVE"
-              if source_indicates_upcoming:
-                  return "UPCOMING"
-
-              return default_if_unknown
-
-          def is_live_event(item):
-              if not isinstance(item, dict):
-                  return False
-              st = str(item.get("status", "")).upper()
-              if st == "LIVE":
-                  return True
-              if item.get("is_playing") is True:
-                  return True
-              return False
+              return t_str
 
           # ================= PROMO ITEM CONFIG =================
           PROMO_ITEM = {
@@ -228,8 +180,6 @@ jobs:
 
           def extract_sonyliv_streams(item):
               servers = {}
-              
-              # 1. DAI লিঙ্ক চেক
               stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
               dai = (
                   stream_info.get("dai_asset_key") or 
@@ -237,40 +187,8 @@ jobs:
                   item.get("dai_asset_key") or 
                   item.get("dai_url")
               )
-              if dai and str(dai).startswith("http") and is_mpd_or_m3u8(str(dai)) and "unavailable" not in str(dai).lower():
+              if dai and str(dai).startswith("http") and is_mpd_or_m3u8(str(dai)):
                   servers["Original Server"] = str(dai).strip()
-
-              # 2. multiple_audio_links (আসল লাইভ স্ট্রিম ও বহুভাষিক অডিও)
-              audio_links = item.get("multiple_audio_links", [])
-              if isinstance(audio_links, list):
-                  for idx, aud in enumerate(audio_links, 1):
-                      if not isinstance(aud, dict):
-                          continue
-                      lang = aud.get("language") or aud.get("lang_code") or f"Server {idx}"
-                      a_data = aud.get("data", {}) if isinstance(aud.get("data"), dict) else {}
-                      
-                      p_url = a_data.get("Playback_videoURL")
-                      if p_url and str(p_url).startswith("http") and is_mpd_or_m3u8(str(p_url)):
-                          lbl = f"{lang} Server" if f"{lang} Server" not in servers else f"{lang} Server {idx}"
-                          servers[lbl] = str(p_url).strip()
-
-                      a_dai = a_data.get("dai_asset_key")
-                      if a_dai and str(a_dai).startswith("http") and is_mpd_or_m3u8(str(a_dai)) and "unavailable" not in str(a_dai).lower():
-                          dai_lbl = f"{lang} DAI"
-                          if dai_lbl not in servers:
-                              servers[dai_lbl] = str(a_dai).strip()
-
-              # 3. platformVariants থেকে ব্যাকআপ
-              pv = stream_info.get("platformVariants", {}) if isinstance(stream_info.get("platformVariants"), dict) else {}
-              pv_url = pv.get("videoUrl")
-              if pv_url and str(pv_url).startswith("http") and is_mpd_or_m3u8(str(pv_url)):
-                  if "Main Stream" not in servers:
-                      servers["Main Stream"] = str(pv_url).strip()
-
-              # 4. ডিপ ব্যাকআপ
-              if not servers:
-                  servers = extract_all_mpd_m3u8_streams(item)
-
               return servers
 
           def transform_sonyliv_item(item):
@@ -278,7 +196,7 @@ jobs:
               img_cdn = item.get("image_cdn", {}) if isinstance(item.get("image_cdn"), dict) else {}
               air_dates = item.get("air_dates", {}) if isinstance(item.get("air_dates"), dict) else {}
 
-              title = v_info.get("episodeTitle") or v_info.get("title") or item.get("title") or "Sony LIV Event"
+              title = v_info.get("episodeTitle") or v_info.get("title") or item.get("title") or "Sports Match"
               synopsis = v_info.get("longDescription") or v_info.get("shortDescription") or item.get("synopsis") or title
 
               cover_image = (
@@ -289,15 +207,17 @@ jobs:
               )
 
               stream_urls = extract_sonyliv_streams(item)
-              raw_time = air_dates.get("originalAirDate") or air_dates.get("contractStartDate") or air_dates.get("start_date") or item.get("time") or ""
+              dai_url = stream_urls.get("Original Server")
+              if dai_url:
+                  match_url = dai_url
+                  status = "LIVE"
+              else:
+                  content_id = item.get('contentId') or item.get('match_id', '')
+                  match_url = f"https://www.sonyliv.com/custom-live/{content_id}" if content_id else ""
+                  status = "LIVE" if is_live_event(item) else "UPCOMING"
+
+              raw_time = air_dates.get("originalAirDate") or air_dates.get("start_date") or item.get("time") or ""
               time_val = convert_to_bangladesh_time(raw_time)
-
-              raw_status = item.get("status") or ("LIVE" if item.get("is_playing") else None)
-              status = evaluate_status(raw_status, raw_time, default_if_unknown="UPCOMING")
-
-              content_id = item.get('contentId') or item.get('match_id', '')
-              first_stream = next(iter(stream_urls.values())) if stream_urls else ""
-              match_url = first_stream or (f"https://www.sonyliv.com/custom-live/{content_id}" if content_id else "")
 
               return {
                   "match_id": str(item.get("contentId") or item.get("match_id", "")),
@@ -341,17 +261,15 @@ jobs:
                   stream_urls = {k: v for k, v in raw_stream.items() if is_mpd_or_m3u8(v)}
 
               first_url = next(iter(stream_urls.values())) if stream_urls else ""
-              raw_time = item.get("EventStartDate") or item.get("time") or ""
               status_val = str(item.get("Status") or item.get("status") or "")
-              
-              status = evaluate_status(status_val, raw_time, default_if_unknown="UPCOMING")
+              is_live = True if "live" in status_val.lower() or is_live_event(item) else False
 
               return {
                   "match_id": str(item.get("EntityId") or item.get("CategoryId") or item.get("id") or ""),
                   "title": title,
                   "synopsis": synopsis,
-                  "status": status,
-                  "time": convert_to_bangladesh_time(raw_time),
+                  "status": "LIVE" if is_live else "UPCOMING",
+                  "time": convert_to_bangladesh_time(item.get("EventStartDate") or item.get("time") or ""),
                   "cover_image": cover_image,
                   "match_url": item.get("match_url") or first_url,
                   "is_free": item.get("IsFreeToWatch", False),
@@ -403,24 +321,19 @@ jobs:
               cover_image = item.get("cover_image") or item.get("thumbnail") or item.get("league_logo") or ""
 
               stream_urls = extract_bingstream_streams(item)
-              raw_time = item.get("bd_time") or item.get("time") or ""
-              raw_status = "LIVE" if item.get("is_playing") else item.get("status")
-              
-              status = evaluate_status(raw_status, raw_time, default_if_unknown="UPCOMING")
-
               return {
                   "match_id": str(item.get("id") or item.get("match_id") or ""),
                   "title": title,
                   "synopsis": title,
-                  "status": status,
-                  "time": convert_to_bangladesh_time(raw_time),
+                  "status": "LIVE" if (item.get("is_playing") or len(stream_urls) > 0) else "UPCOMING",
+                  "time": convert_to_bangladesh_time(item.get("bd_time") or item.get("time") or ""),
                   "cover_image": cover_image,
                   "match_url": next(iter(stream_urls.values())) if stream_urls else "",
                   "is_free": False,
                   "stream_url": stream_urls
               }
 
-          # ================= CUSTOM / LIVE SPORTS =================
+          # ================= CUSTOM / DASH DRM / LIVE SPORTS SUPPORT =================
           def is_custom_streams_item(item):
               if not isinstance(item, dict):
                   return False
@@ -490,14 +403,13 @@ jobs:
               )
               time_val = convert_to_bangladesh_time(raw_time)
 
-              raw_status = item.get("status")
-              status = evaluate_status(raw_status, raw_time, default_if_unknown="UPCOMING")
+              status = "LIVE" if (is_live_event(item) or len(stream_urls) > 0) else (item.get("status") or "UPCOMING")
 
               return {
                   "match_id": str(item.get("slug") or item.get("id") or item.get("match_id", "")),
                   "title": title,
                   "synopsis": synopsis,
-                  "status": status,
+                  "status": str(status).upper(),
                   "time": time_val,
                   "cover_image": cover_image,
                   "match_url": match_url,
@@ -545,50 +457,45 @@ jobs:
                   servers[f"Server {idx}"] = url
               return servers
 
-          # 🎯 SMART ROBUST EXTRACTOR (কখনোই ইভেন্ট মিস হবে না)
+          # ================= COMMON UTILS =================
+          def is_live_event(item):
+              if not isinstance(item, dict):
+                  return False
+              if item.get("is_playing") is True:
+                  return True
+              for k in ["is_live", "live", "isLive", "islive", "status", "Status"]:
+                  if k in item and str(item[k]).lower() in ["true", "1", "live"]:
+                      return True
+              return False
+
+          # 🎯 SMART EXTRACTOR: কোনো ইভেন্ট যাতে মিস না হয়
           def extract_items_from_json(data):
+              items = []
+
+              # যদি সরাসরি রুটে লিস্ট থাকে
               if isinstance(data, list):
                   return data
 
-              # ১. কমন রুট কি-গুলো চেক
-              for root_key in ["events", "matches", "data", "items", "channels", "list", "result", "programs", "episodes", "shows", "live_events", "live"]:
+              # যদি data/events/matches এর ভেতরে মূল লিস্ট থাকে
+              for root_key in ["events", "matches", "data", "items", "channels", "list"]:
                   if root_key in data and isinstance(data[root_key], list):
                       return data[root_key]
 
-              # ২. নেস্টেড অবজেক্ট (data -> result বা data -> items)
-              if "data" in data and isinstance(data["data"], dict):
-                  for sub_k in ["result", "events", "matches", "items", "channels", "list", "programs", "episodes", "shows", "live_events", "live"]:
-                      if sub_k in data["data"] and isinstance(data["data"][sub_k], list):
-                          return data["data"][sub_k]
-
-              # ৩. ডিকশনারির ভেতরে ইভেন্ট লিস্ট থাকা চেক
-              for k, v in data.items():
-                  if isinstance(v, list) and len(v) > 0 and isinstance(v[0], dict):
-                      first = v[0]
-                      if any(prop in first for prop in ["contentId", "video_info", "stream_info", "multiple_audio_links", "EntityId", "VideoName", "channels", "teams", "event_name", "link_live"]):
-                          return v
-
-              # ৪. রিকার্সিভ ওয়াক
-              items = []
               def walk(obj):
                   if isinstance(obj, list):
                       for elem in obj:
                           walk(elem)
                   elif isinstance(obj, dict):
-                      is_match = False
-                      if any(k in obj for k in ["contentId", "multiple_audio_links", "EntityId", "link_live", "extracted_links", "localteam_name"]):
-                          is_match = True
-                      elif "video_info" in obj and isinstance(obj["video_info"], dict):
-                          is_match = True
-                      elif "teams" in obj and isinstance(obj["teams"], dict):
-                          is_match = True
-                      elif any(k in obj for k in ["team_a", "team_b", "event_name", "schedule_time"]):
-                          is_match = True
-                      elif any(k in obj for k in ["title", "name", "VideoName"]) and any(k in obj for k in ["stream_url", "videoURL", "video_url", "match_url"]):
-                          if not any(isinstance(obj.get(sub), list) for sub in ["channels", "streams", "items", "events"]):
-                              is_match = True
+                      is_match_item = False
+                      has_media = any(k in obj for k in ["channels", "link_live", "extracted_links", "cdn_domain", "stream_link", "video_info", "stream_info", "stream_url", "multiple_audio_links", "video_url", "videoURL", "url", "streams"])
+                      has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "teams", "VideoName", "CategoryName", "sport", "event_name", "team_a", "team_b", "schedule", "slug", "sub_category"])
 
-                      if is_match:
+                      if has_media or has_sports:
+                          is_match_item = True
+                      elif any(k in obj for k in ["title", "name", "VideoName"]) and any(k in obj for k in ["match_url", "status", "stream_url", "cover_image", "url", "channels"]):
+                          is_match_item = True
+
+                      if is_match_item:
                           items.append(obj)
                       else:
                           for k, v in obj.items():
@@ -597,19 +504,19 @@ jobs:
                               walk(v)
               walk(data)
 
+              # নিরাপদ ডুপ্লিকেট রিমুভার (যাতে একাধিক ইভেন্ট মুছে না যায়)
               seen = set()
               unique_items = []
               for it in items:
                   if not isinstance(it, dict):
                       continue
-                  v_title = it.get("video_info", {}).get("title") if isinstance(it.get("video_info"), dict) else None
+                  # slug বা title বা raw stream লিঙ্ক মিলিয়ে ইউনিক কি তৈরি
                   uid = (
-                      it.get("contentId") or 
                       it.get("slug") or 
                       it.get("id") or 
+                      it.get("contentId") or 
                       it.get("match_id") or 
                       it.get("EntityId") or 
-                      v_title or
                       (f"{it.get('title')}_{it.get('schedule', {}).get('start_time_bst')}" if isinstance(it.get('schedule'), dict) else None) or
                       it.get("title") or 
                       it.get("name")
@@ -649,7 +556,7 @@ jobs:
                   slug = re.sub(r'[^a-zA-Z0-9_-]', '_', base).strip('_') if base else "playlist"
                   return slug.replace("_", " ").title(), slug.lower(), url
 
-          # ================= M3U DETAILS =================
+          # ================= ADVANCED M3U / DRM / HEADER PARSER =================
           def parse_stream_details(stream_url_raw, item_meta):
               stream_url = str(stream_url_raw).strip()
               headers = {}
@@ -789,20 +696,15 @@ jobs:
                           continue
                       
                       if is_sonyliv_item(it):
-                          item_transformed = transform_sonyliv_item(it)
+                          current_source_items.append(transform_sonyliv_item(it))
                       elif is_tapmad_source or is_tapmad_item(it):
-                          item_transformed = transform_tapmad_item(it)
+                          current_source_items.append(transform_tapmad_item(it))
                       elif is_bing_source or is_bingstream_item(it):
-                          item_transformed = transform_bingstream_item(it)
+                          current_source_items.append(transform_bingstream_item(it))
                       elif is_custom_streams_item(it):
-                          item_transformed = transform_custom_streams_item(it)
+                          current_source_items.append(transform_custom_streams_item(it))
                       else:
-                          time_val = convert_to_bangladesh_time(it.get("time") or it.get("start_time") or "")
-                          it["time"] = time_val
-                          it["status"] = evaluate_status(it.get("status"), it.get("time"), default_if_unknown="UPCOMING")
-                          item_transformed = it
-
-                      current_source_items.append(item_transformed)
+                          current_source_items.append(it)
 
                   final_json_events = [PROMO_ITEM] + current_source_items
                   src_total = len(final_json_events)
@@ -839,7 +741,7 @@ jobs:
           export TZ="Asia/Dhaka"
           git add *.json *.m3u
           if ! git diff --cached --quiet; then
-            git commit -m "🤖 Fixed SonyLIV stream extraction & updated playlists ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "🤖 Playlists Synced (All JSON & M3U with DRM Keys) ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
