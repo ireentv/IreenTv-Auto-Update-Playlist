@@ -3,7 +3,7 @@
   "developer": "MD ANAMUL HOQUE",
   "channels_amount": 2,
   "live_count": 2,
-  "last_update": "11:43 PM 16-10-2026 BST",
+  "last_update": "11:45 PM 16-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -14,9 +14,16 @@
       "cover_image": "https://i.ibb.co.com/XkDv6gpS/ireenTV.png",
       "match_url": "https://ireentvlive.pages.dev/promo/master.m3u8",
       "is_free": true,
-      "stream_url": {
-        "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
-      }
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "https://ireentvlive.pages.dev/promo/master.m3u8",
+          "raw_link": "https://ireentvlive.pages.dev/promo/master.m3u8",
+          "headers": {},
+          "drm_key": ""
+        }
+      ]
     },
     {
       "chno": 1,

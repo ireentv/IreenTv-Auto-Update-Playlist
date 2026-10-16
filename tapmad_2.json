@@ -3,7 +3,7 @@
   "developer": "MD ANAMUL HOQUE",
   "channels_amount": 87,
   "live_count": 1,
-  "last_update": "11:43 PM 16-10-2026 BST",
+  "last_update": "11:45 PM 16-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -14,9 +14,16 @@
       "cover_image": "https://i.ibb.co.com/XkDv6gpS/ireenTV.png",
       "match_url": "https://ireentvlive.pages.dev/promo/master.m3u8",
       "is_free": true,
-      "stream_url": {
-        "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
-      }
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "https://ireentvlive.pages.dev/promo/master.m3u8",
+          "raw_link": "https://ireentvlive.pages.dev/promo/master.m3u8",
+          "headers": {},
+          "drm_key": ""
+        }
+      ]
     },
     {
       "match_id": "17100",
@@ -27,7 +34,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921478821020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18422",
@@ -38,7 +45,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17918809741020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18275",
@@ -49,7 +56,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17909326981020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18981",
@@ -60,7 +67,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17917927291020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18251",
@@ -71,7 +78,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921558781020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18252",
@@ -82,7 +89,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921559451020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18253",
@@ -93,7 +100,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921560181020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18992",
@@ -104,7 +111,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17919634761020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18901",
@@ -115,7 +122,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921307571020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18276",
@@ -126,7 +133,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17909328641020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "17718",
@@ -137,7 +144,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17913546781020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "19011",
@@ -148,7 +155,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17919742061020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18277",
@@ -159,7 +166,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17909330291020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18998",
@@ -170,7 +177,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17919641311020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18423",
@@ -181,7 +188,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17918811121020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18278",
@@ -192,7 +199,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17909331651020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18424",
@@ -203,7 +210,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17918812581020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18425",
@@ -214,7 +221,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17918814321020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "19017",
@@ -225,7 +232,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17919746151020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18279",
@@ -236,7 +243,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17909333031020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18232",
@@ -247,7 +254,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17917963751020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "17701",
@@ -258,7 +265,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17918899001020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18880",
@@ -269,7 +276,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17919823391020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18280",
@@ -280,7 +287,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17909334501020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18426",
@@ -291,7 +298,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17918815661020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "19004",
@@ -302,7 +309,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17919643121020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "19023",
@@ -313,7 +320,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17919751411020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18281",
@@ -324,7 +331,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17909335741020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18427",
@@ -335,7 +342,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17918817101020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18428",
@@ -346,7 +353,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17918818331020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18429",
@@ -357,7 +364,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17918819751020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18282",
@@ -368,7 +375,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17909337051020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "19029",
@@ -379,7 +386,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17919754671020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18430",
@@ -390,7 +397,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17918821151020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18283",
@@ -401,7 +408,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17909363211020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18902",
@@ -412,7 +419,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921308921020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "17104",
@@ -423,7 +430,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921483431020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18284",
@@ -434,7 +441,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17909364431020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18881",
@@ -445,7 +452,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920437471020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18262",
@@ -456,7 +463,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17909367541020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18263",
@@ -467,7 +474,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17909368641020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18264",
@@ -478,7 +485,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17909369591020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18359",
@@ -489,7 +496,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920468451020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18360",
@@ -500,7 +507,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920467361020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18361",
@@ -511,7 +518,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920499071020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18362",
@@ -522,7 +529,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920496971020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18363",
@@ -533,7 +540,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920500581020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18364",
@@ -544,7 +551,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920493961020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18365",
@@ -555,7 +562,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920485981020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18366",
@@ -566,7 +573,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920495551020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18367",
@@ -577,7 +584,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920501931020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18368",
@@ -588,7 +595,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920503331020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18369",
@@ -599,7 +606,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920504591020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18370",
@@ -610,7 +617,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920515311020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18371",
@@ -621,7 +628,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920513731020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18372",
@@ -632,7 +639,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920510731020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18373",
@@ -643,7 +650,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920509401020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18374",
@@ -654,7 +661,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920506611020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18375",
@@ -665,7 +672,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920508111020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18376",
@@ -676,7 +683,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17920512241020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "19055",
@@ -687,7 +694,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921532811020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18959",
@@ -698,7 +705,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916651941020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18960",
@@ -709,7 +716,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916654441020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18961",
@@ -720,7 +727,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916657681020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18962",
@@ -731,7 +738,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916660451020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18963",
@@ -742,7 +749,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916663301020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18964",
@@ -753,7 +760,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916665741020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18965",
@@ -764,7 +771,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916670071020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18966",
@@ -775,7 +782,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916672801020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18967",
@@ -786,7 +793,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916674541020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18968",
@@ -797,7 +804,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916676001020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18969",
@@ -808,7 +815,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916677991020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18970",
@@ -819,7 +826,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916679621020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18971",
@@ -830,7 +837,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916681551020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18972",
@@ -841,7 +848,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916683951020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18973",
@@ -852,7 +859,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916686221020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18974",
@@ -863,7 +870,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916688431020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18975",
@@ -874,7 +881,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916691411020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18976",
@@ -885,7 +892,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17916693621020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "19072",
@@ -896,7 +903,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921414021020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "19078",
@@ -907,7 +914,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921417201020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "18234",
@@ -918,7 +925,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921318911020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "19084",
@@ -929,7 +936,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921420211020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "19090",
@@ -940,7 +947,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921470741020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "17702",
@@ -951,7 +958,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17918900981020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "17099",
@@ -962,7 +969,7 @@
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17921477081020x576.jpg",
       "match_url": "",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     }
   ]
 }

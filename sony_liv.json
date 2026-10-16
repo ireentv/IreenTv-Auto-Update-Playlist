@@ -3,7 +3,7 @@
   "developer": "MD ANAMUL HOQUE",
   "channels_amount": 11,
   "live_count": 1,
-  "last_update": "11:43 PM 16-10-2026 BST",
+  "last_update": "11:45 PM 16-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -14,9 +14,16 @@
       "cover_image": "https://i.ibb.co.com/XkDv6gpS/ireenTV.png",
       "match_url": "https://ireentvlive.pages.dev/promo/master.m3u8",
       "is_free": true,
-      "stream_url": {
-        "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
-      }
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "https://ireentvlive.pages.dev/promo/master.m3u8",
+          "raw_link": "https://ireentvlive.pages.dev/promo/master.m3u8",
+          "headers": {},
+          "drm_key": ""
+        }
+      ]
     },
     {
       "match_id": "1090538390",
@@ -27,9 +34,16 @@
       "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023823/1789112795931380_KBC_S18_simulcast_11sep_landscape_thumb.jpg",
       "match_url": "https://dai.google.com/ssai/event/8-qlJLN8SS6X0gsS5u62bw/master.m3u8",
       "is_free": false,
-      "stream_url": {
-        "Original Server": "https://dai.google.com/ssai/event/8-qlJLN8SS6X0gsS5u62bw/master.m3u8"
-      }
+      "stream_url": [
+        {
+          "channel_name": "Original Server",
+          "stream_type": "HLS",
+          "url": "https://dai.google.com/ssai/event/8-qlJLN8SS6X0gsS5u62bw/master.m3u8",
+          "raw_link": "https://dai.google.com/ssai/event/8-qlJLN8SS6X0gsS5u62bw/master.m3u8",
+          "headers": {},
+          "drm_key": ""
+        }
+      ]
     },
     {
       "match_id": "1090548747",
@@ -40,7 +54,7 @@
       "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026492/1792137929659511_INDvsNZ_promo_dated_landscape_thumb.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090548747",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "1090547508",
@@ -51,7 +65,7 @@
       "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026319/1791973979294868_ISL_Bengaluru_FC_vs_Chennaiyin_FC_promo_landscape_thumb_dated.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090547508",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "1090548865",
@@ -62,7 +76,7 @@
       "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026514/1792170340571528_INDvsNZ_5t20i_promo_landscape_thumb.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090548865",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "1090548837",
@@ -73,7 +87,7 @@
       "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026512/1792168426244866_NZvsIND_1st_t20i_promo_landscape_thumb.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090548837",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "1090546015",
@@ -84,7 +98,7 @@
       "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025605/1790913888711779_ag_indvs_nz_promo_dated_landscape_thumb.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090546015",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "1090538916",
@@ -95,7 +109,7 @@
       "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022033/1786433246787561_NZ_vs_IND_DDT_Promo_landscape.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090538916",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "1090542506",
@@ -106,7 +120,7 @@
       "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023939/1789325459946480_IND_vs_NZ_landsacpe_thumb.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090542506",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "1090541320",
@@ -117,7 +131,7 @@
       "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023378/178835785489135_Sunil_grover_landscape_thumb.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090541320",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     },
     {
       "match_id": "1090548283",
@@ -128,7 +142,7 @@
       "cover_image": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026328/1791978466033872_STCL_promo_landscape_thumb.jpg",
       "match_url": "https://www.sonyliv.com/custom-live/1090548283",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": []
     }
   ]
 }
