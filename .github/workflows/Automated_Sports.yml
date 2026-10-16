@@ -333,7 +333,7 @@ jobs:
                   "stream_url": stream_urls
               }
 
-          # ================= CUSTOM / DASH DRM / CHANNELS SUPPORT =================
+          # ================= CUSTOM / DASH DRM / LIVE SPORTS SUPPORT =================
           def is_custom_streams_item(item):
               if not isinstance(item, dict):
                   return False
@@ -341,7 +341,7 @@ jobs:
                   return True
               if "streams" in item and isinstance(item["streams"], list):
                   return True
-              if any(k in item for k in ["team_a", "team_b", "teams", "event_name", "schedule_time"]):
+              if any(k in item for k in ["team_a", "team_b", "teams", "event_name", "schedule_time", "slug", "sub_category"]):
                   return True
               return False
 
@@ -350,12 +350,12 @@ jobs:
               team_a = teams.get("team_a", {}) if isinstance(teams.get("team_a"), dict) else (item.get("team_a", {}) if isinstance(item.get("team_a"), dict) else {})
               team_b = teams.get("team_b", {}) if isinstance(teams.get("team_b"), dict) else (item.get("team_b", {}) if isinstance(item.get("team_b"), dict) else {})
               
-              team_a_name = team_a.get("name", "").strip()
-              team_b_name = team_b.get("name", "").strip()
+              team_a_name = team_a.get("name", "").strip() if isinstance(team_a, dict) else ""
+              team_b_name = team_b.get("name", "").strip() if isinstance(team_b, dict) else ""
               event_name = item.get("event_name", "").strip()
               category = item.get("sport") or item.get("category", "").strip()
 
-              if team_a_name and team_b_name:
+              if team_a_name and team_b_name and (team_a_name.lower() != team_b_name.lower()):
                   match_title = f"{team_a_name} vs {team_b_name}"
                   title = f"{item.get('title')}: {match_title}" if item.get("title") else match_title
               else:
@@ -367,10 +367,10 @@ jobs:
                   item.get("logo") or 
                   item.get("event_logo") or 
                   item.get("cover_image") or 
-                  team_a.get("flag") or 
-                  team_b.get("flag") or 
-                  team_a.get("logo") or 
-                  team_b.get("logo") or 
+                  (team_a.get("flag") if isinstance(team_a, dict) else "") or 
+                  (team_b.get("flag") if isinstance(team_b, dict) else "") or 
+                  (team_a.get("logo") if isinstance(team_a, dict) else "") or 
+                  (team_b.get("logo") if isinstance(team_b, dict) else "") or 
                   item.get("thumbnail") or ""
               )
 
@@ -468,19 +468,29 @@ jobs:
                       return True
               return False
 
+          # 🎯 SMART EXTRACTOR: কোনো ইভেন্ট যাতে মিস না হয়
           def extract_items_from_json(data):
               items = []
+
+              # যদি সরাসরি রুটে লিস্ট থাকে
+              if isinstance(data, list):
+                  return data
+
+              # যদি data/events/matches এর ভেতরে মূল লিস্ট থাকে
+              for root_key in ["events", "matches", "data", "items", "channels", "list"]:
+                  if root_key in data and isinstance(data[root_key], list):
+                      return data[root_key]
+
               def walk(obj):
                   if isinstance(obj, list):
                       for elem in obj:
                           walk(elem)
                   elif isinstance(obj, dict):
                       is_match_item = False
-                      has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "id", "slug", "EntityId", "CategoryId", "chno", "chanel_id"])
                       has_media = any(k in obj for k in ["channels", "link_live", "extracted_links", "cdn_domain", "stream_link", "video_info", "stream_info", "stream_url", "multiple_audio_links", "video_url", "videoURL", "url", "streams"])
-                      has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "teams", "VideoName", "CategoryName", "sport", "event_name", "team_a", "team_b", "schedule"])
+                      has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "teams", "VideoName", "CategoryName", "sport", "event_name", "team_a", "team_b", "schedule", "slug", "sub_category"])
 
-                      if (has_id and (has_media or has_sports)) or has_media:
+                      if has_media or has_sports:
                           is_match_item = True
                       elif any(k in obj for k in ["title", "name", "VideoName"]) and any(k in obj for k in ["match_url", "status", "stream_url", "cover_image", "url", "channels"]):
                           is_match_item = True
@@ -494,10 +504,23 @@ jobs:
                               walk(v)
               walk(data)
 
+              # নিরাপদ ডুপ্লিকেট রিমুভার (যাতে একাধিক ইভেন্ট মুছে না যায়)
               seen = set()
               unique_items = []
               for it in items:
-                  uid = it.get("contentId") or it.get("match_id") or it.get("slug") or it.get("id") or it.get("EntityId") or it.get("title") or it.get("name")
+                  if not isinstance(it, dict):
+                      continue
+                  # slug বা title বা raw stream লিঙ্ক মিলিয়ে ইউনিক কি তৈরি
+                  uid = (
+                      it.get("slug") or 
+                      it.get("id") or 
+                      it.get("contentId") or 
+                      it.get("match_id") or 
+                      it.get("EntityId") or 
+                      (f"{it.get('title')}_{it.get('schedule', {}).get('start_time_bst')}" if isinstance(it.get('schedule'), dict) else None) or
+                      it.get("title") or 
+                      it.get("name")
+                  )
                   if uid and uid not in seen:
                       seen.add(uid)
                       unique_items.append(it)
@@ -514,8 +537,10 @@ jobs:
               
               url = url_line.strip()
               url_lower = url.lower()
-              if "willow" in url_lower or "live_sports" in url_lower:
+              if "willow" in url_lower:
                   return "Willow", "willow", url
+              elif "live_sports" in url_lower:
+                  return "Live Sports", "live_sports", url
               elif "prime" in url_lower:
                   return "PrimeVideo", "primevideo", url
               elif "sony" in url_lower:
@@ -559,7 +584,6 @@ jobs:
                   if hv and hk not in headers:
                       headers[hk] = str(hv).strip()
 
-              # DRM Key ক্যাচিং
               clearkey_val = ""
               for ck_name in ["drm_key", "clearkey", "clear_key", "key", "license_key"]:
                   if ck_name in item_meta and item_meta[ck_name]:
@@ -671,7 +695,6 @@ jobs:
                       if not isinstance(it, dict):
                           continue
                       
-                      # ক্রমানুসারে সঠিক টাইপ অনুযায়ী ট্রান্সফর্মেশন
                       if is_sonyliv_item(it):
                           current_source_items.append(transform_sonyliv_item(it))
                       elif is_tapmad_source or is_tapmad_item(it):
@@ -687,7 +710,6 @@ jobs:
                   src_total = len(final_json_events)
                   src_live = sum(1 for it in final_json_events if is_live_event(it))
 
-                  # ১. JSON ফাইল তৈরি
                   source_json = {
                       "playlist_name": name,
                       "developer": "MD ANAMUL HOQUE",
@@ -699,7 +721,6 @@ jobs:
                   with open(f"{slug}.json", "w", encoding="utf-8") as f:
                       json.dump(source_json, f, indent=2, ensure_ascii=False)
 
-                  # ২. M3U ফাইল তৈরি
                   m3u_data = generate_m3u(name, current_source_items, src_total, src_live, current_time)
                   with open(f"{slug}.m3u", "w", encoding="utf-8") as f:
                       f.write(m3u_data)
