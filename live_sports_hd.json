@@ -1,9 +1,9 @@
 {
   "playlist_name": "live_sports_HD",
   "developer": "MD ANAMUL HOQUE",
-  "channels_amount": 108,
+  "channels_amount": 109,
   "live_count": 1,
-  "last_update": "11:59 PM 16-10-2026 BST",
+  "last_update": "12:00 AM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -140,6 +140,46 @@
           "stream_type": "HLS",
           "url": "https://dai-fancode.pages.dev/mumbai/4249229_english_hls_dd4592751127063_1ta-di_h264/index.m3u8",
           "raw_link": "https://dai-fancode.pages.dev/mumbai/4249229_english_hls_dd4592751127063_1ta-di_h264/index.m3u8",
+          "headers": {},
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "sports-match",
+      "title": "Sports Match",
+      "synopsis": "Sports Match",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "",
+      "match_url": "https://live.vivo155.com/live/sd-1-4552219.m3u8?txSecret=d231bc19e3da54cb39e4e7c437172987&txTime=6AD27933",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/sd-1-4552219.m3u8?txSecret=d231bc19e3da54cb39e4e7c437172987&txTime=6AD27933",
+          "raw_link": "https://live.vivo155.com/live/sd-1-4552219.m3u8?txSecret=d231bc19e3da54cb39e4e7c437172987&txTime=6AD27933",
+          "headers": {},
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "sports-match",
+      "title": "Sports Match",
+      "synopsis": "Sports Match",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "",
+      "match_url": "http://193.47.62.44/hls/Z666AAAA.m3u8",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/Z666AAAA.m3u8",
+          "raw_link": "http://193.47.62.44/hls/Z666AAAA.m3u8",
           "headers": {},
           "drm_key": ""
         }
@@ -571,26 +611,6 @@
           "stream_type": "HLS",
           "url": "https://edgestream4.pro/hls/24SDAZFcsqnj24.m3u8",
           "raw_link": "https://edgestream4.pro/hls/24SDAZFcsqnj24.m3u8",
-          "headers": {},
-          "drm_key": ""
-        }
-      ]
-    },
-    {
-      "match_id": "sports-match",
-      "title": "Sports Match",
-      "synopsis": "Sports Match",
-      "status": "UPCOMING",
-      "time": "",
-      "cover_image": "",
-      "match_url": "http://193.47.62.44/hls/Z666AAAA.m3u8",
-      "is_free": false,
-      "stream_url": [
-        {
-          "channel_name": "Server 1",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.44/hls/Z666AAAA.m3u8",
-          "raw_link": "http://193.47.62.44/hls/Z666AAAA.m3u8",
           "headers": {},
           "drm_key": ""
         }
