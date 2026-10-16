@@ -637,7 +637,7 @@ jobs:
                   elif isinstance(obj, dict):
                       is_match_item = False
                       has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id", "fixture_id", "EntityId", "CategoryId", "chno", "chanel_id"])
-                      has_media = any(k in obj for k in ["link_live", "extracted_links", "cdn_domain", "stream_link", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "stream_url_bravo", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL", "ThumbnailStandard", "ThumbnailTV", "drm_key", "url", "streams", "api"])
+                      has_media = any(k in obj for k in ["link_live", "extracted_links", "cdn_domain", "stream_link", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "stream_url_bravo", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL", "ThumbnailStandard", "ThumbnailTV", "drm_key", "url", "streams"])
                       has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "league_name", "timelive", "is_playing", "VideoName", "CategoryName", "StageName", "sport", "event", "event_name", "team_a", "team_b", "schedule_time", "event_logo"])
 
                       if (has_id and (has_media or has_sports)) or has_media:
@@ -710,17 +710,14 @@ jobs:
 
           # ================= ADVANCED M3U / DRM / HEADER PARSER =================
           def extract_drm_keys(data):
-              """'api' সহ যেকোনো ফরম্যাটের ClearKey (kid:key) নিখুঁতভাবে বের করে আনে"""
+              """গভীরভাবে ডিকশনারি ও লিস্ট সার্চ করে ClearKey (kid:key) খুঁজে বের করে"""
               if not data:
                   return ""
               
               if isinstance(data, str):
                   s = data.strip()
-                  # KID:KEY প্যাটার্ন টেস্ট (১৬-৩২ বাইট হেক্স স্ট্রিং এর জোড়া)
-                  if ":" in s:
-                      parts = s.split(":")
-                      if len(parts) == 2 and len(parts[0].strip()) >= 16 and len(parts[1].strip()) >= 16:
-                          return s
+                  if ":" in s and len(s) >= 33:
+                      return s
                   return ""
               
               if isinstance(data, dict):
@@ -732,18 +729,16 @@ jobs:
                               if kd and ky:
                                   return f"{kd}:{ky}"
                   
-                  # 'api' কি অথবা অন্যান্য কমন ফিল্ডে কি থাকলে
-                  for k_name in ["api", "drm_key", "clearkey", "clear_key", "clear_keys", "drm", "license_key", "keys", "key"]:
-                      if k_name in data and data[k_name]:
-                          val = data[k_name]
-                          # যদি 'api' ফিল্ডে স্ট্রিং বা ডিকশনারি আকারে থাকে
-                          found = extract_drm_keys(val)
+                  # কমন ফিল্ড নেম চেকিং
+                  for k_name in ["drm_key", "clearkey", "clear_key", "clear_keys", "drm", "license_key", "keys", "key"]:
+                      if k_name in data:
+                          found = extract_drm_keys(data[k_name])
                           if found:
                               return found
                               
-                  # নেস্টেড অবজেক্টগুলোতেও খুঁজে দেখবে
+                  # nested ডিকশনারি হলে
                   for k, v in data.items():
-                      if isinstance(v, (dict, list)) and k.lower() not in ["stream_url"]:
+                      if isinstance(v, (dict, list)) and k.lower() not in ["streams", "stream_url"]:
                           found = extract_drm_keys(v)
                           if found:
                               return found
@@ -800,7 +795,7 @@ jobs:
                       headers["Cookie"] = str(item_meta[ck_k]).strip()
                       break
 
-              # DRM Key খোঁজা ('api' সহ সব ফিল্ড সাপোর্ট করে)
+              # DRM Key খোঁজা
               clearkey_val = extract_drm_keys(item_meta)
 
               is_mpd = ".mpd" in base_url.lower() or item_meta.get("manifest_type") == "mpd" or bool(clearkey_val)
@@ -885,6 +880,7 @@ jobs:
                           s_name = s.get("name") or "Server"
                           stream_title = f"{title} ({s_name})" if len(it["streams"]) > 1 else title
                           
+                          # কম্বাইন্ড মেটাডেটা যাতে সাব-অবজেক্ট বা প্যারেন্ট অবজেক্ট দুটোর যে কোনো এক জায়গা থেকে কি ডিটেক্ট হতে পারে
                           merged_meta = {**it, **s}
                           lines.append(build_m3u_channel_block(stream_title, logo, playlist_name, str(s_url).strip(), merged_meta))
                   else:
