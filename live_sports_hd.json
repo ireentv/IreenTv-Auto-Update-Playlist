@@ -3,7 +3,7 @@
   "developer": "MD ANAMUL HOQUE",
   "channels_amount": 62,
   "live_count": 41,
-  "last_update": "10:41 PM 16-10-2026 BST",
+  "last_update": "10:42 PM 16-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -465,6 +465,7 @@
       "is_free": false,
       "stream_url": {
         "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "CRICFy LIVE": "https://live.vivo155.com/live/hd-en-1-4566562.m3u8?txSecret=33b19ea0211d5d1a69b48d3eeb3659ed&txTime=6AD26769|Referer=https://player.online878.com/",
         "LOW SERVER": "http://193.47.62.59/hls/HHHHWQAAQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       },
       "channels": [
@@ -477,6 +478,16 @@
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
           },
           "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+        },
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/hd-en-1-4566562.m3u8?txSecret=33b19ea0211d5d1a69b48d3eeb3659ed&txTime=6AD26769",
+          "raw_link": "https://live.vivo155.com/live/hd-en-1-4566562.m3u8?txSecret=33b19ea0211d5d1a69b48d3eeb3659ed&txTime=6AD26769|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
+          },
+          "drm_key": null
         },
         {
           "channel_name": "LOW SERVER",
@@ -501,6 +512,16 @@
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
           },
           "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+        },
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/hd-en-1-4566562.m3u8?txSecret=33b19ea0211d5d1a69b48d3eeb3659ed&txTime=6AD26769",
+          "raw_link": "https://live.vivo155.com/live/hd-en-1-4566562.m3u8?txSecret=33b19ea0211d5d1a69b48d3eeb3659ed&txTime=6AD26769|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
+          },
+          "drm_key": null
         },
         {
           "channel_name": "LOW SERVER",

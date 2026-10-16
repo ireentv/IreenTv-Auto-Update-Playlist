@@ -3,7 +3,7 @@
 # Developer      : MD ANAMUL HOQUE
 # Total Channels : 62
 # Live Count     : 41
-# Last Update    : 10:41 PM 16-10-2026 BST
+# Last Update    : 10:42 PM 16-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -135,6 +135,11 @@ http://193.47.62.59/hls/HHHHWQAAQQQQQA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 1
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-name="Energie Cottbus vs 1. FC Nurnberg: Energie Cottbus vs 1. FC Nürnberg - CRICFy LIVE" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/44/image/dark" group-title="live_sports_HD",Energie Cottbus vs 1. FC Nurnberg: Energie Cottbus vs 1. FC Nürnberg - CRICFy LIVE
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
+https://live.vivo155.com/live/hd-en-1-4566562.m3u8?txSecret=33b19ea0211d5d1a69b48d3eeb3659ed&txTime=6AD26769|Referer=https://player.online878.com/
 #EXTINF:-1 tvg-name="Energie Cottbus vs 1. FC Nurnberg: Energie Cottbus vs 1. FC Nürnberg - LOW SERVER" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/44/image/dark" group-title="live_sports_HD",Energie Cottbus vs 1. FC Nurnberg: Energie Cottbus vs 1. FC Nürnberg - LOW SERVER
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
