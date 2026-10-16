@@ -1,9 +1,11 @@
 {
   "playlist_name": "live_events",
   "developer": "MD ANAMUL HOQUE",
+  "telegram": "https://t.me/ireentv",
+  "website": "https://anamul.pages.dev",
   "channels_amount": 63,
   "live_count": 63,
-  "last_update": "12:20 AM 17-10-2026 BST",
+  "last_update": "12:25 AM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -36,64 +38,6 @@
         "Cricfy HD": "https://tedesco.formaturamaxi.com.br/f1.m3u8|referer=http://fawanews.sc/",
         "Low": "http://193.47.62.50/hls/HHHHRAAA.m3u8|referer=http://fawanews.sc/"
       },
-      "channels": [
-        {
-          "name": "TNT SPORTS - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
-          "tokenApi": null
-        },
-        {
-          "name": "FANCODE - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "scheme": 0,
-          "api": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-          "tokenApi": null
-        },
-        {
-          "name": "SPOTV - AQ",
-          "link": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
-          "scheme": 0,
-          "api": "7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed",
-          "tokenApi": null
-        },
-        {
-          "name": "MotoGP - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de",
-          "tokenApi": null
-        },
-        {
-          "name": "MOTO Cricfy",
-          "link": "https://chatgpt.hereisman.net/playlist/57392/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream1.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy HD",
-          "link": "https://tedesco.formaturamaxi.com.br/f1.m3u8|referer=http://fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.50/hls/HHHHRAAA.m3u8|referer=http://fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "TNT SPORTS - AQ",
@@ -169,43 +113,6 @@
         "WE NXT": "https://admin2.formaturamaxi.com.br/wwe.m3u8|referer=http://fawanews.sc/",
         "Low": "http://193.47.62.44/hls/R666A.m3u8|referer=http://fawanews.sc/"
       },
-      "channels": [
-        {
-          "name": "Cricfy NXT Live",
-          "link": "https://jellyfin.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "WWE",
-          "link": "https://admin2.passionepizza.com.br/wwe.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "NXT WWE",
-          "link": "https://edgestream4.pro/hls/zeuryuegn48.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "WE NXT",
-          "link": "https://admin2.formaturamaxi.com.br/wwe.m3u8|referer=http://fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.44/hls/R666A.m3u8|referer=http://fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "Cricfy NXT Live",
@@ -213,6 +120,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "Server 2",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://taifood-blog.asia/embed/wwe/2026-10-13",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         },
         {
           "name": "WWE",
@@ -258,36 +181,6 @@
         "WWE - AQ": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561402/index.mpd",
         "Cricfy Live": "https://fastly.live.brightcove.com/1850722103624061910/ap-southeast-1/6195549636001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaTE3dzIxLmVncmVzcy5zYjBmOGsiLCJhY2NvdW50X2lkIjoiNjE5NTU0OTYzNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MTk1NTQ5NjM2MDAxIl0sImp0aSI6IjE4NTA3MjIxMDM2MjQwNjE5MTAifQ.MQrZwY5puqZGRgWL843gOZ-Y7i2jUGB5McfZKwoOB1I/playlist-hls.m3u8"
       },
-      "channels": [
-        {
-          "name": "One Fight - AQ",
-          "link": "https://live-pv-ta.amazon.fastly-edge.com/syd-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "308006101c8fd0262c0f529319b9c127:37683aadc75b1450efa82d62c647984d",
-          "tokenApi": null
-        },
-        {
-          "name": "WWE - AQ",
-          "link": "https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd",
-          "scheme": 0,
-          "api": "60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271",
-          "tokenApi": null
-        },
-        {
-          "name": "WWE - AQ",
-          "link": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561402/index.mpd",
-          "scheme": 0,
-          "api": "a6b967afcb974bb5a549377b4f09befd:87d993257a099324ccd0215475fc61a0",
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy Live",
-          "link": "https://fastly.live.brightcove.com/1850722103624061910/ap-southeast-1/6195549636001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaTE3dzIxLmVncmVzcy5zYjBmOGsiLCJhY2NvdW50X2lkIjoiNjE5NTU0OTYzNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MTk1NTQ5NjM2MDAxIl0sImp0aSI6IjE4NTA3MjIxMDM2MjQwNjE5MTAifQ.MQrZwY5puqZGRgWL843gOZ-Y7i2jUGB5McfZKwoOB1I/playlist-hls.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "One Fight - AQ",
@@ -316,6 +209,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "Cricfy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://taifood-blog.asia/embed/wwe/2026-10-09",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -341,85 +250,6 @@
         "Cricfy HD": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/ba250ab7-42a8-4b81-8075-3d662b83eb51/master.m3u8",
         "Sportscast": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/10aebb0b-9c74-4664-abd9-acc9085c27e8/master.m3u8"
       },
-      "channels": [
-        {
-          "name": "TSN SPORTS - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
-          "tokenApi": null
-        },
-        {
-          "name": "SK SPORTS - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/duswnrmxpw/out/v1/12ccf25f7bc545c2be53511956c7f40f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "b48b292c66f796d2fea54beb5298e96d:9fcdc4a898ccf47be7e7bbabf91776db",
-          "tokenApi": null
-        },
-        {
-          "name": "FANCODE - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
-          "tokenApi": null
-        },
-        {
-          "name": "SporTV BR - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
-          "tokenApi": null
-        },
-        {
-          "name": "CGPT LIVE",
-          "link": "https://chatgpt.hereisman.net/playlist/57720/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy SPORTS DE",
-          "link": "https://netanjahu.hls.st/t/e8970a1d758868b392308ce095caa041/index.m3u8?|Referer=https://iplayer.is/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "DAZN SPORTS",
-          "link": "https://netanjahu.hls.st/t/c1dba79757f1e493804b93b793f031ca/index.m3u8?|Referer=https://iplayer.is/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "SK sports F1",
-          "link": "https://admin2.formaturamaxi.com.br/f1.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.55/hls/NNNN.m3u8|referer=http://fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy HD",
-          "link": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/ba250ab7-42a8-4b81-8075-3d662b83eb51/master.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Sportscast",
-          "link": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/10aebb0b-9c74-4664-abd9-acc9085c27e8/master.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "TSN SPORTS - AQ",
@@ -450,6 +280,38 @@
           "tokenApi": null
         },
         {
+          "name": "DAZN ESPANOL",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://embedindia.st/embed/azerbaijan-grand-prix---race-28838",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "APPLE TV",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://embedindia.st/embed/f1/2026/bahrain/qualifying",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
           "name": "CGPT LIVE",
           "link": "https://chatgpt.hereisman.net/playlist/57720/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
           "scheme": 0,
@@ -476,6 +338,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "FS2",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://a13.kora-plus.li/framecenter.php?ch=363-1|referer=https://sportiskes.space/&origin=https://sportiskes.space&sec-fetch-dest=iframe",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         },
         {
           "name": "Low",
@@ -518,57 +396,6 @@
         "Backup SD": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://27lftgqlgzmy.windows-devs.top/",
         "Low": "http://193.47.62.41/hls/YBBBAaaaqqq.m3u8?|referer=http://www.fawanews.sc/"
       },
-      "channels": [
-        {
-          "name": "Cricfy WWE",
-          "link": "https://chatgpt.hereisman.net/playlist/54800/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy RAW",
-          "link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "CricfyTV.Net",
-          "link": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "HD SERVER",
-          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://26hrwgorfcmh.windows-devs.top/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy HD",
-          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_LQ/apache.m3u8|Referer=https://26hrwgorfcmh.windows-devs.top/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Backup SD",
-          "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://27lftgqlgzmy.windows-devs.top/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.41/hls/YBBBAaaaqqq.m3u8?|referer=http://www.fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "Cricfy WWE",
@@ -576,6 +403,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "WWE 6OCT",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://embedindia.st/embed/wwe/2026-10-06",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         },
         {
           "name": "Cricfy RAW",
@@ -638,52 +481,15 @@
         "USA TV": "https://g001-sle-us-cmaf-prd-ak.pcdn03.cssott.com/Content/CMAF_OS1-CTR-4s-v2/Live/channel(12010340-12010340-4445585a62764)/master_2hr.mpd",
         "LOW QUALITY": "https://android-database1.firebase-api.com/AccessLog2/108085_HD/apache.m3u8|Referer=https://android-database1.firebase-api.com"
       },
-      "channels": [
-        {
-          "name": "WWE LIVE FHD",
-          "link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "HD SERVER",
-          "link": "https://edgestream6.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy TV+ HD",
-          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://26hrwgorfcmh.windows-devs.top/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "HD QUALITY",
-          "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_HD/apache.m3u8?|referer=https://26hrwgorfcmh.windows-devs.top/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "USA TV",
-          "link": "https://g001-sle-us-cmaf-prd-ak.pcdn03.cssott.com/Content/CMAF_OS1-CTR-4s-v2/Live/channel(12010340-12010340-4445585a62764)/master_2hr.mpd",
-          "scheme": 0,
-          "api": "58551b13211b37d5b325d67e5c6cabef:3b4c3f8b4236fc57d66cdb54a606fe41",
-          "tokenApi": null
-        },
-        {
-          "name": "LOW QUALITY",
-          "link": "https://android-database1.firebase-api.com/AccessLog2/108085_HD/apache.m3u8|Referer=https://android-database1.firebase-api.com",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
+          "name": "Cricfy WWE",
+          "link": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?|Referer=https://gooz.aapmains.net",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
           "name": "WWE LIVE FHD",
           "link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
           "scheme": 0,
@@ -724,6 +530,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "Cricfy WWE",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://embedindia.st/embed/wwe/2026-10-02",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -746,64 +568,6 @@
         "FANCODE ENG (IND)": "https://dai-fancode.pages.dev/mumbai/4249220_english_hls_678474ccb382104_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
         "Low": "http://193.47.62.44/hls/DYYYY.m3u8?|referer=http://fawanews.sc/?|referer=http://fawanews.sc/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       },
-      "channels": [
-        {
-          "name": "WILLOW - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
-          "scheme": 0,
-          "api": "5a0e73fa4a0c0573476bf83d0e677b37:dcddd039f451b85d8463a35624e42aaf",
-          "tokenApi": null
-        },
-        {
-          "name": "FANCODE - IN",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "scheme": 0,
-          "api": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-          "tokenApi": null
-        },
-        {
-          "name": "STARZPLAY - AQ",
-          "link": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
-          "scheme": 0,
-          "api": "0ae4f162eec3e6f2b580a5bf0f4a64d4:03483335db81cba5bbcf51b6d31196d9",
-          "tokenApi": null
-        },
-        {
-          "name": "WILLOW ALT - AQ",
-          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
-          "scheme": 0,
-          "api": "5a0e73fa4a0c0573476bf83d0e677b37:dcddd039f451b85d8463a35624e42aaf",
-          "tokenApi": null
-        },
-        {
-          "name": "WILLOW HD",
-          "link": "https://df3xownvf1f4t.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/willow_tv/playlist.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "FANCODE HIN (IND)",
-          "link": "https://dai-fancode.pages.dev/mumbai/4249227_hindi_hls_6f1246eee534646_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "FANCODE ENG (IND)",
-          "link": "https://dai-fancode.pages.dev/mumbai/4249220_english_hls_678474ccb382104_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.44/hls/DYYYY.m3u8?|referer=http://fawanews.sc/?|referer=http://fawanews.sc/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "WILLOW - AQ",
@@ -879,43 +643,6 @@
         "TAMASHA - AQ": "https://gcpcdn2.tamashaweb.com/live/main.m3u8?timeshift=1",
         "Low Server": "http://193.47.62.41/hls/krrr.m3u8|referer=http://www.fawanews.sc/"
       },
-      "channels": [
-        {
-          "name": "WILLOW - FHD",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1izizyimsv/out/v1/8e83c58952df4181b17e46dd1253d66e/cenc.mpd",
-          "scheme": 0,
-          "api": "ede638607823805e7767784e4558292b:91fccc57c058218c2a22fa21f378a1af",
-          "tokenApi": null
-        },
-        {
-          "name": "WILLOW - ALT",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1izizyimsv/out/v1/8e83c58952df4181b17e46dd1253d66e/cenc.mpd",
-          "scheme": 0,
-          "api": "ede638607823805e7767784e4558292b:91fccc57c058218c2a22fa21f378a1af",
-          "tokenApi": null
-        },
-        {
-          "name": "TAPMAD - AQ",
-          "link": "https://premierleagpl23.akamaized.net/hls/live/2107108/ucl-2tap259/master.m3u8|referer=https://tapmad.com/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "TAMASHA - AQ",
-          "link": "https://gcpcdn2.tamashaweb.com/live/main.m3u8?timeshift=1",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low Server",
-          "link": "http://193.47.62.41/hls/krrr.m3u8|referer=http://www.fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "WILLOW - FHD",
@@ -968,29 +695,6 @@
         "CricFy (HIN)": "https://sonymtmnew.akamaized.net/hls/live/2120303/Footlive1610/HIN/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=58af097bebde28f22839f406d8e8bed8-1792156202178",
         "CricFy (BEN)": "https://sonymtmnew.akamaized.net/hls/live/2120305/Footlive1610/BEN/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=58af097bebde28f22839f406d8e8bed8-1792156202178"
       },
-      "channels": [
-        {
-          "name": "CricFy (ENG)",
-          "link": "https://sonymtmnew.akamaized.net/hls/live/2120304/Footlive1610/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=58af097bebde28f22839f406d8e8bed8-1792156202178",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "CricFy (HIN)",
-          "link": "https://sonymtmnew.akamaized.net/hls/live/2120303/Footlive1610/HIN/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=58af097bebde28f22839f406d8e8bed8-1792156202178",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "CricFy (BEN)",
-          "link": "https://sonymtmnew.akamaized.net/hls/live/2120305/Footlive1610/BEN/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=58af097bebde28f22839f406d8e8bed8-1792156202178",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "CricFy (ENG)",
@@ -1027,12 +731,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1055,36 +753,6 @@
         "WILLOW ALT - AQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oazcbevnl7/out/v1/bda05b242720469ca9fb9fabbde64cc2/cenc.mpd",
         "WILLOW HD": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd"
       },
-      "channels": [
-        {
-          "name": "WILLOW - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oazcbevnl7/out/v1/bda05b242720469ca9fb9fabbde64cc2/cenc.mpd",
-          "scheme": 0,
-          "api": "bfeaf0c7782327ca574f32b1629080b6:c03b21556a4cf97130228258de3fe45d",
-          "tokenApi": null
-        },
-        {
-          "name": "TNT SPORTS - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-          "scheme": 0,
-          "api": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
-          "tokenApi": null
-        },
-        {
-          "name": "WILLOW ALT - AQ",
-          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oazcbevnl7/out/v1/bda05b242720469ca9fb9fabbde64cc2/cenc.mpd",
-          "scheme": 0,
-          "api": "bfeaf0c7782327ca574f32b1629080b6:c03b21556a4cf97130228258de3fe45d",
-          "tokenApi": null
-        },
-        {
-          "name": "WILLOW HD",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-          "scheme": 0,
-          "api": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247",
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "WILLOW - AQ",
@@ -1128,12 +796,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1153,12 +815,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1178,12 +834,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1203,12 +853,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1228,15 +872,6 @@
       "stream_url": {
         "Cricfy HD": "https://edgestream4.pro/hls/syaLqucEne4k.m3u8|referer=https://streame.center/"
       },
-      "channels": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream4.pro/hls/syaLqucEne4k.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "Cricfy HD",
@@ -1261,29 +896,6 @@
         "Cricfy HD": "https://pulltx.cqsycw.com/live/hd-en-6MweaDiDmwUMFfZbDg.m3u8?txSecret=88e4f55805e492ed4d83eb77ab93ca13&txTime=6AD795AF",
         "Low": "http://193.47.62.59/hls/HHHHWQAAQQQQQ.m3u8|referer=http://fawanews.sc/"
       },
-      "channels": [
-        {
-          "name": "beIN ENGLISH - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy HD",
-          "link": "https://pulltx.cqsycw.com/live/hd-en-6MweaDiDmwUMFfZbDg.m3u8?txSecret=88e4f55805e492ed4d83eb77ab93ca13&txTime=6AD795AF",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.59/hls/HHHHWQAAQQQQQ.m3u8|referer=http://fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "beIN ENGLISH - AQ",
@@ -1320,12 +932,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1345,12 +951,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1370,12 +970,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1395,15 +989,6 @@
       "stream_url": {
         "Cricfy HD": "https://edgestream5.pro/hls/ueyeztrazb4.m3u8|referer=https://streame.center/"
       },
-      "channels": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream5.pro/hls/ueyeztrazb4.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "Cricfy HD",
@@ -1426,12 +1011,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1451,12 +1030,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1476,12 +1049,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1501,12 +1068,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1526,12 +1087,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1551,12 +1106,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1576,15 +1125,6 @@
       "stream_url": {
         "Low": "http://193.47.62.59/hls/HHHHWQAAQQQQ.m3u8|referer=http://fawanews.sc/"
       },
-      "channels": [
-        {
-          "name": "Low",
-          "link": "http://193.47.62.59/hls/HHHHWQAAQQQQ.m3u8|referer=http://fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "Low",
@@ -1607,12 +1147,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1632,12 +1166,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1659,29 +1187,6 @@
         "Cricfy SD": "https://liveplay1.camel4.live/live/sd-6Mwb6hHS9UKoGCQzTq.m3u8?txSecret=8d5b16c0088dc02c043eaded5415ed14&txTime=6AD25BBC&lat=9000&auth=cb8fba8247c8958b78039c89aa4fdf35|referer=https://www.camel1.tv/football/match-corum-fk-vs-caykur-rizespor/live/x7lm7phjy82lm2w",
         "Low": "http://193.47.62.50/hls/OFFFA.m3u8|referer=http://fawanews.sc/"
       },
-      "channels": [
-        {
-          "name": "CRFY HD",
-          "link": "https://liveplay1.camel4.live/live/hd-en-6Mwb6hHS9UKoGCQzTq.m3u8?txSecret=fd0912f895fdf2891885f9364e2f61d4&txTime=6AD25A71&lat=9000&auth=cb8fba8247c8958b78039c89aa4fdf35",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy SD",
-          "link": "https://liveplay1.camel4.live/live/sd-6Mwb6hHS9UKoGCQzTq.m3u8?txSecret=8d5b16c0088dc02c043eaded5415ed14&txTime=6AD25BBC&lat=9000&auth=cb8fba8247c8958b78039c89aa4fdf35|referer=https://www.camel1.tv/football/match-corum-fk-vs-caykur-rizespor/live/x7lm7phjy82lm2w",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.50/hls/OFFFA.m3u8|referer=http://fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "CRFY HD",
@@ -1718,12 +1223,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1743,12 +1242,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1768,12 +1261,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1793,12 +1280,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1818,12 +1299,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1843,12 +1318,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1868,12 +1337,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1893,15 +1356,6 @@
       "stream_url": {
         "Cricfy HD": "https://edgestream1.pro/hls/377qj1h2727.m3u8|referer=https://streame.center/"
       },
-      "channels": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream1.pro/hls/377qj1h2727.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "Cricfy HD",
@@ -1924,12 +1378,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1949,12 +1397,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1974,12 +1416,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -1999,12 +1435,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2024,12 +1454,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2049,12 +1473,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2075,22 +1493,6 @@
         "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
         "CBS NETWORK - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
       },
-      "channels": [
-        {
-          "name": "beIN ENGLISH - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "tokenApi": null
-        },
-        {
-          "name": "CBS NETWORK - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "beIN ENGLISH - AQ",
@@ -2120,12 +1522,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2145,12 +1541,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2170,12 +1560,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2195,12 +1579,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2220,12 +1598,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2245,12 +1617,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2270,12 +1636,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2295,12 +1655,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2320,12 +1674,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2345,12 +1693,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2370,12 +1712,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2395,12 +1731,6 @@
       "stream_url": {
         "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
-      "channels": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ],
       "streams": [
         {
           "name": "Link 1",
@@ -2421,7 +1751,7 @@
         "Cricfy HD": "https://live.vivo155.com/live/sd-1-4552219.m3u8?txSecret=d231bc19e3da54cb39e4e7c437172987&txTime=6AD27933|Referer=https://player.online878.com/",
         "Low": "http://193.47.62.44/hls/Z666AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       },
-      "channels": [
+      "streams": [
         {
           "name": "Cricfy HD",
           "link": "https://live.vivo155.com/live/sd-1-4552219.m3u8?txSecret=d231bc19e3da54cb39e4e7c437172987&txTime=6AD27933|Referer=https://player.online878.com/",
@@ -2430,20 +1760,20 @@
           "tokenApi": null
         },
         {
-          "name": "Low",
-          "link": "http://193.47.62.44/hls/Z666AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "name": "Cricfy Live",
+          "link": null,
           "scheme": 0,
           "api": null,
-          "tokenApi": null
-        }
-      ],
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://live.vivo155.com/live/sd-1-4552219.m3u8?txSecret=d231bc19e3da54cb39e4e7c437172987&txTime=6AD27933|Referer=https://player.online878.com/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
+          "tokenApi": {
+            "url": null,
+            "api": "https://taifood-blog.asia/embed/eredivisie/2026-10-16/hee-exc",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         },
         {
           "name": "Low",
@@ -2466,15 +1796,6 @@
       "stream_url": {
         "Cricfy HD": "https://edgestream4.pro/hls/dza5z8f69.m3u8|referer=https://streame.center/"
       },
-      "channels": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream4.pro/hls/dza5z8f69.m3u8|referer=https://streame.center/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "Cricfy HD",
@@ -2498,22 +1819,6 @@
         "Cricfy SD": "https://pulltx.cqsycw.com/live/sd-6MweaDiCmr2i2C5h5G.m3u8?txSecret=87b09bc1d576c7c0c0ba2f46b5312b97&txTime=6AD749BF",
         "Low": "http://193.47.62.59/hls/HHHHWQAAQQQQQA.m3u8|referer=http://fawanews.sc/"
       },
-      "channels": [
-        {
-          "name": "Cricfy SD",
-          "link": "https://pulltx.cqsycw.com/live/sd-6MweaDiCmr2i2C5h5G.m3u8?txSecret=87b09bc1d576c7c0c0ba2f46b5312b97&txTime=6AD749BF",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.59/hls/HHHHWQAAQQQQQA.m3u8|referer=http://fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "Cricfy SD",
@@ -2545,29 +1850,6 @@
         "Cricfy HD": "https://pull-hls-l10-sg01.tiktokcdn.com/game/stream-7697236597179222800_hd560.m3u8?expire=1793375297&sign=ac0051014235387104fffa6f19eb53ab",
         "Low": "http://193.47.62.59/hls/HHHH.m3u8|referer=http://fawanews.sc/"
       },
-      "channels": [
-        {
-          "name": "CRFY SERVER",
-          "link": "https://pull-hls-l10-sg01.tiktokcdn.com/game/stream-7697236597179222800.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy HD",
-          "link": "https://pull-hls-l10-sg01.tiktokcdn.com/game/stream-7697236597179222800_hd560.m3u8?expire=1793375297&sign=ac0051014235387104fffa6f19eb53ab",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.59/hls/HHHH.m3u8|referer=http://fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ],
       "streams": [
         {
           "name": "CRFY SERVER",

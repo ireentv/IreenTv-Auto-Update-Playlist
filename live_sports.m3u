@@ -1,60 +1,137 @@
 #EXTM3U
 # Playlist Name  : live_sports
 # Developer      : MD ANAMUL HOQUE
-# Total Channels : 121
-# Live Count     : 26
-# Last Update    : 12:20 AM 17-10-2026 BST
+# Telegram       : https://t.me/ireentv
+# Website        : https://anamul.pages.dev
+# Channels Amount: 121
+# Live Count     : 121
+# Last Update    : 12:25 AM 17-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
 
 #EXTINF:-1 tvg-name="[CAF Confederation Cup] [11:00 PM BD] [LIVE] ZED vs Azam (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1986380387874926592/BupvxFYG_400x400.jpg" group-title="live_sports",[CAF Confederation Cup] [11:00 PM BD] [LIVE] ZED vs Azam (FAWA)
-http://193.47.62.50/hls/OFFFAAAAQ.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.50/hls/OFFFAAAAQ.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Basketball Euroleague] [12:30 AM BD] [LIVE] Barcelona vs Olympiacos --- CH 1 (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg" group-title="live_sports",[Basketball Euroleague] [12:30 AM BD] [LIVE] Barcelona vs Olympiacos --- CH 1 (FAWA)
-http://193.47.62.55/hls/5BBBA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.55/hls/5BBBA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Basketball Euroleague] [12:30 AM BD] [LIVE] Barcelona vs Olympiacos --- CH 2 (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg" group-title="live_sports",[Basketball Euroleague] [12:30 AM BD] [LIVE] Barcelona vs Olympiacos --- CH 2 (FAWA)
-https://www.rtmpcdn.com/live/c872b155-f24f-4ad2-9e71-949b036e5050.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+https://www.rtmpcdn.com/live/c872b155-f24f-4ad2-9e71-949b036e5050.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Basketball Euroleague] [12:15 AM BD] [LIVE] Panathinaikos vs Hapoel Tel Aviv --- CH 1 (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg" group-title="live_sports",[Basketball Euroleague] [12:15 AM BD] [LIVE] Panathinaikos vs Hapoel Tel Aviv --- CH 1 (FAWA)
-http://193.47.62.55/hls/5BBB.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.55/hls/5BBB.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Basketball Euroleague] [12:15 AM BD] [LIVE] Panathinaikos vs Hapoel Tel Aviv --- CH 2 (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg" group-title="live_sports",[Basketball Euroleague] [12:15 AM BD] [LIVE] Panathinaikos vs Hapoel Tel Aviv --- CH 2 (FAWA)
-https://www.rtmpcdn.com/live/af09078a-c938-41d4-9a52-4f93e15124d0.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+https://www.rtmpcdn.com/live/af09078a-c938-41d4-9a52-4f93e15124d0.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Iceland League] [01:15 AM BD] [LIVE] Breidablik vs Vikingur Reykjavik (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1228319371967291393/uoMucE2T_400x400.jpg" group-title="live_sports",[Iceland League] [01:15 AM BD] [LIVE] Breidablik vs Vikingur Reykjavik (FAWA)
-http://193.47.62.41/hls/SUUUAAAAA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.41/hls/SUUUAAAAA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[European Rugby Champions Cup] [01:00 AM BD] [LIVE] Gloucester vs Bordeaux Begles (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1697181182796935168/vcSAuYKk_400x400.jpg" group-title="live_sports",[European Rugby Champions Cup] [01:00 AM BD] [LIVE] Gloucester vs Bordeaux Begles (FAWA)
-http://193.47.62.41/hls/SUUUAAAA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.41/hls/SUUUAAAA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Rugby Challenge Cup] [01:00 AM BD] [LIVE] Edinburgh vs RC Toulonnais (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1697181182796935168/vcSAuYKk_400x400.jpg" group-title="live_sports",[Rugby Challenge Cup] [01:00 AM BD] [LIVE] Edinburgh vs RC Toulonnais (FAWA)
-http://193.47.62.41/hls/SUUUAAA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.41/hls/SUUUAAA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Rugby Challenge Cup] [01:00 AM BD] [LIVE] Dragons vs USA Perpignan (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1697181182796935168/vcSAuYKk_400x400.jpg" group-title="live_sports",[Rugby Challenge Cup] [01:00 AM BD] [LIVE] Dragons vs USA Perpignan (FAWA)
-http://193.47.62.41/hls/SUUUAA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.41/hls/SUUUAA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[France Rugby Pro D2] [01:00 AM BD] [LIVE] Nevers vs Agen (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1658978316324356098/0MfeHTZ8_400x400.jpg" group-title="live_sports",[France Rugby Pro D2] [01:00 AM BD] [LIVE] Nevers vs Agen (FAWA)
-http://193.47.62.41/hls/SUUUA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.41/hls/SUUUA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[France Rugby Pro D2] [01:00 AM BD] [LIVE] Biarritz Olympique vs Angouleme (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1658978316324356098/0MfeHTZ8_400x400.jpg" group-title="live_sports",[France Rugby Pro D2] [01:00 AM BD] [LIVE] Biarritz Olympique vs Angouleme (FAWA)
-http://193.47.62.41/hls/SUUU.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.41/hls/SUUU.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[English Championship] [01:00 AM BD] [LIVE] Burnley vs Wolves (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/761654540122882048/NpZeuzeX_400x400.jpg" group-title="live_sports",[English Championship] [01:00 AM BD] [LIVE] Burnley vs Wolves (FAWA)
-http://193.47.62.50/hls/8FFFFQQQQQAAA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.50/hls/8FFFFQQQQQAAA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Spanish La Liga] [01:00 AM BD] [LIVE] Deportivo la Coruna vs Levante --- CH 1 (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1865692791516352512/lccvCyOR_400x400.jpg" group-title="live_sports",[Spanish La Liga] [01:00 AM BD] [LIVE] Deportivo la Coruna vs Levante --- CH 1 (FAWA)
-http://193.47.62.50/hls/8FFFFQQQQQAA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.50/hls/8FFFFQQQQQAA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Spanish La Liga] [01:00 AM BD] [LIVE] Deportivo la Coruna vs Levante --- CH 2 (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1865692791516352512/lccvCyOR_400x400.jpg" group-title="live_sports",[Spanish La Liga] [01:00 AM BD] [LIVE] Deportivo la Coruna vs Levante --- CH 2 (FAWA)
-https://www.rtmpcdn.com/live/87930aa5-8315-4fa0-9cd1-b1b31944fe8c.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+https://www.rtmpcdn.com/live/87930aa5-8315-4fa0-9cd1-b1b31944fe8c.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Bolivia Division Profesional] [01:00 AM BD] [LIVE] Academia del Balompie vs Real Potosi (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/2098622913641414665/OqB33HYM_400x400.jpg" group-title="live_sports",[Bolivia Division Profesional] [01:00 AM BD] [LIVE] Academia del Balompie vs Real Potosi (FAWA)
-http://193.47.62.50/hls/8FFFFQQQQQA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.50/hls/8FFFFQQQQQA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Belgium Pro League] [01:00 AM BD] [LIVE] Standard Liege vs Dender (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/2082438090145091584/D3dYErOV_400x400.jpg" group-title="live_sports",[Belgium Pro League] [01:00 AM BD] [LIVE] Standard Liege vs Dender (FAWA)
-http://193.47.62.50/hls/8FFFFQQQQQ.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.50/hls/8FFFFQQQQQ.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Ireland Premier Premier League] [01:00 AM BD] [LIVE] St Patricks vs Shelbourne (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1675168981139767296/nbWYt3fC_400x400.jpg" group-title="live_sports",[Ireland Premier Premier League] [01:00 AM BD] [LIVE] St Patricks vs Shelbourne (FAWA)
-http://193.47.62.50/hls/8FFFFQQQQ.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.50/hls/8FFFFQQQQ.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Portugal Cup] [01:00 AM BD] [LIVE] Chaves vs Os Marialvas (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1963974021612978176/_dTeQPEr_400x400.jpg" group-title="live_sports",[Portugal Cup] [01:00 AM BD] [LIVE] Chaves vs Os Marialvas (FAWA)
-http://193.47.62.50/hls/8FFFFQQQ.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.50/hls/8FFFFQQQ.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Ligue 1 France] [12:45 AM BD] [LIVE] Le Mans vs Toulouse --- CH 1 (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1531920610514853890/FgxuEE_k_400x400.jpg" group-title="live_sports",[Ligue 1 France] [12:45 AM BD] [LIVE] Le Mans vs Toulouse --- CH 1 (FAWA)
-http://193.47.62.50/hls/8FFFFQQ.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.50/hls/8FFFFQQ.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Ligue 1 France] [12:45 AM BD] [LIVE] Le Mans vs Toulouse --- CH 2 (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1531920610514853890/FgxuEE_k_400x400.jpg" group-title="live_sports",[Ligue 1 France] [12:45 AM BD] [LIVE] Le Mans vs Toulouse --- CH 2 (FAWA)
-https://www.rtmpcdn.com/live/74dfa1a3-987b-4808-9b36-8a8264bfa777.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+https://www.rtmpcdn.com/live/74dfa1a3-987b-4808-9b36-8a8264bfa777.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Italy Serie A] [12:45 AM BD] [LIVE] Frosinone vs Sassuolo --- CH 1 (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1861375185980379136/UPqGyGOt_400x400.jpg" group-title="live_sports",[Italy Serie A] [12:45 AM BD] [LIVE] Frosinone vs Sassuolo --- CH 1 (FAWA)
-http://193.47.62.50/hls/8FFFFQ.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.50/hls/8FFFFQ.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Italy Serie A] [12:45 AM BD] [LIVE] Frosinone vs Sassuolo --- CH 2 (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1861375185980379136/UPqGyGOt_400x400.jpg" group-title="live_sports",[Italy Serie A] [12:45 AM BD] [LIVE] Frosinone vs Sassuolo --- CH 2 (FAWA)
-https://www.rtmpcdn.com/live/7b537799-ef43-4c21-a96c-539ccd5c9faf.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+https://www.rtmpcdn.com/live/7b537799-ef43-4c21-a96c-539ccd5c9faf.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Ireland Premier Premier League] [12:45 AM BD] [LIVE] Galway vs Shamrock Rovers (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1675168981139767296/nbWYt3fC_400x400.jpg" group-title="live_sports",[Ireland Premier Premier League] [12:45 AM BD] [LIVE] Galway vs Shamrock Rovers (FAWA)
-http://193.47.62.50/hls/8FFFF.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.50/hls/8FFFF.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Ireland Premier Premier League] [12:45 AM BD] [LIVE] Drogheda vs Derry City (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1675168981139767296/nbWYt3fC_400x400.jpg" group-title="live_sports",[Ireland Premier Premier League] [12:45 AM BD] [LIVE] Drogheda vs Derry City (FAWA)
-http://193.47.62.50/hls/4HHHAAAAAQ.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.50/hls/4HHHAAAAAQ.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[Ireland Premier Premier League] [12:45 AM BD] [LIVE] Bohemians vs Waterford (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1675168981139767296/nbWYt3fC_400x400.jpg" group-title="live_sports",[Ireland Premier Premier League] [12:45 AM BD] [LIVE] Bohemians vs Waterford (FAWA)
-http://193.47.62.59/hls/4HHHAAAAA.m3u8
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.59/hls/4HHHAAAAA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
