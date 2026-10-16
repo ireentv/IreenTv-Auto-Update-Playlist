@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 59,
   "live_count": 7,
-  "last_update": "05:16 AM 17-10-2026 BST",
+  "last_update": "05:30 AM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -367,6 +367,42 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/21958/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Everton vs Chelsea",
+      "sport": "Football",
+      "sub_category": "Premier League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "everton-vs-chelsea",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 05:30:00 PM",
+        "end_time_bst": "Oct 17, 2026, 07:50:00 PM",
+        "raw_start_utc": "2026/10/17 11:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Everton",
+          "flag": "https://img.sofascore.com/api/v1/team/48/image"
+        },
+        "team_b": {
+          "name": "Chelsea",
+          "flag": "https://img.sofascore.com/api/v1/team/38/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "channels": [
         {
           "channel_name": "CRICFy LIVE",
@@ -1777,42 +1813,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Everton vs Chelsea",
-      "sport": "Football",
-      "sub_category": "Premier League",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "everton-vs-chelsea",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 05:30:00 PM",
-        "end_time_bst": "Oct 17, 2026, 07:50:00 PM",
-        "raw_start_utc": "2026/10/17 11:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Everton",
-          "flag": "https://img.sofascore.com/api/v1/team/48/image"
-        },
-        "team_b": {
-          "name": "Chelsea",
-          "flag": "https://img.sofascore.com/api/v1/team/38/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "channels": [
         {
           "channel_name": "CRICFy LIVE",
