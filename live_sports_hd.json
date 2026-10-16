@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 59,
-  "live_count": 8,
-  "last_update": "02:15 AM 17-10-2026 BST",
+  "live_count": 7,
+  "last_update": "02:31 AM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -465,56 +465,6 @@
         }
       ],
       "total_channels": 6
-    },
-    {
-      "title": "SC Heerenveen vs Excelsior",
-      "sport": "Football",
-      "sub_category": "VriendenLoterij Eredivisie",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "sc-heerenveen-vs-excelsior",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 12:00:00 AM",
-        "end_time_bst": "Oct 17, 2026, 02:20:00 AM",
-        "raw_start_utc": "2026/10/16 18:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "SC Heerenveen",
-          "flag": "https://img.sofascore.com/api/v1/team/2964/image"
-        },
-        "team_b": {
-          "name": "Excelsior",
-          "flag": "https://img.sofascore.com/api/v1/team/2967/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/sd-1-4552219.m3u8?txSecret=d231bc19e3da54cb39e4e7c437172987&txTime=6AD27933",
-          "raw_link": "https://live.vivo155.com/live/sd-1-4552219.m3u8?txSecret=d231bc19e3da54cb39e4e7c437172987&txTime=6AD27933|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.44/hls/Z666AAAA.m3u8",
-          "raw_link": "http://193.47.62.44/hls/Z666AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 2
     },
     {
       "title": "Leganes vs Cordoba",
@@ -2359,8 +2309,17 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
     },
     {
       "title": "Brentford vs Liverpool FC",
@@ -2818,6 +2777,33 @@
         }
       },
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZ0c8Wb0slhQCjc_XsPzMuqyX52rG-yapyEgJpdSmSQ&s=10",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "SC Heerenveen vs Excelsior",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "sc-heerenveen-vs-excelsior",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 12:00:00 AM",
+        "end_time_bst": "Oct 17, 2026, 02:20:00 AM",
+        "raw_start_utc": "2026/10/16 18:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "SC Heerenveen",
+          "flag": "https://img.sofascore.com/api/v1/team/2964/image"
+        },
+        "team_b": {
+          "name": "Excelsior",
+          "flag": "https://img.sofascore.com/api/v1/team/2967/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
       "channels": [],
       "total_channels": 0
     }

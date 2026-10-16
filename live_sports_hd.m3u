@@ -4,8 +4,8 @@
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
 # Channels Amount: 59
-# Live Count     : 8
-# Last Update    : 02:15 AM 17-10-2026 BST
+# Live Count     : 7
+# Last Update    : 02:31 AM 17-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -143,16 +143,6 @@ https://edgestream4.pro/hls/24SDAZFcsqnj24.m3u8|User-Agent=Mozilla/5.0 (Windows 
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 http://193.47.62.50/hls/8FFFFQQQQQAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="SC Heerenveen vs Excelsior (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/37/image/dark" group-title="live_sports_HD",SC Heerenveen vs Excelsior (Server 1 - Raw Link)
-#EXTVLCOPT:http-referrer=https://player.online878.com/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
-https://live.vivo155.com/live/sd-1-4552219.m3u8?txSecret=d231bc19e3da54cb39e4e7c437172987&txTime=6AD27933|Referer=https://player.online878.com/
-#EXTINF:-1 tvg-name="SC Heerenveen vs Excelsior (Server 2 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/37/image/dark" group-title="live_sports_HD",SC Heerenveen vs Excelsior (Server 2 - Raw Link)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-http://193.47.62.44/hls/Z666AAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Leganes vs Cordoba (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/54/image/dark" group-title="live_sports_HD",Leganes vs Cordoba (Server 1 - Raw Link)
 #EXTVLCOPT:http-referrer=https://player.online878.com/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
@@ -533,4 +523,6 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 #EXTINF:-1 tvg-name="1. FC Union Berlin vs Borussia Dortmund" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="live_sports_HD",1. FC Union Berlin vs Borussia Dortmund
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="FC Bayern Munchen vs RB Leipzig" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="live_sports_HD",FC Bayern Munchen vs RB Leipzig
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-name="Everton vs Chelsea" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="live_sports_HD",Everton vs Chelsea
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
