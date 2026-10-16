@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 59,
-  "live_count": 2,
-  "last_update": "04:46 AM 17-10-2026 BST",
+  "live_count": 7,
+  "last_update": "05:01 AM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,6 +19,42 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
+    },
+    {
+      "title": "Mirassol vs Internacional",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "mirassol-vs-internacional",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
+        "end_time_bst": "Oct 17, 2026, 07:20:00 AM",
+        "raw_start_utc": "2026/10/16 23:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Mirassol",
+          "flag": "https://img.sofascore.com/api/v1/team/21982/image"
+        },
+        "team_b": {
+          "name": "Internacional",
+          "flag": "https://img.sofascore.com/api/v1/team/1966/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "channels": [
+        {
+          "channel_name": "PREMIERE BR - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+          "headers": {},
+          "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+        }
+      ],
+      "total_channels": 1
     },
     {
       "title": "Cleveland Guardians vs Tampa Bay Rays",
@@ -89,6 +125,166 @@
         }
       ],
       "total_channels": 4
+    },
+    {
+      "title": "Philadelphia 76ers vs Boston Celtics",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "philadelphia-76ers-vs-boston-celtics",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
+        "end_time_bst": "Oct 17, 2026, 07:30:00 AM",
+        "raw_start_utc": "2026/10/16 23:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Philadelphia 76ers",
+          "flag": "https://img.sofascore.com/api/v1/team/3420/image"
+        },
+        "team_b": {
+          "name": "Boston Celtics",
+          "flag": "https://img.sofascore.com/api/v1/team/3422/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "channels": [
+        {
+          "channel_name": "HD QUALITY",
+          "stream_type": "HLS",
+          "url": "https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8",
+          "raw_link": "https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Indiana Pacers vs Milwaukee Bucks",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "indiana-pacers-vs-milwaukee-bucks",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
+        "end_time_bst": "Oct 17, 2026, 07:30:00 AM",
+        "raw_start_utc": "2026/10/16 23:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Indiana Pacers",
+          "flag": "https://img.sofascore.com/api/v1/team/3419/image"
+        },
+        "team_b": {
+          "name": "Milwaukee Bucks",
+          "flag": "https://img.sofascore.com/api/v1/team/3410/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "channels": [
+        {
+          "channel_name": "HD QUALITY",
+          "stream_type": "HLS",
+          "url": "https://edgestream7.pro/hls/zayrtezafgvdv68.m3u8",
+          "raw_link": "https://edgestream7.pro/hls/zayrtezafgvdv68.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Orlando Magic vs Miami Heat",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "orlando-magic-vs-miami-heat",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
+        "end_time_bst": "Oct 17, 2026, 07:30:00 AM",
+        "raw_start_utc": "2026/10/16 23:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Orlando Magic",
+          "flag": "https://img.sofascore.com/api/v1/team/3437/image"
+        },
+        "team_b": {
+          "name": "Miami Heat",
+          "flag": "https://img.sofascore.com/api/v1/team/3435/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "channels": [
+        {
+          "channel_name": "HD QUALITY",
+          "stream_type": "HLS",
+          "url": "https://edgestream5.pro/hls/mlkijfezag65.m3u8",
+          "raw_link": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Detroit Pistons vs Toronto Raptors",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "detroit-pistons-vs-toronto-raptors",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
+        "end_time_bst": "Oct 17, 2026, 07:30:00 AM",
+        "raw_start_utc": "2026/10/16 23:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Detroit Pistons",
+          "flag": "https://img.sofascore.com/api/v1/team/3424/image"
+        },
+        "team_b": {
+          "name": "Toronto Raptors",
+          "flag": "https://img.sofascore.com/api/v1/team/3433/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "channels": [
+        {
+          "channel_name": "HD QUALITY",
+          "stream_type": "HLS",
+          "url": "https://edgestream4.pro/hls/hfsdqtaxvb67.m3u8",
+          "raw_link": "https://edgestream4.pro/hls/hfsdqtaxvb67.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
     },
     {
       "title": "Smack Down",
@@ -178,202 +374,6 @@
           "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
           "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
           "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Mirassol vs Internacional",
-      "sport": "Football",
-      "sub_category": "Campeonato Brasileiro Série A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "mirassol-vs-internacional",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
-        "end_time_bst": "Oct 17, 2026, 07:20:00 AM",
-        "raw_start_utc": "2026/10/16 23:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Mirassol",
-          "flag": "https://img.sofascore.com/api/v1/team/21982/image"
-        },
-        "team_b": {
-          "name": "Internacional",
-          "flag": "https://img.sofascore.com/api/v1/team/1966/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "channels": [
-        {
-          "channel_name": "PREMIERE BR - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-          "headers": {},
-          "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Philadelphia 76ers vs Boston Celtics",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "philadelphia-76ers-vs-boston-celtics",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
-        "end_time_bst": "Oct 17, 2026, 07:30:00 AM",
-        "raw_start_utc": "2026/10/16 23:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Philadelphia 76ers",
-          "flag": "https://img.sofascore.com/api/v1/team/3420/image"
-        },
-        "team_b": {
-          "name": "Boston Celtics",
-          "flag": "https://img.sofascore.com/api/v1/team/3422/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "channels": [
-        {
-          "channel_name": "HD QUALITY",
-          "stream_type": "HLS",
-          "url": "https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8",
-          "raw_link": "https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Indiana Pacers vs Milwaukee Bucks",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "indiana-pacers-vs-milwaukee-bucks",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
-        "end_time_bst": "Oct 17, 2026, 07:30:00 AM",
-        "raw_start_utc": "2026/10/16 23:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Indiana Pacers",
-          "flag": "https://img.sofascore.com/api/v1/team/3419/image"
-        },
-        "team_b": {
-          "name": "Milwaukee Bucks",
-          "flag": "https://img.sofascore.com/api/v1/team/3410/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "channels": [
-        {
-          "channel_name": "HD QUALITY",
-          "stream_type": "HLS",
-          "url": "https://edgestream7.pro/hls/zayrtezafgvdv68.m3u8",
-          "raw_link": "https://edgestream7.pro/hls/zayrtezafgvdv68.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Orlando Magic vs Miami Heat",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "orlando-magic-vs-miami-heat",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
-        "end_time_bst": "Oct 17, 2026, 07:30:00 AM",
-        "raw_start_utc": "2026/10/16 23:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Orlando Magic",
-          "flag": "https://img.sofascore.com/api/v1/team/3437/image"
-        },
-        "team_b": {
-          "name": "Miami Heat",
-          "flag": "https://img.sofascore.com/api/v1/team/3435/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "channels": [
-        {
-          "channel_name": "HD QUALITY",
-          "stream_type": "HLS",
-          "url": "https://edgestream5.pro/hls/mlkijfezag65.m3u8",
-          "raw_link": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Detroit Pistons vs Toronto Raptors",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "detroit-pistons-vs-toronto-raptors",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 05:00:00 AM",
-        "end_time_bst": "Oct 17, 2026, 07:30:00 AM",
-        "raw_start_utc": "2026/10/16 23:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Detroit Pistons",
-          "flag": "https://img.sofascore.com/api/v1/team/3424/image"
-        },
-        "team_b": {
-          "name": "Toronto Raptors",
-          "flag": "https://img.sofascore.com/api/v1/team/3433/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "channels": [
-        {
-          "channel_name": "HD QUALITY",
-          "stream_type": "HLS",
-          "url": "https://edgestream4.pro/hls/hfsdqtaxvb67.m3u8",
-          "raw_link": "https://edgestream4.pro/hls/hfsdqtaxvb67.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
           "drm_key": null
         }
       ],
