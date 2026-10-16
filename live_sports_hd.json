@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 59,
-  "live_count": 7,
-  "last_update": "02:46 AM 17-10-2026 BST",
+  "live_count": 5,
+  "last_update": "03:01 AM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,94 +19,6 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
-    },
-    {
-      "title": "Eintracht Frankfurt vs 1. FC Koln",
-      "sport": "Football",
-      "sub_category": "Bundesliga",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "eintracht-frankfurt-vs-1-fc-koln",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 12:30:00 AM",
-        "end_time_bst": "Oct 17, 2026, 02:50:00 AM",
-        "raw_start_utc": "2026/10/16 18:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Eintracht Frankfurt",
-          "flag": "https://img.sofascore.com/api/v1/team/2674/image"
-        },
-        "team_b": {
-          "name": "1. FC Köln",
-          "flag": "https://img.sofascore.com/api/v1/team/2671/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "channels": [
-        {
-          "channel_name": "SporTV BR - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-        },
-        {
-          "channel_name": "ONE SOCCER HD",
-          "stream_type": "HLS",
-          "url": "https://admin2.formaturamaxi.com.br/one.m3u8",
-          "raw_link": "https://admin2.formaturamaxi.com.br/one.m3u8",
-          "headers": {},
-          "drm_key": null
-        },
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/hd-en-1-4566306.m3u8?txSecret=4f425a6ded943737d287331589513ac4&txTime=6AD2815F",
-          "raw_link": "https://live.vivo155.com/live/hd-en-1-4566306.m3u8?txSecret=4f425a6ded943737d287331589513ac4&txTime=6AD2815F|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_type": "HLS",
-          "url": "https://edgestream5.pro/hls/ueyeztrazb4.m3u8",
-          "raw_link": "https://edgestream5.pro/hls/ueyeztrazb4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "CRICFy FAST",
-          "stream_type": "HLS",
-          "url": "https://www.rtmpcdn.com/live/c03a3e8b-ff7f-4afc-9d70-ef279a67849a.m3u8",
-          "raw_link": "https://www.rtmpcdn.com/live/c03a3e8b-ff7f-4afc-9d70-ef279a67849a.m3u8",
-          "headers": {},
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.59/hls/4HHHAAAA.m3u8",
-          "raw_link": "http://193.47.62.59/hls/4HHHAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 6
     },
     {
       "title": "Frosinone vs Sassuolo",
@@ -465,56 +377,6 @@
         }
       ],
       "total_channels": 6
-    },
-    {
-      "title": "Leganes vs Cordoba",
-      "sport": "Football",
-      "sub_category": "LaLiga 2",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "leganes-vs-cordoba",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 12:30:00 AM",
-        "end_time_bst": "Oct 17, 2026, 02:50:00 AM",
-        "raw_start_utc": "2026/10/16 18:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Leganés",
-          "flag": "https://img.sofascore.com/api/v1/team/2845/image"
-        },
-        "team_b": {
-          "name": "Córdoba",
-          "flag": "https://img.sofascore.com/api/v1/team/2850/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/sd-1-4567318.m3u8?txSecret=d4cb67d183d971eee237000e8528d468&txTime=6AD2803C",
-          "raw_link": "https://live.vivo155.com/live/sd-1-4567318.m3u8?txSecret=d4cb67d183d971eee237000e8528d468&txTime=6AD2803C|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.59/hls/4HHHAAA.m3u8",
-          "raw_link": "http://193.47.62.59/hls/4HHHAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 2
     },
     {
       "title": "Smack Down",
@@ -2345,8 +2207,17 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
     },
     {
       "title": "Fulham vs Hull City",
@@ -2372,8 +2243,17 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
     },
     {
       "title": "Manchester City vs Ipswich Town",
@@ -2781,6 +2661,33 @@
       "total_channels": 0
     },
     {
+      "title": "Eintracht Frankfurt vs 1. FC Koln",
+      "sport": "Football",
+      "sub_category": "Bundesliga",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "eintracht-frankfurt-vs-1-fc-koln",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 12:30:00 AM",
+        "end_time_bst": "Oct 17, 2026, 02:50:00 AM",
+        "raw_start_utc": "2026/10/16 18:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Eintracht Frankfurt",
+          "flag": "https://img.sofascore.com/api/v1/team/2674/image"
+        },
+        "team_b": {
+          "name": "1. FC Köln",
+          "flag": "https://img.sofascore.com/api/v1/team/2671/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
       "title": "SC Heerenveen vs Excelsior",
       "sport": "Football",
       "sub_category": "VriendenLoterij Eredivisie",
@@ -2804,6 +2711,33 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Leganes vs Cordoba",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "leganes-vs-cordoba",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 12:30:00 AM",
+        "end_time_bst": "Oct 17, 2026, 02:50:00 AM",
+        "raw_start_utc": "2026/10/16 18:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Leganés",
+          "flag": "https://img.sofascore.com/api/v1/team/2845/image"
+        },
+        "team_b": {
+          "name": "Córdoba",
+          "flag": "https://img.sofascore.com/api/v1/team/2850/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "channels": [],
       "total_channels": 0
     }
