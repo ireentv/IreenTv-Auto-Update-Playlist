@@ -229,7 +229,7 @@ jobs:
 
               status = "LIVE" if (is_live_event(item) or len(stream_urls) > 0) else (item.get("status") or "UPCOMING")
 
-              return {
+              res_item = {
                   "match_id": str(item.get("id") or item.get("match_id", "")),
                   "title": title,
                   "synopsis": synopsis,
@@ -241,6 +241,10 @@ jobs:
                   "stream_url": stream_urls,
                   "streams": raw_streams
               }
+              for k, v in item.items():
+                  if k not in res_item:
+                      res_item[k] = v
+              return res_item
 
           # ================= SONY LIV =================
           def is_sonyliv_item(item):
@@ -304,7 +308,7 @@ jobs:
               )
               time_val = convert_to_bangladesh_time(raw_time)
 
-              return {
+              res_item = {
                   "match_id": str(item.get("contentId") or item.get("match_id", "")),
                   "title": title,
                   "synopsis": synopsis,
@@ -315,6 +319,10 @@ jobs:
                   "is_free": False,
                   "stream_url": stream_urls
               }
+              for k, v in item.items():
+                  if k not in res_item:
+                      res_item[k] = v
+              return res_item
 
           # ================= TAPMAD =================
           def is_tapmad_item(item):
@@ -359,7 +367,7 @@ jobs:
               raw_time = item.get("EventStartDate") or item.get("time") or ""
               time_val = convert_to_bangladesh_time(raw_time)
 
-              return {
+              res_item = {
                   "match_id": str(item.get("EntityId") or item.get("CategoryId") or item.get("id") or ""),
                   "title": title,
                   "synopsis": synopsis,
@@ -370,6 +378,10 @@ jobs:
                   "is_free": item.get("IsFreeToWatch", False),
                   "stream_url": stream_urls
               }
+              for k, v in item.items():
+                  if k not in res_item:
+                      res_item[k] = v
+              return res_item
 
           # ================= BINGSTREAM (ADVANCED MULTI-STREAM SUPPORT) =================
           def is_bingstream_item(item):
@@ -399,7 +411,6 @@ jobs:
               user_agent_val = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
               suffix = f"|http-user-agent={user_agent_val}&http-referrer={referer_val}"
 
-              # ১. লিংক অবজেক্ট লিস্ট ও চ্যানেল অবজেক্ট চেকার (display_name / stream_name সহ)
               def parse_stream_object_list(obj_list):
                   if isinstance(obj_list, list):
                       for s_obj in obj_list:
@@ -418,23 +429,19 @@ jobs:
                           elif isinstance(s_obj, str) and s_obj.startswith("http") and is_mpd_or_m3u8(s_obj):
                               found_labeled_urls.append(("Server", s_obj.strip()))
 
-              # চেকিং বিভিন্ন লিস্ট ফিল্ড
               for list_key in ["link_live", "channels", "streams", "channel_list", "stream_list"]:
                   if list_key in item and isinstance(item[list_key], list):
                       parse_stream_object_list(item[list_key])
 
-              # আইটেমের ভেতরে সরাসরি কোনো লিস্ট থাকলে
               for k, v in item.items():
                   if isinstance(v, list) and k not in ["extracted_links", "link_live"]:
                       parse_stream_object_list(v)
 
-              # ২. extracted_links চেকার
               if "extracted_links" in item and isinstance(item["extracted_links"], list):
                   for idx, ext_url in enumerate(item["extracted_links"], 1):
                       if isinstance(ext_url, str) and ext_url.startswith("http") and is_mpd_or_m3u8(ext_url):
                           found_labeled_urls.append((f"Server {idx}", ext_url.strip()))
 
-              # ৩. cdn_domain ও অন্যান্য ডিরেক্ট URL চেকার
               cdn = item.get("cdn_domain")
               if cdn and isinstance(cdn, str) and cdn.startswith("http") and is_mpd_or_m3u8(cdn):
                   found_labeled_urls.append(("CDN Direct", cdn.strip()))
@@ -449,7 +456,6 @@ jobs:
                               if p_clean.startswith("http") and is_mpd_or_m3u8(p_clean):
                                   found_labeled_urls.append(("Server", p_clean))
 
-              # ডুপ্লিকেট রিমুভ ও সঠিক লেবেল তৈরি
               seen_urls = set()
               counter = 1
               for label, u in found_labeled_urls:
@@ -501,7 +507,7 @@ jobs:
               raw_time = item.get("bd_time") or item.get("time") or item.get("start_time") or item.get("date") or ""
               time_val = convert_to_bangladesh_time(raw_time)
 
-              return {
+              res_item = {
                   "match_id": match_id,
                   "title": title,
                   "synopsis": synopsis,
@@ -514,6 +520,10 @@ jobs:
                   "referer": item.get("referer", "https://iframe.rumsport11.site"),
                   "extracted_links": item.get("extracted_links", [])
               }
+              for k, v in item.items():
+                  if k not in res_item:
+                      res_item[k] = v
+              return res_item
 
           # ================= ALL MULTI-SERVER STREAM EXTRACTOR =================
           def extract_all_mpd_m3u8_streams(item):
@@ -627,7 +637,7 @@ jobs:
                   elif isinstance(obj, dict):
                       is_match_item = False
                       has_id = any(k in obj for k in ["contentId", "match_id", "eventId", "event_id", "id", "fixture_id", "EntityId", "CategoryId", "chno", "chanel_id"])
-                      has_media = any(k in obj for k in ["link_live", "extracted_links", "cdn_domain", "stream_link", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "stream_url_bravo", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL", "ThumbnailStandard", "ThumbnailTV", "drm_key", "url", "streams"])
+                      has_media = any(k in obj for k in ["link_live", "extracted_links", "cdn_domain", "stream_link", "video_info", "stream_info", "image_cdn", "air_dates", "stream_url", "stream_url_alpha", "stream_url_bravo", "multiple_audio_links", "video_url", "video URL", "videoUrl", "videoURL", "ThumbnailStandard", "ThumbnailTV", "drm_key", "url", "streams", "api"])
                       has_sports = any(k in obj for k in ["localteam_name", "visitorteam_name", "league_name", "timelive", "is_playing", "VideoName", "CategoryName", "StageName", "sport", "event", "event_name", "team_a", "team_b", "schedule_time", "event_logo"])
 
                       if (has_id and (has_media or has_sports)) or has_media:
@@ -699,6 +709,53 @@ jobs:
                   return slug.replace("_", " ").title(), slug.lower(), url
 
           # ================= ADVANCED M3U / DRM / HEADER PARSER =================
+          def extract_drm_keys(data):
+              """'api' সহ যেকোনো ফরম্যাটের ClearKey (kid:key) নিখুঁতভাবে বের করে আনে"""
+              if not data:
+                  return ""
+              
+              if isinstance(data, str):
+                  s = data.strip()
+                  # KID:KEY প্যাটার্ন টেস্ট (১৬-৩২ বাইট হেক্স স্ট্রিং এর জোড়া)
+                  if ":" in s:
+                      parts = s.split(":")
+                      if len(parts) == 2 and len(parts[0].strip()) >= 16 and len(parts[1].strip()) >= 16:
+                          return s
+                  return ""
+              
+              if isinstance(data, dict):
+                  # সরাসরি কি-আইডি এবং কি এর জোড়া থাকলে
+                  for kid_k in ["kid", "key_id", "keyId", "k1"]:
+                      for key_k in ["key", "k", "keyVal", "k2"]:
+                          if kid_k in data and key_k in data:
+                              kd, ky = str(data[kid_k]).strip(), str(data[key_k]).strip()
+                              if kd and ky:
+                                  return f"{kd}:{ky}"
+                  
+                  # 'api' কি অথবা অন্যান্য কমন ফিল্ডে কি থাকলে
+                  for k_name in ["api", "drm_key", "clearkey", "clear_key", "clear_keys", "drm", "license_key", "keys", "key"]:
+                      if k_name in data and data[k_name]:
+                          val = data[k_name]
+                          # যদি 'api' ফিল্ডে স্ট্রিং বা ডিকশনারি আকারে থাকে
+                          found = extract_drm_keys(val)
+                          if found:
+                              return found
+                              
+                  # নেস্টেড অবজেক্টগুলোতেও খুঁজে দেখবে
+                  for k, v in data.items():
+                      if isinstance(v, (dict, list)) and k.lower() not in ["stream_url"]:
+                          found = extract_drm_keys(v)
+                          if found:
+                              return found
+
+              if isinstance(data, list):
+                  for elem in data:
+                      found = extract_drm_keys(elem)
+                      if found:
+                          return found
+
+              return ""
+
           def parse_stream_details(stream_url_raw, item_meta):
               stream_url = str(stream_url_raw).strip()
               headers = {}
@@ -743,31 +800,8 @@ jobs:
                       headers["Cookie"] = str(item_meta[ck_k]).strip()
                       break
 
-              # DRM Key
-              clearkey_val = ""
-              for ck_name in ["drm_key", "clearkey", "clear_key", "key", "keys", "license_key", "drm"]:
-                  if ck_name in item_meta and item_meta[ck_name]:
-                      val = item_meta[ck_name]
-                      if isinstance(val, str) and (":" in val or len(val) >= 32):
-                          clearkey_val = val.strip()
-                          break
-                      elif isinstance(val, dict):
-                          kid = val.get("kid") or val.get("key_id") or val.get("k1") or ""
-                          k = val.get("key") or val.get("k") or val.get("k2") or ""
-                          if kid and k:
-                              clearkey_val = f"{kid}:{k}"
-                              break
-                      elif isinstance(val, list) and len(val) > 0:
-                          first = val[0]
-                          if isinstance(first, dict):
-                              kid = first.get("kid") or first.get("key_id") or ""
-                              k = first.get("k") or first.get("key") or ""
-                              if kid and k:
-                                  clearkey_val = f"{kid}:{k}"
-                                  break
-                          elif isinstance(first, str):
-                              clearkey_val = first.strip()
-                              break
+              # DRM Key খোঁজা ('api' সহ সব ফিল্ড সাপোর্ট করে)
+              clearkey_val = extract_drm_keys(item_meta)
 
               is_mpd = ".mpd" in base_url.lower() or item_meta.get("manifest_type") == "mpd" or bool(clearkey_val)
 
@@ -850,7 +884,9 @@ jobs:
                               continue
                           s_name = s.get("name") or "Server"
                           stream_title = f"{title} ({s_name})" if len(it["streams"]) > 1 else title
-                          lines.append(build_m3u_channel_block(stream_title, logo, playlist_name, str(s_url).strip(), s))
+                          
+                          merged_meta = {**it, **s}
+                          lines.append(build_m3u_channel_block(stream_title, logo, playlist_name, str(s_url).strip(), merged_meta))
                   else:
                       streams = extract_all_mpd_m3u8_streams(it)
                       if not streams:
