@@ -2,8 +2,8 @@
   "playlist_name": "live_sports_HD",
   "developer": "MD ANAMUL HOQUE",
   "channels_amount": 165,
-  "live_count": 4,
-  "last_update": "11:29 PM 16-10-2026 BST",
+  "live_count": 5,
+  "last_update": "11:30 PM 16-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -233,7 +233,7 @@
       "match_id": "corum-fk-vs-caykur-rizespor",
       "title": "Corum FK vs Caykur Rizespor: Çorum FK vs Çaykur Rizespor",
       "synopsis": "Trendyol Süper Lig",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "time": "16/10/2026 11:30 PM BST",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
       "match_url": "http://193.47.62.50/hls/OFFFA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
@@ -649,6 +649,53 @@
         "Referer": "http://www.fawanews.sc/",
         "Origin": "http://www.fawanews.sc/"
       },
+      "drm_key": null,
+      "time": "",
+      "status": "UPCOMING"
+    },
+    {
+      "match_id": "canada-vs-nepal",
+      "title": "Canada vs Nepal: Canada vs Nepal",
+      "synopsis": "ICC CWC League 2",
+      "status": "UPCOMING",
+      "time": "17/10/2026 12:00 PM BST",
+      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/21958/image/dark",
+      "match_url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+      },
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null,
+          "time": "",
+          "status": "UPCOMING"
+        }
+      ],
+      "streams": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null,
+          "time": "",
+          "status": "UPCOMING"
+        }
+      ]
+    },
+    {
+      "channel_name": "CRICFy LIVE",
+      "stream_type": "HLS",
+      "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+      "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+      "headers": {},
       "drm_key": null,
       "time": "",
       "status": "UPCOMING"
@@ -4050,53 +4097,6 @@
       "status": "UPCOMING",
       "time": "17/10/2026 06:30 PM BST",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "match_url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
-      },
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null,
-          "time": "",
-          "status": "UPCOMING"
-        }
-      ],
-      "streams": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null,
-          "time": "",
-          "status": "UPCOMING"
-        }
-      ]
-    },
-    {
-      "channel_name": "CRICFy LIVE",
-      "stream_type": "HLS",
-      "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-      "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-      "headers": {},
-      "drm_key": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "match_id": "canada-vs-nepal",
-      "title": "Canada vs Nepal: Canada vs Nepal",
-      "synopsis": "ICC CWC League 2",
-      "status": "UPCOMING",
-      "time": "17/10/2026 12:00 PM BST",
-      "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/21958/image/dark",
       "match_url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
       "is_free": false,
       "stream_url": {
