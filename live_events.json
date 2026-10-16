@@ -1,7 +1,7 @@
 {
   "playlist_name": "live_events",
   "developer": "MD ANAMUL HOQUE",
-  "channels_amount": 121,
+  "channels_amount": 65,
   "live_count": 1,
   "last_update": "11:58 PM 16-10-2026 BST",
   "events": [
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Motorsport | Sports Match",
       "status": "UPCOMING",
@@ -40,7 +40,9 @@
           "stream_type": "DASH",
           "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
           "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {},
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
           "drm_key": ""
         },
         {
@@ -64,7 +66,9 @@
           "stream_type": "DASH",
           "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd",
           "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {},
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
           "drm_key": ""
         },
         {
@@ -72,7 +76,9 @@
           "stream_type": "HLS",
           "url": "https://chatgpt.hereisman.net/playlist/57392/load-playlist.m3u8?",
           "raw_link": "https://chatgpt.hereisman.net/playlist/57392/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-          "headers": {},
+          "headers": {
+            "referer": "https://gooz.aapmains.net/"
+          },
           "drm_key": ""
         },
         {
@@ -80,7 +86,9 @@
           "stream_type": "HLS",
           "url": "https://edgestream1.pro/hls/hbfkazbkaznc49.m3u8?",
           "raw_link": "https://edgestream1.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "headers": {},
+          "headers": {
+            "referer": "https://streamscenter.online/"
+          },
           "drm_key": ""
         },
         {
@@ -88,7 +96,9 @@
           "stream_type": "HLS",
           "url": "https://tedesco.formaturamaxi.com.br/f1.m3u8",
           "raw_link": "https://tedesco.formaturamaxi.com.br/f1.m3u8|referer=http://fawanews.sc/",
-          "headers": {},
+          "headers": {
+            "referer": "http://fawanews.sc/"
+          },
           "drm_key": ""
         },
         {
@@ -96,76 +106,15 @@
           "stream_type": "HLS",
           "url": "http://193.47.62.50/hls/HHHHRAAA.m3u8",
           "raw_link": "http://193.47.62.50/hls/HHHHRAAA.m3u8|referer=http://fawanews.sc/",
-          "headers": {},
+          "headers": {
+            "referer": "http://fawanews.sc/"
+          },
           "drm_key": ""
         }
       ]
     },
     {
-      "name": "TNT SPORTS - AQ",
-      "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "scheme": 0,
-      "api": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "FANCODE - AQ",
-      "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-      "scheme": 0,
-      "api": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "SPOTV - AQ",
-      "link": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
-      "scheme": 0,
-      "api": "7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "MotoGP - AQ",
-      "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "scheme": 0,
-      "api": "e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "MOTO Cricfy",
-      "link": "https://chatgpt.hereisman.net/playlist/57392/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "Cricfy HD",
-      "link": "https://edgestream1.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "Low",
-      "link": "http://193.47.62.50/hls/HHHHRAAA.m3u8|referer=http://fawanews.sc/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Boxing | Sports Match",
       "status": "UPCOMING",
@@ -195,7 +144,9 @@
           "stream_type": "HLS",
           "url": "https://edgestream4.pro/hls/zeuryuegn48.m3u8",
           "raw_link": "https://edgestream4.pro/hls/zeuryuegn48.m3u8|referer=https://streame.center/",
-          "headers": {},
+          "headers": {
+            "referer": "https://streame.center/"
+          },
           "drm_key": ""
         },
         {
@@ -203,7 +154,9 @@
           "stream_type": "HLS",
           "url": "https://admin2.formaturamaxi.com.br/wwe.m3u8",
           "raw_link": "https://admin2.formaturamaxi.com.br/wwe.m3u8|referer=http://fawanews.sc/",
-          "headers": {},
+          "headers": {
+            "referer": "http://fawanews.sc/"
+          },
           "drm_key": ""
         },
         {
@@ -211,67 +164,15 @@
           "stream_type": "HLS",
           "url": "http://193.47.62.44/hls/R666A.m3u8",
           "raw_link": "http://193.47.62.44/hls/R666A.m3u8|referer=http://fawanews.sc/",
-          "headers": {},
+          "headers": {
+            "referer": "http://fawanews.sc/"
+          },
           "drm_key": ""
         }
       ]
     },
     {
-      "name": "Cricfy NXT Live",
-      "link": "https://jellyfin.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "Server 2",
-      "link": null,
-      "scheme": 0,
-      "api": null,
-      "tokenApi": {
-        "url": null,
-        "api": "https://taifood-blog.asia/embed/wwe/2026-10-13",
-        "type": "embed",
-        "link_key": "playback_url",
-        "default_string": "N8x7Y%m+6n",
-        "request_type": "get",
-        "request_body_type": "text",
-        "ip_api": "https://api.ipify.org/"
-      },
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "WWE",
-      "link": "https://admin2.passionepizza.com.br/wwe.m3u8",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "NXT WWE",
-      "link": "https://edgestream4.pro/hls/zeuryuegn48.m3u8|referer=https://streame.center/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "WE NXT",
-      "link": "https://admin2.formaturamaxi.com.br/wwe.m3u8|referer=http://fawanews.sc/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Boxing | Sports Match",
       "status": "UPCOMING",
@@ -285,7 +186,9 @@
           "stream_type": "DASH",
           "url": "https://live-pv-ta.amazon.fastly-edge.com/syd-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd",
           "raw_link": "https://live-pv-ta.amazon.fastly-edge.com/syd-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-          "headers": {},
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+          },
           "drm_key": ""
         },
         {
@@ -315,34 +218,7 @@
       ]
     },
     {
-      "name": "One Fight - AQ",
-      "link": "https://live-pv-ta.amazon.fastly-edge.com/syd-nitro/live/clients/dash/enc/kkfdbi2d1c/out/v1/a5b9b32dafd5499688240287ef8c9b90/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
-      "scheme": 0,
-      "api": "308006101c8fd0262c0f529319b9c127:37683aadc75b1450efa82d62c647984d",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "WWE - AQ",
-      "link": "https://tglmp02.akamaized.net/out/v1/3170252e3fb0453085f2f4b0f8401a6b/manifest.mpd",
-      "scheme": 0,
-      "api": "60dc08aae52f4c0b806a8e43f24a12c8:30d5b579966d822b215ec51a91d8a271",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "Cricfy Live",
-      "link": "https://fastly.live.brightcove.com/1850722103624061910/ap-southeast-1/6195549636001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaTE3dzIxLmVncmVzcy5zYjBmOGsiLCJhY2NvdW50X2lkIjoiNjE5NTU0OTYzNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MTk1NTQ5NjM2MDAxIl0sImp0aSI6IjE4NTA3MjIxMDM2MjQwNjE5MTAifQ.MQrZwY5puqZGRgWL843gOZ-Y7i2jUGB5McfZKwoOB1I/playlist-hls.m3u8",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Motorsport | Sports Match",
       "status": "UPCOMING",
@@ -356,7 +232,9 @@
           "stream_type": "DASH",
           "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
           "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {},
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
           "drm_key": ""
         },
         {
@@ -364,7 +242,9 @@
           "stream_type": "DASH",
           "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/duswnrmxpw/out/v1/12ccf25f7bc545c2be53511956c7f40f/cenc.mpd",
           "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/duswnrmxpw/out/v1/12ccf25f7bc545c2be53511956c7f40f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {},
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
           "drm_key": ""
         },
         {
@@ -372,7 +252,9 @@
           "stream_type": "DASH",
           "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
           "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {},
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
           "drm_key": ""
         },
         {
@@ -380,7 +262,9 @@
           "stream_type": "DASH",
           "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
           "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {},
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
           "drm_key": ""
         },
         {
@@ -388,7 +272,9 @@
           "stream_type": "HLS",
           "url": "https://chatgpt.hereisman.net/playlist/57720/load-playlist.m3u8?",
           "raw_link": "https://chatgpt.hereisman.net/playlist/57720/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-          "headers": {},
+          "headers": {
+            "referer": "https://gooz.aapmains.net/"
+          },
           "drm_key": ""
         },
         {
@@ -396,7 +282,9 @@
           "stream_type": "HLS",
           "url": "https://netanjahu.hls.st/t/e8970a1d758868b392308ce095caa041/index.m3u8?",
           "raw_link": "https://netanjahu.hls.st/t/e8970a1d758868b392308ce095caa041/index.m3u8?|Referer=https://iplayer.is/",
-          "headers": {},
+          "headers": {
+            "referer": "https://iplayer.is/"
+          },
           "drm_key": ""
         },
         {
@@ -404,7 +292,9 @@
           "stream_type": "HLS",
           "url": "https://netanjahu.hls.st/t/c1dba79757f1e493804b93b793f031ca/index.m3u8?",
           "raw_link": "https://netanjahu.hls.st/t/c1dba79757f1e493804b93b793f031ca/index.m3u8?|Referer=https://iplayer.is/",
-          "headers": {},
+          "headers": {
+            "referer": "https://iplayer.is/"
+          },
           "drm_key": ""
         },
         {
@@ -420,7 +310,9 @@
           "stream_type": "HLS",
           "url": "http://193.47.62.55/hls/NNNN.m3u8",
           "raw_link": "http://193.47.62.55/hls/NNNN.m3u8|referer=http://fawanews.sc/",
-          "headers": {},
+          "headers": {
+            "referer": "http://fawanews.sc/"
+          },
           "drm_key": ""
         },
         {
@@ -442,133 +334,7 @@
       ]
     },
     {
-      "name": "TSN SPORTS - AQ",
-      "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "scheme": 0,
-      "api": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "SK SPORTS - AQ",
-      "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/duswnrmxpw/out/v1/12ccf25f7bc545c2be53511956c7f40f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "scheme": 0,
-      "api": "b48b292c66f796d2fea54beb5298e96d:9fcdc4a898ccf47be7e7bbabf91776db",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "SporTV BR - AQ",
-      "link": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "scheme": 0,
-      "api": "902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "DAZN ESPANOL",
-      "link": null,
-      "scheme": 0,
-      "api": null,
-      "tokenApi": {
-        "url": null,
-        "api": "https://embedindia.st/embed/azerbaijan-grand-prix---race-28838",
-        "type": "embed",
-        "link_key": "playback_url",
-        "default_string": "N8x7Y%m+6n",
-        "request_type": "get",
-        "request_body_type": "text",
-        "ip_api": "https://api.ipify.org/"
-      },
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "APPLE TV",
-      "link": null,
-      "scheme": 0,
-      "api": null,
-      "tokenApi": {
-        "url": null,
-        "api": "https://embedindia.st/embed/f1/2026/bahrain/qualifying",
-        "type": "embed",
-        "link_key": "playback_url",
-        "default_string": "N8x7Y%m+6n",
-        "request_type": "get",
-        "request_body_type": "text",
-        "ip_api": "https://api.ipify.org/"
-      },
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "CGPT LIVE",
-      "link": "https://chatgpt.hereisman.net/playlist/57720/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "Cricfy SPORTS DE",
-      "link": "https://netanjahu.hls.st/t/e8970a1d758868b392308ce095caa041/index.m3u8?|Referer=https://iplayer.is/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "DAZN SPORTS",
-      "link": "https://netanjahu.hls.st/t/c1dba79757f1e493804b93b793f031ca/index.m3u8?|Referer=https://iplayer.is/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "SK sports F1",
-      "link": "https://admin2.formaturamaxi.com.br/f1.m3u8",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "FS2",
-      "link": null,
-      "scheme": 0,
-      "api": null,
-      "tokenApi": {
-        "url": null,
-        "api": "https://a13.kora-plus.li/framecenter.php?ch=363-1|referer=https://sportiskes.space/&origin=https://sportiskes.space&sec-fetch-dest=iframe",
-        "type": "embed",
-        "link_key": "playback_url",
-        "default_string": "N8x7Y%m+6n",
-        "request_type": "get",
-        "request_body_type": "text",
-        "ip_api": "https://api.ipify.org/"
-      },
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "Sportscast",
-      "link": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/10aebb0b-9c74-4664-abd9-acc9085c27e8/master.m3u8",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Boxing | Sports Match",
       "status": "UPCOMING",
@@ -582,7 +348,9 @@
           "stream_type": "HLS",
           "url": "https://chatgpt.hereisman.net/playlist/54800/load-playlist.m3u8?",
           "raw_link": "https://chatgpt.hereisman.net/playlist/54800/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-          "headers": {},
+          "headers": {
+            "referer": "https://gooz.aapmains.net/"
+          },
           "drm_key": ""
         },
         {
@@ -598,7 +366,9 @@
           "stream_type": "HLS",
           "url": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?",
           "raw_link": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "headers": {},
+          "headers": {
+            "referer": "https://streamscenter.online/"
+          },
           "drm_key": ""
         },
         {
@@ -606,7 +376,9 @@
           "stream_type": "HLS",
           "url": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?",
           "raw_link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://26hrwgorfcmh.windows-devs.top/",
-          "headers": {},
+          "headers": {
+            "referer": "https://26hrwgorfcmh.windows-devs.top/"
+          },
           "drm_key": ""
         },
         {
@@ -614,7 +386,9 @@
           "stream_type": "HLS",
           "url": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_LQ/apache.m3u8",
           "raw_link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_LQ/apache.m3u8|Referer=https://26hrwgorfcmh.windows-devs.top/",
-          "headers": {},
+          "headers": {
+            "referer": "https://26hrwgorfcmh.windows-devs.top/"
+          },
           "drm_key": ""
         },
         {
@@ -622,7 +396,9 @@
           "stream_type": "HLS",
           "url": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?",
           "raw_link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://27lftgqlgzmy.windows-devs.top/",
-          "headers": {},
+          "headers": {
+            "referer": "https://27lftgqlgzmy.windows-devs.top/"
+          },
           "drm_key": ""
         },
         {
@@ -630,76 +406,15 @@
           "stream_type": "HLS",
           "url": "http://193.47.62.41/hls/YBBBAaaaqqq.m3u8?",
           "raw_link": "http://193.47.62.41/hls/YBBBAaaaqqq.m3u8?|referer=http://www.fawanews.sc/",
-          "headers": {},
+          "headers": {
+            "referer": "http://www.fawanews.sc/"
+          },
           "drm_key": ""
         }
       ]
     },
     {
-      "name": "Cricfy WWE",
-      "link": "https://chatgpt.hereisman.net/playlist/54800/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "WWE 6OCT",
-      "link": null,
-      "scheme": 0,
-      "api": null,
-      "tokenApi": {
-        "url": null,
-        "api": "https://embedindia.st/embed/wwe/2026-10-06",
-        "type": "embed",
-        "link_key": "playback_url",
-        "default_string": "N8x7Y%m+6n",
-        "request_type": "get",
-        "request_body_type": "text",
-        "ip_api": "https://api.ipify.org/"
-      },
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "Cricfy RAW",
-      "link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "CricfyTV.Net",
-      "link": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "HD SERVER",
-      "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://26hrwgorfcmh.windows-devs.top/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "Backup SD",
-      "link": "https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://27lftgqlgzmy.windows-devs.top/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Boxing | Sports Match",
       "status": "UPCOMING",
@@ -721,7 +436,9 @@
           "stream_type": "HLS",
           "url": "https://edgestream6.pro/hls/zeuryuegn48.m3u8?",
           "raw_link": "https://edgestream6.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "headers": {},
+          "headers": {
+            "referer": "https://streamscenter.online/"
+          },
           "drm_key": ""
         },
         {
@@ -729,7 +446,9 @@
           "stream_type": "HLS",
           "url": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?",
           "raw_link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://26hrwgorfcmh.windows-devs.top/",
-          "headers": {},
+          "headers": {
+            "referer": "https://26hrwgorfcmh.windows-devs.top/"
+          },
           "drm_key": ""
         },
         {
@@ -737,7 +456,9 @@
           "stream_type": "HLS",
           "url": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_HD/apache.m3u8?",
           "raw_link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_HD/apache.m3u8?|referer=https://26hrwgorfcmh.windows-devs.top/",
-          "headers": {},
+          "headers": {
+            "referer": "https://26hrwgorfcmh.windows-devs.top/"
+          },
           "drm_key": ""
         },
         {
@@ -753,58 +474,15 @@
           "stream_type": "HLS",
           "url": "https://android-database1.firebase-api.com/AccessLog2/108085_HD/apache.m3u8",
           "raw_link": "https://android-database1.firebase-api.com/AccessLog2/108085_HD/apache.m3u8|Referer=https://android-database1.firebase-api.com",
-          "headers": {},
+          "headers": {
+            "referer": "https://android-database1.firebase-api.com"
+          },
           "drm_key": ""
         }
       ]
     },
     {
-      "name": "WWE LIVE FHD",
-      "link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "Cricfy TV+ HD",
-      "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8?|Referer=https://26hrwgorfcmh.windows-devs.top/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "HD QUALITY",
-      "link": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_HD/apache.m3u8?|referer=https://26hrwgorfcmh.windows-devs.top/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "USA TV",
-      "link": "https://g001-sle-us-cmaf-prd-ak.pcdn03.cssott.com/Content/CMAF_OS1-CTR-4s-v2/Live/channel(12010340-12010340-4445585a62764)/master_2hr.mpd",
-      "scheme": 0,
-      "api": "58551b13211b37d5b325d67e5c6cabef:3b4c3f8b4236fc57d66cdb54a606fe41",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "LOW QUALITY",
-      "link": "https://android-database1.firebase-api.com/AccessLog2/108085_HD/apache.m3u8|Referer=https://android-database1.firebase-api.com",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Cricket | Sports Match",
       "status": "UPCOMING",
@@ -858,7 +536,10 @@
           "stream_type": "HLS",
           "url": "https://dai-fancode.pages.dev/mumbai/4249227_hindi_hls_6f1246eee534646_1ta-di_h264/index.m3u8",
           "raw_link": "https://dai-fancode.pages.dev/mumbai/4249227_hindi_hls_6f1246eee534646_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-          "headers": {},
+          "headers": {
+            "user-agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+            "referer": "https://fancode.com/"
+          },
           "drm_key": ""
         },
         {
@@ -866,7 +547,10 @@
           "stream_type": "HLS",
           "url": "https://dai-fancode.pages.dev/mumbai/4249220_english_hls_678474ccb382104_1ta-di_h264/index.m3u8",
           "raw_link": "https://dai-fancode.pages.dev/mumbai/4249220_english_hls_678474ccb382104_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-          "headers": {},
+          "headers": {
+            "user-agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+            "referer": "https://fancode.com/"
+          },
           "drm_key": ""
         },
         {
@@ -874,76 +558,15 @@
           "stream_type": "HLS",
           "url": "http://193.47.62.44/hls/DYYYY.m3u8?",
           "raw_link": "http://193.47.62.44/hls/DYYYY.m3u8?|referer=http://fawanews.sc/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {},
+          "headers": {
+            "referer": "http://www.fawanews.sc/"
+          },
           "drm_key": ""
         }
       ]
     },
     {
-      "name": "WILLOW - AQ",
-      "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oyud4mrrny/out/v1/ddf9b585888140dfb1431752b4f0b0d9/cenc.mpd",
-      "scheme": 0,
-      "api": "7ee3db863dfcbd23965274de933cde8b:6fbcf3b3fafcf75a98dc10f0298ed71c",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "FANCODE - IN",
-      "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-      "scheme": 0,
-      "api": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "STARZPLAY - AQ",
-      "link": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
-      "scheme": 0,
-      "api": "0ae4f162eec3e6f2b580a5bf0f4a64d4:03483335db81cba5bbcf51b6d31196d9",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "WILLOW ALT - AQ",
-      "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oyud4mrrny/out/v1/ddf9b585888140dfb1431752b4f0b0d9/cenc.mpd",
-      "scheme": 0,
-      "api": "7ee3db863dfcbd23965274de933cde8b:6fbcf3b3fafcf75a98dc10f0298ed71c",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "WILLOW HD",
-      "link": "https://df3xownvf1f4t.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/willow_tv/playlist.m3u8",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "FANCODE HIN (IND)",
-      "link": "https://dai-fancode.pages.dev/mumbai/4249227_hindi_hls_6f1246eee534646_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "FANCODE ENG (IND)",
-      "link": "https://dai-fancode.pages.dev/mumbai/4249220_english_hls_678474ccb382104_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Cricket | Sports Match",
       "status": "UPCOMING",
@@ -973,7 +596,9 @@
           "stream_type": "HLS",
           "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/ucl-2tap259/master.m3u8",
           "raw_link": "https://premierleagpl23.akamaized.net/hls/live/2107108/ucl-2tap259/master.m3u8|referer=https://tapmad.com/",
-          "headers": {},
+          "headers": {
+            "referer": "https://tapmad.com/"
+          },
           "drm_key": ""
         },
         {
@@ -989,58 +614,15 @@
           "stream_type": "HLS",
           "url": "http://193.47.62.41/hls/krrr.m3u8",
           "raw_link": "http://193.47.62.41/hls/krrr.m3u8|referer=http://www.fawanews.sc/",
-          "headers": {},
+          "headers": {
+            "referer": "http://www.fawanews.sc/"
+          },
           "drm_key": ""
         }
       ]
     },
     {
-      "name": "WILLOW - FHD",
-      "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1izizyimsv/out/v1/8e83c58952df4181b17e46dd1253d66e/cenc.mpd",
-      "scheme": 0,
-      "api": "ede638607823805e7767784e4558292b:91fccc57c058218c2a22fa21f378a1af",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "WILLOW - ALT",
-      "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1izizyimsv/out/v1/8e83c58952df4181b17e46dd1253d66e/cenc.mpd",
-      "scheme": 0,
-      "api": "ede638607823805e7767784e4558292b:91fccc57c058218c2a22fa21f378a1af",
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "TAPMAD - AQ",
-      "link": "https://premierleagpl23.akamaized.net/hls/live/2107108/ucl-2tap259/master.m3u8|referer=https://tapmad.com/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "TAMASHA - AQ",
-      "link": "https://gcpcdn2.tamashaweb.com/live/main.m3u8?timeshift=1",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "Low Server",
-      "link": "http://193.47.62.41/hls/krrr.m3u8|referer=http://www.fawanews.sc/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1054,7 +636,10 @@
           "stream_type": "HLS",
           "url": "https://sonymtmnew.akamaized.net/hls/live/2120304/Footlive1610/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560",
           "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120304/Footlive1610/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=58af097bebde28f22839f406d8e8bed8-1792156202178",
-          "headers": {},
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0",
+            "referer": "https://www.sonyliv.com/"
+          },
           "drm_key": ""
         },
         {
@@ -1062,7 +647,10 @@
           "stream_type": "HLS",
           "url": "https://sonymtmnew.akamaized.net/hls/live/2120303/Footlive1610/HIN/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560",
           "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120303/Footlive1610/HIN/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=58af097bebde28f22839f406d8e8bed8-1792156202178",
-          "headers": {},
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0",
+            "referer": "https://www.sonyliv.com/"
+          },
           "drm_key": ""
         },
         {
@@ -1070,40 +658,16 @@
           "stream_type": "HLS",
           "url": "https://sonymtmnew.akamaized.net/hls/live/2120305/Footlive1610/BEN/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560",
           "raw_link": "https://sonymtmnew.akamaized.net/hls/live/2120305/Footlive1610/BEN/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=58af097bebde28f22839f406d8e8bed8-1792156202178",
-          "headers": {},
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0",
+            "referer": "https://www.sonyliv.com/"
+          },
           "drm_key": ""
         }
       ]
     },
     {
-      "name": "CricFy (ENG)",
-      "link": "https://sonymtmnew.akamaized.net/hls/live/2120304/Footlive1610/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=58af097bebde28f22839f406d8e8bed8-1792156202178",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "CricFy (HIN)",
-      "link": "https://sonymtmnew.akamaized.net/hls/live/2120303/Footlive1610/HIN/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=58af097bebde28f22839f406d8e8bed8-1792156202178",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "CricFy (BEN)",
-      "link": "https://sonymtmnew.akamaized.net/hls/live/2120305/Footlive1610/BEN/std_lrh-800300010.m3u8?hdnea=exp=1792180690~acl=/*~id=85310523262574112852336139590553~hmac=fdb92223c77f4463bbd96cfc4b6225490d8cb73cc542b6d6778a9cabfe833560|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=58af097bebde28f22839f406d8e8bed8-1792156202178",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Cricket | Sports Match",
       "status": "UPCOMING",
@@ -1123,13 +687,7 @@
       ]
     },
     {
-      "name": "Link 1",
-      "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Cricket | Sports Match",
       "status": "UPCOMING",
@@ -1173,7 +731,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Cricket | Sports Match",
       "status": "UPCOMING",
@@ -1193,7 +751,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1207,7 +765,9 @@
           "stream_type": "HLS",
           "url": "https://live.vivo155.com/live/sd-1-4599618.m3u8?txSecret=94f3dad39fd00efae0455d6986857eba&txTime=6AD23D1A",
           "raw_link": "https://live.vivo155.com/live/sd-1-4599618.m3u8?txSecret=94f3dad39fd00efae0455d6986857eba&txTime=6AD23D1A|Referer=https://player.online878.com/",
-          "headers": {},
+          "headers": {
+            "referer": "https://player.online878.com/"
+          },
           "drm_key": ""
         },
         {
@@ -1227,52 +787,19 @@
           "drm_key": ""
         },
         {
-          "channel_name": "CRFY Stream",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/sd-1-4599618.m3u8?txSecret=46992fefdd22c2409312b5c162ed4df1&txTime=6AD23CBC",
-          "raw_link": "https://live.vivo155.com/live/sd-1-4599618.m3u8?txSecret=46992fefdd22c2409312b5c162ed4df1&txTime=6AD23CBC",
-          "headers": {},
-          "drm_key": ""
-        },
-        {
           "channel_name": "Low",
           "stream_type": "HLS",
           "url": "http://193.47.62.41/hls/DUUUAAAAA.m3u8?",
           "raw_link": "http://193.47.62.41/hls/DUUUAAAAA.m3u8?|referer=http://fawanews.sc/",
-          "headers": {},
+          "headers": {
+            "referer": "http://fawanews.sc/"
+          },
           "drm_key": ""
         }
       ]
     },
     {
-      "name": "Cricfy Pro",
-      "link": "https://live.vivo155.com/live/sd-1-4599618.m3u8?txSecret=94f3dad39fd00efae0455d6986857eba&txTime=6AD23D1A|Referer=https://player.online878.com/",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "Cricfy HD +",
-      "link": "https://pulltx.cqsycw.com/live/202_5615479_1.m3u8?txSecret=69db272edafc6f2ae8fdd7f9520e21f6&txTime=6AD767AF",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "name": "CRFY Stream",
-      "link": "https://live.vivo155.com/live/sd-1-4599618.m3u8?txSecret=46992fefdd22c2409312b5c162ed4df1&txTime=6AD23CBC",
-      "scheme": 0,
-      "api": null,
-      "tokenApi": null,
-      "time": "",
-      "status": "UPCOMING"
-    },
-    {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1292,7 +819,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1312,7 +839,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1332,7 +859,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1346,13 +873,15 @@
           "stream_type": "HLS",
           "url": "https://edgestream4.pro/hls/syaLqucEne4k.m3u8",
           "raw_link": "https://edgestream4.pro/hls/syaLqucEne4k.m3u8|referer=https://streame.center/",
-          "headers": {},
+          "headers": {
+            "referer": "https://streame.center/"
+          },
           "drm_key": ""
         }
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1372,7 +901,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1392,7 +921,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1412,7 +941,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1432,7 +961,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1452,7 +981,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1466,13 +995,15 @@
           "stream_type": "HLS",
           "url": "https://edgestream5.pro/hls/ueyeztrazb4.m3u8",
           "raw_link": "https://edgestream5.pro/hls/ueyeztrazb4.m3u8|referer=https://streame.center/",
-          "headers": {},
+          "headers": {
+            "referer": "https://streame.center/"
+          },
           "drm_key": ""
         }
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1492,7 +1023,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1512,7 +1043,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1532,7 +1063,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1552,7 +1083,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1572,7 +1103,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1592,7 +1123,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1612,7 +1143,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1632,7 +1163,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1652,7 +1183,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1672,7 +1203,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1692,7 +1223,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1712,7 +1243,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1732,7 +1263,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1752,7 +1283,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1772,7 +1303,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Baseball | Sports Match",
       "status": "UPCOMING",
@@ -1792,7 +1323,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Baseball | Sports Match",
       "status": "UPCOMING",
@@ -1812,7 +1343,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Hockey | Sports Match",
       "status": "UPCOMING",
@@ -1832,7 +1363,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Hockey | Sports Match",
       "status": "UPCOMING",
@@ -1852,7 +1383,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1866,13 +1397,15 @@
           "stream_type": "HLS",
           "url": "https://edgestream1.pro/hls/377qj1h2727.m3u8",
           "raw_link": "https://edgestream1.pro/hls/377qj1h2727.m3u8|referer=https://streame.center/",
-          "headers": {},
+          "headers": {
+            "referer": "https://streame.center/"
+          },
           "drm_key": ""
         }
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1892,7 +1425,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1912,7 +1445,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1932,7 +1465,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1952,7 +1485,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1972,7 +1505,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -1992,7 +1525,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -2012,7 +1545,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Basketball | Sports Match",
       "status": "UPCOMING",
@@ -2032,7 +1565,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Basketball | Sports Match",
       "status": "UPCOMING",
@@ -2052,7 +1585,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Basketball | Sports Match",
       "status": "UPCOMING",
@@ -2072,7 +1605,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Basketball | Sports Match",
       "status": "UPCOMING",
@@ -2092,7 +1625,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Basketball | Sports Match",
       "status": "UPCOMING",
@@ -2112,7 +1645,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Basketball | Sports Match",
       "status": "UPCOMING",
@@ -2132,7 +1665,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Basketball | Sports Match",
       "status": "UPCOMING",
@@ -2152,7 +1685,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Basketball | Sports Match",
       "status": "UPCOMING",
@@ -2172,7 +1705,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Basketball | Sports Match",
       "status": "UPCOMING",
@@ -2192,7 +1725,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Basketball | Sports Match",
       "status": "UPCOMING",
@@ -2212,7 +1745,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Basketball | Sports Match",
       "status": "UPCOMING",
@@ -2232,7 +1765,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Basketball | Sports Match",
       "status": "UPCOMING",
@@ -2252,7 +1785,7 @@
       ]
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -2263,7 +1796,7 @@
       "stream_url": []
     },
     {
-      "match_id": "",
+      "match_id": "sports-match",
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "UPCOMING",
@@ -2277,7 +1810,9 @@
           "stream_type": "HLS",
           "url": "https://edgestream4.pro/hls/dza5z8f69.m3u8",
           "raw_link": "https://edgestream4.pro/hls/dza5z8f69.m3u8|referer=https://streame.center/",
-          "headers": {},
+          "headers": {
+            "referer": "https://streame.center/"
+          },
           "drm_key": ""
         }
       ]

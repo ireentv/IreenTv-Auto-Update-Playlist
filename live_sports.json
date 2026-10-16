@@ -1,8 +1,8 @@
 {
   "playlist_name": "live_sports",
   "developer": "MD ANAMUL HOQUE",
-  "channels_amount": 2,
-  "live_count": 2,
+  "channels_amount": 95,
+  "live_count": 26,
   "last_update": "11:58 PM 16-10-2026 BST",
   "events": [
     {
@@ -26,22 +26,1313 @@
       ]
     },
     {
-      "chno": 1,
-      "name": "[CAF Confederation Cup] [11:00 PM BD] [LIVE] ZED vs Azam (FAWA)",
+      "match_id": "Live.Event.us",
+      "title": "[CAF Confederation Cup] [11:00 PM BD] [LIVE] ZED vs Azam (FAWA)",
+      "synopsis": "CAF Confederation Cup | [CAF Confederation Cup] [11:00 PM BD] [LIVE] ZED vs Azam (FAWA)",
       "status": "LIVE",
-      "is_live": true,
-      "sport": "CAF Confederation Cup",
-      "event": "ZED vs Azam",
-      "match_time_bd": "11:00 PM BD",
-      "source_time_gmt1": "18:00",
-      "league": "CAF Confederation Cup",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1986380387874926592/BupvxFYG_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.50/hls/OFFFAAAAQ.m3u8",
-      "stream_url": "http://193.47.62.50/hls/OFFFAAAAQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/ZED%20vs%20Azam.html",
-      "time": ""
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1986380387874926592/BupvxFYG_400x400.jpg",
+      "match_url": "http://193.47.62.50/hls/OFFFAAAAQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.50/hls/OFFFAAAAQ.m3u8",
+          "raw_link": "http://193.47.62.50/hls/OFFFAAAAQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[CAF Champions League] [10:00 PM BD] [LIVE] APR vs Zamalek (FAWA)",
+      "synopsis": "CAF Champions League | [CAF Champions League] [10:00 PM BD] [LIVE] APR vs Zamalek (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1986380387874926592/BupvxFYG_400x400.jpg",
+      "match_url": "http://193.47.62.59/hls/HHHHWQAAQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.59/hls/HHHHWQAAQQQ.m3u8",
+          "raw_link": "http://193.47.62.59/hls/HHHHWQAAQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Tanzania Ligi Kuu Bara] [10:00 PM BD] [LIVE] Geita Gold vs Dodoma Jiji (FAWA)",
+      "synopsis": "Tanzania Ligi Kuu Bara | [Tanzania Ligi Kuu Bara] [10:00 PM BD] [LIVE] Geita Gold vs Dodoma Jiji (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/637495443774140416/Ek5Gmtj2_400x400.jpg",
+      "match_url": "http://193.47.62.41/hls/DUUUAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.41/hls/DUUUAAA.m3u8",
+          "raw_link": "http://193.47.62.41/hls/DUUUAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Basketball Euroleague] [12:30 AM BD] [LIVE] Barcelona vs Olympiacos --- CH 1 (FAWA)",
+      "synopsis": "Basketball Euroleague | [Basketball Euroleague] [12:30 AM BD] [LIVE] Barcelona vs Olympiacos --- CH 1 (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "match_url": "http://193.47.62.55/hls/5BBBA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.55/hls/5BBBA.m3u8",
+          "raw_link": "http://193.47.62.55/hls/5BBBA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Basketball Euroleague] [12:30 AM BD] [LIVE] Barcelona vs Olympiacos --- CH 2 (FAWA)",
+      "synopsis": "Basketball Euroleague | [Basketball Euroleague] [12:30 AM BD] [LIVE] Barcelona vs Olympiacos --- CH 2 (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "match_url": "https://www.rtmpcdn.com/live/c872b155-f24f-4ad2-9e71-949b036e5050.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "https://www.rtmpcdn.com/live/c872b155-f24f-4ad2-9e71-949b036e5050.m3u8",
+          "raw_link": "https://www.rtmpcdn.com/live/c872b155-f24f-4ad2-9e71-949b036e5050.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Basketball Euroleague] [12:15 AM BD] [LIVE] Panathinaikos vs Hapoel Tel Aviv --- CH 1 (FAWA)",
+      "synopsis": "Basketball Euroleague | [Basketball Euroleague] [12:15 AM BD] [LIVE] Panathinaikos vs Hapoel Tel Aviv --- CH 1 (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "match_url": "http://193.47.62.55/hls/5BBB.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.55/hls/5BBB.m3u8",
+          "raw_link": "http://193.47.62.55/hls/5BBB.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Basketball Euroleague] [12:15 AM BD] [LIVE] Panathinaikos vs Hapoel Tel Aviv --- CH 2 (FAWA)",
+      "synopsis": "Basketball Euroleague | [Basketball Euroleague] [12:15 AM BD] [LIVE] Panathinaikos vs Hapoel Tel Aviv --- CH 2 (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "match_url": "https://www.rtmpcdn.com/live/af09078a-c938-41d4-9a52-4f93e15124d0.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "https://www.rtmpcdn.com/live/af09078a-c938-41d4-9a52-4f93e15124d0.m3u8",
+          "raw_link": "https://www.rtmpcdn.com/live/af09078a-c938-41d4-9a52-4f93e15124d0.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Basketball Euroleague] [12:30 AM BD] [LIVE] Virtus Bologna vs Baskonia --- CH 1 (FAWA)",
+      "synopsis": "Basketball Euroleague | [Basketball Euroleague] [12:30 AM BD] [LIVE] Virtus Bologna vs Baskonia --- CH 1 (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "match_url": "http://193.47.62.59/hls/6NNNA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.59/hls/6NNNA.m3u8",
+          "raw_link": "http://193.47.62.59/hls/6NNNA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Basketball Euroleague] [12:30 AM BD] [LIVE] Virtus Bologna vs Baskonia --- CH 2 (FAWA)",
+      "synopsis": "Basketball Euroleague | [Basketball Euroleague] [12:30 AM BD] [LIVE] Virtus Bologna vs Baskonia --- CH 2 (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "match_url": "https://www.rtmpcdn.com/live/3941d127-f0df-4667-93c9-f9b6880c9862.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "https://www.rtmpcdn.com/live/3941d127-f0df-4667-93c9-f9b6880c9862.m3u8",
+          "raw_link": "https://www.rtmpcdn.com/live/3941d127-f0df-4667-93c9-f9b6880c9862.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Switzerland Cup] [12:15 AM BD] [LIVE] Stade Nyonnais vs FC Basel (FAWA)",
+      "synopsis": "Switzerland Cup | [Switzerland Cup] [12:15 AM BD] [LIVE] Stade Nyonnais vs FC Basel (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1939931354528980992/MjIErFvg_400x400.png",
+      "match_url": "http://193.47.62.59/hls/6NNN.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.59/hls/6NNN.m3u8",
+          "raw_link": "http://193.47.62.59/hls/6NNN.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Basketball Euroleague] [12:00 AM BD] [LIVE] Crvena Zvezda vs Meridianbet Paris --- CH 1 (FAWA)",
+      "synopsis": "Basketball Euroleague | [Basketball Euroleague] [12:00 AM BD] [LIVE] Crvena Zvezda vs Meridianbet Paris --- CH 1 (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "match_url": "http://193.47.62.44/hls/Z666AAAAQQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/Z666AAAAQQQQ.m3u8",
+          "raw_link": "http://193.47.62.44/hls/Z666AAAAQQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Basketball Euroleague] [12:00 AM BD] [LIVE] Crvena Zvezda vs Meridianbet Paris --- CH 2 (FAWA)",
+      "synopsis": "Basketball Euroleague | [Basketball Euroleague] [12:00 AM BD] [LIVE] Crvena Zvezda vs Meridianbet Paris --- CH 2 (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "match_url": "https://www.rtmpcdn.com/live/c949ebef-d2ed-45f7-924f-f376d75b7d34.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "https://www.rtmpcdn.com/live/c949ebef-d2ed-45f7-924f-f376d75b7d34.m3u8",
+          "raw_link": "https://www.rtmpcdn.com/live/c949ebef-d2ed-45f7-924f-f376d75b7d34.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Switzerland Cup] [12:00 AM BD] [LIVE] Rotkreuz vs Servette (FAWA)",
+      "synopsis": "Switzerland Cup | [Switzerland Cup] [12:00 AM BD] [LIVE] Rotkreuz vs Servette (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1939931354528980992/MjIErFvg_400x400.png",
+      "match_url": "http://193.47.62.44/hls/Z666AAAAQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/Z666AAAAQQQ.m3u8",
+          "raw_link": "http://193.47.62.44/hls/Z666AAAAQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Switzerland Cup] [12:00 AM BD] [LIVE] Rapperswil-Jona vs St Gallen (FAWA)",
+      "synopsis": "Switzerland Cup | [Switzerland Cup] [12:00 AM BD] [LIVE] Rapperswil-Jona vs St Gallen (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1939931354528980992/MjIErFvg_400x400.png",
+      "match_url": "http://193.47.62.44/hls/Z666AAAAQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/Z666AAAAQQ.m3u8",
+          "raw_link": "http://193.47.62.44/hls/Z666AAAAQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Romania Superliga] [12:00 AM BD] [LIVE] Dinamo Bucuresti vs FC Botosani (FAWA)",
+      "synopsis": "Romania Superliga | [Romania Superliga] [12:00 AM BD] [LIVE] Dinamo Bucuresti vs FC Botosani (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1445121142465998848/ghGZsBoQ_400x400.jpg",
+      "match_url": "http://193.47.62.44/hls/Z666AAAAQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/Z666AAAAQ.m3u8",
+          "raw_link": "http://193.47.62.44/hls/Z666AAAAQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Dutch Eredivisie] [12:00 AM BD] [LIVE] Heerenveen vs Excelsior (FAWA)",
+      "synopsis": "Dutch Eredivisie | [Dutch Eredivisie] [12:00 AM BD] [LIVE] Heerenveen vs Excelsior (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1858829033355493376/MyVA18Zj_400x400.jpg",
+      "match_url": "http://193.47.62.44/hls/Z666AAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/Z666AAAA.m3u8",
+          "raw_link": "http://193.47.62.44/hls/Z666AAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Dutch Eerste Divisie] [12:00 AM BD] [LIVE] VVV Venlo vs Jong AZ (FAWA)",
+      "synopsis": "Dutch Eerste Divisie | [Dutch Eerste Divisie] [12:00 AM BD] [LIVE] VVV Venlo vs Jong AZ (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1818212439587954688/cfENWUEg_400x400.jpg",
+      "match_url": "http://193.47.62.44/hls/Z666AAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/Z666AAA.m3u8",
+          "raw_link": "http://193.47.62.44/hls/Z666AAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Dutch Eerste Divisie] [12:00 AM BD] [LIVE] Helmond Sport vs NAC Breda (FAWA)",
+      "synopsis": "Dutch Eerste Divisie | [Dutch Eerste Divisie] [12:00 AM BD] [LIVE] Helmond Sport vs NAC Breda (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1818212439587954688/cfENWUEg_400x400.jpg",
+      "match_url": "http://193.47.62.44/hls/Z666AA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/Z666AA.m3u8",
+          "raw_link": "http://193.47.62.44/hls/Z666AA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Dutch Eerste Divisie] [12:00 AM BD] [LIVE] Eindhoven FC vs Vitesse (FAWA)",
+      "synopsis": "Dutch Eerste Divisie | [Dutch Eerste Divisie] [12:00 AM BD] [LIVE] Eindhoven FC vs Vitesse (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1818212439587954688/cfENWUEg_400x400.jpg",
+      "match_url": "http://193.47.62.44/hls/Z666A.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/Z666A.m3u8",
+          "raw_link": "http://193.47.62.44/hls/Z666A.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Dutch Eerste Divisie] [12:00 AM BD] [LIVE] FC Den Bosch vs TOP Oss (FAWA)",
+      "synopsis": "Dutch Eerste Divisie | [Dutch Eerste Divisie] [12:00 AM BD] [LIVE] FC Den Bosch vs TOP Oss (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1818212439587954688/cfENWUEg_400x400.jpg",
+      "match_url": "http://193.47.62.44/hls/Z666.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/Z666.m3u8",
+          "raw_link": "http://193.47.62.44/hls/Z666.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[France Ligue 2] [12:00 AM BD] [LIVE] Reims vs Dijon (FAWA)",
+      "synopsis": "France Ligue 2 | [France Ligue 2] [12:00 AM BD] [LIVE] Reims vs Dijon (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2001309157903732736/CPkmq-J4_400x400.jpg",
+      "match_url": "http://193.47.62.44/hls/699BAAAQQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/699BAAAQQQQ.m3u8",
+          "raw_link": "http://193.47.62.44/hls/699BAAAQQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[France Ligue 2] [12:00 AM BD] [LIVE] Laval vs Clermont (FAWA)",
+      "synopsis": "France Ligue 2 | [France Ligue 2] [12:00 AM BD] [LIVE] Laval vs Clermont (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2001309157903732736/CPkmq-J4_400x400.jpg",
+      "match_url": "http://193.47.62.44/hls/699BAAAQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/699BAAAQQQ.m3u8",
+          "raw_link": "http://193.47.62.44/hls/699BAAAQQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[France Ligue 2] [12:00 AM BD] [LIVE] Guingamp vs Pau FC (FAWA)",
+      "synopsis": "France Ligue 2 | [France Ligue 2] [12:00 AM BD] [LIVE] Guingamp vs Pau FC (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2001309157903732736/CPkmq-J4_400x400.jpg",
+      "match_url": "http://193.47.62.44/hls/699BAAAQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/699BAAAQQ.m3u8",
+          "raw_link": "http://193.47.62.44/hls/699BAAAQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[France Ligue 2] [12:00 AM BD] [LIVE] Grenoble vs Boulogne (FAWA)",
+      "synopsis": "France Ligue 2 | [France Ligue 2] [12:00 AM BD] [LIVE] Grenoble vs Boulogne (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2001309157903732736/CPkmq-J4_400x400.jpg",
+      "match_url": "http://193.47.62.44/hls/699BAAAQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/699BAAAQ.m3u8",
+          "raw_link": "http://193.47.62.44/hls/699BAAAQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[France Ligue 2] [12:00 AM BD] [LIVE] Annecy vs Nancy (FAWA)",
+      "synopsis": "France Ligue 2 | [France Ligue 2] [12:00 AM BD] [LIVE] Annecy vs Nancy (FAWA)",
+      "status": "LIVE",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2001309157903732736/CPkmq-J4_400x400.jpg",
+      "match_url": "http://193.47.62.44/hls/699BAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "is_free": false,
+      "stream_url": [
+        {
+          "channel_name": "Server 1",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/699BAAA.m3u8",
+          "raw_link": "http://193.47.62.44/hls/699BAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+          "headers": {
+            "referer": "http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0"
+          },
+          "drm_key": ""
+        }
+      ]
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Hungary NB 1 Liga] [12:00 AM BD] [UPCOMING] MTK Budapest vs Vasas (FAWA)",
+      "synopsis": "Hungary NB 1 Liga | [Hungary NB 1 Liga] [12:00 AM BD] [UPCOMING] MTK Budapest vs Vasas (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1619022597298995203/iCFS2Ka1_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[English Premier League U21] [12:00 AM BD] [UPCOMING] Nottingham U21 vs Manchester Utd U21 (FAWA)",
+      "synopsis": "English Premier League U21 | [English Premier League U21] [12:00 AM BD] [UPCOMING] Nottingham U21 vs Manchester Utd U21 (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1605140132847403008/29zfnVM0_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Peru Liga 1 Apertura] [12:00 AM BD] [UPCOMING] Sport Huancayo vs Cusco (FAWA)",
+      "synopsis": "Peru Liga 1 Apertura | [Peru Liga 1 Apertura] [12:00 AM BD] [UPCOMING] Sport Huancayo vs Cusco (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1334588451149271041/YmG_5CLv_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Austria Bundesliga] [11:30 PM BD] [UPCOMING] SK Rapid vs Hartberg (FAWA)",
+      "synopsis": "Austria Bundesliga | [Austria Bundesliga] [11:30 PM BD] [UPCOMING] SK Rapid vs Hartberg (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/media/FUumFx6XwAANi53.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Sweden Division 1] [11:30 PM BD] [UPCOMING] Stocksund vs Enkoping SK (FAWA)",
+      "synopsis": "Sweden Division 1 | [Sweden Division 1] [11:30 PM BD] [UPCOMING] Stocksund vs Enkoping SK (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1836659987176685568/yp9ldpSd_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[France Rugby Pro D2] [11:30 PM BD] [UPCOMING] US Dax vs Montauban (FAWA)",
+      "synopsis": "France Rugby Pro D2 | [France Rugby Pro D2] [11:30 PM BD] [UPCOMING] US Dax vs Montauban (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1658978316324356098/0MfeHTZ8_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[France Rugby Pro D2] [11:30 PM BD] [UPCOMING] Nissa vs Provence Rugby (FAWA)",
+      "synopsis": "France Rugby Pro D2 | [France Rugby Pro D2] [11:30 PM BD] [UPCOMING] Nissa vs Provence Rugby (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1658978316324356098/0MfeHTZ8_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[France Rugby Pro D2] [11:30 PM BD] [UPCOMING] Colomiers vs Narbonne (FAWA)",
+      "synopsis": "France Rugby Pro D2 | [France Rugby Pro D2] [11:30 PM BD] [UPCOMING] Colomiers vs Narbonne (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1658978316324356098/0MfeHTZ8_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[France Rugby Pro D2] [11:30 PM BD] [UPCOMING] Beziers vs Aurillac (FAWA)",
+      "synopsis": "France Rugby Pro D2 | [France Rugby Pro D2] [11:30 PM BD] [UPCOMING] Beziers vs Aurillac (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1658978316324356098/0MfeHTZ8_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Basketball Euroleague] [11:00 PM BD] [UPCOMING] Zalgiris Kaunas vs Anadolu Efes --- CH 1 (FAWA)",
+      "synopsis": "Basketball Euroleague | [Basketball Euroleague] [11:00 PM BD] [UPCOMING] Zalgiris Kaunas vs Anadolu Efes --- CH 1 (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Basketball Euroleague] [11:00 PM BD] [UPCOMING] Zalgiris Kaunas vs Anadolu Efes --- CH 2 (FAWA)",
+      "synopsis": "Basketball Euroleague | [Basketball Euroleague] [11:00 PM BD] [UPCOMING] Zalgiris Kaunas vs Anadolu Efes --- CH 2 (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Basketball Euroleague] [11:00 PM BD] [UPCOMING] Besiktas vs Bayern Munchen --- CH 1 (FAWA)",
+      "synopsis": "Basketball Euroleague | [Basketball Euroleague] [11:00 PM BD] [UPCOMING] Besiktas vs Bayern Munchen --- CH 1 (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Basketball Euroleague] [11:00 PM BD] [UPCOMING] Besiktas vs Bayern Munchen --- CH 2 (FAWA)",
+      "synopsis": "Basketball Euroleague | [Basketball Euroleague] [11:00 PM BD] [UPCOMING] Besiktas vs Bayern Munchen --- CH 2 (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Sweden Allsvenskan] [11:00 PM BD] [UPCOMING] Brommapojkarna vs Djurgarden (FAWA)",
+      "synopsis": "Sweden Allsvenskan | [Sweden Allsvenskan] [11:00 PM BD] [UPCOMING] Brommapojkarna vs Djurgarden (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1742103773072199680/5WHuWW_h_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Darts] [11:00 PM BD] [UPCOMING] Darts European Tour 15 (FAWA)",
+      "synopsis": "Darts | [Darts] [11:00 PM BD] [UPCOMING] Darts European Tour 15 (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1945520203653165057/BRp76d7W_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[France Rugby Pro D2] [11:00 PM BD] [UPCOMING] US Oyonnax vs Valence Romans (FAWA)",
+      "synopsis": "France Rugby Pro D2 | [France Rugby Pro D2] [11:00 PM BD] [UPCOMING] US Oyonnax vs Valence Romans (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1658978316324356098/0MfeHTZ8_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Sweden Division 1] [11:00 PM BD] [UPCOMING] Lunds vs Trelleborg (FAWA)",
+      "synopsis": "Sweden Division 1 | [Sweden Division 1] [11:00 PM BD] [UPCOMING] Lunds vs Trelleborg (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1836659987176685568/yp9ldpSd_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Iceland League] [11:00 PM BD] [UPCOMING] Vestmannaeyjar vs Hafnarfjordur (FAWA)",
+      "synopsis": "Iceland League | [Iceland League] [11:00 PM BD] [UPCOMING] Vestmannaeyjar vs Hafnarfjordur (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1228319371967291393/uoMucE2T_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Turkey Super Lig] [11:00 PM BD] [UPCOMING] Corum vs Rizespor Rizespor (FAWA)",
+      "synopsis": "Turkey Super Lig | [Turkey Super Lig] [11:00 PM BD] [UPCOMING] Corum vs Rizespor Rizespor (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1838828164295864320/wNv3wpY7_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Denmark SuperLiga] [11:00 PM BD] [UPCOMING] Horsens vs Randers FC (FAWA)",
+      "synopsis": "Denmark SuperLiga | [Denmark SuperLiga] [11:00 PM BD] [UPCOMING] Horsens vs Randers FC (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1808057601546244096/kHzIvk1f_200x200.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Denmark Division 1] [11:00 PM BD] [UPCOMING] Kolding IF vs Vendsyssel (FAWA)",
+      "synopsis": "Denmark Division 1 | [Denmark Division 1] [11:00 PM BD] [UPCOMING] Kolding IF vs Vendsyssel (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1808057601546244096/kHzIvk1f_200x200.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Denmark Division 1] [11:00 PM BD] [UPCOMING] Koge vs AB Copenhagen (FAWA)",
+      "synopsis": "Denmark Division 1 | [Denmark Division 1] [11:00 PM BD] [UPCOMING] Koge vs AB Copenhagen (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1808057601546244096/kHzIvk1f_200x200.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Denmark Division 1] [11:00 PM BD] [UPCOMING] Aarhus Fremad vs Esbjerg (FAWA)",
+      "synopsis": "Denmark Division 1 | [Denmark Division 1] [11:00 PM BD] [UPCOMING] Aarhus Fremad vs Esbjerg (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1808057601546244096/kHzIvk1f_200x200.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[German 3 liga] [11:00 PM BD] [UPCOMING] Fortuna Koln vs Stuttgart II (FAWA)",
+      "synopsis": "German 3 liga | [German 3 liga] [11:00 PM BD] [UPCOMING] Fortuna Koln vs Stuttgart II (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://upload.wikimedia.org/wikipedia/fr/1/1b/Logo_3Liga.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] Visby Roma vs BIK Karlskoga (FAWA)",
+      "synopsis": "Sweden HockeyAllsvenskan | [Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] Visby Roma vs BIK Karlskoga (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2099574859923681280/DSz61zyx_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] Vimmerby vs Mora (FAWA)",
+      "synopsis": "Sweden HockeyAllsvenskan | [Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] Vimmerby vs Mora (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2099574859923681280/DSz61zyx_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] Sodertalje vs Nybro (FAWA)",
+      "synopsis": "Sweden HockeyAllsvenskan | [Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] Sodertalje vs Nybro (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2099574859923681280/DSz61zyx_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] Ostersund vs Leksand (FAWA)",
+      "synopsis": "Sweden HockeyAllsvenskan | [Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] Ostersund vs Leksand (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2099574859923681280/DSz61zyx_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] Oskarshamn vs Almtuna (FAWA)",
+      "synopsis": "Sweden HockeyAllsvenskan | [Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] Oskarshamn vs Almtuna (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2099574859923681280/DSz61zyx_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] Kalmar vs Modo (FAWA)",
+      "synopsis": "Sweden HockeyAllsvenskan | [Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] Kalmar vs Modo (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2099574859923681280/DSz61zyx_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] AIK vs Vasteras (FAWA)",
+      "synopsis": "Sweden HockeyAllsvenskan | [Sweden HockeyAllsvenskan] [11:00 PM BD] [UPCOMING] AIK vs Vasteras (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2099574859923681280/DSz61zyx_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Qatar QSL] [10:45 PM BD] [UPCOMING] Al Shahaniya vs Al Arabi (FAWA)",
+      "synopsis": "Qatar QSL | [Qatar QSL] [10:45 PM BD] [UPCOMING] Al Shahaniya vs Al Arabi (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2080991487475527680/01VevBEC_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[German 2 Bundesliga] [10:30 PM BD] [UPCOMING] Holstein Kiel vs Hertha Berlin (FAWA)",
+      "synopsis": "German 2 Bundesliga | [German 2 Bundesliga] [10:30 PM BD] [UPCOMING] Holstein Kiel vs Hertha Berlin (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/880436063424131074/ECth5ahp_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[German 2 Bundesliga] [10:30 PM BD] [UPCOMING] Cottbus vs Nurnberg (FAWA)",
+      "synopsis": "German 2 Bundesliga | [German 2 Bundesliga] [10:30 PM BD] [UPCOMING] Cottbus vs Nurnberg (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/880436063424131074/ECth5ahp_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[German Women Bundesliga] [10:30 PM BD] [UPCOMING] Freiburg W vs RB Leipzig W (FAWA)",
+      "synopsis": "German Women Bundesliga | [German Women Bundesliga] [10:30 PM BD] [UPCOMING] Freiburg W vs RB Leipzig W (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/880436063424131074/ECth5ahp_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Poland Ekstraklasa] [10:00 PM BD] [UPCOMING] Wieczysta Krakow vs Rakow (FAWA)",
+      "synopsis": "Poland Ekstraklasa | [Poland Ekstraklasa] [10:00 PM BD] [UPCOMING] Wieczysta Krakow vs Rakow (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2072189899344613376/DeGLZ4Il_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Poland Division 1] [10:00 PM BD] [UPCOMING] Warta Poznan vs Skierniewice (FAWA)",
+      "synopsis": "Poland Division 1 | [Poland Division 1] [10:00 PM BD] [UPCOMING] Warta Poznan vs Skierniewice (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1852296144723869696/2Ad94oXN_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Bulgaria Sofia] [10:00 PM BD] [UPCOMING] Yantra Gabrovo vs Lokomotiv Plovdiv (FAWA)",
+      "synopsis": "Bulgaria Sofia | [Bulgaria Sofia] [10:00 PM BD] [UPCOMING] Yantra Gabrovo vs Lokomotiv Plovdiv (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/961918078715154432/nvSl0qsf_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Croatia 1 HNL] [10:00 PM BD] [UPCOMING] Rudes vs Rijeka (FAWA)",
+      "synopsis": "Croatia 1 HNL | [Croatia 1 HNL] [10:00 PM BD] [UPCOMING] Rudes vs Rijeka (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://upload.wikimedia.org/wikipedia/fr/c/c2/Championnat_de_Croatie_de_football_-_Logo.png",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Cyprus Basketball] [10:00 PM BD] [UPCOMING] Achilleas vs Apollon (FAWA)",
+      "synopsis": "Cyprus Basketball | [Cyprus Basketball] [10:00 PM BD] [UPCOMING] Achilleas vs Apollon (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/2051187915355475968/A77yTKjA_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Cyprus 2nd League] [10:00 PM BD] [UPCOMING] Paralimni vs ASIL Lysi (FAWA)",
+      "synopsis": "Cyprus 2nd League | [Cyprus 2nd League] [10:00 PM BD] [UPCOMING] Paralimni vs ASIL Lysi (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://1.bp.blogspot.com/-byTkUREuv60/X0bfuLzFPPI/AAAAAAAABUU/7Itgj_8JQRo3LCXpT2AHdZXSKw7Tjxw7ACLcBGAsYHQ/s474/OIP.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Bosnia and Herzegovina Premier League] [10:00 PM BD] [UPCOMING] Sloga Meridian vs Siroki Brijeg (FAWA)",
+      "synopsis": "Bosnia and Herzegovina Premier League | [Bosnia and Herzegovina Premier League] [10:00 PM BD] [UPCOMING] Sloga Meridian vs Siroki Brijeg (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/474124902702657536/j0UJNMZa_400x400.jpeg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[UAE Premier League] [09:45 PM BD] [UPCOMING] Bani Yas vs Al Wasl (FAWA)",
+      "synopsis": "UAE Premier League | [UAE Premier League] [09:45 PM BD] [UPCOMING] Bani Yas vs Al Wasl (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1954213261898895361/3rhnnXke_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Cricket Legends] [09:30 PM BD] [UPCOMING] Australia vs West Indies (FAWA)",
+      "synopsis": "Cricket Legends | [Cricket Legends] [09:30 PM BD] [UPCOMING] Australia vs West Indies (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1404378291599937536/b-r3SWlW_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Slovenia Prva Liga] [09:30 PM BD] [UPCOMING] Aluminij vs O Ljubljana (FAWA)",
+      "synopsis": "Slovenia Prva Liga | [Slovenia Prva Liga] [09:30 PM BD] [UPCOMING] Aluminij vs O Ljubljana (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1414517889508462600/kxU3TDsE_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Serbia Super Liga] [09:00 PM BD] [UPCOMING] Radnik vs Radnicki Nis (FAWA)",
+      "synopsis": "Serbia Super Liga | [Serbia Super Liga] [09:00 PM BD] [UPCOMING] Radnik vs Radnicki Nis (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1681639346862948353/OPubFagD_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Romania Superliga] [09:00 PM BD] [UPCOMING] Otelul vs Csikszereda M Ciuc (FAWA)",
+      "synopsis": "Romania Superliga | [Romania Superliga] [09:00 PM BD] [UPCOMING] Otelul vs Csikszereda M Ciuc (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1445121142465998848/ghGZsBoQ_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Armenia Premier League] [09:00 PM BD] [UPCOMING] FC Gandzasar vs Sardarapat (FAWA)",
+      "synopsis": "Armenia Premier League | [Armenia Premier League] [09:00 PM BD] [UPCOMING] FC Gandzasar vs Sardarapat (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1747938544734085120/t18E9sx8_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Azerbaijan Premier League] [09:00 PM BD] [UPCOMING] Sumqayit vs Araz (FAWA)",
+      "synopsis": "Azerbaijan Premier League | [Azerbaijan Premier League] [09:00 PM BD] [UPCOMING] Sumqayit vs Araz (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://pbs.twimg.com/profile_images/1358431560412848129/OTjhbLwt_400x400.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] United Cup chief admits high-profile retirements make things a bit more difficult (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] United Cup chief admits high-profile retirements make things a bit more difficult (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/a/AVvXsEgVFu6gbhG0s9Aw8lV77cSNoQNBAyo9vp4t43LWOJX5-6K1QjOcO5u9W9347voJapikVazPivvnOLuZK0GbOAeiTOEYF7M-4yItB4qUG0rub_dayuftj8oIYhMtU37PLzEaFGOjSUYWJt4KuBt9dYBIOGnxA2sbRbI6yXXusnWJFHXbLW9QOxZArKPM8aM",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Mercedes announce Valtteri Bottas as reserve driver after Sauber exit (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Mercedes announce Valtteri Bottas as reserve driver after Sauber exit (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/a/AVvXsEizAGjqjoQ_F4UZDDErOUUzNs8ilyrv43NNUf1UUx3iD8z06GxYzSL70HRgOIiVa8y7NpIGpXoZNfJshi5fjJ5Z1LnTGpXEtahXPQ06pcRgo14NqctoVnY85PxWFRt24GVwPdBca9cAcd92POkieQooMZTwIqspjIH5VcXcwwWpgN6Ztp3GR-a8YefkR18",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Red Bull admit Tsunoda could leave after promoting Lawson instead (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Red Bull admit Tsunoda could leave after promoting Lawson instead (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/a/AVvXsEgs6EPdY5Er6wIusevluSHjQR161urQVMMLJ_X9J7VQ6-it3A5AgOjoLKREoIZ_B2JlqnCL2XeUWxtMWGfKO9RnPImjHSkmpfTOSChga8uajEnFQaUul-330zNC-MMt6YeYiIhE8r-bQ7-Oo-FBPygE4-bpFcVA-eEBNVwhJsab-i5RafkMWNctuAxY6P0",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Oklahoma City Thunder and Alex Caruso agree to $81 million contract extension (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Oklahoma City Thunder and Alex Caruso agree to $81 million contract extension (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/a/AVvXsEiKP9tNmB3XgkXomZAx_7HdXYFXnbMe5y5g1LN4eintEC-6R7qe4qRBTgYhtQCTIzL7xg9uhT07RsW3nWXjG9lrQNggkl0WC6adZsyGAlHYNx9GZe1iFJXqh23MyyWbdvv82u1y_kLp9HVgLmj6chKXBmJkWp9vevqZoF3-DHX0kEw5fJvNDqd8HGdcVIo",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Southampton announce the appointment of Croatian coach Ivan Juric (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Southampton announce the appointment of Croatian coach Ivan Juric (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/a/AVvXsEgGjMGWAeFGnn2NfwqhZqYXXA4zMhNls0eWu14it74nMjfEA4oZyXglSuUWFChZhHQZOr4BR_WUvHhjep1EtCdhfPx3bfbWyK2lSZ_ZW2nHZG2AwK4FnlSc3vxQZOBja6We5Csc8Y6reNaLvuMjfpqr_i6cftUioTcBttbFK7RGXSxdRocDpNIrp_33Yjc",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Southampton battle to earn valuable point at high-flying Fulham (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Southampton battle to earn valuable point at high-flying Fulham (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/a/AVvXsEgGjMGWAeFGnn2NfwqhZqYXXA4zMhNls0eWu14it74nMjfEA4oZyXglSuUWFChZhHQZOr4BR_WUvHhjep1EtCdhfPx3bfbWyK2lSZ_ZW2nHZG2AwK4FnlSc3vxQZOBja6We5Csc8Y6reNaLvuMjfpqr_i6cftUioTcBttbFK7RGXSxdRocDpNIrp_33Yjc",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Arsenal manager Mikel Arteta confirms Bukayo Saka set to be ruled out for many weeks (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Arsenal manager Mikel Arteta confirms Bukayo Saka set to be ruled out for many weeks (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/a/AVvXsEgemowHDh40C2-5DQG92FbH-3rQ5xD0htC4anXk71HoFOmulw5JkiiU5y1YK4nAHLuF_M_wkTlaM0ZNtb6RR_fPvIgPQtgh5-Vb9Z2aapQ-beBWingsQlFjgjCYBp9T4g-Ji4yqCM_RkNMv_H6IEiyUIDNYjGsKzUMuOBWscefAtSk68HJiUmtfPIEadHHI",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Ruben Amorim questions decision-making of Marcus Rashford camp after recent comments (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Ruben Amorim questions decision-making of Marcus Rashford camp after recent comments (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/a/AVvXsEgKuJff_X9MhlQ4h90uN8SpQIjxS72SDoXMEO0jqla8O22cdFZb2hEihRzhAm0ruieCmk0uw6hHYeMBv5ubHRDxoqc5gxaQz7mPv2tukhoeGSFCIJIxaTy27a11q9byi9yANhUTHcNNjMO_vvuOkAhUGtr4pYuwUNxyVknt-vLu6OL596nABE9-tC8S_CM",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Fernandez feeling very good at Chelsea after understanding what Maresca wants (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Fernandez feeling very good at Chelsea after understanding what Maresca wants (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/a/AVvXsEgV4xTKO9_WA9yJ8E20LGXX_1FADczM-X9iptMOQt4nBROkPyWWDzipYtc-m4w_Axd0SEXkkW6FvPf--hmj9Ez3HqtG_2j4bzgG0RSzm-UepYMEwBcKnSIR4rP0zMctRnhgr6jIQBg9jIr_pWVpX-X2Bc3-pRCNJ_V29cMsPG1smGj3ZrHssEyU4zqa3_U",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Ivan Juric promises to play death metal style of football with Southampton (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Ivan Juric promises to play death metal style of football with Southampton (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/a/AVvXsEiB0Pi0TbBPTjEpkZxj1s3W_fcaQrgZRjC9Oc1FNEy9XXEbfi-Ij5Xd1GlIOo7BaRMTmCkeeMFm2CmCJLBgV_G8Hbwxed8QIcm9PKz6xVOmPVbb1ST1N8buKmavdqHgJLtmTGf9wnNWAH-O-XQ2kmV4n2u1svLs3klTIsGy5Njx0jYgo7QLdTz7OlKTrss",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Eddie Howe: Newcastle defender Dan Burn&#1074;&#1026;&#1042;�s England desire is still alive (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Eddie Howe: Newcastle defender Dan Burn&#1074;&#1026;&#1042;�s England desire is still alive (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://i.dailymail.co.uk/1s/2023/01/15/08/66589553-11637039-image-a-25_1673772792749.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Everton to review security after high-risk game (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Everton to review security after high-risk game (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAJPodb-xBIew4fVvPpW0ztGCQ6ma4FzwPX6kjmwIlT0Z2zMbAmRwY58ZDjT2Z5EzA7hiB--wYzHfPs2v_wX6KgETnIk7wI9hDNB3cEhpetTD6mmDGBtRL3gHdyVj4V0QfnuKNhigkM98BriuSq-zgwqBylTb3t7SMrkD7Tu9I2tbjsoJ1NnuO6CIi/s320/evert.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Wolves agree fee for PSG & Spain Wingser Sarabia (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Wolves agree fee for PSG & Spain Wingser Sarabia (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgVJbD-NdhVzcTC9Ej2s96LEQHavsQSjPdvERibmlVVU0Dj3BCUdKsVk-MrFWsbJlN4AX1VmZoFQK9DVE7WnJTaVyFukogIi9bPfyK01t4WheJ7OCxJtzk4CvrWIah1My54XcOPO179uIEsDzOdGHKQ4orQ2MWrL4TZyET2c2Q-ySn1JPZSXA6QgYE/s320/pablo.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Gavi stars in Barcelona's Super Cup win over Real (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Gavi stars in Barcelona's Super Cup win over Real (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyRxEnE-QR6kvrpmZ65IMM9os-jL4qUF_N8d37-GO26JTybal9lLDLGkj6qq8nZPG2QjnUDnccfnlqTfm20hUrfapbqHissL-IIvECkICr8et-Kzye6sbtRfrZI914X3MA8j9T_lOklj_GWPTH6zXrv7hmf9vLvXM1ygrqBugIP3nJuMbRu6ZmX-EX/s320/_128306276_barcelona.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Bournemouth agree &#1042;&#1032;20m deal for Lorient's Ouattara (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Bournemouth agree &#1042;&#1032;20m deal for Lorient's Ouattara (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL90lqLdAUmltr1TdXI5M4HywVfLv-wuLkkjPvmSWHvrOny_AfE7BEFy717V31JQhgMa7S2cpHrUCDPFVuPjRTHnL0L28PkkkAHeqNLGVnLgTXcAY-eecdsNIcq4l80TCVyac_XIru8qy6e-pQTbYop6EUfb8yFrysBmN7t3zVY_16BdKLFV6mSGOW/s320/_128310278_gettyimages-1246161522.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Why Arsenal are in control of the title race (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Why Arsenal are in control of the title race (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Alan_Shearer_2008.jpg/220px-Alan_Shearer_2008.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6HbBHPEjqFOzfouK0JCEJK-zw3vQBa4lwkVyjwpAtLQOjmKEaK0h5moGDMABawR0aOpdeBHRE6l0-xAyiXTZsMLjkF0pT9hNLUAz6feSvmYG4xutdT_kUpkT0ZxCWuG2RjmIr-LUu9qNZkqGvd2oRD2Y4tB2SbNekwFyYBK3E41neNH0NblZ-48ri/s320/_128317488_gettyimages-1440414693.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] &#1042;&#1032;22m of Mudryk fee pledged to Ukraine war effort (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] &#1042;&#1032;22m of Mudryk fee pledged to Ukraine war effort (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSz9UqFhIHy9IvBNc38hlQiEFYtk0Op5gGD0eX2HSNCNDAiZNcYGewdb-oqwXxW7lFmQqHQOOVQSI1FzjVn0K3YD889Btj1FoqlPIZP97-pm_ZONvlXYpl6ARYAm2DFnx7C_NwPWqC0aHZQmWgwa90QBOCAx21oN_vsJXBHLD0C6SK6yq46pYz7Xu2/s320/_128309869_gettyimages-1246254965.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Klopp says he has no plans to leave Liverpool (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Klopp says he has no plans to leave Liverpool (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPQmXrh03sQ9GY58oNjuhr0FJUVZeCjsZuwI0-dgL149XwOEU1Vg6OuXM9jFfzr1lCVmN3RyRb2hnr_x2BqzqeX85ww3QZ6nN1jyiDaHptCmDsX71MtHauG9OUG7o_6dWZZvTzIiBGSRExxFB3tqpbdogVtDk04oNEyisQwMoyBab7Y9f2w826B-95/s320/_128317661_gettyimages-1246229936.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
+    },
+    {
+      "match_id": "Live.Event.us",
+      "title": "[Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
+      "synopsis": "Live | [Live] [UPCOMING] Forestt seal signing of Palmeiras midfielder Danilo (FAWA)",
+      "status": "UPCOMING",
+      "time": "",
+      "cover_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6HbBHPEjqFOzfouK0JCEJK-zw3vQBa4lwkVyjwpAtLQOjmKEaK0h5moGDMABawR0aOpdeBHRE6l0-xAyiXTZsMLjkF0pT9hNLUAz6feSvmYG4xutdT_kUpkT0ZxCWuG2RjmIr-LUu9qNZkqGvd2oRD2Y4tB2SbNekwFyYBK3E41neNH0NblZ-48ri/s320/_128317488_gettyimages-1440414693.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": []
     }
   ]
 }
