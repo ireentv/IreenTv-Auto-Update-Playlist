@@ -70,7 +70,6 @@ jobs:
               ist_tz = pytz.timezone("Asia/Kolkata")
               utc_tz = pytz.timezone("UTC")
 
-              # Timestamp (Unix milliseconds or seconds)
               if re.match(r'^\d{10,13}$', t_str):
                   ts = int(t_str)
                   if len(t_str) == 13:
@@ -130,7 +129,7 @@ jobs:
                   return dt.strftime("%d/%m/%Y %I:%M %p BST")
               return str(time_str).strip() if time_str else ""
 
-          # ================= INTELLIGENT DYNAMIC STATUS EVALUATOR =================
+          # ================= STATUS EVALUATOR =================
           def evaluate_status(raw_status, time_val_or_str, default_if_unknown="UPCOMING"):
               status_str = str(raw_status or "").strip().lower()
 
@@ -170,7 +169,7 @@ jobs:
                   return True
               return False
 
-          # ================= PROMO ITEM CONFIG =================
+          # ================= PROMO ITEM =================
           PROMO_ITEM = {
               "match_id": "ireentv_promo",
               "title": "IreenTV Promo",
@@ -180,9 +179,16 @@ jobs:
               "cover_image": "https://i.ibb.co.com/XkDv6gpS/ireenTV.png",
               "match_url": "https://ireentvlive.pages.dev/promo/master.m3u8",
               "is_free": True,
-              "stream_url": {
-                  "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
-              }
+              "stream_url": [
+                  {
+                      "channel_name": "Server 1",
+                      "stream_type": "HLS",
+                      "url": "https://ireentvlive.pages.dev/promo/master.m3u8",
+                      "raw_link": "https://ireentvlive.pages.dev/promo/master.m3u8",
+                      "headers": {},
+                      "drm_key": ""
+                  }
+              ]
           }
 
           def fetch_data(url):
@@ -211,16 +217,127 @@ jobs:
                   return True
               return False
 
-          # ================= SONY LIV SMART HANDLER =================
+          # ================= LIVE SPORTS HD / CUSTOM STREAMS =================
+          def is_custom_streams_item(item):
+              if not isinstance(item, dict):
+                  return False
+              if "channels" in item and isinstance(item["channels"], list):
+                  return True
+              if "streams" in item and isinstance(item["streams"], list):
+                  return True
+              if any(k in item for k in ["team_a", "team_b", "teams", "event_name", "schedule_time", "slug", "sub_category"]):
+                  return True
+              return False
+
+          def transform_custom_streams_item(item):
+              teams = item.get("teams", {}) if isinstance(item.get("teams"), dict) else {}
+              team_a = teams.get("team_a", {}) if isinstance(teams.get("team_a"), dict) else (item.get("team_a", {}) if isinstance(item.get("team_a"), dict) else {})
+              team_b = teams.get("team_b", {}) if isinstance(teams.get("team_b"), dict) else (item.get("team_b", {}) if isinstance(item.get("team_b"), dict) else {})
+              
+              team_a_name = team_a.get("name", "").strip() if isinstance(team_a, dict) else ""
+              team_b_name = team_b.get("name", "").strip() if isinstance(team_b, dict) else ""
+              event_name = item.get("event_name", "").strip()
+              category = item.get("sport") or item.get("category", "").strip()
+
+              # টাইটেল ডুপ্লিকেট ফিক্স
+              existing_title = str(item.get("title") or "").strip()
+              if team_a_name and team_b_name and (team_a_name.lower() != team_b_name.lower()):
+                  match_title = f"{team_a_name} vs {team_b_name}"
+                  if existing_title:
+                      title = existing_title if match_title.lower() in existing_title.lower() else f"{existing_title}: {match_title}"
+                  else:
+                      title = match_title
+              else:
+                  title = existing_title or event_name or item.get("name") or "Sports Match"
+
+              synopsis = item.get("sub_category") or item.get("synopsis") or item.get("description") or (f"{category} | {title}" if category else title)
+
+              cover_image = (
+                  item.get("logo") or 
+                  item.get("event_logo") or 
+                  item.get("cover_image") or 
+                  (team_a.get("flag") if isinstance(team_a, dict) else "") or 
+                  (team_b.get("flag") if isinstance(team_b, dict) else "") or 
+                  (team_a.get("logo") if isinstance(team_a, dict) else "") or 
+                  (team_b.get("logo") if isinstance(team_b, dict) else "") or 
+                  item.get("thumbnail") or ""
+              )
+
+              # চ্যানেলের ডাটা প্রসেসিং (চাহিদামতো ক্লিপ করা)
+              raw_channels = item.get("channels") or item.get("streams") or item.get("stream_url") or []
+              clean_channel_objects = []
+
+              if isinstance(raw_channels, list):
+                  for idx, s in enumerate(raw_channels, 1):
+                      if isinstance(s, dict):
+                          s_name = s.get("channel_name") or s.get("name") or f"Server {idx}"
+                          s_raw = s.get("raw_link") or s.get("url") or s.get("link") or s.get("stream_url") or ""
+                          if s_raw and is_mpd_or_m3u8(str(s_raw)):
+                              base_url = str(s.get("url") or s_raw).split("|")[0].strip()
+                              st_type = s.get("stream_type") or ("DASH" if ".mpd" in base_url.lower() else "HLS")
+                              
+                              # DRM Key ঠিকভাবে নেওয়া
+                              drm_k = s.get("drm_key") or s.get("clearkey") or s.get("clear_key") or s.get("key") or ""
+                              h_data = s.get("headers") if isinstance(s.get("headers"), dict) else {}
+
+                              clean_channel_objects.append({
+                                  "channel_name": s_name.strip(),
+                                  "stream_type": st_type,
+                                  "url": base_url,
+                                  "raw_link": str(s_raw).strip(),
+                                  "headers": h_data,
+                                  "drm_key": str(drm_k).strip()
+                              })
+              elif isinstance(raw_channels, dict):
+                  for idx, (s_name, s_url) in enumerate(raw_channels.items(), 1):
+                      if s_url and is_mpd_or_m3u8(str(s_url)):
+                          base_url = str(s_url).split("|")[0].strip()
+                          clean_channel_objects.append({
+                              "channel_name": s_name.strip(),
+                              "stream_type": "DASH" if ".mpd" in base_url.lower() else "HLS",
+                              "url": base_url,
+                              "raw_link": str(s_url).strip(),
+                              "headers": {},
+                              "drm_key": ""
+                          })
+
+              first_match_url = clean_channel_objects[0]["raw_link"] if clean_channel_objects else ""
+              match_url = item.get("match_url") or first_match_url
+
+              sched = item.get("schedule", {}) if isinstance(item.get("schedule"), dict) else {}
+              raw_time = (
+                  sched.get("start_time_bst") or 
+                  sched.get("raw_start_utc") or 
+                  item.get("schedule_time") or 
+                  item.get("time") or 
+                  item.get("start_time") or ""
+              )
+              time_val = convert_to_bangladesh_time(raw_time)
+
+              raw_status = item.get("status")
+              status = evaluate_status(raw_status, raw_time, default_if_unknown="UPCOMING")
+
+              return {
+                  "match_id": str(item.get("slug") or item.get("id") or item.get("match_id", "")),
+                  "title": title,
+                  "synopsis": synopsis,
+                  "status": status,
+                  "time": time_val,
+                  "cover_image": cover_image,
+                  "match_url": match_url,
+                  "is_free": item.get("is_free", False),
+                  "stream_url": clean_channel_objects
+              }
+
+          # ================= SONY LIV =================
           def is_sonyliv_item(item):
               if not isinstance(item, dict):
                   return False
-              if any(k in item for k in ["contentId", "assetId", "video_info", "multiple_audio_links", "dai_asset_key", "dai_url"]):
+              if any(k in item for k in ["contentId", "assetId", "episodeTitle", "dai_asset_key", "dai_url", "video_info"]):
                   return True
               return False
 
           def extract_sonyliv_streams(item):
-              servers = {}
               stream_info = item.get("stream_info", {}) if isinstance(item.get("stream_info"), dict) else {}
               video_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
 
@@ -240,24 +357,32 @@ jobs:
                   ("Server 1", video_info.get("stream_url")),
               ]
 
-              # মাল্টিপল অডিও লিংক হ্যান্ডেল করা
               multi_audio = item.get("multiple_audio_links") or stream_info.get("multiple_audio_links") or {}
               if isinstance(multi_audio, dict):
                   for lang, u in multi_audio.items():
                       urls_to_check.append((f"Server ({lang})", u))
 
+              clean_channel_objects = []
               seen = set()
               server_idx = 1
               for s_label, raw_u in urls_to_check:
                   if raw_u and isinstance(raw_u, str) and str(raw_u).startswith("http") and is_mpd_or_m3u8(str(raw_u)):
                       u_clean = str(raw_u).strip()
-                      if u_clean not in seen:
-                          seen.add(u_clean)
+                      base_url = u_clean.split("|")[0].strip()
+                      if base_url not in seen:
+                          seen.add(base_url)
                           lbl = s_label if s_label != "Server 1" else f"Server {server_idx}"
-                          servers[lbl] = u_clean
+                          clean_channel_objects.append({
+                              "channel_name": lbl,
+                              "stream_type": "DASH" if ".mpd" in base_url.lower() else "HLS",
+                              "url": base_url,
+                              "raw_link": u_clean,
+                              "headers": {},
+                              "drm_key": ""
+                          })
                           server_idx += 1
 
-              return servers
+              return clean_channel_objects
 
           def transform_sonyliv_item(item):
               v_info = item.get("video_info", {}) if isinstance(item.get("video_info"), dict) else {}
@@ -298,7 +423,7 @@ jobs:
               status = evaluate_status(raw_status, raw_time, default_if_unknown="UPCOMING")
 
               content_id = str(item.get('contentId') or item.get('assetId') or item.get('match_id') or item.get('id') or '')
-              match_url = next(iter(stream_urls.values())) if stream_urls else (f"https://www.sonyliv.com/custom-live/{content_id}" if content_id else "")
+              match_url = stream_urls[0]["raw_link"] if stream_urls else (f"https://www.sonyliv.com/custom-live/{content_id}" if content_id else "")
 
               return {
                   "match_id": content_id,
@@ -334,17 +459,22 @@ jobs:
               synopsis = item.get("Description") or item.get("synopsis") or title
               cover_image = item.get("ThumbnailTV") or item.get("ThumbnailStandard") or item.get("Thumbnail") or item.get("cover_image") or ""
 
-              stream_urls = {}
+              stream_list = []
               raw_stream = item.get("stream_url") or item.get("StreamUrl") or item.get("videoURL") or item.get("video_url") or ""
               if isinstance(raw_stream, str) and raw_stream.startswith("http") and is_mpd_or_m3u8(raw_stream):
-                  stream_urls["Server 1"] = raw_stream.strip()
-              elif isinstance(raw_stream, dict):
-                  stream_urls = {k: v for k, v in raw_stream.items() if is_mpd_or_m3u8(v)}
+                  base_url = raw_stream.split("|")[0].strip()
+                  stream_list.append({
+                      "channel_name": "Server 1",
+                      "stream_type": "DASH" if ".mpd" in base_url.lower() else "HLS",
+                      "url": base_url,
+                      "raw_link": raw_stream.strip(),
+                      "headers": {},
+                      "drm_key": ""
+                  })
 
-              first_url = next(iter(stream_urls.values())) if stream_urls else ""
+              first_url = stream_list[0]["raw_link"] if stream_list else ""
               raw_time = item.get("EventStartDate") or item.get("time") or ""
               status_val = str(item.get("Status") or item.get("status") or "")
-              
               status = evaluate_status(status_val, raw_time, default_if_unknown="UPCOMING")
 
               return {
@@ -356,7 +486,7 @@ jobs:
                   "cover_image": cover_image,
                   "match_url": item.get("match_url") or first_url,
                   "is_free": item.get("IsFreeToWatch", False),
-                  "stream_url": stream_urls
+                  "stream_url": stream_list
               }
 
           # ================= BINGSTREAM =================
@@ -368,34 +498,6 @@ jobs:
               source_val = str(item.get("source", "") or item.get("provider", "") or item.get("type", "")).lower()
               return "bing" in source_val
 
-          def extract_bingstream_streams(item):
-              servers = {}
-              found_labeled_urls = []
-
-              referer_val = item.get("referer") or item.get("referrer") or item.get("referer_url") or "https://iframe.rumsport11.site"
-              if referer_val and not referer_val.endswith("/"):
-                  referer_val += "/"
-
-              user_agent_val = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-              suffix = f"|http-user-agent={user_agent_val}&http-referrer={referer_val}"
-
-              for ext_url in item.get("extracted_links", []):
-                  if isinstance(ext_url, str) and is_mpd_or_m3u8(ext_url):
-                      found_labeled_urls.append(("Server", ext_url.strip()))
-
-              for k in ["videoURL", "video_url", "stream_url", "stream_link"]:
-                  if k in item and item[k] and isinstance(item[k], str) and is_mpd_or_m3u8(item[k]):
-                      found_labeled_urls.append(("Server", item[k].strip()))
-
-              seen_urls = set()
-              for idx, (label, u) in enumerate(found_labeled_urls, 1):
-                  clean_u = u.split("|http-")[0] if "|http-" in u else u
-                  if clean_u not in seen_urls:
-                      seen_urls.add(clean_u)
-                      servers[f"Server {idx}"] = f"{clean_u}{suffix}"
-
-              return servers
-
           def transform_bingstream_item(item):
               team_a = item.get("localteam_name") or item.get("team_a") or ""
               team_b = item.get("visitorteam_name") or item.get("team_b") or ""
@@ -403,10 +505,39 @@ jobs:
               title = item.get("name") or item.get("title") or match_title or "Sports Match"
               cover_image = item.get("cover_image") or item.get("thumbnail") or item.get("league_logo") or ""
 
-              stream_urls = extract_bingstream_streams(item)
+              referer_val = item.get("referer") or item.get("referrer") or item.get("referer_url") or "https://iframe.rumsport11.site/"
+              user_agent_val = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+              suffix = f"|http-user-agent={user_agent_val}&http-referrer={referer_val}"
+
+              found_urls = []
+              for ext_url in item.get("extracted_links", []):
+                  if isinstance(ext_url, str) and is_mpd_or_m3u8(ext_url):
+                      found_urls.append(ext_url.strip())
+              for k in ["videoURL", "video_url", "stream_url", "stream_link"]:
+                  if k in item and item[k] and isinstance(item[k], str) and is_mpd_or_m3u8(item[k]):
+                      found_urls.append(item[k].strip())
+
+              stream_list = []
+              seen = set()
+              for idx, u in enumerate(found_urls, 1):
+                  clean_u = u.split("|http-")[0] if "|http-" in u else u
+                  base_url = clean_u.split("|")[0].strip()
+                  if base_url not in seen:
+                      seen.add(base_url)
+                      stream_list.append({
+                          "channel_name": f"Server {idx}",
+                          "stream_type": "DASH" if ".mpd" in base_url.lower() else "HLS",
+                          "url": base_url,
+                          "raw_link": f"{clean_u}{suffix}",
+                          "headers": {
+                              "user-agent": user_agent_val,
+                              "referer": referer_val
+                          },
+                          "drm_key": ""
+                      })
+
               raw_time = item.get("bd_time") or item.get("time") or ""
               raw_status = "LIVE" if item.get("is_playing") else item.get("status")
-              
               status = evaluate_status(raw_status, raw_time, default_if_unknown="UPCOMING")
 
               return {
@@ -416,144 +547,18 @@ jobs:
                   "status": status,
                   "time": convert_to_bangladesh_time(raw_time),
                   "cover_image": cover_image,
-                  "match_url": next(iter(stream_urls.values())) if stream_urls else "",
+                  "match_url": stream_list[0]["raw_link"] if stream_list else "",
                   "is_free": False,
-                  "stream_url": stream_urls
+                  "stream_url": stream_list
               }
 
-          # ================= CUSTOM / DASH DRM / LIVE SPORTS =================
-          def is_custom_streams_item(item):
-              if not isinstance(item, dict):
-                  return False
-              if "channels" in item and isinstance(item["channels"], list):
-                  return True
-              if "streams" in item and isinstance(item["streams"], list):
-                  return True
-              if any(k in item for k in ["team_a", "team_b", "teams", "event_name", "schedule_time", "slug", "sub_category"]):
-                  return True
-              return False
-
-          def transform_custom_streams_item(item):
-              teams = item.get("teams", {}) if isinstance(item.get("teams"), dict) else {}
-              team_a = teams.get("team_a", {}) if isinstance(teams.get("team_a"), dict) else (item.get("team_a", {}) if isinstance(item.get("team_a"), dict) else {})
-              team_b = teams.get("team_b", {}) if isinstance(teams.get("team_b"), dict) else (item.get("team_b", {}) if isinstance(item.get("team_b"), dict) else {})
-              
-              team_a_name = team_a.get("name", "").strip() if isinstance(team_a, dict) else ""
-              team_b_name = team_b.get("name", "").strip() if isinstance(team_b, dict) else ""
-              event_name = item.get("event_name", "").strip()
-              category = item.get("sport") or item.get("category", "").strip()
-
-              if team_a_name and team_b_name and (team_a_name.lower() != team_b_name.lower()):
-                  match_title = f"{team_a_name} vs {team_b_name}"
-                  title = f"{item.get('title')}: {match_title}" if item.get("title") else match_title
-              else:
-                  title = item.get("title") or event_name or item.get("name") or "Sports Match"
-
-              synopsis = item.get("sub_category") or item.get("synopsis") or item.get("description") or (f"{category} | {title}" if category else title)
-
-              cover_image = (
-                  item.get("logo") or 
-                  item.get("event_logo") or 
-                  item.get("cover_image") or 
-                  (team_a.get("flag") if isinstance(team_a, dict) else "") or 
-                  (team_b.get("flag") if isinstance(team_b, dict) else "") or 
-                  (team_a.get("logo") if isinstance(team_a, dict) else "") or 
-                  (team_b.get("logo") if isinstance(team_b, dict) else "") or 
-                  item.get("thumbnail") or ""
-              )
-
-              raw_channels = item.get("channels") if isinstance(item.get("channels"), list) else item.get("streams", [])
-              stream_urls = {}
-              channel_objects = []
-
-              if isinstance(raw_channels, list):
-                  for idx, s in enumerate(raw_channels, 1):
-                      if isinstance(s, dict):
-                          s_name = s.get("channel_name") or s.get("name") or f"Server {idx}"
-                          s_link = s.get("raw_link") or s.get("url") or s.get("link") or s.get("stream_url") or ""
-                          if s_link and is_mpd_or_m3u8(str(s_link)):
-                              stream_urls[s_name.strip()] = str(s_link).strip()
-                              channel_objects.append(s)
-                      elif isinstance(s, str) and is_mpd_or_m3u8(s):
-                          stream_urls[f"Server {idx}"] = s.strip()
-                          channel_objects.append({"channel_name": f"Server {idx}", "url": s.strip()})
-
-              first_url = next(iter(stream_urls.values())) if stream_urls else ""
-              match_url = item.get("match_url") or first_url or ""
-
-              sched = item.get("schedule", {}) if isinstance(item.get("schedule"), dict) else {}
-              raw_time = (
-                  sched.get("start_time_bst") or 
-                  sched.get("raw_start_utc") or 
-                  item.get("schedule_time") or 
-                  item.get("time") or 
-                  item.get("start_time") or ""
-              )
-              time_val = convert_to_bangladesh_time(raw_time)
-
-              raw_status = item.get("status")
-              status = evaluate_status(raw_status, raw_time, default_if_unknown="UPCOMING")
-
-              return {
-                  "match_id": str(item.get("slug") or item.get("id") or item.get("match_id", "")),
-                  "title": title,
-                  "synopsis": synopsis,
-                  "status": status,
-                  "time": time_val,
-                  "cover_image": cover_image,
-                  "match_url": match_url,
-                  "is_free": False,
-                  "stream_url": stream_urls,
-                  "channels": channel_objects,
-                  "streams": channel_objects
-              }
-
-          # ================= ALL MULTI-SERVER STREAM EXTRACTOR =================
-          def extract_all_mpd_m3u8_streams(item):
-              found_streams = {}
-              def add_url(u, label=""):
-                  if not u or not isinstance(u, str):
-                      return
-                  for part in re.split(r'[\r\n,]+', u.strip()):
-                      clean_u = part.strip()
-                      if is_mpd_or_m3u8(clean_u):
-                          cmp_u = clean_u.split('|')[0].strip()
-                          if cmp_u not in found_streams:
-                              found_streams[cmp_u] = (label.strip(), clean_u)
-
-              def crawl_item(data, parent_key=""):
-                  if isinstance(data, dict):
-                      for k, v in data.items():
-                          k_lower = str(k).lower()
-                          if k_lower in ["cover_image", "thumbnail", "image", "logo", "synopsis", "description"]:
-                              continue
-                          current_prefix = f"{parent_key} - {k}" if parent_key else str(k)
-                          if isinstance(v, str):
-                              add_url(v, label=current_prefix)
-                          elif isinstance(v, (dict, list)):
-                              crawl_item(v, parent_key=current_prefix)
-                  elif isinstance(data, list):
-                      for idx, el in enumerate(data, 1):
-                          lbl = f"{parent_key} {idx}".strip() if parent_key else f"Server {idx}"
-                          if isinstance(el, str):
-                              add_url(el, label=lbl)
-                          elif isinstance(el, (dict, list)):
-                              crawl_item(el, parent_key=lbl)
-
-              crawl_item(item)
-              servers = {}
-              for idx, (lbl, url) in enumerate(found_streams.values(), 1):
-                  servers[f"Server {idx}"] = url
-              return servers
-
-          # 🎯 SONY LIV, CONTAINERS & ALL FORMATS EXTRACTION ENGINE
+          # 🎯 EXTRACTION ENGINE
           def extract_items_from_json(data):
               collected_items = []
 
               def inspect_and_add(item):
                   if not isinstance(item, dict):
                       return
-                  # সনি লিভ অথবা স্পোর্টস আইটেম চেক
                   has_sonyliv = any(k in item for k in ["contentId", "assetId", "episodeTitle", "dai_asset_key", "dai_url", "video_info"])
                   has_media = any(k in item for k in ["channels", "link_live", "extracted_links", "cdn_domain", "stream_link", "stream_info", "stream_url", "video_url", "videoURL", "url", "streams", "StreamUrl", "match_url", "playback_url"])
                   has_sports = any(k in item for k in ["localteam_name", "visitorteam_name", "teams", "VideoName", "CategoryName", "sport", "event_name", "team_a", "team_b", "schedule", "slug", "title", "name", "asset_title"])
@@ -565,7 +570,6 @@ jobs:
                   if isinstance(node, list):
                       for element in node:
                           if isinstance(element, dict):
-                              # কন্টেইনার/ট্রে/গ্রিড কি না চেক
                               if "assets" in element and isinstance(element["assets"], list):
                                   for a in element["assets"]:
                                       inspect_and_add(a)
@@ -578,7 +582,6 @@ jobs:
                           else:
                               recursive_crawl(element)
                   elif isinstance(node, dict):
-                      # সনি লিভ স্পেশাল: containers -> assets
                       if "containers" in node and isinstance(node["containers"], list):
                           for c in node["containers"]:
                               if isinstance(c, dict):
@@ -600,19 +603,16 @@ jobs:
 
               recursive_crawl(data)
 
-              # নিরাপদ ডি-ডুপ্লিকেশন
               final_items = []
               seen_ids = set()
 
               for idx, it in enumerate(collected_items):
                   v_info = it.get("video_info", {}) if isinstance(it.get("video_info"), dict) else {}
-                  
-                  # সনি লিভের আসল আইডি ও টাইটেল বের করা
                   uid = (
+                      it.get("slug") or 
+                      it.get("id") or 
                       it.get("contentId") or 
                       it.get("assetId") or 
-                      it.get("id") or 
-                      it.get("slug") or 
                       it.get("match_id") or 
                       v_info.get("episodeTitle") or 
                       it.get("episodeTitle") or 
@@ -658,7 +658,7 @@ jobs:
                   slug = re.sub(r'[^a-zA-Z0-9_-]', '_', base).strip('_') if base else "playlist"
                   return slug.replace("_", " ").title(), slug.lower(), url
 
-          # ================= M3U PARSER =================
+          # ================= M3U BUILDER =================
           def parse_stream_details(stream_url_raw, item_meta):
               stream_url = str(stream_url_raw).strip()
               headers = {}
@@ -738,7 +738,6 @@ jobs:
               block.append(final_url)
               return "".join(block)
 
-          # ================= M3U BUILDER =================
           def generate_m3u(playlist_name, items, total_count, live_count, current_time):
               lines = ["#EXTM3U\n"]
               lines.append(f"# Playlist Name  : {playlist_name}\n")
@@ -753,28 +752,23 @@ jobs:
                   title = it.get("title") or it.get("name") or "Live Event"
                   logo = it.get("cover_image") or it.get("logo") or ""
 
-                  channels_list = it.get("channels") or it.get("streams")
-                  if isinstance(channels_list, list) and len(channels_list) > 0:
-                      for ch in channels_list:
+                  # stream_url যদি অবজেক্ট লিস্ট হয়
+                  streams_list = it.get("stream_url")
+                  if isinstance(streams_list, list) and len(streams_list) > 0:
+                      for ch in streams_list:
                           if not isinstance(ch, dict):
                               continue
-                          ch_url = ch.get("raw_link") or ch.get("url") or ch.get("link") or ch.get("stream_url")
+                          ch_url = ch.get("raw_link") or ch.get("url")
                           if not ch_url or not is_mpd_or_m3u8(str(ch_url)):
                               continue
-                          ch_name = ch.get("channel_name") or ch.get("name") or "Live"
-                          stream_title = f"{title} - {ch_name}"
+                          ch_name = ch.get("channel_name") or "Live"
+                          stream_title = f"{title} - {ch_name}" if len(streams_list) > 1 else title
                           lines.append(build_m3u_channel_block(stream_title, logo, playlist_name, str(ch_url).strip(), ch))
-
-                  elif isinstance(it.get("stream_url"), dict) and it.get("stream_url"):
-                      for s_name, s_url in it.get("stream_url").items():
+                  elif isinstance(streams_list, dict):
+                      for s_name, s_url in streams_list.items():
                           if s_url and is_mpd_or_m3u8(str(s_url)):
-                              stream_title = f"{title} ({s_name})" if len(it["stream_url"]) > 1 else title
+                              stream_title = f"{title} ({s_name})"
                               lines.append(build_m3u_channel_block(stream_title, logo, playlist_name, str(s_url).strip(), it))
-                  else:
-                      streams = extract_all_mpd_m3u8_streams(it)
-                      for s_name, s_url in streams.items():
-                          stream_title = f"{title} ({s_name})" if len(streams) > 1 else title
-                          lines.append(build_m3u_channel_block(stream_title, logo, playlist_name, s_url, it))
 
               return "".join(lines)
 
@@ -849,7 +843,7 @@ jobs:
           export TZ="Asia/Dhaka"
           git add *.json *.m3u
           if ! git diff --cached --quiet; then
-            git commit -m "🤖 Fixed SonyLIV Containers, Status & All Matches Sync ✅ [$(date +'%d-%m-%Y %H:%M')]"
+            git commit -m "🤖 Clean Formatted Stream Objects & Synced Playlists ✅ [$(date +'%d-%m-%Y %H:%M')]"
             git push origin main
           else
             echo "No changes to commit"
