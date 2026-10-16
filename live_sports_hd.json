@@ -913,18 +913,22 @@
       "status": "UPCOMING",
       "time": "17/10/2026 01:15 AM BST",
       "cover_image": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "match_url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+      "match_url": "https://edgestream1.pro/hls/dza5z8f69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
       "is_free": false,
       "stream_url": {
-        "CRICFy LIVE": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+        "HD SERVER": "https://edgestream1.pro/hls/dza5z8f69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center"
       },
       "channels": [
         {
-          "channel_name": "CRICFy LIVE",
+          "channel_name": "HD SERVER",
           "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
+          "url": "https://edgestream1.pro/hls/dza5z8f69.m3u8",
+          "raw_link": "https://edgestream1.pro/hls/dza5z8f69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
+          },
           "drm_key": null,
           "time": "",
           "status": "UPCOMING"
@@ -932,11 +936,15 @@
       ],
       "streams": [
         {
-          "channel_name": "CRICFy LIVE",
+          "channel_name": "HD SERVER",
           "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
+          "url": "https://edgestream1.pro/hls/dza5z8f69.m3u8",
+          "raw_link": "https://edgestream1.pro/hls/dza5z8f69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
+          },
           "drm_key": null,
           "time": "",
           "status": "UPCOMING"
@@ -944,11 +952,15 @@
       ]
     },
     {
-      "channel_name": "CRICFy LIVE",
+      "channel_name": "HD SERVER",
       "stream_type": "HLS",
-      "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-      "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-      "headers": {},
+      "url": "https://edgestream1.pro/hls/dza5z8f69.m3u8",
+      "raw_link": "https://edgestream1.pro/hls/dza5z8f69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+        "Referer": "https://streame.center",
+        "Origin": "https://streame.center"
+      },
       "drm_key": null,
       "time": "",
       "status": "UPCOMING"
