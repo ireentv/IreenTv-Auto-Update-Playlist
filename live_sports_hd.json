@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 59,
-  "live_count": 7,
-  "last_update": "05:46 AM 17-10-2026 BST",
+  "live_count": 13,
+  "last_update": "06:01 AM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,6 +19,63 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
+    },
+    {
+      "title": "Smack Down",
+      "sport": "Fighting",
+      "sub_category": "Friday Night SmackDown",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "smackdown",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 06:00:14 AM",
+        "end_time_bst": "Oct 17, 2026, 09:00:18 AM",
+        "raw_start_utc": "2026/10/17 00:00:14 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "SmackDown",
+          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg"
+        },
+        "team_b": {
+          "name": "SmackDown",
+          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg"
+        }
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?",
+          "raw_link": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?|Referer=https://gooz.aapmains.net",
+          "headers": {
+            "Referer": "https://gooz.aapmains.net"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "WWE LIVE - AQ",
+          "stream_type": "HLS",
+          "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
+          "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "SD SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.41/hls/UIIIAAA.m3u8?",
+          "raw_link": "http://193.47.62.41/hls/UIIIAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "headers": {
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc/"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 3
     },
     {
       "title": "Mirassol vs Internacional",
@@ -287,61 +344,240 @@
       "total_channels": 1
     },
     {
-      "title": "Smack Down",
-      "sport": "Fighting",
-      "sub_category": "Friday Night SmackDown",
-      "status": "Upcoming",
+      "title": "San Antonio Spurs vs Sacramento Kings",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "Live",
       "is_hot": false,
-      "slug": "smackdown",
+      "slug": "san-antonio-spurs-vs-sacramento-kings",
       "schedule": {
         "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 06:00:14 AM",
-        "end_time_bst": "Oct 17, 2026, 09:00:18 AM",
-        "raw_start_utc": "2026/10/17 00:00:14 +0000"
+        "start_time_bst": "Oct 17, 2026, 06:00:00 AM",
+        "end_time_bst": "Oct 17, 2026, 08:30:00 AM",
+        "raw_start_utc": "2026/10/17 00:00:00 +0000"
       },
       "teams": {
         "team_a": {
-          "name": "SmackDown",
-          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg"
+          "name": "San Antonio Spurs",
+          "flag": "https://img.sofascore.com/api/v1/team/3429/image"
         },
         "team_b": {
-          "name": "SmackDown",
-          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg"
+          "name": "Sacramento Kings",
+          "flag": "https://img.sofascore.com/api/v1/team/3413/image"
         }
       },
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
       "channels": [
         {
-          "channel_name": "CRICFy LIVE",
+          "channel_name": "HD QUALITY",
           "stream_type": "HLS",
-          "url": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?",
-          "raw_link": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?|Referer=https://gooz.aapmains.net",
+          "url": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8",
+          "raw_link": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
           "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "WWE LIVE - AQ",
-          "stream_type": "HLS",
-          "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-          "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
-          "headers": {},
-          "drm_key": null
-        },
-        {
-          "channel_name": "SD SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.41/hls/UIIIAAA.m3u8?",
-          "raw_link": "http://193.47.62.41/hls/UIIIAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
-          "headers": {
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc/"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
           },
           "drm_key": null
         }
       ],
-      "total_channels": 3
+      "total_channels": 1
+    },
+    {
+      "title": "Chicago Bulls vs Minnesota Timberwolves",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "chicago-bulls-vs-minnesota-timberwolves",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 06:00:00 AM",
+        "end_time_bst": "Oct 17, 2026, 08:30:00 AM",
+        "raw_start_utc": "2026/10/17 00:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Chicago Bulls",
+          "flag": "https://img.sofascore.com/api/v1/team/3409/image"
+        },
+        "team_b": {
+          "name": "Minnesota Timberwolves",
+          "flag": "https://img.sofascore.com/api/v1/team/3426/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "channels": [
+        {
+          "channel_name": "HD QUALITY",
+          "stream_type": "HLS",
+          "url": "https://edgestream2.pro/hls/fdgsqdfawa73.m3u8",
+          "raw_link": "https://edgestream2.pro/hls/fdgsqdfawa73.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Dallas Mavericks vs Atlanta Hawks",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "dallas-mavericks-vs-atlanta-hawks",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 06:00:00 AM",
+        "end_time_bst": "Oct 17, 2026, 08:30:00 AM",
+        "raw_start_utc": "2026/10/17 00:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Dallas Mavericks",
+          "flag": "https://img.sofascore.com/api/v1/team/3411/image"
+        },
+        "team_b": {
+          "name": "Atlanta Hawks",
+          "flag": "https://img.sofascore.com/api/v1/team/3423/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "channels": [
+        {
+          "channel_name": "HD QUALITY",
+          "stream_type": "HLS",
+          "url": "https://edgestream1.pro/hls/zeafwqvhfe69.m3u8",
+          "raw_link": "https://edgestream1.pro/hls/zeafwqvhfe69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Memphis Grizzlies vs Charlotte Hornets",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "memphis-grizzlies-vs-charlotte-hornets",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 06:00:00 AM",
+        "end_time_bst": "Oct 17, 2026, 08:30:00 AM",
+        "raw_start_utc": "2026/10/17 00:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Memphis Grizzlies",
+          "flag": "https://img.sofascore.com/api/v1/team/3415/image"
+        },
+        "team_b": {
+          "name": "Charlotte Hornets",
+          "flag": "https://img.sofascore.com/api/v1/team/3430/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "channels": [
+        {
+          "channel_name": "HD QUALITY",
+          "stream_type": "HLS",
+          "url": "https://edgestream5.pro/hls/ztyarueaghj71.m3u8",
+          "raw_link": "https://edgestream5.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "New Orleans Pelicans vs Washington Wizards",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "new-orleans-pelicans-vs-washington-wizards",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 06:00:00 AM",
+        "end_time_bst": "Oct 17, 2026, 08:30:00 AM",
+        "raw_start_utc": "2026/10/17 00:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "New Orleans Pelicans",
+          "flag": "https://img.sofascore.com/api/v1/team/5539/image"
+        },
+        "team_b": {
+          "name": "Washington Wizards",
+          "flag": "https://img.sofascore.com/api/v1/team/3431/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "channels": [
+        {
+          "channel_name": "HD QUALITY",
+          "stream_type": "HLS",
+          "url": "https://edgestream6.pro/hls/pllmazjkdzajh72.m3u8",
+          "raw_link": "https://edgestream6.pro/hls/pllmazjkdzajh72.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Bangladesh vs Zimbabwe",
+      "sport": "Cricket",
+      "sub_category": "ODI Tri-Series in United Arab Emirates",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "bangladesh-vs-zimbabwe",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 06:00:00 PM",
+        "end_time_bst": "Oct 18, 2026, 02:00:21 AM",
+        "raw_start_utc": "2026/10/17 12:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Bangladesh",
+          "flag": "https://img.sofascore.com/api/v1/team/187744/image"
+        },
+        "team_b": {
+          "name": "Zimbabwe",
+          "flag": "https://img.sofascore.com/api/v1/team/187745/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
     },
     {
       "title": "Canada vs Nepal",
@@ -416,200 +652,36 @@
       "total_channels": 1
     },
     {
-      "title": "San Antonio Spurs vs Sacramento Kings",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
+      "title": "Espanyol vs Atletico Madrid",
+      "sport": "Football",
+      "sub_category": "LaLiga",
       "status": "Upcoming",
       "is_hot": false,
-      "slug": "san-antonio-spurs-vs-sacramento-kings",
+      "slug": "espanyol-vs-atletico-madrid",
       "schedule": {
         "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 06:00:00 AM",
-        "end_time_bst": "Oct 17, 2026, 08:30:00 AM",
-        "raw_start_utc": "2026/10/17 00:00:00 +0000"
+        "start_time_bst": "Oct 17, 2026, 06:00:00 PM",
+        "end_time_bst": "Oct 17, 2026, 08:20:00 PM",
+        "raw_start_utc": "2026/10/17 12:00:00 +0000"
       },
       "teams": {
         "team_a": {
-          "name": "San Antonio Spurs",
-          "flag": "https://img.sofascore.com/api/v1/team/3429/image"
+          "name": "Espanyol",
+          "flag": "https://img.sofascore.com/api/v1/team/2814/image"
         },
         "team_b": {
-          "name": "Sacramento Kings",
-          "flag": "https://img.sofascore.com/api/v1/team/3413/image"
+          "name": "Atlético Madrid",
+          "flag": "https://img.sofascore.com/api/v1/team/2836/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
       "channels": [
         {
-          "channel_name": "HD QUALITY",
+          "channel_name": "CRICFy LIVE",
           "stream_type": "HLS",
-          "url": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8",
-          "raw_link": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Chicago Bulls vs Minnesota Timberwolves",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "chicago-bulls-vs-minnesota-timberwolves",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 06:00:00 AM",
-        "end_time_bst": "Oct 17, 2026, 08:30:00 AM",
-        "raw_start_utc": "2026/10/17 00:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Chicago Bulls",
-          "flag": "https://img.sofascore.com/api/v1/team/3409/image"
-        },
-        "team_b": {
-          "name": "Minnesota Timberwolves",
-          "flag": "https://img.sofascore.com/api/v1/team/3426/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "channels": [
-        {
-          "channel_name": "HD QUALITY",
-          "stream_type": "HLS",
-          "url": "https://edgestream2.pro/hls/fdgsqdfawa73.m3u8",
-          "raw_link": "https://edgestream2.pro/hls/fdgsqdfawa73.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Dallas Mavericks vs Atlanta Hawks",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "dallas-mavericks-vs-atlanta-hawks",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 06:00:00 AM",
-        "end_time_bst": "Oct 17, 2026, 08:30:00 AM",
-        "raw_start_utc": "2026/10/17 00:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Dallas Mavericks",
-          "flag": "https://img.sofascore.com/api/v1/team/3411/image"
-        },
-        "team_b": {
-          "name": "Atlanta Hawks",
-          "flag": "https://img.sofascore.com/api/v1/team/3423/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "channels": [
-        {
-          "channel_name": "HD QUALITY",
-          "stream_type": "HLS",
-          "url": "https://edgestream1.pro/hls/zeafwqvhfe69.m3u8",
-          "raw_link": "https://edgestream1.pro/hls/zeafwqvhfe69.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Memphis Grizzlies vs Charlotte Hornets",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "memphis-grizzlies-vs-charlotte-hornets",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 06:00:00 AM",
-        "end_time_bst": "Oct 17, 2026, 08:30:00 AM",
-        "raw_start_utc": "2026/10/17 00:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Memphis Grizzlies",
-          "flag": "https://img.sofascore.com/api/v1/team/3415/image"
-        },
-        "team_b": {
-          "name": "Charlotte Hornets",
-          "flag": "https://img.sofascore.com/api/v1/team/3430/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "channels": [
-        {
-          "channel_name": "HD QUALITY",
-          "stream_type": "HLS",
-          "url": "https://edgestream5.pro/hls/ztyarueaghj71.m3u8",
-          "raw_link": "https://edgestream5.pro/hls/ztyarueaghj71.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "New Orleans Pelicans vs Washington Wizards",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "new-orleans-pelicans-vs-washington-wizards",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 06:00:00 AM",
-        "end_time_bst": "Oct 17, 2026, 08:30:00 AM",
-        "raw_start_utc": "2026/10/17 00:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "New Orleans Pelicans",
-          "flag": "https://img.sofascore.com/api/v1/team/5539/image"
-        },
-        "team_b": {
-          "name": "Washington Wizards",
-          "flag": "https://img.sofascore.com/api/v1/team/3431/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "channels": [
-        {
-          "channel_name": "HD QUALITY",
-          "stream_type": "HLS",
-          "url": "https://edgestream6.pro/hls/pllmazjkdzajh72.m3u8",
-          "raw_link": "https://edgestream6.pro/hls/pllmazjkdzajh72.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
           "drm_key": null
         }
       ],
@@ -1502,42 +1574,6 @@
       "total_channels": 9
     },
     {
-      "title": "Bangladesh vs Zimbabwe",
-      "sport": "Cricket",
-      "sub_category": "ODI Tri-Series in United Arab Emirates",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "bangladesh-vs-zimbabwe",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 06:00:00 PM",
-        "end_time_bst": "Oct 18, 2026, 02:00:21 AM",
-        "raw_start_utc": "2026/10/17 12:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Bangladesh",
-          "flag": "https://img.sofascore.com/api/v1/team/187744/image"
-        },
-        "team_b": {
-          "name": "Zimbabwe",
-          "flag": "https://img.sofascore.com/api/v1/team/187745/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
       "title": "Australia Women vs New Zealand Women",
       "sport": "Cricket",
       "sub_category": "Twenty20 International Women",
@@ -2029,17 +2065,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "AS Roma vs Genoa",
@@ -2065,33 +2092,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Espanyol vs Atletico Madrid",
-      "sport": "Football",
-      "sub_category": "LaLiga",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "espanyol-vs-atletico-madrid",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 06:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 08:20:00 PM",
-        "raw_start_utc": "2026/10/17 12:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Espanyol",
-          "flag": "https://img.sofascore.com/api/v1/team/2814/image"
-        },
-        "team_b": {
-          "name": "Atlético Madrid",
-          "flag": "https://img.sofascore.com/api/v1/team/2836/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
       "channels": [],
       "total_channels": 0
     },
