@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 35,
-  "live_count": 35,
-  "last_update": "03:46 PM 17-10-2026 BST",
+  "channels_amount": 36,
+  "live_count": 36,
+  "last_update": "04:01 PM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -1141,36 +1141,6 @@
     {
       "match_id": "",
       "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "03:00:00",
-      "cover_image": "",
-      "match_url": "https://live.vivo155.com/live/sd-1-4553895.m3u8?txSecret=02132914c4292bb22f22e344210ddff6&txTime=6AD2FA92",
-      "is_free": false,
-      "stream_url": {
-        "CRFY Server": "https://live.vivo155.com/live/sd-1-4553895.m3u8?txSecret=02132914c4292bb22f22e344210ddff6&txTime=6AD2FA92",
-        "Low": "http://193.47.62.55/hls/444Z.m3u8|referer=http://fawanews.sc/"
-      },
-      "streams": [
-        {
-          "name": "CRFY Server",
-          "link": "https://live.vivo155.com/live/sd-1-4553895.m3u8?txSecret=02132914c4292bb22f22e344210ddff6&txTime=6AD2FA92",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.55/hls/444Z.m3u8|referer=http://fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
       "synopsis": "Cricket | Sports Match",
       "status": "LIVE",
       "time": "05:30:00",
@@ -1195,6 +1165,54 @@
           "scheme": 0,
           "api": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c",
           "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Cricket | Sports Match",
+      "status": "LIVE",
+      "time": "11:30:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "11:30:00",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://trendy48.online/event/m-everton-vs-chelsea-1017",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     }
