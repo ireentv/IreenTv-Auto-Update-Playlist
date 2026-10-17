@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 68
 # Live Count     : 5
-# Last Update    : 05:08 PM 17-10-2026 BST
+# Last Update    : 05:13 PM 17-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -149,12 +149,14 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="Everton vs Chelsea (Server 3 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="live_sports_HD",Everton vs Chelsea (Server 3 - Raw Link)
+#EXTINF:-1 tvg-name="Everton vs Chelsea (Server 3 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="live_sports_HD",Everton vs Chelsea (Server 3 - Url)
+https://raventheory.s3.us-east-1.amazonaws.com/btsport.m3u8
+#EXTINF:-1 tvg-name="Everton vs Chelsea (Server 4 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="live_sports_HD",Everton vs Chelsea (Server 4 - Raw Link)
 #EXTVLCOPT:http-referrer=https://player.online878.com/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
 https://live.vivo155.com/live/hd-en-1-4558601.m3u8?txSecret=c2e70e8342b22f11891f98611eb37dfe&txTime=6AD3691C|Referer=https://player.online878.com/
-#EXTINF:-1 tvg-name="Everton vs Chelsea (Server 4 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="live_sports_HD",Everton vs Chelsea (Server 4 - Raw Link)
+#EXTINF:-1 tvg-name="Everton vs Chelsea (Server 5 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="live_sports_HD",Everton vs Chelsea (Server 5 - Raw Link)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
@@ -280,8 +282,16 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Diriyah vs Al-Taawoun" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="live_sports_HD",Diriyah vs Al-Taawoun
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-#EXTINF:-1 tvg-name="Middlesbrough vs Cardiff City" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="live_sports_HD",Middlesbrough vs Cardiff City
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-name="Middlesbrough vs Cardiff City (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="live_sports_HD",Middlesbrough vs Cardiff City (Server 1 - Raw Link)
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
+https://live.vivo155.com/live/sd-1-4563633.m3u8?txSecret=e43d776df12fe47f913236e1c87981df&txTime=6AD36BB0|Referer=https://player.online878.com/
+#EXTINF:-1 tvg-name="Middlesbrough vs Cardiff City (Server 2 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="live_sports_HD",Middlesbrough vs Cardiff City (Server 2 - Raw Link)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+http://193.47.62.50/hls/4GGGQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Millwall vs Lincoln City" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="live_sports_HD",Millwall vs Lincoln City
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Watford vs Charlton Athletic (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="live_sports_HD",Watford vs Charlton Athletic (Server 1 - Raw Link)
@@ -298,6 +308,16 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Watford vs Charlton Athletic (Server 3 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="live_sports_HD",Watford vs Charlton Athletic (Server 3 - Raw Link)
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
+https://live.vivo155.com/live/sd-1-4563631.m3u8?txSecret=04eec99c08a898309c2c68dce539ee92&txTime=6AD36BFE|Referer=https://player.online878.com/
+#EXTINF:-1 tvg-name="Watford vs Charlton Athletic (Server 4 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="live_sports_HD",Watford vs Charlton Athletic (Server 4 - Raw Link)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+http://193.47.62.50/hls/4GGGQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Bristol City vs Sheffield United" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="live_sports_HD",Bristol City vs Sheffield United
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Birmingham City vs Queens Park Rangers" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="live_sports_HD",Birmingham City vs Queens Park Rangers
