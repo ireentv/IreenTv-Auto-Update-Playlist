@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 68,
   "live_count": 2,
-  "last_update": "04:15 PM 17-10-2026 BST",
+  "last_update": "04:31 PM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -2057,6 +2057,33 @@
       "total_channels": 0
     },
     {
+      "title": "Athletico vs Palmeiras",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "athletico-vs-palmeiras",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 04:30:00 AM",
+        "end_time_bst": "Oct 18, 2026, 06:50:00 AM",
+        "raw_start_utc": "2026/10/17 22:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Athletico",
+          "flag": "https://img.sofascore.com/api/v1/team/1967/image"
+        },
+        "team_b": {
+          "name": "Palmeiras",
+          "flag": "https://img.sofascore.com/api/v1/team/1963/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
       "title": "Formula 1",
       "sport": "Motorsport",
       "sub_category": "Formula 1",
@@ -2323,33 +2350,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Athletico vs Palmeiras",
-      "sport": "Football",
-      "sub_category": "Campeonato Brasileiro Série A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "athletico-vs-palmeiras",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 04:30:00 AM",
-        "end_time_bst": "Oct 18, 2026, 06:50:00 AM",
-        "raw_start_utc": "2026/10/17 22:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Athletico",
-          "flag": "https://img.sofascore.com/api/v1/team/1967/image"
-        },
-        "team_b": {
-          "name": "Palmeiras",
-          "flag": "https://img.sofascore.com/api/v1/team/1963/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
       "channels": [],
       "total_channels": 0
     },
