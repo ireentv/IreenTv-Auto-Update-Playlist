@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 36,
-  "live_count": 8,
-  "last_update": "02:48 AM 18-10-2026 BST",
+  "live_count": 9,
+  "last_update": "03:01 AM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,6 +19,102 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
+    },
+    {
+      "title": "UFC LIVE",
+      "sport": "Football",
+      "sub_category": "UFC",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "ufc-live",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 03:00:53 AM",
+        "end_time_bst": "Oct 18, 2026, 10:00:57 AM",
+        "raw_start_utc": "2026/10/17 21:00:53 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "J. Buckley",
+          "flag": "https://img.sofascore.com/api/v1/team/461599/image"
+        },
+        "team_b": {
+          "name": "M. Malott",
+          "flag": "https://img.sofascore.com/api/v1/team/464691/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/19906/image",
+      "channels": [
+        {
+          "channel_name": "PARAMOUNT+ - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/uok23bi6ui/out/v1/a2127a0fe363494b83fcc9fbf0393b37/69a67ea8-9eac-4ec3-a52c-7b66c05afaf1-cenc.mpd?aws_sessionId=4d11bca9-05db-47c8-bf71-11ab65538e1b",
+          "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/uok23bi6ui/out/v1/a2127a0fe363494b83fcc9fbf0393b37/69a67ea8-9eac-4ec3-a52c-7b66c05afaf1-cenc.mpd?aws_sessionId=4d11bca9-05db-47c8-bf71-11ab65538e1b",
+          "headers": {},
+          "drm_key": "00bcea670d00c8e47519f2e960ca76f9:ecbb5fd8f8fff204ae577025b51bfdd4"
+        },
+        {
+          "channel_name": "TNT SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+        },
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/25.m3u8",
+          "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/25.m3u8",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "HD SERVER",
+          "stream_type": "HLS",
+          "url": "https://edgestream6.pro/hls/zeuryuegn48.m3u8",
+          "raw_link": "https://edgestream6.pro/hls/zeuryuegn48.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.192/hls/FEEEEQ.m3u8?",
+          "raw_link": "http://193.47.62.192/hls/FEEEEQ.m3u8?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc/"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "SportsNet - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "60de674d9db66df9ba090e06871d3554:18071eac168232fc3d45549049c1de6b"
+        },
+        {
+          "channel_name": "UFC TV - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd",
+          "headers": {},
+          "drm_key": "a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47"
+        }
+      ],
+      "total_channels": 7
     },
     {
       "title": "AS Roma vs Genoa",
@@ -189,42 +285,6 @@
       "total_channels": 1
     },
     {
-      "title": "Hannover 96 vs FC St. Pauli",
-      "sport": "Football",
-      "sub_category": "2. Bundesliga",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "hannover-96-vs-fc-st-pauli",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 12:30:00 AM",
-        "end_time_bst": "Oct 18, 2026, 02:50:00 AM",
-        "raw_start_utc": "2026/10/17 18:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Hannover 96",
-          "flag": "https://img.sofascore.com/api/v1/team/2541/image"
-        },
-        "team_b": {
-          "name": "FC St. Pauli",
-          "flag": "https://img.sofascore.com/api/v1/team/2526/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
       "title": "Sparta Rotterdam vs Willem II Tilburg",
       "sport": "Football",
       "sub_category": "VriendenLoterij Eredivisie",
@@ -297,100 +357,40 @@
       "total_channels": 1
     },
     {
-      "title": "UFC LIVE",
+      "title": "Botafogo vs Chapecoense",
       "sport": "Football",
-      "sub_category": "UFC",
-      "status": "Upcoming",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Live",
       "is_hot": false,
-      "slug": "ufc-live",
+      "slug": "botafogo-vs-chapecoense",
       "schedule": {
         "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 03:00:53 AM",
-        "end_time_bst": "Oct 18, 2026, 10:00:57 AM",
-        "raw_start_utc": "2026/10/17 21:00:53 +0000"
+        "start_time_bst": "Oct 18, 2026, 03:00:00 AM",
+        "end_time_bst": "Oct 18, 2026, 05:20:00 AM",
+        "raw_start_utc": "2026/10/17 21:00:00 +0000"
       },
       "teams": {
         "team_a": {
-          "name": "J. Buckley",
-          "flag": "https://img.sofascore.com/api/v1/team/461599/image"
+          "name": "Botafogo",
+          "flag": "https://img.sofascore.com/api/v1/team/1958/image"
         },
         "team_b": {
-          "name": "M. Malott",
-          "flag": "https://img.sofascore.com/api/v1/team/464691/image"
+          "name": "Chapecoense",
+          "flag": "https://img.sofascore.com/api/v1/team/21845/image"
         }
       },
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/19906/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
       "channels": [
-        {
-          "channel_name": "PARAMOUNT+ - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/uok23bi6ui/out/v1/a2127a0fe363494b83fcc9fbf0393b37/69a67ea8-9eac-4ec3-a52c-7b66c05afaf1-cenc.mpd?aws_sessionId=4d11bca9-05db-47c8-bf71-11ab65538e1b",
-          "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/uok23bi6ui/out/v1/a2127a0fe363494b83fcc9fbf0393b37/69a67ea8-9eac-4ec3-a52c-7b66c05afaf1-cenc.mpd?aws_sessionId=4d11bca9-05db-47c8-bf71-11ab65538e1b",
-          "headers": {},
-          "drm_key": "00bcea670d00c8e47519f2e960ca76f9:ecbb5fd8f8fff204ae577025b51bfdd4"
-        },
-        {
-          "channel_name": "TNT SPORTS - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-        },
         {
           "channel_name": "CRICFy LIVE",
           "stream_type": "HLS",
-          "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/25.m3u8",
-          "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/25.m3u8",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
           "headers": {},
           "drm_key": null
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_type": "HLS",
-          "url": "https://edgestream6.pro/hls/zeuryuegn48.m3u8",
-          "raw_link": "https://edgestream6.pro/hls/zeuryuegn48.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.192/hls/FEEEEQ.m3u8?",
-          "raw_link": "http://193.47.62.192/hls/FEEEEQ.m3u8?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "SportsNet - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "60de674d9db66df9ba090e06871d3554:18071eac168232fc3d45549049c1de6b"
-        },
-        {
-          "channel_name": "UFC TV - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd",
-          "headers": {},
-          "drm_key": "a49085f8da5e65af1efff0edac830b1f:4659bc58a85c062e3fe0c039a446fe47"
         }
       ],
-      "total_channels": 7
+      "total_channels": 1
     },
     {
       "title": "South Africa vs Australia",
@@ -514,42 +514,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Botafogo vs Chapecoense",
-      "sport": "Football",
-      "sub_category": "Campeonato Brasileiro Série A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "botafogo-vs-chapecoense",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 03:00:00 AM",
-        "end_time_bst": "Oct 18, 2026, 05:20:00 AM",
-        "raw_start_utc": "2026/10/17 21:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Botafogo",
-          "flag": "https://img.sofascore.com/api/v1/team/1958/image"
-        },
-        "team_b": {
-          "name": "Chapecoense",
-          "flag": "https://img.sofascore.com/api/v1/team/21845/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
       "channels": [
         {
           "channel_name": "CRICFy LIVE",
@@ -1622,6 +1586,33 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Hannover 96 vs FC St. Pauli",
+      "sport": "Football",
+      "sub_category": "2. Bundesliga",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "hannover-96-vs-fc-st-pauli",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 12:30:00 AM",
+        "end_time_bst": "Oct 18, 2026, 02:50:00 AM",
+        "raw_start_utc": "2026/10/17 18:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Hannover 96",
+          "flag": "https://img.sofascore.com/api/v1/team/2541/image"
+        },
+        "team_b": {
+          "name": "FC St. Pauli",
+          "flag": "https://img.sofascore.com/api/v1/team/2526/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
       "channels": [],
       "total_channels": 0
     },
