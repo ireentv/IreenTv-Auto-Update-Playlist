@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 36,
-  "live_count": 11,
-  "last_update": "01:46 AM 18-10-2026 BST",
+  "live_count": 10,
+  "last_update": "02:00 AM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,95 +19,6 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
-    },
-    {
-      "title": "Bangladesh vs Zimbabwe",
-      "sport": "Cricket",
-      "sub_category": "ODI Tri-Series in United Arab Emirates",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "bangladesh-vs-zimbabwe",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 05:30:20 PM",
-        "end_time_bst": "Oct 18, 2026, 02:00:21 AM",
-        "raw_start_utc": "2026/10/17 11:30:20 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Bangladesh",
-          "flag": "https://img.sofascore.com/api/v1/team/187744/image"
-        },
-        "team_b": {
-          "name": "Zimbabwe",
-          "flag": "https://img.sofascore.com/api/v1/team/187745/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "channels": [
-        {
-          "channel_name": "WILLOW - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iiqppqpksi/out/v1/5aedff78e45a44a08461ab32fa41310a/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iiqppqpksi/out/v1/5aedff78e45a44a08461ab32fa41310a/cenc.mpd",
-          "headers": {},
-          "drm_key": "d67c0f3e8d176e693e9d452ec4aeca2f:3cae5de28b16ae8152999574ced3b4db"
-        },
-        {
-          "channel_name": "FANCODE - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-        },
-        {
-          "channel_name": "WILLOW - ALT",
-          "stream_type": "DASH",
-          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iiqppqpksi/out/v1/5aedff78e45a44a08461ab32fa41310a/cenc.mpd",
-          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iiqppqpksi/out/v1/5aedff78e45a44a08461ab32fa41310a/cenc.mpd",
-          "headers": {},
-          "drm_key": "d67c0f3e8d176e693e9d452ec4aeca2f:3cae5de28b16ae8152999574ced3b4db"
-        },
-        {
-          "channel_name": "TAPMAD - AQ",
-          "stream_type": "HLS",
-          "url": "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8",
-          "raw_link": "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8",
-          "headers": {},
-          "drm_key": null
-        },
-        {
-          "channel_name": "A SPORTS HD",
-          "stream_type": "HLS",
-          "url": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
-          "raw_link": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
-          "headers": {},
-          "drm_key": null
-        },
-        {
-          "channel_name": "T SPORTS HD",
-          "stream_type": "HLS",
-          "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-          "raw_link": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-          "headers": {},
-          "drm_key": null
-        },
-        {
-          "channel_name": "FANCODE - IN",
-          "stream_type": "HLS",
-          "url": "https://dai-fancode.pages.dev/mumbai/4249694_english_hls_c370ab317921311_1ta-di_h264/index.m3u8",
-          "raw_link": "https://dai-fancode.pages.dev/mumbai/4249694_english_hls_c370ab317921311_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-          "headers": {
-            "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
-            "Referer": "https://fancode.com/"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 7
     },
     {
       "title": "AS Roma vs Genoa",
@@ -1567,6 +1478,33 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Bangladesh vs Zimbabwe",
+      "sport": "Cricket",
+      "sub_category": "ODI Tri-Series in United Arab Emirates",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "bangladesh-vs-zimbabwe",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 05:30:20 PM",
+        "end_time_bst": "Oct 18, 2026, 02:00:21 AM",
+        "raw_start_utc": "2026/10/17 11:30:20 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Bangladesh",
+          "flag": "https://img.sofascore.com/api/v1/team/187744/image"
+        },
+        "team_b": {
+          "name": "Zimbabwe",
+          "flag": "https://img.sofascore.com/api/v1/team/187745/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
       "channels": [],
       "total_channels": 0
     },
