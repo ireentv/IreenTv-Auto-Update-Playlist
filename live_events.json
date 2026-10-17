@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 36,
-  "live_count": 36,
-  "last_update": "07:15 PM 17-10-2026 BST",
+  "channels_amount": 56,
+  "live_count": 56,
+  "last_update": "07:31 PM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -707,15 +707,50 @@
       "status": "LIVE",
       "time": "13:30:00",
       "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n3icgre8mf/out/v1/af3ffb719dea4937aede63586796d513/cenc.mpd",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "WILLOW - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n3icgre8mf/out/v1/af3ffb719dea4937aede63586796d513/cenc.mpd",
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "WILLOW ALT - AQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/n3icgre8mf/out/v1/af3ffb719dea4937aede63586796d513/cenc.mpd",
+        "TAPMAD FHD": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8|referer=https://tapmad.com/",
+        "TNT SPORTS HD": "https://papacito.cfd/m3u/uk-t3434334/live.m3u8"
       },
       "streams": [
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+          "name": "WILLOW - AQ",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n3icgre8mf/out/v1/af3ffb719dea4937aede63586796d513/cenc.mpd",
+          "scheme": 0,
+          "api": "c21cda3aab763439e2f05489f9a73827:582de22865b044837d559884992caf4f",
+          "tokenApi": null
+        },
+        {
+          "name": "TNT SPORTS - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
+          "tokenApi": null
+        },
+        {
+          "name": "WILLOW ALT - AQ",
+          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/n3icgre8mf/out/v1/af3ffb719dea4937aede63586796d513/cenc.mpd",
+          "scheme": 0,
+          "api": "c21cda3aab763439e2f05489f9a73827:582de22865b044837d559884992caf4f",
+          "tokenApi": null
+        },
+        {
+          "name": "TAPMAD FHD",
+          "link": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8|referer=https://tapmad.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "TNT SPORTS HD",
+          "link": "https://papacito.cfd/m3u/uk-t3434334/live.m3u8",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
         }
       ]
     },
@@ -725,356 +760,454 @@
       "synopsis": "Football | Sports Match",
       "status": "LIVE",
       "time": "13:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "13:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "10:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "11:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "11:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "11:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "13:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "12:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "13:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "13:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "13:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "13:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "10:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "13:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "10:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "13:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "13:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "12:00:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "12:00:00",
       "cover_image": "",
       "match_url": "",
       "is_free": false,
       "stream_url": {},
       "streams": [
         {
-          "name": "Link 1",
-          "link": "h",
+          "name": "Cricfy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://trendy48.online/event/m-venezia-vs-napoli-1017",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "13:00:00",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "name": "CRFY Stream",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://trendy48.online/event/m-fiorentina-vs-como-1018",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "13:30:00",
+      "cover_image": "",
+      "match_url": "http://193.47.62.55/hls/TMMMAA.m3u8|referer=http://fawanews.sc/",
+      "is_free": false,
+      "stream_url": {
+        "Low": "http://193.47.62.55/hls/TMMMAA.m3u8|referer=http://fawanews.sc/"
+      },
+      "streams": [
+        {
+          "name": "Cricfy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://trendy48.online/event/m-hamburg-sv-vs-vfb-stuttgart-1017",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.55/hls/TMMMAA.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "12:00:00",
+      "cover_image": "",
+      "match_url": "http://193.47.62.55/hls/FUUU.m3u8|referer=http://fawanews.sc/",
+      "is_free": false,
+      "stream_url": {
+        "Low": "http://193.47.62.55/hls/FUUU.m3u8|referer=http://fawanews.sc/"
+      },
+      "streams": [
+        {
+          "name": "Low",
+          "link": "http://193.47.62.55/hls/FUUU.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "13:30:00",
+      "cover_image": "",
+      "match_url": "http://193.47.62.55/hls/TMMMAAAA.m3u8|referer=http://fawanews.sc/",
+      "is_free": false,
+      "stream_url": {
+        "Low": "http://193.47.62.55/hls/TMMMAAAA.m3u8|referer=http://fawanews.sc/"
+      },
+      "streams": [
+        {
+          "name": "Cricfy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://trendy48.online/event/m-union-berlin-vs-borussia-dortmund-1017",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.55/hls/TMMMAAAA.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "13:30:00",
+      "cover_image": "",
+      "match_url": "http://193.47.62.55/hls/TMMMAAAAA.m3u8|referer=http://fawanews.sc/",
+      "is_free": false,
+      "stream_url": {
+        "Low": "http://193.47.62.55/hls/TMMMAAAAA.m3u8|referer=http://fawanews.sc/"
+      },
+      "streams": [
+        {
+          "name": "Cricfy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://trendy48.online/event/m-werder-bremen-vs-sc-paderborn-07-1017",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.55/hls/TMMMAAAAA.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "13:30:00",
+      "cover_image": "",
+      "match_url": "http://193.47.62.55/hls/TMMMA.m3u8|referer=http://fawanews.sc/",
+      "is_free": false,
+      "stream_url": {
+        "Low": "http://193.47.62.55/hls/TMMMA.m3u8|referer=http://fawanews.sc/"
+      },
+      "streams": [
+        {
+          "name": "Cricfy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://trendy48.online/event/m-sv-elversberg-vs-fc-augsburg-1017",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.55/hls/TMMMA.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "13:30:00",
+      "cover_image": "",
+      "match_url": "http://193.47.62.55/hls/TMMMAAA.m3u8|referer=http://fawanews.sc/",
+      "is_free": false,
+      "stream_url": {
+        "Low": "http://193.47.62.55/hls/TMMMAAA.m3u8|referer=http://fawanews.sc/"
+      },
+      "streams": [
+        {
+          "name": "Cricfy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://trendy48.online/event/m-schalke-04-vs-mainz-1017",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.55/hls/TMMMAAA.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "13:00:00",
+      "cover_image": "",
+      "match_url": "https://live.vivo155.com/live/sd-1-4581337.m3u8?txSecret=1daccb84f51b944c2713277d12e532f3&txTime=6AD382E7|Referer=https://player.online878.com/",
+      "is_free": false,
+      "stream_url": {
+        "Cricfy HD": "https://live.vivo155.com/live/sd-1-4581337.m3u8?txSecret=1daccb84f51b944c2713277d12e532f3&txTime=6AD382E7|Referer=https://player.online878.com/",
+        "Low": "http://193.47.62.55/hls/JCCCAA.m3u8|referer=http://fawanews.sc/"
+      },
+      "streams": [
+        {
+          "name": "Cricfy HD",
+          "link": "https://live.vivo155.com/live/sd-1-4581337.m3u8?txSecret=1daccb84f51b944c2713277d12e532f3&txTime=6AD382E7|Referer=https://player.online878.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.55/hls/JCCCAA.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "13:00:00",
+      "cover_image": "",
+      "match_url": "http://193.47.62.55/hls/JCCC.m3u8|referer=http://fawanews.sc/",
+      "is_free": false,
+      "stream_url": {
+        "Low": "http://193.47.62.55/hls/JCCC.m3u8|referer=http://fawanews.sc/"
+      },
+      "streams": [
+        {
+          "name": "Low",
+          "link": "http://193.47.62.55/hls/JCCC.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "13:00:00",
+      "cover_image": "",
+      "match_url": "https://live.vivo155.com/live/sd-1-4581332.m3u8?txSecret=eaa40afa08356094b562f27d2093ceb4&txTime=6AD38303|Referer=https://player.online878.com/",
+      "is_free": false,
+      "stream_url": {
+        "Cricfy HD": "https://live.vivo155.com/live/sd-1-4581332.m3u8?txSecret=eaa40afa08356094b562f27d2093ceb4&txTime=6AD38303|Referer=https://player.online878.com/",
+        "Low": "http://193.47.62.55/hls/JCCCA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      },
+      "streams": [
+        {
+          "name": "Cricfy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://trendy48.online/event/m-amed-sfk-vs-konyaspor-1017",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "Cricfy HD",
+          "link": "https://live.vivo155.com/live/sd-1-4581332.m3u8?txSecret=eaa40afa08356094b562f27d2093ceb4&txTime=6AD38303|Referer=https://player.online878.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.55/hls/JCCCA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "12:00:00",
+      "cover_image": "",
+      "match_url": "http://193.47.62.55/hls/FUUUQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+      "is_free": false,
+      "stream_url": {
+        "Low": "http://193.47.62.55/hls/FUUUQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      },
+      "streams": [
+        {
+          "name": "Low",
+          "link": "http://193.47.62.55/hls/FUUUQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "12:00:00",
+      "cover_image": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "is_free": false,
+      "stream_url": {
+        "FANCODE FHD": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "D SPORTS FHD": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "CazéTV FHD": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "ESPN DEPORTES HD": "https://chatgpt.hereisman.net/playlist/58131/load-playlist-multi?&.m3u8|Referer=https://gooz.aapmains.net",
+        "Cricfy HD": "https://live.vivo155.com/live/hd-en-1-4565453.m3u8?txSecret=5debf53a89fcab13af880f51afd5c51b&txTime=6AD37035|Referer=https://player.online878.com/",
+        "CRFY Stream": "https://www.rtmpcdn.com/live/1557ae2b-37ec-4b12-89f3-fe24eb6add40.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+        "Low": "http://193.47.62.55/hls/FUUUQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      },
+      "streams": [
+        {
+          "name": "FANCODE FHD",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835",
+          "tokenApi": null
+        },
+        {
+          "name": "D SPORTS FHD",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3",
+          "tokenApi": null
+        },
+        {
+          "name": "CazéTV FHD",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4",
+          "tokenApi": null
+        },
+        {
+          "name": "ESPN DEPORTES HD",
+          "link": "https://chatgpt.hereisman.net/playlist/58131/load-playlist-multi?&.m3u8|Referer=https://gooz.aapmains.net",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Cricfy HD",
+          "link": "https://live.vivo155.com/live/hd-en-1-4565453.m3u8?txSecret=5debf53a89fcab13af880f51afd5c51b&txTime=6AD37035|Referer=https://player.online878.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "CRFY Stream",
+          "link": "https://www.rtmpcdn.com/live/1557ae2b-37ec-4b12-89f3-fe24eb6add40.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.55/hls/FUUUQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
           "scheme": 0,
           "api": null,
           "tokenApi": null
@@ -1088,15 +1221,34 @@
       "status": "LIVE",
       "time": "11:30:00",
       "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Low": "http://193.47.62.50/hls/4GGGQQQQQQ.m3u8|referer=http://fawanews.sc/"
       },
       "streams": [
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+          "name": "beIN ENGLISH - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "tokenApi": null
+        },
+        {
+          "name": "CBS SPORTS - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.50/hls/4GGGQQQQQQ.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
         }
       ]
     },
@@ -1107,15 +1259,26 @@
       "status": "LIVE",
       "time": "11:30:00",
       "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://live.vivo155.com/live/sd-1-4563633.m3u8?txSecret=e43d776df12fe47f913236e1c87981df&txTime=6AD36BB0|Referer=https://player.online878.com/",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "Cricfy HD": "https://live.vivo155.com/live/sd-1-4563633.m3u8?txSecret=e43d776df12fe47f913236e1c87981df&txTime=6AD36BB0|Referer=https://player.online878.com/",
+        "Low": "http://193.47.62.50/hls/4GGGQQQQ.m3u8|referer=http://fawanews.sc/"
       },
       "streams": [
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+          "name": "Cricfy HD",
+          "link": "https://live.vivo155.com/live/sd-1-4563633.m3u8?txSecret=e43d776df12fe47f913236e1c87981df&txTime=6AD36BB0|Referer=https://player.online878.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.50/hls/4GGGQQQQ.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
         }
       ]
     },
@@ -1126,15 +1289,34 @@
       "status": "LIVE",
       "time": "11:30:00",
       "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Cricfy HD": "https://live.vivo155.com/live/sd-1-4563628.m3u8?txSecret=9b8bcf75ff2c65a257834fcc1d0e8199&txTime=6AD36BEA|Referer=https://player.online878.com/",
+        "Low": "http://193.47.62.50/hls/4GGGQQQQQ.m3u8|referer=http://fawanews.sc/"
       },
       "streams": [
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+          "name": "TNT SPORTS - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
+          "tokenApi": null
+        },
+        {
+          "name": "Cricfy HD",
+          "link": "https://live.vivo155.com/live/sd-1-4563628.m3u8?txSecret=9b8bcf75ff2c65a257834fcc1d0e8199&txTime=6AD36BEA|Referer=https://player.online878.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.50/hls/4GGGQQQQQ.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
         }
       ]
     },
@@ -1175,6 +1357,181 @@
       "status": "LIVE",
       "time": "11:30:00",
       "cover_image": "",
+      "match_url": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "CRFY Stream": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
+        "FANCODE (IND)": "https://dai-fancode.pages.dev/mumbai/4249694_english_hls_c370ab317921311_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
+      },
+      "streams": [
+        {
+          "name": "CRFY Stream",
+          "link": "https://playztv-apps.pages.dev/a-sports/index.m3u8",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "FANCODE (IND)",
+          "link": "https://dai-fancode.pages.dev/mumbai/4249694_english_hls_c370ab317921311_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "11:30:00",
+      "cover_image": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "is_free": false,
+      "stream_url": {
+        "TNT SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "USA NETWORK HD": "https://chatgpt.hereisman.net/playlist/58128/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
+        "USA TV FHD": "https://raventheory.s3.us-east-1.amazonaws.com/btsport.m3u8",
+        "Cricfy HD": "https://live.vivo155.com/live/hd-en-1-4558601.m3u8?txSecret=c2e70e8342b22f11891f98611eb37dfe&txTime=6AD3691C|Referer=https://player.online878.com/",
+        "Low": "http://193.47.62.41/hls/5JJJ.m3u8|referer=http://fawanews.sc/"
+      },
+      "streams": [
+        {
+          "name": "TNT SPORTS - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749",
+          "tokenApi": null
+        },
+        {
+          "name": "Cricfy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://trendy48.online/event/m-everton-vs-chelsea-1017",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "USA NETWORK HD",
+          "link": "https://chatgpt.hereisman.net/playlist/58128/load-playlist?&.m3u8|Referer=https://gooz.aapmains.net",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "USA TV FHD",
+          "link": "https://raventheory.s3.us-east-1.amazonaws.com/btsport.m3u8",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Cricfy HD",
+          "link": "https://live.vivo155.com/live/hd-en-1-4558601.m3u8?txSecret=c2e70e8342b22f11891f98611eb37dfe&txTime=6AD3691C|Referer=https://player.online878.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.41/hls/5JJJ.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "11:45:00",
+      "cover_image": "",
+      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/ysc0smpdad/out/v1/561cac99030040ce8ef4f56e0c2f5683/8e388aab-de50-4660-8f1c-2caf565fdda3-cenc.mpd?aws_sessionId=e33ba791-e1f8-4cc6-b6a5-0e0295bea982",
+      "is_free": false,
+      "stream_url": {
+        "PARAMOUNT+ - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/ysc0smpdad/out/v1/561cac99030040ce8ef4f56e0c2f5683/8e388aab-de50-4660-8f1c-2caf565fdda3-cenc.mpd?aws_sessionId=e33ba791-e1f8-4cc6-b6a5-0e0295bea982",
+        "Low": "http://193.47.62.50/hls/4GGGQQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      },
+      "streams": [
+        {
+          "name": "PARAMOUNT+ - AQ",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/ysc0smpdad/out/v1/561cac99030040ce8ef4f56e0c2f5683/8e388aab-de50-4660-8f1c-2caf565fdda3-cenc.mpd?aws_sessionId=e33ba791-e1f8-4cc6-b6a5-0e0295bea982",
+          "scheme": 0,
+          "api": "e1bcb99484b1b0c67ebe58aea5e5e928:c249f63abb0bf5068b921d328b47e07b",
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.50/hls/4GGGQQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "14:00:00",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "name": "CRFY HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://inembed.cx/embed.php?23",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "CRFY Stream",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://trendy48.online/event/m-manchester-city-vs-ipswich-town-1017",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "15:15:00",
+      "cover_image": "",
       "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
       "is_free": false,
       "stream_url": {
@@ -1192,27 +1549,457 @@
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "LIVE",
-      "time": "11:30:00",
+      "time": "18:45:00",
       "cover_image": "",
-      "match_url": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
       "is_free": false,
-      "stream_url": {},
+      "stream_url": {
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+      },
+      "streams": [
+        {
+          "name": "beIN ENGLISH - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
+          "tokenApi": null
+        },
+        {
+          "name": "CBS SPORTS - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861",
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "15:40:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
       "streams": [
         {
           "name": "Link 1",
-          "link": null,
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "16:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "16:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "16:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "18:30:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "18:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "18:45:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "16:30:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "16:30:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "18:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "18:45:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "13:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "16:30:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "22:30:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "21:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "19:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "19:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "22:30:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "21:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "19:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "19:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "19:00:00",
+      "cover_image": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "is_free": false,
+      "stream_url": {
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+      },
+      "streams": [
+        {
+          "name": "beIN ENGLISH - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
           "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://trendy48.online/event/m-everton-vs-chelsea-1017",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "tokenApi": null
+        },
+        {
+          "name": "CazéTV - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4",
+          "tokenApi": null
         }
       ]
     }
