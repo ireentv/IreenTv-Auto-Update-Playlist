@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 50,
-  "live_count": 21,
-  "last_update": "10:08 PM 17-10-2026 BST",
+  "channels_amount": 39,
+  "live_count": 10,
+  "last_update": "10:13 PM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -196,270 +196,6 @@
         }
       ],
       "total_channels": 7
-    },
-    {
-      "title": "Brentford vs Liverpool FC",
-      "sport": "Football",
-      "sub_category": "Premier League",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "brentford-vs-liverpool-fc",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 10:20:00 PM",
-        "raw_start_utc": "2026/10/17 14:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Brentford",
-          "flag": "https://img.sofascore.com/api/v1/team/50/image"
-        },
-        "team_b": {
-          "name": "Liverpool FC",
-          "flag": "https://img.sofascore.com/api/v1/team/44/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "channels": [
-        {
-          "channel_name": "FUBO SPORTS - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/n08pizbsu2/out/v1/a8645e4080344c53b38dc66983651d99/d61eead1-3574-4b70-8e75-67a5a806f711-cenc.mpd?aws_sessionId=9b04b8e2-907c-4d19-a01e-61dd85c80ee7",
-          "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/n08pizbsu2/out/v1/a8645e4080344c53b38dc66983651d99/d61eead1-3574-4b70-8e75-67a5a806f711-cenc.mpd?aws_sessionId=9b04b8e2-907c-4d19-a01e-61dd85c80ee7",
-          "headers": {},
-          "drm_key": "480f6ee51138431bf4a51366ceafccc3:805605d2a7721291a353145533b4f21d"
-        },
-        {
-          "channel_name": "PEACOCK TV HD",
-          "stream_type": "HLS",
-          "url": "https://chatgpt.hereisman.net/playlist/58134/load-playlist?",
-          "raw_link": "https://chatgpt.hereisman.net/playlist/58134/load-playlist?|Referer=https://gooz.aapmains.net",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "PEACOCK - AQ",
-          "stream_type": "HLS",
-          "url": "https://granitewolf.s3.us-east-1.amazonaws.com/liverpool.m3u8",
-          "raw_link": "https://granitewolf.s3.us-east-1.amazonaws.com/liverpool.m3u8",
-          "headers": {},
-          "drm_key": null
-        },
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/hd-en-1-4558598.m3u8?txSecret=6fdbfbfa3925454c0f1afd73372b9bac&txTime=6AD390F1",
-          "raw_link": "https://live.vivo155.com/live/hd-en-1-4558598.m3u8?txSecret=6fdbfbfa3925454c0f1afd73372b9bac&txTime=6AD390F1|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_type": "HLS",
-          "url": "https://www.rtmpcdn.com/live/910ed1c3-3d3c-43a7-bb08-0eb20ce5de14.m3u8",
-          "raw_link": "https://www.rtmpcdn.com/live/910ed1c3-3d3c-43a7-bb08-0eb20ce5de14.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.50/hls/4444aa.m3u8",
-          "raw_link": "http://193.47.62.50/hls/4444aa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 6
-    },
-    {
-      "title": "Fulham vs Hull City",
-      "sport": "Football",
-      "sub_category": "Premier League",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "fulham-vs-hull-city",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 10:20:00 PM",
-        "raw_start_utc": "2026/10/17 14:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Fulham",
-          "flag": "https://img.sofascore.com/api/v1/team/43/image"
-        },
-        "team_b": {
-          "name": "Hull City",
-          "flag": "https://img.sofascore.com/api/v1/team/96/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "channels": [
-        {
-          "channel_name": "FUBO SPORTS - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/tynmqoruat/out/v1/07d94e5695564616bc21118f294f6cc7/7e0dd27b-f998-465e-8df2-027df73d929b-cenc.mpd?aws_sessionId=9e935291-e3f8-4fd0-880c-7ae5a73ee747",
-          "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/tynmqoruat/out/v1/07d94e5695564616bc21118f294f6cc7/7e0dd27b-f998-465e-8df2-027df73d929b-cenc.mpd?aws_sessionId=9e935291-e3f8-4fd0-880c-7ae5a73ee747",
-          "headers": {},
-          "drm_key": "5245bea7bb5265e0cefa8a59f3a989e7:a502b56126f5f5e5beb0e901fa246f1e"
-        },
-        {
-          "channel_name": "PEACOCK TV HD",
-          "stream_type": "HLS",
-          "url": "https://chatgpt.hereisman.net/playlist/58135/load-playlist?",
-          "raw_link": "https://chatgpt.hereisman.net/playlist/58135/load-playlist?|Referer=https://gooz.aapmains.net",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "PEACOCK - AQ",
-          "stream_type": "HLS",
-          "url": "https://mysticledger.s3.us-east-1.amazonaws.com/newcastle.m3u8",
-          "raw_link": "https://mysticledger.s3.us-east-1.amazonaws.com/newcastle.m3u8",
-          "headers": {},
-          "drm_key": null
-        },
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/hd-en-1-4558604.m3u8?txSecret=e541d0b8aa52666a8f5ccc5b86367d06&txTime=6AD390D9",
-          "raw_link": "https://live.vivo155.com/live/hd-en-1-4558604.m3u8?txSecret=e541d0b8aa52666a8f5ccc5b86367d06&txTime=6AD390D9|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_type": "HLS",
-          "url": "https://www.rtmpcdn.com/live/d6f999ea-dc58-4d95-a707-dae77c6cb70f.m3u8",
-          "raw_link": "https://www.rtmpcdn.com/live/d6f999ea-dc58-4d95-a707-dae77c6cb70f.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.59/hls/4444.m3u8",
-          "raw_link": "http://193.47.62.59/hls/4444.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 6
-    },
-    {
-      "title": "Manchester City vs Ipswich Town",
-      "sport": "Football",
-      "sub_category": "Premier League",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "manchester-city-vs-ipswich-town",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 10:20:00 PM",
-        "raw_start_utc": "2026/10/17 14:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Manchester City",
-          "flag": "https://img.sofascore.com/api/v1/team/17/image"
-        },
-        "team_b": {
-          "name": "Ipswich Town",
-          "flag": "https://img.sofascore.com/api/v1/team/32/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "channels": [
-        {
-          "channel_name": "FUBO SPORTS - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/qn8wrs6xue/out/v1/aaaab12c95924d80a77f87f7c745782a/610d090c-7192-4ae7-9e31-482c4096abc1-cenc.mpd?aws_sessionId=0eea5074-f777-498e-8c4c-cb440de9cef6",
-          "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/qn8wrs6xue/out/v1/aaaab12c95924d80a77f87f7c745782a/610d090c-7192-4ae7-9e31-482c4096abc1-cenc.mpd?aws_sessionId=0eea5074-f777-498e-8c4c-cb440de9cef6",
-          "headers": {},
-          "drm_key": "65f9ed4580a4af3c117a339c44cdfe3b:3e7d40c4b2ca331fe48bd65acae439d7"
-        },
-        {
-          "channel_name": "USA NETWORK HD",
-          "stream_type": "HLS",
-          "url": "https://chatgpt.hereisman.net/playlist/58133/load-playlist?",
-          "raw_link": "https://chatgpt.hereisman.net/playlist/58133/load-playlist?|Referer=https://gooz.aapmains.net",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "USA TV - AQ",
-          "stream_type": "HLS",
-          "url": "https://granitewolf.s3.us-east-1.amazonaws.com/mancity.m3u8",
-          "raw_link": "https://granitewolf.s3.us-east-1.amazonaws.com/mancity.m3u8",
-          "headers": {},
-          "drm_key": null
-        },
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/hd-en-1-4558609.m3u8?txSecret=94538fdc13a90f6f8d0f010a623cf6ef&txTime=6AD39064",
-          "raw_link": "https://live.vivo155.com/live/hd-en-1-4558609.m3u8?txSecret=94538fdc13a90f6f8d0f010a623cf6ef&txTime=6AD39064|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_type": "HLS",
-          "url": "https://www.rtmpcdn.com/live/91eba60d-514b-41a7-ba01-92b3d15aaa28.m3u8",
-          "raw_link": "https://www.rtmpcdn.com/live/91eba60d-514b-41a7-ba01-92b3d15aaa28.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.50/hls/4444a.m3u8",
-          "raw_link": "http://193.47.62.50/hls/4444a.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 6
     },
     {
       "title": "Bologna vs Inter",
@@ -775,396 +511,6 @@
       "total_channels": 2
     },
     {
-      "title": "Bristol City vs Sheffield United",
-      "sport": "Football",
-      "sub_category": "Championship",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "bristol-city-vs-sheffield-united",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 10:20:00 PM",
-        "raw_start_utc": "2026/10/17 14:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Bristol City",
-          "flag": "https://img.sofascore.com/api/v1/team/58/image"
-        },
-        "team_b": {
-          "name": "Sheffield United",
-          "flag": "https://img.sofascore.com/api/v1/team/15/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/sd-1-4563625.m3u8?txSecret=557b4c87750eb66afc2691d2d1cdf424&txTime=6AD38950",
-          "raw_link": "https://live.vivo155.com/live/sd-1-4563625.m3u8?txSecret=557b4c87750eb66afc2691d2d1cdf424&txTime=6AD38950|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.41/hls/BIIIAAAAAA.m3u8",
-          "raw_link": "http://193.47.62.41/hls/BIIIAAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 2
-    },
-    {
-      "title": "Birmingham City vs Queens Park Rangers",
-      "sport": "Football",
-      "sub_category": "Championship",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "birmingham-city-vs-queens-park-rangers",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 10:20:00 PM",
-        "raw_start_utc": "2026/10/17 14:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Birmingham City",
-          "flag": "https://img.sofascore.com/api/v1/team/9/image"
-        },
-        "team_b": {
-          "name": "Queens Park Rangers",
-          "flag": "https://img.sofascore.com/api/v1/team/1/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "channels": [
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.50/hls/L111AAQQQ.m3u8",
-          "raw_link": "http://193.47.62.50/hls/L111AAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Derby County vs Stoke City",
-      "sport": "Football",
-      "sub_category": "Championship",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "derby-county-vs-stoke-city",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 10:20:00 PM",
-        "raw_start_utc": "2026/10/17 14:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Derby County",
-          "flag": "https://img.sofascore.com/api/v1/team/27/image"
-        },
-        "team_b": {
-          "name": "Stoke City",
-          "flag": "https://img.sofascore.com/api/v1/team/29/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "channels": [
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.44/hls/H111AAAAQQ.m3u8",
-          "raw_link": "http://193.47.62.44/hls/H111AAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Norwich City vs Portsmouth",
-      "sport": "Football",
-      "sub_category": "Championship",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "norwich-city-vs-portsmouth",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 10:20:00 PM",
-        "raw_start_utc": "2026/10/17 14:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Norwich City",
-          "flag": "https://img.sofascore.com/api/v1/team/263/image"
-        },
-        "team_b": {
-          "name": "Portsmouth",
-          "flag": "https://img.sofascore.com/api/v1/team/2/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "channels": [
-        {
-          "channel_name": "beIN ENGLISH - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-        },
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/sd-1-4563629.m3u8?txSecret=9731904bec0b22c6559d5ffbcaa32b93&txTime=6AD389D9",
-          "raw_link": "https://live.vivo155.com/live/sd-1-4563629.m3u8?txSecret=9731904bec0b22c6559d5ffbcaa32b93&txTime=6AD389D9|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.59/hls/N777AAAAAA.m3u8",
-          "raw_link": "http://193.47.62.59/hls/N777AAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 3
-    },
-    {
-      "title": "Southampton vs Bolton Wanderers",
-      "sport": "Football",
-      "sub_category": "Championship",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "southampton-vs-bolton-wanderers",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 10:20:00 PM",
-        "raw_start_utc": "2026/10/17 14:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Southampton",
-          "flag": "https://img.sofascore.com/api/v1/team/45/image"
-        },
-        "team_b": {
-          "name": "Bolton Wanderers",
-          "flag": "https://img.sofascore.com/api/v1/team/5/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "channels": [
-        {
-          "channel_name": "CBS SPORTS - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-        },
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/sd-1-4563630.m3u8?txSecret=9fabf529e685bbd620c907691db41dcf&txTime=6AD38989",
-          "raw_link": "https://live.vivo155.com/live/sd-1-4563630.m3u8?txSecret=9fabf529e685bbd620c907691db41dcf&txTime=6AD38989|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.50/hls/L111AAQQQQ.m3u8",
-          "raw_link": "http://193.47.62.50/hls/L111AAQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 3
-    },
-    {
-      "title": "Swansea City vs West Ham United",
-      "sport": "Football",
-      "sub_category": "Championship",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "swansea-city-vs-west-ham-united",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 10:20:00 PM",
-        "raw_start_utc": "2026/10/17 14:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Swansea City",
-          "flag": "https://img.sofascore.com/api/v1/team/74/image"
-        },
-        "team_b": {
-          "name": "West Ham United",
-          "flag": "https://img.sofascore.com/api/v1/team/37/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/sd-1-4563634.m3u8?txSecret=93f223d61ef29167529e9bb413314759&txTime=6AD389A4",
-          "raw_link": "https://live.vivo155.com/live/sd-1-4563634.m3u8?txSecret=93f223d61ef29167529e9bb413314759&txTime=6AD389A4|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.41/hls/BIIIAAAAAAQ.m3u8",
-          "raw_link": "http://193.47.62.41/hls/BIIIAAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 2
-    },
-    {
-      "title": "Wrexham vs Preston North End",
-      "sport": "Football",
-      "sub_category": "Championship",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "wrexham-vs-preston-north-end",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 10:20:00 PM",
-        "raw_start_utc": "2026/10/17 14:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Wrexham",
-          "flag": "https://img.sofascore.com/api/v1/team/64/image"
-        },
-        "team_b": {
-          "name": "Preston North End",
-          "flag": "https://img.sofascore.com/api/v1/team/21/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/sd-1-4563635.m3u8?txSecret=26e8fbc7bb2788bb2c37ac1df6298b09&txTime=6AD389C1",
-          "raw_link": "https://live.vivo155.com/live/sd-1-4563635.m3u8?txSecret=26e8fbc7bb2788bb2c37ac1df6298b09&txTime=6AD389C1|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.59/hls/N777AAAAAAQ.m3u8",
-          "raw_link": "http://193.47.62.59/hls/N777AAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 2
-    },
-    {
-      "title": "West Bromwich Albion vs Blackburn Rovers",
-      "sport": "Football",
-      "sub_category": "Championship",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "west-bromwich-albion-vs-blackburn-rovers",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 10:20:00 PM",
-        "raw_start_utc": "2026/10/17 14:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "West Bromwich Albion",
-          "flag": "https://img.sofascore.com/api/v1/team/8/image"
-        },
-        "team_b": {
-          "name": "Blackburn Rovers",
-          "flag": "https://img.sofascore.com/api/v1/team/46/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "channels": [
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.44/hls/H111AAAAQQQ.m3u8",
-          "raw_link": "http://193.47.62.44/hls/H111AAAAQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
       "title": "ADO Den Haag vs PSV Eindhoven",
       "sport": "Football",
       "sub_category": "VriendenLoterij Eredivisie",
@@ -1454,9 +800,41 @@
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
           },
           "drm_key": "335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281"
+        },
+        {
+          "channel_name": "SporTV BR - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+        },
+        {
+          "channel_name": "USA NETWORK HD",
+          "stream_type": "HLS",
+          "url": "https://chatgpt.hereisman.net/playlist/58155/load-playlist?",
+          "raw_link": "https://chatgpt.hereisman.net/playlist/58155/load-playlist?|Referer=https://gooz.aapmains.net",
+          "headers": {
+            "Referer": "https://gooz.aapmains.net"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.59/hls/LIIIQQQQAAAAAAAA.m3u8",
+          "raw_link": "http://193.47.62.59/hls/LIIIQQQQAAAAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
         }
       ],
-      "total_channels": 1
+      "total_channels": 4
     },
     {
       "title": "Newcastle United vs Aston Villa",
@@ -1492,9 +870,31 @@
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
           },
           "drm_key": "36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e"
+        },
+        {
+          "channel_name": "NBC SPORTS HD",
+          "stream_type": "HLS",
+          "url": "https://chatgpt.hereisman.net/playlist/58156/load-playlist?",
+          "raw_link": "https://chatgpt.hereisman.net/playlist/58156/load-playlist?|Referer=https://gooz.aapmains.net",
+          "headers": {
+            "Referer": "https://gooz.aapmains.net"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.41/hls/TKKKQ.m3u8",
+          "raw_link": "http://193.47.62.41/hls/TKKKQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
         }
       ],
-      "total_channels": 1
+      "total_channels": 3
     },
     {
       "title": "AS Roma vs Genoa",
@@ -1549,7 +949,7 @@
       "sport": "Football",
       "sub_category": "LaLiga",
       "status": "Upcoming",
-      "is_hot": false,
+      "is_hot": true,
       "slug": "real-betis-vs-fc-barcelona",
       "schedule": {
         "timezone": "BST (UTC+6)",
@@ -1608,9 +1008,21 @@
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
           },
           "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.41/hls/TKKK.m3u8",
+          "raw_link": "http://193.47.62.41/hls/TKKK.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
         }
       ],
-      "total_channels": 4
+      "total_channels": 5
     },
     {
       "title": "Valencia vs Athletic Club",
@@ -1938,11 +1350,15 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "channels": [
         {
-          "channel_name": "CRICFy LIVE",
+          "channel_name": "LOW SERVER",
           "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
+          "url": "http://193.47.62.55/hls/FUUUQQQ.m3u8",
+          "raw_link": "http://193.47.62.55/hls/FUUUQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
           "drm_key": null
         }
       ],
@@ -2299,8 +1715,68 @@
         }
       },
       "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiy9chJNhw1XEU4gM-u6aLV0OGAHC38TO344gN3HFWqeOk5068zqJsQOYTyud9BoDV44JPX0pT2Jr7iVFa-IHUrB80G5N76Q_jUG9qiKNF5Wehb0-DqS6tQ46OpeQFfPfq_K-6icHx6-EZxHj-9cTG5WaqhPNQcqeIOba-XGnMg7ybLyKfEIkFUH5iUg8/s1600/1000009835.png",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "TNT SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+        },
+        {
+          "channel_name": "FANCODE - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "headers": {},
+          "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+        },
+        {
+          "channel_name": "MotoGP - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de"
+        },
+        {
+          "channel_name": "HD SERVER",
+          "stream_type": "HLS",
+          "url": "https://edgestream2.pro/hls/oeenzgezcz47.m3u8",
+          "raw_link": "https://edgestream2.pro/hls/oeenzgezcz47.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "SPOTV - AQ",
+          "stream_type": "DASH",
+          "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
+          "raw_link": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
+          "headers": {},
+          "drm_key": "7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed"
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.41/hls/duuuAAAAAA.m3u8?",
+          "raw_link": "http://193.47.62.41/hls/duuuAAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "headers": {
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc/"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 6
     },
     {
       "title": "Smack Down",
@@ -2326,8 +1802,38 @@
         }
       },
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?",
+          "raw_link": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?|Referer=https://gooz.aapmains.net",
+          "headers": {
+            "Referer": "https://gooz.aapmains.net"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "WWE LIVE - AQ",
+          "stream_type": "HLS",
+          "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
+          "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "SD SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.41/hls/UIIIAAA.m3u8?",
+          "raw_link": "http://193.47.62.41/hls/UIIIAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "headers": {
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc/"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 3
     },
     {
       "title": "WWE Raw",
@@ -2353,8 +1859,49 @@
         }
       },
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://chatgpt.hereisman.net/playlist/54800/load-playlist?",
+          "raw_link": "https://chatgpt.hereisman.net/playlist/54800/load-playlist?|Referer=https://gooz.aapmains.net",
+          "headers": {
+            "Referer": "https://gooz.aapmains.net"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "HD SERVER",
+          "stream_type": "HLS",
+          "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
+          "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "CRICFy HD",
+          "stream_type": "HLS",
+          "url": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?",
+          "raw_link": "https://edgestream2.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "headers": {
+            "Referer": "https://streamscenter.online/",
+            "Origin": "https://streamscenter.online"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "SD SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.59/hls/K999QQ.m3u8?",
+          "raw_link": "http://193.47.62.59/hls/K999QQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "headers": {
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc/"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 4
     },
     {
       "title": "South Africa vs Australia",
@@ -2380,8 +1927,79 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "WILLOW - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/znvp8tdked/out/v1/efa526b4c846488188d9acd6f781caa5/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/znvp8tdked/out/v1/efa526b4c846488188d9acd6f781caa5/cenc.mpd",
+          "headers": {},
+          "drm_key": "7578716f99caa689b9a4d2bdce753651:24d34e5d771ed71f519c8f8e971c3bd8"
+        },
+        {
+          "channel_name": "FANCODE - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+        },
+        {
+          "channel_name": "SKY CRICKET - AQ",
+          "stream_type": "HLS",
+          "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+          "raw_link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+          "headers": {
+            "user-agent": "Mozilla"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "WILLOW - ALT",
+          "stream_type": "DASH",
+          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/znvp8tdked/out/v1/efa526b4c846488188d9acd6f781caa5/cenc.mpd",
+          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/znvp8tdked/out/v1/efa526b4c846488188d9acd6f781caa5/cenc.mpd",
+          "headers": {},
+          "drm_key": "7578716f99caa689b9a4d2bdce753651:24d34e5d771ed71f519c8f8e971c3bd8"
+        },
+        {
+          "channel_name": "TAPMAD - AQ",
+          "stream_type": "HLS",
+          "url": "https://saseries.akamaized.net/hls/live/2110097/28593jkiL-tapmad/master.m3u8",
+          "raw_link": "https://saseries.akamaized.net/hls/live/2110097/28593jkiL-tapmad/master.m3u8|referer=https://tapmad.com/",
+          "headers": {
+            "referer": "https://tapmad.com/"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "FOX CRICKET HD",
+          "stream_type": "HLS",
+          "url": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
+          "raw_link": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "A SPORTS HD",
+          "stream_type": "HLS",
+          "url": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
+          "raw_link": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "WILLOW HD",
+          "stream_type": "HLS",
+          "url": "http://mag.tivi-one-iptv.net/play/live.php?mac=00:1A:79:F5:CC:FD&stream=809386&extension=m3u8",
+          "raw_link": "http://mag.tivi-one-iptv.net/play/live.php?mac=00:1A:79:F5:CC:FD&stream=809386&extension=m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 8
     },
     {
       "title": "WCL World Championship of Legends",
@@ -2407,8 +2025,60 @@
         }
       },
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZ0c8Wb0slhQCjc_XsPzMuqyX52rG-yapyEgJpdSmSQ&s=10",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "WILLOW - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
+          "headers": {},
+          "drm_key": "5a0e73fa4a0c0573476bf83d0e677b37:dcddd039f451b85d8463a35624e42aaf"
+        },
+        {
+          "channel_name": "FANCODE - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "headers": {},
+          "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+        },
+        {
+          "channel_name": "STARZPLAY - AQ",
+          "stream_type": "DASH",
+          "url": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
+          "raw_link": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
+          "headers": {},
+          "drm_key": "0ae4f162eec3e6f2b580a5bf0f4a64d4:03483335db81cba5bbcf51b6d31196d9"
+        },
+        {
+          "channel_name": "WILLOW - ALT",
+          "stream_type": "DASH",
+          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
+          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
+          "headers": {},
+          "drm_key": "5a0e73fa4a0c0573476bf83d0e677b37:dcddd039f451b85d8463a35624e42aaf"
+        },
+        {
+          "channel_name": "WILLOW HD",
+          "stream_type": "HLS",
+          "url": "https://df3xownvf1f4t.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/willow_tv/playlist.m3u8",
+          "raw_link": "https://df3xownvf1f4t.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/willow_tv/playlist.m3u8",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "FANCODE - IN",
+          "stream_type": "HLS",
+          "url": "https://dai-fancode.pages.dev/mumbai/4249229_english_hls_dd4592751127063_1ta-di_h264/index.m3u8",
+          "raw_link": "https://dai-fancode.pages.dev/mumbai/4249229_english_hls_dd4592751127063_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+          "headers": {
+            "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+            "Referer": "https://fancode.com/"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 6
     },
     {
       "title": "Pakistan vs Sri Lanka",
@@ -2434,8 +2104,53 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "WILLOW - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1izizyimsv/out/v1/8e83c58952df4181b17e46dd1253d66e/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1izizyimsv/out/v1/8e83c58952df4181b17e46dd1253d66e/cenc.mpd",
+          "headers": {},
+          "drm_key": "ede638607823805e7767784e4558292b:91fccc57c058218c2a22fa21f378a1af"
+        },
+        {
+          "channel_name": "WILLOW - ALT",
+          "stream_type": "DASH",
+          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vtnaoi93r1/out/v1/d9590bf213cb4df3b5ef8ae5aaf25d0a/cenc.mpd",
+          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vtnaoi93r1/out/v1/d9590bf213cb4df3b5ef8ae5aaf25d0a/cenc.mpd",
+          "headers": {},
+          "drm_key": "ede638607823805e7767784e4558292b:91fccc57c058218c2a22fa21f378a1af"
+        },
+        {
+          "channel_name": "TAPMAD - AQ",
+          "stream_type": "HLS",
+          "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/ucl-2tap259/master.m3u8",
+          "raw_link": "https://premierleagpl23.akamaized.net/hls/live/2107108/ucl-2tap259/master.m3u8|referer=https://tapmad.com/",
+          "headers": {
+            "referer": "https://tapmad.com/"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "TAMASHA - AQ",
+          "stream_type": "HLS",
+          "url": "https://gcpcdn2.tamashaweb.com/live/main.m3u8?timeshift=1",
+          "raw_link": "https://gcpcdn2.tamashaweb.com/live/main.m3u8?timeshift=1",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.41/hls/krrr.m3u8",
+          "raw_link": "http://193.47.62.41/hls/krrr.m3u8|referer=http://www.fawanews.sc/",
+          "headers": {
+            "referer": "http://www.fawanews.sc/"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 5
     },
     {
       "title": "India Women vs Zimbabwe Women",
@@ -2461,8 +2176,111 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "WILLOW - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oazcbevnl7/out/v1/bda05b242720469ca9fb9fabbde64cc2/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oazcbevnl7/out/v1/bda05b242720469ca9fb9fabbde64cc2/cenc.mpd",
+          "headers": {},
+          "drm_key": "bfeaf0c7782327ca574f32b1629080b6:c03b21556a4cf97130228258de3fe45d"
+        },
+        {
+          "channel_name": "TNT SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+          "headers": {},
+          "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+        },
+        {
+          "channel_name": "WILLOW - ALT",
+          "stream_type": "DASH",
+          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oazcbevnl7/out/v1/bda05b242720469ca9fb9fabbde64cc2/cenc.mpd",
+          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oazcbevnl7/out/v1/bda05b242720469ca9fb9fabbde64cc2/cenc.mpd",
+          "headers": {},
+          "drm_key": "bfeaf0c7782327ca574f32b1629080b6:c03b21556a4cf97130228258de3fe45d"
+        },
+        {
+          "channel_name": "WILLOW HD",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+          "headers": {},
+          "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+        },
+        {
+          "channel_name": "HOTSTAR ENG - IN",
+          "stream_type": "HLS",
+          "url": "https://livetv.hotstar.com/mp1/gec-india-1540068247/9a6e7c30f9194cc1a6a6250cedb115fb/index.mpd?",
+          "raw_link": "https://livetv.hotstar.com/mp1/gec-india-1540068247/9a6e7c30f9194cc1a6a6250cedb115fb/index.mpd?|cookie=hdntl=exp=1792177960~acl=%2f*~id=fda09ca3277ee6e61131f47f7f2628fd~data=hdntl~hmac=6c4850d14e3f7375f98b13608c4269f0806ebace7f1186ad44a2995aca7e69a2&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=e85897bf6e594d698b7c82646c8e0000:d2dda31234ae40538843e871cd4dcc2a",
+          "headers": {
+            "cookie": "hdntl",
+            "referer": "https://www.hotstar.com/",
+            "origin": "https://www.hotstar.com",
+            "drmScheme": "clearkey",
+            "drmLicense": "e85897bf6e594d698b7c82646c8e0000:d2dda31234ae40538843e871cd4dcc2a"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "HOTSTAR HIN - IN",
+          "stream_type": "HLS",
+          "url": "https://livetv.hotstar.com/mp1/gec-india-1540068295/5a4eb3ac6e424eef8a30962d2232f80f/index.mpd?",
+          "raw_link": "https://livetv.hotstar.com/mp1/gec-india-1540068295/5a4eb3ac6e424eef8a30962d2232f80f/index.mpd?|cookie=hdntl=exp=1792177960~acl=%2f*~id=fda09ca3277ee6e61131f47f7f2628fd~data=hdntl~hmac=6c4850d14e3f7375f98b13608c4269f0806ebace7f1186ad44a2995aca7e69a2&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=b9f1cb8a1361457bbd8097f8c2590000:1960274b7ba344cb899eba2e80916774",
+          "headers": {
+            "cookie": "hdntl",
+            "referer": "https://www.hotstar.com/",
+            "origin": "https://www.hotstar.com",
+            "drmScheme": "clearkey",
+            "drmLicense": "b9f1cb8a1361457bbd8097f8c2590000:1960274b7ba344cb899eba2e80916774"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "HOTSTAR TEL - IN",
+          "stream_type": "HLS",
+          "url": "https://livetv.hotstar.com/mp2/gec-india-1540068280/e8c0ed405e544793a1f827c477839581/index.mpd?",
+          "raw_link": "https://livetv.hotstar.com/mp2/gec-india-1540068280/e8c0ed405e544793a1f827c477839581/index.mpd?|cookie=hdntl=exp=1792177960~acl=%2f*~id=fda09ca3277ee6e61131f47f7f2628fd~data=hdntl~hmac=6c4850d14e3f7375f98b13608c4269f0806ebace7f1186ad44a2995aca7e69a2&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=4634b32328f242e3be51c3e06cde0000:42e90ab215bf4a438b55851b5e0f50dc",
+          "headers": {
+            "cookie": "hdntl",
+            "referer": "https://www.hotstar.com/",
+            "origin": "https://www.hotstar.com",
+            "drmScheme": "clearkey",
+            "drmLicense": "4634b32328f242e3be51c3e06cde0000:42e90ab215bf4a438b55851b5e0f50dc"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "HOTSTAR TAM - IN",
+          "stream_type": "HLS",
+          "url": "https://livetv.hotstar.com/mp2/gec-india-1540068334/3468fd902b12418598cabe63585e7efe/index.mpd?",
+          "raw_link": "https://livetv.hotstar.com/mp2/gec-india-1540068334/3468fd902b12418598cabe63585e7efe/index.mpd?|cookie=hdntl=exp=1792177960~acl=%2f*~id=fda09ca3277ee6e61131f47f7f2628fd~data=hdntl~hmac=6c4850d14e3f7375f98b13608c4269f0806ebace7f1186ad44a2995aca7e69a2&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=01cc63d414394296bb3e6cfaffee0000:c1fba587fc8b4218ade5ace1e62e5aaf",
+          "headers": {
+            "cookie": "hdntl",
+            "referer": "https://www.hotstar.com/",
+            "origin": "https://www.hotstar.com",
+            "drmScheme": "clearkey",
+            "drmLicense": "01cc63d414394296bb3e6cfaffee0000:c1fba587fc8b4218ade5ace1e62e5aaf"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "HOTSTAR KAN - IN",
+          "stream_type": "HLS",
+          "url": "https://livetv.hotstar.com/mp1/gec-india-1540068322/6409ab04235d4a0886656913f360c0a7/index.mpd?",
+          "raw_link": "https://livetv.hotstar.com/mp1/gec-india-1540068322/6409ab04235d4a0886656913f360c0a7/index.mpd?|cookie=hdntl=exp=1792177960~acl=%2f*~id=fda09ca3277ee6e61131f47f7f2628fd~data=hdntl~hmac=6c4850d14e3f7375f98b13608c4269f0806ebace7f1186ad44a2995aca7e69a2&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=eb2f9710abf44bb1bcf51400ccc00000:5f29f372823346e78934431f2a924065",
+          "headers": {
+            "cookie": "hdntl",
+            "referer": "https://www.hotstar.com/",
+            "origin": "https://www.hotstar.com",
+            "drmScheme": "clearkey",
+            "drmLicense": "eb2f9710abf44bb1bcf51400ccc00000:5f29f372823346e78934431f2a924065"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 9
     },
     {
       "title": "Australia Women vs New Zealand Women",
@@ -2488,8 +2306,17 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
     },
     {
       "title": "Afghanistan vs Zimbabwe",
@@ -2515,8 +2342,17 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
     }
   ]
 }
