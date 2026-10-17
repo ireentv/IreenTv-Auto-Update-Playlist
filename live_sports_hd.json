@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 71,
+  "channels_amount": 72,
   "live_count": 4,
-  "last_update": "10:05 AM 17-10-2026 BST",
+  "last_update": "10:16 AM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -2356,6 +2356,33 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Cleveland Guardians vs Tampa Bay Rays",
+      "sport": "Baseball",
+      "sub_category": "MLB",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "cleveland-guardians-vs-tampa-bay-rays",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 06:00:00 AM",
+        "end_time_bst": "Oct 18, 2026, 09:00:00 AM",
+        "raw_start_utc": "2026/10/18 00:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Cleveland Guardians",
+          "flag": "https://img.sofascore.com/api/v1/team/3650/image"
+        },
+        "team_b": {
+          "name": "Tampa Bay Rays",
+          "flag": "https://img.sofascore.com/api/v1/team/3653/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
       "channels": [],
       "total_channels": 0
     },
