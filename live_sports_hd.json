@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 72,
-  "live_count": 4,
-  "last_update": "10:16 AM 17-10-2026 BST",
+  "live_count": 2,
+  "last_update": "10:31 AM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,120 +19,6 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
-    },
-    {
-      "title": "Golden State Warriors vs Portland Trail Blazers",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "golden-state-warriors-vs-portland-trail-blazers",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:00:00 AM",
-        "end_time_bst": "Oct 17, 2026, 10:30:00 AM",
-        "raw_start_utc": "2026/10/17 02:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Golden State Warriors",
-          "flag": "https://img.sofascore.com/api/v1/team/3428/image"
-        },
-        "team_b": {
-          "name": "Portland Trail Blazers",
-          "flag": "https://img.sofascore.com/api/v1/team/3414/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "channels": [
-        {
-          "channel_name": "HD QUALITY",
-          "stream_type": "HLS",
-          "url": "https://edgestream5.pro/hls/yjtzafghvjza74.m3u8",
-          "raw_link": "https://edgestream5.pro/hls/yjtzafghvjza74.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Phoenix Suns vs Utah Jazz",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "phoenix-suns-vs-utah-jazz",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:00:00 AM",
-        "end_time_bst": "Oct 17, 2026, 10:30:00 AM",
-        "raw_start_utc": "2026/10/17 02:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Phoenix Suns",
-          "flag": "https://img.sofascore.com/api/v1/team/3416/image"
-        },
-        "team_b": {
-          "name": "Utah Jazz",
-          "flag": "https://img.sofascore.com/api/v1/team/3434/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://chatgpt.hereisman.net/playlist/58123/load-playlist?",
-          "raw_link": "https://chatgpt.hereisman.net/playlist/58123/load-playlist?|Referer=https://gooz.aapmains.net",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "CRICFy NBA",
-          "stream_type": "HLS",
-          "url": "https://www.rtmpcdn.com/live/31302b57-682e-4a48-be5e-131924b8294d.m3u8",
-          "raw_link": "https://www.rtmpcdn.com/live/31302b57-682e-4a48-be5e-131924b8294d.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "HD QUALITY",
-          "stream_type": "HLS",
-          "url": "https://edgestream1.pro/hls/sqhdghzavbxu75.m3u8",
-          "raw_link": "https://edgestream1.pro/hls/sqhdghzavbxu75.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW QUALITY",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.55/hls/55GGGAQQ.m3u8",
-          "raw_link": "http://193.47.62.55/hls/55GGGAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 4
     },
     {
       "title": "Los Angeles Lakers vs Denver Nuggets",
@@ -533,6 +419,42 @@
       "total_channels": 1
     },
     {
+      "title": "FC Bayern Munchen vs RB Leipzig",
+      "sport": "Football",
+      "sub_category": "Bundesliga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "fc-bayern-munchen-vs-rb-leipzig",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 10:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 12:50:00 AM",
+        "raw_start_utc": "2026/10/17 16:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "FC Bayern München",
+          "flag": "https://img.sofascore.com/api/v1/team/2672/image"
+        },
+        "team_b": {
+          "name": "RB Leipzig",
+          "flag": "https://img.sofascore.com/api/v1/team/36360/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
       "title": "Everton vs Chelsea",
       "sport": "Football",
       "sub_category": "Premier League",
@@ -677,6 +599,42 @@
       "total_channels": 1
     },
     {
+      "title": "Newcastle United vs Aston Villa",
+      "sport": "Football",
+      "sub_category": "Premier League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "newcastle-united-vs-aston-villa",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 10:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 12:50:00 AM",
+        "raw_start_utc": "2026/10/17 16:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Newcastle United",
+          "flag": "https://img.sofascore.com/api/v1/team/39/image"
+        },
+        "team_b": {
+          "name": "Aston Villa",
+          "flag": "https://img.sofascore.com/api/v1/team/40/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
       "title": "Venezia vs SSC Napoli",
       "sport": "Football",
       "sub_category": "Serie A",
@@ -805,6 +763,42 @@
         "team_b": {
           "name": "Elche",
           "flag": "https://img.sofascore.com/api/v1/team/2846/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Real Betis vs FC Barcelona",
+      "sport": "Football",
+      "sub_category": "LaLiga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "real-betis-vs-fc-barcelona",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 10:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 12:50:00 AM",
+        "raw_start_utc": "2026/10/17 16:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Real Betis",
+          "flag": "https://img.sofascore.com/api/v1/team/2816/image"
+        },
+        "team_b": {
+          "name": "FC Barcelona",
+          "flag": "https://img.sofascore.com/api/v1/team/2817/image"
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
@@ -1505,6 +1499,42 @@
       "total_channels": 1
     },
     {
+      "title": "Sporting Gijon vs Albacete Balompie",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "sporting-gijon-vs-albacete-balompie",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 10:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 12:50:00 AM",
+        "raw_start_utc": "2026/10/17 16:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Sporting Gijón",
+          "flag": "https://img.sofascore.com/api/v1/team/2852/image"
+        },
+        "team_b": {
+          "name": "Albacete Balompié",
+          "flag": "https://img.sofascore.com/api/v1/team/2848/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
       "title": "Genclerbirligi vs Galatasaray",
       "sport": "Football",
       "sub_category": "Trendyol Süper Lig",
@@ -1528,17 +1558,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Fenerbahce vs Alanyaspor",
@@ -1564,17 +1585,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Amed Sportif Faaliyetler vs Konyaspor",
@@ -1901,60 +1913,6 @@
       "total_channels": 0
     },
     {
-      "title": "FC Bayern Munchen vs RB Leipzig",
-      "sport": "Football",
-      "sub_category": "Bundesliga",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "fc-bayern-munchen-vs-rb-leipzig",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 10:30:00 PM",
-        "end_time_bst": "Oct 18, 2026, 12:50:00 AM",
-        "raw_start_utc": "2026/10/17 16:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "FC Bayern München",
-          "flag": "https://img.sofascore.com/api/v1/team/2672/image"
-        },
-        "team_b": {
-          "name": "RB Leipzig",
-          "flag": "https://img.sofascore.com/api/v1/team/36360/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Newcastle United vs Aston Villa",
-      "sport": "Football",
-      "sub_category": "Premier League",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "newcastle-united-vs-aston-villa",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 10:30:00 PM",
-        "end_time_bst": "Oct 18, 2026, 12:50:00 AM",
-        "raw_start_utc": "2026/10/17 16:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Newcastle United",
-          "flag": "https://img.sofascore.com/api/v1/team/39/image"
-        },
-        "team_b": {
-          "name": "Aston Villa",
-          "flag": "https://img.sofascore.com/api/v1/team/40/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
       "title": "AS Roma vs Genoa",
       "sport": "Football",
       "sub_category": "Serie A",
@@ -1978,33 +1936,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Real Betis vs FC Barcelona",
-      "sport": "Football",
-      "sub_category": "LaLiga",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "real-betis-vs-fc-barcelona",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 10:30:00 PM",
-        "end_time_bst": "Oct 18, 2026, 12:50:00 AM",
-        "raw_start_utc": "2026/10/17 16:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Real Betis",
-          "flag": "https://img.sofascore.com/api/v1/team/2816/image"
-        },
-        "team_b": {
-          "name": "FC Barcelona",
-          "flag": "https://img.sofascore.com/api/v1/team/2817/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
       "channels": [],
       "total_channels": 0
     },
@@ -2225,33 +2156,6 @@
       "total_channels": 0
     },
     {
-      "title": "Sporting Gijon vs Albacete Balompie",
-      "sport": "Football",
-      "sub_category": "LaLiga 2",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "sporting-gijon-vs-albacete-balompie",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 10:30:00 PM",
-        "end_time_bst": "Oct 18, 2026, 12:50:00 AM",
-        "raw_start_utc": "2026/10/17 16:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Sporting Gijón",
-          "flag": "https://img.sofascore.com/api/v1/team/2852/image"
-        },
-        "team_b": {
-          "name": "Albacete Balompié",
-          "flag": "https://img.sofascore.com/api/v1/team/2848/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
       "title": "Botafogo vs Chapecoense",
       "sport": "Football",
       "sub_category": "Campeonato Brasileiro Série A",
@@ -2407,6 +2311,60 @@
         "team_b": {
           "name": "Sacramento Kings",
           "flag": "https://img.sofascore.com/api/v1/team/3413/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Golden State Warriors vs Portland Trail Blazers",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "golden-state-warriors-vs-portland-trail-blazers",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 08:00:00 AM",
+        "end_time_bst": "Oct 17, 2026, 10:30:00 AM",
+        "raw_start_utc": "2026/10/17 02:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Golden State Warriors",
+          "flag": "https://img.sofascore.com/api/v1/team/3428/image"
+        },
+        "team_b": {
+          "name": "Portland Trail Blazers",
+          "flag": "https://img.sofascore.com/api/v1/team/3414/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Phoenix Suns vs Utah Jazz",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "phoenix-suns-vs-utah-jazz",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 08:00:00 AM",
+        "end_time_bst": "Oct 17, 2026, 10:30:00 AM",
+        "raw_start_utc": "2026/10/17 02:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Phoenix Suns",
+          "flag": "https://img.sofascore.com/api/v1/team/3416/image"
+        },
+        "team_b": {
+          "name": "Utah Jazz",
+          "flag": "https://img.sofascore.com/api/v1/team/3434/image"
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
