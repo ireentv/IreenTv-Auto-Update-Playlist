@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 50,
-  "live_count": 19,
-  "last_update": "09:46 PM 17-10-2026 BST",
+  "live_count": 21,
+  "last_update": "10:01 PM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -460,6 +460,106 @@
         }
       ],
       "total_channels": 6
+    },
+    {
+      "title": "Bologna vs Inter",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "bologna-vs-inter",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 10:00:00 PM",
+        "end_time_bst": "Oct 18, 2026, 12:20:00 AM",
+        "raw_start_utc": "2026/10/17 16:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Bologna",
+          "flag": "https://img.sofascore.com/api/v1/team/2685/image"
+        },
+        "team_b": {
+          "name": "Inter",
+          "flag": "https://img.sofascore.com/api/v1/team/2697/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "channels": [
+        {
+          "channel_name": "beIN ENGLISH - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+        },
+        {
+          "channel_name": "CBS SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+        },
+        {
+          "channel_name": "PARAMOUNT+ HD",
+          "stream_type": "HLS",
+          "url": "https://chatgpt.hereisman.net/playlist/58147/load-playlist-multi?",
+          "raw_link": "https://chatgpt.hereisman.net/playlist/58147/load-playlist-multi?|Referer=https://gooz.aapmains.net",
+          "headers": {
+            "Referer": "https://gooz.aapmains.net"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/hd-en-1-4549109.m3u8?txSecret=9f5829200af96ed9c80f5e9f758e6515&txTime=6AD3AEDA",
+          "raw_link": "https://live.vivo155.com/live/hd-en-1-4549109.m3u8?txSecret=9f5829200af96ed9c80f5e9f758e6515&txTime=6AD3AEDA|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "CBS SPORTS HD",
+          "stream_type": "HLS",
+          "url": "https://sofi.dulo.cc/play/-pds9pI-P4Hph7wcPsf0eH8W_FT7qteT/TzwOC9uS5URGFJQL.m3u8",
+          "raw_link": "https://sofi.dulo.cc/play/-pds9pI-P4Hph7wcPsf0eH8W_FT7qteT/TzwOC9uS5URGFJQL.m3u8",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "HD SERVER",
+          "stream_type": "HLS",
+          "url": "https://www.rtmpcdn.com/live/4a5452b6-326d-4212-9b6b-bd3a265c0a96.m3u8",
+          "raw_link": "https://www.rtmpcdn.com/live/4a5452b6-326d-4212-9b6b-bd3a265c0a96.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.55/hls/QQUUUQQQ.m3u8",
+          "raw_link": "http://193.47.62.55/hls/QQUUUQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 7
     },
     {
       "title": "Villarreal vs Elche",
@@ -1175,6 +1275,56 @@
       "total_channels": 2
     },
     {
+      "title": "Fenerbahce vs Alanyaspor",
+      "sport": "Football",
+      "sub_category": "Trendyol Süper Lig",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "fenerbahce-vs-alanyaspor",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 10:00:00 PM",
+        "end_time_bst": "Oct 18, 2026, 12:20:00 AM",
+        "raw_start_utc": "2026/10/17 16:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Fenerbahçe",
+          "flag": "https://img.sofascore.com/api/v1/team/3052/image"
+        },
+        "team_b": {
+          "name": "Alanyaspor",
+          "flag": "https://img.sofascore.com/api/v1/team/6362/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/sd-1-4581336.m3u8?txSecret=7647c7bc7879e4412eb8f73cc287962a&txTime=6AD3AF00",
+          "raw_link": "https://live.vivo155.com/live/sd-1-4581336.m3u8?txSecret=7647c7bc7879e4412eb8f73cc287962a&txTime=6AD3AF00|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.59/hls/LIIIQQQQ.m3u8",
+          "raw_link": "http://193.47.62.59/hls/LIIIQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 2
+    },
+    {
       "title": "UFC LIVE",
       "sport": "Football",
       "sub_category": "UFC",
@@ -1345,54 +1495,6 @@
         }
       ],
       "total_channels": 1
-    },
-    {
-      "title": "Bologna vs Inter",
-      "sport": "Football",
-      "sub_category": "Serie A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "bologna-vs-inter",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 10:00:00 PM",
-        "end_time_bst": "Oct 18, 2026, 12:20:00 AM",
-        "raw_start_utc": "2026/10/17 16:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Bologna",
-          "flag": "https://img.sofascore.com/api/v1/team/2685/image"
-        },
-        "team_b": {
-          "name": "Inter",
-          "flag": "https://img.sofascore.com/api/v1/team/2697/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "channels": [
-        {
-          "channel_name": "beIN ENGLISH - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-        },
-        {
-          "channel_name": "CBS SPORTS - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-        }
-      ],
-      "total_channels": 2
     },
     {
       "title": "AS Roma vs Genoa",
@@ -1834,42 +1936,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Fenerbahce vs Alanyaspor",
-      "sport": "Football",
-      "sub_category": "Trendyol Süper Lig",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "fenerbahce-vs-alanyaspor",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 10:00:00 PM",
-        "end_time_bst": "Oct 18, 2026, 12:20:00 AM",
-        "raw_start_utc": "2026/10/17 16:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Fenerbahçe",
-          "flag": "https://img.sofascore.com/api/v1/team/3052/image"
-        },
-        "team_b": {
-          "name": "Alanyaspor",
-          "flag": "https://img.sofascore.com/api/v1/team/6362/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
       "channels": [
         {
           "channel_name": "CRICFy LIVE",
