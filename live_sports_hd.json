@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 75,
   "live_count": 4,
-  "last_update": "09:35 AM 17-10-2026 BST",
+  "last_update": "09:46 AM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -808,6 +808,42 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Neom SC vs Al-Ettifaq",
+      "sport": "Football",
+      "sub_category": "Saudi Pro League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "neom-sc-vs-al-ettifaq",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 09:40:00 PM",
+        "end_time_bst": "Oct 18, 2026, 12:00:00 AM",
+        "raw_start_utc": "2026/10/17 15:40:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Neom SC",
+          "flag": "https://img.sofascore.com/api/v1/team/530631/image"
+        },
+        "team_b": {
+          "name": "Al-Ettifaq",
+          "flag": "https://img.sofascore.com/api/v1/team/34318/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
       "channels": [
         {
           "channel_name": "CRICFy LIVE",
@@ -1671,68 +1707,8 @@
         }
       },
       "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiy9chJNhw1XEU4gM-u6aLV0OGAHC38TO344gN3HFWqeOk5068zqJsQOYTyud9BoDV44JPX0pT2Jr7iVFa-IHUrB80G5N76Q_jUG9qiKNF5Wehb0-DqS6tQ46OpeQFfPfq_K-6icHx6-EZxHj-9cTG5WaqhPNQcqeIOba-XGnMg7ybLyKfEIkFUH5iUg8/s1600/1000009835.png",
-      "channels": [
-        {
-          "channel_name": "TNT SPORTS - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-        },
-        {
-          "channel_name": "FANCODE - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-          "headers": {},
-          "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-        },
-        {
-          "channel_name": "MotoGP - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de"
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_type": "HLS",
-          "url": "https://edgestream2.pro/hls/oeenzgezcz47.m3u8",
-          "raw_link": "https://edgestream2.pro/hls/oeenzgezcz47.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "SPOTV - AQ",
-          "stream_type": "DASH",
-          "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
-          "raw_link": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
-          "headers": {},
-          "drm_key": "7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed"
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.41/hls/duuuAAAAAA.m3u8?",
-          "raw_link": "http://193.47.62.41/hls/duuuAAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
-          "headers": {
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc/"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 6
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "WWE Raw",
@@ -2163,33 +2139,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Neom SC vs Al-Ettifaq",
-      "sport": "Football",
-      "sub_category": "Saudi Pro League",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "neom-sc-vs-al-ettifaq",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 09:40:00 PM",
-        "end_time_bst": "Oct 18, 2026, 12:00:00 AM",
-        "raw_start_utc": "2026/10/17 15:40:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Neom SC",
-          "flag": "https://img.sofascore.com/api/v1/team/530631/image"
-        },
-        "team_b": {
-          "name": "Al-Ettifaq",
-          "flag": "https://img.sofascore.com/api/v1/team/34318/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
       "channels": [],
       "total_channels": 0
     },
