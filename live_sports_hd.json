@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 68,
-  "live_count": 2,
-  "last_update": "04:46 PM 17-10-2026 BST",
+  "live_count": 5,
+  "last_update": "05:01 PM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -71,6 +71,166 @@
         }
       ],
       "total_channels": 2
+    },
+    {
+      "title": "SpVgg Greuther Furth vs Eintracht Braunschweig",
+      "sport": "Football",
+      "sub_category": "2. Bundesliga",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "spvgg-greuther-furth-vs-eintracht-braunschweig",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 05:00:00 PM",
+        "end_time_bst": "Oct 17, 2026, 07:20:00 PM",
+        "raw_start_utc": "2026/10/17 11:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "SpVgg Greuther Fürth",
+          "flag": "https://img.sofascore.com/api/v1/team/2551/image"
+        },
+        "team_b": {
+          "name": "Eintracht Braunschweig",
+          "flag": "https://img.sofascore.com/api/v1/team/2557/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/sd-1-4566620.m3u8?txSecret=80f57216faeed685458eb132b5c0d7de&txTime=6AD36323",
+          "raw_link": "https://live.vivo155.com/live/sd-1-4566620.m3u8?txSecret=80f57216faeed685458eb132b5c0d7de&txTime=6AD36323|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.55/hls/8GGG.m3u8",
+          "raw_link": "http://193.47.62.55/hls/8GGG.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 2
+    },
+    {
+      "title": "1. FC Kaiserslautern vs VfL Bochum 1848",
+      "sport": "Football",
+      "sub_category": "2. Bundesliga",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "1-fc-kaiserslautern-vs-vfl-bochum-1848",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 05:00:00 PM",
+        "end_time_bst": "Oct 17, 2026, 07:20:00 PM",
+        "raw_start_utc": "2026/10/17 11:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "1. FC Kaiserslautern",
+          "flag": "https://img.sofascore.com/api/v1/team/2675/image"
+        },
+        "team_b": {
+          "name": "VfL Bochum 1848",
+          "flag": "https://img.sofascore.com/api/v1/team/2542/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/sd-1-4566558.m3u8?txSecret=faa3f262865ead6d2063d5e2bb052f8e&txTime=6AD3630F",
+          "raw_link": "https://live.vivo155.com/live/sd-1-4566558.m3u8?txSecret=faa3f262865ead6d2063d5e2bb052f8e&txTime=6AD3630F|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.55/hls/8GGGA.m3u8",
+          "raw_link": "http://193.47.62.55/hls/8GGGA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 2
+    },
+    {
+      "title": "VfL Wolfsburg vs 1. FC Heidenheim",
+      "sport": "Football",
+      "sub_category": "2. Bundesliga",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "vfl-wolfsburg-vs-1-fc-heidenheim",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 05:00:00 PM",
+        "end_time_bst": "Oct 17, 2026, 07:20:00 PM",
+        "raw_start_utc": "2026/10/17 11:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "VfL Wolfsburg",
+          "flag": "https://img.sofascore.com/api/v1/team/2524/image"
+        },
+        "team_b": {
+          "name": "1. FC Heidenheim",
+          "flag": "https://img.sofascore.com/api/v1/team/5885/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/sd-1-4566597.m3u8?txSecret=3546e6c42e9b37e7d7a6e953e1305087&txTime=6AD362E1",
+          "raw_link": "https://live.vivo155.com/live/sd-1-4566597.m3u8?txSecret=3546e6c42e9b37e7d7a6e953e1305087&txTime=6AD362E1|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "HD SERVER",
+          "stream_type": "HLS",
+          "url": "https://live.uu1pp.com/sport/202_5546223_1.m3u8?txSecret=7441199399d9e4a46f0ae908b87b266d&txTime=6AD39C7C",
+          "raw_link": "https://live.uu1pp.com/sport/202_5546223_1.m3u8?txSecret=7441199399d9e4a46f0ae908b87b266d&txTime=6AD39C7C|Referer=https://player.up909.com/",
+          "headers": {
+            "Referer": "https://player.up909.com/"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.55/hls/8GGGAA.m3u8",
+          "raw_link": "http://193.47.62.55/hls/8GGGAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 3
     },
     {
       "title": "UFC LIVE",
@@ -528,9 +688,41 @@
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
           },
           "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+        },
+        {
+          "channel_name": "USA NETWORK HD",
+          "stream_type": "HLS",
+          "url": "https://chatgpt.hereisman.net/playlist/58128/load-playlist?",
+          "raw_link": "https://chatgpt.hereisman.net/playlist/58128/load-playlist?|Referer=https://gooz.aapmains.net",
+          "headers": {
+            "Referer": "https://gooz.aapmains.net"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/hd-en-1-4558601.m3u8?txSecret=c2e70e8342b22f11891f98611eb37dfe&txTime=6AD3691C",
+          "raw_link": "https://live.vivo155.com/live/hd-en-1-4558601.m3u8?txSecret=c2e70e8342b22f11891f98611eb37dfe&txTime=6AD3691C|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.59/hls/5JJJ.m3u8",
+          "raw_link": "http://193.47.62.59/hls/5JJJ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
         }
       ],
-      "total_channels": 1
+      "total_channels": 4
     },
     {
       "title": "Brentford vs Liverpool FC",
@@ -1594,142 +1786,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "SpVgg Greuther Furth vs Eintracht Braunschweig",
-      "sport": "Football",
-      "sub_category": "2. Bundesliga",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "spvgg-greuther-furth-vs-eintracht-braunschweig",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 05:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 07:20:00 PM",
-        "raw_start_utc": "2026/10/17 11:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "SpVgg Greuther Fürth",
-          "flag": "https://img.sofascore.com/api/v1/team/2551/image"
-        },
-        "team_b": {
-          "name": "Eintracht Braunschweig",
-          "flag": "https://img.sofascore.com/api/v1/team/2557/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/sd-1-4566620.m3u8?txSecret=80f57216faeed685458eb132b5c0d7de&txTime=6AD36323",
-          "raw_link": "https://live.vivo155.com/live/sd-1-4566620.m3u8?txSecret=80f57216faeed685458eb132b5c0d7de&txTime=6AD36323|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.55/hls/8GGG.m3u8",
-          "raw_link": "http://193.47.62.55/hls/8GGG.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 2
-    },
-    {
-      "title": "1. FC Kaiserslautern vs VfL Bochum 1848",
-      "sport": "Football",
-      "sub_category": "2. Bundesliga",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "1-fc-kaiserslautern-vs-vfl-bochum-1848",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 05:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 07:20:00 PM",
-        "raw_start_utc": "2026/10/17 11:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "1. FC Kaiserslautern",
-          "flag": "https://img.sofascore.com/api/v1/team/2675/image"
-        },
-        "team_b": {
-          "name": "VfL Bochum 1848",
-          "flag": "https://img.sofascore.com/api/v1/team/2542/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/sd-1-4566558.m3u8?txSecret=faa3f262865ead6d2063d5e2bb052f8e&txTime=6AD3630F",
-          "raw_link": "https://live.vivo155.com/live/sd-1-4566558.m3u8?txSecret=faa3f262865ead6d2063d5e2bb052f8e&txTime=6AD3630F|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.55/hls/8GGGA.m3u8",
-          "raw_link": "http://193.47.62.55/hls/8GGGA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 2
-    },
-    {
-      "title": "VfL Wolfsburg vs 1. FC Heidenheim",
-      "sport": "Football",
-      "sub_category": "2. Bundesliga",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "vfl-wolfsburg-vs-1-fc-heidenheim",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 05:00:00 PM",
-        "end_time_bst": "Oct 17, 2026, 07:20:00 PM",
-        "raw_start_utc": "2026/10/17 11:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "VfL Wolfsburg",
-          "flag": "https://img.sofascore.com/api/v1/team/2524/image"
-        },
-        "team_b": {
-          "name": "1. FC Heidenheim",
-          "flag": "https://img.sofascore.com/api/v1/team/5885/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
       "channels": [],
       "total_channels": 0
     },
