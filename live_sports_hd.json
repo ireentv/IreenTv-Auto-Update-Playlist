@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 72,
-  "live_count": 2,
-  "last_update": "11:01 AM 17-10-2026 BST",
+  "live_count": 1,
+  "last_update": "11:06 AM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,80 +19,6 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
-    },
-    {
-      "title": "Los Angeles Lakers vs Denver Nuggets",
-      "sport": "Basketball",
-      "sub_category": "NBA Preseason",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "los-angeles-lakers-vs-denver-nuggets",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 08:30:00 AM",
-        "end_time_bst": "Oct 17, 2026, 11:00:00 AM",
-        "raw_start_utc": "2026/10/17 02:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Los Angeles Lakers",
-          "flag": "https://img.sofascore.com/api/v1/team/3427/image"
-        },
-        "team_b": {
-          "name": "Denver Nuggets",
-          "flag": "https://img.sofascore.com/api/v1/team/3417/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://chatgpt.hereisman.net/playlist/58126/load-playlist?",
-          "raw_link": "https://chatgpt.hereisman.net/playlist/58126/load-playlist?|Referer=https://gooz.aapmains.net",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "HD QUALITY",
-          "stream_type": "HLS",
-          "url": "https://edgestream6.pro/hls/xcsfadafgzfg76.m3u8",
-          "raw_link": "https://edgestream6.pro/hls/xcsfadafgzfg76.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "https://streame.center",
-            "Origin": "https://streame.center"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "PLAYFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://www.rtmpcdn.com/live/139626cd-4279-417b-a718-e1470c5e219d.m3u8",
-          "raw_link": "https://www.rtmpcdn.com/live/139626cd-4279-417b-a718-e1470c5e219d.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "LOW QUALITY",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.55/hls/HTTTAA.m3u8",
-          "raw_link": "http://193.47.62.55/hls/HTTTAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 4
     },
     {
       "title": "India vs West Indies",
@@ -1558,8 +1484,17 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
     },
     {
       "title": "Fenerbahce vs Alanyaspor",
@@ -2365,6 +2300,33 @@
         "team_b": {
           "name": "Utah Jazz",
           "flag": "https://img.sofascore.com/api/v1/team/3434/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Los Angeles Lakers vs Denver Nuggets",
+      "sport": "Basketball",
+      "sub_category": "NBA Preseason",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "los-angeles-lakers-vs-denver-nuggets",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 08:30:00 AM",
+        "end_time_bst": "Oct 17, 2026, 11:00:00 AM",
+        "raw_start_utc": "2026/10/17 02:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Los Angeles Lakers",
+          "flag": "https://img.sofascore.com/api/v1/team/3427/image"
+        },
+        "team_b": {
+          "name": "Denver Nuggets",
+          "flag": "https://img.sofascore.com/api/v1/team/3417/image"
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/2329/image/dark",
