@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 36,
-  "live_count": 10,
-  "last_update": "02:16 AM 18-10-2026 BST",
+  "live_count": 8,
+  "last_update": "02:31 AM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -189,42 +189,6 @@
       "total_channels": 1
     },
     {
-      "title": "Diriyah vs Al-Taawoun",
-      "sport": "Football",
-      "sub_category": "Saudi Pro League",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "diriyah-vs-al-taawoun",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 12:00:00 AM",
-        "end_time_bst": "Oct 18, 2026, 02:20:00 AM",
-        "raw_start_utc": "2026/10/17 18:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Diriyah",
-          "flag": "https://img.sofascore.com/api/v1/team/853574/image"
-        },
-        "team_b": {
-          "name": "Al-Taawoun",
-          "flag": "https://img.sofascore.com/api/v1/team/56021/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
       "title": "Hannover 96 vs FC St. Pauli",
       "sport": "Football",
       "sub_category": "2. Bundesliga",
@@ -248,42 +212,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "SC Telstar vs Feyenoord",
-      "sport": "Football",
-      "sub_category": "VriendenLoterij Eredivisie",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "sc-telstar-vs-feyenoord",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 12:00:00 AM",
-        "end_time_bst": "Oct 18, 2026, 02:20:00 AM",
-        "raw_start_utc": "2026/10/17 18:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "SC Telstar",
-          "flag": "https://img.sofascore.com/api/v1/team/2972/image"
-        },
-        "team_b": {
-          "name": "Feyenoord",
-          "flag": "https://img.sofascore.com/api/v1/team/2959/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
       "channels": [
         {
           "channel_name": "CRICFy LIVE",
@@ -1667,6 +1595,60 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Diriyah vs Al-Taawoun",
+      "sport": "Football",
+      "sub_category": "Saudi Pro League",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "diriyah-vs-al-taawoun",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 12:00:00 AM",
+        "end_time_bst": "Oct 18, 2026, 02:20:00 AM",
+        "raw_start_utc": "2026/10/17 18:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Diriyah",
+          "flag": "https://img.sofascore.com/api/v1/team/853574/image"
+        },
+        "team_b": {
+          "name": "Al-Taawoun",
+          "flag": "https://img.sofascore.com/api/v1/team/56021/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "SC Telstar vs Feyenoord",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "sc-telstar-vs-feyenoord",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 12:00:00 AM",
+        "end_time_bst": "Oct 18, 2026, 02:20:00 AM",
+        "raw_start_utc": "2026/10/17 18:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "SC Telstar",
+          "flag": "https://img.sofascore.com/api/v1/team/2972/image"
+        },
+        "team_b": {
+          "name": "Feyenoord",
+          "flag": "https://img.sofascore.com/api/v1/team/2959/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
       "channels": [],
       "total_channels": 0
     },
