@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 90,
-  "live_count": 10,
-  "last_update": "12:27 AM 18-10-2026 BST",
+  "live_count": 9,
+  "last_update": "12:30 AM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,94 +19,6 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
-    },
-    {
-      "title": "India vs West Indies",
-      "sport": "Cricket",
-      "sub_category": "Cricket",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "india-vs-west-indies",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 17, 2026, 09:00:45 PM",
-        "end_time_bst": "Oct 18, 2026, 12:30:14 AM",
-        "raw_start_utc": "2026/10/17 15:00:45 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "India",
-          "flag": "https://img.sofascore.com/api/v1/team/187765/image"
-        },
-        "team_b": {
-          "name": "West Indies",
-          "flag": "https://img.sofascore.com/api/v1/team/187760/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "channels": [
-        {
-          "channel_name": "WILLOW - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n3icgre8mf/out/v1/af3ffb719dea4937aede63586796d513/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n3icgre8mf/out/v1/af3ffb719dea4937aede63586796d513/cenc.mpd",
-          "headers": {},
-          "drm_key": "c21cda3aab763439e2f05489f9a73827:582de22865b044837d559884992caf4f"
-        },
-        {
-          "channel_name": "TNT SPORTS - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
-        },
-        {
-          "channel_name": "WILLOW - ALT",
-          "stream_type": "DASH",
-          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/n3icgre8mf/out/v1/af3ffb719dea4937aede63586796d513/cenc.mpd",
-          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/n3icgre8mf/out/v1/af3ffb719dea4937aede63586796d513/cenc.mpd",
-          "headers": {},
-          "drm_key": "c21cda3aab763439e2f05489f9a73827:582de22865b044837d559884992caf4f"
-        },
-        {
-          "channel_name": "TAPMAD - AQ",
-          "stream_type": "HLS",
-          "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
-          "raw_link": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
-          "headers": {},
-          "drm_key": null
-        },
-        {
-          "channel_name": "HOTSTAR HIN - IN",
-          "stream_type": "HLS",
-          "url": "https://livetv.hotstar.com/mp1/gec-india-1540068295/5a4eb3ac6e424eef8a30962d2232f80f/index.mpd?",
-          "raw_link": "https://livetv.hotstar.com/mp1/gec-india-1540068295/5a4eb3ac6e424eef8a30962d2232f80f/index.mpd?|Cookie=hdntl=exp=1792281608~acl=%2f*~id=843cea5f6ea8d7a1a49585da9c814dd0~data=hdntl~hmac=17ca04ad0019c203ade20eeb152b42cce440136695977df7e45d3ab4c34ea77b&User-Agent=Hotstar%3Bin.startv.hotstar%2F25.02.24.8.11169+%28Android%2F15%29&drmScheme=clearkey&drmLicense=b9f1cb8a1361457bbd8097f8c2590000:1960274b7ba344cb899eba2e80916774",
-          "headers": {
-            "Cookie": "hdntl",
-            "User-Agent": "Hotstar%3Bin.startv.hotstar%2F25.02.24.8.11169+%28Android%2F15%29",
-            "drmScheme": "clearkey",
-            "drmLicense": "b9f1cb8a1361457bbd8097f8c2590000:1960274b7ba344cb899eba2e80916774"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "HOTSTAR ENG - IN",
-          "stream_type": "HLS",
-          "url": "https://livetv.hotstar.com/mp1/gec-india-1540068247/9a6e7c30f9194cc1a6a6250cedb115fb/index.mpd?",
-          "raw_link": "https://livetv.hotstar.com/mp1/gec-india-1540068247/9a6e7c30f9194cc1a6a6250cedb115fb/index.mpd?|Cookie=hdntl=exp=1792281608~acl=%2f*~id=843cea5f6ea8d7a1a49585da9c814dd0~data=hdntl~hmac=17ca04ad0019c203ade20eeb152b42cce440136695977df7e45d3ab4c34ea77b&User-Agent=Hotstar%3Bin.startv.hotstar%2F25.02.24.8.11169+%28Android%2F15%29&drmScheme=clearkey&drmLicense=e85897bf6e594d698b7c82646c8e0000:d2dda31234ae40538843e871cd4dcc2a",
-          "headers": {
-            "Cookie": "hdntl",
-            "User-Agent": "Hotstar%3Bin.startv.hotstar%2F25.02.24.8.11169+%28Android%2F15%29",
-            "drmScheme": "clearkey",
-            "drmLicense": "e85897bf6e594d698b7c82646c8e0000:d2dda31234ae40538843e871cd4dcc2a"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 6
     },
     {
       "title": "Bangladesh vs Zimbabwe",
@@ -2123,8 +2035,79 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "WILLOW - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/znvp8tdked/out/v1/efa526b4c846488188d9acd6f781caa5/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/znvp8tdked/out/v1/efa526b4c846488188d9acd6f781caa5/cenc.mpd",
+          "headers": {},
+          "drm_key": "7578716f99caa689b9a4d2bdce753651:24d34e5d771ed71f519c8f8e971c3bd8"
+        },
+        {
+          "channel_name": "FANCODE - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+        },
+        {
+          "channel_name": "SKY CRICKET - AQ",
+          "stream_type": "HLS",
+          "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+          "raw_link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+          "headers": {
+            "user-agent": "Mozilla"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "WILLOW - ALT",
+          "stream_type": "DASH",
+          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/znvp8tdked/out/v1/efa526b4c846488188d9acd6f781caa5/cenc.mpd",
+          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/znvp8tdked/out/v1/efa526b4c846488188d9acd6f781caa5/cenc.mpd",
+          "headers": {},
+          "drm_key": "7578716f99caa689b9a4d2bdce753651:24d34e5d771ed71f519c8f8e971c3bd8"
+        },
+        {
+          "channel_name": "TAPMAD - AQ",
+          "stream_type": "HLS",
+          "url": "https://saseries.akamaized.net/hls/live/2110097/28593jkiL-tapmad/master.m3u8",
+          "raw_link": "https://saseries.akamaized.net/hls/live/2110097/28593jkiL-tapmad/master.m3u8|referer=https://tapmad.com/",
+          "headers": {
+            "referer": "https://tapmad.com/"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "FOX CRICKET HD",
+          "stream_type": "HLS",
+          "url": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
+          "raw_link": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "A SPORTS HD",
+          "stream_type": "HLS",
+          "url": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
+          "raw_link": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "WILLOW HD",
+          "stream_type": "HLS",
+          "url": "http://mag.tivi-one-iptv.net/play/live.php?mac=00:1A:79:F5:CC:FD&stream=809386&extension=m3u8",
+          "raw_link": "http://mag.tivi-one-iptv.net/play/live.php?mac=00:1A:79:F5:CC:FD&stream=809386&extension=m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 8
     },
     {
       "title": "WILLOW - AQ",
@@ -3149,6 +3132,33 @@
         }
       },
       "logo": null,
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "India vs West Indies",
+      "sport": "Cricket",
+      "sub_category": "Cricket",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "india-vs-west-indies",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 17, 2026, 09:00:45 PM",
+        "end_time_bst": "Oct 18, 2026, 12:30:14 AM",
+        "raw_start_utc": "2026/10/17 15:00:45 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "India",
+          "flag": "https://img.sofascore.com/api/v1/team/187765/image"
+        },
+        "team_b": {
+          "name": "West Indies",
+          "flag": "https://img.sofascore.com/api/v1/team/187760/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
       "channels": [],
       "total_channels": 0
     },
