@@ -4,12 +4,14 @@
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
 # Channels Amount: 72
-# Live Count     : 1
-# Last Update    : 11:16 AM 17-10-2026 BST
+# Live Count     : 2
+# Last Update    : 11:31 AM 17-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
 
+#EXTINF:-1 tvg-name="Canada vs Nepal" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/21958/image/dark" group-title="live_sports_HD",Canada vs Nepal
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="India vs West Indies (Server 1 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="live_sports_HD",India vs West Indies (Server 1 - Url)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -33,8 +35,6 @@ https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8|Referer=https:
 #EXTINF:-1 tvg-name="India vs West Indies (Server 5 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark" group-title="live_sports_HD",India vs West Indies (Server 5 - Url)
 https://papacito.cfd/m3u/uk-t3434334/live.m3u8
 #EXTINF:-1 tvg-name="Bangladesh vs Zimbabwe" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark" group-title="live_sports_HD",Bangladesh vs Zimbabwe
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-#EXTINF:-1 tvg-name="Canada vs Nepal" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/21958/image/dark" group-title="live_sports_HD",Canada vs Nepal
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="SV 07 Elversberg vs FC Augsburg" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="live_sports_HD",SV 07 Elversberg vs FC Augsburg
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
