@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 36,
   "live_count": 10,
-  "last_update": "02:07 AM 18-10-2026 BST",
+  "last_update": "02:16 AM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -561,6 +561,42 @@
         }
       ],
       "total_channels": 8
+    },
+    {
+      "title": "Australia Women vs New Zealand Women",
+      "sport": "Cricket",
+      "sub_category": "Twenty20 International Women",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "australia-women-vs-new-zealand-women",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 02:15:00 PM",
+        "end_time_bst": "Oct 18, 2026, 06:15:00 PM",
+        "raw_start_utc": "2026/10/18 08:15:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Australia Women",
+          "flag": "https://img.sofascore.com/api/v1/team/213117/image"
+        },
+        "team_b": {
+          "name": "New Zealand Women",
+          "flag": "https://img.sofascore.com/api/v1/team/213115/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
     },
     {
       "title": "Botafogo vs Chapecoense",
@@ -1381,42 +1417,6 @@
         }
       ],
       "total_channels": 9
-    },
-    {
-      "title": "Australia Women vs New Zealand Women",
-      "sport": "Cricket",
-      "sub_category": "Twenty20 International Women",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "australia-women-vs-new-zealand-women",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 02:15:00 PM",
-        "end_time_bst": "Oct 18, 2026, 06:15:00 PM",
-        "raw_start_utc": "2026/10/18 08:15:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Australia Women",
-          "flag": "https://img.sofascore.com/api/v1/team/213117/image"
-        },
-        "team_b": {
-          "name": "New Zealand Women",
-          "flag": "https://img.sofascore.com/api/v1/team/213115/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
     },
     {
       "title": "Afghanistan vs Zimbabwe",
