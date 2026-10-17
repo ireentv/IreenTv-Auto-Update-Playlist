@@ -4,8 +4,8 @@
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
 # Channels Amount: 36
-# Live Count     : 9
-# Last Update    : 12:35 AM 18-10-2026 BST
+# Live Count     : 12
+# Last Update    : 12:46 AM 18-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -96,6 +96,20 @@ https://www.rtmpcdn.com/live/3ae06289-de5a-4816-8b3a-63c3620a066f.m3u8|User-Agen
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 http://193.47.62.41/hls/TKKKQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="AS Roma vs Genoa (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_sports_HD",AS Roma vs Genoa (Server 1 - Raw Link)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="AS Roma vs Genoa (Server 2 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_sports_HD",AS Roma vs Genoa (Server 2 - Raw Link)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Real Betis vs FC Barcelona (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Betis vs FC Barcelona (Server 1 - Raw Link)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -146,6 +160,10 @@ https://www.rtmpcdn.com/live/2bea9e2c-5c4a-4e87-9cc0-558e23da8a49.m3u8|User-Agen
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 http://193.47.62.41/hls/TKKK.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Lille vs Stade Brestois" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Lille vs Stade Brestois
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-name="Troyes vs RC Lens" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Troyes vs RC Lens
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Diriyah vs Al-Taawoun" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="live_sports_HD",Diriyah vs Al-Taawoun
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Hannover 96 vs FC St. Pauli" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/44/image/dark" group-title="live_sports_HD",Hannover 96 vs FC St. Pauli
@@ -191,20 +209,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9v8cttmhcw/out/v1/df4c5196e3d74e7d8f484fc25d9034f1/cenc.mpd
-#EXTINF:-1 tvg-name="AS Roma vs Genoa (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_sports_HD",AS Roma vs Genoa (Server 1 - Raw Link)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="AS Roma vs Genoa (Server 2 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_sports_HD",AS Roma vs Genoa (Server 2 - Raw Link)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Valencia vs Athletic Club (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Valencia vs Athletic Club (Server 1 - Raw Link)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -219,10 +223,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="Lille vs Stade Brestois" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Lille vs Stade Brestois
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-#EXTINF:-1 tvg-name="Troyes vs RC Lens" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Troyes vs RC Lens
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Sparta Rotterdam vs Willem II Tilburg" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/37/image/dark" group-title="live_sports_HD",Sparta Rotterdam vs Willem II Tilburg
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="UD Las Palmas vs CD Castellon" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/54/image/dark" group-title="live_sports_HD",UD Las Palmas vs CD Castellon

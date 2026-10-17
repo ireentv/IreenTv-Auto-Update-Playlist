@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 36,
-  "live_count": 9,
-  "last_update": "12:35 AM 18-10-2026 BST",
+  "live_count": 12,
+  "last_update": "12:46 AM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -300,6 +300,54 @@
       "total_channels": 7
     },
     {
+      "title": "AS Roma vs Genoa",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "as-roma-vs-genoa",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 12:45:00 AM",
+        "end_time_bst": "Oct 18, 2026, 03:05:00 AM",
+        "raw_start_utc": "2026/10/17 18:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "AS Roma",
+          "flag": "https://img.sofascore.com/api/v1/team/2702/image"
+        },
+        "team_b": {
+          "name": "Genoa",
+          "flag": "https://img.sofascore.com/api/v1/team/2713/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "channels": [
+        {
+          "channel_name": "beIN ENGLISH - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+        },
+        {
+          "channel_name": "CBS SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+        }
+      ],
+      "total_channels": 2
+    },
+    {
       "title": "Real Betis vs FC Barcelona",
       "sport": "Football",
       "sub_category": "La Liga",
@@ -420,6 +468,78 @@
         }
       ],
       "total_channels": 9
+    },
+    {
+      "title": "Lille vs Stade Brestois",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "lille-vs-stade-brestois",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 12:45:00 AM",
+        "end_time_bst": "Oct 18, 2026, 03:05:00 AM",
+        "raw_start_utc": "2026/10/17 18:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Lille",
+          "flag": "https://img.sofascore.com/api/v1/team/1643/image"
+        },
+        "team_b": {
+          "name": "Stade Brestois",
+          "flag": "https://img.sofascore.com/api/v1/team/1715/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Troyes vs RC Lens",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "troyes-vs-rc-lens",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 12:45:00 AM",
+        "end_time_bst": "Oct 18, 2026, 03:05:00 AM",
+        "raw_start_utc": "2026/10/17 18:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Troyes",
+          "flag": "https://img.sofascore.com/api/v1/team/1652/image"
+        },
+        "team_b": {
+          "name": "RC Lens",
+          "flag": "https://img.sofascore.com/api/v1/team/1648/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
     },
     {
       "title": "Diriyah vs Al-Taawoun",
@@ -666,54 +786,6 @@
       "total_channels": 7
     },
     {
-      "title": "AS Roma vs Genoa",
-      "sport": "Football",
-      "sub_category": "Serie A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "as-roma-vs-genoa",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 12:45:00 AM",
-        "end_time_bst": "Oct 18, 2026, 03:05:00 AM",
-        "raw_start_utc": "2026/10/17 18:45:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "AS Roma",
-          "flag": "https://img.sofascore.com/api/v1/team/2702/image"
-        },
-        "team_b": {
-          "name": "Genoa",
-          "flag": "https://img.sofascore.com/api/v1/team/2713/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "channels": [
-        {
-          "channel_name": "beIN ENGLISH - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-        },
-        {
-          "channel_name": "CBS SPORTS - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-        }
-      ],
-      "total_channels": 2
-    },
-    {
       "title": "Valencia vs Athletic Club",
       "sport": "Football",
       "sub_category": "La Liga",
@@ -760,78 +832,6 @@
         }
       ],
       "total_channels": 2
-    },
-    {
-      "title": "Lille vs Stade Brestois",
-      "sport": "Football",
-      "sub_category": "Ligue 1",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "lille-vs-stade-brestois",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 12:45:00 AM",
-        "end_time_bst": "Oct 18, 2026, 03:05:00 AM",
-        "raw_start_utc": "2026/10/17 18:45:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Lille",
-          "flag": "https://img.sofascore.com/api/v1/team/1643/image"
-        },
-        "team_b": {
-          "name": "Stade Brestois",
-          "flag": "https://img.sofascore.com/api/v1/team/1715/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Troyes vs RC Lens",
-      "sport": "Football",
-      "sub_category": "Ligue 1",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "troyes-vs-rc-lens",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 12:45:00 AM",
-        "end_time_bst": "Oct 18, 2026, 03:05:00 AM",
-        "raw_start_utc": "2026/10/17 18:45:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Troyes",
-          "flag": "https://img.sofascore.com/api/v1/team/1652/image"
-        },
-        "team_b": {
-          "name": "RC Lens",
-          "flag": "https://img.sofascore.com/api/v1/team/1648/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
     },
     {
       "title": "Sparta Rotterdam vs Willem II Tilburg",
