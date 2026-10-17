@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 68,
   "live_count": 2,
-  "last_update": "12:46 PM 17-10-2026 BST",
+  "last_update": "01:01 PM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -386,12 +386,14 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
       "channels": [
         {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
+          "channel_name": "beIN ENGLISH - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281"
         }
       ],
       "total_channels": 1
@@ -568,12 +570,14 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "channels": [
         {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
+          "channel_name": "NBC SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e"
         }
       ],
       "total_channels": 1
@@ -637,6 +641,54 @@
         "team_b": {
           "name": "Inter",
           "flag": "https://img.sofascore.com/api/v1/team/2697/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "channels": [
+        {
+          "channel_name": "beIN ENGLISH - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+        },
+        {
+          "channel_name": "CBS SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+        }
+      ],
+      "total_channels": 2
+    },
+    {
+      "title": "AS Roma vs Genoa",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "as-roma-vs-genoa",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 12:45:00 AM",
+        "end_time_bst": "Oct 18, 2026, 03:05:00 AM",
+        "raw_start_utc": "2026/10/17 18:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "AS Roma",
+          "flag": "https://img.sofascore.com/api/v1/team/2702/image"
+        },
+        "team_b": {
+          "name": "Genoa",
+          "flag": "https://img.sofascore.com/api/v1/team/2713/image"
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
@@ -776,15 +828,95 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
       "channels": [
         {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
+          "channel_name": "PREMIER SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
+        },
+        {
+          "channel_name": "beIN ENGLISH - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+        },
+        {
+          "channel_name": "D SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+        },
+        {
+          "channel_name": "CazéTV - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
         }
       ],
-      "total_channels": 1
+      "total_channels": 4
+    },
+    {
+      "title": "Valencia vs Athletic Club",
+      "sport": "Football",
+      "sub_category": "LaLiga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "valencia-vs-athletic-club",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 18, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/17 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Valencia",
+          "flag": "https://img.sofascore.com/api/v1/team/2828/image"
+        },
+        "team_b": {
+          "name": "Athletic Club",
+          "flag": "https://img.sofascore.com/api/v1/team/2825/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "channels": [
+        {
+          "channel_name": "beIN ENGLISH - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+        },
+        {
+          "channel_name": "CazéTV - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+        }
+      ],
+      "total_channels": 2
     },
     {
       "title": "RC Strasbourg vs Paris Saint-Germain",
@@ -807,6 +939,78 @@
         "team_b": {
           "name": "Paris Saint-Germain",
           "flag": "https://img.sofascore.com/api/v1/team/1644/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Lille vs Stade Brestois",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "lille-vs-stade-brestois",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 12:45:00 AM",
+        "end_time_bst": "Oct 18, 2026, 03:05:00 AM",
+        "raw_start_utc": "2026/10/17 18:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Lille",
+          "flag": "https://img.sofascore.com/api/v1/team/1643/image"
+        },
+        "team_b": {
+          "name": "Stade Brestois",
+          "flag": "https://img.sofascore.com/api/v1/team/1715/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Troyes vs RC Lens",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "troyes-vs-rc-lens",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 12:45:00 AM",
+        "end_time_bst": "Oct 18, 2026, 03:05:00 AM",
+        "raw_start_utc": "2026/10/17 18:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Troyes",
+          "flag": "https://img.sofascore.com/api/v1/team/1652/image"
+        },
+        "team_b": {
+          "name": "RC Lens",
+          "flag": "https://img.sofascore.com/api/v1/team/1648/image"
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
@@ -1438,17 +1642,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "ADO Den Haag vs PSV Eindhoven",
@@ -1474,19 +1669,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "channels": [
-        {
-          "channel_name": "SportDigital Fussball",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "SC Telstar vs Feyenoord",
@@ -1512,17 +1696,35 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Sparta Rotterdam vs Willem II Tilburg",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "sparta-rotterdam-vs-willem-ii-tilburg",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 18, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/17 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Sparta Rotterdam",
+          "flag": "https://img.sofascore.com/api/v1/team/2960/image"
+        },
+        "team_b": {
+          "name": "Willem II Tilburg",
+          "flag": "https://img.sofascore.com/api/v1/team/2961/image"
         }
-      ],
-      "total_channels": 1
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Real Sociedad B vs Almeria",
@@ -1548,17 +1750,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Eibar vs Mallorca",
@@ -1581,6 +1774,33 @@
         "team_b": {
           "name": "Mallorca",
           "flag": "https://img.sofascore.com/api/v1/team/2826/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "UD Las Palmas vs CD Castellon",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "ud-las-palmas-vs-cd-castellon",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 18, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/17 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "UD Las Palmas",
+          "flag": "https://img.sofascore.com/api/v1/team/6577/image"
+        },
+        "team_b": {
+          "name": "CD Castellón",
+          "flag": "https://img.sofascore.com/api/v1/team/5067/image"
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
@@ -1989,168 +2209,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "AS Roma vs Genoa",
-      "sport": "Football",
-      "sub_category": "Serie A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "as-roma-vs-genoa",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 12:45:00 AM",
-        "end_time_bst": "Oct 18, 2026, 03:05:00 AM",
-        "raw_start_utc": "2026/10/17 18:45:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "AS Roma",
-          "flag": "https://img.sofascore.com/api/v1/team/2702/image"
-        },
-        "team_b": {
-          "name": "Genoa",
-          "flag": "https://img.sofascore.com/api/v1/team/2713/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Valencia vs Athletic Club",
-      "sport": "Football",
-      "sub_category": "LaLiga",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "valencia-vs-athletic-club",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
-        "end_time_bst": "Oct 18, 2026, 03:20:00 AM",
-        "raw_start_utc": "2026/10/17 19:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Valencia",
-          "flag": "https://img.sofascore.com/api/v1/team/2828/image"
-        },
-        "team_b": {
-          "name": "Athletic Club",
-          "flag": "https://img.sofascore.com/api/v1/team/2825/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Lille vs Stade Brestois",
-      "sport": "Football",
-      "sub_category": "Ligue 1",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "lille-vs-stade-brestois",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 12:45:00 AM",
-        "end_time_bst": "Oct 18, 2026, 03:05:00 AM",
-        "raw_start_utc": "2026/10/17 18:45:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Lille",
-          "flag": "https://img.sofascore.com/api/v1/team/1643/image"
-        },
-        "team_b": {
-          "name": "Stade Brestois",
-          "flag": "https://img.sofascore.com/api/v1/team/1715/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Troyes vs RC Lens",
-      "sport": "Football",
-      "sub_category": "Ligue 1",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "troyes-vs-rc-lens",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 12:45:00 AM",
-        "end_time_bst": "Oct 18, 2026, 03:05:00 AM",
-        "raw_start_utc": "2026/10/17 18:45:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Troyes",
-          "flag": "https://img.sofascore.com/api/v1/team/1652/image"
-        },
-        "team_b": {
-          "name": "RC Lens",
-          "flag": "https://img.sofascore.com/api/v1/team/1648/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Sparta Rotterdam vs Willem II Tilburg",
-      "sport": "Football",
-      "sub_category": "VriendenLoterij Eredivisie",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "sparta-rotterdam-vs-willem-ii-tilburg",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
-        "end_time_bst": "Oct 18, 2026, 03:20:00 AM",
-        "raw_start_utc": "2026/10/17 19:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Sparta Rotterdam",
-          "flag": "https://img.sofascore.com/api/v1/team/2960/image"
-        },
-        "team_b": {
-          "name": "Willem II Tilburg",
-          "flag": "https://img.sofascore.com/api/v1/team/2961/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "UD Las Palmas vs CD Castellon",
-      "sport": "Football",
-      "sub_category": "LaLiga 2",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "ud-las-palmas-vs-cd-castellon",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 01:00:00 AM",
-        "end_time_bst": "Oct 18, 2026, 03:20:00 AM",
-        "raw_start_utc": "2026/10/17 19:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "UD Las Palmas",
-          "flag": "https://img.sofascore.com/api/v1/team/6577/image"
-        },
-        "team_b": {
-          "name": "CD Castellón",
-          "flag": "https://img.sofascore.com/api/v1/team/5067/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "channels": [],
       "total_channels": 0
     },
