@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 68,
   "live_count": 5,
-  "last_update": "05:13 PM 17-10-2026 BST",
+  "last_update": "05:16 PM 17-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -434,6 +434,14 @@
           "drm_key": null
         },
         {
+          "channel_name": "T SPORTS HD",
+          "stream_type": "HLS",
+          "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
+          "raw_link": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
+          "headers": {},
+          "drm_key": null
+        },
+        {
           "channel_name": "FANCODE - IN",
           "stream_type": "HLS",
           "url": "https://dai-fancode.pages.dev/mumbai/4249694_english_hls_c370ab317921311_1ta-di_h264/index.m3u8",
@@ -445,7 +453,7 @@
           "drm_key": null
         }
       ],
-      "total_channels": 2
+      "total_channels": 3
     },
     {
       "title": "SV 07 Elversberg vs FC Augsburg",
@@ -1483,13 +1491,27 @@
         {
           "channel_name": "CRICFy LIVE",
           "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
+          "url": "https://live.vivo155.com/live/sd-1-4563628.m3u8?txSecret=9b8bcf75ff2c65a257834fcc1d0e8199&txTime=6AD36BEA",
+          "raw_link": "https://live.vivo155.com/live/sd-1-4563628.m3u8?txSecret=9b8bcf75ff2c65a257834fcc1d0e8199&txTime=6AD36BEA|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.50/hls/4GGGQQQQQ.m3u8",
+          "raw_link": "http://193.47.62.50/hls/4GGGQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
           "drm_key": null
         }
       ],
-      "total_channels": 1
+      "total_channels": 2
     },
     {
       "title": "Watford vs Charlton Athletic",
