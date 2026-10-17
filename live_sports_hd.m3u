@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 75
 # Live Count     : 4
-# Last Update    : 09:04 AM 17-10-2026 BST
+# Last Update    : 09:16 AM 17-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -94,6 +94,8 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 #EXTINF:-1 tvg-name="Espanyol vs Atletico Madrid" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Espanyol vs Atletico Madrid
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Villarreal vs Elche" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Villarreal vs Elche
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-name="RC Strasbourg vs Paris Saint-Germain" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",RC Strasbourg vs Paris Saint-Germain
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Middlesbrough vs Cardiff City" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18/image/dark" group-title="live_sports_HD",Middlesbrough vs Cardiff City
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
@@ -214,15 +216,3 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 http://193.47.62.41/hls/duuuAAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-#EXTINF:-1 tvg-name="WWE Raw (Server 2 - Url)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png" group-title="live_sports_HD",WWE Raw (Server 2 - Url)
-https://ubuntu.fromthyheart.site/dailymotion/live/playlist/1.m3u8
-#EXTINF:-1 tvg-name="WWE Raw (Server 3 - Raw Link)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png" group-title="live_sports_HD",WWE Raw (Server 3 - Raw Link)
-#EXTVLCOPT:http-referrer=https://streamscenter.online/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-https://edgestream2.pro/hls/zeuryuegn48.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-#EXTINF:-1 tvg-name="WWE Raw (Server 4 - Raw Link)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png" group-title="live_sports_HD",WWE Raw (Server 4 - Raw Link)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-http://193.47.62.59/hls/K999QQ.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
