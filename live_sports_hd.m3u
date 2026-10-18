@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 43
 # Live Count     : 6
-# Last Update    : 03:28 AM 19-10-2026 BST
+# Last Update    : 03:31 AM 19-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -39,6 +39,14 @@ https://edgestream5.pro/hls/poertjnvnev40.m3u8?|Referer=https://streamscenter.on
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
 https://edgestream5.pro/hls/cwxcnbscbsq39.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
+#EXTINF:-1 tvg-name="Bahia vs Flamengo (Server 1 - Url)" tvg-logo="https://img.sofascore.com/api/v1/team/1955/image" group-title="live_sports_HD",Bahia vs Flamengo (Server 1 - Url)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
+#EXTINF:-1 tvg-name="Bahia vs Flamengo (Server 2 - Url)" tvg-logo="https://img.sofascore.com/api/v1/team/1955/image" group-title="live_sports_HD",Bahia vs Flamengo (Server 2 - Url)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd
 #EXTINF:-1 tvg-name="Cleveland Guardians vs Tampa Bay Rays (Server 1 - Raw Link)" tvg-logo="https://img.sofascore.com/api/v1/team/3650/image" group-title="live_sports_HD",Cleveland Guardians vs Tampa Bay Rays (Server 1 - Raw Link)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -51,11 +59,3 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
 https://edgestream4.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-#EXTINF:-1 tvg-name="Bahia vs Flamengo (Server 1 - Url)" tvg-logo="https://img.sofascore.com/api/v1/team/1955/image" group-title="live_sports_HD",Bahia vs Flamengo (Server 1 - Url)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
-#EXTINF:-1 tvg-name="Bahia vs Flamengo (Server 2 - Url)" tvg-logo="https://img.sofascore.com/api/v1/team/1955/image" group-title="live_sports_HD",Bahia vs Flamengo (Server 2 - Url)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd
