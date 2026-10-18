@@ -4,8 +4,8 @@
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
 # Channels Amount: 77
-# Live Count     : 10
-# Last Update    : 05:33 PM 18-10-2026 BST
+# Live Count     : 9
+# Last Update    : 05:46 PM 18-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -47,18 +47,6 @@ https://dai-fancode.pages.dev/mumbai/4249782_english_hls_bf21f9fa2f43134_1ta-di_
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 http://193.47.62.44/hls/BEEEEAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="Australia Women vs New Zealand Women (Server 1 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="live_sports_HD",Australia Women vs New Zealand Women (Server 1 - Url)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
-#EXTINF:-1 tvg-name="Australia Women vs New Zealand Women (Server 2 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="live_sports_HD",Australia Women vs New Zealand Women (Server 2 - Url)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
-#EXTINF:-1 tvg-name="Australia Women vs New Zealand Women (Server 3 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="live_sports_HD",Australia Women vs New Zealand Women (Server 3 - Url)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd
 #EXTINF:-1 tvg-name="Udinese vs Lecce (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_sports_HD",Udinese vs Lecce (Server 1 - Raw Link)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -345,13 +333,25 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
-#EXTINF:-1 tvg-name="Osasuna vs Real Racing Club" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Osasuna vs Real Racing Club
+#EXTINF:-1 tvg-name="Osasuna vs Real Racing Club (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Osasuna vs Real Racing Club (Server 1 - Raw Link)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Osasuna vs Real Racing Club (Server 2 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Osasuna vs Real Racing Club (Server 2 - Raw Link)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Osasuna vs Real Racing Club (Server 3 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Osasuna vs Real Racing Club (Server 3 - Raw Link)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+http://193.47.62.41/hls/JFFFQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Celta Vigo vs Deportivo Alaves (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Celta Vigo vs Deportivo Alaves (Server 1 - Raw Link)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -454,4 +454,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1
 #EXTINF:-1 tvg-name="Angers vs Olympique de Marseille" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Angers vs Olympique de Marseille
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Le Havre vs Auxerre" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Le Havre vs Auxerre
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-name="Lorient vs AS Monaco" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Lorient vs AS Monaco
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
