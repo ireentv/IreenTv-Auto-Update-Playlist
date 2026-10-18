@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 61,
-  "live_count": 14,
-  "last_update": "10:04 PM 18-10-2026 BST",
+  "live_count": 13,
+  "last_update": "10:15 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -90,58 +90,6 @@
         }
       ],
       "total_channels": 5
-    },
-    {
-      "title": "India Women vs Zimbabwe Women",
-      "sport": "Cricket",
-      "sub_category": "Twenty20 International Women",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "india-women-vs-zimbabwe-women",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 07:30:36 PM",
-        "end_time_bst": "Oct 18, 2026, 11:55:41 PM",
-        "raw_start_utc": "2026/10/18 13:30:36 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "India Women",
-          "flag": "https://img.sofascore.com/api/v1/team/213119/image"
-        },
-        "team_b": {
-          "name": "Zimbabwe Women",
-          "flag": "https://img.sofascore.com/api/v1/team/417062/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
-      "channels": [
-        {
-          "channel_name": "WILLOW - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/axd5oq6w8a/out/v1/38e4c16be26a4a668643e206c7eeec25/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/axd5oq6w8a/out/v1/38e4c16be26a4a668643e206c7eeec25/cenc.mpd",
-          "headers": {},
-          "drm_key": "0053b9514409de27bf6221c814b538f4:1811438205be600833cc92aa28208d7f"
-        },
-        {
-          "channel_name": "WILLOW - ALT",
-          "stream_type": "DASH",
-          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/axd5oq6w8a/out/v1/38e4c16be26a4a668643e206c7eeec25/cenc.mpd",
-          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/axd5oq6w8a/out/v1/38e4c16be26a4a668643e206c7eeec25/cenc.mpd",
-          "headers": {},
-          "drm_key": "0053b9514409de27bf6221c814b538f4:1811438205be600833cc92aa28208d7f"
-        },
-        {
-          "channel_name": "WILLOW HD",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-          "headers": {},
-          "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-        }
-      ],
-      "total_channels": 3
     },
     {
       "title": "Jacksonville Jaguars vs Houston Texans",
@@ -2126,8 +2074,38 @@
         }
       },
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?",
+          "raw_link": "https://chatgpt.hereisman.net/playlist/54963/load-playlist?|Referer=https://gooz.aapmains.net",
+          "headers": {
+            "Referer": "https://gooz.aapmains.net"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "WWE LIVE - AQ",
+          "stream_type": "HLS",
+          "url": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
+          "raw_link": "https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "SD SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.41/hls/UIIIAAA.m3u8?",
+          "raw_link": "http://193.47.62.41/hls/UIIIAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/",
+          "headers": {
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc/"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 3
     },
     {
       "title": "WWE Raw",
@@ -2207,6 +2185,33 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "India Women vs Zimbabwe Women",
+      "sport": "Cricket",
+      "sub_category": "Twenty20 International Women",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "india-women-vs-zimbabwe-women",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 07:30:19 PM",
+        "end_time_bst": "Oct 20, 2026, 11:55:23 PM",
+        "raw_start_utc": "2026/10/20 13:30:19 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "India Women",
+          "flag": "https://img.sofascore.com/api/v1/team/213119/image"
+        },
+        "team_b": {
+          "name": "Zimbabwe Women",
+          "flag": "https://img.sofascore.com/api/v1/team/417062/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
       "channels": [],
       "total_channels": 0
     },

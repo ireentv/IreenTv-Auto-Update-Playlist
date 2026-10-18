@@ -4,8 +4,8 @@
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
 # Channels Amount: 61
-# Live Count     : 14
-# Last Update    : 10:04 PM 18-10-2026 BST
+# Live Count     : 13
+# Last Update    : 10:15 PM 18-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -30,18 +30,6 @@ https://df3xownvf1f4t.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 https://dai-fancode.pages.dev/mumbai/4249230_english_hls_af78e095ee47903_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
-#EXTINF:-1 tvg-name="India Women vs Zimbabwe Women (Server 1 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="live_sports_HD",India Women vs Zimbabwe Women (Server 1 - Url)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/axd5oq6w8a/out/v1/38e4c16be26a4a668643e206c7eeec25/cenc.mpd
-#EXTINF:-1 tvg-name="India Women vs Zimbabwe Women (Server 2 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="live_sports_HD",India Women vs Zimbabwe Women (Server 2 - Url)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/axd5oq6w8a/out/v1/38e4c16be26a4a668643e206c7eeec25/cenc.mpd
-#EXTINF:-1 tvg-name="India Women vs Zimbabwe Women (Server 3 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="live_sports_HD",India Women vs Zimbabwe Women (Server 3 - Url)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
 #EXTINF:-1 tvg-name="Jacksonville Jaguars vs Houston Texans (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark" group-title="live_sports_HD",Jacksonville Jaguars vs Houston Texans (Server 1 - Raw Link)
 #EXTVLCOPT:http-referrer=https://play.arabsports.info/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://play.arabsports.info/
@@ -455,3 +443,10 @@ https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 http://193.47.62.41/hls/duuuAAAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+#EXTINF:-1 tvg-name="Smack Down (Server 2 - Url)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png" group-title="live_sports_HD",Smack Down (Server 2 - Url)
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8
+#EXTINF:-1 tvg-name="Smack Down (Server 3 - Raw Link)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png" group-title="live_sports_HD",Smack Down (Server 3 - Raw Link)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+http://193.47.62.41/hls/UIIIAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
