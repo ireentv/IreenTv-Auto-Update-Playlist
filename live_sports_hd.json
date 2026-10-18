@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 62,
-  "live_count": 8,
-  "last_update": "09:07 PM 18-10-2026 BST",
+  "live_count": 11,
+  "last_update": "09:16 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -286,6 +286,126 @@
       "total_channels": 4
     },
     {
+      "title": "Le Havre vs Auxerre",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "le-havre-vs-auxerre",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 09:15:00 PM",
+        "end_time_bst": "Oct 18, 2026, 11:35:00 PM",
+        "raw_start_utc": "2026/10/18 15:15:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Le Havre",
+          "flag": "https://img.sofascore.com/api/v1/team/1662/image"
+        },
+        "team_b": {
+          "name": "Auxerre",
+          "flag": "https://img.sofascore.com/api/v1/team/1646/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.41/hls/H333Q.m3u8",
+          "raw_link": "http://193.47.62.41/hls/H333Q.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Lorient vs AS Monaco",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "lorient-vs-as-monaco",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 09:15:00 PM",
+        "end_time_bst": "Oct 18, 2026, 11:35:00 PM",
+        "raw_start_utc": "2026/10/18 15:15:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Lorient",
+          "flag": "https://img.sofascore.com/api/v1/team/1656/image"
+        },
+        "team_b": {
+          "name": "AS Monaco",
+          "flag": "https://img.sofascore.com/api/v1/team/1653/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.41/hls/H333QQ.m3u8",
+          "raw_link": "http://193.47.62.41/hls/H333QQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Paris FC vs Stade Rennais",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "paris-fc-vs-stade-rennais",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 09:15:00 PM",
+        "end_time_bst": "Oct 18, 2026, 11:35:00 PM",
+        "raw_start_utc": "2026/10/18 15:15:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Paris FC",
+          "flag": "https://img.sofascore.com/api/v1/team/6070/image"
+        },
+        "team_b": {
+          "name": "Stade Rennais",
+          "flag": "https://img.sofascore.com/api/v1/team/1658/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.41/hls/H333QQQQ.m3u8",
+          "raw_link": "http://193.47.62.41/hls/H333QQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
       "title": "FC Groningen vs AFC Ajax",
       "sport": "Football",
       "sub_category": "VriendenLoterij Eredivisie",
@@ -473,10 +593,10 @@
         {
           "channel_name": "WILLOW - AQ",
           "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/szep2s50dy/out/v1/0654483782a74c1e9e3e578377d28fc6/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/szep2s50dy/out/v1/0654483782a74c1e9e3e578377d28fc6/cenc.mpd",
           "headers": {},
-          "drm_key": "5a0e73fa4a0c0573476bf83d0e677b37:dcddd039f451b85d8463a35624e42aaf"
+          "drm_key": "c4e6bd30698f91c0d1e99e505d8859c7:cea8ba61e532c7143c630f0c9becd7a6"
         },
         {
           "channel_name": "FANCODE - AQ",
@@ -497,10 +617,10 @@
         {
           "channel_name": "WILLOW - ALT",
           "stream_type": "DASH",
-          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
-          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
+          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/szep2s50dy/out/v1/0654483782a74c1e9e3e578377d28fc6/cenc.mpd",
+          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/szep2s50dy/out/v1/0654483782a74c1e9e3e578377d28fc6/cenc.mpd",
           "headers": {},
-          "drm_key": "5a0e73fa4a0c0573476bf83d0e677b37:dcddd039f451b85d8463a35624e42aaf"
+          "drm_key": "c4e6bd30698f91c0d1e99e505d8859c7:cea8ba61e532c7143c630f0c9becd7a6"
         },
         {
           "channel_name": "WILLOW HD",
@@ -513,8 +633,8 @@
         {
           "channel_name": "FANCODE - IN",
           "stream_type": "HLS",
-          "url": "https://dai-fancode.pages.dev/mumbai/4249229_english_hls_dd4592751127063_1ta-di_h264/index.m3u8",
-          "raw_link": "https://dai-fancode.pages.dev/mumbai/4249229_english_hls_dd4592751127063_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+          "url": "https://dai-fancode.pages.dev/mumbai/4249230_english_hls_af78e095ee47903_1ta-di_h264/index.m3u8",
+          "raw_link": "https://dai-fancode.pages.dev/mumbai/4249230_english_hls_af78e095ee47903_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
           "headers": {
             "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
             "Referer": "https://fancode.com/"
@@ -946,11 +1066,15 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
       "channels": [
         {
-          "channel_name": "CRICFy LIVE",
+          "channel_name": "LOW SERVER",
           "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
+          "url": "http://193.47.62.41/hls/H333QQQQQQQ.m3u8",
+          "raw_link": "http://193.47.62.41/hls/H333QQQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
           "drm_key": null
         }
       ],
@@ -1000,9 +1124,21 @@
             "user-agent": "Mozilla"
           },
           "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.50/hls/HIHIHI.m3u8",
+          "raw_link": "http://193.47.62.50/hls/HIHIHI.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
         }
       ],
-      "total_channels": 2
+      "total_channels": 3
     },
     {
       "title": "Fluminense vs Santos",
@@ -1395,118 +1531,6 @@
         }
       ],
       "total_channels": 6
-    },
-    {
-      "title": "Le Havre vs Auxerre",
-      "sport": "Football",
-      "sub_category": "Ligue 1",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "le-havre-vs-auxerre",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 09:15:00 PM",
-        "end_time_bst": "Oct 18, 2026, 11:35:00 PM",
-        "raw_start_utc": "2026/10/18 15:15:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Le Havre",
-          "flag": "https://img.sofascore.com/api/v1/team/1662/image"
-        },
-        "team_b": {
-          "name": "Auxerre",
-          "flag": "https://img.sofascore.com/api/v1/team/1646/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Lorient vs AS Monaco",
-      "sport": "Football",
-      "sub_category": "Ligue 1",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "lorient-vs-as-monaco",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 09:15:00 PM",
-        "end_time_bst": "Oct 18, 2026, 11:35:00 PM",
-        "raw_start_utc": "2026/10/18 15:15:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Lorient",
-          "flag": "https://img.sofascore.com/api/v1/team/1656/image"
-        },
-        "team_b": {
-          "name": "AS Monaco",
-          "flag": "https://img.sofascore.com/api/v1/team/1653/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "Paris FC vs Stade Rennais",
-      "sport": "Football",
-      "sub_category": "Ligue 1",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "paris-fc-vs-stade-rennais",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 09:15:00 PM",
-        "end_time_bst": "Oct 18, 2026, 11:35:00 PM",
-        "raw_start_utc": "2026/10/18 15:15:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Paris FC",
-          "flag": "https://img.sofascore.com/api/v1/team/6070/image"
-        },
-        "team_b": {
-          "name": "Stade Rennais",
-          "flag": "https://img.sofascore.com/api/v1/team/1658/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "channels": [
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.41/hls/H333QQQQ.m3u8",
-          "raw_link": "http://193.47.62.41/hls/H333QQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
     },
     {
       "title": "Olympique Lyonnais vs Nice",
