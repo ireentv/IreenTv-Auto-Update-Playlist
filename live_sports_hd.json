@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 76,
   "live_count": 1,
-  "last_update": "12:36 PM 18-10-2026 BST",
+  "last_update": "12:45 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -940,6 +940,42 @@
       "total_channels": 1
     },
     {
+      "title": "Juventus vs Lazio",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "juventus-vs-lazio",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 12:45:00 AM",
+        "end_time_bst": "Oct 19, 2026, 03:05:00 AM",
+        "raw_start_utc": "2026/10/18 18:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Juventus",
+          "flag": "https://img.sofascore.com/api/v1/team/2687/image"
+        },
+        "team_b": {
+          "name": "Lazio",
+          "flag": "https://img.sofascore.com/api/v1/team/2699/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
       "title": "Osasuna vs Real Racing Club",
       "sport": "Football",
       "sub_category": "LaLiga",
@@ -1176,6 +1212,42 @@
         "team_b": {
           "name": "Stade Rennais",
           "flag": "https://img.sofascore.com/api/v1/team/1658/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Olympique Lyonnais vs Nice",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "olympique-lyonnais-vs-nice",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 12:45:00 AM",
+        "end_time_bst": "Oct 19, 2026, 03:05:00 AM",
+        "raw_start_utc": "2026/10/18 18:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Olympique Lyonnais",
+          "flag": "https://img.sofascore.com/api/v1/team/1649/image"
+        },
+        "team_b": {
+          "name": "Nice",
+          "flag": "https://img.sofascore.com/api/v1/team/1661/image"
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
@@ -1611,17 +1683,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Kasmpasa vs Samsunspor",
@@ -1647,17 +1710,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Kocaelispor vs Goztepe",
@@ -2200,33 +2254,6 @@
       "total_channels": 0
     },
     {
-      "title": "Juventus vs Lazio",
-      "sport": "Football",
-      "sub_category": "Serie A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "juventus-vs-lazio",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 12:45:00 AM",
-        "end_time_bst": "Oct 19, 2026, 03:05:00 AM",
-        "raw_start_utc": "2026/10/18 18:45:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Juventus",
-          "flag": "https://img.sofascore.com/api/v1/team/2687/image"
-        },
-        "team_b": {
-          "name": "Lazio",
-          "flag": "https://img.sofascore.com/api/v1/team/2699/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
       "title": "Monza vs Cagliari",
       "sport": "Football",
       "sub_category": "Serie A",
@@ -2331,33 +2358,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Olympique Lyonnais vs Nice",
-      "sport": "Football",
-      "sub_category": "Ligue 1",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "olympique-lyonnais-vs-nice",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 12:45:00 AM",
-        "end_time_bst": "Oct 19, 2026, 03:05:00 AM",
-        "raw_start_utc": "2026/10/18 18:45:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Olympique Lyonnais",
-          "flag": "https://img.sofascore.com/api/v1/team/1649/image"
-        },
-        "team_b": {
-          "name": "Nice",
-          "flag": "https://img.sofascore.com/api/v1/team/1661/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
       "channels": [],
       "total_channels": 0
     },
