@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 76,
   "live_count": 1,
-  "last_update": "12:45 PM 18-10-2026 BST",
+  "last_update": "01:01 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -868,6 +868,78 @@
       "total_channels": 1
     },
     {
+      "title": "Fluminense vs Santos",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "fluminense-vs-santos",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/18 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Fluminense",
+          "flag": "https://img.sofascore.com/api/v1/team/1961/image"
+        },
+        "team_b": {
+          "name": "Santos",
+          "flag": "https://img.sofascore.com/api/v1/team/1968/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Gremio vs Cruzeiro",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "gremio-vs-cruzeiro",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/18 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Grêmio",
+          "flag": "https://img.sofascore.com/api/v1/team/5926/image"
+        },
+        "team_b": {
+          "name": "Cruzeiro",
+          "flag": "https://img.sofascore.com/api/v1/team/1954/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
       "title": "Udinese vs Lecce",
       "sport": "Football",
       "sub_category": "Serie A",
@@ -1068,6 +1140,42 @@
         "team_b": {
           "name": "Real Sociedad",
           "flag": "https://img.sofascore.com/api/v1/team/2824/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Real Madrid vs Sevilla",
+      "sport": "Football",
+      "sub_category": "LaLiga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "real-madrid-vs-sevilla",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/18 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Real Madrid",
+          "flag": "https://img.sofascore.com/api/v1/team/2829/image"
+        },
+        "team_b": {
+          "name": "Sevilla",
+          "flag": "https://img.sofascore.com/api/v1/team/2833/image"
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
@@ -1575,17 +1683,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Granada vs Cadiz",
@@ -1611,17 +1710,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Girona FC vs FC Andorra",
@@ -1647,17 +1737,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Real Valladolid vs CD Eldense",
@@ -1680,6 +1761,33 @@
         "team_b": {
           "name": "CD Eldense",
           "flag": "https://img.sofascore.com/api/v1/team/47321/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Burgos Club de Futbol vs CE Sabadell",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "burgos-club-de-futbol-vs-ce-sabadell",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/18 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Burgos Club de Fútbol",
+          "flag": "https://img.sofascore.com/api/v1/team/2854/image"
+        },
+        "team_b": {
+          "name": "CE Sabadell",
+          "flag": "https://img.sofascore.com/api/v1/team/24335/image"
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
@@ -2119,60 +2227,6 @@
       "total_channels": 0
     },
     {
-      "title": "Fluminense vs Santos",
-      "sport": "Football",
-      "sub_category": "Campeonato Brasileiro Série A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "fluminense-vs-santos",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
-        "end_time_bst": "Oct 19, 2026, 03:20:00 AM",
-        "raw_start_utc": "2026/10/18 19:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Fluminense",
-          "flag": "https://img.sofascore.com/api/v1/team/1961/image"
-        },
-        "team_b": {
-          "name": "Santos",
-          "flag": "https://img.sofascore.com/api/v1/team/1968/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Gremio vs Cruzeiro",
-      "sport": "Football",
-      "sub_category": "Campeonato Brasileiro Série A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "gremio-vs-cruzeiro",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
-        "end_time_bst": "Oct 19, 2026, 03:20:00 AM",
-        "raw_start_utc": "2026/10/18 19:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Grêmio",
-          "flag": "https://img.sofascore.com/api/v1/team/5926/image"
-        },
-        "team_b": {
-          "name": "Cruzeiro",
-          "flag": "https://img.sofascore.com/api/v1/team/1954/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
       "title": "Bahia vs Flamengo",
       "sport": "Football",
       "sub_category": "Campeonato Brasileiro Série A",
@@ -2308,33 +2362,6 @@
       "total_channels": 0
     },
     {
-      "title": "Real Madrid vs Sevilla",
-      "sport": "Football",
-      "sub_category": "LaLiga",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "real-madrid-vs-sevilla",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
-        "end_time_bst": "Oct 19, 2026, 03:20:00 AM",
-        "raw_start_utc": "2026/10/18 19:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Real Madrid",
-          "flag": "https://img.sofascore.com/api/v1/team/2829/image"
-        },
-        "team_b": {
-          "name": "Sevilla",
-          "flag": "https://img.sofascore.com/api/v1/team/2833/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
       "title": "Getafe vs Rayo Vallecano",
       "sport": "Football",
       "sub_category": "LaLiga",
@@ -2466,33 +2493,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Burgos Club de Futbol vs CE Sabadell",
-      "sport": "Football",
-      "sub_category": "LaLiga 2",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "burgos-club-de-futbol-vs-ce-sabadell",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
-        "end_time_bst": "Oct 19, 2026, 03:20:00 AM",
-        "raw_start_utc": "2026/10/18 19:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Burgos Club de Fútbol",
-          "flag": "https://img.sofascore.com/api/v1/team/2854/image"
-        },
-        "team_b": {
-          "name": "CE Sabadell",
-          "flag": "https://img.sofascore.com/api/v1/team/24335/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "channels": [],
       "total_channels": 0
     },
