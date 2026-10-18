@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 76,
-  "live_count": 3,
-  "last_update": "02:07 PM 18-10-2026 BST",
+  "live_count": 4,
+  "last_update": "02:15 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -120,6 +120,42 @@
       "total_channels": 8
     },
     {
+      "title": "Australia Women vs New Zealand Women",
+      "sport": "Cricket",
+      "sub_category": "Twenty20 International Women",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "australia-women-vs-new-zealand-women",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 02:15:00 PM",
+        "end_time_bst": "Oct 18, 2026, 06:15:00 PM",
+        "raw_start_utc": "2026/10/18 08:15:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Australia Women",
+          "flag": "https://img.sofascore.com/api/v1/team/213117/image"
+        },
+        "team_b": {
+          "name": "New Zealand Women",
+          "flag": "https://img.sofascore.com/api/v1/team/213115/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
+      "channels": [
+        {
+          "channel_name": "WILLOW HD",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+          "headers": {},
+          "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+        }
+      ],
+      "total_channels": 1
+    },
+    {
       "title": "Pakistan vs Sri Lanka",
       "sport": "Cricket",
       "sub_category": "ODI Tri-series in Pakistan",
@@ -157,17 +193,19 @@
         {
           "channel_name": "PTV SPORTS HD",
           "stream_type": "HLS",
-          "url": "https://baila-lentoo.pages.dev/all-sp/809398.m3u8",
-          "raw_link": "https://baila-lentoo.pages.dev/all-sp/809398.m3u8",
+          "url": "http://95.133.241.239:8089/PAKvsSLLow/index.m3u8",
+          "raw_link": "http://95.133.241.239:8089/PAKvsSLLow/index.m3u8",
           "headers": {},
           "drm_key": null
         },
         {
-          "channel_name": "WILLOW HD",
+          "channel_name": "TAPMAD HD",
           "stream_type": "HLS",
-          "url": "http://mag.tivi-one-iptv.net/play/live.php?mac=00:1A:79:F5:CC:FD&stream=809386&extension=m3u8",
-          "raw_link": "http://mag.tivi-one-iptv.net/play/live.php?mac=00:1A:79:F5:CC:FD&stream=809386&extension=m3u8",
-          "headers": {},
+          "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
+          "raw_link": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8|referer=https://tapmad.com/",
+          "headers": {
+            "referer": "https://tapmad.com/"
+          },
           "drm_key": null
         }
       ],
@@ -381,42 +419,6 @@
         }
       ],
       "total_channels": 9
-    },
-    {
-      "title": "Australia Women vs New Zealand Women",
-      "sport": "Cricket",
-      "sub_category": "Twenty20 International Women",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "australia-women-vs-new-zealand-women",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 02:15:00 PM",
-        "end_time_bst": "Oct 18, 2026, 06:15:00 PM",
-        "raw_start_utc": "2026/10/18 08:15:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Australia Women",
-          "flag": "https://img.sofascore.com/api/v1/team/213117/image"
-        },
-        "team_b": {
-          "name": "New Zealand Women",
-          "flag": "https://img.sofascore.com/api/v1/team/213115/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
     },
     {
       "title": "Jacksonville Jaguars vs Houston Texans",

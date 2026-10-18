@@ -4,8 +4,8 @@
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
 # Channels Amount: 76
-# Live Count     : 3
-# Last Update    : 02:07 PM 18-10-2026 BST
+# Live Count     : 4
+# Last Update    : 02:15 PM 18-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -42,13 +42,22 @@ https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=17841
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 https://dai-fancode.pages.dev/mumbai/4249782_english_hls_bf21f9fa2f43134_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+#EXTINF:-1 tvg-name="Australia Women vs New Zealand Women" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="live_sports_HD",Australia Women vs New Zealand Women
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
 #EXTINF:-1 tvg-name="Pakistan vs Sri Lanka (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="live_sports_HD",Pakistan vs Sri Lanka (Server 1 - Raw Link)
 #EXTVLCOPT:http-referrer=https://tapmad.com/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://tapmad.com/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tapmad.com/
 https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8?|Referer=https://tapmad.com/
 #EXTINF:-1 tvg-name="Pakistan vs Sri Lanka (Server 2 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="live_sports_HD",Pakistan vs Sri Lanka (Server 2 - Url)
-https://baila-lentoo.pages.dev/all-sp/809398.m3u8
+http://95.133.241.239:8089/PAKvsSLLow/index.m3u8
+#EXTINF:-1 tvg-name="Pakistan vs Sri Lanka (Server 3 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="live_sports_HD",Pakistan vs Sri Lanka (Server 3 - Raw Link)
+#EXTVLCOPT:http-referrer=https://tapmad.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://tapmad.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tapmad.com/
+https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8|Referer=https://tapmad.com/
 #EXTINF:-1 tvg-name="WCL World Championship of Legends (Server 1 - Url)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZ0c8Wb0slhQCjc_XsPzMuqyX52rG-yapyEgJpdSmSQ&s=10" group-title="live_sports_HD",WCL World Championship of Legends (Server 1 - Url)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -129,8 +138,6 @@ https://livetv.hotstar.com/mp2/gec-india-1540068334/3468fd902b12418598cabe63585e
 #KODIPROP:inputstream.adaptive.manifest_headers=Cookie=hdntl=exp=1792177960~acl=%2f*~id=fda09ca3277ee6e61131f47f7f2628fd~data=hdntl~hmac=6c4850d14e3f7375f98b13608c4269f0806ebace7f1186ad44a2995aca7e69a2&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=eb2f9710abf44bb1bcf51400ccc00000:5f29f372823346e78934431f2a924065
 #KODIPROP:inputstream.adaptive.stream_headers=Cookie=hdntl=exp=1792177960~acl=%2f*~id=fda09ca3277ee6e61131f47f7f2628fd~data=hdntl~hmac=6c4850d14e3f7375f98b13608c4269f0806ebace7f1186ad44a2995aca7e69a2&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=eb2f9710abf44bb1bcf51400ccc00000:5f29f372823346e78934431f2a924065
 https://livetv.hotstar.com/mp1/gec-india-1540068322/6409ab04235d4a0886656913f360c0a7/index.mpd?|Cookie=hdntl=exp=1792177960~acl=%2f*~id=fda09ca3277ee6e61131f47f7f2628fd~data=hdntl~hmac=6c4850d14e3f7375f98b13608c4269f0806ebace7f1186ad44a2995aca7e69a2&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=eb2f9710abf44bb1bcf51400ccc00000:5f29f372823346e78934431f2a924065
-#EXTINF:-1 tvg-name="Australia Women vs New Zealand Women" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark" group-title="live_sports_HD",Australia Women vs New Zealand Women
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Jacksonville Jaguars vs Houston Texans" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark" group-title="live_sports_HD",Jacksonville Jaguars vs Houston Texans
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="New England Patriots vs New York Jets" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark" group-title="live_sports_HD",New England Patriots vs New York Jets
