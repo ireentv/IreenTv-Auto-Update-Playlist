@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 76,
   "live_count": 4,
-  "last_update": "03:16 PM 18-10-2026 BST",
+  "last_update": "03:31 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -1129,6 +1129,42 @@
       "total_channels": 1
     },
     {
+      "title": "Bahia vs Flamengo",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "bahia-vs-flamengo",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 03:30:00 AM",
+        "end_time_bst": "Oct 19, 2026, 05:50:00 AM",
+        "raw_start_utc": "2026/10/18 21:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Bahia",
+          "flag": "https://img.sofascore.com/api/v1/team/1955/image"
+        },
+        "team_b": {
+          "name": "Flamengo",
+          "flag": "https://img.sofascore.com/api/v1/team/5981/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
       "title": "Udinese vs Lecce",
       "sport": "Football",
       "sub_category": "Serie A",
@@ -1706,19 +1742,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/sd-1-4552224.m3u8?txSecret=86194b58030d23c6dd7af6ed8ff12e9f&txTime=6AD4975B",
-          "raw_link": "https://live.vivo155.com/live/sd-1-4552224.m3u8?txSecret=86194b58030d23c6dd7af6ed8ff12e9f&txTime=6AD4975B|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "SC Cambuur vs AZ Alkmaar",
@@ -2311,33 +2336,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Bahia vs Flamengo",
-      "sport": "Football",
-      "sub_category": "Campeonato Brasileiro Série A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "bahia-vs-flamengo",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 03:30:00 AM",
-        "end_time_bst": "Oct 19, 2026, 05:50:00 AM",
-        "raw_start_utc": "2026/10/18 21:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Bahia",
-          "flag": "https://img.sofascore.com/api/v1/team/1955/image"
-        },
-        "team_b": {
-          "name": "Flamengo",
-          "flag": "https://img.sofascore.com/api/v1/team/5981/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
       "channels": [],
       "total_channels": 0
     },

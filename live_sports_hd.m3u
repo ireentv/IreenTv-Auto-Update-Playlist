@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 76
 # Live Count     : 4
-# Last Update    : 03:16 PM 18-10-2026 BST
+# Last Update    : 03:31 PM 18-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -184,6 +184,8 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Gremio vs Cruzeiro" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/325/image/dark" group-title="live_sports_HD",Gremio vs Cruzeiro
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-name="Bahia vs Flamengo" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/325/image/dark" group-title="live_sports_HD",Bahia vs Flamengo
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Udinese vs Lecce (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_sports_HD",Udinese vs Lecce (Server 1 - Raw Link)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -229,8 +231,3 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Karlsruher SC vs Darmstadt 98" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/44/image/dark" group-title="live_sports_HD",Karlsruher SC vs Darmstadt 98
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-#EXTINF:-1 tvg-name="PEC Zwolle vs Go Ahead Eagles" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/37/image/dark" group-title="live_sports_HD",PEC Zwolle vs Go Ahead Eagles
-#EXTVLCOPT:http-referrer=https://player.online878.com/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
-https://live.vivo155.com/live/sd-1-4552224.m3u8?txSecret=86194b58030d23c6dd7af6ed8ff12e9f&txTime=6AD4975B|Referer=https://player.online878.com/
