@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 75,
+  "channels_amount": 76,
   "live_count": 1,
-  "last_update": "11:46 AM 18-10-2026 BST",
+  "last_update": "12:01 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -1408,6 +1408,78 @@
       "total_channels": 1
     },
     {
+      "title": "FC Twente vs FC Utrecht",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "fc-twente-vs-fc-utrecht",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 12:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 02:20:00 AM",
+        "raw_start_utc": "2026/10/18 18:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "FC Twente",
+          "flag": "https://img.sofascore.com/api/v1/team/2955/image"
+        },
+        "team_b": {
+          "name": "FC Utrecht",
+          "flag": "https://img.sofascore.com/api/v1/team/2948/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "NEC Nijmegen vs Fortuna Sittard",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "nec-nijmegen-vs-fortuna-sittard",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 12:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 02:20:00 AM",
+        "raw_start_utc": "2026/10/18 18:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "NEC Nijmegen",
+          "flag": "https://img.sofascore.com/api/v1/team/2962/image"
+        },
+        "team_b": {
+          "name": "Fortuna Sittard",
+          "flag": "https://img.sofascore.com/api/v1/team/2957/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
       "title": "AD Ceuta vs Real Oviedo",
       "sport": "Football",
       "sub_category": "LaLiga 2",
@@ -1611,17 +1683,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Basaksehir FK vs Gaziantep FK",
@@ -1647,17 +1710,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Pakistan vs Sri Lanka",
@@ -1791,6 +1845,33 @@
         }
       },
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "UFC LIVE",
+      "sport": "Football",
+      "sub_category": "UFC 333",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "ufc-live",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 24, 2026, 08:00:53 PM",
+        "end_time_bst": "Oct 25, 2026, 06:00:58 AM",
+        "raw_start_utc": "2026/10/24 14:00:53 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "A. Volkanovski",
+          "flag": "https://img.sofascore.com/api/v1/team/467404/image"
+        },
+        "team_b": {
+          "name": "M. Evloev",
+          "flag": "https://img.sofascore.com/api/v1/team/467455/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/19906/image",
       "channels": [],
       "total_channels": 0
     },
@@ -2389,60 +2470,6 @@
       "total_channels": 0
     },
     {
-      "title": "FC Twente vs FC Utrecht",
-      "sport": "Football",
-      "sub_category": "VriendenLoterij Eredivisie",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "fc-twente-vs-fc-utrecht",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 12:00:00 AM",
-        "end_time_bst": "Oct 19, 2026, 02:20:00 AM",
-        "raw_start_utc": "2026/10/18 18:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "FC Twente",
-          "flag": "https://img.sofascore.com/api/v1/team/2955/image"
-        },
-        "team_b": {
-          "name": "FC Utrecht",
-          "flag": "https://img.sofascore.com/api/v1/team/2948/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "NEC Nijmegen vs Fortuna Sittard",
-      "sport": "Football",
-      "sub_category": "VriendenLoterij Eredivisie",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "nec-nijmegen-vs-fortuna-sittard",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 12:00:00 AM",
-        "end_time_bst": "Oct 19, 2026, 02:20:00 AM",
-        "raw_start_utc": "2026/10/18 18:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "NEC Nijmegen",
-          "flag": "https://img.sofascore.com/api/v1/team/2962/image"
-        },
-        "team_b": {
-          "name": "Fortuna Sittard",
-          "flag": "https://img.sofascore.com/api/v1/team/2957/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
       "title": "Burgos Club de Futbol vs CE Sabadell",
       "sport": "Football",
       "sub_category": "LaLiga 2",
@@ -2551,29 +2578,29 @@
       "total_channels": 0
     },
     {
-      "title": "UFC LIVE",
-      "sport": "Football",
-      "sub_category": "UFC",
-      "status": "Ended",
+      "title": "Cleveland Guardians vs Tampa Bay Rays",
+      "sport": "Baseball",
+      "sub_category": "MLB",
+      "status": "Upcoming",
       "is_hot": false,
-      "slug": "ufc-live",
+      "slug": "cleveland-guardians-vs-tampa-bay-rays",
       "schedule": {
         "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 03:00:53 AM",
-        "end_time_bst": "Oct 18, 2026, 10:00:57 AM",
-        "raw_start_utc": "2026/10/17 21:00:53 +0000"
+        "start_time_bst": "Oct 19, 2026, 03:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 06:00:00 AM",
+        "raw_start_utc": "2026/10/18 21:00:00 +0000"
       },
       "teams": {
         "team_a": {
-          "name": "J. Buckley",
-          "flag": "https://img.sofascore.com/api/v1/team/461599/image"
+          "name": "Cleveland Guardians",
+          "flag": "https://img.sofascore.com/api/v1/team/3650/image"
         },
         "team_b": {
-          "name": "M. Malott",
-          "flag": "https://img.sofascore.com/api/v1/team/464691/image"
+          "name": "Tampa Bay Rays",
+          "flag": "https://img.sofascore.com/api/v1/team/3653/image"
         }
       },
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/19906/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
       "channels": [],
       "total_channels": 0
     }
