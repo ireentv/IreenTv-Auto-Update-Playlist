@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 52,
-  "live_count": 13,
-  "last_update": "11:56 PM 18-10-2026 BST",
+  "live_count": 15,
+  "last_update": "12:01 AM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -625,6 +625,86 @@
       "total_channels": 7
     },
     {
+      "title": "FC Twente vs FC Utrecht",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "fc-twente-vs-fc-utrecht",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 12:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 02:20:00 AM",
+        "raw_start_utc": "2026/10/18 18:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "FC Twente",
+          "flag": "https://img.sofascore.com/api/v1/team/2955/image"
+        },
+        "team_b": {
+          "name": "FC Utrecht",
+          "flag": "https://img.sofascore.com/api/v1/team/2948/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "channels": [
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/FYYYAAAAQQ.m3u8",
+          "raw_link": "http://193.47.62.44/hls/FYYYAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "NEC Nijmegen vs Fortuna Sittard",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "nec-nijmegen-vs-fortuna-sittard",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 12:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 02:20:00 AM",
+        "raw_start_utc": "2026/10/18 18:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "NEC Nijmegen",
+          "flag": "https://img.sofascore.com/api/v1/team/2962/image"
+        },
+        "team_b": {
+          "name": "Fortuna Sittard",
+          "flag": "https://img.sofascore.com/api/v1/team/2957/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "channels": [
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.44/hls/FYYYAAAAQ.m3u8",
+          "raw_link": "http://193.47.62.44/hls/FYYYAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
       "title": "Girona FC vs FC Andorra",
       "sport": "Football",
       "sub_category": "LaLiga 2",
@@ -1235,86 +1315,6 @@
           "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
           "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
           "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "FC Twente vs FC Utrecht",
-      "sport": "Football",
-      "sub_category": "VriendenLoterij Eredivisie",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "fc-twente-vs-fc-utrecht",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 12:00:00 AM",
-        "end_time_bst": "Oct 19, 2026, 02:20:00 AM",
-        "raw_start_utc": "2026/10/18 18:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "FC Twente",
-          "flag": "https://img.sofascore.com/api/v1/team/2955/image"
-        },
-        "team_b": {
-          "name": "FC Utrecht",
-          "flag": "https://img.sofascore.com/api/v1/team/2948/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "channels": [
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.44/hls/FYYYAAAAQQ.m3u8",
-          "raw_link": "http://193.47.62.44/hls/FYYYAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
-      "title": "NEC Nijmegen vs Fortuna Sittard",
-      "sport": "Football",
-      "sub_category": "VriendenLoterij Eredivisie",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "nec-nijmegen-vs-fortuna-sittard",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 12:00:00 AM",
-        "end_time_bst": "Oct 19, 2026, 02:20:00 AM",
-        "raw_start_utc": "2026/10/18 18:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "NEC Nijmegen",
-          "flag": "https://img.sofascore.com/api/v1/team/2962/image"
-        },
-        "team_b": {
-          "name": "Fortuna Sittard",
-          "flag": "https://img.sofascore.com/api/v1/team/2957/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "channels": [
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.44/hls/FYYYAAAAQ.m3u8",
-          "raw_link": "http://193.47.62.44/hls/FYYYAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
           "drm_key": null
         }
       ],
