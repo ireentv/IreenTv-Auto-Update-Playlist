@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 74,
   "live_count": 9,
-  "last_update": "06:46 PM 18-10-2026 BST",
+  "last_update": "06:54 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -1262,12 +1262,30 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "channels": [
         {
+          "channel_name": "FUBO SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/hqnp6c0bi3/out/v1/ee234bf8b2854366834b938725860805/1c08e2cf-efea-4f89-98ed-2c8d9d47a71f-cenc.mpd?aws_sessionId=4dcc9a76-1a4f-4e6b-b331-5e24f4ce67b5",
+          "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/hqnp6c0bi3/out/v1/ee234bf8b2854366834b938725860805/1c08e2cf-efea-4f89-98ed-2c8d9d47a71f-cenc.mpd?aws_sessionId=4dcc9a76-1a4f-4e6b-b331-5e24f4ce67b5",
+          "headers": {},
+          "drm_key": "bc6f302fd61c2e2f07649312886340b2:3998a71b90d98d6f33812dfb81c6bef6"
+        },
+        {
           "channel_name": "PEACOCK TV HD",
           "stream_type": "HLS",
           "url": "https://chatgpt.hereisman.net/playlist/58249/load-playlist?",
           "raw_link": "https://chatgpt.hereisman.net/playlist/58249/load-playlist?|Referer=https://gooz.aapmains.net",
           "headers": {
             "Referer": "https://gooz.aapmains.net"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/hd-en-1-4558597.m3u8?txSecret=49703922a99761db75cd2292cedffd5f&txTime=6AD4D48D",
+          "raw_link": "https://live.vivo155.com/live/hd-en-1-4558597.m3u8?txSecret=49703922a99761db75cd2292cedffd5f&txTime=6AD4D48D|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
           },
           "drm_key": null
         },
@@ -1284,7 +1302,7 @@
           "drm_key": null
         }
       ],
-      "total_channels": 2
+      "total_channels": 4
     },
     {
       "title": "Brighton Hove Albion vs Crystal Palace",
@@ -1312,6 +1330,14 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "channels": [
         {
+          "channel_name": "FUBO SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/lsjasrlv30/out/v1/38d1a6a0ee4e4ff2aa8b760d07cabb9e/2397bdca-9c1e-40a0-9fef-8c298d97d7e7-cenc.mpd?aws_sessionId=6343b818-4d5f-435e-92f4-7bf926aeed6c",
+          "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/lsjasrlv30/out/v1/38d1a6a0ee4e4ff2aa8b760d07cabb9e/2397bdca-9c1e-40a0-9fef-8c298d97d7e7-cenc.mpd?aws_sessionId=6343b818-4d5f-435e-92f4-7bf926aeed6c",
+          "headers": {},
+          "drm_key": "e09a0900100e5ac77d4adb45a602a86b:7da511a38053d3e150d38f47ac7d8298"
+        },
+        {
           "channel_name": "SKY SPORTS - AQ",
           "stream_type": "HLS",
           "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=oQHxVF62YP2JSnxUwT4p-g&e=2092290550&scheme=https",
@@ -1332,6 +1358,16 @@
           "drm_key": null
         },
         {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/hd-en-1-4558600.m3u8?txSecret=28a80d343e6e92ba5eaa8aac3ec7c80a&txTime=6AD4D4F1",
+          "raw_link": "https://live.vivo155.com/live/hd-en-1-4558600.m3u8?txSecret=28a80d343e6e92ba5eaa8aac3ec7c80a&txTime=6AD4D4F1|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
+          },
+          "drm_key": null
+        },
+        {
           "channel_name": "LOW SERVER",
           "stream_type": "HLS",
           "url": "http://193.47.62.50/hls/H000A.m3u8",
@@ -1344,7 +1380,7 @@
           "drm_key": null
         }
       ],
-      "total_channels": 3
+      "total_channels": 5
     },
     {
       "title": "Nottingham Forest vs Arsenal",
@@ -1410,12 +1446,30 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "channels": [
         {
+          "channel_name": "FUBO SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/yswd4hguk2/out/v1/07d94e5695564616bc21118f294f6cc7/ae3c4fa7-7ede-4a71-bbd5-502b5656295b-cenc.mpd?aws_sessionId=2f57420c-90a2-45be-b8f4-d4cab84c9c0c",
+          "raw_link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/yswd4hguk2/out/v1/07d94e5695564616bc21118f294f6cc7/ae3c4fa7-7ede-4a71-bbd5-502b5656295b-cenc.mpd?aws_sessionId=2f57420c-90a2-45be-b8f4-d4cab84c9c0c",
+          "headers": {},
+          "drm_key": "71e936b6a41fec84206be5fd5732df0f:3973a4ae073d96957c525f06c8f78220"
+        },
+        {
           "channel_name": "USA NETWORK HD",
           "stream_type": "HLS",
           "url": "https://chatgpt.hereisman.net/playlist/58251/load-playlist-multi?",
           "raw_link": "https://chatgpt.hereisman.net/playlist/58251/load-playlist-multi?|Referer=https://gooz.aapmains.net",
           "headers": {
             "Referer": "https://gooz.aapmains.net"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/hd-en-1-4558606.m3u8?txSecret=f3628b1beaa85d21a19dc3ca102ea804&txTime=6AD4D4C9",
+          "raw_link": "https://live.vivo155.com/live/hd-en-1-4558606.m3u8?txSecret=f3628b1beaa85d21a19dc3ca102ea804&txTime=6AD4D4C9|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
           },
           "drm_key": null
         },
@@ -1432,7 +1486,7 @@
           "drm_key": null
         }
       ],
-      "total_channels": 2
+      "total_channels": 4
     },
     {
       "title": "Fluminense vs Santos",
@@ -1651,6 +1705,16 @@
           "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
         },
         {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/hd-en-1-4549157.m3u8?txSecret=7df158aaed7cd612f66c5852b2d85e43&txTime=6AD4D512",
+          "raw_link": "https://live.vivo155.com/live/hd-en-1-4549157.m3u8?txSecret=7df158aaed7cd612f66c5852b2d85e43&txTime=6AD4D512|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
+          },
+          "drm_key": null
+        },
+        {
           "channel_name": "LOW SERVER",
           "stream_type": "HLS",
           "url": "http://193.47.62.41/hls/LCCC.m3u8",
@@ -1663,7 +1727,7 @@
           "drm_key": null
         }
       ],
-      "total_channels": 4
+      "total_channels": 5
     },
     {
       "title": "Juventus vs Lazio",
