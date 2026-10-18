@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 46,
   "live_count": 17,
-  "last_update": "01:15 AM 19-10-2026 BST",
+  "last_update": "01:31 AM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -772,6 +772,16 @@
           "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
         },
         {
+          "channel_name": "CazéTV - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6"
+        },
+        {
           "channel_name": "ESPN DEPORTES HD",
           "stream_type": "HLS",
           "url": "https://chatgpt.hereisman.net/playlist/58284/load-playlist-multi?",
@@ -816,7 +826,7 @@
           "drm_key": null
         }
       ],
-      "total_channels": 8
+      "total_channels": 9
     },
     {
       "title": "Olympique Lyonnais vs Nice",
