@@ -4,8 +4,8 @@
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
 # Channels Amount: 76
-# Live Count     : 4
-# Last Update    : 04:05 PM 18-10-2026 BST
+# Live Count     : 5
+# Last Update    : 04:16 PM 18-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -46,6 +46,16 @@ https://dai-fancode.pages.dev/mumbai/4249782_english_hls_bf21f9fa2f43134_1ta-di_
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
+#EXTINF:-1 tvg-name="PEC Zwolle vs Go Ahead Eagles (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/37/image/dark" group-title="live_sports_HD",PEC Zwolle vs Go Ahead Eagles (Server 1 - Raw Link)
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
+https://live.vivo155.com/live/sd-1-4552224.m3u8?txSecret=86194b58030d23c6dd7af6ed8ff12e9f&txTime=6AD4975B|Referer=https://player.online878.com/
+#EXTINF:-1 tvg-name="PEC Zwolle vs Go Ahead Eagles (Server 2 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/37/image/dark" group-title="live_sports_HD",PEC Zwolle vs Go Ahead Eagles (Server 2 - Raw Link)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+http://193.47.62.44/hls/4UUUAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Pakistan vs Sri Lanka (Server 1 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="live_sports_HD",Pakistan vs Sri Lanka (Server 1 - Url)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -228,6 +238,4 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 #EXTINF:-1 tvg-name="Arminia Bielefeld vs VfL Osnabruck" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/44/image/dark" group-title="live_sports_HD",Arminia Bielefeld vs VfL Osnabruck
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="SG Dynamo Dresden vs 1. FC Magdeburg" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/44/image/dark" group-title="live_sports_HD",SG Dynamo Dresden vs 1. FC Magdeburg
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-#EXTINF:-1 tvg-name="Karlsruher SC vs Darmstadt 98" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/44/image/dark" group-title="live_sports_HD",Karlsruher SC vs Darmstadt 98
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
