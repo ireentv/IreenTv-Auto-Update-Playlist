@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 76,
   "live_count": 3,
-  "last_update": "02:01 PM 18-10-2026 BST",
+  "last_update": "02:05 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -147,9 +147,11 @@
         {
           "channel_name": "TAPMAD - AQ",
           "stream_type": "HLS",
-          "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-          "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-          "headers": {},
+          "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8?",
+          "raw_link": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8?|referer=https://tapmad.com/",
+          "headers": {
+            "referer": "https://tapmad.com/"
+          },
           "drm_key": null
         },
         {
@@ -689,6 +691,42 @@
         "team_b": {
           "name": "Tennessee Titans",
           "flag": "https://img.sofascore.com/api/v1/team/4431/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Los Angeles Rams vs Arizona Cardinals",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "los-angeles-rams-vs-arizona-cardinals",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 02:05:00 AM",
+        "end_time_bst": "Oct 19, 2026, 05:05:00 AM",
+        "raw_start_utc": "2026/10/18 20:05:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Los Angeles Rams",
+          "flag": "https://img.sofascore.com/api/v1/team/4387/image"
+        },
+        "team_b": {
+          "name": "Arizona Cardinals",
+          "flag": "https://img.sofascore.com/api/v1/team/4412/image"
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
@@ -1664,17 +1702,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "NEC Nijmegen vs Fortuna Sittard",
@@ -2078,33 +2107,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Los Angeles Rams vs Arizona Cardinals",
-      "sport": "Football",
-      "sub_category": "NFL",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "los-angeles-rams-vs-arizona-cardinals",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 02:05:00 AM",
-        "end_time_bst": "Oct 19, 2026, 05:05:00 AM",
-        "raw_start_utc": "2026/10/18 20:05:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Los Angeles Rams",
-          "flag": "https://img.sofascore.com/api/v1/team/4387/image"
-        },
-        "team_b": {
-          "name": "Arizona Cardinals",
-          "flag": "https://img.sofascore.com/api/v1/team/4412/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
       "channels": [],
       "total_channels": 0
     },
