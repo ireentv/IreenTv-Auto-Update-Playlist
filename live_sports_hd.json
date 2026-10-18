@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 43,
-  "live_count": 6,
-  "last_update": "05:15 AM 19-10-2026 BST",
+  "live_count": 4,
+  "last_update": "05:31 AM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,134 +19,6 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
-    },
-    {
-      "title": "Kansas City Chiefs vs Los Angeles Chargers",
-      "sport": "Football",
-      "sub_category": "NFL",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "kansas-city-chiefs-vs-los-angeles-chargers",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
-        "end_time_bst": "Oct 19, 2026, 05:25:00 AM",
-        "raw_start_utc": "2026/10/18 20:25:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Kansas City Chiefs",
-          "flag": "https://img.sofascore.com/api/v1/team/4422/image"
-        },
-        "team_b": {
-          "name": "Los Angeles Chargers",
-          "flag": "https://img.sofascore.com/api/v1/team/4429/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/4422/image",
-      "channels": [
-        {
-          "channel_name": "TSN SPORTS 1 - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-        },
-        {
-          "channel_name": "TSN SPORTS 3 - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
-        },
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://chatgpt.hereisman.net/playlist/58294/load-playlist?",
-          "raw_link": "https://chatgpt.hereisman.net/playlist/58294/load-playlist?|Referer=https://gooz.aapmains.net",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_type": "HLS",
-          "url": "https://edgestream5.pro/hls/poertjnvnev40.m3u8?",
-          "raw_link": "https://edgestream5.pro/hls/poertjnvnev40.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "headers": {
-            "Referer": "https://streamscenter.online/",
-            "Origin": "https://streamscenter.online"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 4
-    },
-    {
-      "title": "Las Vegas Raiders vs Buffalo Bills",
-      "sport": "Football",
-      "sub_category": "NFL",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "las-vegas-raiders-vs-buffalo-bills",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
-        "end_time_bst": "Oct 19, 2026, 05:25:00 AM",
-        "raw_start_utc": "2026/10/18 20:25:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Las Vegas Raiders",
-          "flag": "https://img.sofascore.com/api/v1/team/4390/image"
-        },
-        "team_b": {
-          "name": "Buffalo Bills",
-          "flag": "https://img.sofascore.com/api/v1/team/4414/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/4390/image",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://chatgpt.hereisman.net/playlist/58295/load-playlist?",
-          "raw_link": "https://chatgpt.hereisman.net/playlist/58295/load-playlist?|Referer=https://gooz.aapmains.net",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "CRICFy NFL",
-          "stream_type": "HLS",
-          "url": "https://chatgpt.hereisman.net/playlist/58288/load-playlist?",
-          "raw_link": "https://chatgpt.hereisman.net/playlist/58288/load-playlist?|Referer=https://gooz.aapmains.net",
-          "headers": {
-            "Referer": "https://gooz.aapmains.net"
-          },
-          "drm_key": null
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_type": "HLS",
-          "url": "https://edgestream5.pro/hls/cwxcnbscbsq39.m3u8?",
-          "raw_link": "https://edgestream5.pro/hls/cwxcnbscbsq39.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "headers": {
-            "Referer": "https://streamscenter.online/",
-            "Origin": "https://streamscenter.online"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 3
     },
     {
       "title": "Bahia vs Flamengo",
@@ -1111,6 +983,60 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/4387/image",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Kansas City Chiefs vs Los Angeles Chargers",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "kansas-city-chiefs-vs-los-angeles-chargers",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
+        "end_time_bst": "Oct 19, 2026, 05:25:00 AM",
+        "raw_start_utc": "2026/10/18 20:25:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Kansas City Chiefs",
+          "flag": "https://img.sofascore.com/api/v1/team/4422/image"
+        },
+        "team_b": {
+          "name": "Los Angeles Chargers",
+          "flag": "https://img.sofascore.com/api/v1/team/4429/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/4422/image",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Las Vegas Raiders vs Buffalo Bills",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "las-vegas-raiders-vs-buffalo-bills",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
+        "end_time_bst": "Oct 19, 2026, 05:25:00 AM",
+        "raw_start_utc": "2026/10/18 20:25:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Las Vegas Raiders",
+          "flag": "https://img.sofascore.com/api/v1/team/4390/image"
+        },
+        "team_b": {
+          "name": "Buffalo Bills",
+          "flag": "https://img.sofascore.com/api/v1/team/4414/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/4390/image",
       "channels": [],
       "total_channels": 0
     },
