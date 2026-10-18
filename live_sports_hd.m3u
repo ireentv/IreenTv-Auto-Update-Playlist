@@ -4,17 +4,12 @@
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
 # Channels Amount: 43
-# Live Count     : 7
-# Last Update    : 05:01 AM 19-10-2026 BST
+# Live Count     : 6
+# Last Update    : 05:05 AM 19-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
 
-#EXTINF:-1 tvg-name="Los Angeles Rams vs Arizona Cardinals" tvg-logo="https://img.sofascore.com/api/v1/team/4387/image" group-title="live_sports_HD",Los Angeles Rams vs Arizona Cardinals
-#EXTVLCOPT:http-referrer=https://streamscenter.online/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-https://edgestream3.pro/hls/ysvbxwnbc38.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
 #EXTINF:-1 tvg-name="Kansas City Chiefs vs Los Angeles Chargers (Server 1 - Raw Link)" tvg-logo="https://img.sofascore.com/api/v1/team/4422/image" group-title="live_sports_HD",Kansas City Chiefs vs Los Angeles Chargers (Server 1 - Raw Link)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
