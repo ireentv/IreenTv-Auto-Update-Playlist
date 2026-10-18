@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 76,
   "live_count": 4,
-  "last_update": "02:53 PM 18-10-2026 BST",
+  "last_update": "03:00 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -2045,6 +2045,33 @@
       "total_channels": 0
     },
     {
+      "title": "Cleveland Guardians vs Tampa Bay Rays",
+      "sport": "Baseball",
+      "sub_category": "MLB",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "cleveland-guardians-vs-tampa-bay-rays",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 03:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 06:00:00 AM",
+        "raw_start_utc": "2026/10/18 21:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Cleveland Guardians",
+          "flag": "https://img.sofascore.com/api/v1/team/3650/image"
+        },
+        "team_b": {
+          "name": "Tampa Bay Rays",
+          "flag": "https://img.sofascore.com/api/v1/team/3653/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
       "title": "Formula 1",
       "sport": "Motorsport",
       "sub_category": "Formula 1",
@@ -2635,33 +2662,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Cleveland Guardians vs Tampa Bay Rays",
-      "sport": "Baseball",
-      "sub_category": "MLB",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "cleveland-guardians-vs-tampa-bay-rays",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 03:00:00 AM",
-        "end_time_bst": "Oct 19, 2026, 06:00:00 AM",
-        "raw_start_utc": "2026/10/18 21:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Cleveland Guardians",
-          "flag": "https://img.sofascore.com/api/v1/team/3650/image"
-        },
-        "team_b": {
-          "name": "Tampa Bay Rays",
-          "flag": "https://img.sofascore.com/api/v1/team/3653/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
       "channels": [],
       "total_channels": 0
     }
