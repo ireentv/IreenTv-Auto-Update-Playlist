@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 1,
+  "channels_amount": 75,
   "live_count": 1,
-  "last_update": "11:16 AM 18-10-2026 BST",
+  "last_update": "11:30 AM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,6 +19,2563 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
+    },
+    {
+      "title": "South Africa vs Australia",
+      "sport": "Cricket",
+      "sub_category": "Test International",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "south-africa-vs-australiaa",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 02:00:57 PM",
+        "end_time_bst": "Oct 18, 2026, 10:00:02 PM",
+        "raw_start_utc": "2026/10/18 08:00:57 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "South Africa",
+          "flag": "https://img.sofascore.com/api/v1/team/187747/image"
+        },
+        "team_b": {
+          "name": "Australia",
+          "flag": "https://img.sofascore.com/api/v1/team/187746/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "channels": [
+        {
+          "channel_name": "WILLOW - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/znvp8tdked/out/v1/efa526b4c846488188d9acd6f781caa5/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/znvp8tdked/out/v1/efa526b4c846488188d9acd6f781caa5/cenc.mpd",
+          "headers": {},
+          "drm_key": "7578716f99caa689b9a4d2bdce753651:24d34e5d771ed71f519c8f8e971c3bd8"
+        },
+        {
+          "channel_name": "FANCODE - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+        },
+        {
+          "channel_name": "SKY CRICKET - AQ",
+          "stream_type": "HLS",
+          "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+          "raw_link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+          "headers": {
+            "user-agent": "Mozilla"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "WILLOW - ALT",
+          "stream_type": "DASH",
+          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/znvp8tdked/out/v1/efa526b4c846488188d9acd6f781caa5/cenc.mpd",
+          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/znvp8tdked/out/v1/efa526b4c846488188d9acd6f781caa5/cenc.mpd",
+          "headers": {},
+          "drm_key": "7578716f99caa689b9a4d2bdce753651:24d34e5d771ed71f519c8f8e971c3bd8"
+        },
+        {
+          "channel_name": "TAPMAD - AQ",
+          "stream_type": "HLS",
+          "url": "https://saseries.akamaized.net/hls/live/2110097/28593jkiL-tapmad/master.m3u8",
+          "raw_link": "https://saseries.akamaized.net/hls/live/2110097/28593jkiL-tapmad/master.m3u8|referer=https://tapmad.com/",
+          "headers": {
+            "referer": "https://tapmad.com/"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "FOX CRICKET HD",
+          "stream_type": "HLS",
+          "url": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
+          "raw_link": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "A SPORTS HD",
+          "stream_type": "HLS",
+          "url": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
+          "raw_link": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "WILLOW HD",
+          "stream_type": "HLS",
+          "url": "http://mag.tivi-one-iptv.net/play/live.php?mac=00:1A:79:F5:CC:FD&stream=809386&extension=m3u8",
+          "raw_link": "http://mag.tivi-one-iptv.net/play/live.php?mac=00:1A:79:F5:CC:FD&stream=809386&extension=m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 8
+    },
+    {
+      "title": "WCL World Championship of Legends",
+      "sport": "Cricket",
+      "sub_category": "World Championship of Legends",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "wcl-world-championship-of-legends",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 08:30:31 PM",
+        "end_time_bst": "Oct 18, 2026, 11:55:36 PM",
+        "raw_start_utc": "2026/10/18 14:30:31 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "WCL",
+          "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZ0c8Wb0slhQCjc_XsPzMuqyX52rG-yapyEgJpdSmSQ&s=10"
+        },
+        "team_b": {
+          "name": "WCL",
+          "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZ0c8Wb0slhQCjc_XsPzMuqyX52rG-yapyEgJpdSmSQ&s=10"
+        }
+      },
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZ0c8Wb0slhQCjc_XsPzMuqyX52rG-yapyEgJpdSmSQ&s=10",
+      "channels": [
+        {
+          "channel_name": "WILLOW - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
+          "headers": {},
+          "drm_key": "5a0e73fa4a0c0573476bf83d0e677b37:dcddd039f451b85d8463a35624e42aaf"
+        },
+        {
+          "channel_name": "FANCODE - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+          "headers": {},
+          "drm_key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+        },
+        {
+          "channel_name": "STARZPLAY - AQ",
+          "stream_type": "DASH",
+          "url": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
+          "raw_link": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
+          "headers": {},
+          "drm_key": "0ae4f162eec3e6f2b580a5bf0f4a64d4:03483335db81cba5bbcf51b6d31196d9"
+        },
+        {
+          "channel_name": "WILLOW - ALT",
+          "stream_type": "DASH",
+          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
+          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/erfohta9mo/out/v1/37c9d4426c814b168257fc9b34551119/cenc.mpd",
+          "headers": {},
+          "drm_key": "5a0e73fa4a0c0573476bf83d0e677b37:dcddd039f451b85d8463a35624e42aaf"
+        },
+        {
+          "channel_name": "WILLOW HD",
+          "stream_type": "HLS",
+          "url": "https://df3xownvf1f4t.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/willow_tv/playlist.m3u8",
+          "raw_link": "https://df3xownvf1f4t.cloudfront.net/v1/master/071c0467fcd02420cdf0d8a1ca3524b96c27a151/willow_tv/playlist.m3u8",
+          "headers": {},
+          "drm_key": null
+        },
+        {
+          "channel_name": "FANCODE - IN",
+          "stream_type": "HLS",
+          "url": "https://dai-fancode.pages.dev/mumbai/4249229_english_hls_dd4592751127063_1ta-di_h264/index.m3u8",
+          "raw_link": "https://dai-fancode.pages.dev/mumbai/4249229_english_hls_dd4592751127063_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+          "headers": {
+            "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+            "Referer": "https://fancode.com/"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 6
+    },
+    {
+      "title": "India Women vs Zimbabwe Women",
+      "sport": "Cricket",
+      "sub_category": "Twenty20 International Women",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "india-women-vs-zimbabwe-women",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 07:30:36 PM",
+        "end_time_bst": "Oct 18, 2026, 11:55:41 PM",
+        "raw_start_utc": "2026/10/18 13:30:36 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "India Women",
+          "flag": "https://img.sofascore.com/api/v1/team/213119/image"
+        },
+        "team_b": {
+          "name": "Zimbabwe Women",
+          "flag": "https://img.sofascore.com/api/v1/team/417062/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
+      "channels": [
+        {
+          "channel_name": "WILLOW - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oazcbevnl7/out/v1/bda05b242720469ca9fb9fabbde64cc2/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oazcbevnl7/out/v1/bda05b242720469ca9fb9fabbde64cc2/cenc.mpd",
+          "headers": {},
+          "drm_key": "bfeaf0c7782327ca574f32b1629080b6:c03b21556a4cf97130228258de3fe45d"
+        },
+        {
+          "channel_name": "TNT SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+          "headers": {},
+          "drm_key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+        },
+        {
+          "channel_name": "WILLOW - ALT",
+          "stream_type": "DASH",
+          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oazcbevnl7/out/v1/bda05b242720469ca9fb9fabbde64cc2/cenc.mpd",
+          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oazcbevnl7/out/v1/bda05b242720469ca9fb9fabbde64cc2/cenc.mpd",
+          "headers": {},
+          "drm_key": "bfeaf0c7782327ca574f32b1629080b6:c03b21556a4cf97130228258de3fe45d"
+        },
+        {
+          "channel_name": "WILLOW HD",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+          "headers": {},
+          "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+        },
+        {
+          "channel_name": "HOTSTAR ENG - IN",
+          "stream_type": "HLS",
+          "url": "https://livetv.hotstar.com/mp1/gec-india-1540068247/9a6e7c30f9194cc1a6a6250cedb115fb/index.mpd?",
+          "raw_link": "https://livetv.hotstar.com/mp1/gec-india-1540068247/9a6e7c30f9194cc1a6a6250cedb115fb/index.mpd?|cookie=hdntl=exp=1792177960~acl=%2f*~id=fda09ca3277ee6e61131f47f7f2628fd~data=hdntl~hmac=6c4850d14e3f7375f98b13608c4269f0806ebace7f1186ad44a2995aca7e69a2&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=e85897bf6e594d698b7c82646c8e0000:d2dda31234ae40538843e871cd4dcc2a",
+          "headers": {
+            "cookie": "hdntl",
+            "referer": "https://www.hotstar.com/",
+            "origin": "https://www.hotstar.com",
+            "drmScheme": "clearkey",
+            "drmLicense": "e85897bf6e594d698b7c82646c8e0000:d2dda31234ae40538843e871cd4dcc2a"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "HOTSTAR HIN - IN",
+          "stream_type": "HLS",
+          "url": "https://livetv.hotstar.com/mp1/gec-india-1540068295/5a4eb3ac6e424eef8a30962d2232f80f/index.mpd?",
+          "raw_link": "https://livetv.hotstar.com/mp1/gec-india-1540068295/5a4eb3ac6e424eef8a30962d2232f80f/index.mpd?|cookie=hdntl=exp=1792177960~acl=%2f*~id=fda09ca3277ee6e61131f47f7f2628fd~data=hdntl~hmac=6c4850d14e3f7375f98b13608c4269f0806ebace7f1186ad44a2995aca7e69a2&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=b9f1cb8a1361457bbd8097f8c2590000:1960274b7ba344cb899eba2e80916774",
+          "headers": {
+            "cookie": "hdntl",
+            "referer": "https://www.hotstar.com/",
+            "origin": "https://www.hotstar.com",
+            "drmScheme": "clearkey",
+            "drmLicense": "b9f1cb8a1361457bbd8097f8c2590000:1960274b7ba344cb899eba2e80916774"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "HOTSTAR TEL - IN",
+          "stream_type": "HLS",
+          "url": "https://livetv.hotstar.com/mp2/gec-india-1540068280/e8c0ed405e544793a1f827c477839581/index.mpd?",
+          "raw_link": "https://livetv.hotstar.com/mp2/gec-india-1540068280/e8c0ed405e544793a1f827c477839581/index.mpd?|cookie=hdntl=exp=1792177960~acl=%2f*~id=fda09ca3277ee6e61131f47f7f2628fd~data=hdntl~hmac=6c4850d14e3f7375f98b13608c4269f0806ebace7f1186ad44a2995aca7e69a2&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=4634b32328f242e3be51c3e06cde0000:42e90ab215bf4a438b55851b5e0f50dc",
+          "headers": {
+            "cookie": "hdntl",
+            "referer": "https://www.hotstar.com/",
+            "origin": "https://www.hotstar.com",
+            "drmScheme": "clearkey",
+            "drmLicense": "4634b32328f242e3be51c3e06cde0000:42e90ab215bf4a438b55851b5e0f50dc"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "HOTSTAR TAM - IN",
+          "stream_type": "HLS",
+          "url": "https://livetv.hotstar.com/mp2/gec-india-1540068334/3468fd902b12418598cabe63585e7efe/index.mpd?",
+          "raw_link": "https://livetv.hotstar.com/mp2/gec-india-1540068334/3468fd902b12418598cabe63585e7efe/index.mpd?|cookie=hdntl=exp=1792177960~acl=%2f*~id=fda09ca3277ee6e61131f47f7f2628fd~data=hdntl~hmac=6c4850d14e3f7375f98b13608c4269f0806ebace7f1186ad44a2995aca7e69a2&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=01cc63d414394296bb3e6cfaffee0000:c1fba587fc8b4218ade5ace1e62e5aaf",
+          "headers": {
+            "cookie": "hdntl",
+            "referer": "https://www.hotstar.com/",
+            "origin": "https://www.hotstar.com",
+            "drmScheme": "clearkey",
+            "drmLicense": "01cc63d414394296bb3e6cfaffee0000:c1fba587fc8b4218ade5ace1e62e5aaf"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "HOTSTAR KAN - IN",
+          "stream_type": "HLS",
+          "url": "https://livetv.hotstar.com/mp1/gec-india-1540068322/6409ab04235d4a0886656913f360c0a7/index.mpd?",
+          "raw_link": "https://livetv.hotstar.com/mp1/gec-india-1540068322/6409ab04235d4a0886656913f360c0a7/index.mpd?|cookie=hdntl=exp=1792177960~acl=%2f*~id=fda09ca3277ee6e61131f47f7f2628fd~data=hdntl~hmac=6c4850d14e3f7375f98b13608c4269f0806ebace7f1186ad44a2995aca7e69a2&referer=https://www.hotstar.com/&origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=eb2f9710abf44bb1bcf51400ccc00000:5f29f372823346e78934431f2a924065",
+          "headers": {
+            "cookie": "hdntl",
+            "referer": "https://www.hotstar.com/",
+            "origin": "https://www.hotstar.com",
+            "drmScheme": "clearkey",
+            "drmLicense": "eb2f9710abf44bb1bcf51400ccc00000:5f29f372823346e78934431f2a924065"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 9
+    },
+    {
+      "title": "Australia Women vs New Zealand Women",
+      "sport": "Cricket",
+      "sub_category": "Twenty20 International Women",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "australia-women-vs-new-zealand-women",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 02:15:00 PM",
+        "end_time_bst": "Oct 18, 2026, 06:15:00 PM",
+        "raw_start_utc": "2026/10/18 08:15:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Australia Women",
+          "flag": "https://img.sofascore.com/api/v1/team/213117/image"
+        },
+        "team_b": {
+          "name": "New Zealand Women",
+          "flag": "https://img.sofascore.com/api/v1/team/213115/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Jacksonville Jaguars vs Houston Texans",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "jacksonville-jaguars-vs-houston-texans",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 07:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 10:30:00 PM",
+        "raw_start_utc": "2026/10/18 13:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Jacksonville Jaguars",
+          "flag": "https://img.sofascore.com/api/v1/team/4386/image"
+        },
+        "team_b": {
+          "name": "Houston Texans",
+          "flag": "https://img.sofascore.com/api/v1/team/4324/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "New England Patriots vs New York Jets",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "new-england-patriots-vs-new-york-jets",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 11:00:00 PM",
+        "end_time_bst": "Oct 19, 2026, 02:00:00 AM",
+        "raw_start_utc": "2026/10/18 17:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "New England Patriots",
+          "flag": "https://img.sofascore.com/api/v1/team/4424/image"
+        },
+        "team_b": {
+          "name": "New York Jets",
+          "flag": "https://img.sofascore.com/api/v1/team/4427/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Philadelphia Eagles vs Carolina Panthers",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "philadelphia-eagles-vs-carolina-panthers",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 11:00:00 PM",
+        "end_time_bst": "Oct 19, 2026, 02:00:00 AM",
+        "raw_start_utc": "2026/10/18 17:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Philadelphia Eagles",
+          "flag": "https://img.sofascore.com/api/v1/team/4428/image"
+        },
+        "team_b": {
+          "name": "Carolina Panthers",
+          "flag": "https://img.sofascore.com/api/v1/team/4415/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Cleveland Browns vs Baltimore Ravens",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "cleveland-browns-vs-baltimore-ravens",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 11:00:00 PM",
+        "end_time_bst": "Oct 19, 2026, 02:00:00 AM",
+        "raw_start_utc": "2026/10/18 17:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Cleveland Browns",
+          "flag": "https://img.sofascore.com/api/v1/team/4417/image"
+        },
+        "team_b": {
+          "name": "Baltimore Ravens",
+          "flag": "https://img.sofascore.com/api/v1/team/4413/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Tampa Bay Buccaneers vs Pittsburgh Steelers",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "tampa-bay-buccaneers-vs-pittsburgh-steelers",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 11:00:00 PM",
+        "end_time_bst": "Oct 19, 2026, 02:00:00 AM",
+        "raw_start_utc": "2026/10/18 17:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Tampa Bay Buccaneers",
+          "flag": "https://img.sofascore.com/api/v1/team/4388/image"
+        },
+        "team_b": {
+          "name": "Pittsburgh Steelers",
+          "flag": "https://img.sofascore.com/api/v1/team/4345/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "New York Giants vs New Orleans Saints",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "new-york-giants-vs-new-orleans-saints",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 11:00:00 PM",
+        "end_time_bst": "Oct 19, 2026, 02:00:00 AM",
+        "raw_start_utc": "2026/10/18 17:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "New York Giants",
+          "flag": "https://img.sofascore.com/api/v1/team/4426/image"
+        },
+        "team_b": {
+          "name": "New Orleans Saints",
+          "flag": "https://img.sofascore.com/api/v1/team/4425/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Atlanta Falcons vs Chicago Bears",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "atlanta-falcons-vs-chicago-bears",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 11:00:00 PM",
+        "end_time_bst": "Oct 19, 2026, 02:00:00 AM",
+        "raw_start_utc": "2026/10/18 17:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Atlanta Falcons",
+          "flag": "https://img.sofascore.com/api/v1/team/4393/image"
+        },
+        "team_b": {
+          "name": "Chicago Bears",
+          "flag": "https://img.sofascore.com/api/v1/team/4391/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Indianapolis Colts vs Tennessee Titans",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "indianapolis-colts-vs-tennessee-titans",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 11:00:00 PM",
+        "end_time_bst": "Oct 19, 2026, 02:00:00 AM",
+        "raw_start_utc": "2026/10/18 17:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Indianapolis Colts",
+          "flag": "https://img.sofascore.com/api/v1/team/4421/image"
+        },
+        "team_b": {
+          "name": "Tennessee Titans",
+          "flag": "https://img.sofascore.com/api/v1/team/4431/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Bayer 04 Leverkusen vs SC Freiburg",
+      "sport": "Football",
+      "sub_category": "Bundesliga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "bayer-04-leverkusen-vs-sc-freiburg",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 07:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 09:50:00 PM",
+        "raw_start_utc": "2026/10/18 13:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Bayer 04 Leverkusen",
+          "flag": "https://img.sofascore.com/api/v1/team/2681/image"
+        },
+        "team_b": {
+          "name": "SC Freiburg",
+          "flag": "https://img.sofascore.com/api/v1/team/2538/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Borussia Mgladbach vs TSG Hoffenheim",
+      "sport": "Football",
+      "sub_category": "Bundesliga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "borussia-mgladbach-vs-tsg-hoffenheim",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 09:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 11:50:00 PM",
+        "raw_start_utc": "2026/10/18 15:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Borussia M'gladbach",
+          "flag": "https://img.sofascore.com/api/v1/team/2527/image"
+        },
+        "team_b": {
+          "name": "TSG Hoffenheim",
+          "flag": "https://img.sofascore.com/api/v1/team/2569/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Bournemouth vs Sunderland",
+      "sport": "Football",
+      "sub_category": "Premier League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "bournemouth-vs-sunderland",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 07:00:00 PM",
+        "end_time_bst": "Oct 18, 2026, 09:20:00 PM",
+        "raw_start_utc": "2026/10/18 13:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Bournemouth",
+          "flag": "https://img.sofascore.com/api/v1/team/60/image"
+        },
+        "team_b": {
+          "name": "Sunderland",
+          "flag": "https://img.sofascore.com/api/v1/team/41/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Brighton Hove Albion vs Crystal Palace",
+      "sport": "Football",
+      "sub_category": "Premier League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "brighton-hove-albion-vs-crystal-palace",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 07:00:00 PM",
+        "end_time_bst": "Oct 18, 2026, 09:20:00 PM",
+        "raw_start_utc": "2026/10/18 13:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Brighton & Hove Albion",
+          "flag": "https://img.sofascore.com/api/v1/team/30/image"
+        },
+        "team_b": {
+          "name": "Crystal Palace",
+          "flag": "https://img.sofascore.com/api/v1/team/7/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Nottingham Forest vs Arsenal",
+      "sport": "Football",
+      "sub_category": "Premier League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "nottingham-forest-vs-arsenal",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 09:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 11:50:00 PM",
+        "raw_start_utc": "2026/10/18 15:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Nottingham Forest",
+          "flag": "https://img.sofascore.com/api/v1/team/14/image"
+        },
+        "team_b": {
+          "name": "Arsenal",
+          "flag": "https://img.sofascore.com/api/v1/team/42/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Leeds United vs Manchester United",
+      "sport": "Football",
+      "sub_category": "Premier League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "leeds-united-vs-manchester-united",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 07:00:00 PM",
+        "end_time_bst": "Oct 18, 2026, 09:20:00 PM",
+        "raw_start_utc": "2026/10/18 13:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Leeds United",
+          "flag": "https://img.sofascore.com/api/v1/team/34/image"
+        },
+        "team_b": {
+          "name": "Manchester United",
+          "flag": "https://img.sofascore.com/api/v1/team/35/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Udinese vs Lecce",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "udinese-vs-lecce",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 04:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 06:50:00 PM",
+        "raw_start_utc": "2026/10/18 10:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Udinese",
+          "flag": "https://img.sofascore.com/api/v1/team/2695/image"
+        },
+        "team_b": {
+          "name": "Lecce",
+          "flag": "https://img.sofascore.com/api/v1/team/2689/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Fiorentina vs Como",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "fiorentina-vs-como",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 07:00:00 PM",
+        "end_time_bst": "Oct 18, 2026, 09:20:00 PM",
+        "raw_start_utc": "2026/10/18 13:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Fiorentina",
+          "flag": "https://img.sofascore.com/api/v1/team/2693/image"
+        },
+        "team_b": {
+          "name": "Como",
+          "flag": "https://img.sofascore.com/api/v1/team/2704/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Osasuna vs Real Racing Club",
+      "sport": "Football",
+      "sub_category": "LaLiga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "osasuna-vs-real-racing-club",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 06:00:00 PM",
+        "end_time_bst": "Oct 18, 2026, 08:20:00 PM",
+        "raw_start_utc": "2026/10/18 12:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Osasuna",
+          "flag": "https://img.sofascore.com/api/v1/team/2820/image"
+        },
+        "team_b": {
+          "name": "Real Racing Club",
+          "flag": "https://img.sofascore.com/api/v1/team/2835/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Celta Vigo vs Deportivo Alaves",
+      "sport": "Football",
+      "sub_category": "LaLiga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "celta-vigo-vs-deportivo-alaves",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 08:15:00 PM",
+        "end_time_bst": "Oct 18, 2026, 10:35:00 PM",
+        "raw_start_utc": "2026/10/18 14:15:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Celta Vigo",
+          "flag": "https://img.sofascore.com/api/v1/team/2821/image"
+        },
+        "team_b": {
+          "name": "Deportivo Alavés",
+          "flag": "https://img.sofascore.com/api/v1/team/2885/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Malaga CF vs Real Sociedad",
+      "sport": "Football",
+      "sub_category": "LaLiga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "malaga-cf-vs-real-sociedad",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 10:30:00 PM",
+        "end_time_bst": "Oct 19, 2026, 12:50:00 AM",
+        "raw_start_utc": "2026/10/18 16:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Málaga CF",
+          "flag": "https://img.sofascore.com/api/v1/team/2830/image"
+        },
+        "team_b": {
+          "name": "Real Sociedad",
+          "flag": "https://img.sofascore.com/api/v1/team/2824/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Angers vs Olympique de Marseille",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "angers-vs-olympique-de-marseille",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 07:00:00 PM",
+        "end_time_bst": "Oct 18, 2026, 09:20:00 PM",
+        "raw_start_utc": "2026/10/18 13:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Angers",
+          "flag": "https://img.sofascore.com/api/v1/team/1684/image"
+        },
+        "team_b": {
+          "name": "Olympique de Marseille",
+          "flag": "https://img.sofascore.com/api/v1/team/1641/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Le Havre vs Auxerre",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "le-havre-vs-auxerre",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 09:15:00 PM",
+        "end_time_bst": "Oct 18, 2026, 11:35:00 PM",
+        "raw_start_utc": "2026/10/18 15:15:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Le Havre",
+          "flag": "https://img.sofascore.com/api/v1/team/1662/image"
+        },
+        "team_b": {
+          "name": "Auxerre",
+          "flag": "https://img.sofascore.com/api/v1/team/1646/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Lorient vs AS Monaco",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "lorient-vs-as-monaco",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 09:15:00 PM",
+        "end_time_bst": "Oct 18, 2026, 11:35:00 PM",
+        "raw_start_utc": "2026/10/18 15:15:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Lorient",
+          "flag": "https://img.sofascore.com/api/v1/team/1656/image"
+        },
+        "team_b": {
+          "name": "AS Monaco",
+          "flag": "https://img.sofascore.com/api/v1/team/1653/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Paris FC vs Stade Rennais",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "paris-fc-vs-stade-rennais",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 09:15:00 PM",
+        "end_time_bst": "Oct 18, 2026, 11:35:00 PM",
+        "raw_start_utc": "2026/10/18 15:15:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Paris FC",
+          "flag": "https://img.sofascore.com/api/v1/team/6070/image"
+        },
+        "team_b": {
+          "name": "Stade Rennais",
+          "flag": "https://img.sofascore.com/api/v1/team/1658/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Arminia Bielefeld vs VfL Osnabruck",
+      "sport": "Football",
+      "sub_category": "2. Bundesliga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "arminia-bielefeld-vs-vfl-osnabruck",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 05:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 07:50:00 PM",
+        "raw_start_utc": "2026/10/18 11:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Arminia Bielefeld",
+          "flag": "https://img.sofascore.com/api/v1/team/2540/image"
+        },
+        "team_b": {
+          "name": "VfL Osnabrück",
+          "flag": "https://img.sofascore.com/api/v1/team/2581/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "SG Dynamo Dresden vs 1. FC Magdeburg",
+      "sport": "Football",
+      "sub_category": "2. Bundesliga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "sg-dynamo-dresden-vs-1-fc-magdeburg",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 05:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 07:50:00 PM",
+        "raw_start_utc": "2026/10/18 11:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "SG Dynamo Dresden",
+          "flag": "https://img.sofascore.com/api/v1/team/2595/image"
+        },
+        "team_b": {
+          "name": "1. FC Magdeburg",
+          "flag": "https://img.sofascore.com/api/v1/team/2591/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Karlsruher SC vs Darmstadt 98",
+      "sport": "Football",
+      "sub_category": "2. Bundesliga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "karlsruher-sc-vs-darmstadt-98",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 05:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 07:50:00 PM",
+        "raw_start_utc": "2026/10/18 11:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Karlsruher SC",
+          "flag": "https://img.sofascore.com/api/v1/team/2553/image"
+        },
+        "team_b": {
+          "name": "Darmstadt 98",
+          "flag": "https://img.sofascore.com/api/v1/team/2576/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "PEC Zwolle vs Go Ahead Eagles",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "pec-zwolle-vs-go-ahead-eagles",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 04:15:00 PM",
+        "end_time_bst": "Oct 18, 2026, 06:35:00 PM",
+        "raw_start_utc": "2026/10/18 10:15:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "PEC Zwolle",
+          "flag": "https://img.sofascore.com/api/v1/team/2971/image"
+        },
+        "team_b": {
+          "name": "Go Ahead Eagles",
+          "flag": "https://img.sofascore.com/api/v1/team/2979/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "SC Cambuur vs AZ Alkmaar",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "sc-cambuur-vs-az-alkmaar",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 06:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 08:50:00 PM",
+        "raw_start_utc": "2026/10/18 12:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "SC Cambuur",
+          "flag": "https://img.sofascore.com/api/v1/team/2970/image"
+        },
+        "team_b": {
+          "name": "AZ Alkmaar",
+          "flag": "https://img.sofascore.com/api/v1/team/2950/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "FC Groningen vs AFC Ajax",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "fc-groningen-vs-afc-ajax",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 08:45:00 PM",
+        "end_time_bst": "Oct 18, 2026, 11:05:00 PM",
+        "raw_start_utc": "2026/10/18 14:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "FC Groningen",
+          "flag": "https://img.sofascore.com/api/v1/team/2951/image"
+        },
+        "team_b": {
+          "name": "AFC Ajax",
+          "flag": "https://img.sofascore.com/api/v1/team/2953/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "AD Ceuta vs Real Oviedo",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "ad-ceuta-vs-real-oviedo",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 06:00:00 PM",
+        "end_time_bst": "Oct 18, 2026, 08:20:00 PM",
+        "raw_start_utc": "2026/10/18 12:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "AD Ceuta",
+          "flag": "https://img.sofascore.com/api/v1/team/2869/image"
+        },
+        "team_b": {
+          "name": "Real Oviedo",
+          "flag": "https://img.sofascore.com/api/v1/team/2851/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Granada vs Cadiz",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "granada-vs-cadiz",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 08:15:00 PM",
+        "end_time_bst": "Oct 18, 2026, 10:35:00 PM",
+        "raw_start_utc": "2026/10/18 14:15:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Granada",
+          "flag": "https://img.sofascore.com/api/v1/team/33779/image"
+        },
+        "team_b": {
+          "name": "Cádiz",
+          "flag": "https://img.sofascore.com/api/v1/team/4488/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Girona FC vs FC Andorra",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "girona-fc-vs-fc-andorra",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 10:30:00 PM",
+        "end_time_bst": "Oct 19, 2026, 12:50:00 AM",
+        "raw_start_utc": "2026/10/18 16:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Girona FC",
+          "flag": "https://img.sofascore.com/api/v1/team/24264/image"
+        },
+        "team_b": {
+          "name": "FC Andorra",
+          "flag": "https://img.sofascore.com/api/v1/team/324871/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Real Valladolid vs CD Eldense",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "real-valladolid-vs-cd-eldense",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 10:30:00 PM",
+        "end_time_bst": "Oct 19, 2026, 12:50:00 AM",
+        "raw_start_utc": "2026/10/18 16:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Real Valladolid",
+          "flag": "https://img.sofascore.com/api/v1/team/2831/image"
+        },
+        "team_b": {
+          "name": "CD Eldense",
+          "flag": "https://img.sofascore.com/api/v1/team/47321/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Kasmpasa vs Samsunspor",
+      "sport": "Football",
+      "sub_category": "Trendyol Süper Lig",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "kasmpasa-vs-samsunspor",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 04:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 06:50:00 PM",
+        "raw_start_utc": "2026/10/18 10:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Kasımpaşa",
+          "flag": "https://img.sofascore.com/api/v1/team/6063/image"
+        },
+        "team_b": {
+          "name": "Samsunspor",
+          "flag": "https://img.sofascore.com/api/v1/team/3053/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Kocaelispor vs Goztepe",
+      "sport": "Football",
+      "sub_category": "Trendyol Süper Lig",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "kocaelispor-vs-goztepe",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 07:00:00 PM",
+        "end_time_bst": "Oct 18, 2026, 09:20:00 PM",
+        "raw_start_utc": "2026/10/18 13:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Kocaelispor",
+          "flag": "https://img.sofascore.com/api/v1/team/3065/image"
+        },
+        "team_b": {
+          "name": "Göztepe",
+          "flag": "https://img.sofascore.com/api/v1/team/3054/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Basaksehir FK vs Gaziantep FK",
+      "sport": "Football",
+      "sub_category": "Trendyol Süper Lig",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "basaksehir-fk-vs-gaziantep-fk",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 10:00:00 PM",
+        "end_time_bst": "Oct 19, 2026, 12:20:00 AM",
+        "raw_start_utc": "2026/10/18 16:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Başakşehir FK",
+          "flag": "https://img.sofascore.com/api/v1/team/3086/image"
+        },
+        "team_b": {
+          "name": "Gaziantep FK",
+          "flag": "https://img.sofascore.com/api/v1/team/5138/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Pakistan vs Sri Lanka",
+      "sport": "Cricket",
+      "sub_category": "ODI Tri-series in Pakistan",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "pakistan-vs-sri-lanka",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 02:00:00 PM",
+        "end_time_bst": "Oct 18, 2026, 10:00:31 PM",
+        "raw_start_utc": "2026/10/18 08:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Pakistan",
+          "flag": "https://img.sofascore.com/api/v1/team/187754/image"
+        },
+        "team_b": {
+          "name": "Sri Lanka",
+          "flag": "https://img.sofascore.com/api/v1/team/187756/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Formula 1",
+      "sport": "Motorsport",
+      "sub_category": "Formula 1",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "formula-1",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 23, 2026, 11:30:01 PM",
+        "end_time_bst": "Oct 24, 2026, 06:00:04 AM",
+        "raw_start_utc": "2026/10/23 17:30:01 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Formula 1",
+          "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6U1hs_95YIb02AiDL1JAgkqMNrA1SkPMUatqqPsO2ZqtNZdmj79TQ71k&s=10"
+        },
+        "team_b": {
+          "name": "Formula 1",
+          "flag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6U1hs_95YIb02AiDL1JAgkqMNrA1SkPMUatqqPsO2ZqtNZdmj79TQ71k&s=10"
+        }
+      },
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6U1hs_95YIb02AiDL1JAgkqMNrA1SkPMUatqqPsO2ZqtNZdmj79TQ71k&s=10",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Motogp",
+      "sport": "Motorsport",
+      "sub_category": "MotoGP",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "motogp",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 23, 2026, 05:45:11 AM",
+        "end_time_bst": "Oct 23, 2026, 06:00:21 PM",
+        "raw_start_utc": "2026/10/22 23:45:11 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "MotoGP",
+          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHudrhyphenhyphenOGNuEpCmd8k8vfTaJ7hTqEb6GemloDedieYFrvM5MJz639vioDvQnlHGBhvxsNBHSLg2ICSGot7LWGA2PDZqoc3W_A3Yu002I5JGUeQgTCG_UFhDRPSJr2E1blnBokZvTYkB6B2nJVeeUy6s28sW-XHRZzCW_J6SOGpaoXx0LB-CH-9iTf1ebc/s1600/1000009837.jpg"
+        },
+        "team_b": {
+          "name": "MotoGP",
+          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHudrhyphenhyphenOGNuEpCmd8k8vfTaJ7hTqEb6GemloDedieYFrvM5MJz639vioDvQnlHGBhvxsNBHSLg2ICSGot7LWGA2PDZqoc3W_A3Yu002I5JGUeQgTCG_UFhDRPSJr2E1blnBokZvTYkB6B2nJVeeUy6s28sW-XHRZzCW_J6SOGpaoXx0LB-CH-9iTf1ebc/s1600/1000009837.jpg"
+        }
+      },
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiy9chJNhw1XEU4gM-u6aLV0OGAHC38TO344gN3HFWqeOk5068zqJsQOYTyud9BoDV44JPX0pT2Jr7iVFa-IHUrB80G5N76Q_jUG9qiKNF5Wehb0-DqS6tQ46OpeQFfPfq_K-6icHx6-EZxHj-9cTG5WaqhPNQcqeIOba-XGnMg7ybLyKfEIkFUH5iUg8/s1600/1000009835.png",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Smack Down",
+      "sport": "Fighting",
+      "sub_category": "Friday Night SmackDown",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "smackdown",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 24, 2026, 06:00:57 AM",
+        "end_time_bst": "Oct 24, 2026, 09:00:00 AM",
+        "raw_start_utc": "2026/10/24 00:00:57 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "SmackDown",
+          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg"
+        },
+        "team_b": {
+          "name": "SmackDown",
+          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg"
+        }
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "WWE Raw",
+      "sport": "Fighting",
+      "sub_category": "Monday Night RAW",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "wwe-raw",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 06:00:06 AM",
+        "end_time_bst": "Oct 20, 2026, 09:00:10 AM",
+        "raw_start_utc": "2026/10/20 00:00:06 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "WWE RAW",
+          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFW9zq6aPTeuXAbR_LN5vEH39CQlgUwbf9htaAx9-D4oupUZ-ocumYl3T_Kkp6Crzq1rUzGf83Ps4jnJzkLD6XlNh1CW9WjsgdhneuImqgaPDw7UekEqax_YdnYynNmyfmWTxVZ599JunK1yoA5ErRmJBe0fCos9fHoNwIYmOAwgenJizk5e0nhHHPnkM/s1600/20250317_175451.jpg"
+        },
+        "team_b": {
+          "name": "WWE RAW",
+          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFW9zq6aPTeuXAbR_LN5vEH39CQlgUwbf9htaAx9-D4oupUZ-ocumYl3T_Kkp6Crzq1rUzGf83Ps4jnJzkLD6XlNh1CW9WjsgdhneuImqgaPDw7UekEqax_YdnYynNmyfmWTxVZ599JunK1yoA5ErRmJBe0fCos9fHoNwIYmOAwgenJizk5e0nhHHPnkM/s1600/20250317_175451.jpg"
+        }
+      },
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Afghanistan vs Zimbabwe",
+      "sport": "Cricket",
+      "sub_category": "ODI Tri-Series in United Arab Emirates",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "afghanistan-vs-zimbabwe",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 06:00:00 PM",
+        "end_time_bst": "Oct 20, 2026, 02:00:39 AM",
+        "raw_start_utc": "2026/10/19 12:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Afghanistan",
+          "flag": "https://img.sofascore.com/api/v1/team/187575/image"
+        },
+        "team_b": {
+          "name": "Zimbabwe",
+          "flag": "https://img.sofascore.com/api/v1/team/187745/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Los Angeles Rams vs Arizona Cardinals",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "los-angeles-rams-vs-arizona-cardinals",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 02:05:00 AM",
+        "end_time_bst": "Oct 19, 2026, 05:05:00 AM",
+        "raw_start_utc": "2026/10/18 20:05:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Los Angeles Rams",
+          "flag": "https://img.sofascore.com/api/v1/team/4387/image"
+        },
+        "team_b": {
+          "name": "Arizona Cardinals",
+          "flag": "https://img.sofascore.com/api/v1/team/4412/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Kansas City Chiefs vs Los Angeles Chargers",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "kansas-city-chiefs-vs-los-angeles-chargers",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
+        "end_time_bst": "Oct 19, 2026, 05:25:00 AM",
+        "raw_start_utc": "2026/10/18 20:25:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Kansas City Chiefs",
+          "flag": "https://img.sofascore.com/api/v1/team/4422/image"
+        },
+        "team_b": {
+          "name": "Los Angeles Chargers",
+          "flag": "https://img.sofascore.com/api/v1/team/4429/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Las Vegas Raiders vs Buffalo Bills",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "las-vegas-raiders-vs-buffalo-bills",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
+        "end_time_bst": "Oct 19, 2026, 05:25:00 AM",
+        "raw_start_utc": "2026/10/18 20:25:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Las Vegas Raiders",
+          "flag": "https://img.sofascore.com/api/v1/team/4390/image"
+        },
+        "team_b": {
+          "name": "Buffalo Bills",
+          "flag": "https://img.sofascore.com/api/v1/team/4414/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Green Bay Packers vs Dallas Cowboys",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "green-bay-packers-vs-dallas-cowboys",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 06:20:00 AM",
+        "end_time_bst": "Oct 19, 2026, 09:20:00 AM",
+        "raw_start_utc": "2026/10/19 00:20:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Green Bay Packers",
+          "flag": "https://img.sofascore.com/api/v1/team/4420/image"
+        },
+        "team_b": {
+          "name": "Dallas Cowboys",
+          "flag": "https://img.sofascore.com/api/v1/team/4392/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "San Francisco 49ers vs Washington Commanders",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "san-francisco-49ers-vs-washington-commanders",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 06:15:00 AM",
+        "end_time_bst": "Oct 20, 2026, 09:15:00 AM",
+        "raw_start_utc": "2026/10/20 00:15:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "San Francisco 49ers",
+          "flag": "https://img.sofascore.com/api/v1/team/4389/image"
+        },
+        "team_b": {
+          "name": "Washington Commanders",
+          "flag": "https://img.sofascore.com/api/v1/team/4432/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Tottenham Hotspur vs Coventry City",
+      "sport": "Football",
+      "sub_category": "Premier League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "tottenham-hotspur-vs-coventry-city",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 20, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/19 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Tottenham Hotspur",
+          "flag": "https://img.sofascore.com/api/v1/team/33/image"
+        },
+        "team_b": {
+          "name": "Coventry City",
+          "flag": "https://img.sofascore.com/api/v1/team/11/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Fluminense vs Santos",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "fluminense-vs-santos",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/18 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Fluminense",
+          "flag": "https://img.sofascore.com/api/v1/team/1961/image"
+        },
+        "team_b": {
+          "name": "Santos",
+          "flag": "https://img.sofascore.com/api/v1/team/1968/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Gremio vs Cruzeiro",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "gremio-vs-cruzeiro",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/18 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Grêmio",
+          "flag": "https://img.sofascore.com/api/v1/team/5926/image"
+        },
+        "team_b": {
+          "name": "Cruzeiro",
+          "flag": "https://img.sofascore.com/api/v1/team/1954/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Bahia vs Flamengo",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "bahia-vs-flamengo",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 03:30:00 AM",
+        "end_time_bst": "Oct 19, 2026, 05:50:00 AM",
+        "raw_start_utc": "2026/10/18 21:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Bahia",
+          "flag": "https://img.sofascore.com/api/v1/team/1955/image"
+        },
+        "team_b": {
+          "name": "Flamengo",
+          "flag": "https://img.sofascore.com/api/v1/team/5981/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Remo vs Red Bull Bragantino",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "remo-vs-red-bull-bragantino",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 04:30:00 AM",
+        "end_time_bst": "Oct 19, 2026, 06:50:00 AM",
+        "raw_start_utc": "2026/10/18 22:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Remo",
+          "flag": "https://img.sofascore.com/api/v1/team/2012/image"
+        },
+        "team_b": {
+          "name": "Red Bull Bragantino",
+          "flag": "https://img.sofascore.com/api/v1/team/1999/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Corinthians vs Vitoria",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "corinthians-vs-vitoria",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 05:00:00 AM",
+        "end_time_bst": "Oct 20, 2026, 07:20:00 AM",
+        "raw_start_utc": "2026/10/19 23:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Corinthians",
+          "flag": "https://img.sofascore.com/api/v1/team/1957/image"
+        },
+        "team_b": {
+          "name": "Vitória",
+          "flag": "https://img.sofascore.com/api/v1/team/1962/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Juventus vs Lazio",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "juventus-vs-lazio",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 12:45:00 AM",
+        "end_time_bst": "Oct 19, 2026, 03:05:00 AM",
+        "raw_start_utc": "2026/10/18 18:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Juventus",
+          "flag": "https://img.sofascore.com/api/v1/team/2687/image"
+        },
+        "team_b": {
+          "name": "Lazio",
+          "flag": "https://img.sofascore.com/api/v1/team/2699/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Monza vs Cagliari",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "monza-vs-cagliari",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 10:30:00 PM",
+        "end_time_bst": "Oct 20, 2026, 12:50:00 AM",
+        "raw_start_utc": "2026/10/19 16:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Monza",
+          "flag": "https://img.sofascore.com/api/v1/team/2729/image"
+        },
+        "team_b": {
+          "name": "Cagliari",
+          "flag": "https://img.sofascore.com/api/v1/team/2719/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Parma vs Torino",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "parma-vs-torino",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 12:45:00 AM",
+        "end_time_bst": "Oct 20, 2026, 03:05:00 AM",
+        "raw_start_utc": "2026/10/19 18:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Parma",
+          "flag": "https://img.sofascore.com/api/v1/team/2690/image"
+        },
+        "team_b": {
+          "name": "Torino",
+          "flag": "https://img.sofascore.com/api/v1/team/2696/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Real Madrid vs Sevilla",
+      "sport": "Football",
+      "sub_category": "LaLiga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "real-madrid-vs-sevilla",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/18 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Real Madrid",
+          "flag": "https://img.sofascore.com/api/v1/team/2829/image"
+        },
+        "team_b": {
+          "name": "Sevilla",
+          "flag": "https://img.sofascore.com/api/v1/team/2833/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Getafe vs Rayo Vallecano",
+      "sport": "Football",
+      "sub_category": "LaLiga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "getafe-vs-rayo-vallecano",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 20, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/19 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Getafe",
+          "flag": "https://img.sofascore.com/api/v1/team/2859/image"
+        },
+        "team_b": {
+          "name": "Rayo Vallecano",
+          "flag": "https://img.sofascore.com/api/v1/team/2818/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Olympique Lyonnais vs Nice",
+      "sport": "Football",
+      "sub_category": "Ligue 1",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "olympique-lyonnais-vs-nice",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 12:45:00 AM",
+        "end_time_bst": "Oct 19, 2026, 03:05:00 AM",
+        "raw_start_utc": "2026/10/18 18:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Olympique Lyonnais",
+          "flag": "https://img.sofascore.com/api/v1/team/1649/image"
+        },
+        "team_b": {
+          "name": "Nice",
+          "flag": "https://img.sofascore.com/api/v1/team/1661/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Al-Fayha vs Al-Ahli",
+      "sport": "Football",
+      "sub_category": "Saudi Pro League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "al-fayha-vs-al-ahli",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 09:05:00 PM",
+        "end_time_bst": "Oct 19, 2026, 11:25:00 PM",
+        "raw_start_utc": "2026/10/19 15:05:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Al-Fayha",
+          "flag": "https://img.sofascore.com/api/v1/team/168094/image"
+        },
+        "team_b": {
+          "name": "Al-Ahli",
+          "flag": "https://img.sofascore.com/api/v1/team/34469/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Abha vs Al-Kholood",
+      "sport": "Football",
+      "sub_category": "Saudi Pro League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "abha-vs-al-kholood",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 09:20:00 PM",
+        "end_time_bst": "Oct 19, 2026, 11:40:00 PM",
+        "raw_start_utc": "2026/10/19 15:20:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Abha",
+          "flag": "https://img.sofascore.com/api/v1/team/168090/image"
+        },
+        "team_b": {
+          "name": "Al-Kholood",
+          "flag": "https://img.sofascore.com/api/v1/team/269199/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Al-Hilal vs Al-Hazem",
+      "sport": "Football",
+      "sub_category": "Saudi Pro League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "al-hilal-vs-al-hazem",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 12:00:00 AM",
+        "end_time_bst": "Oct 20, 2026, 02:20:00 AM",
+        "raw_start_utc": "2026/10/19 18:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Al-Hilal",
+          "flag": "https://img.sofascore.com/api/v1/team/21895/image"
+        },
+        "team_b": {
+          "name": "Al-Hazem",
+          "flag": "https://img.sofascore.com/api/v1/team/168086/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Al-Shabab vs Al Faisaly",
+      "sport": "Football",
+      "sub_category": "Saudi Pro League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "al-shabab-vs-al-faisaly",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 12:00:00 AM",
+        "end_time_bst": "Oct 20, 2026, 02:20:00 AM",
+        "raw_start_utc": "2026/10/19 18:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Al-Shabab",
+          "flag": "https://img.sofascore.com/api/v1/team/34313/image"
+        },
+        "team_b": {
+          "name": "Al Faisaly",
+          "flag": "https://img.sofascore.com/api/v1/team/56035/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "FC Twente vs FC Utrecht",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "fc-twente-vs-fc-utrecht",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 12:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 02:20:00 AM",
+        "raw_start_utc": "2026/10/18 18:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "FC Twente",
+          "flag": "https://img.sofascore.com/api/v1/team/2955/image"
+        },
+        "team_b": {
+          "name": "FC Utrecht",
+          "flag": "https://img.sofascore.com/api/v1/team/2948/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "NEC Nijmegen vs Fortuna Sittard",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "nec-nijmegen-vs-fortuna-sittard",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 12:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 02:20:00 AM",
+        "raw_start_utc": "2026/10/18 18:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "NEC Nijmegen",
+          "flag": "https://img.sofascore.com/api/v1/team/2962/image"
+        },
+        "team_b": {
+          "name": "Fortuna Sittard",
+          "flag": "https://img.sofascore.com/api/v1/team/2957/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Burgos Club de Futbol vs CE Sabadell",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "burgos-club-de-futbol-vs-ce-sabadell",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/18 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Burgos Club de Fútbol",
+          "flag": "https://img.sofascore.com/api/v1/team/2854/image"
+        },
+        "team_b": {
+          "name": "CE Sabadell",
+          "flag": "https://img.sofascore.com/api/v1/team/24335/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Celta Fortuna vs CD Tenerife",
+      "sport": "Football",
+      "sub_category": "LaLiga 2",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "celta-fortuna-vs-cd-tenerife",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 12:30:00 AM",
+        "end_time_bst": "Oct 20, 2026, 02:50:00 AM",
+        "raw_start_utc": "2026/10/19 18:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Celta Fortuna",
+          "flag": "https://img.sofascore.com/api/v1/team/24336/image"
+        },
+        "team_b": {
+          "name": "CD Tenerife",
+          "flag": "https://img.sofascore.com/api/v1/team/2822/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Trabzonspor vs Besiktas JK",
+      "sport": "Football",
+      "sub_category": "Trendyol Süper Lig",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "trabzonspor-vs-besiktas-jk",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 11:00:00 PM",
+        "end_time_bst": "Oct 20, 2026, 01:20:00 AM",
+        "raw_start_utc": "2026/10/19 17:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Trabzonspor",
+          "flag": "https://img.sofascore.com/api/v1/team/3051/image"
+        },
+        "team_b": {
+          "name": "Beşiktaş JK",
+          "flag": "https://img.sofascore.com/api/v1/team/3050/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Pakistan vs England",
+      "sport": "Cricket",
+      "sub_category": "ODI Tri-series in Pakistan",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "pakistan-vs-england",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 02:00:00 PM",
+        "end_time_bst": "Oct 20, 2026, 10:00:04 PM",
+        "raw_start_utc": "2026/10/20 08:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Pakistan",
+          "flag": "https://img.sofascore.com/api/v1/team/187754/image"
+        },
+        "team_b": {
+          "name": "England",
+          "flag": "https://img.sofascore.com/api/v1/team/187757/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "UFC LIVE",
+      "sport": "Football",
+      "sub_category": "UFC",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "ufc-live",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 03:00:53 AM",
+        "end_time_bst": "Oct 18, 2026, 10:00:57 AM",
+        "raw_start_utc": "2026/10/17 21:00:53 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "J. Buckley",
+          "flag": "https://img.sofascore.com/api/v1/team/461599/image"
+        },
+        "team_b": {
+          "name": "M. Malott",
+          "flag": "https://img.sofascore.com/api/v1/team/464691/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/19906/image",
+      "channels": [],
+      "total_channels": 0
     }
   ]
 }
