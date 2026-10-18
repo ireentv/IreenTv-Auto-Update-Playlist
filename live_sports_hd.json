@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 77,
+  "channels_amount": 76,
   "live_count": 11,
-  "last_update": "06:16 PM 18-10-2026 BST",
+  "last_update": "06:32 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -444,45 +444,35 @@
       "total_channels": 2
     },
     {
-      "title": "PEC Zwolle vs Go Ahead Eagles",
+      "title": "SC Cambuur vs AZ Alkmaar",
       "sport": "Football",
       "sub_category": "VriendenLoterij Eredivisie",
       "status": "Live",
       "is_hot": false,
-      "slug": "pec-zwolle-vs-go-ahead-eagles",
+      "slug": "sc-cambuur-vs-az-alkmaar",
       "schedule": {
         "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 04:15:00 PM",
-        "end_time_bst": "Oct 18, 2026, 06:35:00 PM",
-        "raw_start_utc": "2026/10/18 10:15:00 +0000"
+        "start_time_bst": "Oct 18, 2026, 06:30:00 PM",
+        "end_time_bst": "Oct 18, 2026, 08:50:00 PM",
+        "raw_start_utc": "2026/10/18 12:30:00 +0000"
       },
       "teams": {
         "team_a": {
-          "name": "PEC Zwolle",
-          "flag": "https://img.sofascore.com/api/v1/team/2971/image"
+          "name": "SC Cambuur",
+          "flag": "https://img.sofascore.com/api/v1/team/2970/image"
         },
         "team_b": {
-          "name": "Go Ahead Eagles",
-          "flag": "https://img.sofascore.com/api/v1/team/2979/image"
+          "name": "AZ Alkmaar",
+          "flag": "https://img.sofascore.com/api/v1/team/2950/image"
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
       "channels": [
         {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://live.vivo155.com/live/sd-1-4552224.m3u8?txSecret=86194b58030d23c6dd7af6ed8ff12e9f&txTime=6AD4975B",
-          "raw_link": "https://live.vivo155.com/live/sd-1-4552224.m3u8?txSecret=86194b58030d23c6dd7af6ed8ff12e9f&txTime=6AD4975B|Referer=https://player.online878.com/",
-          "headers": {
-            "Referer": "https://player.online878.com/"
-          },
-          "drm_key": null
-        },
-        {
           "channel_name": "LOW SERVER",
           "stream_type": "HLS",
-          "url": "http://193.47.62.44/hls/4UUUAA.m3u8",
-          "raw_link": "http://193.47.62.44/hls/4UUUAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "url": "http://193.47.62.41/hls/5NNNQQQ.m3u8",
+          "raw_link": "http://193.47.62.41/hls/5NNNQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
             "Referer": "http://www.fawanews.sc/",
@@ -491,7 +481,7 @@
           "drm_key": null
         }
       ],
-      "total_channels": 2
+      "total_channels": 1
     },
     {
       "title": "AD Ceuta vs Real Oviedo",
@@ -1263,6 +1253,42 @@
         "team_b": {
           "name": "Buffalo Bills",
           "flag": "https://img.sofascore.com/api/v1/team/4414/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Green Bay Packers vs Dallas Cowboys",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "green-bay-packers-vs-dallas-cowboys",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 06:20:00 AM",
+        "end_time_bst": "Oct 19, 2026, 09:20:00 AM",
+        "raw_start_utc": "2026/10/19 00:20:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Green Bay Packers",
+          "flag": "https://img.sofascore.com/api/v1/team/4420/image"
+        },
+        "team_b": {
+          "name": "Dallas Cowboys",
+          "flag": "https://img.sofascore.com/api/v1/team/4392/image"
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
@@ -2073,17 +2099,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Lorient vs AS Monaco",
@@ -2163,33 +2180,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "SC Cambuur vs AZ Alkmaar",
-      "sport": "Football",
-      "sub_category": "VriendenLoterij Eredivisie",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "sc-cambuur-vs-az-alkmaar",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 06:30:00 PM",
-        "end_time_bst": "Oct 18, 2026, 08:50:00 PM",
-        "raw_start_utc": "2026/10/18 12:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "SC Cambuur",
-          "flag": "https://img.sofascore.com/api/v1/team/2970/image"
-        },
-        "team_b": {
-          "name": "AZ Alkmaar",
-          "flag": "https://img.sofascore.com/api/v1/team/2950/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
       "channels": [],
       "total_channels": 0
     },
@@ -2676,33 +2666,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Green Bay Packers vs Dallas Cowboys",
-      "sport": "Football",
-      "sub_category": "NFL",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "green-bay-packers-vs-dallas-cowboys",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 06:20:00 AM",
-        "end_time_bst": "Oct 19, 2026, 09:20:00 AM",
-        "raw_start_utc": "2026/10/19 00:20:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Green Bay Packers",
-          "flag": "https://img.sofascore.com/api/v1/team/4420/image"
-        },
-        "team_b": {
-          "name": "Dallas Cowboys",
-          "flag": "https://img.sofascore.com/api/v1/team/4392/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
       "channels": [],
       "total_channels": 0
     },
