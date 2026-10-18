@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 59,
-  "live_count": 19,
-  "last_update": "11:01 PM 18-10-2026 BST",
+  "live_count": 18,
+  "last_update": "11:05 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -953,46 +953,6 @@
         }
       ],
       "total_channels": 2
-    },
-    {
-      "title": "FC Groningen vs AFC Ajax",
-      "sport": "Football",
-      "sub_category": "VriendenLoterij Eredivisie",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "fc-groningen-vs-afc-ajax",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 08:45:00 PM",
-        "end_time_bst": "Oct 18, 2026, 11:05:00 PM",
-        "raw_start_utc": "2026/10/18 14:45:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "FC Groningen",
-          "flag": "https://img.sofascore.com/api/v1/team/2951/image"
-        },
-        "team_b": {
-          "name": "AFC Ajax",
-          "flag": "https://img.sofascore.com/api/v1/team/2953/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "channels": [
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.41/hls/toooaaaaqq.m3u8",
-          "raw_link": "http://193.47.62.41/hls/toooaaaaqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
     },
     {
       "title": "Girona FC vs FC Andorra",
@@ -2392,8 +2352,33 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "FANCODE - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+          "headers": {},
+          "drm_key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+        },
+        {
+          "channel_name": "WILLOW - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+          "headers": {},
+          "drm_key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+        },
+        {
+          "channel_name": "EUROSPORT - AQ",
+          "stream_type": "DASH",
+          "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
+          "raw_link": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
+          "headers": {},
+          "drm_key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
+        }
+      ],
+      "total_channels": 3
     },
     {
       "title": "Afghanistan vs Zimbabwe",
@@ -2797,6 +2782,33 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "FC Groningen vs AFC Ajax",
+      "sport": "Football",
+      "sub_category": "VriendenLoterij Eredivisie",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "fc-groningen-vs-afc-ajax",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 08:45:00 PM",
+        "end_time_bst": "Oct 18, 2026, 11:05:00 PM",
+        "raw_start_utc": "2026/10/18 14:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "FC Groningen",
+          "flag": "https://img.sofascore.com/api/v1/team/2951/image"
+        },
+        "team_b": {
+          "name": "AFC Ajax",
+          "flag": "https://img.sofascore.com/api/v1/team/2953/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
       "channels": [],
       "total_channels": 0
     },
