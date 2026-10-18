@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 77,
   "live_count": 11,
-  "last_update": "06:04 PM 18-10-2026 BST",
+  "last_update": "06:14 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -519,6 +519,16 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
       "channels": [
         {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://live.vivo155.com/live/sd-1-4567315.m3u8?txSecret=d7950594f8cfd2fd62e82f84ad60f191&txTime=6AD4C91B",
+          "raw_link": "https://live.vivo155.com/live/sd-1-4567315.m3u8?txSecret=d7950594f8cfd2fd62e82f84ad60f191&txTime=6AD4C91B|Referer=https://player.online878.com/",
+          "headers": {
+            "Referer": "https://player.online878.com/"
+          },
+          "drm_key": null
+        },
+        {
           "channel_name": "LOW SERVER",
           "stream_type": "HLS",
           "url": "http://193.47.62.41/hls/JFFFQQQ.m3u8",
@@ -531,7 +541,7 @@
           "drm_key": null
         }
       ],
-      "total_channels": 1
+      "total_channels": 2
     },
     {
       "title": "Kasmpasa vs Samsunspor",
