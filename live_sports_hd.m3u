@@ -4,8 +4,8 @@
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
 # Channels Amount: 46
-# Live Count     : 13
-# Last Update    : 12:47 AM 19-10-2026 BST
+# Live Count     : 17
+# Last Update    : 01:01 AM 19-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -79,6 +79,24 @@ https://edgestream5.pro/hls/oipozuezeji33.m3u8?|Referer=https://streamscenter.on
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
 https://edgestream1.pro/hls/yetehznecs37.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
+#EXTINF:-1 tvg-name="Fluminense vs Santos (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/325/image/dark" group-title="live_sports_HD",Fluminense vs Santos (Server 1 - Raw Link)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Fluminense vs Santos (Server 2 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/325/image/dark" group-title="live_sports_HD",Fluminense vs Santos (Server 2 - Url)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+#EXTINF:-1 tvg-name="Gremio vs Cruzeiro" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/325/image/dark" group-title="live_sports_HD",Gremio vs Cruzeiro
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Juventus vs Lazio (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_sports_HD",Juventus vs Lazio (Server 1 - Raw Link)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -105,21 +123,85 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
 #EXTINF:-1 tvg-name="Juventus vs Lazio (Server 5 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_sports_HD",Juventus vs Lazio (Server 5 - Raw Link)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-https://www.rtmpcdn.com/live/eedb3a2c-5ee5-435c-9e09-83f77c470528.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
+https://live.vivo155.com/live/hd-en-1-4549126.m3u8?txSecret=28ef485c0e8f0585fcd8c830983cf9e0&txTime=6AD52876|Referer=https://player.online878.com/
 #EXTINF:-1 tvg-name="Juventus vs Lazio (Server 6 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_sports_HD",Juventus vs Lazio (Server 6 - Raw Link)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+https://www.rtmpcdn.com/live/eedb3a2c-5ee5-435c-9e09-83f77c470528.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Juventus vs Lazio (Server 7 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_sports_HD",Juventus vs Lazio (Server 7 - Raw Link)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 http://193.47.62.55/hls/cyyyA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 1 - Raw Link)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 2 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 2 - Url)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
+#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 3 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 3 - Raw Link)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 4 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 4 - Raw Link)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 5 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 5 - Raw Link)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 6 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 6 - Raw Link)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 8 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 8 - Raw Link)
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
+https://live.vivo155.com/live/hd-en-1-4565459.m3u8?txSecret=102435bbafe684dd75bf6d99bbdc4859&txTime=6AD528F3|Referer=https://player.online878.com/
+#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 9 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 9 - Raw Link)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+https://www.rtmpcdn.com/live/d4eebde5-881f-4321-8b1e-f190f0a21624.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 10 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 10 - Raw Link)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+http://193.47.62.59/hls/aaaaa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Olympique Lyonnais vs Nice (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Olympique Lyonnais vs Nice (Server 1 - Raw Link)
+#EXTVLCOPT:http-referrer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://player.online878.com/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://player.online878.com/
+https://live.vivo155.com/live/hd-en-1-4550901.m3u8?txSecret=4243bceb89eca1272262bba43fb41466&txTime=6AD5276E|Referer=https://player.online878.com/
+#EXTINF:-1 tvg-name="Olympique Lyonnais vs Nice (Server 2 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Olympique Lyonnais vs Nice (Server 2 - Raw Link)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 https://www.rtmpcdn.com/live/3e18cf8e-bee6-441c-9be7-573ec1d853e8.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="Olympique Lyonnais vs Nice (Server 2 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Olympique Lyonnais vs Nice (Server 2 - Raw Link)
+#EXTINF:-1 tvg-name="Olympique Lyonnais vs Nice (Server 3 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Olympique Lyonnais vs Nice (Server 3 - Raw Link)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
@@ -134,6 +216,11 @@ http://193.47.62.44/hls/FYYYAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0;
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 http://193.47.62.44/hls/FYYYAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Burgos Club de Futbol vs CE Sabadell" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/54/image/dark" group-title="live_sports_HD",Burgos Club de Futbol vs CE Sabadell
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+http://193.47.62.44/hls/HH666AAAAQqqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Los Angeles Rams vs Arizona Cardinals" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark" group-title="live_sports_HD",Los Angeles Rams vs Arizona Cardinals
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
@@ -189,24 +276,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
 https://edgestream7.pro/hls/ijzriafaq41.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-#EXTINF:-1 tvg-name="Fluminense vs Santos (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/325/image/dark" group-title="live_sports_HD",Fluminense vs Santos (Server 1 - Raw Link)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="Fluminense vs Santos (Server 2 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/325/image/dark" group-title="live_sports_HD",Fluminense vs Santos (Server 2 - Url)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
-#EXTINF:-1 tvg-name="Gremio vs Cruzeiro" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/325/image/dark" group-title="live_sports_HD",Gremio vs Cruzeiro
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Bahia vs Flamengo (Server 1 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/325/image/dark" group-title="live_sports_HD",Bahia vs Flamengo (Server 1 - Url)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -219,60 +288,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd
-#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 1 - Raw Link)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 2 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 2 - Url)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
-#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 3 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 3 - Raw Link)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 4 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 4 - Raw Link)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 5 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 5 - Raw Link)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 6 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 6 - Raw Link)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 8 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 8 - Raw Link)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-https://www.rtmpcdn.com/live/d4eebde5-881f-4321-8b1e-f190f0a21624.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="Real Madrid vs Sevilla (Server 9 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="live_sports_HD",Real Madrid vs Sevilla (Server 9 - Raw Link)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-http://193.47.62.59/hls/aaaaa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="Burgos Club de Futbol vs CE Sabadell" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/54/image/dark" group-title="live_sports_HD",Burgos Club de Futbol vs CE Sabadell
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-http://193.47.62.44/hls/HH666AAAAQqqq.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Cleveland Guardians vs Tampa Bay Rays (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark" group-title="live_sports_HD",Cleveland Guardians vs Tampa Bay Rays (Server 1 - Raw Link)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
