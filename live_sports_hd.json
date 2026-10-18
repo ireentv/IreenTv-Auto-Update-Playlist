@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 52,
-  "live_count": 15,
-  "last_update": "12:06 AM 19-10-2026 BST",
+  "channels_amount": 50,
+  "live_count": 14,
+  "last_update": "12:16 AM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -785,46 +785,6 @@
       "total_channels": 1
     },
     {
-      "title": "Basaksehir FK vs Gaziantep FK",
-      "sport": "Football",
-      "sub_category": "Trendyol Süper Lig",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "basaksehir-fk-vs-gaziantep-fk",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 10:00:00 PM",
-        "end_time_bst": "Oct 19, 2026, 12:20:00 AM",
-        "raw_start_utc": "2026/10/18 16:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Başakşehir FK",
-          "flag": "https://img.sofascore.com/api/v1/team/3086/image"
-        },
-        "team_b": {
-          "name": "Gaziantep FK",
-          "flag": "https://img.sofascore.com/api/v1/team/5138/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "channels": [
-        {
-          "channel_name": "LOW SERVER",
-          "stream_type": "HLS",
-          "url": "http://193.47.62.44/hls/FAFAFAQQ.m3u8",
-          "raw_link": "http://193.47.62.44/hls/FAFAFAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
-            "Referer": "http://www.fawanews.sc/",
-            "Origin": "http://www.fawanews.sc"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
-    },
-    {
       "title": "Los Angeles Rams vs Arizona Cardinals",
       "sport": "Football",
       "sub_category": "NFL",
@@ -987,15 +947,48 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
       "channels": [
         {
-          "channel_name": "CRICFy LIVE",
+          "channel_name": "TSN SPORTS 1 - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+        },
+        {
+          "channel_name": "NBC SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e"
+        },
+        {
+          "channel_name": "TSN SPORTS 5 - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+        },
+        {
+          "channel_name": "HD SERVER",
           "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
+          "url": "https://edgestream7.pro/hls/ijzriafaq41.m3u8?",
+          "raw_link": "https://edgestream7.pro/hls/ijzriafaq41.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "headers": {
+            "Referer": "https://streamscenter.online/",
+            "Origin": "https://streamscenter.online"
+          },
           "drm_key": null
         }
       ],
-      "total_channels": 1
+      "total_channels": 4
     },
     {
       "title": "Fluminense vs Santos",
@@ -1232,7 +1225,7 @@
       "sport": "Football",
       "sub_category": "LaLiga",
       "status": "Upcoming",
-      "is_hot": false,
+      "is_hot": true,
       "slug": "real-madrid-vs-sevilla",
       "schedule": {
         "timezone": "BST (UTC+6)",
@@ -2304,8 +2297,17 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "channels": [],
-      "total_channels": 0
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
     },
     {
       "title": "Getafe vs Rayo Vallecano",
@@ -2547,33 +2549,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "AC Milan vs Atalanta",
-      "sport": "Football",
-      "sub_category": "Serie A",
-      "status": "Ended",
-      "is_hot": false,
-      "slug": "ac-milan-vs-atalanta",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 18, 2026, 10:00:00 PM",
-        "end_time_bst": "Oct 18, 2026, 11:00:56 PM",
-        "raw_start_utc": "2026/10/18 16:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "AC Milan",
-          "flag": "https://img.sofascore.com/api/v1/team/2692/image"
-        },
-        "team_b": {
-          "name": "Atalanta",
-          "flag": "https://img.sofascore.com/api/v1/team/2686/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
       "channels": [],
       "total_channels": 0
     }
