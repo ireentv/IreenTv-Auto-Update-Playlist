@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 43,
-  "live_count": 10,
-  "last_update": "02:45 AM 19-10-2026 BST",
+  "live_count": 11,
+  "last_update": "03:01 AM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -43,7 +43,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/4412/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/4387/image",
       "channels": [
         {
           "channel_name": "CRICFy LIVE",
@@ -102,7 +102,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/4429/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/4422/image",
       "channels": [
         {
           "channel_name": "TSN SPORTS 1 - AQ",
@@ -171,7 +171,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/4414/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/4390/image",
       "channels": [
         {
           "channel_name": "CRICFy LIVE",
@@ -230,7 +230,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/1968/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/1961/image",
       "channels": [
         {
           "channel_name": "PREMIERE BR - AQ",
@@ -298,7 +298,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/1954/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/5926/image",
       "channels": [
         {
           "channel_name": "PREMIERE BR - AQ",
@@ -336,7 +336,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/2699/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/2687/image",
       "channels": [
         {
           "channel_name": "TNT SPORTS - AQ",
@@ -436,7 +436,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/2833/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/2829/image",
       "channels": [
         {
           "channel_name": "TSN SPORTS - AQ",
@@ -556,7 +556,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/1661/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/1649/image",
       "channels": [
         {
           "channel_name": "CRICFy LIVE",
@@ -618,7 +618,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/24335/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/2854/image",
       "channels": [
         {
           "channel_name": "CRICFy LIVE",
@@ -634,6 +634,55 @@
         }
       ],
       "total_channels": 1
+    },
+    {
+      "title": "Cleveland Guardians vs Tampa Bay Rays",
+      "sport": "Baseball",
+      "sub_category": "MLB",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "cleveland-guardians-vs-tampa-bay-rays",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 03:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 06:00:00 AM",
+        "raw_start_utc": "2026/10/18 21:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Cleveland Guardians",
+          "flag": "https://img.sofascore.com/api/v1/team/3650/image"
+        },
+        "team_b": {
+          "name": "Tampa Bay Rays",
+          "flag": "https://img.sofascore.com/api/v1/team/3653/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/3650/image",
+      "channels": [
+        {
+          "channel_name": "TNT SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+        },
+        {
+          "channel_name": "HD SERVER",
+          "stream_type": "HLS",
+          "url": "https://edgestream4.pro/hls/dazhfiach15.m3u8?",
+          "raw_link": "https://edgestream4.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
+          "headers": {
+            "Referer": "https://streamscenter.online/",
+            "Origin": "https://streamscenter.online"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 2
     },
     {
       "title": "South Africa vs Australia",
@@ -658,7 +707,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/187746/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/187747/image",
       "channels": [
         {
           "channel_name": "WILLOW - AQ",
@@ -769,7 +818,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/4392/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/4420/image",
       "channels": [
         {
           "channel_name": "TSN SPORTS 1 - AQ",
@@ -838,7 +887,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/5981/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/1955/image",
       "channels": [
         {
           "channel_name": "PREMIER SPORTS - AQ",
@@ -882,7 +931,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/1999/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/2012/image",
       "channels": [
         {
           "channel_name": "PREMIERE BR - AQ",
@@ -894,55 +943,6 @@
         }
       ],
       "total_channels": 1
-    },
-    {
-      "title": "Cleveland Guardians vs Tampa Bay Rays",
-      "sport": "Baseball",
-      "sub_category": "MLB",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "cleveland-guardians-vs-tampa-bay-rays",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 03:00:00 AM",
-        "end_time_bst": "Oct 19, 2026, 06:00:00 AM",
-        "raw_start_utc": "2026/10/18 21:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Cleveland Guardians",
-          "flag": "https://img.sofascore.com/api/v1/team/3650/image"
-        },
-        "team_b": {
-          "name": "Tampa Bay Rays",
-          "flag": "https://img.sofascore.com/api/v1/team/3653/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
-      "channels": [
-        {
-          "channel_name": "TNT SPORTS - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_type": "HLS",
-          "url": "https://edgestream4.pro/hls/dazhfiach15.m3u8?",
-          "raw_link": "https://edgestream4.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "headers": {
-            "Referer": "https://streamscenter.online/",
-            "Origin": "https://streamscenter.online"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 2
     },
     {
       "title": "Formula 1",
@@ -1110,7 +1110,7 @@
           "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHudrhyphenhyphenOGNuEpCmd8k8vfTaJ7hTqEb6GemloDedieYFrvM5MJz639vioDvQnlHGBhvxsNBHSLg2ICSGot7LWGA2PDZqoc3W_A3Yu002I5JGUeQgTCG_UFhDRPSJr2E1blnBokZvTYkB6B2nJVeeUy6s28sW-XHRZzCW_J6SOGpaoXx0LB-CH-9iTf1ebc/s1600/1000009837.jpg"
         }
       },
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiy9chJNhw1XEU4gM-u6aLV0OGAHC38TO344gN3HFWqeOk5068zqJsQOYTyud9BoDV44JPX0pT2Jr7iVFa-IHUrB80G5N76Q_jUG9qiKNF5Wehb0-DqS6tQ46OpeQFfPfq_K-6icHx6-EZxHj-9cTG5WaqhPNQcqeIOba-XGnMg7ybLyKfEIkFUH5iUg8/s1600/1000009835.png",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHudrhyphenhyphenOGNuEpCmd8k8vfTaJ7hTqEb6GemloDedieYFrvM5MJz639vioDvQnlHGBhvxsNBHSLg2ICSGot7LWGA2PDZqoc3W_A3Yu002I5JGUeQgTCG_UFhDRPSJr2E1blnBokZvTYkB6B2nJVeeUy6s28sW-XHRZzCW_J6SOGpaoXx0LB-CH-9iTf1ebc/s1600/1000009837.jpg",
       "channels": [
         {
           "channel_name": "TNT SPORTS - AQ",
@@ -1197,7 +1197,7 @@
           "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg"
         }
       },
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg",
       "channels": [
         {
           "channel_name": "CRICFy LIVE",
@@ -1254,7 +1254,7 @@
           "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFW9zq6aPTeuXAbR_LN5vEH39CQlgUwbf9htaAx9-D4oupUZ-ocumYl3T_Kkp6Crzq1rUzGf83Ps4jnJzkLD6XlNh1CW9WjsgdhneuImqgaPDw7UekEqax_YdnYynNmyfmWTxVZ599JunK1yoA5ErRmJBe0fCos9fHoNwIYmOAwgenJizk5e0nhHHPnkM/s1600/20250317_175451.jpg"
         }
       },
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFW9zq6aPTeuXAbR_LN5vEH39CQlgUwbf9htaAx9-D4oupUZ-ocumYl3T_Kkp6Crzq1rUzGf83Ps4jnJzkLD6XlNh1CW9WjsgdhneuImqgaPDw7UekEqax_YdnYynNmyfmWTxVZ599JunK1yoA5ErRmJBe0fCos9fHoNwIYmOAwgenJizk5e0nhHHPnkM/s1600/20250317_175451.jpg",
       "channels": [
         {
           "channel_name": "CRICFy LIVE",
@@ -1322,7 +1322,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/467455/image"
         }
       },
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/19906/image",
+      "logo": "https://img.sofascore.com/api/v1/team/467404/image",
       "channels": [
         {
           "channel_name": "TNT SPORTS - AQ",
@@ -1418,7 +1418,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/417062/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/213119/image",
       "channels": [
         {
           "channel_name": "WILLOW - AQ",
@@ -1470,7 +1470,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/213115/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11222/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/213117/image",
       "channels": [
         {
           "channel_name": "FANCODE - AQ",
@@ -1522,18 +1522,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/187745/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "San Francisco 49ers vs Washington Commanders",
@@ -1558,18 +1549,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/4432/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/4389/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Tottenham Hotspur vs Coventry City",
@@ -1594,18 +1576,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/11/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/33/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Corinthians vs Vitoria",
@@ -1630,18 +1603,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/1962/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/1957/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Monza vs Cagliari",
@@ -1666,18 +1630,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/2719/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/2729/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Parma vs Torino",
@@ -1702,18 +1657,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/2696/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/2690/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Getafe vs Rayo Vallecano",
@@ -1738,18 +1684,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/2818/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/2859/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Al-Fayha vs Al-Ahli",
@@ -1774,18 +1711,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/34469/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/168094/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Abha vs Al-Kholood",
@@ -1810,18 +1738,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/269199/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/168090/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Al-Hilal vs Al-Hazem",
@@ -1846,18 +1765,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/168086/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/21895/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Al-Shabab vs Al Faisaly",
@@ -1882,18 +1792,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/56035/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/34313/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Celta Fortuna vs CD Tenerife",
@@ -1918,18 +1819,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/2822/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/24336/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Trabzonspor vs Besiktas JK",
@@ -1954,18 +1846,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/3050/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/3051/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Pakistan vs England",
@@ -1990,18 +1873,9 @@
           "flag": "https://img.sofascore.com/api/v1/team/187757/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "logo": "https://img.sofascore.com/api/v1/team/187754/image",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "New England Patriots vs New York Jets",
@@ -2026,7 +1900,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/4427/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/4424/image",
       "channels": [],
       "total_channels": 0
     },
@@ -2053,7 +1927,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/4415/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/4428/image",
       "channels": [],
       "total_channels": 0
     },
@@ -2080,7 +1954,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/4413/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/4417/image",
       "channels": [],
       "total_channels": 0
     },
@@ -2107,7 +1981,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/4345/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/4388/image",
       "channels": [],
       "total_channels": 0
     },
@@ -2134,7 +2008,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/4425/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/4426/image",
       "channels": [],
       "total_channels": 0
     },
@@ -2161,7 +2035,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/4391/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/4393/image",
       "channels": [],
       "total_channels": 0
     },
@@ -2188,7 +2062,7 @@
           "flag": "https://img.sofascore.com/api/v1/team/4431/image"
         }
       },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/team/4421/image",
       "channels": [],
       "total_channels": 0
     }
