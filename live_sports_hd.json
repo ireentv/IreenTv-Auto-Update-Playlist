@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 76,
   "live_count": 4,
-  "last_update": "02:15 PM 18-10-2026 BST",
+  "last_update": "02:31 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -181,6 +181,22 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark",
       "channels": [
         {
+          "channel_name": "WILLOW - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/886jnqvhnx/out/v1/c3fafabc2248406a87537176ca13a389/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/886jnqvhnx/out/v1/c3fafabc2248406a87537176ca13a389/cenc.mpd",
+          "headers": {},
+          "drm_key": "012110afbe9bdf40e7da3cc766ad041e:b2b91f89d2b223b349208e44e5ff49da"
+        },
+        {
+          "channel_name": "WILLOW - ALT",
+          "stream_type": "DASH",
+          "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/886jnqvhnx/out/v1/c3fafabc2248406a87537176ca13a389/cenc.mpd",
+          "raw_link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/886jnqvhnx/out/v1/c3fafabc2248406a87537176ca13a389/cenc.mpd",
+          "headers": {},
+          "drm_key": "012110afbe9bdf40e7da3cc766ad041e:b2b91f89d2b223b349208e44e5ff49da"
+        },
+        {
           "channel_name": "TAPMAD - AQ",
           "stream_type": "HLS",
           "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8?",
@@ -193,8 +209,8 @@
         {
           "channel_name": "PTV SPORTS HD",
           "stream_type": "HLS",
-          "url": "http://95.133.241.239:8089/PAKvsSLLow/index.m3u8",
-          "raw_link": "http://95.133.241.239:8089/PAKvsSLLow/index.m3u8",
+          "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+          "raw_link": "https://live.msnetworks.net/ptv-sports/master.m3u8",
           "headers": {},
           "drm_key": null
         },
@@ -207,9 +223,17 @@
             "referer": "https://tapmad.com/"
           },
           "drm_key": null
+        },
+        {
+          "channel_name": "WILLOW HD",
+          "stream_type": "HLS",
+          "url": "http://mag.tivi-one-iptv.net/play/live.php?mac=00:1A:79:F5:CC:FD&stream=809386&extension=m3u8",
+          "raw_link": "http://mag.tivi-one-iptv.net/play/live.php?mac=00:1A:79:F5:CC:FD&stream=809386&extension=m3u8",
+          "headers": {},
+          "drm_key": null
         }
       ],
-      "total_channels": 3
+      "total_channels": 6
     },
     {
       "title": "WCL World Championship of Legends",
@@ -729,6 +753,78 @@
         "team_b": {
           "name": "Arizona Cardinals",
           "flag": "https://img.sofascore.com/api/v1/team/4412/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Kansas City Chiefs vs Los Angeles Chargers",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "kansas-city-chiefs-vs-los-angeles-chargers",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
+        "end_time_bst": "Oct 19, 2026, 05:25:00 AM",
+        "raw_start_utc": "2026/10/18 20:25:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Kansas City Chiefs",
+          "flag": "https://img.sofascore.com/api/v1/team/4422/image"
+        },
+        "team_b": {
+          "name": "Los Angeles Chargers",
+          "flag": "https://img.sofascore.com/api/v1/team/4429/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "channels": [
+        {
+          "channel_name": "CRICFy LIVE",
+          "stream_type": "HLS",
+          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+          "headers": {},
+          "drm_key": null
+        }
+      ],
+      "total_channels": 1
+    },
+    {
+      "title": "Las Vegas Raiders vs Buffalo Bills",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "las-vegas-raiders-vs-buffalo-bills",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
+        "end_time_bst": "Oct 19, 2026, 05:25:00 AM",
+        "raw_start_utc": "2026/10/18 20:25:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Las Vegas Raiders",
+          "flag": "https://img.sofascore.com/api/v1/team/4390/image"
+        },
+        "team_b": {
+          "name": "Buffalo Bills",
+          "flag": "https://img.sofascore.com/api/v1/team/4414/image"
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
@@ -1632,17 +1728,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "FC Groningen vs AFC Ajax",
@@ -1668,17 +1755,8 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "channels": [
-        {
-          "channel_name": "CRICFy LIVE",
-          "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
-          "drm_key": null
-        }
-      ],
-      "total_channels": 1
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "FC Twente vs FC Utrecht",
@@ -2109,60 +2187,6 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Kansas City Chiefs vs Los Angeles Chargers",
-      "sport": "Football",
-      "sub_category": "NFL",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "kansas-city-chiefs-vs-los-angeles-chargers",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
-        "end_time_bst": "Oct 19, 2026, 05:25:00 AM",
-        "raw_start_utc": "2026/10/18 20:25:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Kansas City Chiefs",
-          "flag": "https://img.sofascore.com/api/v1/team/4422/image"
-        },
-        "team_b": {
-          "name": "Los Angeles Chargers",
-          "flag": "https://img.sofascore.com/api/v1/team/4429/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Las Vegas Raiders vs Buffalo Bills",
-      "sport": "Football",
-      "sub_category": "NFL",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "las-vegas-raiders-vs-buffalo-bills",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 02:25:00 AM",
-        "end_time_bst": "Oct 19, 2026, 05:25:00 AM",
-        "raw_start_utc": "2026/10/18 20:25:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Las Vegas Raiders",
-          "flag": "https://img.sofascore.com/api/v1/team/4390/image"
-        },
-        "team_b": {
-          "name": "Buffalo Bills",
-          "flag": "https://img.sofascore.com/api/v1/team/4414/image"
-        }
-      },
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
       "channels": [],
       "total_channels": 0
     },

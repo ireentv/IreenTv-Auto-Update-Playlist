@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 76
 # Live Count     : 4
-# Last Update    : 02:15 PM 18-10-2026 BST
+# Last Update    : 02:31 PM 18-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -46,14 +46,22 @@ https://dai-fancode.pages.dev/mumbai/4249782_english_hls_bf21f9fa2f43134_1ta-di_
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
-#EXTINF:-1 tvg-name="Pakistan vs Sri Lanka (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="live_sports_HD",Pakistan vs Sri Lanka (Server 1 - Raw Link)
+#EXTINF:-1 tvg-name="Pakistan vs Sri Lanka (Server 1 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="live_sports_HD",Pakistan vs Sri Lanka (Server 1 - Url)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/886jnqvhnx/out/v1/c3fafabc2248406a87537176ca13a389/cenc.mpd
+#EXTINF:-1 tvg-name="Pakistan vs Sri Lanka (Server 2 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="live_sports_HD",Pakistan vs Sri Lanka (Server 2 - Url)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/886jnqvhnx/out/v1/c3fafabc2248406a87537176ca13a389/cenc.mpd
+#EXTINF:-1 tvg-name="Pakistan vs Sri Lanka (Server 3 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="live_sports_HD",Pakistan vs Sri Lanka (Server 3 - Raw Link)
 #EXTVLCOPT:http-referrer=https://tapmad.com/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://tapmad.com/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tapmad.com/
 https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8?|Referer=https://tapmad.com/
-#EXTINF:-1 tvg-name="Pakistan vs Sri Lanka (Server 2 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="live_sports_HD",Pakistan vs Sri Lanka (Server 2 - Url)
-http://95.133.241.239:8089/PAKvsSLLow/index.m3u8
-#EXTINF:-1 tvg-name="Pakistan vs Sri Lanka (Server 3 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="live_sports_HD",Pakistan vs Sri Lanka (Server 3 - Raw Link)
+#EXTINF:-1 tvg-name="Pakistan vs Sri Lanka (Server 4 - Url)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="live_sports_HD",Pakistan vs Sri Lanka (Server 4 - Url)
+https://live.msnetworks.net/ptv-sports/master.m3u8
+#EXTINF:-1 tvg-name="Pakistan vs Sri Lanka (Server 5 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark" group-title="live_sports_HD",Pakistan vs Sri Lanka (Server 5 - Raw Link)
 #EXTVLCOPT:http-referrer=https://tapmad.com/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://tapmad.com/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tapmad.com/
@@ -156,6 +164,10 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Los Angeles Rams vs Arizona Cardinals" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark" group-title="live_sports_HD",Los Angeles Rams vs Arizona Cardinals
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-name="Kansas City Chiefs vs Los Angeles Chargers" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark" group-title="live_sports_HD",Kansas City Chiefs vs Los Angeles Chargers
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-name="Las Vegas Raiders vs Buffalo Bills" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark" group-title="live_sports_HD",Las Vegas Raiders vs Buffalo Bills
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Bayer 04 Leverkusen vs SC Freiburg" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="live_sports_HD",Bayer 04 Leverkusen vs SC Freiburg
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Borussia Mgladbach vs TSG Hoffenheim" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="live_sports_HD",Borussia Mgladbach vs TSG Hoffenheim
@@ -203,8 +215,4 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 #EXTINF:-1 tvg-name="Karlsruher SC vs Darmstadt 98" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/44/image/dark" group-title="live_sports_HD",Karlsruher SC vs Darmstadt 98
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="PEC Zwolle vs Go Ahead Eagles" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/37/image/dark" group-title="live_sports_HD",PEC Zwolle vs Go Ahead Eagles
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-#EXTINF:-1 tvg-name="SC Cambuur vs AZ Alkmaar" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/37/image/dark" group-title="live_sports_HD",SC Cambuur vs AZ Alkmaar
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-#EXTINF:-1 tvg-name="FC Groningen vs AFC Ajax" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/37/image/dark" group-title="live_sports_HD",FC Groningen vs AFC Ajax
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
