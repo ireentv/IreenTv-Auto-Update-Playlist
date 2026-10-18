@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 76,
+  "channels_amount": 77,
   "live_count": 7,
-  "last_update": "04:31 PM 18-10-2026 BST",
+  "last_update": "04:34 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -1202,11 +1202,13 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "channels": [
         {
-          "channel_name": "CRICFy LIVE",
+          "channel_name": "SKY SPORTS - AQ",
           "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
+          "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=oQHxVF62YP2JSnxUwT4p-g&e=2092290550&scheme=https",
+          "raw_link": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=oQHxVF62YP2JSnxUwT4p-g&e=2092290550&scheme=https|user-agent=Mozilla",
+          "headers": {
+            "user-agent": "Mozilla"
+          },
           "drm_key": null
         }
       ],
@@ -2243,6 +2245,33 @@
         }
       },
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/11205/image/dark",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "AC Milan vs Atalanta",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "ac-milan-vs-atalanta",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 18, 2026, 10:00:00 PM",
+        "end_time_bst": "Oct 19, 2026, 12:20:00 AM",
+        "raw_start_utc": "2026/10/18 16:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "AC Milan",
+          "flag": "https://img.sofascore.com/api/v1/team/2692/image"
+        },
+        "team_b": {
+          "name": "Atalanta",
+          "flag": "https://img.sofascore.com/api/v1/team/2686/image"
+        }
+      },
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
       "channels": [],
       "total_channels": 0
     },

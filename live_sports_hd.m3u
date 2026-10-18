@@ -3,9 +3,9 @@
 # Developer      : MD ANAMUL HOQUE
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
-# Channels Amount: 76
+# Channels Amount: 77
 # Live Count     : 7
-# Last Update    : 04:31 PM 18-10-2026 BST
+# Last Update    : 04:34 PM 18-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -226,7 +226,10 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla
 https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=oQHxVF62YP2JSnxUwT4p-g&e=2092290550&scheme=https|User-Agent=Mozilla
 #EXTINF:-1 tvg-name="Nottingham Forest vs Arsenal" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="live_sports_HD",Nottingham Forest vs Arsenal
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla
+https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=oQHxVF62YP2JSnxUwT4p-g&e=2092290550&scheme=https|User-Agent=Mozilla
 #EXTINF:-1 tvg-name="Leeds United vs Manchester United" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="live_sports_HD",Leeds United vs Manchester United
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Fluminense vs Santos" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/325/image/dark" group-title="live_sports_HD",Fluminense vs Santos
