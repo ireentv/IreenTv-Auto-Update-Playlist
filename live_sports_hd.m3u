@@ -4,8 +4,8 @@
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
 # Channels Amount: 43
-# Live Count     : 6
-# Last Update    : 04:15 AM 19-10-2026 BST
+# Live Count     : 7
+# Last Update    : 04:31 AM 19-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -47,6 +47,10 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd
+#EXTINF:-1 tvg-name="Remo vs Red Bull Bragantino" tvg-logo="https://img.sofascore.com/api/v1/team/2012/image" group-title="live_sports_HD",Remo vs Red Bull Bragantino
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd
 #EXTINF:-1 tvg-name="Cleveland Guardians vs Tampa Bay Rays (Server 1 - Raw Link)" tvg-logo="https://img.sofascore.com/api/v1/team/3650/image" group-title="live_sports_HD",Cleveland Guardians vs Tampa Bay Rays (Server 1 - Raw Link)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
