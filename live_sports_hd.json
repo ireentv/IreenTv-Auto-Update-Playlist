@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 76,
   "live_count": 1,
-  "last_update": "01:34 PM 18-10-2026 BST",
+  "last_update": "01:36 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -108,11 +108,14 @@
           "drm_key": null
         },
         {
-          "channel_name": "WILLOW HD",
+          "channel_name": "FANCODE - IN",
           "stream_type": "HLS",
-          "url": "http://mag.tivi-one-iptv.net/play/live.php?mac=00:1A:79:F5:CC:FD&stream=809386&extension=m3u8",
-          "raw_link": "http://mag.tivi-one-iptv.net/play/live.php?mac=00:1A:79:F5:CC:FD&stream=809386&extension=m3u8",
-          "headers": {},
+          "url": "https://dai-fancode.pages.dev/mumbai/4249782_english_hls_bf21f9fa2f43134_1ta-di_h264/index.m3u8",
+          "raw_link": "https://dai-fancode.pages.dev/mumbai/4249782_english_hls_bf21f9fa2f43134_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+          "headers": {
+            "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+            "Referer": "https://fancode.com/"
+          },
           "drm_key": null
         }
       ],
