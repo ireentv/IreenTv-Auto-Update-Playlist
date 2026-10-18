@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 74,
   "live_count": 9,
-  "last_update": "06:36 PM 18-10-2026 BST",
+  "last_update": "06:40 PM 18-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -1262,15 +1262,29 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
       "channels": [
         {
-          "channel_name": "CRICFy LIVE",
+          "channel_name": "PEACOCK TV HD",
           "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
+          "url": "https://chatgpt.hereisman.net/playlist/58249/load-playlist?",
+          "raw_link": "https://chatgpt.hereisman.net/playlist/58249/load-playlist?|Referer=https://gooz.aapmains.net",
+          "headers": {
+            "Referer": "https://gooz.aapmains.net"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.55/hls/H000.m3u8",
+          "raw_link": "http://193.47.62.55/hls/H000.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
           "drm_key": null
         }
       ],
-      "total_channels": 1
+      "total_channels": 2
     },
     {
       "title": "Brighton Hove Albion vs Crystal Palace",
@@ -1306,9 +1320,31 @@
             "user-agent": "Mozilla"
           },
           "drm_key": null
+        },
+        {
+          "channel_name": "PEACOCK TV HD",
+          "stream_type": "HLS",
+          "url": "https://chatgpt.hereisman.net/playlist/58250/load-playlist?",
+          "raw_link": "https://chatgpt.hereisman.net/playlist/58250/load-playlist?|Referer=https://gooz.aapmains.net",
+          "headers": {
+            "Referer": "https://gooz.aapmains.net"
+          },
+          "drm_key": null
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.50/hls/H000A.m3u8",
+          "raw_link": "http://193.47.62.50/hls/H000A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
         }
       ],
-      "total_channels": 1
+      "total_channels": 3
     },
     {
       "title": "Nottingham Forest vs Arsenal",
@@ -1613,9 +1649,21 @@
           "raw_link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
           "headers": {},
           "drm_key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+        },
+        {
+          "channel_name": "LOW SERVER",
+          "stream_type": "HLS",
+          "url": "http://193.47.62.41/hls/LCCC.m3u8",
+          "raw_link": "http://193.47.62.41/hls/LCCC.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
+          "drm_key": null
         }
       ],
-      "total_channels": 3
+      "total_channels": 4
     },
     {
       "title": "Juventus vs Lazio",
@@ -1939,11 +1987,15 @@
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
       "channels": [
         {
-          "channel_name": "CRICFy LIVE",
+          "channel_name": "LOW SERVER",
           "stream_type": "HLS",
-          "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "raw_link": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-          "headers": {},
+          "url": "http://193.47.62.41/hls/LCCCA.m3u8",
+          "raw_link": "http://193.47.62.41/hls/LCCCA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "http://www.fawanews.sc/",
+            "Origin": "http://www.fawanews.sc"
+          },
           "drm_key": null
         }
       ],

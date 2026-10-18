@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 74
 # Live Count     : 9
-# Last Update    : 06:36 PM 18-10-2026 BST
+# Last Update    : 06:40 PM 18-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -243,12 +243,20 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 #EXTINF:-1 tvg-name="Borussia Mgladbach vs TSG Hoffenheim" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="live_sports_HD",Borussia Mgladbach vs TSG Hoffenheim
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Bournemouth vs Sunderland" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="live_sports_HD",Bournemouth vs Sunderland
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-#EXTINF:-1 tvg-name="Brighton Hove Albion vs Crystal Palace" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="live_sports_HD",Brighton Hove Albion vs Crystal Palace
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+http://193.47.62.55/hls/H000.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#EXTINF:-1 tvg-name="Brighton Hove Albion vs Crystal Palace (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="live_sports_HD",Brighton Hove Albion vs Crystal Palace (Server 1 - Raw Link)
 #EXTVLCOPT:http-user-agent=Mozilla
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla
 https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=oQHxVF62YP2JSnxUwT4p-g&e=2092290550&scheme=https|User-Agent=Mozilla
+#EXTINF:-1 tvg-name="Brighton Hove Albion vs Crystal Palace (Server 3 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="live_sports_HD",Brighton Hove Albion vs Crystal Palace (Server 3 - Raw Link)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+http://193.47.62.50/hls/H000A.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Nottingham Forest vs Arsenal" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="live_sports_HD",Nottingham Forest vs Arsenal
 #EXTVLCOPT:http-user-agent=Mozilla
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla
@@ -304,6 +312,11 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
+#EXTINF:-1 tvg-name="Fiorentina vs Como (Server 4 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_sports_HD",Fiorentina vs Como (Server 4 - Raw Link)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+http://193.47.62.41/hls/LCCC.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Juventus vs Lazio (Server 1 - Raw Link)" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="live_sports_HD",Juventus vs Lazio (Server 1 - Raw Link)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -429,7 +442,10 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Angers vs Olympique de Marseille" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Angers vs Olympique de Marseille
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+http://193.47.62.41/hls/LCCCA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
 #EXTINF:-1 tvg-name="Le Havre vs Auxerre" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Le Havre vs Auxerre
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 #EXTINF:-1 tvg-name="Lorient vs AS Monaco" tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/34/image/dark" group-title="live_sports_HD",Lorient vs AS Monaco
