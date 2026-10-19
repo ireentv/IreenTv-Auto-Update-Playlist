@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 41,
   "live_count": 3,
-  "last_update": "05:45 PM 19-10-2026 BST",
+  "last_update": "06:01 PM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -198,9 +198,47 @@
           "raw_link": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
           "headers": {},
           "drm_key": null
+        },
+        {
+          "channel_name": "FANCODE - IN",
+          "stream_type": "HLS",
+          "url": "https://dai-fancode.pages.dev/mumbai/4249695_english_hls_940482a4d917399_1ta-di_h264/index.m3u8",
+          "raw_link": "https://dai-fancode.pages.dev/mumbai/4249695_english_hls_940482a4d917399_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
+          "headers": {
+            "User-Agent": "ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1",
+            "Referer": "https://fancode.com/"
+          },
+          "drm_key": null
         }
       ],
-      "total_channels": 5
+      "total_channels": 6
+    },
+    {
+      "title": "WWE Raw",
+      "sport": "Fighting",
+      "sub_category": "Monday Night RAW",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "wwe-raw",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 06:00:06 AM",
+        "end_time_bst": "Oct 20, 2026, 09:00:10 AM",
+        "raw_start_utc": "2026/10/20 00:00:06 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "WWE RAW",
+          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFW9zq6aPTeuXAbR_LN5vEH39CQlgUwbf9htaAx9-D4oupUZ-ocumYl3T_Kkp6Crzq1rUzGf83Ps4jnJzkLD6XlNh1CW9WjsgdhneuImqgaPDw7UekEqax_YdnYynNmyfmWTxVZ599JunK1yoA5ErRmJBe0fCos9fHoNwIYmOAwgenJizk5e0nhHHPnkM/s1600/20250317_175451.jpg"
+        },
+        "team_b": {
+          "name": "WWE RAW",
+          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFW9zq6aPTeuXAbR_LN5vEH39CQlgUwbf9htaAx9-D4oupUZ-ocumYl3T_Kkp6Crzq1rUzGf83Ps4jnJzkLD6XlNh1CW9WjsgdhneuImqgaPDw7UekEqax_YdnYynNmyfmWTxVZ599JunK1yoA5ErRmJBe0fCos9fHoNwIYmOAwgenJizk5e0nhHHPnkM/s1600/20250317_175451.jpg"
+        }
+      },
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFW9zq6aPTeuXAbR_LN5vEH39CQlgUwbf9htaAx9-D4oupUZ-ocumYl3T_Kkp6Crzq1rUzGf83Ps4jnJzkLD6XlNh1CW9WjsgdhneuImqgaPDw7UekEqax_YdnYynNmyfmWTxVZ599JunK1yoA5ErRmJBe0fCos9fHoNwIYmOAwgenJizk5e0nhHHPnkM/s1600/20250317_175451.jpg",
+      "channels": [],
+      "total_channels": 0
     },
     {
       "title": "Tottenham Hotspur vs Coventry City",
@@ -473,6 +511,33 @@
       "total_channels": 0
     },
     {
+      "title": "Tampa Bay Rays vs Cleveland Guardians",
+      "sport": "Baseball",
+      "sub_category": "MLB",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "tampa-bay-rays-vs-cleveland-guardians",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 06:00:00 AM",
+        "end_time_bst": "Oct 20, 2026, 09:00:00 AM",
+        "raw_start_utc": "2026/10/20 00:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Tampa Bay Rays",
+          "flag": "https://img.sofascore.com/api/v1/team/3653/image"
+        },
+        "team_b": {
+          "name": "Cleveland Guardians",
+          "flag": "https://img.sofascore.com/api/v1/team/3650/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/3653/image",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
       "title": "Formula 1",
       "sport": "Motorsport",
       "sub_category": "Formula 1",
@@ -550,33 +615,6 @@
         }
       },
       "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzZP7kZVz8XPUsapkhsNd-oO8yjHbAA2NXMRuEDPXZteAJRwIeIAUQo5U_6QA4mhPqXAeR5YPVY-Yu5hBVZcOIfWUUFvewgaC2bFmrSLu10iQgvBiLpB0vxEWz320Par_JDjKzTdCYYTcsA4dLb-TjD1fsXvMwGsb6XahN-Pq2ZsexcSsBITIxzXFRYEM/s1600/1000009833.jpg",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "WWE Raw",
-      "sport": "Fighting",
-      "sub_category": "Monday Night RAW",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "wwe-raw",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 20, 2026, 06:00:06 AM",
-        "end_time_bst": "Oct 20, 2026, 09:00:10 AM",
-        "raw_start_utc": "2026/10/20 00:00:06 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "WWE RAW",
-          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFW9zq6aPTeuXAbR_LN5vEH39CQlgUwbf9htaAx9-D4oupUZ-ocumYl3T_Kkp6Crzq1rUzGf83Ps4jnJzkLD6XlNh1CW9WjsgdhneuImqgaPDw7UekEqax_YdnYynNmyfmWTxVZ599JunK1yoA5ErRmJBe0fCos9fHoNwIYmOAwgenJizk5e0nhHHPnkM/s1600/20250317_175451.jpg"
-        },
-        "team_b": {
-          "name": "WWE RAW",
-          "flag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFW9zq6aPTeuXAbR_LN5vEH39CQlgUwbf9htaAx9-D4oupUZ-ocumYl3T_Kkp6Crzq1rUzGf83Ps4jnJzkLD6XlNh1CW9WjsgdhneuImqgaPDw7UekEqax_YdnYynNmyfmWTxVZ599JunK1yoA5ErRmJBe0fCos9fHoNwIYmOAwgenJizk5e0nhHHPnkM/s1600/20250317_175451.jpg"
-        }
-      },
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFW9zq6aPTeuXAbR_LN5vEH39CQlgUwbf9htaAx9-D4oupUZ-ocumYl3T_Kkp6Crzq1rUzGf83Ps4jnJzkLD6XlNh1CW9WjsgdhneuImqgaPDw7UekEqax_YdnYynNmyfmWTxVZ599JunK1yoA5ErRmJBe0fCos9fHoNwIYmOAwgenJizk5e0nhHHPnkM/s1600/20250317_175451.jpg",
       "channels": [],
       "total_channels": 0
     },
@@ -712,33 +750,6 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/187754/image",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Tampa Bay Rays vs Cleveland Guardians",
-      "sport": "Baseball",
-      "sub_category": "MLB",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "tampa-bay-rays-vs-cleveland-guardians",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 20, 2026, 06:00:00 AM",
-        "end_time_bst": "Oct 20, 2026, 09:00:00 AM",
-        "raw_start_utc": "2026/10/20 00:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Tampa Bay Rays",
-          "flag": "https://img.sofascore.com/api/v1/team/3653/image"
-        },
-        "team_b": {
-          "name": "Cleveland Guardians",
-          "flag": "https://img.sofascore.com/api/v1/team/3650/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/3653/image",
       "channels": [],
       "total_channels": 0
     },
