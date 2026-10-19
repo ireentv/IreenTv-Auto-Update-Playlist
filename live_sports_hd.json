@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 43,
   "live_count": 1,
-  "last_update": "10:16 AM 19-10-2026 BST",
+  "last_update": "10:31 AM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -71,6 +71,33 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/187575/image",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Monza vs Cagliari",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "monza-vs-cagliari",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 10:30:00 PM",
+        "end_time_bst": "Oct 20, 2026, 12:50:00 AM",
+        "raw_start_utc": "2026/10/19 16:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Monza",
+          "flag": "https://img.sofascore.com/api/v1/team/2729/image"
+        },
+        "team_b": {
+          "name": "Cagliari",
+          "flag": "https://img.sofascore.com/api/v1/team/2719/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/2729/image",
       "channels": [],
       "total_channels": 0
     },
@@ -395,33 +422,6 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/1957/image",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Monza vs Cagliari",
-      "sport": "Football",
-      "sub_category": "Serie A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "monza-vs-cagliari",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 10:30:00 PM",
-        "end_time_bst": "Oct 20, 2026, 12:50:00 AM",
-        "raw_start_utc": "2026/10/19 16:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Monza",
-          "flag": "https://img.sofascore.com/api/v1/team/2729/image"
-        },
-        "team_b": {
-          "name": "Cagliari",
-          "flag": "https://img.sofascore.com/api/v1/team/2719/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/2729/image",
       "channels": [],
       "total_channels": 0
     },
