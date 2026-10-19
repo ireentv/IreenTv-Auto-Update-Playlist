@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 42,
   "live_count": 2,
-  "last_update": "04:48 PM 19-10-2026 BST",
+  "last_update": "05:01 PM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -182,6 +182,33 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/33/image",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Corinthians vs Vitoria",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "corinthians-vs-vitoria",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 05:00:00 AM",
+        "end_time_bst": "Oct 20, 2026, 07:20:00 AM",
+        "raw_start_utc": "2026/10/19 23:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Corinthians",
+          "flag": "https://img.sofascore.com/api/v1/team/1957/image"
+        },
+        "team_b": {
+          "name": "Vitória",
+          "flag": "https://img.sofascore.com/api/v1/team/1962/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/1957/image",
       "channels": [],
       "total_channels": 0
     },
@@ -641,33 +668,6 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/4389/image",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Corinthians vs Vitoria",
-      "sport": "Football",
-      "sub_category": "Campeonato Brasileiro Série A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "corinthians-vs-vitoria",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 20, 2026, 05:00:00 AM",
-        "end_time_bst": "Oct 20, 2026, 07:20:00 AM",
-        "raw_start_utc": "2026/10/19 23:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Corinthians",
-          "flag": "https://img.sofascore.com/api/v1/team/1957/image"
-        },
-        "team_b": {
-          "name": "Vitória",
-          "flag": "https://img.sofascore.com/api/v1/team/1962/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/1957/image",
       "channels": [],
       "total_channels": 0
     },

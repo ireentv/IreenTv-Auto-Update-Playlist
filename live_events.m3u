@@ -3,9 +3,9 @@
 # Developer      : MD ANAMUL HOQUE
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
-# Channels Amount: 26
-# Live Count     : 26
-# Last Update    : 04:48 PM 19-10-2026 BST
+# Channels Amount: 28
+# Live Count     : 28
+# Last Update    : 05:01 PM 19-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -194,7 +194,7 @@ https://android-database1.firebase-api.com/AccessLog2/108085_HD/apache.m3u8|Refe
 #EXTINF:-1 tvg-name="Sports Match (WILLOW - AQ)" tvg-logo="" group-title="live_events",Sports Match (WILLOW - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qs5pyspzlo/out/v1/3ef8ed04d65740bab473e63afb981a30/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fspu6lxxw0/out/v1/690becb9981247eda1a04ab7229753b5/cenc.mpd
 #EXTINF:-1 tvg-name="Sports Match (FANCODE - AQ)" tvg-logo="" group-title="live_events",Sports Match (FANCODE - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -205,7 +205,7 @@ https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1
 #EXTINF:-1 tvg-name="Sports Match (WILLOW - ALT)" tvg-logo="" group-title="live_events",Sports Match (WILLOW - ALT)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qs5pyspzlo/out/v1/3ef8ed04d65740bab473e63afb981a30/cenc.mpd
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fspu6lxxw0/out/v1/690becb9981247eda1a04ab7229753b5/cenc.mpd
 #EXTINF:-1 tvg-name="Sports Match (SKY CRICKET - AQ)" tvg-logo="" group-title="live_events",Sports Match (SKY CRICKET - AQ)
 #EXTVLCOPT:http-user-agent=Mozilla
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla
@@ -223,6 +223,8 @@ https://baila-lentoo.pages.dev/all-sp/809389.m3u8
 https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8
 #EXTINF:-1 tvg-name="Sports Match (A SPORTS)" tvg-logo="" group-title="live_events",Sports Match (A SPORTS)
 https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9
+#EXTINF:-1 tvg-name="Sports Match (Tamasha LIVE)" tvg-logo="" group-title="live_events",Sports Match (Tamasha LIVE)
+https://cdn04khi-n.tamashaweb.com:8087/YlUHeDQb7a/SAvAUS-avod-abr/playlist.m3u8
 #EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
 #EXTVLCOPT:http-referrer=http://fawanews.sc/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
@@ -297,3 +299,13 @@ http://cricfy-tv.net/promo/cricfy-promo.m3u8
 https://edgestream4.pro/hls/dazhfiach15.m3u8|Referer=https://streame.center/
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
+http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.icc-cricket.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Referer=https://www.icc-cricket.com/&Origin=https://www.icc-cricket.com
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Referer=https://www.icc-cricket.com/&Origin=https://www.icc-cricket.com
+https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-10)/hdntl=exp=1792417832~acl=%2Fvariant%2Fv1blackout%2Fvcg-01-d%2F*~id=96bc7139-3edd-47ca-8f83-cfabcae165c5~data=hdntl~hmac=365ce38d578b04b527e7137b558b2ff21d0efbcea3a8dd2657e8d1d2ad3f435b/manifest.mpd?vcfilter=cab18332-42e0-471c-a2f5-f14341f3a60a&|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36&Referer=https://www.icc-cricket.com/&Origin=https://www.icc-cricket.com
