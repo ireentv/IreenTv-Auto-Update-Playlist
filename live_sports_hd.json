@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 23,
   "live_count": 1,
-  "last_update": "12:34 PM 19-10-2026 BST",
+  "last_update": "12:46 PM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -98,6 +98,33 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/2729/image",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Parma vs Torino",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "parma-vs-torino",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 12:45:00 AM",
+        "end_time_bst": "Oct 20, 2026, 03:05:00 AM",
+        "raw_start_utc": "2026/10/19 18:45:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Parma",
+          "flag": "https://img.sofascore.com/api/v1/team/2690/image"
+        },
+        "team_b": {
+          "name": "Torino",
+          "flag": "https://img.sofascore.com/api/v1/team/2696/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/2690/image",
       "channels": [],
       "total_channels": 0
     },
@@ -530,33 +557,6 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/1957/image",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Parma vs Torino",
-      "sport": "Football",
-      "sub_category": "Serie A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "parma-vs-torino",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 20, 2026, 12:45:00 AM",
-        "end_time_bst": "Oct 20, 2026, 03:05:00 AM",
-        "raw_start_utc": "2026/10/19 18:45:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Parma",
-          "flag": "https://img.sofascore.com/api/v1/team/2690/image"
-        },
-        "team_b": {
-          "name": "Torino",
-          "flag": "https://img.sofascore.com/api/v1/team/2696/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/2690/image",
       "channels": [],
       "total_channels": 0
     },
