@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 43,
   "live_count": 3,
-  "last_update": "06:16 AM 19-10-2026 BST",
+  "last_update": "06:31 AM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,42 +19,6 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
-    },
-    {
-      "title": "Remo vs Red Bull Bragantino",
-      "sport": "Football",
-      "sub_category": "Campeonato Brasileiro Série A",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "remo-vs-red-bull-bragantino",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 04:30:00 AM",
-        "end_time_bst": "Oct 19, 2026, 06:50:00 AM",
-        "raw_start_utc": "2026/10/18 22:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Remo",
-          "flag": "https://img.sofascore.com/api/v1/team/2012/image"
-        },
-        "team_b": {
-          "name": "Red Bull Bragantino",
-          "flag": "https://img.sofascore.com/api/v1/team/1999/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/2012/image",
-      "channels": [
-        {
-          "channel_name": "PREMIERE BR - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
-          "headers": {},
-          "drm_key": "e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
-        }
-      ],
-      "total_channels": 1
     },
     {
       "title": "Green Bay Packers vs Dallas Cowboys",
@@ -124,6 +88,42 @@
         }
       ],
       "total_channels": 4
+    },
+    {
+      "title": "Remo vs Red Bull Bragantino",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "remo-vs-red-bull-bragantino",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 04:30:00 AM",
+        "end_time_bst": "Oct 19, 2026, 06:50:00 AM",
+        "raw_start_utc": "2026/10/18 22:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Remo",
+          "flag": "https://img.sofascore.com/api/v1/team/2012/image"
+        },
+        "team_b": {
+          "name": "Red Bull Bragantino",
+          "flag": "https://img.sofascore.com/api/v1/team/1999/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/2012/image",
+      "channels": [
+        {
+          "channel_name": "PREMIERE BR - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd",
+          "headers": {},
+          "drm_key": "e23365c2ad97870c871712b73f0d6195:58709c714320bb862dbd07270df81c94"
+        }
+      ],
+      "total_channels": 1
     },
     {
       "title": "South Africa vs Australia",
