@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 41,
-  "live_count": 4,
-  "last_update": "10:15 PM 19-10-2026 BST",
+  "live_count": 5,
+  "last_update": "10:31 PM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -214,6 +214,66 @@
       "total_channels": 6
     },
     {
+      "title": "Monza vs Cagliari",
+      "sport": "Football",
+      "sub_category": "Serie A",
+      "status": "Live",
+      "is_hot": false,
+      "slug": "monza-vs-cagliari",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 10:30:00 PM",
+        "end_time_bst": "Oct 20, 2026, 12:50:00 AM",
+        "raw_start_utc": "2026/10/19 16:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Monza",
+          "flag": "https://img.sofascore.com/api/v1/team/2729/image"
+        },
+        "team_b": {
+          "name": "Cagliari",
+          "flag": "https://img.sofascore.com/api/v1/team/2719/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/2729/image",
+      "channels": [
+        {
+          "channel_name": "beIN ENGLISH - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+        },
+        {
+          "channel_name": "FUBO SPORTS - AQ",
+          "stream_type": "DASH",
+          "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
+          "raw_link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "headers": {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+          },
+          "drm_key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+        },
+        {
+          "channel_name": "HD SERVER",
+          "stream_type": "HLS",
+          "url": "https://edgestream2.pro/hls/syaLqucEne4k.m3u8",
+          "raw_link": "https://edgestream2.pro/hls/syaLqucEne4k.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=https://streame.center&Origin=https://streame.center",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+            "Referer": "https://streame.center",
+            "Origin": "https://streame.center"
+          },
+          "drm_key": null
+        }
+      ],
+      "total_channels": 3
+    },
+    {
       "title": "Al-Fayha vs Al-Ahli",
       "sport": "Football",
       "sub_category": "Saudi Pro League",
@@ -368,33 +428,6 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/1957/image",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Monza vs Cagliari",
-      "sport": "Football",
-      "sub_category": "Serie A",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "monza-vs-cagliari",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 10:30:00 PM",
-        "end_time_bst": "Oct 20, 2026, 12:50:00 AM",
-        "raw_start_utc": "2026/10/19 16:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Monza",
-          "flag": "https://img.sofascore.com/api/v1/team/2729/image"
-        },
-        "team_b": {
-          "name": "Cagliari",
-          "flag": "https://img.sofascore.com/api/v1/team/2719/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/2729/image",
       "channels": [],
       "total_channels": 0
     },
