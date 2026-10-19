@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 23,
   "live_count": 1,
-  "last_update": "12:49 PM 19-10-2026 BST",
+  "last_update": "01:01 PM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -75,6 +75,33 @@
       "total_channels": 0
     },
     {
+      "title": "Tottenham Hotspur vs Coventry City",
+      "sport": "Football",
+      "sub_category": "Premier League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "tottenham-hotspur-vs-coventry-city",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 20, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/19 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Tottenham Hotspur",
+          "flag": "https://img.sofascore.com/api/v1/team/33/image"
+        },
+        "team_b": {
+          "name": "Coventry City",
+          "flag": "https://img.sofascore.com/api/v1/team/11/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/33/image",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
       "title": "Monza vs Cagliari",
       "sport": "Football",
       "sub_category": "Serie A",
@@ -125,6 +152,33 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/2690/image",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Getafe vs Rayo Vallecano",
+      "sport": "Football",
+      "sub_category": "LaLiga",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "getafe-vs-rayo-vallecano",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 20, 2026, 01:00:00 AM",
+        "end_time_bst": "Oct 20, 2026, 03:20:00 AM",
+        "raw_start_utc": "2026/10/19 19:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Getafe",
+          "flag": "https://img.sofascore.com/api/v1/team/2859/image"
+        },
+        "team_b": {
+          "name": "Rayo Vallecano",
+          "flag": "https://img.sofascore.com/api/v1/team/2818/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/2859/image",
       "channels": [],
       "total_channels": 0
     },
@@ -507,33 +561,6 @@
       "total_channels": 0
     },
     {
-      "title": "Tottenham Hotspur vs Coventry City",
-      "sport": "Football",
-      "sub_category": "Premier League",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "tottenham-hotspur-vs-coventry-city",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 20, 2026, 01:00:00 AM",
-        "end_time_bst": "Oct 20, 2026, 03:20:00 AM",
-        "raw_start_utc": "2026/10/19 19:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Tottenham Hotspur",
-          "flag": "https://img.sofascore.com/api/v1/team/33/image"
-        },
-        "team_b": {
-          "name": "Coventry City",
-          "flag": "https://img.sofascore.com/api/v1/team/11/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/33/image",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
       "title": "Corinthians vs Vitoria",
       "sport": "Football",
       "sub_category": "Campeonato Brasileiro Série A",
@@ -557,33 +584,6 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/1957/image",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Getafe vs Rayo Vallecano",
-      "sport": "Football",
-      "sub_category": "LaLiga",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "getafe-vs-rayo-vallecano",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 20, 2026, 01:00:00 AM",
-        "end_time_bst": "Oct 20, 2026, 03:20:00 AM",
-        "raw_start_utc": "2026/10/19 19:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Getafe",
-          "flag": "https://img.sofascore.com/api/v1/team/2859/image"
-        },
-        "team_b": {
-          "name": "Rayo Vallecano",
-          "flag": "https://img.sofascore.com/api/v1/team/2818/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/2859/image",
       "channels": [],
       "total_channels": 0
     },
