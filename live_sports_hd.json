@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 43,
-  "live_count": 4,
-  "last_update": "05:46 AM 19-10-2026 BST",
+  "live_count": 2,
+  "last_update": "06:00 AM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,50 +19,6 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
-    },
-    {
-      "title": "Bahia vs Flamengo",
-      "sport": "Football",
-      "sub_category": "Campeonato Brasileiro Série A",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "bahia-vs-flamengo",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 03:30:00 AM",
-        "end_time_bst": "Oct 19, 2026, 05:50:00 AM",
-        "raw_start_utc": "2026/10/18 21:30:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Bahia",
-          "flag": "https://img.sofascore.com/api/v1/team/1955/image"
-        },
-        "team_b": {
-          "name": "Flamengo",
-          "flag": "https://img.sofascore.com/api/v1/team/5981/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/1955/image",
-      "channels": [
-        {
-          "channel_name": "PREMIER SPORTS - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-          "headers": {},
-          "drm_key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-        },
-        {
-          "channel_name": "PREMIERE BR - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-          "headers": {},
-          "drm_key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-        }
-      ],
-      "total_channels": 2
     },
     {
       "title": "Remo vs Red Bull Bragantino",
@@ -101,55 +57,6 @@
       "total_channels": 1
     },
     {
-      "title": "Cleveland Guardians vs Tampa Bay Rays",
-      "sport": "Baseball",
-      "sub_category": "MLB",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "cleveland-guardians-vs-tampa-bay-rays",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 03:00:00 AM",
-        "end_time_bst": "Oct 19, 2026, 06:00:00 AM",
-        "raw_start_utc": "2026/10/18 21:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Cleveland Guardians",
-          "flag": "https://img.sofascore.com/api/v1/team/3650/image"
-        },
-        "team_b": {
-          "name": "Tampa Bay Rays",
-          "flag": "https://img.sofascore.com/api/v1/team/3653/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/3650/image",
-      "channels": [
-        {
-          "channel_name": "TNT SPORTS - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_type": "HLS",
-          "url": "https://edgestream4.pro/hls/dazhfiach15.m3u8?",
-          "raw_link": "https://edgestream4.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "headers": {
-            "Referer": "https://streamscenter.online/",
-            "Origin": "https://streamscenter.online"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 2
-    },
-    {
       "title": "South Africa vs Australia",
       "sport": "Cricket",
       "sub_category": "Test International",
@@ -173,6 +80,33 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/187747/image",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Afghanistan vs Zimbabwe",
+      "sport": "Cricket",
+      "sub_category": "ODI Tri-Series in United Arab Emirates",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "afghanistan-vs-zimbabwe",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 06:00:00 PM",
+        "end_time_bst": "Oct 20, 2026, 02:00:39 AM",
+        "raw_start_utc": "2026/10/19 12:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Afghanistan",
+          "flag": "https://img.sofascore.com/api/v1/team/187575/image"
+        },
+        "team_b": {
+          "name": "Zimbabwe",
+          "flag": "https://img.sofascore.com/api/v1/team/187745/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
       "channels": [],
       "total_channels": 0
     },
@@ -389,33 +323,6 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/213117/image",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Afghanistan vs Zimbabwe",
-      "sport": "Cricket",
-      "sub_category": "ODI Tri-Series in United Arab Emirates",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "afghanistan-vs-zimbabwe",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 06:00:00 PM",
-        "end_time_bst": "Oct 20, 2026, 02:00:39 AM",
-        "raw_start_utc": "2026/10/19 12:00:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Afghanistan",
-          "flag": "https://img.sofascore.com/api/v1/team/187575/image"
-        },
-        "team_b": {
-          "name": "Zimbabwe",
-          "flag": "https://img.sofascore.com/api/v1/team/187745/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/187575/image",
       "channels": [],
       "total_channels": 0
     },
@@ -1095,6 +1002,33 @@
       "total_channels": 0
     },
     {
+      "title": "Bahia vs Flamengo",
+      "sport": "Football",
+      "sub_category": "Campeonato Brasileiro Série A",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "bahia-vs-flamengo",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 03:30:00 AM",
+        "end_time_bst": "Oct 19, 2026, 05:50:00 AM",
+        "raw_start_utc": "2026/10/18 21:30:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Bahia",
+          "flag": "https://img.sofascore.com/api/v1/team/1955/image"
+        },
+        "team_b": {
+          "name": "Flamengo",
+          "flag": "https://img.sofascore.com/api/v1/team/5981/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/1955/image",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
       "title": "Juventus vs Lazio",
       "sport": "Football",
       "sub_category": "Serie A",
@@ -1199,6 +1133,33 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/2854/image",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Cleveland Guardians vs Tampa Bay Rays",
+      "sport": "Baseball",
+      "sub_category": "MLB",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "cleveland-guardians-vs-tampa-bay-rays",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 03:00:00 AM",
+        "end_time_bst": "Oct 19, 2026, 06:00:00 AM",
+        "raw_start_utc": "2026/10/18 21:00:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Cleveland Guardians",
+          "flag": "https://img.sofascore.com/api/v1/team/3650/image"
+        },
+        "team_b": {
+          "name": "Tampa Bay Rays",
+          "flag": "https://img.sofascore.com/api/v1/team/3653/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/3650/image",
       "channels": [],
       "total_channels": 0
     }

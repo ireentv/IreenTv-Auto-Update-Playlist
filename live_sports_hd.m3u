@@ -4,33 +4,13 @@
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
 # Channels Amount: 43
-# Live Count     : 4
-# Last Update    : 05:46 AM 19-10-2026 BST
+# Live Count     : 2
+# Last Update    : 06:00 AM 19-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
 
-#EXTINF:-1 tvg-name="Bahia vs Flamengo (Server 1 - Url)" tvg-logo="https://img.sofascore.com/api/v1/team/1955/image" group-title="live_sports_HD",Bahia vs Flamengo (Server 1 - Url)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
-#EXTINF:-1 tvg-name="Bahia vs Flamengo (Server 2 - Url)" tvg-logo="https://img.sofascore.com/api/v1/team/1955/image" group-title="live_sports_HD",Bahia vs Flamengo (Server 2 - Url)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd
 #EXTINF:-1 tvg-name="Remo vs Red Bull Bragantino" tvg-logo="https://img.sofascore.com/api/v1/team/2012/image" group-title="live_sports_HD",Remo vs Red Bull Bragantino
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tirjor64kh/out/v1/fd2ed9916d994f09a3bd62b64141b9cb/cenc.mpd
-#EXTINF:-1 tvg-name="Cleveland Guardians vs Tampa Bay Rays (Server 1 - Raw Link)" tvg-logo="https://img.sofascore.com/api/v1/team/3650/image" group-title="live_sports_HD",Cleveland Guardians vs Tampa Bay Rays (Server 1 - Raw Link)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
-#EXTINF:-1 tvg-name="Cleveland Guardians vs Tampa Bay Rays (Server 2 - Raw Link)" tvg-logo="https://img.sofascore.com/api/v1/team/3650/image" group-title="live_sports_HD",Cleveland Guardians vs Tampa Bay Rays (Server 2 - Raw Link)
-#EXTVLCOPT:http-referrer=https://streamscenter.online/
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-https://edgestream4.pro/hls/dazhfiach15.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
