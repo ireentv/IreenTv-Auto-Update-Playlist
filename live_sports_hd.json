@@ -4,8 +4,8 @@
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
   "channels_amount": 43,
-  "live_count": 2,
-  "last_update": "09:16 AM 19-10-2026 BST",
+  "live_count": 1,
+  "last_update": "09:31 AM 19-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,75 +19,6 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
-    },
-    {
-      "title": "Green Bay Packers vs Dallas Cowboys",
-      "sport": "Football",
-      "sub_category": "NFL",
-      "status": "Live",
-      "is_hot": false,
-      "slug": "green-bay-packers-vs-dallas-cowboys",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 06:20:00 AM",
-        "end_time_bst": "Oct 19, 2026, 09:20:00 AM",
-        "raw_start_utc": "2026/10/19 00:20:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Green Bay Packers",
-          "flag": "https://img.sofascore.com/api/v1/team/4420/image"
-        },
-        "team_b": {
-          "name": "Dallas Cowboys",
-          "flag": "https://img.sofascore.com/api/v1/team/4392/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/4420/image",
-      "channels": [
-        {
-          "channel_name": "TSN SPORTS 1 - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-        },
-        {
-          "channel_name": "NBC SPORTS - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e"
-        },
-        {
-          "channel_name": "TSN SPORTS 5 - AQ",
-          "stream_type": "DASH",
-          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-          "raw_link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "headers": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-          },
-          "drm_key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-        },
-        {
-          "channel_name": "HD SERVER",
-          "stream_type": "HLS",
-          "url": "https://edgestream7.pro/hls/ijzriafaq41.m3u8?",
-          "raw_link": "https://edgestream7.pro/hls/ijzriafaq41.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online",
-          "headers": {
-            "Referer": "https://streamscenter.online/",
-            "Origin": "https://streamscenter.online"
-          },
-          "drm_key": null
-        }
-      ],
-      "total_channels": 4
     },
     {
       "title": "South Africa vs Australia",
@@ -167,6 +98,33 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/168094/image",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Abha vs Al-Kholood",
+      "sport": "Football",
+      "sub_category": "Saudi Pro League",
+      "status": "Upcoming",
+      "is_hot": false,
+      "slug": "abha-vs-al-kholood",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 09:20:00 PM",
+        "end_time_bst": "Oct 19, 2026, 11:40:00 PM",
+        "raw_start_utc": "2026/10/19 15:20:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Abha",
+          "flag": "https://img.sofascore.com/api/v1/team/168090/image"
+        },
+        "team_b": {
+          "name": "Al-Kholood",
+          "flag": "https://img.sofascore.com/api/v1/team/269199/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/168090/image",
       "channels": [],
       "total_channels": 0
     },
@@ -518,33 +476,6 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/2859/image",
-      "channels": [],
-      "total_channels": 0
-    },
-    {
-      "title": "Abha vs Al-Kholood",
-      "sport": "Football",
-      "sub_category": "Saudi Pro League",
-      "status": "Upcoming",
-      "is_hot": false,
-      "slug": "abha-vs-al-kholood",
-      "schedule": {
-        "timezone": "BST (UTC+6)",
-        "start_time_bst": "Oct 19, 2026, 09:20:00 PM",
-        "end_time_bst": "Oct 19, 2026, 11:40:00 PM",
-        "raw_start_utc": "2026/10/19 15:20:00 +0000"
-      },
-      "teams": {
-        "team_a": {
-          "name": "Abha",
-          "flag": "https://img.sofascore.com/api/v1/team/168090/image"
-        },
-        "team_b": {
-          "name": "Al-Kholood",
-          "flag": "https://img.sofascore.com/api/v1/team/269199/image"
-        }
-      },
-      "logo": "https://img.sofascore.com/api/v1/team/168090/image",
       "channels": [],
       "total_channels": 0
     },
@@ -950,6 +881,33 @@
         }
       },
       "logo": "https://img.sofascore.com/api/v1/team/4390/image",
+      "channels": [],
+      "total_channels": 0
+    },
+    {
+      "title": "Green Bay Packers vs Dallas Cowboys",
+      "sport": "Football",
+      "sub_category": "NFL",
+      "status": "Ended",
+      "is_hot": false,
+      "slug": "green-bay-packers-vs-dallas-cowboys",
+      "schedule": {
+        "timezone": "BST (UTC+6)",
+        "start_time_bst": "Oct 19, 2026, 06:20:00 AM",
+        "end_time_bst": "Oct 19, 2026, 09:20:00 AM",
+        "raw_start_utc": "2026/10/19 00:20:00 +0000"
+      },
+      "teams": {
+        "team_a": {
+          "name": "Green Bay Packers",
+          "flag": "https://img.sofascore.com/api/v1/team/4420/image"
+        },
+        "team_b": {
+          "name": "Dallas Cowboys",
+          "flag": "https://img.sofascore.com/api/v1/team/4392/image"
+        }
+      },
+      "logo": "https://img.sofascore.com/api/v1/team/4420/image",
       "channels": [],
       "total_channels": 0
     },
