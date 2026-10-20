@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 42
 # Live Count     : 42
-# Last Update    : 08:46 PM 20-10-2026 BST
+# Last Update    : 09:01 PM 20-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -234,8 +234,27 @@ http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streame.center/
 https://edgestream6.pro/hls/377qj1h2727.m3u8|Referer=https://streame.center/
-#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
-http://cricfy-tv.net/promo/cricfy-promo.m3u8
+#EXTINF:-1 tvg-name="Sports Match (WILLOW FHD)" tvg-logo="" group-title="live_events",Sports Match (WILLOW FHD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xbpbqa6j8t/out/v1/4866c32a2cc34d94a4adcd18c7b3b9a1/cenc.mpd
+#EXTINF:-1 tvg-name="Sports Match (WILLOW ALT)" tvg-logo="" group-title="live_events",Sports Match (WILLOW ALT)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xbpbqa6j8t/out/v1/4866c32a2cc34d94a4adcd18c7b3b9a1/cenc.mpd
+#EXTINF:-1 tvg-name="Sports Match (WILLOW HD)" tvg-logo="" group-title="live_events",Sports Match (WILLOW HD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
+#EXTINF:-1 tvg-name="Sports Match (HOTSTAR (IND))" tvg-logo="" group-title="live_events",Sports Match (HOTSTAR (IND))
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-cookie=hdntl=exp=1792544609~acl=%2f*~id=f4f5056ac8052bcf6b37eaef98aa6d59~data=hdntl~hmac=3a971b203240b65bc975e099a0dcb8af36cf7fdf9e4ebea48e601fe9cd80aff4
+#EXTVLCOPT:http-user-agent=Virat
+#EXTVLCOPT:http-referrer=https://www.hotstar.com/
+#KODIPROP:inputstream.adaptive.manifest_headers=Cookie=hdntl=exp=1792544609~acl=%2f*~id=f4f5056ac8052bcf6b37eaef98aa6d59~data=hdntl~hmac=3a971b203240b65bc975e099a0dcb8af36cf7fdf9e4ebea48e601fe9cd80aff4&User-Agent=Virat&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=81872faa1d6b45fa9045cdeb2e310000:9b88168e61274587a471962c46b94675
+#KODIPROP:inputstream.adaptive.stream_headers=Cookie=hdntl=exp=1792544609~acl=%2f*~id=f4f5056ac8052bcf6b37eaef98aa6d59~data=hdntl~hmac=3a971b203240b65bc975e099a0dcb8af36cf7fdf9e4ebea48e601fe9cd80aff4&User-Agent=Virat&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=81872faa1d6b45fa9045cdeb2e310000:9b88168e61274587a471962c46b94675
+https://livetv.hotstar.com/mp1/gec-india-1540065788/fa6a4f0005ef4f90ab24484d165b0aaf/index.mpd|Cookie=hdntl=exp=1792544609~acl=%2f*~id=f4f5056ac8052bcf6b37eaef98aa6d59~data=hdntl~hmac=3a971b203240b65bc975e099a0dcb8af36cf7fdf9e4ebea48e601fe9cd80aff4&User-Agent=Virat&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com&drmScheme=clearkey&drmLicense=81872faa1d6b45fa9045cdeb2e310000:9b88168e61274587a471962c46b94675
 #EXTINF:-1 tvg-name="Sports Match (WILLOW - AQ)" tvg-logo="" group-title="live_events",Sports Match (WILLOW - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -248,6 +267,16 @@ https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clie
 https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8
 #EXTINF:-1 tvg-name="Sports Match (PTV SPORTS HD)" tvg-logo="" group-title="live_events",Sports Match (PTV SPORTS HD)
 https://baila-lentoo.pages.dev/all-sp/809398.m3u8
+#EXTINF:-1 tvg-name="Sports Match (SK Sports CRICKET)" tvg-logo="" group-title="live_events",Sports Match (SK Sports CRICKET)
+#EXTVLCOPT:http-referrer=https://bhalocast.pro/atofplay.php?v=dodosky2
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://bhalocast.pro/atofplay.php?v=dodosky2&secure=m1lko&expires=123456
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://bhalocast.pro/atofplay.php?v=dodosky2&secure=m1lko&expires=123456
+https://dz5.bhalocast.pro:7059/hls/dodosky2.m3u8?md5=VZNwXQSWFUWj-68GXwWUZg&expires=1792511046&ch=dodosky2&s=ac9389e75576d72d75807d5d0ec78c49|Referer=https://bhalocast.pro/atofplay.php?v=dodosky2&secure=m1lko&expires=123456
+#EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
+#EXTVLCOPT:http-referrer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
+http://193.47.62.55/hls/CCCCCC.m3u8|Referer=http://fawanews.sc/
 #EXTINF:-1 tvg-name="Sports Match (WILLOW - AQ)" tvg-logo="" group-title="live_events",Sports Match (WILLOW - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -298,6 +327,11 @@ https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=17841
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 https://dai-fancode.pages.dev/mumbai/4249782_english_hls_bf21f9fa2f10890_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+#EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
+#EXTVLCOPT:http-referrer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
+http://193.47.62.44/hls/BEEEEAAAA.m3u8|Referer=http://fawanews.sc/
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 #EXTVLCOPT:http-referrer=https://streame.center/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://streame.center/
