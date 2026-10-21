@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 7
 # Live Count     : 7
-# Last Update    : 12:35 AM 22-10-2026 BST
+# Last Update    : 12:38 AM 22-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -58,6 +58,12 @@ https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
 https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
+#EXTINF:-1 tvg-name="Oct 21 - UTR PTT Newport Beach" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.aef7b26e-171a-4102-a2a6-46e3602a5b9c/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Oct 21 - UTR PTT Newport Beach
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f8834f6974f697f385d096e8133e5514:93bf7582fd5e08be52cb16ae5b4dc410
+https://live-pv-ta.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWI-nAWpwcmltZXZpZGVvBBpq7KiXBhpq2OIXA2ZmYXN0bHkCeChmaWQ6MDFhMTVmMzMtMjlmNS03NWIyLTgzMmEtZjNlM2FkNDM0MjZhGQE4oQWhAngzL2JtbDBwcnI1c2Uvb3V0L3YxL2JjYjgyM2YyY2EwZTQ3ZDNiZjM1ZmYyNTNmZWMwN2UwGQE8gWJVU1ggxFlYl9cCFSGOdx93PnFiQoYAvO-Zo8km8lKCwvllAI4/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/bml0prr5se/out/v1/bcb823f2ca0e47d3bf35ff253fec07e0/c20d5ff8-6115-456a-bd12-3f0df9249723-cenc.mpd
 #EXTINF:-1 tvg-name="ODI Tri-Nation Series in UAE 2026 - 3rd Match - Afghanistan vs Bangladesh (Fastly Server)" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.db5ea85c-7e9a-438e-85d9-349683aeca3b/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/s-z/willowtv/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1724,885,117,117_kvebed36e78eaa0330f200bb6045a52aca_SX624_FMjpg_.jpeg" group-title="primevideo",ODI Tri-Nation Series in UAE 2026 - 3rd Match - Afghanistan vs Bangladesh (Fastly Server)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -112,9 +118,3 @@ https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl96
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
 https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd
-#EXTINF:-1 tvg-name="Oct 21 - UTR PTT Newport Beach" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.aef7b26e-171a-4102-a2a6-46e3602a5b9c/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Oct 21 - UTR PTT Newport Beach
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f8834f6974f697f385d096e8133e5514:93bf7582fd5e08be52cb16ae5b4dc410
-https://live-pv-ta.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWI-nAWpwcmltZXZpZGVvBBpq7KiXBhpq2OIXA2ZmYXN0bHkCeChmaWQ6MDFhMTVmMzMtMjlmNS03NWIyLTgzMmEtZjNlM2FkNDM0MjZhGQE4oQWhAngzL2JtbDBwcnI1c2Uvb3V0L3YxL2JjYjgyM2YyY2EwZTQ3ZDNiZjM1ZmYyNTNmZWMwN2UwGQE8gWJVU1ggxFlYl9cCFSGOdx93PnFiQoYAvO-Zo8km8lKCwvllAI4/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/bml0prr5se/out/v1/bcb823f2ca0e47d3bf35ff253fec07e0/c20d5ff8-6115-456a-bd12-3f0df9249723-cenc.mpd
