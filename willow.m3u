@@ -4,9 +4,69 @@
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
 # Channels Amount: 21
-# Live Count     : 1
-# Last Update    : 12:04 PM 22-10-2026 BST
+# Live Count     : 2
+# Last Update    : 12:15 PM 22-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
 
+#EXTINF:-1 tvg-name="New Zealand vs. India (Alpha - Fistly Server)" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e2a60804-e877-4e77-bc40-5f237b95235a/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="willow",New Zealand vs. India (Alpha - Fistly Server)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c3125d35cc46b342a0534a9c5ddd6d31:426221d3ffae19a037f5c755508dbf3c
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/meouoxphzm/out/v1/be7934dca1254ed0924242347f93c4e3/cenc.mpd
+#EXTINF:-1 tvg-name="New Zealand vs. India (Alpha - Amazon Server)" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e2a60804-e877-4e77-bc40-5f237b95235a/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="willow",New Zealand vs. India (Alpha - Amazon Server)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c3125d35cc46b342a0534a9c5ddd6d31:426221d3ffae19a037f5c755508dbf3c
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/meouoxphzm/out/v1/be7934dca1254ed0924242347f93c4e3/cenc.mpd
+#EXTINF:-1 tvg-name="New Zealand vs. India (Alpha - Akamai Server)" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e2a60804-e877-4e77-bc40-5f237b95235a/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="willow",New Zealand vs. India (Alpha - Akamai Server)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c3125d35cc46b342a0534a9c5ddd6d31:426221d3ffae19a037f5c755508dbf3c
+https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/meouoxphzm/out/v1/be7934dca1254ed0924242347f93c4e3/cenc.mpd
+#EXTINF:-1 tvg-name="New Zealand vs. India (Alpha - Cloudfront Server 1)" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e2a60804-e877-4e77-bc40-5f237b95235a/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="willow",New Zealand vs. India (Alpha - Cloudfront Server 1)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c3125d35cc46b342a0534a9c5ddd6d31:426221d3ffae19a037f5c755508dbf3c
+https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/meouoxphzm/out/v1/be7934dca1254ed0924242347f93c4e3/cenc.mpd
+#EXTINF:-1 tvg-name="New Zealand vs. India (Alpha - Cloudfront Server 2)" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e2a60804-e877-4e77-bc40-5f237b95235a/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="willow",New Zealand vs. India (Alpha - Cloudfront Server 2)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c3125d35cc46b342a0534a9c5ddd6d31:426221d3ffae19a037f5c755508dbf3c
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/meouoxphzm/out/v1/be7934dca1254ed0924242347f93c4e3/cenc.mpd
+#EXTINF:-1 tvg-name="New Zealand vs. India (Bravo - Fistly Server)" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e2a60804-e877-4e77-bc40-5f237b95235a/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="willow",New Zealand vs. India (Bravo - Fistly Server)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c3125d35cc46b342a0534a9c5ddd6d31:426221d3ffae19a037f5c755508dbf3c
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bgbz26zmfn/out/v1/b89d7a705a56462e8c4eee6f4fcbc518/cenc.mpd
+#EXTINF:-1 tvg-name="New Zealand vs. India (Bravo - Amazon Server)" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e2a60804-e877-4e77-bc40-5f237b95235a/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="willow",New Zealand vs. India (Bravo - Amazon Server)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c3125d35cc46b342a0534a9c5ddd6d31:426221d3ffae19a037f5c755508dbf3c
+https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bgbz26zmfn/out/v1/b89d7a705a56462e8c4eee6f4fcbc518/cenc.mpd
+#EXTINF:-1 tvg-name="New Zealand vs. India (Bravo - Akamai Server)" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e2a60804-e877-4e77-bc40-5f237b95235a/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="willow",New Zealand vs. India (Bravo - Akamai Server)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c3125d35cc46b342a0534a9c5ddd6d31:426221d3ffae19a037f5c755508dbf3c
+https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/bgbz26zmfn/out/v1/b89d7a705a56462e8c4eee6f4fcbc518/cenc.mpd
+#EXTINF:-1 tvg-name="New Zealand vs. India (Bravo - Cloudfront Server 1)" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e2a60804-e877-4e77-bc40-5f237b95235a/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="willow",New Zealand vs. India (Bravo - Cloudfront Server 1)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c3125d35cc46b342a0534a9c5ddd6d31:426221d3ffae19a037f5c755508dbf3c
+https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/bgbz26zmfn/out/v1/b89d7a705a56462e8c4eee6f4fcbc518/cenc.mpd
+#EXTINF:-1 tvg-name="New Zealand vs. India (Bravo - Cloudfront Server 2)" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e2a60804-e877-4e77-bc40-5f237b95235a/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="willow",New Zealand vs. India (Bravo - Cloudfront Server 2)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c3125d35cc46b342a0534a9c5ddd6d31:426221d3ffae19a037f5c755508dbf3c
+https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/bgbz26zmfn/out/v1/b89d7a705a56462e8c4eee6f4fcbc518/cenc.mpd
