@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 6
 # Live Count     : 6
-# Last Update    : 01:31 AM 27-10-2026 BST
+# Last Update    : 01:34 AM 27-10-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -58,6 +58,12 @@ https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl96
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
 https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd
+#EXTINF:-1 tvg-name="Oct 26 - UTR PTT Philadelphia Men" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.9565f87b-ef4f-472a-bb4c-19dcb5ebac94/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Oct 26 - UTR PTT Philadelphia Men
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=60a5129b80a4d987bda86c39dde474da:dd0f5aba54b620cf733138e796c66121
+https://ABCQQJ2AAAAAAAAMF6GSSUKRGLOSP.ta-enf.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WIymAWpwcmltZXZpZGVvBBpq8zkSBhpq33KSA2pjbG91ZGZyb250AngoZmlkOjAxYTE3OGQ3LThiMWItNzE1Mi04MTM3LWU1ZDAyMGQyNzBjZhkBOKEFoQJ4My9sa29jcnYwZDFmL291dC92MS80Nzc1YTAyYzZiOTA0ZGUzYTExMDUxNGYyZWE3NDNkNFgg0O9nsLKKb5nI81h2jq5aBKT9mWD-iy4bsR29LgCHfdE/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/lkocrv0d1f/out/v1/4775a02c6b904de3a110514f2ea743d4/376bf15b-fc3a-4e35-b287-00a49963caed-cenc.mpd
 #EXTINF:-1 tvg-name="Second Serve - Live-Basel-ATP & Vienna-ATP Early Rounds (Fastly Server)" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.68ccc8db-4407-492d-8b37-369596935fcd/17/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg" group-title="primevideo",Second Serve - Live-Basel-ATP & Vienna-ATP Early Rounds (Fastly Server)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -82,12 +88,6 @@ https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl96
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
 https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd
-#EXTINF:-1 tvg-name="Oct 26 - UTR PTT Philadelphia Men" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.9565f87b-ef4f-472a-bb4c-19dcb5ebac94/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Oct 26 - UTR PTT Philadelphia Men
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=60a5129b80a4d987bda86c39dde474da:dd0f5aba54b620cf733138e796c66121
-https://ABCQQJ2AAAAAAAAMF6GSSUKRGLOSP.ta-enf.bia-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WIymAWpwcmltZXZpZGVvBBpq8zkSBhpq33KSA2pjbG91ZGZyb250AngoZmlkOjAxYTE3OGQ3LThiMWItNzE1Mi04MTM3LWU1ZDAyMGQyNzBjZhkBOKEFoQJ4My9sa29jcnYwZDFmL291dC92MS80Nzc1YTAyYzZiOTA0ZGUzYTExMDUxNGYyZWE3NDNkNFgg0O9nsLKKb5nI81h2jq5aBKT9mWD-iy4bsR29LgCHfdE/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/lkocrv0d1f/out/v1/4775a02c6b904de3a110514f2ea743d4/376bf15b-fc3a-4e35-b287-00a49963caed-cenc.mpd
 #EXTINF:-1 tvg-name="Oct 26 - UTR PTT Columbia Women" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.a3e1aaef-fa5a-4aa4-a218-76cdc900fad3/7/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Oct 26 - UTR PTT Columbia Women
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
