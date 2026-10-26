@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 52,
   "live_count": 52,
-  "last_update": "01:38 AM 27-10-2026 BST",
+  "last_update": "01:44 AM 27-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -107,9 +107,9 @@
     },
     {
       "chno": 6,
-      "name": "[Ligue 1 France] [01:30 AM BD] [LIVE] PSG vs Lyon --- CH 1 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "name": "[Ligue 1 France] [01:30 AM BD] [UPCOMING] PSG vs Lyon --- CH 1 (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Ligue 1 France",
       "event": "PSG vs Lyon --- CH 1",
       "match_time_bd": "01:30 AM BD",
@@ -117,10 +117,10 @@
       "league": "Ligue 1 France",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1531920610514853890/FgxuEE_k_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.41/hls/D444FQQQQQA.m3u8",
-      "stream_url": "http://193.47.62.41/hls/D444FQQQQQA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/PSG%20vs%20Lyon.html"
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/PSG%20vs%20Lyon1.html",
+      "event_page": "http://www.fawanews.sc/PSG%20vs%20Lyon1.html"
     },
     {
       "chno": 7,
@@ -141,23 +141,6 @@
     },
     {
       "chno": 8,
-      "name": "[English League Two] [02:30 AM BD] [LIVE] Walsall vs Salford (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "English League Two",
-      "event": "Walsall vs Salford",
-      "match_time_bd": "02:30 AM BD",
-      "source_time_gmt1": "21:30",
-      "league": "English League Two",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2066809302329757696/8JzdRXMH_400x400.png",
-      "group": "Live Events",
-      "url": "http://193.47.62.44/hls/D444.m3u8",
-      "stream_url": "http://193.47.62.44/hls/D444.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Walsall%20vs%20Salford.html"
-    },
-    {
-      "chno": 9,
       "name": "[Ecuador Liga Pro] [02:30 AM BD] [LIVE] Tecnico U vs Mushuc Runa (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -174,7 +157,7 @@
       "event_page": "http://www.fawanews.sc/Tecnico%20U%20vs%20Mushuc%20Runa.html"
     },
     {
-      "chno": 10,
+      "chno": 9,
       "name": "[Spanish La Liga] [02:00 AM BD] [LIVE] Sevilla vs Osasuna (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -189,6 +172,23 @@
       "url": "http://193.47.62.44/hls/GGGGAAAAQQ.m3u8",
       "stream_url": "http://193.47.62.44/hls/GGGGAAAAQQ.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/Sevilla%20vs%20Osasuna.html"
+    },
+    {
+      "chno": 10,
+      "name": "[English League Two] [02:00 AM BD] [LIVE] Walsall vs Salford (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "English League Two",
+      "event": "Walsall vs Salford",
+      "match_time_bd": "02:00 AM BD",
+      "source_time_gmt1": "21:00",
+      "league": "English League Two",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/2066809302329757696/8JzdRXMH_400x400.png",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/D444.m3u8",
+      "stream_url": "http://193.47.62.44/hls/D444.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Walsall%20vs%20Salford.html"
     },
     {
       "chno": 11,
