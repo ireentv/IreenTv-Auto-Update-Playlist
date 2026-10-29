@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 36,
-  "live_count": 36,
-  "last_update": "02:45 PM 29-10-2026 BST",
+  "channels_amount": 47,
+  "live_count": 47,
+  "last_update": "03:01 PM 29-10-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -492,15 +492,50 @@
       "status": "LIVE",
       "time": "08:00:00",
       "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6qhfwsk4zo/out/v1/0a7bd0ff80a74315834174393f370523/cenc.mpd",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "WILLOW - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6qhfwsk4zo/out/v1/0a7bd0ff80a74315834174393f370523/cenc.mpd",
+        "WILLOW ALT - AQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6qhfwsk4zo/out/v1/0a7bd0ff80a74315834174393f370523/cenc.mpd",
+        "SKYCRICKET": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+        "PTV SPORTS HD": "https://baila-lentoo.pages.dev/all-sp/809398.m3u8",
+        "TAPMAD FHD": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8|referer=https://tapmad.com/"
       },
       "streams": [
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+          "name": "WILLOW - AQ",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6qhfwsk4zo/out/v1/0a7bd0ff80a74315834174393f370523/cenc.mpd",
+          "scheme": 0,
+          "api": "ba4284442c87f52ddeaa95c65d236805:56f0808d1f1fbfc0703b384081f1d340",
+          "tokenApi": null
+        },
+        {
+          "name": "WILLOW ALT - AQ",
+          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6qhfwsk4zo/out/v1/0a7bd0ff80a74315834174393f370523/cenc.mpd",
+          "scheme": 0,
+          "api": "ba4284442c87f52ddeaa95c65d236805:56f0808d1f1fbfc0703b384081f1d340",
+          "tokenApi": null
+        },
+        {
+          "name": "SKYCRICKET",
+          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "PTV SPORTS HD",
+          "link": "https://baila-lentoo.pages.dev/all-sp/809398.m3u8",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "TAPMAD FHD",
+          "link": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8|referer=https://tapmad.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
         }
       ]
     },
@@ -511,25 +546,25 @@
       "status": "LIVE",
       "time": "06:45:00",
       "cover_image": "",
-      "match_url": "https://baila-lentoo.pages.dev/all-sp/373201.m3u8",
+      "match_url": "https://ottnlive-fstream.nettvstreamz.com/live_hls/npl_match_3/tracks-v3a1/mono.ts.m3u8",
       "is_free": false,
       "stream_url": {
-        "SS 2 - HD": "https://baila-lentoo.pages.dev/all-sp/373201.m3u8",
-        "CricFy Fast": "https://ottnlive-fstream.nettvstreamz.com/live_hls/npl_match_3/tracks-v1a1/mono.m3u8",
+        "SS 2 - HD": "https://ottnlive-fstream.nettvstreamz.com/live_hls/npl_match_3/tracks-v3a1/mono.ts.m3u8",
+        "CricFy Fast": "https://hugh.cdn.rumble.cloud/live/v13wgnv6/live-hls/nu6r-ajm1/chunklist_i1.m3u8",
         "StarSports HD": "https://flussonic.defineatoz.com/starsportsselect2sw/tracks-v1a1/mono.m3u8",
         "Fancode - IN": "https://dai-fancode.pages.dev/mumbai/4250358_english_hls_96367dc67f52533_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/"
       },
       "streams": [
         {
           "name": "SS 2 - HD",
-          "link": "https://baila-lentoo.pages.dev/all-sp/373201.m3u8",
+          "link": "https://ottnlive-fstream.nettvstreamz.com/live_hls/npl_match_3/tracks-v3a1/mono.ts.m3u8",
           "scheme": 0,
           "api": null,
           "tokenApi": null
         },
         {
           "name": "CricFy Fast",
-          "link": "https://ottnlive-fstream.nettvstreamz.com/live_hls/npl_match_3/tracks-v1a1/mono.m3u8",
+          "link": "https://hugh.cdn.rumble.cloud/live/v13wgnv6/live-hls/nu6r-ajm1/chunklist_i1.m3u8",
           "scheme": 0,
           "api": null,
           "tokenApi": null
@@ -598,107 +633,16 @@
     {
       "match_id": "",
       "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "19:45:00",
-      "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uautlxohcw/out/v1/00d2828855a944ffbbdc15232c4157a9/cenc.mpd?aws_sessionId=f3907a10-7893-441b-9deb-da9cefbcff41|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "is_free": false,
-      "stream_url": {
-        "PARAMOUNT+ FHD": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uautlxohcw/out/v1/00d2828855a944ffbbdc15232c4157a9/cenc.mpd?aws_sessionId=f3907a10-7893-441b-9deb-da9cefbcff41|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CricFy": "https://live.vivo155.com/live/hd-en-1-4549128.m3u8?txSecret=64054d369aefbc3dec67bed500df15c7&txTime=6AE2630E|Referer=https://player.on8on8.com/",
-        "Cricfy HD": "https://edgestream3.pro/hls/hflfkrtib42.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "PARAMOUNT+ FHD",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/gyuzn4p42i/out/v1/ff10618fdd9849c58d08bcdd29273b25/cenc.mpd?aws_sessionId=fb16b1ea-9fe8-4713-9738-8bb5c99363cc|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "4414b2e099fbd62ca6547b0e34418928:1558e2881dbdd2838c78a85ad8d85c05",
-          "tokenApi": null
-        },
-        {
-          "name": "PARAMOUNT+ FHD",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uautlxohcw/out/v1/00d2828855a944ffbbdc15232c4157a9/cenc.mpd?aws_sessionId=f3907a10-7893-441b-9deb-da9cefbcff41|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "34bfd93263d0ad79234d40c9ecacc343:535cca7ca0b77defee15bf8561c522c0",
-          "tokenApi": null
-        },
-        {
-          "name": "CricFy",
-          "link": "https://live.vivo155.com/live/hd-en-1-4549128.m3u8?txSecret=64054d369aefbc3dec67bed500df15c7&txTime=6AE2630E|Referer=https://player.on8on8.com/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream3.pro/hls/hflfkrtib42.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "19:45:00",
-      "cover_image": "",
-      "match_url": "https://edgestream1.pro/hls/sqdahach1ax.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://edgestream1.pro/hls/sqdahach1ax.m3u8|referer=https://embedcenter.st/",
-        "PARAMOUNT+ FHD": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/cndaqngbiy/out/v1/3415799b7f8546c6884dd364a2b09f46/cenc.mpd?aws_sessionId=c136d95e-ca27-4a6f-88f4-6bf162e4d35c|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "DAZN SPORTS FHD": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iw6dv7zj6b/out/v1/62dd675e944f4c5fb5388a166cc116d0/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CricFy HD": "https://live.vivo155.com/live/sd-1-4646878.m3u8?txSecret=feeb6f966550c2aeaf92c12ea1e69f1e&txTime=6AE261C7|Referer=https://player.on8on8.com/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://edgestream1.pro/hls/sqdahach1ax.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "PARAMOUNT+ FHD",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/cndaqngbiy/out/v1/3415799b7f8546c6884dd364a2b09f46/cenc.mpd?aws_sessionId=c136d95e-ca27-4a6f-88f4-6bf162e4d35c|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "85e19b4c08d7692c02713371fc53b0b1:947ee8edbc3bcabb96e4e8a59f795c93",
-          "tokenApi": null
-        },
-        {
-          "name": "DAZN SPORTS FHD",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iw6dv7zj6b/out/v1/62dd675e944f4c5fb5388a166cc116d0/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "7c7ba5aeb06f63a43b5db94a50425b35:794e12a8c36324764d390057912cd276",
-          "tokenApi": null
-        },
-        {
-          "name": "CricFy HD",
-          "link": "https://live.vivo155.com/live/sd-1-4646878.m3u8?txSecret=feeb6f966550c2aeaf92c12ea1e69f1e&txTime=6AE261C7|Referer=https://player.on8on8.com/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
       "synopsis": "Cricket | Sports Match",
       "status": "LIVE",
       "time": "08:30:00",
       "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cqpsmp3hvg/out/v1/9e9f972a0244430f880cee85c6addb7d/cenc.mpd",
+      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mv8bhgey8i/out/v1/46e42bfd066b481c8bb856dfe5c2dc85/cenc.mpd",
       "is_free": false,
       "stream_url": {
-        "WILLOW HD - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cqpsmp3hvg/out/v1/9e9f972a0244430f880cee85c6addb7d/cenc.mpd",
+        "WILLOW HD - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mv8bhgey8i/out/v1/46e42bfd066b481c8bb856dfe5c2dc85/cenc.mpd",
         "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "WILLOW ALT - AQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cqpsmp3hvg/out/v1/9e9f972a0244430f880cee85c6addb7d/cenc.mpd",
+        "WILLOW ALT - AQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/mv8bhgey8i/out/v1/46e42bfd066b481c8bb856dfe5c2dc85/cenc.mpd",
         "SK CRICKET": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
         "FOX CRICKET HD": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
         "A SPORTS HD": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
@@ -707,9 +651,9 @@
       "streams": [
         {
           "name": "WILLOW HD - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cqpsmp3hvg/out/v1/9e9f972a0244430f880cee85c6addb7d/cenc.mpd",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mv8bhgey8i/out/v1/46e42bfd066b481c8bb856dfe5c2dc85/cenc.mpd",
           "scheme": 0,
-          "api": "6d8a8cf63f2cb151902100b0d9e668dd:e75124a72568aee19b04558263d1d050",
+          "api": "cad7365855ea0ac0653144882a46e9a6:0ee40359b01264cce5aac3140096c927",
           "tokenApi": null
         },
         {
@@ -721,9 +665,9 @@
         },
         {
           "name": "WILLOW ALT - AQ",
-          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cqpsmp3hvg/out/v1/9e9f972a0244430f880cee85c6addb7d/cenc.mpd",
+          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/mv8bhgey8i/out/v1/46e42bfd066b481c8bb856dfe5c2dc85/cenc.mpd",
           "scheme": 0,
-          "api": "6d8a8cf63f2cb151902100b0d9e668dd:e75124a72568aee19b04558263d1d050",
+          "api": "cad7365855ea0ac0653144882a46e9a6:0ee40359b01264cce5aac3140096c927",
           "tokenApi": null
         },
         {
@@ -797,44 +741,6 @@
     {
       "match_id": "",
       "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "19:45:00",
-      "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0zvhz368pe/out/v1/58df2777de334b398c1d414dc79af8e7/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "is_free": false,
-      "stream_url": {
-        "DAZN SPORTS FHD": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0zvhz368pe/out/v1/58df2777de334b398c1d414dc79af8e7/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CricFy HD": "https://live.vivo155.com/live/sd-1-4641675.m3u8?txSecret=ab51714844e3dceb0998bddf36801838&txTime=6AE263B1|Referer=https://player.on8on8.com/",
-        "HD SERVER": "https://live2.jorvakstreamcache.com/live/channel8.m3u8?|Referer=https://xlz.domainkqt.cc/"
-      },
-      "streams": [
-        {
-          "name": "DAZN SPORTS FHD",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0zvhz368pe/out/v1/58df2777de334b398c1d414dc79af8e7/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "89dfbd4870fe134ec58379dde9fae9bb:e75e01f41f71065fda2f1966e0c42e5c",
-          "tokenApi": null
-        },
-        {
-          "name": "CricFy HD",
-          "link": "https://live.vivo155.com/live/sd-1-4641675.m3u8?txSecret=ab51714844e3dceb0998bddf36801838&txTime=6AE263B1|Referer=https://player.on8on8.com/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "HD SERVER",
-          "link": "https://live2.jorvakstreamcache.com/live/channel8.m3u8?|Referer=https://xlz.domainkqt.cc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
       "synopsis": "Boxing | Sports Match",
       "status": "LIVE",
       "time": "00:00:00",
@@ -893,526 +799,15 @@
       "status": "LIVE",
       "time": "07:45:00",
       "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "Cricfy HD": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/"
       },
       "streams": [
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "00:00:00",
-      "cover_image": "",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {},
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://trendy48.online/event/m-jacksonville-state-gamecocks-vs-new-mexico-state-aggies-1029",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "American football | Sports Match",
-      "status": "LIVE",
-      "time": "23:00:00",
-      "cover_image": "",
-      "match_url": "",
-      "is_free": false,
-      "stream_url": {},
-      "streams": [
-        {
-          "name": "CricFy Live",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://trendy48.online/event/m-kennesaw-state-owls-vs-middle-tennessee-blue-raiders-1028",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
-      "status": "LIVE",
-      "time": "23:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "CRICFY LIVE": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "CRICFY LIVE",
-          "link": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "CricFy HD",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://taifood-blog.asia/embed/nba/2026-10-28/phi-ind",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
-      "status": "LIVE",
-      "time": "23:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream5.pro/hls/hfsdqtaxvb67.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "CricFy Live": "https://edgestream5.pro/hls/hfsdqtaxvb67.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "CricFy Live",
-          "link": "https://edgestream5.pro/hls/hfsdqtaxvb67.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "CricFy HD",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://taifood-blog.asia/embed/nba/2026-10-28/cha-det",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
-      "status": "LIVE",
-      "time": "00:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream5.pro/hls/pllmazjkdzajh72.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "CricFy HD": "https://edgestream5.pro/hls/pllmazjkdzajh72.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "CricFy Live",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://taifood-blog.asia/embed/nba/2026-10-28/gs-min",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "CricFy HD",
-          "link": "https://edgestream5.pro/hls/pllmazjkdzajh72.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
-      "status": "LIVE",
-      "time": "23:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream4.pro/hls/mlkijfezag65.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "CricFy Live": "https://edgestream4.pro/hls/mlkijfezag65.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "CricFy HD",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://taifood-blog.asia/embed/nba/2026-10-28/mia-atl",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "CricFy Live",
-          "link": "https://edgestream4.pro/hls/mlkijfezag65.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
-      "status": "LIVE",
-      "time": "00:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream1.pro/hls/fdgsqdfawa73.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "CricFy Live": "https://edgestream1.pro/hls/fdgsqdfawa73.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "CricFy HD",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://taifood-blog.asia/embed/nba/2026-10-28/den-no",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "CricFy Live",
-          "link": "https://edgestream1.pro/hls/fdgsqdfawa73.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
-      "status": "LIVE",
-      "time": "00:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream6.pro/hls/bvnsqdfvgha70.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "CricFy HD": "https://edgestream6.pro/hls/bvnsqdfvgha70.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "CricFy Live",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://taifood-blog.asia/embed/nba/2026-10-28/ny-chi",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "CricFy HD",
-          "link": "https://edgestream6.pro/hls/bvnsqdfvgha70.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
-      "status": "LIVE",
-      "time": "02:30:00",
-      "cover_image": "",
-      "match_url": "https://edgestream6.pro/hls/xcsfadafgzfg76.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "CricFy HD": "https://edgestream6.pro/hls/xcsfadafgzfg76.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "CricFy HD",
-          "link": "https://edgestream6.pro/hls/xcsfadafgzfg76.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "CricFy Live",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://taifood-blog.asia/embed/nba/2026-10-28/lal-lac",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
-      "status": "LIVE",
-      "time": "00:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream1.pro/hls/ztyarueaghj71.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "CricFy Live": "https://edgestream1.pro/hls/ztyarueaghj71.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "CricFy HD",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://taifood-blog.asia/embed/nba/2026-10-28/hou-mil",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "CricFy Live",
-          "link": "https://edgestream1.pro/hls/ztyarueaghj71.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
-      "status": "LIVE",
-      "time": "01:30:00",
-      "cover_image": "",
-      "match_url": "https://edgestream2.pro/hls/sqhdghzavbxu75.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "CricFy HD": "https://edgestream2.pro/hls/sqhdghzavbxu75.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "CricFy Live",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://taifood-blog.asia/embed/nba/2026-10-28/okc-dal",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "CricFy HD",
-          "link": "https://edgestream2.pro/hls/sqhdghzavbxu75.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
-      "status": "LIVE",
-      "time": "23:30:00",
-      "cover_image": "",
-      "match_url": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "CricFy HD": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "CricFy Live",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://taifood-blog.asia/embed/nba/2026-10-28/orl-tor",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "CricFy HD",
-          "link": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
-      "status": "LIVE",
-      "time": "23:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream5.pro/hls/wfazgsqtrezu66.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "CricFy HD": "https://edgestream5.pro/hls/wfazgsqtrezu66.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "CricFy Live",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://taifood-blog.asia/embed/nba/2026-10-28/wsh-cle",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "CricFy HD",
-          "link": "https://edgestream5.pro/hls/wfazgsqtrezu66.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Basketball | Sports Match",
-      "status": "LIVE",
-      "time": "01:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream3.pro/hls/yjtzafghvjza74.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "CricFy HD": "https://edgestream3.pro/hls/yjtzafghvjza74.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "CricFy Live",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://taifood-blog.asia/embed/nba/2026-10-28/sa-utah",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
-        },
-        {
-          "name": "CricFy HD",
-          "link": "https://edgestream3.pro/hls/yjtzafghvjza74.m3u8|referer=https://embedcenter.st/",
+          "name": "Cricfy HD",
+          "link": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?|Referer=https://xlz.domainkqt.cc/",
           "scheme": 0,
           "api": null,
           "tokenApi": null
@@ -1426,10 +821,10 @@
       "status": "LIVE",
       "time": "01:30:00",
       "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/umirijq8jr/out/v1/202ef6f729f14728b7f4bc285014916d/cenc.mpd",
+      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ukp6johntz/out/v1/7656718883854eb6b1f040348a3e7f80/cenc.mpd",
       "is_free": false,
       "stream_url": {
-        "DAZN SPORTS FHD": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/umirijq8jr/out/v1/202ef6f729f14728b7f4bc285014916d/cenc.mpd",
+        "DAZN SPORTS FHD": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ukp6johntz/out/v1/7656718883854eb6b1f040348a3e7f80/cenc.mpd",
         "beIN ENGLISH FHD": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
         "SPOTV FHD": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
         "TENNIS 2 FHD": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
@@ -1438,9 +833,9 @@
       "streams": [
         {
           "name": "DAZN SPORTS FHD",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/umirijq8jr/out/v1/202ef6f729f14728b7f4bc285014916d/cenc.mpd",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ukp6johntz/out/v1/7656718883854eb6b1f040348a3e7f80/cenc.mpd",
           "scheme": 0,
-          "api": "46ae17976916b648017d82fae87c0f0b:65769019a7e72cb73e287c6da368c4c2",
+          "api": "3c373825038b3e570239ffeb75fd2720:bd083ed0ce3e3c0c8b66bea328c49512",
           "tokenApi": null
         },
         {
@@ -1537,27 +932,419 @@
     {
       "match_id": "",
       "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
+      "synopsis": "Basketball | Sports Match",
       "status": "LIVE",
-      "time": "20:00:00",
+      "time": "02:00:00",
       "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/irezzvtqvb/out/v1/da8779975e454a5582ee2c1e7b79fc9a/cenc.mpd?aws_sessionId=ced589e6-1808-4615-b13c-627874c530c8",
+      "match_url": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8|referer=https://embedcenter.st/",
       "is_free": false,
       "stream_url": {
-        "PARAMOUNT+ FHD": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/irezzvtqvb/out/v1/da8779975e454a5582ee2c1e7b79fc9a/cenc.mpd?aws_sessionId=ced589e6-1808-4615-b13c-627874c530c8",
-        "LOW QUALITY": "http://193.47.62.59/hls/77IIIAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+        "NBA": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8|referer=https://embedcenter.st/"
       },
       "streams": [
         {
-          "name": "PARAMOUNT+ FHD",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/irezzvtqvb/out/v1/da8779975e454a5582ee2c1e7b79fc9a/cenc.mpd?aws_sessionId=ced589e6-1808-4615-b13c-627874c530c8",
+          "name": "NBA",
+          "link": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8|referer=https://embedcenter.st/",
           "scheme": 0,
-          "api": "fa012998d44653bb8c3d82c20ff4b2b2:290bfde8332481cbf6ded9109392f2fc",
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Basketball | Sports Match",
+      "status": "LIVE",
+      "time": "00:00:00",
+      "cover_image": "",
+      "match_url": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NBA": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "NBA",
+          "link": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
           "tokenApi": null
         },
         {
-          "name": "LOW QUALITY",
-          "link": "http://193.47.62.59/hls/77IIIAAAAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "name": "Cricfy SD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://taifood-blog.asia/embed/nba/2026-10-29/cle-atl",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Basketball | Sports Match",
+      "status": "LIVE",
+      "time": "16:30:00",
+      "cover_image": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "is_free": false,
+      "stream_url": {
+        "TSN SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "NBA": "https://edgestream4.pro/hls/sdghjvqazhvg80.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "TSN SPORTS - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
+          "tokenApi": null
+        },
+        {
+          "name": "NBA",
+          "link": "https://edgestream4.pro/hls/sdghjvqazhvg80.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Cricfy SD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://taifood-blog.asia/embed/wnba/2026-10-29/gs-atl",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Basketball | Sports Match",
+      "status": "LIVE",
+      "time": "13:30:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Basketball | Sports Match",
+      "status": "LIVE",
+      "time": "00:00:00",
+      "cover_image": "",
+      "match_url": "https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NBA": "https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "NBA",
+          "link": "https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "American football | Sports Match",
+      "status": "LIVE",
+      "time": "23:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "American football | Sports Match",
+      "status": "LIVE",
+      "time": "23:30:00",
+      "cover_image": "",
+      "match_url": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NFL": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "NFL",
+          "link": "https://edgestream5.pro/hls/mlkijfezag65.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "American football | Sports Match",
+      "status": "LIVE",
+      "time": "23:30:00",
+      "cover_image": "",
+      "match_url": "https://edgestream2.pro/hls/qsdnajbq32.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NFL": "https://edgestream2.pro/hls/qsdnajbq32.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "NFL",
+          "link": "https://edgestream2.pro/hls/qsdnajbq32.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "American football | Sports Match",
+      "status": "LIVE",
+      "time": "00:15:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "14:35:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "18:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "10:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "12:15:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "12:15:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "18:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "10:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "17:30:00",
+      "cover_image": "",
+      "match_url": "https://edgestream5.pro/hls/syaLqucEne4k.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "Cricfy HD": "https://edgestream5.pro/hls/syaLqucEne4k.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "Cricfy HD",
+          "link": "https://edgestream5.pro/hls/syaLqucEne4k.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Cricfy NEW",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://taifood-blog.asia/embed/seriea/2026-10-29/fro-lec",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "19:45:00",
+      "cover_image": "",
+      "match_url": "https://edgestream7.pro/hls/syaLqucEne4k.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "Cricfy HD": "https://edgestream7.pro/hls/syaLqucEne4k.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "Cricfy HD",
+          "link": "https://edgestream7.pro/hls/syaLqucEne4k.m3u8|referer=https://embedcenter.st/",
           "scheme": 0,
           "api": null,
           "tokenApi": null
@@ -1569,33 +1356,256 @@
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "LIVE",
-      "time": "20:00:00",
+      "time": "19:45:00",
       "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/fgrv4lkhfr/out/v1/d4a62fa2322a4be28b9c20cf6796d5c5/cenc.mpd?aws_sessionId=4e9b2cb0-53a8-4291-af97-7eeaaa7dc702",
+      "match_url": "https://edgestream1.pro/hls/24SDAZFcsqnj24.m3u8|referer=https://embedcenter.st/",
       "is_free": false,
       "stream_url": {
-        "PARAMOUNT+ FHD": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/fgrv4lkhfr/out/v1/d4a62fa2322a4be28b9c20cf6796d5c5/cenc.mpd?aws_sessionId=4e9b2cb0-53a8-4291-af97-7eeaaa7dc702",
-        "SportDigital Fussball": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CricFy HD": "https://live.vivo155.com/live/sd-1-4557617.m3u8?txSecret=d186dc90a4db97c4151c2bb312584d1b&txTime=6AE268CA|Referer=https://player.on8on8.com/"
+        "Cricfy HD": "https://edgestream1.pro/hls/24SDAZFcsqnj24.m3u8|referer=https://embedcenter.st/"
       },
       "streams": [
         {
-          "name": "PARAMOUNT+ FHD",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/fgrv4lkhfr/out/v1/d4a62fa2322a4be28b9c20cf6796d5c5/cenc.mpd?aws_sessionId=4e9b2cb0-53a8-4291-af97-7eeaaa7dc702",
+          "name": "Cricfy HD",
+          "link": "https://edgestream1.pro/hls/24SDAZFcsqnj24.m3u8|referer=https://embedcenter.st/",
           "scheme": 0,
-          "api": "a8e5ac4332098fccb854327112593756:52e298c03c5c3bc6e0f1ecfd75ceb1da",
+          "api": null,
           "tokenApi": null
-        },
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Hockey | Sports Match",
+      "status": "LIVE",
+      "time": "00:00:00",
+      "cover_image": "",
+      "match_url": "https://edgestream1.pro/hls/sdezqfza55.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NHL": "https://edgestream1.pro/hls/sdezqfza55.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
         {
-          "name": "SportDigital Fussball",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "name": "NHL",
+          "link": "https://edgestream1.pro/hls/sdezqfza55.m3u8|referer=https://embedcenter.st/",
           "scheme": 0,
-          "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
+          "api": null,
           "tokenApi": null
-        },
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Hockey | Sports Match",
+      "status": "LIVE",
+      "time": "23:00:00",
+      "cover_image": "",
+      "match_url": "https://edgestream7.pro/hls/syaLqucEne4k.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NHL": "https://edgestream7.pro/hls/syaLqucEne4k.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
         {
-          "name": "CricFy HD",
-          "link": "https://live.vivo155.com/live/sd-1-4557617.m3u8?txSecret=d186dc90a4db97c4151c2bb312584d1b&txTime=6AE268CA|Referer=https://player.on8on8.com/",
+          "name": "NHL",
+          "link": "https://edgestream7.pro/hls/syaLqucEne4k.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Hockey | Sports Match",
+      "status": "LIVE",
+      "time": "00:00:00",
+      "cover_image": "",
+      "match_url": "https://edgestream7.pro/hls/bnvcxwhfg54.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NHL": "https://edgestream7.pro/hls/bnvcxwhfg54.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "NHL",
+          "link": "https://edgestream7.pro/hls/bnvcxwhfg54.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Hockey | Sports Match",
+      "status": "LIVE",
+      "time": "02:00:00",
+      "cover_image": "",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "is_free": false,
+      "stream_url": {
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+      },
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Hockey | Sports Match",
+      "status": "LIVE",
+      "time": "00:00:00",
+      "cover_image": "",
+      "match_url": "https://edgestream5.pro/hls/rzavbdyua57.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NHL": "https://edgestream5.pro/hls/rzavbdyua57.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "NHL",
+          "link": "https://edgestream5.pro/hls/rzavbdyua57.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Hockey | Sports Match",
+      "status": "LIVE",
+      "time": "02:00:00",
+      "cover_image": "",
+      "match_url": "https://edgestream5.pro/hls/cwxvbnfghq60.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NHL": "https://edgestream5.pro/hls/cwxvbnfghq60.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "NHL",
+          "link": "https://edgestream5.pro/hls/cwxvbnfghq60.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Hockey | Sports Match",
+      "status": "LIVE",
+      "time": "23:30:00",
+      "cover_image": "",
+      "match_url": "https://edgestream1.pro/hls/rtzaeyvhb53.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NHL": "https://edgestream1.pro/hls/rtzaeyvhb53.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "NHL",
+          "link": "https://edgestream1.pro/hls/rtzaeyvhb53.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Hockey | Sports Match",
+      "status": "LIVE",
+      "time": "23:00:00",
+      "cover_image": "",
+      "match_url": "https://edgestream4.pro/hls/hjksgdfauzy51.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NHL": "https://edgestream4.pro/hls/hjksgdfauzy51.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "NHL",
+          "link": "https://edgestream4.pro/hls/hjksgdfauzy51.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Hockey | Sports Match",
+      "status": "LIVE",
+      "time": "02:00:00",
+      "cover_image": "",
+      "match_url": "https://edgestream5.pro/hls/earzfddshg58.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NHL": "https://edgestream5.pro/hls/earzfddshg58.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "NHL",
+          "link": "https://edgestream5.pro/hls/earzfddshg58.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Hockey | Sports Match",
+      "status": "LIVE",
+      "time": "23:00:00",
+      "cover_image": "",
+      "match_url": "https://edgestream2.pro/hls/lmdsjkfgv52.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NHL": "https://edgestream2.pro/hls/lmdsjkfgv52.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "NHL",
+          "link": "https://edgestream2.pro/hls/lmdsjkfgv52.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Hockey | Sports Match",
+      "status": "LIVE",
+      "time": "00:00:00",
+      "cover_image": "",
+      "match_url": "https://edgestream7.pro/hls/poiryezafv56.m3u8|referer=https://embedcenter.st/",
+      "is_free": false,
+      "stream_url": {
+        "NHL": "https://edgestream7.pro/hls/poiryezafv56.m3u8|referer=https://embedcenter.st/"
+      },
+      "streams": [
+        {
+          "name": "NHL",
+          "link": "https://edgestream7.pro/hls/poiryezafv56.m3u8|referer=https://embedcenter.st/",
           "scheme": 0,
           "api": null,
           "tokenApi": null
