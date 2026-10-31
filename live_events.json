@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 56,
-  "live_count": 56,
-  "last_update": "03:07 AM 01-11-2026 BST",
+  "channels_amount": 47,
+  "live_count": 47,
+  "last_update": "03:16 AM 01-11-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -19,6 +19,170 @@
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
       }
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "20:00:00",
+      "cover_image": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+      "is_free": false,
+      "stream_url": {
+        "beIN ENGLISH  - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "CricFy Live": "https://edgestream4.pro/hls/377qj1h2727.m3u8|referer=https://embedcenter.st/",
+        "ESPN DEPORTES HD": "https://chatgpt.hereisman.net/playlist/58978/load-playlist-multi?&.m3u8|Referer=https://gooz.aapmains.net",
+        "CRFY Stream": "https://live.vivo155.com/live/hd-en-1-4565498.m3u8?txSecret=2fd2bd699c6568d052c596620552fb08&txTime=6AE65D53|Referer=https://player.on8on8.com/",
+        "Cricfy HD +": "https://www.rtmpcdn.com/live/43fe2ecc-c836-4be0-a198-3b036f97b1b2.m3u8",
+        "Low": "http://193.47.62.55/hls/LLLLA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      },
+      "streams": [
+        {
+          "name": "beIN ENGLISH  - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
+          "tokenApi": null
+        },
+        {
+          "name": "FANCODE - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
+          "tokenApi": null
+        },
+        {
+          "name": "CazéTV - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4",
+          "tokenApi": null
+        },
+        {
+          "name": "CricFy Live",
+          "link": "https://edgestream4.pro/hls/377qj1h2727.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "ESPN DEPORTES HD",
+          "link": "https://chatgpt.hereisman.net/playlist/58978/load-playlist-multi?&.m3u8|Referer=https://gooz.aapmains.net",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "CRFY Stream",
+          "link": "https://live.vivo155.com/live/hd-en-1-4565498.m3u8?txSecret=2fd2bd699c6568d052c596620552fb08&txTime=6AE65D53|Referer=https://player.on8on8.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Cricfy HD +",
+          "link": "https://www.rtmpcdn.com/live/43fe2ecc-c836-4be0-a198-3b036f97b1b2.m3u8",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.55/hls/LLLLA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Football | Sports Match",
+      "status": "LIVE",
+      "time": "20:00:00",
+      "cover_image": "",
+      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bk62tlwunz/out/v1/b52207d3fb3c4c2ebaa3f74bf9da0e3d/cenc.mpd?aws_sessionId=341980d3-da5e-4109-867c-4357df117930",
+      "is_free": false,
+      "stream_url": {
+        "PEACOCK ENG - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bk62tlwunz/out/v1/b52207d3fb3c4c2ebaa3f74bf9da0e3d/cenc.mpd?aws_sessionId=341980d3-da5e-4109-867c-4357df117930",
+        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "CricFy Live": "https://edgestream1.pro/hls/eJmauBDCIf.m3u8|referer=https://embedcenter.st/",
+        "CRFY Stream": "https://live.vivo155.com/live/hd-en-1-4558650.m3u8?txSecret=e6dcf9449bf13678e93ddc0dd38686f0&txTime=6AE65ABB|Referer=https://player.on8on8.com/",
+        "Low": "http://193.47.62.50/hls/LLLLAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+      },
+      "streams": [
+        {
+          "name": "PEACOCK ENG - AQ",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bk62tlwunz/out/v1/b52207d3fb3c4c2ebaa3f74bf9da0e3d/cenc.mpd?aws_sessionId=341980d3-da5e-4109-867c-4357df117930",
+          "scheme": 0,
+          "api": "3ef3ff31b60778c45e20731fbc30f657:b0f9541fc0840445539e0f1ac36fd750",
+          "tokenApi": null
+        },
+        {
+          "name": "FUBO SPORTS - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
+          "tokenApi": null
+        },
+        {
+          "name": "CricFy Live",
+          "link": "https://edgestream1.pro/hls/eJmauBDCIf.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "CricFy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/12",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "CricFy Live",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/56",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "CRFY Stream",
+          "link": "https://live.vivo155.com/live/hd-en-1-4558650.m3u8?txSecret=e6dcf9449bf13678e93ddc0dd38686f0&txTime=6AE65ABB|Referer=https://player.on8on8.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.50/hls/LLLLAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        }
+      ]
     },
     {
       "match_id": "",
@@ -653,92 +817,6 @@
       "title": "Sports Match",
       "synopsis": "Cricket | Sports Match",
       "status": "LIVE",
-      "time": "08:30:00",
-      "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/muuiy51nil/out/v1/a441f3a044df462e89583d61af8fdd47/cenc.mpd",
-      "is_free": false,
-      "stream_url": {
-        "WILLOW HD - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/muuiy51nil/out/v1/a441f3a044df462e89583d61af8fdd47/cenc.mpd",
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "WILLOW ALT - AQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/muuiy51nil/out/v1/a441f3a044df462e89583d61af8fdd47/cenc.mpd",
-        "FOX CRICKET HD": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
-        "SK CRICKET": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-        "FANCODE SD": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
-        "A SPORTS HD": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
-        "FANCODE (IND)": "https://dai-fancode.pages.dev/mumbai/4249783_english_hls_97c5a4780083137_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-        "Low": "http://193.47.62.44/hls/XAXAXAAX.m3u8|referer=http://fawanews.sc/"
-      },
-      "streams": [
-        {
-          "name": "WILLOW HD - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/muuiy51nil/out/v1/a441f3a044df462e89583d61af8fdd47/cenc.mpd",
-          "scheme": 0,
-          "api": "055e7d596817187feb6148156f166cd4:d2f924558033464139e9367ffe346149",
-          "tokenApi": null
-        },
-        {
-          "name": "FANCODE - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-          "tokenApi": null
-        },
-        {
-          "name": "WILLOW ALT - AQ",
-          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/muuiy51nil/out/v1/a441f3a044df462e89583d61af8fdd47/cenc.mpd",
-          "scheme": 0,
-          "api": "055e7d596817187feb6148156f166cd4:d2f924558033464139e9367ffe346149",
-          "tokenApi": null
-        },
-        {
-          "name": "FOX CRICKET HD",
-          "link": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "SK CRICKET",
-          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "FANCODE SD",
-          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
-          "scheme": 0,
-          "api": "286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f",
-          "tokenApi": null
-        },
-        {
-          "name": "A SPORTS HD",
-          "link": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "FANCODE (IND)",
-          "link": "https://dai-fancode.pages.dev/mumbai/4249783_english_hls_97c5a4780083137_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.44/hls/XAXAXAAX.m3u8|referer=http://fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Cricket | Sports Match",
-      "status": "LIVE",
       "time": "14:30:00",
       "cover_image": "",
       "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nbhokkdipi/out/v1/2b5492875ca8431a979f3ec685cce2f8/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
@@ -976,68 +1054,6 @@
     {
       "match_id": "",
       "title": "Sports Match",
-      "synopsis": "Cricket | Sports Match",
-      "status": "LIVE",
-      "time": "08:00:00",
-      "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kauhtkxesb/out/v1/b7ddf44fd9d847f892422ff925f1c04c/cenc.mpd",
-      "is_free": false,
-      "stream_url": {
-        "WILLOW FHD": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kauhtkxesb/out/v1/b7ddf44fd9d847f892422ff925f1c04c/cenc.mpd",
-        "WILLOW ALT": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/kauhtkxesb/out/v1/b7ddf44fd9d847f892422ff925f1c04c/cenc.mpd",
-        "TAPMAD FHD": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8|referer=https://tapmad.com/",
-        "PTV SPORTS HD": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-        "CRICBUZZ HD": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8",
-        "Low": "http://193.47.62.44/hls/PPPP.m3u8|referer=http://fawanews.sc/"
-      },
-      "streams": [
-        {
-          "name": "WILLOW FHD",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kauhtkxesb/out/v1/b7ddf44fd9d847f892422ff925f1c04c/cenc.mpd",
-          "scheme": 0,
-          "api": "a323fd2c6886dfea4831314fd63c4eb7:462c6dd2b56c26e958f5981fea25aef4",
-          "tokenApi": null
-        },
-        {
-          "name": "WILLOW ALT",
-          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/kauhtkxesb/out/v1/b7ddf44fd9d847f892422ff925f1c04c/cenc.mpd",
-          "scheme": 0,
-          "api": "a323fd2c6886dfea4831314fd63c4eb7:462c6dd2b56c26e958f5981fea25aef4",
-          "tokenApi": null
-        },
-        {
-          "name": "TAPMAD FHD",
-          "link": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8|referer=https://tapmad.com/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "PTV SPORTS HD",
-          "link": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "CRICBUZZ HD",
-          "link": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.44/hls/PPPP.m3u8|referer=http://fawanews.sc/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
       "synopsis": "Baseball | Sports Match",
       "status": "LIVE",
       "time": "00:00:00",
@@ -1095,37 +1111,15 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Hockey | Sports Match",
-      "status": "LIVE",
-      "time": "17:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream2.pro/hls/nbekiurtghjhfza83.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "NHL": "https://edgestream2.pro/hls/nbekiurtghjhfza83.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "NHL",
-          "link": "https://edgestream2.pro/hls/nbekiurtghjhfza83.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
         },
         {
-          "name": "Cricfy  Server 2",
+          "name": "CricFy HD",
           "link": null,
           "scheme": 0,
           "api": null,
           "tokenApi": {
             "url": null,
-            "api": "https://taifood-blog.asia/embed/nhl/2026-10-31/chi-bos",
+            "api": "https://104game.click/player/2/183",
             "type": "embed",
             "link_key": "playback_url",
             "default_string": "N8x7Y%m+6n",
@@ -1155,6 +1149,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "EXTRA SPORT14",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/168",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -1177,6 +1187,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "CricFy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/176",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -1199,36 +1225,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Hockey | Sports Match",
-      "status": "LIVE",
-      "time": "17:00:00",
-      "cover_image": "",
-      "match_url": "https://chatgpt.hereisman.net/playlist/58936/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://chatgpt.hereisman.net/playlist/58936/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-        "NHL": "https://edgestream6.pro/hls/ioazuryeahrfvzed84.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://chatgpt.hereisman.net/playlist/58936/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
         },
         {
-          "name": "NHL",
-          "link": "https://edgestream6.pro/hls/ioazuryeahrfvzed84.m3u8|referer=https://embedcenter.st/",
+          "name": "CricFy HD",
+          "link": null,
           "scheme": 0,
           "api": null,
-          "tokenApi": null
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/182",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -1251,6 +1263,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "CricFy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/190",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -1273,6 +1301,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "CricFy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/177",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -1295,6 +1339,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "CricFy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/187",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -1359,98 +1419,23 @@
       "status": "LIVE",
       "time": "19:30:00",
       "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://live.vivo155.com/live/sd-1-4566619.m3u8?txSecret=10624db5980cb26430a580227311b987&txTime=6AE65741|Referer=https://player.on8on8.com/",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "Cricfy HD": "https://live.vivo155.com/live/sd-1-4566619.m3u8?txSecret=10624db5980cb26430a580227311b987&txTime=6AE65741|Referer=https://player.on8on8.com/",
+        "Low": "http://193.47.62.59/hls/EKKKA.m3u8|referer=http://fawanews.sc/"
       },
       "streams": [
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "17:00:00",
-      "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mxso6scrtg/out/v1/b3544f9833f0429894701c32d0fc024b/cenc.mpd?aws_sessionId=495fdb18-c069-4263-b9ff-728319ab0389",
-      "is_free": false,
-      "stream_url": {
-        "PARAMOUNT+ - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mxso6scrtg/out/v1/b3544f9833f0429894701c32d0fc024b/cenc.mpd?aws_sessionId=495fdb18-c069-4263-b9ff-728319ab0389",
-        "FUBO SPORTS ALT - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "SPORT 1 CZ FHD": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "PARAMOUNT+ HD": "https://chatgpt.hereisman.net/playlist/58941/load-playlist-multi?&.m3u8|Referer=https://gooz.aapmains.net",
-        "CricFy Live": "https://edgestream3.pro/hls/syaLqucEne4k.m3u8|referer=https://embedcenter.st/",
-        "Low": "http://193.47.62.59/hls/SSSSQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      },
-      "streams": [
-        {
-          "name": "PARAMOUNT+ - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mxso6scrtg/out/v1/b3544f9833f0429894701c32d0fc024b/cenc.mpd?aws_sessionId=495fdb18-c069-4263-b9ff-728319ab0389",
-          "scheme": 0,
-          "api": "18d174570a81b42cff1f6fb6e19106c1:7a0d9afbc556089281a73408594729fe",
-          "tokenApi": null
-        },
-        {
-          "name": "FUBO SPORTS ALT - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "tokenApi": null
-        },
-        {
-          "name": "beIN ENGLISH - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8",
-          "tokenApi": null
-        },
-        {
-          "name": "SPORT 1 CZ FHD",
-          "link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-          "scheme": 0,
-          "api": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
-          "tokenApi": null
-        },
-        {
-          "name": "PARAMOUNT+ HD",
-          "link": "https://chatgpt.hereisman.net/playlist/58941/load-playlist-multi?&.m3u8|Referer=https://gooz.aapmains.net",
+          "name": "Cricfy HD",
+          "link": "https://live.vivo155.com/live/sd-1-4566619.m3u8?txSecret=10624db5980cb26430a580227311b987&txTime=6AE65741|Referer=https://player.on8on8.com/",
           "scheme": 0,
           "api": null,
           "tokenApi": null
-        },
-        {
-          "name": "CricFy Live",
-          "link": "https://edgestream3.pro/hls/syaLqucEne4k.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "CRFY Stream",
-          "link": null,
-          "scheme": 0,
-          "api": null,
-          "tokenApi": {
-            "url": null,
-            "api": "https://taifood-blog.asia/embed/seriea/2026-10-31/udi-roma",
-            "type": "embed",
-            "link_key": "playback_url",
-            "default_string": "N8x7Y%m+6n",
-            "request_type": "get",
-            "request_body_type": "text",
-            "ip_api": "https://api.ipify.org/"
-          }
         },
         {
           "name": "Low",
-          "link": "http://193.47.62.59/hls/SSSSQQQQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "link": "http://193.47.62.59/hls/EKKKA.m3u8|referer=http://fawanews.sc/",
           "scheme": 0,
           "api": null,
           "tokenApi": null
@@ -1464,15 +1449,63 @@
       "status": "LIVE",
       "time": "19:45:00",
       "cover_image": "",
-      "match_url": "https://edgestream5.pro/hls/dza5z8f69.m3u8|referer=https://embedcenter.st/",
+      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xnypecepsc/out/v1/0cb42f7039694b3199d1cd2cba7a5ddb/cenc.mpd",
       "is_free": false,
       "stream_url": {
-        "CricFy Live": "https://edgestream5.pro/hls/dza5z8f69.m3u8|referer=https://embedcenter.st/"
+        "beIN SPORTS - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xnypecepsc/out/v1/0cb42f7039694b3199d1cd2cba7a5ddb/cenc.mpd",
+        "CricFy Live": "https://edgestream5.pro/hls/dza5z8f69.m3u8|referer=https://embedcenter.st/",
+        "CRFY Stream": "https://www.rtmpcdn.com/live/9805701a-3ffa-43f7-89b8-54a3b83cd40a.m3u8",
+        "Cricfy Live+": "https://live.vivo155.com/live/hd-en-1-4550922.m3u8?txSecret=2ff90cc5f71cc03afd026be3d1ff0caf&txTime=6AE657CC|Referer=https://player.on8on8.com/",
+        "Low": "http://193.47.62.59/hls/EKKKAAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       },
       "streams": [
         {
+          "name": "beIN SPORTS - AQ",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xnypecepsc/out/v1/0cb42f7039694b3199d1cd2cba7a5ddb/cenc.mpd",
+          "scheme": 0,
+          "api": "6fb0ddc7e384e78dea1868457c21fc7d:88f26e97ed7f41070644f8519fd4d2ae",
+          "tokenApi": null
+        },
+        {
+          "name": "LIGUE 1 FR 1",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/20",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
           "name": "CricFy Live",
           "link": "https://edgestream5.pro/hls/dza5z8f69.m3u8|referer=https://embedcenter.st/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "CRFY Stream",
+          "link": "https://www.rtmpcdn.com/live/9805701a-3ffa-43f7-89b8-54a3b83cd40a.m3u8",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Cricfy Live+",
+          "link": "https://live.vivo155.com/live/hd-en-1-4550922.m3u8?txSecret=2ff90cc5f71cc03afd026be3d1ff0caf&txTime=6AE657CC|Referer=https://player.on8on8.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.59/hls/EKKKAAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
           "scheme": 0,
           "api": null,
           "tokenApi": null
@@ -1489,7 +1522,9 @@
       "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
       "is_free": false,
       "stream_url": {
-        "SportDigital Fussball - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+        "SportDigital Fussball - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "Cricfy HD": "https://live.vivo155.com/live/sd-1-4552240.m3u8?txSecret=0bc8dae3aa2b765edeb922a331dc769b&txTime=6AE65DCC|Referer=https://player.on8on8.com/",
+        "Low": "http://193.47.62.59/hls/JOOOA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       },
       "streams": [
         {
@@ -1498,25 +1533,17 @@
           "scheme": 0,
           "api": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8",
           "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "20:00:00",
-      "cover_image": "",
-      "match_url": "https://edgestream4.pro/hls/377qj1h2727.m3u8|referer=https://embedcenter.st/",
-      "is_free": false,
-      "stream_url": {
-        "CricFy Live": "https://edgestream4.pro/hls/377qj1h2727.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
+        },
         {
-          "name": "CricFy Live",
-          "link": "https://edgestream4.pro/hls/377qj1h2727.m3u8|referer=https://embedcenter.st/",
+          "name": "Cricfy HD",
+          "link": "https://live.vivo155.com/live/sd-1-4552240.m3u8?txSecret=0bc8dae3aa2b765edeb922a331dc769b&txTime=6AE65DCC|Referer=https://player.on8on8.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.59/hls/JOOOA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
           "scheme": 0,
           "api": null,
           "tokenApi": null
@@ -1530,89 +1557,27 @@
       "status": "LIVE",
       "time": "20:00:00",
       "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://live.vivo155.com/live/sd-1-4567335.m3u8?txSecret=6cae35d35118baa000374f0554e05115&txTime=6AE65DB1|Referer=https://player.on8on8.com/",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "Cricfy HD": "https://live.vivo155.com/live/sd-1-4567335.m3u8?txSecret=6cae35d35118baa000374f0554e05115&txTime=6AE65DB1|Referer=https://player.on8on8.com/"
       },
       "streams": [
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "17:45:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "17:30:00",
-      "cover_image": "",
-      "match_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "is_free": false,
-      "stream_url": {
-        "FANCODE - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "D SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CricFy Live": "https://edgestream1.pro/hls/377qj1h2727.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "FANCODE - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca",
-          "tokenApi": null
-        },
-        {
-          "name": "D SPORTS - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3",
-          "tokenApi": null
-        },
-        {
-          "name": "CazéTV - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4",
-          "tokenApi": null
-        },
-        {
-          "name": "CricFy Live",
-          "link": "https://edgestream1.pro/hls/377qj1h2727.m3u8|referer=https://embedcenter.st/",
+          "name": "Cricfy HD",
+          "link": "https://live.vivo155.com/live/sd-1-4567335.m3u8?txSecret=6cae35d35118baa000374f0554e05115&txTime=6AE65DB1|Referer=https://player.on8on8.com/",
           "scheme": 0,
           "api": null,
           "tokenApi": null
         },
         {
-          "name": "CRFY NEW",
+          "name": "Server 1",
           "link": null,
           "scheme": 0,
           "api": null,
           "tokenApi": {
             "url": null,
-            "api": "https://104game.click/player/2/51",
+            "api": "https://104game.click/player/2/53",
             "type": "embed",
             "link_key": "playback_url",
             "default_string": "N8x7Y%m+6n",
@@ -1628,159 +1593,25 @@
       "title": "Sports Match",
       "synopsis": "Football | Sports Match",
       "status": "LIVE",
-      "time": "17:30:00",
+      "time": "17:45:00",
       "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sokjg0lmx4/out/v1/28cef8d0eb944131ae93100669b14392/cenc.mpd",
+      "match_url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
       "is_free": false,
       "stream_url": {
-        "DAZN SPORTS FHD": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sokjg0lmx4/out/v1/28cef8d0eb944131ae93100669b14392/cenc.mpd",
-        "PEACOCK ES FHD": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mqsnyemmca/out/v1/d4389795f5d54f5eb834bc443f55281a/cenc.mpd?aws_sessionId=7d4938b8-fe14-419b-8f0a-4cf646463bc2",
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "SporTV BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CazéTV - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CricFy Live": "https://edgestream6.pro/hls/24SDAZFcsqnj24.m3u8|referer=https://embedcenter.st/",
-        "DAZN SPORTS HD": "https://chatgpt.hereisman.net/playlist/58942/load-playlist-multi?&.m3u8|Referer=https://gooz.aapmains.net",
-        "Cricfy HD": "https://www.rtmpcdn.com/live/40d8dda1-368b-4114-8d99-5b755b728be1.m3u8",
-        "Low": "http://193.47.62.50/hls/ZAZAZAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
+        "Cricfy HD": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "Low": "http://193.47.62.59/hls/JOOOA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       },
       "streams": [
         {
-          "name": "DAZN SPORTS FHD",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sokjg0lmx4/out/v1/28cef8d0eb944131ae93100669b14392/cenc.mpd",
-          "scheme": 0,
-          "api": "091ad6e7e054c57d9463c3c9aecd2734:bba8e56d5ec8aed6fb3a49e78eaf39b2",
-          "tokenApi": null
-        },
-        {
-          "name": "PEACOCK ES FHD",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mqsnyemmca/out/v1/d4389795f5d54f5eb834bc443f55281a/cenc.mpd?aws_sessionId=7d4938b8-fe14-419b-8f0a-4cf646463bc2",
-          "scheme": 0,
-          "api": "37438df8aaee89e4e707af3a0ea2c3c6:43d47f359bcc4e5ce06e244e08262d12",
-          "tokenApi": null
-        },
-        {
-          "name": "beIN ENGLISH - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e",
-          "tokenApi": null
-        },
-        {
-          "name": "SporTV BR - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b",
-          "tokenApi": null
-        },
-        {
-          "name": "CazéTV - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4",
-          "tokenApi": null
-        },
-        {
-          "name": "CricFy Live",
-          "link": "https://edgestream6.pro/hls/24SDAZFcsqnj24.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "DAZN SPORTS HD",
-          "link": "https://chatgpt.hereisman.net/playlist/58942/load-playlist-multi?&.m3u8|Referer=https://gooz.aapmains.net",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
           "name": "Cricfy HD",
-          "link": "https://www.rtmpcdn.com/live/40d8dda1-368b-4114-8d99-5b755b728be1.m3u8",
+          "link": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
           "scheme": 0,
           "api": null,
           "tokenApi": null
         },
         {
           "name": "Low",
-          "link": "http://193.47.62.50/hls/ZAZAZAQQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "17:30:00",
-      "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bk62tlwunz/out/v1/b52207d3fb3c4c2ebaa3f74bf9da0e3d/cenc.mpd?aws_sessionId=341980d3-da5e-4109-867c-4357df117930",
-      "is_free": false,
-      "stream_url": {
-        "PEACOCK ENG - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bk62tlwunz/out/v1/b52207d3fb3c4c2ebaa3f74bf9da0e3d/cenc.mpd?aws_sessionId=341980d3-da5e-4109-867c-4357df117930",
-        "FUBO SPORTS FHD": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/4zomejgnew/out/v1/aaaab12c95924d80a77f87f7c745782a/cenc.mpd?aws_sessionId=77fe8528-ea5d-4b88-98b8-653c66ef845c",
-        "NBC SPORTS - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "FUBO SPORTS ALT - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CricFy Live": "https://edgestream5.pro/hls/eJmauBDCIf.m3u8|referer=https://embedcenter.st/",
-        "NBC SPORTS HD": "https://chatgpt.hereisman.net/playlist/58944/load-playlist-multi?&.m3u8|Referer=https://gooz.aapmains.net",
-        "Cricfy HD": "https://www.rtmpcdn.com/live/6f94fa45-8327-47f2-91dd-fb49308e6591.m3u8",
-        "Low": "http://193.47.62.55/hls/ZAZAZA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      },
-      "streams": [
-        {
-          "name": "PEACOCK ENG - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/bk62tlwunz/out/v1/b52207d3fb3c4c2ebaa3f74bf9da0e3d/cenc.mpd?aws_sessionId=341980d3-da5e-4109-867c-4357df117930",
-          "scheme": 0,
-          "api": "3ef3ff31b60778c45e20731fbc30f657:b0f9541fc0840445539e0f1ac36fd750",
-          "tokenApi": null
-        },
-        {
-          "name": "FUBO SPORTS FHD",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/4zomejgnew/out/v1/aaaab12c95924d80a77f87f7c745782a/cenc.mpd?aws_sessionId=77fe8528-ea5d-4b88-98b8-653c66ef845c",
-          "scheme": 0,
-          "api": "65f9ed4580a4af3c117a339c44cdfe3b:3e7d40c4b2ca331fe48bd65acae439d7",
-          "tokenApi": null
-        },
-        {
-          "name": "NBC SPORTS - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e",
-          "tokenApi": null
-        },
-        {
-          "name": "FUBO SPORTS ALT - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
-          "tokenApi": null
-        },
-        {
-          "name": "CricFy Live",
-          "link": "https://edgestream5.pro/hls/eJmauBDCIf.m3u8|referer=https://embedcenter.st/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "NBC SPORTS HD",
-          "link": "https://chatgpt.hereisman.net/playlist/58944/load-playlist-multi?&.m3u8|Referer=https://gooz.aapmains.net",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Cricfy HD",
-          "link": "https://www.rtmpcdn.com/live/6f94fa45-8327-47f2-91dd-fb49308e6591.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "Low",
-          "link": "http://193.47.62.55/hls/ZAZAZA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "link": "http://193.47.62.59/hls/JOOOA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
           "scheme": 0,
           "api": null,
           "tokenApi": null
@@ -1794,15 +1625,18 @@
       "status": "LIVE",
       "time": "18:00:00",
       "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?|Referer=https://xlz.domainkqt.cc/",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "Cricfy HD": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?|Referer=https://xlz.domainkqt.cc/"
       },
       "streams": [
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+          "name": "Cricfy HD",
+          "link": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?|Referer=https://xlz.domainkqt.cc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
         }
       ]
     },
@@ -1813,34 +1647,34 @@
       "status": "LIVE",
       "time": "19:00:00",
       "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "PREMIERE BR - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd"
       },
       "streams": [
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "17:30:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
+          "name": "PREMIERE BR - AQ",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+          "scheme": 0,
+          "api": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3",
+          "tokenApi": null
+        },
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+          "name": "WINsport+",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/81",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -1863,6 +1697,38 @@
           "scheme": 0,
           "api": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3",
           "tokenApi": null
+        },
+        {
+          "name": "beIN SPORT 2",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/2",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "directv",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/94",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -1876,7 +1742,8 @@
       "match_url": "https://live2.jorvakstreamcache.com/live/channel9.m3u8?|Referer=https://xlz.domainkqt.cc/",
       "is_free": false,
       "stream_url": {
-        "Cricfy HD": "https://live2.jorvakstreamcache.com/live/channel9.m3u8?|Referer=https://xlz.domainkqt.cc/"
+        "Cricfy HD": "https://live2.jorvakstreamcache.com/live/channel9.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "Low": "http://193.47.62.59/hls/JOOO.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       },
       "streams": [
         {
@@ -1885,63 +1752,10 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "16:00:00",
-      "cover_image": "",
-      "match_url": "https://live.vivo155.com/live/sd-1-4581353.m3u8?txSecret=b10b2009824e88c2c57dba23281d4422&txTime=6AE61BCC|Referer=https://player.on8on8.com/",
-      "is_free": false,
-      "stream_url": {
-        "Cricfy HD": "https://live.vivo155.com/live/sd-1-4581353.m3u8?txSecret=b10b2009824e88c2c57dba23281d4422&txTime=6AE61BCC|Referer=https://player.on8on8.com/",
-        "Low": "http://193.47.62.44/hls/H666AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
-      },
-      "streams": [
-        {
-          "name": "Cricfy HD",
-          "link": "https://live.vivo155.com/live/sd-1-4581353.m3u8?txSecret=b10b2009824e88c2c57dba23281d4422&txTime=6AE61BCC|Referer=https://player.on8on8.com/",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
         },
         {
           "name": "Low",
-          "link": "http://193.47.62.44/hls/H666AA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
-      "status": "LIVE",
-      "time": "20:00:00",
-      "cover_image": "",
-      "match_url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-      "is_free": false,
-      "stream_url": {
-        "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "CricFy Live": "https://edgestream1.pro/hls/eJmauBDCIf.m3u8|referer=https://embedcenter.st/"
-      },
-      "streams": [
-        {
-          "name": "FUBO SPORTS - AQ",
-          "link": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-          "scheme": 0,
-          "api": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1",
-          "tokenApi": null
-        },
-        {
-          "name": "CricFy Live",
-          "link": "https://edgestream1.pro/hls/eJmauBDCIf.m3u8|referer=https://embedcenter.st/",
+          "link": "http://193.47.62.59/hls/JOOO.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
           "scheme": 0,
           "api": null,
           "tokenApi": null
@@ -1955,16 +1769,33 @@
       "status": "LIVE",
       "time": "19:45:00",
       "cover_image": "",
-      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/rzve3vnoqx/out/v1/ad3af4afccef4f8badb6197b1251946f/cenc.mpd?aws_sessionId=69a5a625-bd9b-453c-a7e4-f71bee9157cd",
       "is_free": false,
       "stream_url": {
-        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+        "PARAMOUNT+ - AQ": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/rzve3vnoqx/out/v1/ad3af4afccef4f8badb6197b1251946f/cenc.mpd?aws_sessionId=69a5a625-bd9b-453c-a7e4-f71bee9157cd",
         "FUBO SPORTS - AQ": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
         "CBS SPORTS - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd|Origin=https://amazon.com&user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
         "SPORT 1 CZ - AQ": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "CricFy Live": "https://edgestream5.pro/hls/syaLqucEne4k.m3u8|referer=https://embedcenter.st/"
+        "CricFy Live": "https://edgestream5.pro/hls/syaLqucEne4k.m3u8|referer=https://embedcenter.st/",
+        "CRFY Stream": "https://live.vivo155.com/live/hd-en-1-4549139.m3u8?txSecret=0c13e3e79608398e94ce1e9b1399e5a6&txTime=6AE65863|Referer=https://player.on8on8.com/",
+        "Low": "http://193.47.62.55/hls/LLLL.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       },
       "streams": [
+        {
+          "name": "PARAMOUNT+ - AQ",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/rzve3vnoqx/out/v1/ad3af4afccef4f8badb6197b1251946f/cenc.mpd?aws_sessionId=69a5a625-bd9b-453c-a7e4-f71bee9157cd",
+          "scheme": 0,
+          "api": "1bc15cebdb8bbe98ef47749f14c6b0aa:2ed5134c3546a495a8a3216d2c3fb294",
+          "tokenApi": null
+        },
+        {
+          "name": "FUBO SPORTS - AQ",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mr9nvpnlnt/out/v1/d7f4f63d6d22400abc3e83956523a283/cenc.mpd?aws_sessionId=0d38cff8-a52b-40f8-82f7-c3e38d4707e7",
+          "scheme": 0,
+          "api": "fa9f124c42c3a3027f6503d75200d920:786effbbba3028a34074ecfe73f2c33d",
+          "tokenApi": null
+        },
         {
           "name": "beIN ENGLISH - AQ",
           "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
@@ -1999,6 +1830,20 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "CRFY Stream",
+          "link": "https://live.vivo155.com/live/hd-en-1-4549139.m3u8?txSecret=0c13e3e79608398e94ce1e9b1399e5a6&txTime=6AE65863|Referer=https://player.on8on8.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "Low",
+          "link": "http://193.47.62.55/hls/LLLL.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
         }
       ]
     },
@@ -2009,15 +1854,34 @@
       "status": "LIVE",
       "time": "20:00:00",
       "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+      "match_url": "https://live.vivo155.com/live/sd-1-4552241.m3u8?txSecret=e154442a11b25229b21e29b367dd956e&txTime=6AE65DEA|Referer=https://player.on8on8.com/",
       "is_free": false,
       "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        "Cricfy HD": "https://live.vivo155.com/live/sd-1-4552241.m3u8?txSecret=e154442a11b25229b21e29b367dd956e&txTime=6AE65DEA|Referer=https://player.on8on8.com/"
       },
       "streams": [
         {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+          "name": "Cricfy HD",
+          "link": "https://live.vivo155.com/live/sd-1-4552241.m3u8?txSecret=e154442a11b25229b21e29b367dd956e&txTime=6AE65DEA|Referer=https://player.on8on8.com/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "NL ESPN 1",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/141",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -2116,6 +1980,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "CricFy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://taifood-blog.asia/embed/wnba/2026-10-31/atl-gs",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -2138,6 +2018,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "CricFy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/180",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -2160,6 +2056,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "CricFy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/188",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -2182,6 +2094,38 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "EXTRA SPORT",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/186",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "ESPN 2 MX",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/98",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -2204,6 +2148,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "CricFy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/181",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -2226,6 +2186,22 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
+        },
+        {
+          "name": "CricFy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/185",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
         }
       ]
     },
@@ -2236,6 +2212,35 @@
       "status": "LIVE",
       "time": "00:00:00",
       "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "name": "CricFy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://104game.click/player/2/184",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Cricket | Sports Match",
+      "status": "LIVE",
+      "time": "08:10:00",
+      "cover_image": "",
       "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
       "is_free": false,
       "stream_url": {
@@ -2245,36 +2250,32 @@
         {
           "name": "Link 1",
           "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        },
+        {
+          "name": null,
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
         }
       ]
     },
     {
       "match_id": "",
       "title": "Sports Match",
-      "synopsis": "Football | Sports Match",
+      "synopsis": "Cricket | Sports Match",
       "status": "LIVE",
-      "time": "15:00:00",
+      "time": "04:40:00",
       "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9guepzbuqz/out/v1/276f82ed34bd43a68b62825bd89a0d79/cenc.mpd",
+      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
       "is_free": false,
       "stream_url": {
-        "PEACOCK FHD": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9guepzbuqz/out/v1/276f82ed34bd43a68b62825bd89a0d79/cenc.mpd",
-        "PEACOCK ALT": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9guepzbuqz/out/v1/276f82ed34bd43a68b62825bd89a0d79/cenc.mpd"
+        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
       },
       "streams": [
         {
-          "name": "PEACOCK FHD",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9guepzbuqz/out/v1/276f82ed34bd43a68b62825bd89a0d79/cenc.mpd",
-          "scheme": 0,
-          "api": "5a90d1c5cb64731bade51f5f8fa2f4b0:1412de250119099d58fe70825a769233",
-          "tokenApi": null
-        },
-        {
-          "name": "PEACOCK ALT",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9guepzbuqz/out/v1/276f82ed34bd43a68b62825bd89a0d79/cenc.mpd",
-          "scheme": 0,
-          "api": "5a90d1c5cb64731bade51f5f8fa2f4b0:1412de250119099d58fe70825a769233",
-          "tokenApi": null
+          "name": "Link 1",
+          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
         }
       ]
     }
