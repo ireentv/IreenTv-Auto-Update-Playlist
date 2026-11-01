@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 19,
   "live_count": 4,
-  "last_update": "07:46 PM 01-11-2026 BST",
+  "last_update": "07:53 PM 01-11-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -18,19 +18,6 @@
       "is_free": true,
       "stream_url": {
         "Server 1": "https://ireentvlive.pages.dev/promo/master.m3u8"
-      }
-    },
-    {
-      "match_id": "19234",
-      "title": "AFC Women's Champions League 2026/27 - Beijing Jingtan Football Club (CHN) vs Kaya FC-Iloilo (PHI) (MATCHDAY 1)",
-      "synopsis": "Watch the AFC Women's Champions League 2025/26 live online on tapmad. The AFC Women's Champions League 2025/26 2026 is Asia’s premier international women’s football tournament, featuring top national teams competing for continental glory and qualification to global championships. Watch the AFC Women's Asian Cup on 01-Nov at 04:30 PM on tapmad via web, app, or smart TV.",
-      "status": "LIVE",
-      "time": "01/11/2026 05:00 PM BST",
-      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1793094359540x302.jpg",
-      "match_url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Server 1": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8"
       }
     },
     {
@@ -64,12 +51,15 @@
       "match_id": "18446",
       "title": "French Ligue 1 2026/27 - Strasbourg vs Auxerre (MATCHDAY 9)",
       "synopsis": "Watch Strasbourg vs Auxerre live match online on tapmad. Follow exciting French football action featuring attacking play, tactical battles, goal-scoring opportunities, and key moments throughout the match. The Strasbourg vs Auxerre match will take place on 01-Nov, Sunday, at 07:00 PM. Stream all Ligue 1 matches online on tapmad via app, web, or smart TV.",
-      "status": "UPCOMING",
+      "status": "LIVE",
       "time": "01/11/2026 08:30 PM BST",
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1793168754540x302.jpg",
-      "match_url": "",
+      "match_url": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
       "is_free": false,
-      "stream_url": {}
+      "stream_url": {
+        "Server 1": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
+        "Server 2": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad5/master.m3u8"
+      }
     },
     {
       "match_id": "19332",
@@ -221,6 +211,17 @@
       "status": "UPCOMING",
       "time": "04/11/2026 02:30 AM BST",
       "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1793255621540x302.jpg",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {}
+    },
+    {
+      "match_id": "19380",
+      "title": "UEFA Champions League 2026/27 - Bodo/Glimt vs Lille (MATCHDAY 3)",
+      "synopsis": "Watch Bodo/Glimt vs Lille live match online on tapmad. The UEFA Champions League is the most-watched club competition in the world. The winners of this league play the UEFA Super Cup final against Europa League winners. The Bodo/Glimt vs Lille match will take place on 04-Nov, Wednesday, at 01:00 AM. Stream all UCL matches online on tapmad via app, web, or smart TV.",
+      "status": "UPCOMING",
+      "time": "04/11/2026 02:30 AM BST",
+      "cover_image": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1793255478540x302.jpg",
       "match_url": "",
       "is_free": false,
       "stream_url": {}
