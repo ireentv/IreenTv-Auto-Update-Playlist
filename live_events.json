@@ -3,9 +3,9 @@
   "developer": "MD ANAMUL HOQUE",
   "telegram": "https://t.me/ireentv",
   "website": "https://anamul.pages.dev",
-  "channels_amount": 67,
-  "live_count": 67,
-  "last_update": "10:08 PM 06-11-2026 BST",
+  "channels_amount": 64,
+  "live_count": 64,
+  "last_update": "10:15 PM 06-11-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -154,6 +154,7 @@
         "MotoGP - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
         "MOTO Cricfy": "https://chatgpt.hereisman.net/playlist/57392/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
         "Cricfy HD": "https://tedesco.formaturamaxi.com.br/f1.m3u8|referer=http://fawanews.sc/",
+        "MotoGP Qatar": "https://chatgpt.hereisman.net/playlist/59363/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
         "Low": "http://193.47.62.59/hls/TTTT.m3u8|referer=http://fawanews.sc/"
       },
       "streams": [
@@ -195,6 +196,13 @@
         {
           "name": "Cricfy HD",
           "link": "https://tedesco.formaturamaxi.com.br/f1.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
+          "name": "MotoGP Qatar",
+          "link": "https://chatgpt.hereisman.net/playlist/59363/load-playlist.m3u8?|referer=https://gooz.aapmains.net/",
           "scheme": 0,
           "api": null,
           "tokenApi": null
@@ -295,7 +303,8 @@
         "SK sports F1": "https://admin2.formaturamaxi.com.br/f1.m3u8",
         "RUSSIA FEED": "https://bl.rutube.ru/livestream/d11d0145804d4321a677aacb62984de8/index.m3u8?s=k9d3abxTJHkJWs65bDRXjg&e=1791806247&scheme=https|user-agent=Mozilla",
         "SportCast": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/58464152-0ce6-4e18-a3c1-393ba5669a09/master.m3u8",
-        "Low": "http://193.47.62.50/hls/KYYY.m3u8|referer=http://fawanews.sc/"
+        "Cricfy Live": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/01d9a0cb-902a-4045-bc6c-7672230a7cfd/master.m3u8|referer=http://fawanews.sc/",
+        "Low": "http://193.47.62.44/hls/EAEAEAAAAAA.m3u8|referer=http://fawanews.sc/"
       },
       "streams": [
         {
@@ -387,8 +396,15 @@
           "tokenApi": null
         },
         {
+          "name": "Cricfy Live",
+          "link": "https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/01d9a0cb-902a-4045-bc6c-7672230a7cfd/master.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
+          "tokenApi": null
+        },
+        {
           "name": "Low",
-          "link": "http://193.47.62.50/hls/KYYY.m3u8|referer=http://fawanews.sc/",
+          "link": "http://193.47.62.44/hls/EAEAEAAAAAA.m3u8|referer=http://fawanews.sc/",
           "scheme": 0,
           "api": null,
           "tokenApi": null
@@ -547,7 +563,7 @@
       "title": "Sports Match",
       "synopsis": "Cricket | Sports Match",
       "status": "LIVE",
-      "time": "06:45:00",
+      "time": "10:45:00",
       "cover_image": "",
       "match_url": "https://ott-lb.nettv.com.np/npl/live_match/index.mpd",
       "is_free": false,
@@ -762,22 +778,22 @@
       "status": "LIVE",
       "time": "14:00:00",
       "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bzxlubr5do/out/v1/5e11cf9c4c574bdead34d2fd73b2bc91/cenc.mpd",
+      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sxig280kfu/out/v1/1d42bf15f0d74aa68535deefc79f9086/cenc.mpd",
       "is_free": false,
       "stream_url": {
-        "PRIME VIDEO - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bzxlubr5do/out/v1/5e11cf9c4c574bdead34d2fd73b2bc91/cenc.mpd",
+        "PRIME VIDEO - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sxig280kfu/out/v1/1d42bf15f0d74aa68535deefc79f9086/cenc.mpd",
         "HD QUALITY": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
-        "SonyLiv (ENG)": "https://sonyeventsglobal.akamaized.net/hls/live/2094590/Footlive0511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793929721~acl=/*~id=58691011212085315827252594448288~hmac=c0946a9d7103ce7a7b1b6000296c89081cea71ef18e015ca9eecc0c01f4989c7",
-        "SonyLiv (HIN)": "https://sonyeventsglobal.akamaized.net/hls/live/2105079/Footlive0511/HIN/std_lrh-800300010.m3u8?hdnea=exp=1793929721~acl=/*~id=58691011212085315827252594448288~hmac=c0946a9d7103ce7a7b1b6000296c89081cea71ef18e015ca9eecc0c01f4989c7",
-        "Cricfy Live": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
+        "SonyLiv (ENG)": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/footlive0611/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794015370~acl=/*~id=63239560851756008134643733974673~hmac=097084a19a875dbcb1d5f9b3533cb7aec644c40f0ae4d7a01059692041e72c8b",
+        "SonyLiv (HIN)": "https://sonyeventsglobal.akamaized.net/hls/live/2120303/footlive0611/HIN/std_lrh-800300010.m3u8?hdnea=exp=1794015370~acl=/*~id=63239560851756008134643733974673~hmac=097084a19a875dbcb1d5f9b3533cb7aec644c40f0ae4d7a01059692041e72c8b",
+        "Cricfy Live": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
         "Low": "http://193.47.62.55/hls/RHHHAAAAAQ.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc"
       },
       "streams": [
         {
           "name": "PRIME VIDEO - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bzxlubr5do/out/v1/5e11cf9c4c574bdead34d2fd73b2bc91/cenc.mpd",
+          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sxig280kfu/out/v1/1d42bf15f0d74aa68535deefc79f9086/cenc.mpd",
           "scheme": 0,
-          "api": "0018708b148a535ce471118814221bf8:9b44705ad89f7b3e91ccaa9b2f2a2b0f",
+          "api": "1cf4f357d5b189fc905c8c256e4ca8c6:de885c6da99744114d0b9569e8d37343",
           "tokenApi": null
         },
         {
@@ -789,21 +805,21 @@
         },
         {
           "name": "SonyLiv (ENG)",
-          "link": "https://sonyeventsglobal.akamaized.net/hls/live/2094590/Footlive0511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793929721~acl=/*~id=58691011212085315827252594448288~hmac=c0946a9d7103ce7a7b1b6000296c89081cea71ef18e015ca9eecc0c01f4989c7",
+          "link": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/footlive0611/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794015370~acl=/*~id=63239560851756008134643733974673~hmac=097084a19a875dbcb1d5f9b3533cb7aec644c40f0ae4d7a01059692041e72c8b",
           "scheme": 0,
           "api": null,
           "tokenApi": null
         },
         {
           "name": "SonyLiv (HIN)",
-          "link": "https://sonyeventsglobal.akamaized.net/hls/live/2105079/Footlive0511/HIN/std_lrh-800300010.m3u8?hdnea=exp=1793929721~acl=/*~id=58691011212085315827252594448288~hmac=c0946a9d7103ce7a7b1b6000296c89081cea71ef18e015ca9eecc0c01f4989c7",
+          "link": "https://sonyeventsglobal.akamaized.net/hls/live/2120303/footlive0611/HIN/std_lrh-800300010.m3u8?hdnea=exp=1794015370~acl=/*~id=63239560851756008134643733974673~hmac=097084a19a875dbcb1d5f9b3533cb7aec644c40f0ae4d7a01059692041e72c8b",
           "scheme": 0,
           "api": null,
           "tokenApi": null
         },
         {
           "name": "Cricfy Live",
-          "link": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/",
+          "link": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/",
           "scheme": 0,
           "api": null,
           "tokenApi": null
@@ -868,163 +884,6 @@
           "scheme": 0,
           "api": null,
           "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Cricket | Sports Match",
-      "status": "LIVE",
-      "time": "05:00:00",
-      "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/quzxcdfmpz/out/v1/9e6286a4302b4f4eb0815473ae87ba8a/cenc.mpd",
-      "is_free": false,
-      "stream_url": {
-        "WILLOW - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/quzxcdfmpz/out/v1/9e6286a4302b4f4eb0815473ae87ba8a/cenc.mpd",
-        "SonyLiv PRIME - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fhmymymkrb/out/v1/63a3f37439d848cf828763d9a3104a61/cenc.mpd",
-        "WILLOW ALT - AQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/quzxcdfmpz/out/v1/9e6286a4302b4f4eb0815473ae87ba8a/cenc.mpd",
-        "SonyLiv (Asia)": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6ab21ad3e778a9d0372ec3387a1f521d-1793853003444"
-      },
-      "streams": [
-        {
-          "name": "WILLOW - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/quzxcdfmpz/out/v1/9e6286a4302b4f4eb0815473ae87ba8a/cenc.mpd",
-          "scheme": 0,
-          "api": "1dcfabc6b441908d78cc7106e30e906f:8e086929f79491b9a2076d0d04eb7317",
-          "tokenApi": null
-        },
-        {
-          "name": "SonyLiv PRIME - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fhmymymkrb/out/v1/63a3f37439d848cf828763d9a3104a61/cenc.mpd",
-          "scheme": 0,
-          "api": "894a711509fd4cd9f746368eb6c5fd38:d77f5b857e3e1f1d53900ed6d586cb78",
-          "tokenApi": null
-        },
-        {
-          "name": "WILLOW ALT - AQ",
-          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/quzxcdfmpz/out/v1/9e6286a4302b4f4eb0815473ae87ba8a/cenc.mpd",
-          "scheme": 0,
-          "api": "1dcfabc6b441908d78cc7106e30e906f:8e086929f79491b9a2076d0d04eb7317",
-          "tokenApi": null
-        },
-        {
-          "name": "SonyLiv (Asia)",
-          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6ab21ad3e778a9d0372ec3387a1f521d-1793853003444",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Cricket | Sports Match",
-      "status": "LIVE",
-      "time": "05:00:00",
-      "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/q4skycp0em/out/v1/ff0967ee82ad427abee362dc40a4f60f/cenc.mpd",
-      "is_free": false,
-      "stream_url": {
-        "WILLOW  - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/q4skycp0em/out/v1/ff0967ee82ad427abee362dc40a4f60f/cenc.mpd",
-        "SonyLiv PRIME - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/evcwvvskwy/out/v1/646f7a7c35594dd4947ff7c030d20c39/cenc.mpd",
-        "WILLOW ALT - AQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/q4skycp0em/out/v1/ff0967ee82ad427abee362dc40a4f60f/cenc.mpd",
-        "SonyLiv (Asia)": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6ab21ad3e778a9d0372ec3387a1f521d-1793853003444"
-      },
-      "streams": [
-        {
-          "name": "WILLOW  - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/q4skycp0em/out/v1/ff0967ee82ad427abee362dc40a4f60f/cenc.mpd",
-          "scheme": 0,
-          "api": "5d52529b6ff19eca2315013244513b68:ba5c7dfad287aab538463d9da6811a8c",
-          "tokenApi": null
-        },
-        {
-          "name": "SonyLiv PRIME - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/evcwvvskwy/out/v1/646f7a7c35594dd4947ff7c030d20c39/cenc.mpd",
-          "scheme": 0,
-          "api": "01e7554c8d5b1fb6c77f214754f37fde:cc17f51040f551dcbf45dea424c80fa3",
-          "tokenApi": null
-        },
-        {
-          "name": "WILLOW ALT - AQ",
-          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/q4skycp0em/out/v1/ff0967ee82ad427abee362dc40a4f60f/cenc.mpd",
-          "scheme": 0,
-          "api": "5d52529b6ff19eca2315013244513b68:ba5c7dfad287aab538463d9da6811a8c",
-          "tokenApi": null
-        },
-        {
-          "name": "SonyLiv (Asia)",
-          "link": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6ab21ad3e778a9d0372ec3387a1f521d-1793853003444",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Cricket | Sports Match",
-      "status": "LIVE",
-      "time": "08:10:00",
-      "cover_image": "",
-      "match_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vyjgbcddti/out/v1/afd9c25f5179456fb3caf61ccbde2652/cenc.mpd",
-      "is_free": false,
-      "stream_url": {
-        "WILLOW - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vyjgbcddti/out/v1/afd9c25f5179456fb3caf61ccbde2652/cenc.mpd",
-        "WILLOW ALT - AQ": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vyjgbcddti/out/v1/afd9c25f5179456fb3caf61ccbde2652/cenc.mpd",
-        "SK CRICKET FHD": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-        "TAPMAD": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8"
-      },
-      "streams": [
-        {
-          "name": "WILLOW - AQ",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vyjgbcddti/out/v1/afd9c25f5179456fb3caf61ccbde2652/cenc.mpd",
-          "scheme": 0,
-          "api": "2fcc4db0b53bea0a25def717c67cfe57:71ba2e8f5ea6cd6ad995206b300f051a",
-          "tokenApi": null
-        },
-        {
-          "name": "WILLOW ALT - AQ",
-          "link": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vyjgbcddti/out/v1/afd9c25f5179456fb3caf61ccbde2652/cenc.mpd",
-          "scheme": 0,
-          "api": "2fcc4db0b53bea0a25def717c67cfe57:71ba2e8f5ea6cd6ad995206b300f051a",
-          "tokenApi": null
-        },
-        {
-          "name": "SK CRICKET FHD",
-          "link": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        },
-        {
-          "name": "TAPMAD",
-          "link": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
-          "scheme": 0,
-          "api": null,
-          "tokenApi": null
-        }
-      ]
-    },
-    {
-      "match_id": "",
-      "title": "Sports Match",
-      "synopsis": "Cricket | Sports Match",
-      "status": "LIVE",
-      "time": "08:10:00",
-      "cover_image": "",
-      "match_url": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
-      "is_free": false,
-      "stream_url": {
-        "Link 1": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
-      },
-      "streams": [
-        {
-          "name": "Link 1",
-          "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
         }
       ]
     },
@@ -1736,7 +1595,7 @@
       "title": "Sports Match",
       "synopsis": "Tennis | Sports Match",
       "status": "LIVE",
-      "time": "10:00:00",
+      "time": "13:00:00",
       "cover_image": "",
       "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
       "is_free": false,
@@ -1744,7 +1603,8 @@
         "beIN ENGLISH - AQ": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd",
         "SK TOP EVENT - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
         "SK TOP EVENT ALT - AQ": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ymojggb3li/out/v1/4e528b82e63f499c886b3a34e89eaf9b/cenc.mpd",
-        "TENNIS 2 - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd"
+        "TENNIS 2 - AQ": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
+        "Hong Kong": "http://193.47.62.50/hls/BUUU.m3u8|referer=http://fawanews.sc/"
       },
       "streams": [
         {
@@ -1773,6 +1633,13 @@
           "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd",
           "scheme": 0,
           "api": "59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a",
+          "tokenApi": null
+        },
+        {
+          "name": "Hong Kong",
+          "link": "http://193.47.62.50/hls/BUUU.m3u8|referer=http://fawanews.sc/",
+          "scheme": 0,
+          "api": null,
           "tokenApi": null
         }
       ]
@@ -2002,6 +1869,23 @@
         {
           "name": "Link 1",
           "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8"
+        }
+      ]
+    },
+    {
+      "match_id": "",
+      "title": "Sports Match",
+      "synopsis": "Cricket | Sports Match",
+      "status": "LIVE",
+      "time": "04:30:00",
+      "cover_image": "",
+      "match_url": "",
+      "is_free": false,
+      "stream_url": {},
+      "streams": [
+        {
+          "name": "Link 1",
+          "link": null
         }
       ]
     }

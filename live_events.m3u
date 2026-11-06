@@ -3,9 +3,9 @@
 # Developer      : MD ANAMUL HOQUE
 # Telegram       : https://t.me/ireentv
 # Website        : https://anamul.pages.dev
-# Channels Amount: 67
-# Live Count     : 67
-# Last Update    : 10:08 PM 06-11-2026 BST
+# Channels Amount: 64
+# Live Count     : 64
+# Last Update    : 10:15 PM 06-11-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -90,6 +90,11 @@ https://chatgpt.hereisman.net/playlist/57392/load-playlist.m3u8?|Referer=https:/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
 https://tedesco.formaturamaxi.com.br/f1.m3u8|Referer=http://fawanews.sc/
+#EXTINF:-1 tvg-name="Sports Match (MotoGP Qatar)" tvg-logo="" group-title="live_events",Sports Match (MotoGP Qatar)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://gooz.aapmains.net/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://gooz.aapmains.net/
+https://chatgpt.hereisman.net/playlist/59363/load-playlist.m3u8?|Referer=https://gooz.aapmains.net/
 #EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
 #EXTVLCOPT:http-referrer=http://fawanews.sc/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
@@ -151,11 +156,16 @@ https://admin2.formaturamaxi.com.br/f1.m3u8
 https://bl.rutube.ru/livestream/d11d0145804d4321a677aacb62984de8/index.m3u8?s=k9d3abxTJHkJWs65bDRXjg&e=1791806247&scheme=https|User-Agent=Mozilla
 #EXTINF:-1 tvg-name="Sports Match (SportCast)" tvg-logo="" group-title="live_events",Sports Match (SportCast)
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/58464152-0ce6-4e18-a3c1-393ba5669a09/master.m3u8
+#EXTINF:-1 tvg-name="Sports Match (Cricfy Live)" tvg-logo="" group-title="live_events",Sports Match (Cricfy Live)
+#EXTVLCOPT:http-referrer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
+https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/01d9a0cb-902a-4045-bc6c-7672230a7cfd/master.m3u8|Referer=http://fawanews.sc/
 #EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
 #EXTVLCOPT:http-referrer=http://fawanews.sc/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
-http://193.47.62.50/hls/KYYY.m3u8|Referer=http://fawanews.sc/
+http://193.47.62.44/hls/EAEAEAAAAAA.m3u8|Referer=http://fawanews.sc/
 #EXTINF:-1 tvg-name="Sports Match (WWE LIVE FHD)" tvg-logo="" group-title="live_events",Sports Match (WWE LIVE FHD)
 https://jellyfin.fromthyheart.site/dailymotion/live/playlist/1.m3u8
 #EXTINF:-1 tvg-name="Sports Match (Cricfy TV+ HD)" tvg-logo="" group-title="live_events",Sports Match (Cricfy TV+ HD)
@@ -245,21 +255,21 @@ https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=http
 #EXTINF:-1 tvg-name="Sports Match (PRIME VIDEO - AQ)" tvg-logo="" group-title="live_events",Sports Match (PRIME VIDEO - AQ)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bzxlubr5do/out/v1/5e11cf9c4c574bdead34d2fd73b2bc91/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sxig280kfu/out/v1/1d42bf15f0d74aa68535deefc79f9086/cenc.mpd
 #EXTINF:-1 tvg-name="Sports Match (HD QUALITY)" tvg-logo="" group-title="live_events",Sports Match (HD QUALITY)
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://xlz.domainkqt.cc/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xlz.domainkqt.cc/
 https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/
 #EXTINF:-1 tvg-name="Sports Match (SonyLiv (ENG))" tvg-logo="" group-title="live_events",Sports Match (SonyLiv (ENG))
-https://sonyeventsglobal.akamaized.net/hls/live/2094590/Footlive0511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793929721~acl=/*~id=58691011212085315827252594448288~hmac=c0946a9d7103ce7a7b1b6000296c89081cea71ef18e015ca9eecc0c01f4989c7
+https://sonyeventsglobal.akamaized.net/hls/live/2120301/footlive0611/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794015370~acl=/*~id=63239560851756008134643733974673~hmac=097084a19a875dbcb1d5f9b3533cb7aec644c40f0ae4d7a01059692041e72c8b
 #EXTINF:-1 tvg-name="Sports Match (SonyLiv (HIN))" tvg-logo="" group-title="live_events",Sports Match (SonyLiv (HIN))
-https://sonyeventsglobal.akamaized.net/hls/live/2105079/Footlive0511/HIN/std_lrh-800300010.m3u8?hdnea=exp=1793929721~acl=/*~id=58691011212085315827252594448288~hmac=c0946a9d7103ce7a7b1b6000296c89081cea71ef18e015ca9eecc0c01f4989c7
+https://sonyeventsglobal.akamaized.net/hls/live/2120303/footlive0611/HIN/std_lrh-800300010.m3u8?hdnea=exp=1794015370~acl=/*~id=63239560851756008134643733974673~hmac=097084a19a875dbcb1d5f9b3533cb7aec644c40f0ae4d7a01059692041e72c8b
 #EXTINF:-1 tvg-name="Sports Match (Cricfy Live)" tvg-logo="" group-title="live_events",Sports Match (Cricfy Live)
 #EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://xlz.domainkqt.cc/
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xlz.domainkqt.cc/
-https://live2.jorvakstreamcache.com/live/channel4.m3u8?|Referer=https://xlz.domainkqt.cc/
+https://live2.jorvakstreamcache.com/live/channel7.m3u8?|Referer=https://xlz.domainkqt.cc/
 #EXTINF:-1 tvg-name="Sports Match (Low)" tvg-logo="" group-title="live_events",Sports Match (Low)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
@@ -291,59 +301,6 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamso
 #KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 https://dai-fancode.pages.dev/mumbai/4249771_english_hls_2fcd66b57713925_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
-#EXTINF:-1 tvg-name="Sports Match (WILLOW - AQ)" tvg-logo="" group-title="live_events",Sports Match (WILLOW - AQ)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/quzxcdfmpz/out/v1/9e6286a4302b4f4eb0815473ae87ba8a/cenc.mpd
-#EXTINF:-1 tvg-name="Sports Match (SonyLiv PRIME - AQ)" tvg-logo="" group-title="live_events",Sports Match (SonyLiv PRIME - AQ)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fhmymymkrb/out/v1/63a3f37439d848cf828763d9a3104a61/cenc.mpd
-#EXTINF:-1 tvg-name="Sports Match (WILLOW ALT - AQ)" tvg-logo="" group-title="live_events",Sports Match (WILLOW ALT - AQ)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/quzxcdfmpz/out/v1/9e6286a4302b4f4eb0815473ae87ba8a/cenc.mpd
-#EXTINF:-1 tvg-name="Sports Match (SonyLiv (Asia))" tvg-logo="" group-title="live_events",Sports Match (SonyLiv (Asia))
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6ab21ad3e778a9d0372ec3387a1f521d-1793853003444
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6ab21ad3e778a9d0372ec3387a1f521d-1793853003444
-https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6ab21ad3e778a9d0372ec3387a1f521d-1793853003444
-#EXTINF:-1 tvg-name="Sports Match (WILLOW  - AQ)" tvg-logo="" group-title="live_events",Sports Match (WILLOW  - AQ)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/q4skycp0em/out/v1/ff0967ee82ad427abee362dc40a4f60f/cenc.mpd
-#EXTINF:-1 tvg-name="Sports Match (SonyLiv PRIME - AQ)" tvg-logo="" group-title="live_events",Sports Match (SonyLiv PRIME - AQ)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/evcwvvskwy/out/v1/646f7a7c35594dd4947ff7c030d20c39/cenc.mpd
-#EXTINF:-1 tvg-name="Sports Match (WILLOW ALT - AQ)" tvg-logo="" group-title="live_events",Sports Match (WILLOW ALT - AQ)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/q4skycp0em/out/v1/ff0967ee82ad427abee362dc40a4f60f/cenc.mpd
-#EXTINF:-1 tvg-name="Sports Match (SonyLiv (Asia))" tvg-logo="" group-title="live_events",Sports Match (SonyLiv (Asia))
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
-#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6ab21ad3e778a9d0372ec3387a1f521d-1793853003444
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6ab21ad3e778a9d0372ec3387a1f521d-1793853003444
-https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=6ab21ad3e778a9d0372ec3387a1f521d-1793853003444
-#EXTINF:-1 tvg-name="Sports Match (WILLOW - AQ)" tvg-logo="" group-title="live_events",Sports Match (WILLOW - AQ)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vyjgbcddti/out/v1/afd9c25f5179456fb3caf61ccbde2652/cenc.mpd
-#EXTINF:-1 tvg-name="Sports Match (WILLOW ALT - AQ)" tvg-logo="" group-title="live_events",Sports Match (WILLOW ALT - AQ)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vyjgbcddti/out/v1/afd9c25f5179456fb3caf61ccbde2652/cenc.mpd
-#EXTINF:-1 tvg-name="Sports Match (SK CRICKET FHD)" tvg-logo="" group-title="live_events",Sports Match (SK CRICKET FHD)
-#EXTVLCOPT:http-user-agent=Mozilla
-#KODIPROP:inputstream.adaptive.manifest_headers=User-Agent=Mozilla
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla
-https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|User-Agent=Mozilla
-#EXTINF:-1 tvg-name="Sports Match (TAPMAD)" tvg-logo="" group-title="live_events",Sports Match (TAPMAD)
-https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8
-#EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
-http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
@@ -434,6 +391,11 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ymojggb3li/
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd
+#EXTINF:-1 tvg-name="Sports Match (Hong Kong)" tvg-logo="" group-title="live_events",Sports Match (Hong Kong)
+#EXTVLCOPT:http-referrer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://fawanews.sc/
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://fawanews.sc/
+http://193.47.62.50/hls/BUUU.m3u8|Referer=http://fawanews.sc/
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
 http://cricfy-tv.net/promo/cricfy-promo.m3u8
 #EXTINF:-1 tvg-name="Sports Match" tvg-logo="" group-title="live_events",Sports Match
