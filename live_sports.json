@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 81,
   "live_count": 81,
-  "last_update": "02:05 AM 08-11-2026 BST",
+  "last_update": "02:16 AM 08-11-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -50,9 +50,9 @@
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/2115751976109563904/8xS96H15_400x400.jpg",
       "group": "Live Events",
-      "url": "https://www.rtmpcdn.com/live/036c9920-2c6d-42c4-825a-1d36bfdae7d6.m3u8",
-      "stream_url": "https://www.rtmpcdn.com/live/036c9920-2c6d-42c4-825a-1d36bfdae7d6.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Valencia%20vs%20Real%20Madrid%20---%20CH%202.html"
+      "url": "https://spl.tiyucdn.com/matchlive/ls2075521_30fps.m3u8",
+      "stream_url": "https://spl.tiyucdn.com/matchlive/ls2075521_30fps.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Valencia%20vs%20Real%20Madrid%20---%20CH%2022.html"
     },
     {
       "chno": 3,
@@ -328,6 +328,23 @@
     },
     {
       "chno": 19,
+      "name": "[MMA Fighting --:--] [LIVE] MMA Cage Warriors 212 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "MMA Fighting --:--",
+      "event": "MMA Cage Warriors 212",
+      "match_time_bd": "",
+      "source_time_gmt1": "MMA Fighting --:--",
+      "league": "MMA Fighting --:--",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/2033556565949571072/eWsw95pz_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.50/hls/ACCC.m3u8",
+      "stream_url": "http://193.47.62.50/hls/ACCC.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/MMA%20Cage%20Warriors%20212.html"
+    },
+    {
+      "chno": 20,
       "name": "[Boxing --:--] [LIVE] Boxing : Joshua Buatsi vs Willy Hutchinson (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -344,7 +361,7 @@
       "event_page": "http://www.fawanews.sc/Boxing_Joshua%20Buatsi%20vs%20Willy%20Hutchinson.html"
     },
     {
-      "chno": 20,
+      "chno": 21,
       "name": "[Boxing --:--] [LIVE] Boxing : Zuffa Boxing 12 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -361,7 +378,7 @@
       "event_page": "http://www.fawanews.sc/Boxing_Zuffa%20Boxing%2012.html"
     },
     {
-      "chno": 21,
+      "chno": 22,
       "name": "[WWE Wrestling --:--] [LIVE] WWE Crown Jewel (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -378,7 +395,7 @@
       "event_page": "http://www.fawanews.sc/WWE%20Crown%20Jewel.html"
     },
     {
-      "chno": 22,
+      "chno": 23,
       "name": "[MMA Fighting --:--] [LIVE] MMA Oktagon 97 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -395,7 +412,7 @@
       "event_page": "http://www.fawanews.sc/MMA%20Oktagon%2097.html"
     },
     {
-      "chno": 23,
+      "chno": 24,
       "name": "[Paraguay Copa] [02:00 AM BD] [LIVE] Guarani vs Olimpia Asuncion (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -412,7 +429,7 @@
       "event_page": "http://www.fawanews.sc/Guarani%20vs%20Olimpia%20Asuncion.html"
     },
     {
-      "chno": 24,
+      "chno": 25,
       "name": "[France Premiere Ligue Women] [02:00 AM BD] [LIVE] Saint-Malo W vs Marseille W (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -429,10 +446,10 @@
       "event_page": "http://www.fawanews.sc/Saint-Malo%20W%20vs%20Marseille%20W.html"
     },
     {
-      "chno": 25,
-      "name": "[Golf PGA] [02:00 AM BD] [LIVE] Golf World Wide Technology Championship (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
+      "chno": 26,
+      "name": "[Golf PGA] [02:00 AM BD] [UPCOMING] Golf World Wide Technology Championship (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
       "sport": "Golf PGA",
       "event": "Golf World Wide Technology Championship",
       "match_time_bd": "02:00 AM BD",
@@ -440,13 +457,13 @@
       "league": "Golf PGA",
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1749466889376473090/4nPDWTqB_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.55/hls/oooo.m3u8",
-      "stream_url": "http://193.47.62.55/hls/oooo.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Golf%20World%20Wide%20Technology%20Championship.html",
       "event_page": "http://www.fawanews.sc/Golf%20World%20Wide%20Technology%20Championship.html"
     },
     {
-      "chno": 26,
+      "chno": 27,
       "name": "[CFL Canadian Football] [02:00 AM BD] [UPCOMING] Montreal Alouettes vs Winnipeg Blue Bombers (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -456,14 +473,14 @@
       "source_time_gmt1": "21:00",
       "league": "CFL Canadian Football",
       "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1619895559334273028/PHKS_mjX_400x400.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/1e/CFL_2016_logo.svg",
       "group": "Upcoming Events",
       "url": null,
       "stream_url": "http://www.fawanews.sc/Montreal%20Alouettes%20vs%20Winnipeg%20Blue%20Bombers.html",
       "event_page": "http://www.fawanews.sc/Montreal%20Alouettes%20vs%20Winnipeg%20Blue%20Bombers.html"
     },
     {
-      "chno": 27,
+      "chno": 28,
       "name": "[Belgium Pro League] [01:45 AM BD] [UPCOMING] RAAL La Louviere vs Cercle Brugge (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -480,7 +497,7 @@
       "event_page": "http://www.fawanews.sc/RAAL%20La%20Louviere%20vs%20Cercle%20Brugge.html"
     },
     {
-      "chno": 28,
+      "chno": 29,
       "name": "[Belgium Pro League] [01:45 AM BD] [UPCOMING] Royal Antwerp vs Lommel (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -497,7 +514,7 @@
       "event_page": "http://www.fawanews.sc/Royal%20Antwerp%20vs%20Lommel.html"
     },
     {
-      "chno": 29,
+      "chno": 30,
       "name": "[German 2 Bundesliga] [01:30 AM BD] [UPCOMING] Hertha Berlin vs Wolfsburg (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -514,7 +531,7 @@
       "event_page": "http://www.fawanews.sc/Hertha%20Berlin%20vs%20Wolfsburg.html"
     },
     {
-      "chno": 30,
+      "chno": 31,
       "name": "[Switzerland Super League] [01:30 AM BD] [UPCOMING] Grasshoppers vs Lausanne (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -531,7 +548,7 @@
       "event_page": "http://www.fawanews.sc/Grasshoppers%20vs%20Lausanne.html"
     },
     {
-      "chno": 31,
+      "chno": 32,
       "name": "[NCAA American Football] [01:30 AM BD] [UPCOMING] Appalachian State vs Georgia State Panthers (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -548,7 +565,7 @@
       "event_page": "http://www.fawanews.sc/Appalachian%20State%20vs%20Georgia%20State%20Panthers.html"
     },
     {
-      "chno": 32,
+      "chno": 33,
       "name": "[Poland Ekstraklasa] [01:15 AM BD] [UPCOMING] Widzew Lodz vs Pogon Szczecin (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -565,7 +582,7 @@
       "event_page": "http://www.fawanews.sc/Widzew%20Lodz%20vs%20Pogon%20Szczecin.html"
     },
     {
-      "chno": 33,
+      "chno": 34,
       "name": "[Brazil Serie B] [01:10 AM BD] [UPCOMING] Novorizontino vs Fortaleza (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -582,7 +599,7 @@
       "event_page": "http://www.fawanews.sc/Novorizontino%20vs%20Fortaleza.html"
     },
     {
-      "chno": 34,
+      "chno": 35,
       "name": "[Brazil Serie B] [01:00 AM BD] [UPCOMING] Avai vs Sao Bernardo (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -599,7 +616,7 @@
       "event_page": "http://www.fawanews.sc/Avai%20vs%20Sao%20Bernardo.html"
     },
     {
-      "chno": 35,
+      "chno": 36,
       "name": "[Bolivia Division Profesional] [01:00 AM BD] [UPCOMING] GV San Jose vs Real Oruro (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -616,7 +633,7 @@
       "event_page": "http://www.fawanews.sc/GV%20San%20Jose%20vs%20Real%20Oruro.html"
     },
     {
-      "chno": 36,
+      "chno": 37,
       "name": "[Colombia Primera B] [01:00 AM BD] [UPCOMING] Tigres vs Quindio (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -633,7 +650,7 @@
       "event_page": "http://www.fawanews.sc/Tigres%20vs%20Quindio.html"
     },
     {
-      "chno": 37,
+      "chno": 38,
       "name": "[Ligue 2 France] [01:00 AM BD] [UPCOMING] St Etienne vs Laval (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -650,7 +667,7 @@
       "event_page": "http://www.fawanews.sc/St%20Etienne%20vs%20Laval.html"
     },
     {
-      "chno": 38,
+      "chno": 39,
       "name": "[France Ligue 2] [01:00 AM BD] [UPCOMING] Pau FC vs Nantes (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -667,7 +684,7 @@
       "event_page": "http://www.fawanews.sc/Pau%20FC%20vs%20Nantes.html"
     },
     {
-      "chno": 39,
+      "chno": 40,
       "name": "[Ecuador Liga Pro] [01:00 AM BD] [UPCOMING] Libertad vs Emelec (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -684,7 +701,7 @@
       "event_page": "http://www.fawanews.sc/Libertad%20vs%20Emelec.html"
     },
     {
-      "chno": 40,
+      "chno": 41,
       "name": "[Women U17 World Cup] [12:30 AM BD] [UPCOMING] Japan U17 W vs Nigeria U17 W (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -701,7 +718,7 @@
       "event_page": "http://www.fawanews.sc/Japan%20U17%20W%20vs%20Nigeria%20U17%20W.html"
     },
     {
-      "chno": 41,
+      "chno": 42,
       "name": "[Austria Bundesliga] [12:30 AM BD] [UPCOMING] Ried vs LASK (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -718,7 +735,7 @@
       "event_page": "http://www.fawanews.sc/Ried%20vs%20LASK.html"
     },
     {
-      "chno": 42,
+      "chno": 43,
       "name": "[Italy Serie B] [12:30 AM BD] [UPCOMING] Benevento vs Avellino (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -735,7 +752,7 @@
       "event_page": "http://www.fawanews.sc/Benevento%20vs%20Avellino.html"
     },
     {
-      "chno": 43,
+      "chno": 44,
       "name": "[Romania Superliga] [12:30 AM BD] [UPCOMING] FCSB vs Corvinul (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -752,7 +769,7 @@
       "event_page": "http://www.fawanews.sc/FCSB%20vs%20Corvinul.html"
     },
     {
-      "chno": 44,
+      "chno": 45,
       "name": "[NCAA American Football] [12:00 AM BD] [UPCOMING] Kansas State vs Oklahoma State (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -769,7 +786,7 @@
       "event_page": "http://www.fawanews.sc/Kansas%20State%20vs%20Oklahoma%20State.html"
     },
     {
-      "chno": 45,
+      "chno": 46,
       "name": "[NCAA American Football] [12:00 AM BD] [UPCOMING] Coastal Carolina vs Old Dominion (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -786,7 +803,7 @@
       "event_page": "http://www.fawanews.sc/Coastal%20Carolina%20vs%20Old%20Dominion.html"
     },
     {
-      "chno": 46,
+      "chno": 47,
       "name": "[Canada Premier League] [12:00 AM BD] [UPCOMING] Forge vs Atl Ottawa (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -803,7 +820,7 @@
       "event_page": "http://www.fawanews.sc/Forge%20vs%20Atl%20Ottawa.html"
     },
     {
-      "chno": 47,
+      "chno": 48,
       "name": "[NHL Hockey] [12:00 AM BD] [UPCOMING] Nashville Predators vs St Louis Blues (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -820,7 +837,7 @@
       "event_page": "http://www.fawanews.sc/Nashville%20Predators%20vs%20St%20Louis%20Blues.html"
     },
     {
-      "chno": 48,
+      "chno": 49,
       "name": "[NCAA American Football] [11:45 PM BD] [UPCOMING] Auburn vs Arkansas (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -837,7 +854,7 @@
       "event_page": "http://www.fawanews.sc/Auburn%20vs%20Arkansas.html"
     },
     {
-      "chno": 49,
+      "chno": 50,
       "name": "[NCAA American Football] [11:30 PM BD] [UPCOMING] Purdue vs Maryland (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -854,7 +871,7 @@
       "event_page": "http://www.fawanews.sc/Purdue%20vs%20Maryland.html"
     },
     {
-      "chno": 50,
+      "chno": 51,
       "name": "[NCAA American Football] [11:30 PM BD] [UPCOMING] North Carolina State vs Duke (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -871,7 +888,7 @@
       "event_page": "http://www.fawanews.sc/North%20Carolina%20State%20vs%20Duke.html"
     },
     {
-      "chno": 51,
+      "chno": 52,
       "name": "[NHL Hockey] [11:30 PM BD] [UPCOMING] Washington Capitals vs Florida Panthers (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -886,23 +903,6 @@
       "url": null,
       "stream_url": "http://www.fawanews.sc/Washington%20Capitals%20vs%20Florida%20Panthers.html",
       "event_page": "http://www.fawanews.sc/Washington%20Capitals%20vs%20Florida%20Panthers.html"
-    },
-    {
-      "chno": 52,
-      "name": "[MMA Fighting --:--] [UPCOMING] MMA Cage Warriors 212 (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "MMA Fighting --:--",
-      "event": "MMA Cage Warriors 212",
-      "match_time_bd": "",
-      "source_time_gmt1": "MMA Fighting --:--",
-      "league": "MMA Fighting --:--",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2033556565949571072/eWsw95pz_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/MMA%20Cage%20Warriors%20212.html",
-      "event_page": "http://www.fawanews.sc/MMA%20Cage%20Warriors%20212.html"
     },
     {
       "chno": 53,
