@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 102,
   "live_count": 102,
-  "last_update": "04:46 AM 08-11-2026 BST",
+  "last_update": "04:51 AM 08-11-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -50,9 +50,9 @@
       "id": "Live.Event.us",
       "logo": "https://pbs.twimg.com/profile_images/1835773190385328128/4fVrF1UI_400x400.jpg",
       "group": "Live Events",
-      "url": "https://admin2.formaturamaxi.com.br/abbiecadabrii.m3u8",
-      "stream_url": "https://admin2.formaturamaxi.com.br/abbiecadabrii.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/UFC_Cortes-Acosta%20vs%20Walker%20---%20CH%202.html"
+      "url": "https://temp.formaturamaxi.com.br/ufc.m3u8",
+      "stream_url": "https://temp.formaturamaxi.com.br/ufc.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/UFC_Cortes-Acosta%20vs%20Walker%20---%20CH%2022.html"
     },
     {
       "chno": 3,
@@ -141,23 +141,6 @@
     },
     {
       "chno": 8,
-      "name": "[MMA Fighting --:--] [LIVE] MMA Cage Warriors 212 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "MMA Fighting --:--",
-      "event": "MMA Cage Warriors 212",
-      "match_time_bd": "",
-      "source_time_gmt1": "MMA Fighting --:--",
-      "league": "MMA Fighting --:--",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2033556565949571072/eWsw95pz_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.50/hls/ACCC.m3u8",
-      "stream_url": "http://193.47.62.50/hls/ACCC.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/MMA%20Cage%20Warriors%20212.html"
-    },
-    {
-      "chno": 9,
       "name": "[Boxing --:--] [LIVE] Boxing : Zuffa Boxing 12 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -174,21 +157,38 @@
       "event_page": "http://www.fawanews.sc/Boxing_Zuffa%20Boxing%2012.html"
     },
     {
-      "chno": 10,
-      "name": "[MMA Fighting --:--] [LIVE] MMA Oktagon 97 (FAWA)",
+      "chno": 9,
+      "name": "[NCAA American Football] [05:15 AM BD] [LIVE] Tennessee vs Kentucky (FAWA)",
       "status": "LIVE",
       "is_live": true,
-      "sport": "MMA Fighting --:--",
-      "event": "MMA Oktagon 97",
-      "match_time_bd": "",
-      "source_time_gmt1": "MMA Fighting --:--",
-      "league": "MMA Fighting --:--",
+      "sport": "NCAA American Football",
+      "event": "Tennessee vs Kentucky",
+      "match_time_bd": "05:15 AM BD",
+      "source_time_gmt1": "00:15",
+      "league": "NCAA American Football",
       "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/1933644695852216320/wQhK_eGO_400x400.jpg",
+      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
       "group": "Live Events",
-      "url": "http://193.47.62.50/hls/ACCCA.m3u8",
-      "stream_url": "http://193.47.62.50/hls/ACCCA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/MMA%20Oktagon%2097.html"
+      "url": "http://193.47.62.44/hls/KTTTA.m3u8",
+      "stream_url": "http://193.47.62.44/hls/KTTTA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Tennessee%20vs%20Kentucky.html"
+    },
+    {
+      "chno": 10,
+      "name": "[NCAA American Football] [05:00 AM BD] [LIVE] Colorado State Rams vs Boise State (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "NCAA American Football",
+      "event": "Colorado State Rams vs Boise State",
+      "match_time_bd": "05:00 AM BD",
+      "source_time_gmt1": "00:00",
+      "league": "NCAA American Football",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg",
+      "group": "Live Events",
+      "url": "http://193.47.62.44/hls/KTTT.m3u8",
+      "stream_url": "http://193.47.62.44/hls/KTTT.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Colorado%20State%20Rams%20vs%20Boise%20State.html"
     },
     {
       "chno": 11,
