@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 84,
   "live_count": 84,
-  "last_update": "08:02 AM 08-11-2026 BST",
+  "last_update": "08:06 AM 08-11-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -56,11 +56,11 @@
     },
     {
       "chno": 3,
-      "name": "[NBA Basketball] [08:00 AM BD] [LIVE] Phoenix Suns vs Houston Rockets (FAWA)",
+      "name": "[NBA Basketball] [08:00 AM BD] [LIVE] Phoenix Suns vs Houston Rockets --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
       "sport": "NBA Basketball",
-      "event": "Phoenix Suns vs Houston Rockets",
+      "event": "Phoenix Suns vs Houston Rockets --- CH 1",
       "match_time_bd": "08:00 AM BD",
       "source_time_gmt1": "03:00",
       "league": "NBA Basketball",
@@ -73,11 +73,28 @@
     },
     {
       "chno": 4,
-      "name": "[NBA Basketball] [07:30 AM BD] [LIVE] Golden State Warriors vs Orlando Magic (FAWA)",
+      "name": "[NBA Basketball] [08:00 AM BD] [LIVE] Phoenix Suns vs Houston Rockets --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
       "sport": "NBA Basketball",
-      "event": "Golden State Warriors vs Orlando Magic",
+      "event": "Phoenix Suns vs Houston Rockets --- CH 2",
+      "match_time_bd": "08:00 AM BD",
+      "source_time_gmt1": "03:00",
+      "league": "NBA Basketball",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/2116445297094324224/76uN7Y6d_400x400.jpg",
+      "group": "Live Events",
+      "url": "https://www.rtmpcdn.com/live/1b487f61-d3e6-4740-8d0c-6c45f9e36a5e.m3u8",
+      "stream_url": "https://www.rtmpcdn.com/live/1b487f61-d3e6-4740-8d0c-6c45f9e36a5e.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Phoenix%20Suns%20vs%20Houston%20Rockets%20---%20CH%202.html"
+    },
+    {
+      "chno": 5,
+      "name": "[NBA Basketball] [07:30 AM BD] [LIVE] Golden State Warriors vs Orlando Magic --- CH 1 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "NBA Basketball",
+      "event": "Golden State Warriors vs Orlando Magic --- CH 1",
       "match_time_bd": "07:30 AM BD",
       "source_time_gmt1": "02:30",
       "league": "NBA Basketball",
@@ -89,7 +106,24 @@
       "event_page": "http://www.fawanews.sc/Golden%20State%20Warriors%20vs%20Orlando%20Magic.html"
     },
     {
-      "chno": 5,
+      "chno": 6,
+      "name": "[NBA Basketball] [07:30 AM BD] [LIVE] Golden State Warriors vs Orlando Magic --- CH 2 (FAWA)",
+      "status": "LIVE",
+      "is_live": true,
+      "sport": "NBA Basketball",
+      "event": "Golden State Warriors vs Orlando Magic --- CH 2",
+      "match_time_bd": "07:30 AM BD",
+      "source_time_gmt1": "02:30",
+      "league": "NBA Basketball",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/2116445297094324224/76uN7Y6d_400x400.jpg",
+      "group": "Live Events",
+      "url": "https://www.rtmpcdn.com/live/b2d96fd8-cc56-4d5b-a735-6b1c65584af5.m3u8",
+      "stream_url": "https://www.rtmpcdn.com/live/b2d96fd8-cc56-4d5b-a735-6b1c65584af5.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
+      "event_page": "http://www.fawanews.sc/Golden%20State%20Warriors%20vs%20Orlando%20Magic%20---%20CH%202.html"
+    },
+    {
+      "chno": 7,
       "name": "[NBA Basketball] [07:00 AM BD] [LIVE] Oklahoma City Thunder vss Washington Wizards --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -106,7 +140,7 @@
       "event_page": "http://www.fawanews.sc/Oklahoma%20City%20Thunder%20vss%20Washington%20Wizards.html"
     },
     {
-      "chno": 6,
+      "chno": 8,
       "name": "[NBA Basketball] [07:00 AM BD] [LIVE] Oklahoma City Thunder vss Washington Wizards --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -123,7 +157,7 @@
       "event_page": "http://www.fawanews.sc/Oklahoma%20City%20Thunder%20vss%20Washington%20Wizards%20---%20CH%202.html"
     },
     {
-      "chno": 7,
+      "chno": 9,
       "name": "[NBA Basketball] [07:00 AM BD] [LIVE] Cleveland Cavaliers vs New York Knicks --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -140,7 +174,7 @@
       "event_page": "http://www.fawanews.sc/Cleveland%20Cavaliers%20vs%20New%20York%20Knicks.html"
     },
     {
-      "chno": 8,
+      "chno": 10,
       "name": "[NBA Basketball] [07:00 AM BD] [LIVE] Cleveland Cavaliers vs New York Knicks --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -157,7 +191,7 @@
       "event_page": "http://www.fawanews.sc/Cleveland%20Cavaliers%20vs%20New%20York%20Knicks%20---%20CH%202.html"
     },
     {
-      "chno": 9,
+      "chno": 11,
       "name": "[NBA Basketball] [06:30 AM BD] [LIVE] Atlanta Hawks vs Brooklyn Nets --- CH 1 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -174,7 +208,7 @@
       "event_page": "http://www.fawanews.sc/Atlanta%20Hawks%20vs%20Brooklyn%20Nets.html"
     },
     {
-      "chno": 10,
+      "chno": 12,
       "name": "[NBA Basketball] [06:30 AM BD] [LIVE] Atlanta Hawks vs Brooklyn Nets --- CH 2 (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -189,40 +223,6 @@
       "url": "https://www.rtmpcdn.com/live/67e5017e-0750-408f-aefb-02f4f987340f.m3u8",
       "stream_url": "https://www.rtmpcdn.com/live/67e5017e-0750-408f-aefb-02f4f987340f.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/Atlanta%20Hawks%20vs%20Brooklyn%20Nets%20---%20CH%202.html"
-    },
-    {
-      "chno": 11,
-      "name": "[NBA Basketball] [04:00 AM BD] [LIVE] Indiana Pacers vs Denver Nuggets --- CH 1 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "NBA Basketball",
-      "event": "Indiana Pacers vs Denver Nuggets --- CH 1",
-      "match_time_bd": "04:00 AM BD",
-      "source_time_gmt1": "23:00",
-      "league": "NBA Basketball",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2116445297094324224/76uN7Y6d_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.50/hls/Z999.m3u8",
-      "stream_url": "http://193.47.62.50/hls/Z999.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Indiana%20Pacers%20vs%20Denver%20Nuggets.html"
-    },
-    {
-      "chno": 12,
-      "name": "[NBA Basketball] [04:00 AM BD] [LIVE] Indiana Pacers vs Denver Nuggets --- CH 2 (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "NBA Basketball",
-      "event": "Indiana Pacers vs Denver Nuggets --- CH 2",
-      "match_time_bd": "04:00 AM BD",
-      "source_time_gmt1": "23:00",
-      "league": "NBA Basketball",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2116445297094324224/76uN7Y6d_400x400.jpg",
-      "group": "Live Events",
-      "url": "https://www.rtmpcdn.com/live/046efcc4-4a4a-4635-9c91-e34fa2358bbc.m3u8",
-      "stream_url": "https://www.rtmpcdn.com/live/046efcc4-4a4a-4635-9c91-e34fa2358bbc.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Indiana%20Pacers%20vs%20Denver%20Nuggets%20---%20CH%202.html"
     },
     {
       "chno": 13,
