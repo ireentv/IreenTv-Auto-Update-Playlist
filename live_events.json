@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 65,
   "live_count": 65,
-  "last_update": "07:06 AM 13-11-2026 BST",
+  "last_update": "07:16 AM 13-11-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -2053,10 +2053,19 @@
       "status": "LIVE",
       "time": "00:00:00",
       "cover_image": "",
-      "match_url": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttguqv2dus/out/v1/10e708fa029549e8807c7a35f4740adf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
       "is_free": false,
-      "stream_url": {},
+      "stream_url": {
+        "NBA FHD": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttguqv2dus/out/v1/10e708fa029549e8807c7a35f4740adf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+      },
       "streams": [
+        {
+          "name": "NBA FHD",
+          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttguqv2dus/out/v1/10e708fa029549e8807c7a35f4740adf/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+          "scheme": 0,
+          "api": "fa23a7c0d9c82f0c7b113506e202af8c:a883237ef30932b731f71aa59a0805c0",
+          "tokenApi": null
+        },
         {
           "name": "beIN SPORT 1",
           "link": null,
@@ -2074,13 +2083,13 @@
           }
         },
         {
-          "name": "EXTRA SPORT27",
+          "name": "CricFy Fast",
           "link": null,
           "scheme": 0,
           "api": null,
           "tokenApi": {
             "url": null,
-            "api": "https://104game.click/player/2/181",
+            "api": "https://taifood-blog.asia/embed/nba/2026-11-11/cle-ny",
             "type": "embed",
             "link_key": "playback_url",
             "default_string": "N8x7Y%m+6n",
@@ -2141,13 +2150,29 @@
       "stream_url": {},
       "streams": [
         {
-          "name": "Link 1",
+          "name": "CricFy Live",
           "link": null,
           "scheme": 0,
           "api": null,
           "tokenApi": {
             "url": null,
             "api": "https://104game.click/player/2/182",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "CricFy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://taifood-blog.asia/embed/nba/2026-11-11/cle-ny",
             "type": "embed",
             "link_key": "playback_url",
             "default_string": "N8x7Y%m+6n",
@@ -2256,13 +2281,29 @@
       "stream_url": {},
       "streams": [
         {
-          "name": "Link 1",
+          "name": "CricFy Fast",
           "link": null,
           "scheme": 0,
           "api": null,
           "tokenApi": {
             "url": null,
             "api": "https://104game.click/player/2/185",
+            "type": "embed",
+            "link_key": "playback_url",
+            "default_string": "N8x7Y%m+6n",
+            "request_type": "get",
+            "request_body_type": "text",
+            "ip_api": "https://api.ipify.org/"
+          }
+        },
+        {
+          "name": "CricFy HD",
+          "link": null,
+          "scheme": 0,
+          "api": null,
+          "tokenApi": {
+            "url": null,
+            "api": "https://taifood-blog.asia/embed/nhl/2026-11-11/uta-vgk",
             "type": "embed",
             "link_key": "playback_url",
             "default_string": "N8x7Y%m+6n",
@@ -2338,12 +2379,21 @@
       "status": "LIVE",
       "time": "01:00:00",
       "cover_image": "",
-      "match_url": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
       "is_free": false,
-      "stream_url": {},
+      "stream_url": {
+        "TSN HD": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd"
+      },
       "streams": [
         {
-          "name": "Link 1",
+          "name": "TSN HD",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+          "scheme": 0,
+          "api": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37",
+          "tokenApi": null
+        },
+        {
+          "name": "CricFy Live",
           "link": null,
           "scheme": 0,
           "api": null,
@@ -2365,12 +2415,21 @@
       "title": "Sports Match",
       "synopsis": "Hockey | Sports Match",
       "status": "LIVE",
-      "time": "00:00:00",
+      "time": "03:00:00",
       "cover_image": "",
-      "match_url": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
       "is_free": false,
-      "stream_url": {},
+      "stream_url": {
+        "TSN FHD": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd"
+      },
       "streams": [
+        {
+          "name": "TSN FHD",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+          "scheme": 0,
+          "api": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8",
+          "tokenApi": null
+        },
         {
           "name": "Link 1",
           "link": null,
@@ -2492,12 +2551,21 @@
       "status": "LIVE",
       "time": "00:00:00",
       "cover_image": "",
-      "match_url": "",
+      "match_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
       "is_free": false,
-      "stream_url": {},
+      "stream_url": {
+        "TSN FHD": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd"
+      },
       "streams": [
         {
-          "name": "Link 1",
+          "name": "TSN FHD",
+          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
+          "scheme": 0,
+          "api": "85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0",
+          "tokenApi": null
+        },
+        {
+          "name": "CricFy HD",
           "link": null,
           "scheme": 0,
           "api": null,
@@ -2521,10 +2589,19 @@
       "status": "LIVE",
       "time": "03:00:00",
       "cover_image": "",
-      "match_url": "",
+      "match_url": "https://dash2.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd",
       "is_free": false,
-      "stream_url": {},
+      "stream_url": {
+        "NOVA 1 FHD": "https://dash2.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd"
+      },
       "streams": [
+        {
+          "name": "NOVA 1 FHD",
+          "link": "https://dash2.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd",
+          "scheme": 0,
+          "api": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d",
+          "tokenApi": null
+        },
         {
           "name": "NHL",
           "link": null,
