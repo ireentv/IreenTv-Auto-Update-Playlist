@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 7
 # Live Count     : 7
-# Last Update    : 04:01 PM 17-11-2026 BST
+# Last Update    : 04:03 PM 17-11-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -106,6 +106,12 @@ https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/vpayuuzj
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=82ea980c6b72eb9d845d3bb239330c30:e205798bb1646f1e0ab0ee3459b084bf
 https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/vpayuuzjup/out/v1/bc0a550c2e694ee1ae017a247ab05e49/cenc.mpd
+#EXTINF:-1 tvg-name="Nov 17 - PTT Carvoeiro" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.943d9e01-f784-4cb8-8343-d3611c4aabd0/3/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Nov 17 - PTT Carvoeiro
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b0c4cd99f74b734e672c77cf0f30c12a:020b9405c49c71429f40b6c5a5014681
+https://live-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWIimAWpwcmltZXZpZGVvBBprD96qBhpq_BgqA2ZmYXN0bHkCeChmaWQ6MDFhMWU4YmUtNjYyMy03NjE3LThlNTktMTYzMGI3NTY4MTFiGQE4oQWhAngzL2F1dG8ybHh3aWEvb3V0L3YxLzY5YTY5YjUyZGNmZTRiNzZiMGM1NmUzNmFjNWVkNzBhWCAllZjUae2ohs-j23bt0r7OhJd9_vI8D84JUNssSJDqPw/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/auto2lxwia/out/v1/69a69b52dcfe4b76b0c56e36ac5ed70a/23ab0009-66fe-4225-ac32-3612c42c38ad-cenc.mpd
 #EXTINF:-1 tvg-name="Afghanistan vs Zimbabwe in UAE 2026 - 2nd Test - Afghanistan vs Zimbabwe (Fastly Server)" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.c946453d-7025-4e95-9564-d2a336954242/7/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/s-z/willowtv/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1724,885,117,117_kvebed36e78eaa0330f200bb6045a52aca_SX624_FMjpg_.jpeg" group-title="primevideo",Afghanistan vs Zimbabwe in UAE 2026 - 2nd Test - Afghanistan vs Zimbabwe (Fastly Server)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -130,9 +136,3 @@ https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qsiyy3pj
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f780c2f1d5a79df25cbf84c3100ae9db:147c4e675e69a128ed783faf67a5b72c
 https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qsiyy3pj1z/out/v1/18e7e922d8f44a768c404c3304bbf8ee/cenc.mpd
-#EXTINF:-1 tvg-name="Nov 17 - PTT Carvoeiro" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.943d9e01-f784-4cb8-8343-d3611c4aabd0/3/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Nov 17 - PTT Carvoeiro
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b0c4cd99f74b734e672c77cf0f30c12a:020b9405c49c71429f40b6c5a5014681
-https://live-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWIimAWpwcmltZXZpZGVvBBprD96qBhpq_BgqA2ZmYXN0bHkCeChmaWQ6MDFhMWU4YmUtNjYyMy03NjE3LThlNTktMTYzMGI3NTY4MTFiGQE4oQWhAngzL2F1dG8ybHh3aWEvb3V0L3YxLzY5YTY5YjUyZGNmZTRiNzZiMGM1NmUzNmFjNWVkNzBhWCAllZjUae2ohs-j23bt0r7OhJd9_vI8D84JUNssSJDqPw/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/auto2lxwia/out/v1/69a69b52dcfe4b76b0c56e36ac5ed70a/23ab0009-66fe-4225-ac32-3612c42c38ad-cenc.mpd
