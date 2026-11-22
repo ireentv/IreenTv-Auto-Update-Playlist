@@ -5,7 +5,7 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 9
 # Live Count     : 9
-# Last Update    : 11:34 PM 22-11-2026 BST
+# Last Update    : 11:37 PM 22-11-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
@@ -112,6 +112,12 @@ https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/g0tdsq9y
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=bc80c0b7f64185f59b3eb9129ea16f4d:625c429192608e209508a10c86780a7c
 https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/g0tdsq9yi2/out/v1/732ff57fc3cf49b791421213b7c9b211/cenc.mpd
+#EXTINF:-1 tvg-name="Nov 22 - PTT Miami" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.dd240d3b-21ce-4cf1-b764-7b41ab983fc9/3/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Nov 22 - PTT Miami
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2818291a94115ea94510233fd0d4f7f7:5eba58d36f54acdc00b89dfc7aa7b63d
+https://a197live-pv-ta-enf-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WIimAWpwcmltZXZpZGVvBBprFrx_BhprAvX_A2Zha2FtYWkCeChmaWQ6MDFhMjAzOTAtZWM4OC03NzljLTlmYWMtNjQ5M2RhMzE3ZTUzGQE4oQWhAngzL2ZwMHZqcG1jZ2ovb3V0L3YxL2IwZDdlZTM0OTU5NzQ0Y2M4MDc4MWRlODY3ZTFhYmIxWCAqvSz2ajBNaumJAcbHBItZYTYH2_kPWkBJKXYvZ887JA/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/fp0vjpmcgj/out/v1/b0d7ee34959744cc80781de867e1abb1/624ada4c-44d2-4e60-9abb-4b60214f362e-cenc.mpd
 #EXTINF:-1 tvg-name="Dubai Capitals vs. Abu Dhabi Knight Riders (Fastly Server)" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.1c67d64b-154e-4882-8d18-9a6e187d6aab/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg" group-title="primevideo",Dubai Capitals vs. Abu Dhabi Knight Riders (Fastly Server)
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -136,12 +142,6 @@ https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwep
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
 https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
-#EXTINF:-1 tvg-name="Nov 22 - PTT Miami" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.dd240d3b-21ce-4cf1-b764-7b41ab983fc9/3/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Nov 22 - PTT Miami
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=2818291a94115ea94510233fd0d4f7f7:5eba58d36f54acdc00b89dfc7aa7b63d
-https://a197live-pv-ta-enf-amazon.akamaized.net/$T$2D3RhEOhAQWhBFgkYWY3NDZlZjAtYzM0OC00MGM1LWFjN2UtYTVhZWIzNjhiNjA0WIimAWpwcmltZXZpZGVvBBprFrx_BhprAvX_A2Zha2FtYWkCeChmaWQ6MDFhMjAzOTAtZWM4OC03NzljLTlmYWMtNjQ5M2RhMzE3ZTUzGQE4oQWhAngzL2ZwMHZqcG1jZ2ovb3V0L3YxL2IwZDdlZTM0OTU5NzQ0Y2M4MDc4MWRlODY3ZTFhYmIxWCAqvSz2ajBNaumJAcbHBItZYTYH2_kPWkBJKXYvZ887JA/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/fp0vjpmcgj/out/v1/b0d7ee34959744cc80781de867e1abb1/624ada4c-44d2-4e60-9abb-4b60214f362e-cenc.mpd
 #EXTINF:-1 tvg-name="Nov 22 - PTT Carvoeiro" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.9246efc8-f773-4a78-a73f-9eb673e8a48f/5/BOXART-16X9/en-US._UR1920,1080_SX624_FMpng_.png" group-title="primevideo",Nov 22 - PTT Carvoeiro
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
