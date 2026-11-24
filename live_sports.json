@@ -5,7 +5,7 @@
   "website": "https://anamul.pages.dev",
   "channels_amount": 79,
   "live_count": 79,
-  "last_update": "01:04 AM 25-11-2026 BST",
+  "last_update": "01:08 AM 25-11-2026 BST",
   "events": [
     {
       "match_id": "ireentv_promo",
@@ -124,6 +124,23 @@
     },
     {
       "chno": 7,
+      "name": "[Scottish Premiership] [01:45 AM BD] [UPCOMING] Hibernian vs Dundee FC (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "Scottish Premiership",
+      "event": "Hibernian vs Dundee FC",
+      "match_time_bd": "01:45 AM BD",
+      "source_time_gmt1": "20:45",
+      "league": "Scottish Premiership",
+      "id": "Live.Event.us",
+      "logo": "https://upload.wikimedia.org/wikipedia/fr/c/cf/Scottish_Premiership.png",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Hibernian%20vs%20Dundee%20FC.html",
+      "event_page": "http://www.fawanews.sc/Hibernian%20vs%20Dundee%20FC.html"
+    },
+    {
+      "chno": 8,
       "name": "[English Championship] [02:00 AM BD] [LIVE] Wolves vs Derby County (FAWA)",
       "status": "LIVE",
       "is_live": true,
@@ -138,23 +155,6 @@
       "url": "http://193.47.62.41/hls/2JJJAAAAA.m3u8",
       "stream_url": "http://193.47.62.41/hls/2JJJAAAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
       "event_page": "http://www.fawanews.sc/Wolves%20vs%20Derby%20County.html"
-    },
-    {
-      "chno": 8,
-      "name": "[Basketball Euroleague] [02:00 AM BD] [LIVE] Barcelona vs Fenerbahce (FAWA)",
-      "status": "LIVE",
-      "is_live": true,
-      "sport": "Basketball Euroleague",
-      "event": "Barcelona vs Fenerbahce",
-      "match_time_bd": "02:00 AM BD",
-      "source_time_gmt1": "21:00",
-      "league": "Basketball Euroleague",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
-      "group": "Live Events",
-      "url": "http://193.47.62.41/hls/2JJJAAA.m3u8",
-      "stream_url": "http://193.47.62.41/hls/2JJJAAA.m3u8|referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0",
-      "event_page": "http://www.fawanews.sc/Barcelona%20vs%20Fenerbahce.html"
     },
     {
       "chno": 9,
@@ -396,40 +396,6 @@
     },
     {
       "chno": 23,
-      "name": "[Basketball Euroleague] [01:45 AM BD] [UPCOMING] Lyon-Villeurbanne vs Olimpia Milano (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Basketball Euroleague",
-      "event": "Lyon-Villeurbanne vs Olimpia Milano",
-      "match_time_bd": "01:45 AM BD",
-      "source_time_gmt1": "20:45",
-      "league": "Basketball Euroleague",
-      "id": "Live.Event.us",
-      "logo": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Lyon-Villeurbanne%20vs%20Olimpia%20Milano.html",
-      "event_page": "http://www.fawanews.sc/Lyon-Villeurbanne%20vs%20Olimpia%20Milano.html"
-    },
-    {
-      "chno": 24,
-      "name": "[Scottish Premiership] [01:45 AM BD] [UPCOMING] Hibernian vs Dundee FC (FAWA)",
-      "status": "UPCOMING",
-      "is_live": false,
-      "sport": "Scottish Premiership",
-      "event": "Hibernian vs Dundee FC",
-      "match_time_bd": "01:45 AM BD",
-      "source_time_gmt1": "20:45",
-      "league": "Scottish Premiership",
-      "id": "Live.Event.us",
-      "logo": "https://upload.wikimedia.org/wikipedia/fr/c/cf/Scottish_Premiership.png",
-      "group": "Upcoming Events",
-      "url": null,
-      "stream_url": "http://www.fawanews.sc/Hibernian%20vs%20Dundee%20FC.html",
-      "event_page": "http://www.fawanews.sc/Hibernian%20vs%20Dundee%20FC.html"
-    },
-    {
-      "chno": 25,
       "name": "[English National League] [01:45 AM BD] [UPCOMING] Scunthorpe vs Gateshead (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -446,7 +412,7 @@
       "event_page": "http://www.fawanews.sc/Scunthorpe%20vs%20Gateshead.html"
     },
     {
-      "chno": 26,
+      "chno": 24,
       "name": "[English National League] [01:45 AM BD] [UPCOMING] Hornchurch vs Sutton (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -463,7 +429,7 @@
       "event_page": "http://www.fawanews.sc/Hornchurch%20vs%20Sutton.html"
     },
     {
-      "chno": 27,
+      "chno": 25,
       "name": "[English National League] [01:45 AM BD] [UPCOMING] Forest Green vs Southend (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -480,7 +446,7 @@
       "event_page": "http://www.fawanews.sc/Forest%20Green%20vs%20Southend.html"
     },
     {
-      "chno": 28,
+      "chno": 26,
       "name": "[English National League] [01:45 AM BD] [UPCOMING] Eastleigh vs Yeovil (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -497,7 +463,7 @@
       "event_page": "http://www.fawanews.sc/Eastleigh%20vs%20Yeovil.html"
     },
     {
-      "chno": 29,
+      "chno": 27,
       "name": "[English National League] [01:45 AM BD] [UPCOMING] Carlisle vs Tamworth (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -514,7 +480,7 @@
       "event_page": "http://www.fawanews.sc/Carlisle%20vs%20Tamworth.html"
     },
     {
-      "chno": 30,
+      "chno": 28,
       "name": "[English National League] [01:45 AM BD] [UPCOMING] Boston Utd vs Barrow (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -531,7 +497,7 @@
       "event_page": "http://www.fawanews.sc/Boston%20Utd%20vs%20Barrow.html"
     },
     {
-      "chno": 31,
+      "chno": 29,
       "name": "[English National League] [01:45 AM BD] [UPCOMING] Altrincham vs Wealdstone (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -548,7 +514,7 @@
       "event_page": "http://www.fawanews.sc/Altrincham%20vs%20Wealdstone.html"
     },
     {
-      "chno": 32,
+      "chno": 30,
       "name": "[English National League] [01:45 AM BD] [UPCOMING] AFC Fylde vs FC Halifax (FAWA)",
       "status": "UPCOMING",
       "is_live": false,
@@ -563,6 +529,40 @@
       "url": null,
       "stream_url": "http://www.fawanews.sc/AFC%20Fylde%20vs%20FC%20Halifax.html",
       "event_page": "http://www.fawanews.sc/AFC%20Fylde%20vs%20FC%20Halifax.html"
+    },
+    {
+      "chno": 31,
+      "name": "[Basketball Euroleague] [02:00 AM BD] [UPCOMING] Barcelona vs Fenerbahce (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "Basketball Euroleague",
+      "event": "Barcelona vs Fenerbahce",
+      "match_time_bd": "02:00 AM BD",
+      "source_time_gmt1": "21:00",
+      "league": "Basketball Euroleague",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Barcelona%20vs%20Fenerbahce.html",
+      "event_page": "http://www.fawanews.sc/Barcelona%20vs%20Fenerbahce.html"
+    },
+    {
+      "chno": 32,
+      "name": "[Basketball Euroleague] [01:45 AM BD] [UPCOMING] Lyon-Villeurbanne vs Olimpia Milano (FAWA)",
+      "status": "UPCOMING",
+      "is_live": false,
+      "sport": "Basketball Euroleague",
+      "event": "Lyon-Villeurbanne vs Olimpia Milano",
+      "match_time_bd": "01:45 AM BD",
+      "source_time_gmt1": "20:45",
+      "league": "Basketball Euroleague",
+      "id": "Live.Event.us",
+      "logo": "https://pbs.twimg.com/profile_images/2018282038109810688/wNoYio2o_400x400.jpg",
+      "group": "Upcoming Events",
+      "url": null,
+      "stream_url": "http://www.fawanews.sc/Lyon-Villeurbanne%20vs%20Olimpia%20Milano.html",
+      "event_page": "http://www.fawanews.sc/Lyon-Villeurbanne%20vs%20Olimpia%20Milano.html"
     },
     {
       "chno": 33,
