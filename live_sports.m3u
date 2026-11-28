@@ -5,11 +5,16 @@
 # Website        : https://anamul.pages.dev
 # Channels Amount: 79
 # Live Count     : 79
-# Last Update    : 06:36 AM 28-11-2026 BST
+# Last Update    : 06:46 AM 28-11-2026 BST
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/XkDv6gpS/ireenTV.png" group-title="Bangla" tvg-name="IreenTV Promo",IreenTV Promo
 https://ireentvlive.pages.dev/promo/master.m3u8
 
+#EXTINF:-1 tvg-name="[MLS League] [07:00 AM BD] [LIVE] Columbus Crew vs Inter Miami (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1905305167571906561/uf8ZOlCD_400x400.jpg" group-title="live_sports",[MLS League] [07:00 AM BD] [LIVE] Columbus Crew vs Inter Miami (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.41/hls/WQWQWQ.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[NBA Basketball] [06:30 AM BD] [LIVE] Toronto Raptors vs Brooklyn Nets --- CH 1 (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/2116445297094324224/76uN7Y6d_400x400.jpg" group-title="live_sports",[NBA Basketball] [06:30 AM BD] [LIVE] Toronto Raptors vs Brooklyn Nets --- CH 1 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
@@ -25,7 +30,7 @@ https://www.rtmpcdn.com/live/752de28f-c538-4f32-b2cf-3f292fbdcf3e.m3u8|Referer=h
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 http://193.47.62.55/hls/J777.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
-#EXTINF:-1 tvg-name="[NBA Basketball] [06:30 AM BD] [LIVE] Indiana Pacers vs Philadelphia 76ers --- CH 2 --- CH 2 (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/2116445297094324224/76uN7Y6d_400x400.jpg" group-title="live_sports",[NBA Basketball] [06:30 AM BD] [LIVE] Indiana Pacers vs Philadelphia 76ers --- CH 2 --- CH 2 (FAWA)
+#EXTINF:-1 tvg-name="[NBA Basketball] [06:30 AM BD] [LIVE] Indiana Pacers vs Philadelphia 76ers --- CH 2 (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/2116445297094324224/76uN7Y6d_400x400.jpg" group-title="live_sports",[NBA Basketball] [06:30 AM BD] [LIVE] Indiana Pacers vs Philadelphia 76ers --- CH 2 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
@@ -105,21 +110,11 @@ http://193.47.62.41/hls/WQWQWQAA.m3u8|Referer=http://www.fawanews.sc/|origin=htt
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 http://193.47.62.41/hls/WQWQWQA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
-#EXTINF:-1 tvg-name="[MLS League] [07:00 AM BD] [LIVE] Columbus Crew vs Inter Miami (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1905305167571906561/uf8ZOlCD_400x400.jpg" group-title="live_sports",[MLS League] [07:00 AM BD] [LIVE] Columbus Crew vs Inter Miami (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
-http://193.47.62.41/hls/WQWQWQ.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[WWE Wrestling] [07:00 AM BD] [LIVE] WWE Friday Night Smackdown (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1383079031805972485/3sWoMX-R_400x400.jpg" group-title="live_sports",[WWE Wrestling] [07:00 AM BD] [LIVE] WWE Friday Night Smackdown (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 http://193.47.62.44/hls/MPMPMPAAA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
-#EXTINF:-1 tvg-name="[Golf PGA] [07:00 AM BD] [LIVE] Golf BMW Australian PGA Championship (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1749466889376473090/4nPDWTqB_400x400.jpg" group-title="live_sports",[Golf PGA] [07:00 AM BD] [LIVE] Golf BMW Australian PGA Championship (FAWA)
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
-#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
-http://193.47.62.41/hls/DEDEDEDEAA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #EXTINF:-1 tvg-name="[NHL Hockey] [07:00 AM BD] [LIVE] Edmonton Oilers vs Seattle Kraken (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/2116752375062872064/iFYL5_LV_400x400.jpg" group-title="live_sports",[NHL Hockey] [07:00 AM BD] [LIVE] Edmonton Oilers vs Seattle Kraken (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
@@ -130,3 +125,8 @@ https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/ca89ca
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
 http://193.47.62.44/hls/MPMPMPAA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#EXTINF:-1 tvg-name="[NCAA American Football] [06:30 AM BD] [LIVE] Texas A-M vs Texas (FAWA)" tvg-logo="https://pbs.twimg.com/profile_images/1425944292317704200/ST3crOq2_400x400.jpg" group-title="live_sports",[NCAA American Football] [06:30 AM BD] [LIVE] Texas A-M vs Texas (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.manifest_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
+http://193.47.62.44/hls/MPMPMPA.m3u8|Referer=http://www.fawanews.sc/|origin=http://www.fawanews.sc/|user-agent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A146.0)%20Gecko%2F20100101%20Firefox%2F146.0
